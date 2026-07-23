@@ -1,0 +1,17 @@
+french_les_miserables    tokens=558,417 V=28,798 b=1.285 c=28.2
+spanish_don_quixote      tokens=383,633 V=22,943 b=1.230 c=9.0
+russian_war_and_peace    tokens=462,808 V=51,733 b=1.059 c=4.9
+dutch_max_havelaar       tokens=125,378 V=13,772 b=1.074 c=1.4
+[1/12] spanish_don_quixote      rep2 s=   239.5 s/V=0.0104
+[2/12] spanish_don_quixote      rep0 s=   239.5 s/V=0.0104
+[3/12] dutch_max_havelaar       rep0 s=   131.8 s/V=0.0096
+[4/12] spanish_don_quixote      rep1 s=   239.5 s/V=0.0104
+[5/12] dutch_max_havelaar       rep1 s=   131.8 s/V=0.0096
+[6/12] dutch_max_havelaar       rep2 s=   131.8 s/V=0.0096
+[7/12] french_les_miserables    rep2 s=   333.0 s/V=0.0116
+[8/12] russian_war_and_peace    rep0 s=   501.2 s/V=0.0097
+[9/12] french_les_miserables    rep1 s=   333.0 s/V=0.0116
+[10/12] russian_war_and_peace    rep1 s=   501.2 s/V=0.0097
+[11/12] french_les_miserables    rep0 s=   333.0 s/V=0.0116
+[12/12] russian_war_and_peace    rep2 s=   501.2 s/V=0.0097
+summary written

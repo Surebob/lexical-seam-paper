@@ -4,50 +4,45 @@
 
 ¹Independent researcher; Nexus Computers LLC; Burbank, CA, USA
 
-**Draft v6.0 — 2026-07-22.** Supersedes v5.1. Every quantitative claim in this
-draft maps to a versioned CSV in the repository (`experiments/*/outputs/`,
-`docs/MANUSCRIPT_CLAIM_TO_CSV_MAP` to be regenerated for v6); provenance notes
-in Appendix A.
+**Draft v6.1 — 2026-07-23.** Supersedes v5.1. Every quantitative claim in this
+draft maps to a versioned CSV in the public repository (`experiments/*/outputs/`,
+index in `docs/MANUSCRIPT_v6_CLAIM_MAP.md`); provenance notes in Appendix A.
 
 ---
 
 ## Abstract
 
 The Zipf–Mandelbrot (ZM) law, f(r) ∝ (r+c)^(−b), has described word rank–frequency
-distributions for seventy years while leaving unexplained both its systematic apex
-residual and the behaviour of its parameters. We characterize all three. First, a
-deterministic, parameter-free symbolic search applied to single-ZM residuals across
-25 English corpora recovers a reproducible low-dimensional correction family;
-follow-up experiments show that the specific winning expression is a property of
-the scoring objective (it flips under free amplitude, head-weighted scoring, and
-weighted fitting), while the underlying residual — the *lexical seam* — is the
-invariant. Second, identity-aware experiments locate the seam: high-usage words
-alone follow ZM cleanly, the remaining lexicon alone does likewise, and the
-residual appears only when one curve is fit across both, with two non-linguistic
-controls (city populations; US surname frequencies) showing no seam. A smooth
-two-regime model absorbs the residual completely (post-fit search helps on 0/25
-corpora, versus 19/25 for the strongest single-regime alternative), selects an erf
-transition on 24/25 corpora under a falsification-checked gate comparison, and
-yields a new empirical regularity: the transition's rank-space width is a constant
-fraction of vocabulary, s ≈ 0.012·V (R² = 0.97), invariant from 16th-century drama
-to film dialogue and Wikipedia, and indifferent to corpus composition — forcibly
-concatenating up to fourteen single-author works leaves the constant unchanged
-(27 fits, s ∝ V^0.977, R² = 0.98), refuting a text-mixing origin for the seam. Third, we show ZM's shift parameter c is not a
-property of the text but of sampling depth: subsampling collapses c along
-predictable trajectories, unifying previously reported "regimes" into one ladder
-and exposing a size confound in cross-language comparisons (a matched-size natural
-experiment — *War and Peace* in Russian and in English translation — isolates a
-genuine morphological residual). A zero-truncated Poisson–lognormal mixture fitted
-only to a corpus's count histogram regenerates its fitted ZM parameters (exponent
-b: r = 0.94, median error 4%) and, fitted to a one-sixth fragment, predicts the
-full corpus out of sample (vocabulary to ~2%, b to ~0.3%, c to first
-approximation). Against 17,000 context-grounded word annotations, the statistical
-seam sits a factor ~3 deeper in rank than the closed-class grammatical boundary:
-the seam is a usage boundary, not a grammatical one. The framework contains Heaps'
-law as the measured dual (corr(β, 1/b) = 0.991) and supplies a practical
-four-parameter formula, λ-ZM, that outperforms both ZM and MOEZipf on 42 of 42
-corpora across 13 languages. We document eight retired intermediate claims,
-including three of our own headline candidates, with the audits that killed them.
+distributions for seventy years while leaving unexplained both its systematic
+apex residual and the behaviour of its parameters. We characterize both through
+a single object: the *lexical seam*, the boundary region where a small
+high-usage vocabulary meets the broad remainder of the lexicon. A
+parameter-free symbolic search shows the residual is reproducible on 25/25
+English corpora while its winning symbolic label is an artifact of the scoring
+objective; identity ablations and two non-linguistic controls locate the
+residual in the crossing of two word populations. A smooth two-regime model
+absorbs the residual completely (helpful post-fit corrections on 0/25 corpora,
+versus 19/25 for the strongest single-regime alternative) and yields a new
+empirical law: the transition's rank-space width is a constant fraction of
+vocabulary, **s ≈ 0.012·V** (R² = 0.97) — invariant across five centuries,
+four registers, and corpus composition (forced fourteen-work concatenation:
+s ∝ V^0.977, R² = 0.98), and universal across twelve languages once per-type
+sampling depth is matched: languages ride a single depth-approach curve
+(r = +0.93), with matched-depth medians 0.0122 against English's 0.0118. The
+estimator is calibrated against planted ground truth by parametric bootstrap
+(recovery ratio median 1.03, IQR [1.01, 1.06]). We further show that ZM's
+shift c measures sampling depth, not style — subsampling collapses c along
+predictable trajectories, and a translation-pair natural experiment (*War and
+Peace* in Russian and English) isolates the genuine morphological residual;
+that a five-parameter zero-truncated Poisson–lognormal mixture fitted only to
+the count histogram regenerates the fitted rank law (exponent b to 4%),
+predicts a full corpus from a one-sixth fragment (vocabulary to ~2%, b to
+~0.3%), and generates the width law itself at its prediction-selected basin;
+and, against 17,000 context-grounded annotations, that the seam is a usage
+boundary lying ~3× deeper in rank than the closed-class grammatical one. A
+one-term extension, λ-ZM, outperforms ZM and MOEZipf on 42/42 corpora in 13
+languages. Eight retired intermediate claims are documented with the audits
+that killed them.
 
 ---
 
@@ -98,8 +93,9 @@ remainder of the lexicon. Our contributions:
    the erf-gated model eliminates the residual structure that the strongest
    single-regime competitor leaves behind, and profile-likelihood measurement
    shows the transition's width in linear rank is a constant ≈1.2% of vocabulary
-   across five centuries and four registers of English (R² = 0.97), extending
-   at 0.7–1.0% to six additional languages.
+   — invariant across five centuries, four registers, and forced changes of
+   corpus composition, universal across twelve languages at matched sampling
+   depth, and measured by an estimator calibrated against planted ground truth.
 
 4. **ZM's shift parameter is sampling depth** (§3.4): subsampling any corpus
    collapses c along smooth trajectories reproduced by random thinning;
@@ -144,8 +140,13 @@ families (Russian, Mandarin, Arabic, Latin, French, Spanish, Dutch, Italian,
 Portuguese, German, Swedish, Polish, Finnish; Unicode word tokenization, jieba for
 Mandarin; 150k-token leading slices where longer), and one non-linguistic control
 in addition to the city-population dataset of earlier drafts: the US Census 2010
-surname frequency table (162,254 names). All raw sources, slice protocols, and
-exact tokenizers are versioned in the repository.
+surname frequency table (162,254 names). The cross-language width analysis of
+§3.3 adds a 29-corpus panel spanning eleven languages (up to three long texts
+per language, fetched from Project Gutenberg by catalog query with cached
+sources and provenance logs) plus within-language concatenations as depth
+amplifiers. All raw sources, slice protocols, and exact tokenizers are
+versioned in the repository, as are the runner scripts for every experiment
+referenced in §3.
 
 ### 2.2 Baseline fits and the residual coordinate
 
@@ -313,12 +314,14 @@ equivalently **s ≈ 0.012·V**: the seam occupies a constant ≈1.2% band of th
 vocabulary axis. Measured twice (indirectly at the k-profile optimum, and by
 direct s-profiling, which is sharp to better than grid resolution), the constant
 holds across the 25 classic corpora (0.0118), Brown (0.0122), WikiText (0.0120),
-and film dialogue (0.0121) — five centuries and four registers within ±3% — and
-extends, at somewhat smaller values (0.0068–0.0096), to interior fits for six
-additional languages. Three initial cross-language fits that violated the law
-proved to be optimizer escapes (gate-width and tail-width bounds pinned
-simultaneously) and re-fit cleanly under tightened bounds; the surname control
-fits a distinct constant (0.0266), as an unrelated system should.
+and film dialogue (0.0121) — five centuries and four registers within ±3%. (An
+early six-language check returned smaller interior values, 0.0068–0.0096; the
+cross-language analysis below shows these were sampling-depth artifacts, and
+that the constant is universal at matched depth.) Three initial cross-language
+fits that violated the law proved to be optimizer escapes (gate-width and
+tail-width bounds pinned simultaneously) and re-fit cleanly under tightened
+bounds; the surname control fits a distinct constant (0.0266), as an unrelated
+system should.
 
 We emphasize what kind of object equation (3) measures. Prior two-regime
 accounts parameterize a crossover *location* — a fixed finite core vocabulary
@@ -362,6 +365,52 @@ s ∝ V^0.977 with R² = 0.983 — forced aggregation adds points *on* the width
 law's line. Whatever text mixing does to the deep tail it studies, it neither
 creates nor moves the seam: the two objects live at different ranks, and only
 theirs is composition-relative.
+
+**Cross-language depth unification.** A 33-corpus multilingual extension (four
+deep corpora fit at full depth plus a 29-corpus panel spanning eleven
+languages fetched from Project Gutenberg) resolves the cross-language
+question: the width fraction correlates with per-type sampling depth
+(tokens-per-type) at r = +0.94, deep corpora (tokens/type ≥ 12) sit at median
+s/V = 0.0111 against English's 0.0118 at its greater depths, and the
+apparently "low" languages (Hungarian 0.0076, Finnish 0.0079) are precisely
+the morphologically rich ones whose token mass spreads over 2–3× more types,
+leaving each type under-sampled. The earlier shallow interior values
+(0.0068–0.0096) were depth artifacts. Two follow-ups close the case. First,
+within-corpus depth slicing (binomial thinning, the §3.4 protocol): sliced to
+matched per-type depths, English, French, Spanish, and Russian ride a single
+rising curve in (tokens-per-type, s/V) space — pooled correlation +0.93,
+within-depth cross-language agreement to ±0.0005, mean within-bin spread 0.37
+of the total spread — with detectable optimizer escapes (7/54 fits, all
+bound-pinned) excluded. Second, within-language concatenation to matched
+depth (a valid depth amplifier by the composition result above): the five
+languages reaching tokens-per-type ≥ 15 land at median s/V = 0.0122 against
+English's 0.0118, while the morphologically rich languages that cannot yet
+reach depth sit on the approach curve at their accessible depths (one
+flagged exception: the deep Spanish concatenation runs high, 0.0149,
+plausibly its four-century era mixture). The reading is a single universal
+depth function, still rising slowly at the greatest depths probed
+(tokens-per-type ≈ 30–40), whose value over the depth range typical of
+single-work corpora is the ≈1.2% constant of equation (3) — the width is
+governed by the same sampling-depth dial that §3.4 establishes for c,
+unifying the two sections under one mechanism.
+
+**Instrument calibration.** Because the width is the paper's headline
+quantity, the estimator was calibrated against ground truth by parametric
+bootstrap: taking each corpus's fitted model as the generating truth, Poisson-
+resampling its token counts, and refitting (75 refits). Recovery ratio
+s_hat/s_true: median 1.032, IQR [1.006, 1.062], with 21/25 corpora within
+[0.8, 1.25]; the exceptions are optimizer escapes to bound-pinned basins — a
+detectable failure mode, screened in the empirical pipeline by the
+profile-likelihood cross-checks of §3.3. A model-light envelope measurement
+(head-window and tail-window ZM extrapolations; the transition as the zone
+neither explains, over an 18-setting sensitivity grid) gives directional
+confirmation that the transition is a property of the curve rather than the
+fitter — language's zone is wider than that of matched single-regime
+multinomial twins on 16/25 corpora (median excess +0.011) — with the caveat
+that model-free width estimation is low-powered, partly because ranking a
+sample induces order-statistics structure even under a true single law. A
+first planted-seam calibration attempt using an out-of-regime synthetic grid
+failed and is preserved in the repository as a documented negative.
 
 ### 3.4 Mandelbrot's c is sampling depth
 
@@ -534,12 +583,14 @@ implementations, three scoring families, and 42 corpora.
 (b) The seam separates a small high-usage vocabulary from the broad lexicon; it
 requires only a usage-rate gap between populations; it is absent from
 non-linguistic Zipfian systems; and its rank-space width is a constant ≈1.2% of
-vocabulary across registers and centuries of English. The width is, to our
-knowledge, a new empirical object — prior two-regime accounts parameterize only
-a crossover location — and its proportional scaling with V is a new regularity
-that simulation shows every language-like growth account tested in fact obeys
-(§3.3): a shared invariant with a family-specific constant, on whose
-decaying-innovation value natural language sits.
+vocabulary — across registers and centuries of English, across forced changes
+of corpus composition, and across twelve languages once per-type sampling
+depth is matched, with the estimator calibrated against planted ground truth.
+The width is, to our knowledge, a new empirical object — prior two-regime
+accounts parameterize only a crossover location — and its proportional scaling
+with V is a regularity that simulation shows every language-like growth
+account tested in fact obeys (§3.3): a shared invariant with a family-specific
+constant, on whose decaying-innovation value natural language sits.
 
 (c) Mandelbrot's c is a sampling-depth dial, not a stylistic constant: its
 value, its collapse under subsampling, and the accompanying ladder of symbolic
@@ -681,8 +732,10 @@ comparisons ignore word-level autocorrelation. Annotation covers ten corpora
 (~17k types) with a single-corpus inter-annotator pilot. The latent mixture's
 identifiability limits are stated in §3.5 and bound every generative claim; the
 extrapolation experiments cover four corpora and one direction of protocol
-(binomial fragments). The s-law's cross-language values await matched-depth
-measurement at greater depths. The PMF/likelihood-space program of earlier
+(binomial fragments). The cross-language width panel spans eleven languages
+but tops out near tokens-per-type ≈ 19; the deepest sampling regimes
+(tokens/type > 25) remain unprobed outside English, and
+whitespace-unsegmented scripts (Mandarin, Arabic) are excluded throughout. The PMF/likelihood-space program of earlier
 drafts (Seam-Mandelbrot PMF, soft-k regularization, per-book anthology
 decomposition) is out of scope here and held for a companion paper, as is the
 neural-model line of §4.4.
@@ -693,9 +746,10 @@ A single structure — a seam between a small high-usage vocabulary and the broa
 lexicon, drawn by usage rather than grammar — accounts for the systematic
 residual of the Zipf–Mandelbrot law, fixes its formula with one term, explains
 its mysterious shift parameter as sampling depth, sets a new invariant (a
-transition width of ≈1.2% of vocabulary), and supports a generative model that
-predicts a corpus's rank law, vocabulary growth, and Heaps exponent from a
-fragment of its text. The claims survived two independent implementations, an
+transition width of ≈1.2% of vocabulary, universal across twelve languages at
+matched sampling depth and measured by a ground-truth-calibrated estimator),
+and supports a generative model that predicts a corpus's rank law, vocabulary
+growth, and Heaps exponent from a fragment of its text. The claims survived two independent implementations, an
 external adversarial audit, falsification-checked model comparisons, and eight
 self-inflicted retirements. What began as a curiosity in a fit's error term ends
 as a measurement of how language allocates its words.

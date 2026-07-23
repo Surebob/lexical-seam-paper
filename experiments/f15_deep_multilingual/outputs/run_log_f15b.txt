@@ -1,0 +1,104 @@
+language fr...
+  fr_pg13951             tokens=239,953 V=13,950 b=1.271
+  fr_pg14287             tokens=209,844 V=14,224 b=1.238
+  fr_pg25335             tokens=282,117 V=20,668 b=1.193
+language de...
+  de_pg40739             tokens=211,545 V=23,871 b=1.057
+  de_pg65662             tokens=159,570 V=24,345 b=0.923
+  de_pg69944             tokens=159,548 V=21,977 b=0.982
+language es...
+  es_pg2000              tokens=383,633 V=22,943 b=1.230
+  es_pg61851             tokens=177,773 V=14,582 b=1.181
+  es_pg78068             tokens=264,719 V=23,452 b=1.120
+language it...
+  it_pg26961             tokens=166,146 V=10,890 b=1.281
+  it_pg65391             tokens=444,080 V=25,423 b=1.301
+  it_pg78619             tokens=202,263 V=23,491 b=1.070
+language pt...
+  pt_pg31552             tokens=1,767,544 V=179,958 b=0.968
+  pt_pg40409             tokens=221,439 V=20,056 b=1.133
+  pt_pg62383             tokens=797,817 V=26,962 b=1.385
+language nl...
+  nl_pg22968             tokens=184,600 V=26,576 b=0.965
+  nl_pg23759             tokens=173,560 V=12,786 b=1.280
+  nl_pg28120             tokens=196,197 V=16,537 b=1.187
+language fi...
+  fi_pg67616             tokens=158,848 V=28,815 b=0.919
+  fi_pg69850             tokens=186,984 V=40,282 b=0.891
+  fi_pg70428             tokens=267,610 V=52,228 b=0.923
+language sv...
+  sv_pg13100             tokens=152,634 V=18,085 b=1.075
+  sv_pg2100              tokens=736,812 V=24,297 b=1.467
+  sv_pg57357             tokens=183,205 V=9,915 b=1.501
+language da...
+  da_pg2143              tokens=170,218 V=9,466 b=1.325
+  da_pg2144              tokens=494,964 V=20,924 b=1.417
+language hu...
+  [hu] kept pg41504 'Pet?fi S?ndor ?sszes k?ltem?nyei: Hazai ' (158,451 tokens)
+  hu_pg66903             tokens=217,243 V=37,754 b=0.870
+  hu_pg41504             tokens=158,451 V=31,555 b=0.865
+language pl...
+language el...
+  [el] kept pg33396 '? ???? ??? ???????' (156,937 tokens)
+  el_pg33396             tokens=156,937 V=25,868 b=0.892
+
+58 fits queued over 29 corpora
+[1/58] de_pg40739             rep0 s/V=0.0093
+[2/58] fr_pg14287             rep1 s/V=0.0111
+[3/58] fr_pg13951             rep1 s/V=0.0110
+[4/58] de_pg65662             rep1 s/V=0.0080
+[5/58] fr_pg13951             rep0 s/V=0.0110
+[6/58] de_pg69944             rep1 s/V=0.0090
+[7/58] fr_pg14287             rep0 s/V=0.0111
+[8/58] de_pg65662             rep0 s/V=0.0080
+[9/58] es_pg2000              rep1 s/V=0.0104
+[10/58] de_pg40739             rep1 s/V=0.0093
+[11/58] es_pg61851             rep0 s/V=0.0103
+[12/58] it_pg26961             rep0 s/V=0.0096
+[13/58] es_pg2000              rep0 s/V=0.0104
+[14/58] it_pg26961             rep1 s/V=0.0096
+[15/58] es_pg61851             rep1 s/V=0.0103
+[16/58] es_pg78068             rep0 s/V=0.0102
+[17/58] de_pg69944             rep0 s/V=0.0090
+[18/58] it_pg78619             rep1 s/V=0.0094
+[19/58] it_pg78619             rep0 s/V=0.0094
+[20/58] es_pg78068             rep1 s/V=0.0102
+[21/58] fr_pg25335             rep0 s/V=0.0109
+[22/58] pt_pg40409             rep0 s/V=0.0106
+[23/58] pt_pg40409             rep1 s/V=0.0108
+[24/58] nl_pg22968             rep0 s/V=0.0084
+[25/58] it_pg65391             rep1 s/V=0.0109
+[26/58] nl_pg22968             rep1 s/V=0.0084
+[27/58] fr_pg25335             rep1 s/V=0.0109
+[28/58] nl_pg23759             rep1 s/V=0.0115
+[29/58] nl_pg23759             rep0 s/V=0.0115
+[30/58] pt_pg62383             rep1 s/V=0.0121
+[31/58] fi_pg67616             rep0 s/V=0.0079
+[32/58] fi_pg67616             rep1 s/V=0.0079
+[33/58] fi_pg69850             rep0 s/V=0.0079
+[34/58] pt_pg62383             rep0 s/V=0.0121
+[35/58] nl_pg28120             rep0 s/V=0.0109
+[36/58] fi_pg69850             rep1 s/V=0.0079
+[37/58] nl_pg28120             rep1 s/V=0.0109
+[38/58] fi_pg70428             rep0 s/V=0.0081
+[39/58] sv_pg13100             rep1 s/V=0.0099
+[40/58] sv_pg13100             rep0 s/V=0.0099
+[41/58] it_pg65391             rep0 s/V=0.0109
+[42/58] da_pg2143              rep0 s/V=0.0117
+[43/58] fi_pg70428             rep1 s/V=0.0081
+[44/58] da_pg2143              rep1 s/V=0.0117
+[45/58] sv_pg57357             rep0 s/V=0.0116
+[46/58] hu_pg66903             rep0 s/V=0.0074
+[47/58] sv_pg57357             rep1 s/V=0.0116
+[48/58] hu_pg66903             rep1 s/V=0.0074
+[49/58] hu_pg41504             rep0 s/V=0.0077
+[50/58] el_pg33396             rep0 s/V=0.0082
+[51/58] hu_pg41504             rep1 s/V=0.0077
+[52/58] el_pg33396             rep1 s/V=0.0082
+[53/58] sv_pg2100              rep1 s/V=0.0121
+[54/58] sv_pg2100              rep0 s/V=0.0121
+[55/58] da_pg2144              rep1 s/V=0.0118
+[56/58] da_pg2144              rep0 s/V=0.0118
+[57/58] pt_pg31552             rep1 s/V=0.0090
+[58/58] pt_pg31552             rep0 s/V=0.0090
+summary written

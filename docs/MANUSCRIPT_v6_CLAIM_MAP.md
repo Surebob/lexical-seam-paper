@@ -33,6 +33,11 @@ canonical file. Paths relative to repo root. Bootstrap CIs: `docs/v6_bootstrap_c
 | composition split: single 0.0119 vs aggregate 0.0113, Welch p=0.19, boot CI [−0.0015,+0.0002] | computed from `f2_per_corpus.csv` (script in f12 README; classification list there) |
 | forced mixing m=1..14: s/V stays ~0.012, k ≪ N_avg | `experiments/f12_forced_mixing/outputs/f12_mixtures.csv`, `f12_summary.md` |
 | width = shared invariant: GA 0.0122, coreless Simon 0.0118, classic Simon 0.0101, surnames 0.0266 | `experiments/f14_ga_break/outputs/f14_ga_fits.csv`, `f14b_nulls.csv` |
+| cross-language: corr(depth, s/V)=+0.94; deep median 0.0111; 11 languages | `experiments/f15_deep_multilingual/outputs/f15_deep_fits.csv`, `f15b_panel.csv` |
+| calibration: bootstrap recovery median 1.032 IQR [1.006,1.062], 21/25 | `experiments/f16_nonparametric_width/outputs/f16d_bootstrap.csv` |
+| model-light envelope: language wider than twins 16/25, median +0.011 | `experiments/f16_nonparametric_width/outputs/f16_widths.csv` |
+| within-corpus depth walks: corr +0.93, collapse 0.37, 4 langs one curve | `experiments/f15_deep_multilingual/outputs/f15d_approach.csv` |
+| matched-depth concats: 5 langs tok/V>=15 median 0.0122 vs EN 0.0118 | `experiments/f15_deep_multilingual/outputs/f15c_concat.csv` |
 
 ## §3.4 — c is sampling depth
 | claim | source |

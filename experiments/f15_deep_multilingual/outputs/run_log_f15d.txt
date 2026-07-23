@@ -1,0 +1,62 @@
+en_shakespeare     T=988,670 V=24,458
+en_war_and_peace   T=583,368 V=17,445
+en_les_miserables  T=575,614 V=22,677
+fr_deep            T=1,299,501 V=43,612
+es_deep            T=1,218,979 V=42,937
+ru_deep            T=462,808 V=51,733
+54 fits queued
+[1/54] en_shakespeare     frac=0.2 tok/V=15.5 s/V=0.0109
+[2/54] en_shakespeare     frac=0.1 tok/V=10.6 s/V=0.0102
+[3/54] en_shakespeare     frac=0.2 tok/V=15.4 s/V=0.0110
+[4/54] en_shakespeare     frac=0.1 tok/V=10.6 s/V=5.2148
+[5/54] en_shakespeare     frac=0.4 tok/V=23.0 s/V=0.0116
+[6/54] en_war_and_peace   frac=0.1 tok/V=8.7 s/V=0.0094
+[7/54] en_war_and_peace   frac=0.1 tok/V=8.6 s/V=0.0096
+[8/54] en_war_and_peace   frac=0.2 tok/V=12.7 s/V=4.4084
+[9/54] en_war_and_peace   frac=0.2 tok/V=12.4 s/V=1.4223
+[10/54] en_war_and_peace   frac=0.4 tok/V=18.7 s/V=0.0119
+[11/54] en_shakespeare     frac=0.4 tok/V=23.0 s/V=0.0117
+[12/54] en_war_and_peace   frac=0.4 tok/V=18.6 s/V=0.0120
+[13/54] en_war_and_peace   frac=0.7 tok/V=26.5 s/V=0.0126
+[14/54] en_les_miserables  frac=0.1 tok/V=7.1 s/V=4.6679
+[15/54] en_war_and_peace   frac=0.7 tok/V=26.5 s/V=0.0126
+[16/54] en_war_and_peace   frac=1.0 tok/V=33.4 s/V=0.0130
+[17/54] en_les_miserables  frac=0.1 tok/V=7.2 s/V=4.7347
+[18/54] en_les_miserables  frac=0.2 tok/V=10.1 s/V=0.0107
+[19/54] en_shakespeare     frac=1.0 tok/V=40.4 s/V=0.0124
+[20/54] en_les_miserables  frac=0.2 tok/V=10.1 s/V=0.0106
+[21/54] en_les_miserables  frac=0.4 tok/V=14.9 s/V=0.0114
+[22/54] en_les_miserables  frac=0.4 tok/V=14.8 s/V=0.0114
+[23/54] fr_deep            frac=0.1 tok/V=8.5 s/V=0.0098
+[24/54] en_shakespeare     frac=0.7 tok/V=32.2 s/V=0.0121
+[25/54] fr_deep            frac=0.1 tok/V=8.5 s/V=0.0095
+[26/54] en_shakespeare     frac=0.7 tok/V=32.2 s/V=0.0122
+[27/54] fr_deep            frac=0.2 tok/V=11.9 s/V=0.0105
+[28/54] fr_deep            frac=0.2 tok/V=12.0 s/V=0.0107
+[29/54] fr_deep            frac=0.7 tok/V=24.0 s/V=0.0121
+[30/54] fr_deep            frac=0.4 tok/V=17.2 s/V=0.0114
+[31/54] en_les_miserables  frac=0.7 tok/V=20.4 s/V=0.0118
+[32/54] es_deep            frac=0.1 tok/V=8.0 s/V=0.0090
+[33/54] es_deep            frac=0.1 tok/V=8.1 s/V=0.0089
+[34/54] es_deep            frac=0.2 tok/V=11.1 s/V=0.0101
+[35/54] es_deep            frac=0.2 tok/V=11.0 s/V=0.0101
+[36/54] en_les_miserables  frac=0.7 tok/V=20.4 s/V=0.0119
+[37/54] en_les_miserables  frac=1.0 tok/V=25.4 s/V=0.0122
+[38/54] es_deep            frac=0.7 tok/V=22.2 s/V=0.0133
+[39/54] fr_deep            frac=0.4 tok/V=17.3 s/V=0.0114
+[40/54] es_deep            frac=1.0 tok/V=28.4 s/V=0.0150
+[41/54] ru_deep            frac=0.1 tok/V=3.6 s/V=3.1285
+[42/54] es_deep            frac=0.7 tok/V=22.2 s/V=0.0133
+[43/54] ru_deep            frac=0.2 tok/V=4.6 s/V=0.0076
+[44/54] ru_deep            frac=0.1 tok/V=3.6 s/V=3.2054
+[45/54] es_deep            frac=0.4 tok/V=15.9 s/V=0.0115
+[46/54] ru_deep            frac=0.2 tok/V=4.6 s/V=0.0075
+[47/54] es_deep            frac=0.4 tok/V=15.9 s/V=0.0116
+[48/54] ru_deep            frac=0.7 tok/V=7.6 s/V=0.0092
+[49/54] ru_deep            frac=0.4 tok/V=6.0 s/V=0.0085
+[50/54] fr_deep            frac=0.7 tok/V=24.0 s/V=0.0121
+[51/54] ru_deep            frac=0.4 tok/V=6.0 s/V=0.0085
+[52/54] ru_deep            frac=1.0 tok/V=8.9 s/V=0.0097
+[53/54] ru_deep            frac=0.7 tok/V=7.6 s/V=0.0092
+[54/54] fr_deep            frac=1.0 tok/V=29.8 s/V=0.0124
+summary written

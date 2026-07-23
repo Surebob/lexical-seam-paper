@@ -160,7 +160,7 @@ def main():
     title = lines[0].lstrip("# ").strip()
     out.append("\\title{" + prose(title) + "}")
     out.append("\\author{Grigori Karapetyan\\\\ \\small Independent researcher; Nexus Computers LLC; Burbank, CA, USA}")
-    out.append("\\date{Draft v6.0 --- July 22, 2026}")
+    out.append("\\date{Draft v6.1 --- July 23, 2026}")
     out.append("\\begin{document}\\maketitle")
     while i < len(lines) and not lines[i].startswith("## Abstract"):
         i += 1
