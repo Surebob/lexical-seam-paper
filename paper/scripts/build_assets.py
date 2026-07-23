@@ -140,6 +140,51 @@ ax.set_xlabel(r"$1/b$ (Zipf)"); ax.set_ylabel(r"Heaps exponent $\beta$")
 ax.set_title(f"Zipf–Heaps duality (r = {np.corrcoef(hb, 1/bb)[0,1]:.3f})", fontsize=9)
 save(fig, "fig6_heaps")
 
+# ---------- F7: family fingerprints (s vs V across systems) ----------
+mixrows = [r for r in csv.DictReader(open(E / "f12_forced_mixing" / "outputs" / "f12_mixtures.csv", encoding="utf-8")) if int(r["m"]) > 1]
+concat = list(csv.DictReader(open(E / "f15_deep_multilingual" / "outputs" / "f15c_concat.csv", encoding="utf-8")))
+ga = list(csv.DictReader(open(E / "f14_ga_break" / "outputs" / "f14_ga_fits.csv", encoding="utf-8")))
+nulls = list(csv.DictReader(open(E / "f14_ga_break" / "outputs" / "f14b_nulls.csv", encoding="utf-8")))
+simon_decay = [r for r in nulls if r["variant"] == "pure_simon_decay"]
+simon_classic = [r for r in nulls if r["variant"] == "classic_simon"]
+sur = panel["census_surnames"]
+BELT_V, BELT_S = 1_552_974, 25_749  # x1_asteroid_control/outputs/x1_summary.md
+
+fig, ax = plt.subplots(figsize=(5.2, 3.6))
+vv7 = np.geomspace(3000, 2_200_000, 60)
+ax.plot(vv7, 0.0118 * vv7, "--", color="gray", lw=1.2, zorder=1)
+ax.annotate(r"$s = 0.0118\,V$", (5.5e5, 0.0118 * 5.5e5), textcoords="offset points",
+            xytext=(2, -16), fontsize=8, color="gray")
+ax.plot(Ve, Se, "o", ms=3.5, color=C2, alpha=.8, label="25 classic English corpora", zorder=3)
+for key in ["brown", "wikitext_1M", "cornell_dialogs"]:
+    r = panel[key]
+    ax.plot(float(r["V"]), float(r["s"]), "s", ms=5, color=C1, zorder=3,
+            label="modern registers" if key == "brown" else None)
+ax.plot([float(r["V"]) for r in mixrows], [float(r["s"]) for r in mixrows], "D", ms=4,
+        mfc="none", mec=C2, label="forced mixtures $m=2$–$14$", zorder=3)
+deep7 = [r for r in concat if float(r["tok_per_V"]) >= 15]
+shal7 = [r for r in concat if float(r["tok_per_V"]) < 15]
+ax.plot([float(r["V"]) for r in deep7], [float(r["s"]) for r in deep7], "^", ms=6, color=C3,
+        label="languages at matched depth", zorder=3)
+ax.plot([float(r["V"]) for r in shal7], [float(r["s"]) for r in shal7], "^", ms=6, mfc="none",
+        mec=C3, label="languages below matched depth", zorder=3)
+sims7 = ga + simon_decay
+ax.plot([float(r["V"]) for r in sims7], [float(r["s"]) for r in sims7], "x", ms=4.5, color="#666666",
+        label="simulated decaying-innovation", zorder=2)
+ax.plot([float(r["V"]) for r in simon_classic], [float(r["s"]) for r in simon_classic], "+", ms=7,
+        color="#B8860B", label="simulated constant-innovation (0.0101)", zorder=2)
+ax.plot(float(sur["V"]), float(sur["s"]), "*", ms=10, color="#7A1F1F", zorder=4)
+ax.annotate("surnames\n$s/V = 0.0266$", (float(sur["V"]), float(sur["s"])), textcoords="offset points",
+            xytext=(9, 2), fontsize=7, color="#7A1F1F", ha="left")
+ax.plot(BELT_V, BELT_S, "p", ms=7, color="black", zorder=4)
+ax.annotate("asteroid belt\n$s/V = 0.0166$", (BELT_V, BELT_S), textcoords="offset points",
+            xytext=(-10, -4), fontsize=7, ha="right")
+ax.set_xscale("log"); ax.set_yscale("log")
+ax.set_xlabel("vocabulary / catalogue size $V$"); ax.set_ylabel("seam width $s$")
+ax.set_title("Family fingerprints: one law for language, parallel lines for others", fontsize=9)
+ax.legend(frameon=False, fontsize=6.5, loc="upper left")
+save(fig, "fig7_fingerprints")
+
 # ---------- Bootstrap CIs ----------
 def boot_ci(stat, n_items, reps=10000):
     vals = []
@@ -168,4 +213,4 @@ lines.append(f"- corr(b_pred, b_actual): point {np.corrcoef(bp,ba)[0,1]:.3f}, CI
 lo, hi = boot_ci(lambda i: float(np.corrcoef(hb[i], 1/bb[i])[0, 1]) if len(set(i)) > 2 else 0.99, len(hb))
 lines.append(f"- corr(Heaps β, 1/b): point {np.corrcoef(hb,1/bb)[0,1]:.3f}, CI [{lo:.3f}, {hi:.3f}]")
 (REPO / "docs" / "v6_bootstrap_cis.md").write_text("\n".join(lines), encoding="utf-8")
-print("\n".join(lines), flush=True)
+print("\n".join(lines).encode("ascii", "replace").decode(), flush=True)

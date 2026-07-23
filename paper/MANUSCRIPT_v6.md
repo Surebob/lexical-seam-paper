@@ -41,7 +41,7 @@ predicts a full corpus from a one-sixth fragment (vocabulary to ~2%, b to
 and, against 17,000 context-grounded annotations, that the seam is a usage
 boundary lying ~3× deeper in rank than the closed-class grammatical one. A
 one-term extension, λ-ZM, outperforms ZM and MOEZipf on 42/42 corpora in 13
-languages. Eight retired intermediate claims are documented with the audits
+languages by BIC and on 64/64 held-out fold-tests. Eight retired intermediate claims are documented with the audits
 that killed them.
 
 ---
@@ -334,7 +334,9 @@ constants yields s/V = 0.0112–0.0125 across V = 16k–88k, and a one-class
 variant with no core at all yields 0.0118 — the real-language value to three
 decimals. The constant is nonetheless family-specific, not an artifact of the
 fitting operator: constant-innovation (single-regime) growth fits a distinct
-stable constant (0.0101), and the surname system another (0.0266). The
+stable constant (0.0101), the surname system another (0.0266), and a
+1.55-million-object asteroid-size catalogue (MPCORB absolute magnitudes) a
+third (0.0166) — two-regime structure without language's width. The
 empirical content of equation (3) for language is therefore threefold: the
 width exists as a measurable object; it is invariant across registers,
 centuries, sizes, and compositions at 0.0118; and its value sits precisely on
@@ -564,7 +566,12 @@ BIC on 10/10 further corpora (Brown +14.1%, WikiText +9.9%, dialogue +5.8%;
 six additional languages +9.0–22.5%), and on the seven canonical non-English
 corpora it improves fit by 6.4–21.6% including the c ≈ 0 scripts (Mandarin
 +21.6%, Arabic +14.3%, Russian +12.9%). Lifetime record across every corpus
-tested in this project: 42/42. Interpretation is built in: by the identity of
+tested in this project: 42/42. The preference is generalization, not
+overfitting: splitting each corpus into two same-depth halves by binomial
+thinning, fitting on one half, and scoring the fitted curve on the other
+half's rank curve, λ-ZM improves held-out RMSE over both ZM and MOEZipf on
+64/64 fold-tests (50/50 English, median +8.5%; 14/14 non-English, median
++13.4%; worst single fold +2.1%). Interpretation is built in: by the identity of
 §3.1 the added term is a second shallow power-law component — λ-ZM is the
 two-population structure in its minimal parametric form. (On the surname
 control, λ-ZM also improves fit — as any extra parameter polishes an already
@@ -836,11 +843,13 @@ Every number above traces to a canonical CSV in the repository. Key mappings —
 §3.1: `experiments/1a_*/outputs`, `f1_fresh_reproduction`, `f9_legacy_reruns`
 (WLS), `f3` (head-weighted); §3.2: `2a`, `1b`, `f5a` (surnames), `f11` (2b
 deterministic); §3.3: `2c`, `3e`, `f2_k_profile_likelihood`, `f2b_s_profile`,
-`f5b`/`f5c`, `f12_forced_mixing` (composition); §3.4: `f6_c_sampling_depth`,
+`f5b`/`f5c`, `f12_forced_mixing` (composition), `f14`/`f14b` (simulated
+families), `f15`/`f15b`/`f15c`/`f15d` (cross-language depth), `f16d`
+(calibration); §3.4: `f6_c_sampling_depth`,
 `f8_matched_size_panel`, `f11`
-(classifier); §3.5: `f4d`, `f7_histogram_predicts_curve`, `f6b_heavy_tail_
-extrapolation`, `f4f`/`f4g` (identifiability), `f11` (Heaps); §3.6:
+(classifier); §3.5: `f4d`, `f7_histogram_predicts_curve`, `f6b`
+(extrapolation), `f4f`/`f4g` (identifiability), `f11` (Heaps); §3.6:
 `f10_gate_vs_labels`, `data/annotations`, `f9` (transfers); §3.7: `f1`, `f3`,
-`f5a`. Retired-claim experiments: §4.2 items map to `f2`, `f9`, `f4f`, `f4f`,
+`f3b` (held-out), `f5a`. Retired-claim experiments: §4.2 items map to `f2`, `f9`, `f4f`, `f4f`,
 `f4g`, `f10`, `f4d`+`f4f`, and the 2026-04 external audit respectively. A full
 v6 claim-to-CSV map will be regenerated before submission.

@@ -235,6 +235,9 @@ def main():
                     out.append("\\begin{figure}[t]\\centering\\includegraphics[width=%s\\linewidth]{%s}"
                                % (w, fname))
                     out.append("\\caption{" + cap + "}\\end{figure}")
+                    if "absorbs" in key.lower():
+                        out.append("\\begin{figure}[t]\\centering\\includegraphics[width=0.8\\linewidth]{fig7_fingerprints}")
+                        out.append("\\caption{Family fingerprints. Seam width $s$ against vocabulary or catalogue size $V$, log--log. On the language line $s=0.0118\\,V$: the 25 classic corpora, three modern registers, forced mixtures ($m=2$--$14$), five languages concatenated to matched sampling depth (the high triangle is the flagged Spanish era-mixture, 0.0149), and simulated decaying-innovation growth (Gerlach--Altmann with published constants, and its coreless one-class variant). Open triangles are languages measured below matched depth, falling short of the line as the depth function of \\S3.3--3.4 predicts. Constant-innovation growth (0.0101), the asteroid belt (0.0166), and US census surnames (0.0266) each fit their own stable constant: the width is a family fingerprint, not a single universal.}\\end{figure}")
                     if "generative" in key.lower():
                         for fname2, w2, cap2 in pending_extra:
                             out.append("\\begin{figure}[t]\\centering\\includegraphics[width=%s\\linewidth]{%s}"

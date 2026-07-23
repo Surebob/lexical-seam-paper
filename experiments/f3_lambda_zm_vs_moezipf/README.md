@@ -33,6 +33,21 @@ scoring-stable objects.
 | Spanish Don Quixote | 13,114 | 1.98 | 0.1917 | 8.6% |
 | Dutch Max Havelaar | 13,772 | 1.35 | 0.1856 | 8.1% |
 
+## f3b — held-out check (2026-07-23)
+
+`scripts/run_f3b_heldout.py`: the BIC claim tested out-of-sample. Each corpus
+split into two same-depth halves by Binomial(n, 1/2) thinning (the paper's own
+§3.4 depth-preserving split, seed 20260723); ZM / lambda-ZM / MOEZipf-lsq fit
+on one half with the exact f3 protocol (lambda-ZM generator selected on TRAIN
+rmse only); each fitted model then evaluated as a fixed function of rank on the
+other half's curve (ranks 1..min(V_A, V_B), RMSE on log frequency); both fold
+directions.
+
+**Result: lambda-ZM beats ZM AND MOEZipf on 64/64 held-out fold-tests** —
+English 50/50 (median improvement 8.5%, worst fold +2.1%), multilingual 14/14
+(median 13.4%). The extra term generalizes; the BIC preference is not an
+in-sample artifact. Outputs: `f3b_heldout.csv`, `f3b_heldout_summary.md`.
+
 ## Caveats
 - Multilingual vocabulary sizes differ from canonical Table 3 (e.g. Mandarin 37,049
   vs 23,483): this run used a 150k-token slice + current jieba for Mandarin where the

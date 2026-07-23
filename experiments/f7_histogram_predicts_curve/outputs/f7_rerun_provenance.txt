@@ -1,0 +1,30 @@
+corpus                            b_sim  b_act    c_sim    c_act  V_sim  V_act
+Complete Works of Shakespeare     1.654  1.724    314.6    244.8  24456  24458
+War and Peace                     1.688  1.681    446.5    209.1  17513  17445
+Moby Dick                         1.239  1.182     84.7     10.5  16900  16956
+King James Bible                  1.683  1.896    145.6    171.4  12578  12555
+Federalist Papers                 1.572  1.555    201.0    109.0   8604   8617
+Grimm's Fairy Tales               1.628  1.580    107.3     46.0   4766   4746
+Don Quixote                       1.417  1.484    104.1     65.7  15540  15574
+Pride and Prejudice               1.470  1.456     87.7     34.1   6727   6729
+Canterbury Tales                  1.191  1.256     25.8     15.3  17598  17653
+Arabian Nights (Vol 1)            1.149  1.188      6.6      6.4  13952  13883
+Aesop's Fables                    1.129  1.147      2.5      3.7   4372   4394
+Complete Sherlock Holmes          1.174  1.253      5.2     10.3   7883   7817
+Jane Eyre                         1.208  1.258     48.2     16.3  12554  12541
+Dubliners                         1.015  1.137      0.0      3.3   7111   7157
+The Iliad                         1.378  1.488    119.2    137.4  12300  12300
+Democracy in America              1.402  1.521     92.6    110.9   9235   9301
+Origin of Species                 1.640  1.689    163.2    132.5   6916   6887
+Wealth of Nations                 1.949  1.863    398.3    180.4   9455   9478
+Les Miserables                    1.442  1.526    275.1    182.5  22603  22677
+Decline and Fall Vol 1            1.314  1.481    140.7    211.1  16019  15983
+Emile                             1.374  1.464     70.1     51.5  11158  11174
+Ulysses                           1.038  1.045     32.6      0.6  28889  28990
+Collected Poe                     1.010  1.134      0.9      7.0   9321   9312
+Principia Ethica                  1.900  1.815    155.4     78.8   3782   3814
+Critique of Pure Reason           1.955  1.690    345.3     58.0   6539   6537
+
+corr(b_sim, b_act) = 0.9414   median ratio b_act/b_sim = 1.041
+corr(log1p c_sim, log1p c_act) = 0.8215   median ratio = 0.665
+median b_sim = 1.402  median b_act = 1.484

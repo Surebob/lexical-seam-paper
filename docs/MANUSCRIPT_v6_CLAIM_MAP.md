@@ -72,6 +72,7 @@ canonical file. Paths relative to repo root. Bootstrap CIs: `docs/v6_bootstrap_c
 | 25/25 BIC vs ZM+MOE (both fits); median −0.0157 vs MOE | `experiments/f3_lambda_zm_vs_moezipf/outputs/f3_english.csv` |
 | median improvement 10.2% (2.6–23.0) | `experiments/f1_fresh_reproduction/outputs/f1_summary.md` |
 | panel 10/10; languages 6.4–22.5% | `f3_.../f3_multilang.csv`, `f5a_panel.csv` |
+| held-out 64/64 (EN 50/50 med +8.5%, ML 14/14 med +13.4%, worst +2.1%) | `experiments/f3_lambda_zm_vs_moezipf/outputs/f3b_heldout_summary.md`, `f3b_heldout.csv` |
 
 ## §4.2 — retired claims → killing experiments
 1 k≈√V → `f2`; 2 WLS → `f9`; 3 σ_T universal → `f4f`; 4 morphology dial → `f4f` (A);
@@ -84,5 +85,7 @@ canonical file. Paths relative to repo root. Bootstrap CIs: `docs/v6_bootstrap_c
 
 ## Figures
 fig1 residual (computed from pg100 inline) · fig2 ← f6_slices · fig3 ← f2_per_corpus
-+ f5b · fig4 ← f7 pairs · fig5 ← f6b_trajectories · fig6 ← f11_heaps. Built by
-`paper/scripts/build_assets.py`.
++ f5b · fig4 ← f7 pairs · fig5 ← f6b_trajectories · fig6 ← f11_heaps ·
+fig7_fingerprints ← f2_per_corpus + f5b (registers, surnames) + f12_mixtures +
+f15c_concat (tok/V ≥ 15 filled) + f14_ga_fits + f14b_nulls + x1 (belt, hardcoded
+from x1_summary.md). Built by `paper/scripts/build_assets.py`.
