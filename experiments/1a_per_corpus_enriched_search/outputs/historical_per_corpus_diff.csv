@@ -1,0 +1,426 @@
+corpus,field,new_value,historical_value,abs_diff,matches
+Complete Works of Shakespeare,tokens,988670.0,988670.0,0.0,True
+Complete Works of Shakespeare,vocabulary_size,24458.0,24458.0,0.0,True
+Complete Works of Shakespeare,zm_a,17.169686773929307,17.169686773929307,0.0,True
+Complete Works of Shakespeare,zm_b,1.7243760149010987,1.7243760149010987,0.0,True
+Complete Works of Shakespeare,zm_c,244.84484777363113,244.84484777363113,0.0,True
+Complete Works of Shakespeare,zm_rmse,0.18443042500644333,0.18443042500644333,0.0,True
+Complete Works of Shakespeare,step2_rmse,0.18285154352815539,0.18285154352815539,0.0,True
+Complete Works of Shakespeare,rmse_improvement_absolute,0.0015788814782879412,0.0015788814782879412,0.0,True
+Complete Works of Shakespeare,rmse_improvement_pct,0.8560851487669568,0.8560851487669568,0.0,True
+Complete Works of Shakespeare,runner_up_rmse,0.18461777340942814,0.18461777340942814,0.0,True
+Complete Works of Shakespeare,winner_minus_runner_rmse,0.0017662298812727573,0.0017662298812727573,0.0,True
+Complete Works of Shakespeare,step2_winner_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Complete Works of Shakespeare,step2_winner_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Complete Works of Shakespeare,runner_up_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Complete Works of Shakespeare,winner_family,is,is,,True
+Complete Works of Shakespeare,contains_is_in_step2_beam,True,True,,True
+Complete Works of Shakespeare,contains_exp_in_step2_beam,True,True,,True
+War and Peace,tokens,583368.0,583368.0,0.0,True
+War and Peace,vocabulary_size,17445.0,17445.0,0.0,True
+War and Peace,zm_a,16.23161345841648,16.23161345841648,0.0,True
+War and Peace,zm_b,1.6808536990412744,1.6808536990412744,0.0,True
+War and Peace,zm_c,209.1315494553841,209.1315494553841,0.0,True
+War and Peace,zm_rmse,0.182982301215073,0.182982301215073,0.0,True
+War and Peace,step2_rmse,0.18043682215068654,0.18043682215068654,0.0,True
+War and Peace,rmse_improvement_absolute,0.0025454790643864578,0.0025454790643864578,0.0,True
+War and Peace,rmse_improvement_pct,1.3911067067598866,1.3911067067598866,0.0,True
+War and Peace,runner_up_rmse,0.1831808749702038,0.1831808749702038,0.0,True
+War and Peace,winner_minus_runner_rmse,0.0027440528195172564,0.0027440528195172564,0.0,True
+War and Peace,step2_winner_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+War and Peace,step2_winner_display,(x - 1) - log(x),(x - 1) - log(x),,True
+War and Peace,runner_up_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+War and Peace,winner_family,is,is,,True
+War and Peace,contains_is_in_step2_beam,True,True,,True
+War and Peace,contains_exp_in_step2_beam,True,True,,True
+Moby Dick,tokens,219054.0,219054.0,0.0,True
+Moby Dick,vocabulary_size,16956.0,16956.0,0.0,True
+Moby Dick,zm_a,11.279174906124378,11.279174906124378,0.0,True
+Moby Dick,zm_b,1.1821698837630732,1.1821698837630732,0.0,True
+Moby Dick,zm_c,10.497932011426359,10.497932011426359,0.0,True
+Moby Dick,zm_rmse,0.16154871217642858,0.16154871217642858,0.0,True
+Moby Dick,step2_rmse,0.16334575772525425,0.16334575772525425,0.0,True
+Moby Dick,rmse_improvement_absolute,-0.0017970455488256765,-0.0017970455488256765,0.0,True
+Moby Dick,rmse_improvement_pct,-1.1123861803758048,-1.1123861803758048,0.0,True
+Moby Dick,runner_up_rmse,0.1643352350610081,0.1643352350610081,0.0,True
+Moby Dick,winner_minus_runner_rmse,0.0009894773357538578,0.0009894773357538578,0.0,True
+Moby Dick,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Moby Dick,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Moby Dick,runner_up_expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Moby Dick,winner_family,exp,exp,,True
+Moby Dick,contains_is_in_step2_beam,True,True,,True
+Moby Dick,contains_exp_in_step2_beam,True,True,,True
+King James Bible,tokens,792180.0,792180.0,0.0,True
+King James Bible,vocabulary_size,12555.0,12555.0,0.0,True
+King James Bible,zm_a,17.70152813420587,17.70152813420587,0.0,True
+King James Bible,zm_b,1.8964020832729536,1.8964020832729536,0.0,True
+King James Bible,zm_c,171.38167664978175,171.38167664978175,0.0,True
+King James Bible,zm_rmse,0.18823043086752944,0.18823043086752944,0.0,True
+King James Bible,step2_rmse,0.1854896711109791,0.1854896711109791,0.0,True
+King James Bible,rmse_improvement_absolute,0.0027407597565503317,0.0027407597565503317,0.0,True
+King James Bible,rmse_improvement_pct,1.4560662396183914,1.4560662396183914,0.0,True
+King James Bible,runner_up_rmse,0.18845643682086718,0.18845643682086718,0.0,True
+King James Bible,winner_minus_runner_rmse,0.002966765709888075,0.002966765709888075,0.0,True
+King James Bible,step2_winner_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+King James Bible,step2_winner_display,(x - 1) - log(x),(x - 1) - log(x),,True
+King James Bible,runner_up_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+King James Bible,winner_family,is,is,,True
+King James Bible,contains_is_in_step2_beam,True,True,,True
+King James Bible,contains_exp_in_step2_beam,True,True,,True
+Federalist Papers,tokens,192302.0,192302.0,0.0,True
+Federalist Papers,vocabulary_size,8617.0,8617.0,0.0,True
+Federalist Papers,zm_a,13.924521943896071,13.924521943896071,0.0,True
+Federalist Papers,zm_b,1.554698599462922,1.554698599462922,0.0,True
+Federalist Papers,zm_c,109.04140681413556,109.04140681413556,0.0,True
+Federalist Papers,zm_rmse,0.19477513427832338,0.19477513427832338,0.0,True
+Federalist Papers,step2_rmse,0.1916277812723682,0.1916277812723682,0.0,True
+Federalist Papers,rmse_improvement_absolute,0.0031473530059551724,0.0031473530059551724,0.0,True
+Federalist Papers,rmse_improvement_pct,1.6158905589343715,1.6158905589343715,0.0,True
+Federalist Papers,runner_up_rmse,0.195160110344618,0.195160110344618,0.0,True
+Federalist Papers,winner_minus_runner_rmse,0.00353232907224979,0.00353232907224979,0.0,True
+Federalist Papers,step2_winner_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Federalist Papers,step2_winner_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Federalist Papers,runner_up_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Federalist Papers,winner_family,is,is,,True
+Federalist Papers,contains_is_in_step2_beam,True,True,,True
+Federalist Papers,contains_exp_in_step2_beam,True,True,,True
+Grimm's Fairy Tales,tokens,102114.0,102114.0,0.0,True
+Grimm's Fairy Tales,vocabulary_size,4746.0,4746.0,0.0,True
+Grimm's Fairy Tales,zm_a,13.151959035818965,13.151959035818965,0.0,True
+Grimm's Fairy Tales,zm_b,1.5802738767595035,1.5802738767595035,0.0,True
+Grimm's Fairy Tales,zm_c,45.98251274197185,45.98251274197185,0.0,True
+Grimm's Fairy Tales,zm_rmse,0.1639896169456386,0.1639896169456386,0.0,True
+Grimm's Fairy Tales,step2_rmse,0.16550485072433857,0.16550485072433857,0.0,True
+Grimm's Fairy Tales,rmse_improvement_absolute,-0.0015152337786999703,-0.0015152337786999703,0.0,True
+Grimm's Fairy Tales,rmse_improvement_pct,-0.9239815342713189,-0.9239815342713189,0.0,True
+Grimm's Fairy Tales,runner_up_rmse,0.16705646289920434,0.16705646289920434,0.0,True
+Grimm's Fairy Tales,winner_minus_runner_rmse,0.0015516121748657685,0.0015516121748657685,0.0,True
+Grimm's Fairy Tales,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Grimm's Fairy Tales,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Grimm's Fairy Tales,runner_up_expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Grimm's Fairy Tales,winner_family,exp,exp,,True
+Grimm's Fairy Tales,contains_is_in_step2_beam,True,True,,True
+Grimm's Fairy Tales,contains_exp_in_step2_beam,True,True,,True
+Don Quixote,tokens,433304.0,433304.0,0.0,True
+Don Quixote,vocabulary_size,15574.0,15574.0,0.0,True
+Don Quixote,zm_a,14.117799338841305,14.117799338841305,0.0,True
+Don Quixote,zm_b,1.484156070744385,1.484156070744385,0.0,True
+Don Quixote,zm_c,65.66394188576379,65.66394188576379,0.0,True
+Don Quixote,zm_rmse,0.17475947545743248,0.17475947545743248,0.0,True
+Don Quixote,step2_rmse,0.1763356841530791,0.1763356841530791,0.0,True
+Don Quixote,rmse_improvement_absolute,-0.0015762086956466193,-0.0015762086956466193,0.0,True
+Don Quixote,rmse_improvement_pct,-0.901930319669876,-0.901930319669876,0.0,True
+Don Quixote,runner_up_rmse,0.17692787402335688,0.17692787402335688,0.0,True
+Don Quixote,winner_minus_runner_rmse,0.0005921898702777872,0.0005921898702777872,0.0,True
+Don Quixote,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Don Quixote,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Don Quixote,runner_up_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Don Quixote,winner_family,exp,exp,,True
+Don Quixote,contains_is_in_step2_beam,True,True,,True
+Don Quixote,contains_exp_in_step2_beam,True,True,,True
+Pride and Prejudice,tokens,128565.0,128565.0,0.0,True
+Pride and Prejudice,vocabulary_size,6729.0,6729.0,0.0,True
+Pride and Prejudice,zm_a,12.590385498967532,12.590385498967532,0.0,True
+Pride and Prejudice,zm_b,1.4555085387933726,1.4555085387933726,0.0,True
+Pride and Prejudice,zm_c,34.11942084275591,34.11942084275591,0.0,True
+Pride and Prejudice,zm_rmse,0.16596695026783828,0.16596695026783828,0.0,True
+Pride and Prejudice,step2_rmse,0.16783926418160022,0.16783926418160022,0.0,True
+Pride and Prejudice,rmse_improvement_absolute,-0.0018723139137619416,-0.0018723139137619416,0.0,True
+Pride and Prejudice,rmse_improvement_pct,-1.1281245517498466,-1.1281245517498466,0.0,True
+Pride and Prejudice,runner_up_rmse,0.17026931052871588,0.17026931052871588,0.0,True
+Pride and Prejudice,winner_minus_runner_rmse,0.002430046347115661,0.002430046347115661,0.0,True
+Pride and Prejudice,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Pride and Prejudice,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Pride and Prejudice,runner_up_expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Pride and Prejudice,winner_family,exp,exp,,True
+Pride and Prejudice,contains_is_in_step2_beam,True,True,,True
+Pride and Prejudice,contains_exp_in_step2_beam,True,True,,True
+Canterbury Tales,tokens,281189.0,281189.0,0.0,True
+Canterbury Tales,vocabulary_size,17653.0,17653.0,0.0,True
+Canterbury Tales,zm_a,12.00772225086226,12.00772225086226,0.0,True
+Canterbury Tales,zm_b,1.25647999068569,1.25647999068569,0.0,True
+Canterbury Tales,zm_c,15.250535352832612,15.250535352832612,0.0,True
+Canterbury Tales,zm_rmse,0.1665283991638177,0.1665283991638177,0.0,True
+Canterbury Tales,step2_rmse,0.1678242283162659,0.1678242283162659,0.0,True
+Canterbury Tales,rmse_improvement_absolute,-0.0012958291524481913,-0.0012958291524481913,0.0,True
+Canterbury Tales,rmse_improvement_pct,-0.7781430428412726,-0.7781430428412726,0.0,True
+Canterbury Tales,runner_up_rmse,0.17016778812525912,0.17016778812525912,0.0,True
+Canterbury Tales,winner_minus_runner_rmse,0.0023435598089932286,0.0023435598089932286,0.0,True
+Canterbury Tales,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Canterbury Tales,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Canterbury Tales,runner_up_expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Canterbury Tales,winner_family,exp,exp,,True
+Canterbury Tales,contains_is_in_step2_beam,True,True,,True
+Canterbury Tales,contains_exp_in_step2_beam,True,True,,True
+Arabian Nights (Vol 1),tokens,176048.0,176048.0,0.0,True
+Arabian Nights (Vol 1),vocabulary_size,13883.0,13883.0,0.0,True
+Arabian Nights (Vol 1),zm_a,11.010429917704688,11.010429917704688,0.0,True
+Arabian Nights (Vol 1),zm_b,1.1880559525379182,1.1880559525379182,0.0,True
+Arabian Nights (Vol 1),zm_c,6.42540318643635,6.42540318643635,0.0,True
+Arabian Nights (Vol 1),zm_rmse,0.18214133284804268,0.18214133284804268,0.0,True
+Arabian Nights (Vol 1),step2_rmse,0.18278688989650455,0.18278688989650455,0.0,True
+Arabian Nights (Vol 1),rmse_improvement_absolute,-0.0006455570484618645,-0.0006455570484618645,0.0,True
+Arabian Nights (Vol 1),rmse_improvement_pct,-0.35442644366747955,-0.35442644366747955,0.0,True
+Arabian Nights (Vol 1),runner_up_rmse,0.1845699635740453,0.1845699635740453,0.0,True
+Arabian Nights (Vol 1),winner_minus_runner_rmse,0.0017830736775407419,0.0017830736775407419,0.0,True
+Arabian Nights (Vol 1),step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Arabian Nights (Vol 1),step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Arabian Nights (Vol 1),runner_up_expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Arabian Nights (Vol 1),winner_family,exp,exp,,True
+Arabian Nights (Vol 1),contains_is_in_step2_beam,True,True,,True
+Arabian Nights (Vol 1),contains_exp_in_step2_beam,True,True,,True
+Aesop's Fables,tokens,41594.0,41594.0,0.0,True
+Aesop's Fables,vocabulary_size,4394.0,4394.0,0.0,True
+Aesop's Fables,zm_a,9.349270525235887,9.349270525235887,0.0,True
+Aesop's Fables,zm_b,1.146509454622223,1.146509454622223,0.0,True
+Aesop's Fables,zm_c,3.68769267556447,3.68769267556447,0.0,True
+Aesop's Fables,zm_rmse,0.16735320782668867,0.16735320782668867,0.0,True
+Aesop's Fables,step2_rmse,0.16922954056178502,0.16922954056178502,0.0,True
+Aesop's Fables,rmse_improvement_absolute,-0.0018763327350963532,-0.0018763327350963532,0.0,True
+Aesop's Fables,rmse_improvement_pct,-1.1211812187307981,-1.1211812187307981,0.0,True
+Aesop's Fables,runner_up_rmse,0.17159871401499432,0.17159871401499432,0.0,True
+Aesop's Fables,winner_minus_runner_rmse,0.0023691734532093056,0.0023691734532093056,0.0,True
+Aesop's Fables,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Aesop's Fables,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Aesop's Fables,runner_up_expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Aesop's Fables,winner_family,exp,exp,,True
+Aesop's Fables,contains_is_in_step2_beam,True,True,,True
+Aesop's Fables,contains_exp_in_step2_beam,True,True,,True
+Complete Sherlock Holmes,tokens,105863.0,105863.0,0.0,True
+Complete Sherlock Holmes,vocabulary_size,7817.0,7817.0,0.0,True
+Complete Sherlock Holmes,zm_a,10.96850884444159,10.96850884444159,0.0,True
+Complete Sherlock Holmes,zm_b,1.2532741382865697,1.2532741382865697,0.0,True
+Complete Sherlock Holmes,zm_c,10.294479612917323,10.294479612917323,0.0,True
+Complete Sherlock Holmes,zm_rmse,0.16734863500618616,0.16734863500618616,0.0,True
+Complete Sherlock Holmes,step2_rmse,0.1692196987389226,0.1692196987389226,0.0,True
+Complete Sherlock Holmes,rmse_improvement_absolute,-0.0018710637327364332,-0.0018710637327364332,0.0,True
+Complete Sherlock Holmes,rmse_improvement_pct,-1.118063336857972,-1.118063336857972,0.0,True
+Complete Sherlock Holmes,runner_up_rmse,0.1710875766139428,0.1710875766139428,0.0,True
+Complete Sherlock Holmes,winner_minus_runner_rmse,0.001867877875020213,0.001867877875020213,0.0,True
+Complete Sherlock Holmes,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Complete Sherlock Holmes,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Complete Sherlock Holmes,runner_up_expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Complete Sherlock Holmes,winner_family,exp,exp,,True
+Complete Sherlock Holmes,contains_is_in_step2_beam,True,True,,True
+Complete Sherlock Holmes,contains_exp_in_step2_beam,True,True,,True
+Jane Eyre,tokens,189604.0,189604.0,0.0,True
+Jane Eyre,vocabulary_size,12541.0,12541.0,0.0,True
+Jane Eyre,zm_a,11.642087161791101,11.642087161791101,0.0,True
+Jane Eyre,zm_b,1.257544471493159,1.257544471493159,0.0,True
+Jane Eyre,zm_c,16.307585257849095,16.307585257849095,0.0,True
+Jane Eyre,zm_rmse,0.16124696646095948,0.16124696646095948,0.0,True
+Jane Eyre,step2_rmse,0.16333010797099165,0.16333010797099165,0.0,True
+Jane Eyre,rmse_improvement_absolute,-0.002083141510032166,-0.002083141510032166,0.0,True
+Jane Eyre,rmse_improvement_pct,-1.2918950078583515,-1.2918950078583515,0.0,True
+Jane Eyre,runner_up_rmse,0.16395623934384868,0.16395623934384868,0.0,True
+Jane Eyre,winner_minus_runner_rmse,0.000626131372857025,0.000626131372857025,0.0,True
+Jane Eyre,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Jane Eyre,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Jane Eyre,runner_up_expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Jane Eyre,winner_family,exp,exp,,True
+Jane Eyre,contains_is_in_step2_beam,True,True,,True
+Jane Eyre,contains_exp_in_step2_beam,True,True,,True
+Dubliners,tokens,69264.0,69264.0,0.0,True
+Dubliners,vocabulary_size,7157.0,7157.0,0.0,True
+Dubliners,zm_a,9.777159465137078,9.777159465137078,0.0,True
+Dubliners,zm_b,1.137171446596449,1.137171446596449,0.0,True
+Dubliners,zm_c,3.263282326595508,3.263282326595508,0.0,True
+Dubliners,zm_rmse,0.1747833499623146,0.1747833499623146,0.0,True
+Dubliners,step2_rmse,0.17518979953881125,0.17518979953881125,0.0,True
+Dubliners,rmse_improvement_absolute,-0.00040644957649665914,-0.00040644957649665914,0.0,True
+Dubliners,rmse_improvement_pct,-0.23254479135701117,-0.23254479135701117,0.0,True
+Dubliners,runner_up_rmse,0.17632914837060779,0.17632914837060779,0.0,True
+Dubliners,winner_minus_runner_rmse,0.0011393488317965328,0.0011393488317965328,0.0,True
+Dubliners,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Dubliners,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Dubliners,runner_up_expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Dubliners,winner_family,exp,exp,,True
+Dubliners,contains_is_in_step2_beam,True,True,,True
+Dubliners,contains_exp_in_step2_beam,True,True,,True
+The Iliad,tokens,194969.0,194969.0,0.0,True
+The Iliad,vocabulary_size,12300.0,12300.0,0.0,True
+The Iliad,zm_a,13.748003188664654,13.748003188664654,0.0,True
+The Iliad,zm_b,1.4879896207541856,1.4879896207541856,0.0,True
+The Iliad,zm_c,137.39605844225042,137.39605844225042,0.0,True
+The Iliad,zm_rmse,0.18236092772098422,0.18236092772098422,0.0,True
+The Iliad,step2_rmse,0.18039390059445717,0.18039390059445717,0.0,True
+The Iliad,rmse_improvement_absolute,0.001967027126527049,0.001967027126527049,0.0,True
+The Iliad,rmse_improvement_pct,1.078645053581126,1.078645053581126,0.0,True
+The Iliad,runner_up_rmse,0.18248795135804466,0.18248795135804466,0.0,True
+The Iliad,winner_minus_runner_rmse,0.002094050763587485,0.002094050763587485,0.0,True
+The Iliad,step2_winner_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+The Iliad,step2_winner_display,(x - 1) - log(x),(x - 1) - log(x),,True
+The Iliad,runner_up_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+The Iliad,winner_family,is,is,,True
+The Iliad,contains_is_in_step2_beam,True,True,,True
+The Iliad,contains_exp_in_step2_beam,True,True,,True
+Democracy in America,tokens,187753.0,187753.0,0.0,True
+Democracy in America,vocabulary_size,9301.0,9301.0,0.0,True
+Democracy in America,zm_a,13.707948876647535,13.707948876647535,0.0,True
+Democracy in America,zm_b,1.5206097075927785,1.5206097075927785,0.0,True
+Democracy in America,zm_c,110.90450314378926,110.90450314378926,0.0,True
+Democracy in America,zm_rmse,0.19237447237772765,0.19237447237772765,0.0,True
+Democracy in America,step2_rmse,0.1894135889625467,0.1894135889625467,0.0,True
+Democracy in America,rmse_improvement_absolute,0.0029608834151809427,0.0029608834151809427,0.0,True
+Democracy in America,rmse_improvement_pct,1.5391249049755638,1.5391249049755638,0.0,True
+Democracy in America,runner_up_rmse,0.19273164051225666,0.19273164051225666,0.0,True
+Democracy in America,winner_minus_runner_rmse,0.0033180515497099605,0.0033180515497099605,0.0,True
+Democracy in America,step2_winner_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Democracy in America,step2_winner_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Democracy in America,runner_up_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Democracy in America,winner_family,is,is,,True
+Democracy in America,contains_is_in_step2_beam,True,True,,True
+Democracy in America,contains_exp_in_step2_beam,True,True,,True
+Origin of Species,tokens,156024.0,156024.0,0.0,True
+Origin of Species,vocabulary_size,6887.0,6887.0,0.0,True
+Origin of Species,zm_a,14.762043153445761,14.762043153445761,0.0,True
+Origin of Species,zm_b,1.6889031865945208,1.6889031865945208,0.0,True
+Origin of Species,zm_c,132.51415058330616,132.51415058330616,0.0,True
+Origin of Species,zm_rmse,0.18056155772897703,0.18056155772897703,0.0,True
+Origin of Species,step2_rmse,0.17636580852673006,0.17636580852673006,0.0,True
+Origin of Species,rmse_improvement_absolute,0.004195749202246968,0.004195749202246968,0.0,True
+Origin of Species,rmse_improvement_pct,2.3237223111160734,2.3237223111160734,0.0,True
+Origin of Species,runner_up_rmse,0.18042756320488335,0.18042756320488335,0.0,True
+Origin of Species,winner_minus_runner_rmse,0.004061754678153284,0.004061754678153284,0.0,True
+Origin of Species,step2_winner_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Origin of Species,step2_winner_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Origin of Species,runner_up_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Origin of Species,winner_family,is,is,,True
+Origin of Species,contains_is_in_step2_beam,True,True,,True
+Origin of Species,contains_exp_in_step2_beam,True,True,,True
+Wealth of Nations,tokens,380080.0,380080.0,0.0,True
+Wealth of Nations,vocabulary_size,9478.0,9478.0,0.0,True
+Wealth of Nations,zm_a,16.873082150998975,16.873082150998975,0.0,True
+Wealth of Nations,zm_b,1.8631975930125022,1.8631975930125022,0.0,True
+Wealth of Nations,zm_c,180.40850551892163,180.40850551892163,0.0,True
+Wealth of Nations,zm_rmse,0.18142024644033927,0.18142024644033927,0.0,True
+Wealth of Nations,step2_rmse,0.17689004675116576,0.17689004675116576,0.0,True
+Wealth of Nations,rmse_improvement_absolute,0.004530199689173509,0.004530199689173509,0.0,True
+Wealth of Nations,rmse_improvement_pct,2.4970750387902716,2.4970750387902716,0.0,True
+Wealth of Nations,runner_up_rmse,0.18113788155497706,0.18113788155497706,0.0,True
+Wealth of Nations,winner_minus_runner_rmse,0.004247834803811301,0.004247834803811301,0.0,True
+Wealth of Nations,step2_winner_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Wealth of Nations,step2_winner_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Wealth of Nations,runner_up_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Wealth of Nations,winner_family,is,is,,True
+Wealth of Nations,contains_is_in_step2_beam,True,True,,True
+Wealth of Nations,contains_exp_in_step2_beam,True,True,,True
+Les Miserables,tokens,575614.0,575614.0,0.0,True
+Les Miserables,vocabulary_size,22677.0,22677.0,0.0,True
+Les Miserables,zm_a,15.067950104961321,15.067950104961321,0.0,True
+Les Miserables,zm_b,1.5257260325750808,1.5257260325750808,0.0,True
+Les Miserables,zm_c,182.47253316947916,182.47253316947916,0.0,True
+Les Miserables,zm_rmse,0.1884156100596475,0.1884156100596475,0.0,True
+Les Miserables,step2_rmse,0.1868492241461159,0.1868492241461159,0.0,True
+Les Miserables,rmse_improvement_absolute,0.0015663859135315872,0.0015663859135315872,0.0,True
+Les Miserables,rmse_improvement_pct,0.831346146444931,0.831346146444931,0.0,True
+Les Miserables,runner_up_rmse,0.18880587501084395,0.18880587501084395,0.0,True
+Les Miserables,winner_minus_runner_rmse,0.0019566508647280434,0.0019566508647280434,0.0,True
+Les Miserables,step2_winner_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Les Miserables,step2_winner_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Les Miserables,runner_up_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Les Miserables,winner_family,is,is,,True
+Les Miserables,contains_is_in_step2_beam,True,True,,True
+Les Miserables,contains_exp_in_step2_beam,True,True,,True
+Decline and Fall Vol 1,tokens,262698.0,262698.0,0.0,True
+Decline and Fall Vol 1,vocabulary_size,15983.0,15983.0,0.0,True
+Decline and Fall Vol 1,zm_a,14.061431507653774,14.061431507653774,0.0,True
+Decline and Fall Vol 1,zm_b,1.481186054549138,1.481186054549138,0.0,True
+Decline and Fall Vol 1,zm_c,211.07196916272378,211.07196916272378,0.0,True
+Decline and Fall Vol 1,zm_rmse,0.20969049311274274,0.20969049311274274,0.0,True
+Decline and Fall Vol 1,step2_rmse,0.2058860211560133,0.2058860211560133,0.0,True
+Decline and Fall Vol 1,rmse_improvement_absolute,0.0038044719567294494,0.0038044719567294494,0.0,True
+Decline and Fall Vol 1,rmse_improvement_pct,1.8143273451524229,1.8143273451524229,0.0,True
+Decline and Fall Vol 1,runner_up_rmse,0.20932438344350124,0.20932438344350124,0.0,True
+Decline and Fall Vol 1,winner_minus_runner_rmse,0.0034383622874879505,0.0034383622874879505,0.0,True
+Decline and Fall Vol 1,step2_winner_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Decline and Fall Vol 1,step2_winner_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Decline and Fall Vol 1,runner_up_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Decline and Fall Vol 1,winner_family,is,is,,True
+Decline and Fall Vol 1,contains_is_in_step2_beam,True,True,,True
+Decline and Fall Vol 1,contains_exp_in_step2_beam,True,True,,True
+Emile,tokens,252843.0,252843.0,0.0,True
+Emile,vocabulary_size,11174.0,11174.0,0.0,True
+Emile,zm_a,13.412000316341073,13.412000316341073,0.0,True
+Emile,zm_b,1.4640963553063,1.4640963553063,0.0,True
+Emile,zm_c,51.48067915381241,51.48067915381241,0.0,True
+Emile,zm_rmse,0.17876657983042643,0.17876657983042643,0.0,True
+Emile,step2_rmse,0.18033837337902978,0.18033837337902978,0.0,True
+Emile,rmse_improvement_absolute,-0.0015717935486033452,-0.0015717935486033452,0.0,True
+Emile,rmse_improvement_pct,-0.8792435085429893,-0.8792435085429893,0.0,True
+Emile,runner_up_rmse,0.181539251240389,0.181539251240389,0.0,True
+Emile,winner_minus_runner_rmse,0.001200877861359223,0.001200877861359223,0.0,True
+Emile,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Emile,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Emile,runner_up_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Emile,winner_family,exp,exp,,True
+Emile,contains_is_in_step2_beam,True,True,,True
+Emile,contains_exp_in_step2_beam,True,True,,True
+Ulysses,tokens,268854.0,268854.0,0.0,True
+Ulysses,vocabulary_size,28990.0,28990.0,0.0,True
+Ulysses,zm_a,10.411003831552014,10.411003831552014,0.0,True
+Ulysses,zm_b,1.045107357267924,1.045107357267924,0.0,True
+Ulysses,zm_c,0.6324152122192379,0.6324152122192379,0.0,True
+Ulysses,zm_rmse,0.1836179291561817,0.1836179291561817,0.0,True
+Ulysses,step2_rmse,0.1830188859516618,0.1830188859516618,0.0,True
+Ulysses,rmse_improvement_absolute,0.0005990432045198946,0.0005990432045198946,0.0,True
+Ulysses,rmse_improvement_pct,0.32624439632491475,0.32624439632491475,0.0,True
+Ulysses,runner_up_rmse,0.18357922799465115,0.18357922799465115,0.0,True
+Ulysses,winner_minus_runner_rmse,0.0005603420429893535,0.0005603420429893535,0.0,True
+Ulysses,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Ulysses,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Ulysses,runner_up_expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Ulysses,winner_family,exp,exp,,True
+Ulysses,contains_is_in_step2_beam,True,True,,True
+Ulysses,contains_exp_in_step2_beam,True,True,,True
+Collected Poe,tokens,91801.0,91801.0,0.0,True
+Collected Poe,vocabulary_size,9312.0,9312.0,0.0,True
+Collected Poe,zm_a,10.109216103413582,10.109216103413582,0.0,True
+Collected Poe,zm_b,1.1335308814516545,1.1335308814516545,0.0,True
+Collected Poe,zm_c,6.957528471368607,6.957528471368607,0.0,True
+Collected Poe,zm_rmse,0.17261835225209593,0.17261835225209593,0.0,True
+Collected Poe,step2_rmse,0.17464893963749728,0.17464893963749728,0.0,True
+Collected Poe,rmse_improvement_absolute,-0.00203058738540135,-0.00203058738540135,0.0,True
+Collected Poe,rmse_improvement_pct,-1.176345017148485,-1.176345017148485,0.0,True
+Collected Poe,runner_up_rmse,0.17545087325392908,0.17545087325392908,0.0,True
+Collected Poe,winner_minus_runner_rmse,0.0008019336164317992,0.0008019336164317992,0.0,True
+Collected Poe,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Collected Poe,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Collected Poe,runner_up_expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Collected Poe,winner_family,exp,exp,,True
+Collected Poe,contains_is_in_step2_beam,True,True,,True
+Collected Poe,contains_exp_in_step2_beam,True,True,,True
+Principia Ethica,tokens,98676.0,98676.0,0.0,True
+Principia Ethica,vocabulary_size,3814.0,3814.0,0.0,True
+Principia Ethica,zm_a,14.707712093365648,14.707712093365648,0.0,True
+Principia Ethica,zm_b,1.8145813303243747,1.8145813303243747,0.0,True
+Principia Ethica,zm_c,78.7645572814913,78.7645572814913,0.0,True
+Principia Ethica,zm_rmse,0.18553045124099837,0.18553045124099837,0.0,True
+Principia Ethica,step2_rmse,0.18433252648149676,0.18433252648149676,0.0,True
+Principia Ethica,rmse_improvement_absolute,0.0011979247595016174,0.0011979247595016174,0.0,True
+Principia Ethica,rmse_improvement_pct,0.6456755489402383,0.6456755489402383,0.0,True
+Principia Ethica,runner_up_rmse,0.18558013861480332,0.18558013861480332,0.0,True
+Principia Ethica,winner_minus_runner_rmse,0.0012476121333065693,0.0012476121333065693,0.0,True
+Principia Ethica,step2_winner_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Principia Ethica,step2_winner_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Principia Ethica,runner_up_expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Principia Ethica,winner_family,is,is,,True
+Principia Ethica,contains_is_in_step2_beam,True,True,,True
+Principia Ethica,contains_exp_in_step2_beam,True,True,,True
+Critique of Pure Reason,tokens,209795.0,209795.0,0.0,True
+Critique of Pure Reason,vocabulary_size,6537.0,6537.0,0.0,True
+Critique of Pure Reason,zm_a,14.536275381068583,14.536275381068583,0.0,True
+Critique of Pure Reason,zm_b,1.6898662237513586,1.6898662237513586,0.0,True
+Critique of Pure Reason,zm_c,57.9583035946641,57.9583035946641,0.0,True
+Critique of Pure Reason,zm_rmse,0.17572941010503937,0.17572941010503937,0.0,True
+Critique of Pure Reason,step2_rmse,0.17647312549496663,0.17647312549496663,0.0,True
+Critique of Pure Reason,rmse_improvement_absolute,-0.000743715389927263,-0.000743715389927263,0.0,True
+Critique of Pure Reason,rmse_improvement_pct,-0.42321623311813283,-0.42321623311813283,0.0,True
+Critique of Pure Reason,runner_up_rmse,0.17708956325481962,0.17708956325481962,0.0,True
+Critique of Pure Reason,winner_minus_runner_rmse,0.0006164377598529835,0.0006164377598529835,0.0,True
+Critique of Pure Reason,step2_winner_expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Critique of Pure Reason,step2_winner_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Critique of Pure Reason,runner_up_expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Critique of Pure Reason,winner_family,exp,exp,,True
+Critique of Pure Reason,contains_is_in_step2_beam,True,True,,True
+Critique of Pure Reason,contains_exp_in_step2_beam,True,True,,True

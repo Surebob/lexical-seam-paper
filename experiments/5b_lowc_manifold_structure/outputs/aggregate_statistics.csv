@@ -1,0 +1,21 @@
+metric_name,value,display_format,notes
+lowc_corpus_count,14,integer,Low-c empirical exp-winner corpus count.
+lowc_median_cosine_exp_vs_xpow_top200,0.9650017586137403,decimal,Median cosine between exp and x^x-sqrt(x) on top-200 head coordinates.
+lowc_median_span_r2_exp_xpow_top200,0.8357171446178457,proportion,"Median top-200 R^2 for span{exp,xpow}."
+lowc_median_span_r2_exp_is_top200,0.5653924709778587,proportion,"Median top-200 R^2 for span{exp,IS}."
+lowc_median_delta_xpow_minus_exp_full_rmse,0.002566904493557731,signed decimal,Median xpow-exp RMSE difference on full curve.
+lowc_median_delta_xpow_minus_exp_top100_rmse,-0.07470872112441768,signed decimal,Median xpow-exp RMSE difference on top-100 window.
+lowc_full_rmse_exp_winner_count,14,X/14 count,Low-c full-RMSE exp winner count.
+lowc_top50_xpow_winner_count,9,X/14 count,Low-c top-50 xpow winner count.
+lowc_top100_xpow_winner_count,11,X/14 count,Low-c top-100 xpow winner count.
+lowc_top200_xpow_winner_count,13,X/14 count,Low-c top-200 xpow winner count.
+lowc_smooth_modal_vs_empirical_top100_match_count,10,X/14 count,Smooth synthetic modal winner matches empirical top-100 winner.
+lowc_smooth_modal_vs_empirical_top100_match_rate,0.7142857142857143,proportion,Smooth synthetic modal winner match rate against empirical top-100 winner.
+lowc_zm_modal_vs_empirical_top100_match_count,8,X/14 count,Single-ZM control modal winner matches empirical top-100 winner.
+lowc_zm_modal_vs_empirical_top100_match_rate,0.5714285714285714,proportion,Single-ZM control modal winner match rate against empirical top-100 winner.
+phase_high_full_is_winner_count,11,X/11 count,High-c full-RMSE IS winner count.
+phase_high_top100_is_winner_count,10,X/11 count,High-c top-100 IS winner count.
+phase_corr_theta_c,-0.3297881216042644,correlation,Correlation between theta and single-ZM c.
+phase_corr_theta_transition_fraction,0.3893429029978037,correlation,Correlation between theta and transition fraction.
+phase_corr_theta_lambda_flip,-0.5527539943212232,correlation,Correlation between theta and lambda flip.
+lowc_median_theta_deg,105.9022957463115,degrees,Median low-c phase angle.

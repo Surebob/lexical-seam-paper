@@ -1,0 +1,51 @@
+{
+  "experiment_id": "8_bible_per_book_decomposition",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_angle6_bible_books"
+  ],
+  "cross_experiment_dependencies": [
+    "experiments/7a_canonical_pmf_family/outputs/splitfit/pmf_variant_per_corpus.csv"
+  ],
+  "status": "complete",
+  "outputs": {
+    "bible_per_book.csv": {
+      "rows": 66,
+      "schema": [
+        "book",
+        "heading",
+        "token_count",
+        "vocabulary_size",
+        "test_token_count",
+        "softk_lambda",
+        "zipf_test_avg_nll",
+        "zm_test_avg_nll",
+        "moe_test_avg_nll",
+        "softk_test_avg_nll",
+        "softk_minus_zm",
+        "softk_minus_moe",
+        "step2_gain",
+        "step2_helps",
+        "step2_expression",
+        "softk_rmse"
+      ]
+    },
+    "table5_bible_summary.csv": {
+      "rows": 13
+    },
+    "aggregate_statistics.csv": {
+      "rows": 13,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "claim_map_rows_satisfied": [
+    "line 417-432 / Table 5 Bible decomposition summary",
+    "line 544-546 scope-restatement aggregate NLL and non-help count",
+    "appendix checklist Bible rows"
+  ]
+}

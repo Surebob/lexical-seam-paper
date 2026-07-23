@@ -1,0 +1,32 @@
+metric_name,value,display_format,notes
+english_corpus_count,25,int,Canonical English corpus count.
+winner_family_is_count,11,int,Count of IS step-2 winners.
+winner_family_exp_count,14,int,Count of exponential step-2 winners.
+winner_family_other_count,0,int,Count of non-Bregman winners.
+winner_runner_gap_mean,0.002009831063671038,float6,Mean winner minus runner-up RMSE gap.
+winner_runner_gap_median,0.001867877875020213,float6,Median winner minus runner-up RMSE gap.
+winner_family_gap_below_0p01_count,25,int,Count of corpora with winner-runner gap below 0.01.
+high_c_is_winner_count,11,int,Count of IS winners in the high-c regime.
+low_c_exp_winner_count,14,int,Count of exponential winners in the low-c regime.
+c_transition_band_summary,exp_dominant_below=65.663942;is_dominant_above=78.764557;band_width=13.100615,string,Empirical c-band summary for the IS/exp split.
+step2_improvement_pct_min,-1.2918950078583515,pct1,Minimum percentage RMSE improvement over single ZM.
+step2_improvement_pct_max,2.4970750387902716,pct1,Maximum percentage RMSE improvement over single ZM.
+high_c_is_lower_band,78.7645572814913,float6,Lower c bound of the IS-dominant region.
+low_c_exp_upper_band,65.66394188576379,float6,Upper c bound of the exp-dominant region.
+both_bregman_forms_present_in_step2_beam_count,25,int,Count of corpora where both Bregman generators appear in the canonical step-2 beam.
+mean_step2_winner_runner_gap,0.002009831063671038,float6,Alias used by the manuscript claim map.
+step2_all_improve_count,12,int,Count of corpora where the canonical step-2 winner beats single ZM.
+step2_improvement_pct_mean,0.19735312852863238,pct3,Mean step-2 percentage improvement over single ZM across all 25 corpora.
+step2_improvement_pct_median,-0.23254479135701117,pct3,Median step-2 percentage improvement over single ZM across all 25 corpora.
+step2_positive_improve_count,12,int,Count of corpora where step-2 improvement is positive.
+step2_positive_improvement_pct_min,0.32624439632491475,pct3,Minimum positive step-2 percentage improvement over single ZM.
+step2_positive_improvement_pct_max,2.4970750387902716,pct3,Maximum positive step-2 percentage improvement over single ZM.
+step2_positive_improvement_pct_mean,1.3646091166170955,pct3,Mean positive-only step-2 percentage improvement over single ZM.
+step2_positive_improvement_pct_median,1.423586473189139,pct3,Median positive-only step-2 percentage improvement over single ZM.
+step2_winner_runner_gap_mean,0.002009831063671038,float6,Verified mean step-2 winner minus runner-up RMSE gap across all 25 corpora.
+terminal_all_improve_count,25,int,Count of corpora where the terminal enriched-search winner beats single ZM.
+terminal_improvement_pct_min,3.6978883162152028,pct3,Minimum terminal enriched-search percentage improvement over single ZM.
+terminal_improvement_pct_max,25.294536761006274,pct3,Maximum terminal enriched-search percentage improvement over single ZM.
+terminal_improvement_pct_mean,11.023397106886518,pct3,Mean terminal enriched-search percentage improvement over single ZM.
+terminal_improvement_pct_median,9.798300633636057,pct3,Median terminal enriched-search percentage improvement over single ZM.
+terminal_winner_runner_gap_mean,0.0007512966946449018,float6,Mean terminal-step winner minus runner-up RMSE gap across all 25 corpora.

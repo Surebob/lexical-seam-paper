@@ -1,0 +1,10 @@
+{
+  "experiment_id": "3a",
+  "output_dir": "experiments/3a_smooth_two_regime_fits/outputs",
+  "smooth_row_count": 25,
+  "bounds_row_count": 25,
+  "historical_smooth_max_abs_numeric_diff": 0.0,
+  "historical_relaxed_max_abs_numeric_diff": 0.0,
+  "historical_smooth_text_mismatch_count": 0,
+  "historical_relaxed_text_mismatch_count": 0
+}

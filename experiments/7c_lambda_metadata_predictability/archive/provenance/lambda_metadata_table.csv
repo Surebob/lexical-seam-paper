@@ -1,0 +1,26 @@
+slug,name,lambda_k,structure,unit_count,author_count,era_span_years,heterogeneity_score,token_count,vocab_size
+shakespeare,Complete Works of Shakespeare,0.0001,single_author_collection,37,1,24,5.940171252720432,988670,24458
+war_and_peace,War and Peace,0.03,single_work,1,1,4,2.1910133173369406,583368,17445
+moby_dick,Moby Dick,0.0001,single_work,1,1,1,1.7328679513998633,219054,16956
+king_james_bible,King James Bible,0.0003,multi_author_composite,66,30,1000,11.093057213533722,792180,12555
+federalist_papers,Federalist Papers,0.003,multi_author_composite,85,3,1,6.187215247653371,192302,8617
+grimms_fairy_tales,Grimm's Fairy Tales,0.0001,multi_source_collection,200,50,45,11.14945123902795,102114,4746
+don_quixote,Don Quixote,0.0003,single_work,2,1,10,2.9907071056272403,433304,15574
+pride_and_prejudice,Pride and Prejudice,0.0003,single_work,1,1,2,1.9356005054539454,128565,6729
+canterbury_tales,Canterbury Tales,0.001,framed_multi_unit,24,1,13,5.231551670235775,281189,17653
+arabian_nights_vol1,Arabian Nights (Vol 1),0.001,multi_source_collection,30,10,500,8.94018552782595,176048,13883
+aesops_fables,Aesop's Fables,0.0003,multi_source_collection,140,10,600,10.545952630444143,41594,4394
+complete_sherlock_holmes,Complete Sherlock Holmes,0.003,single_author_collection,60,1,40,6.66080707808541,105863,7817
+jane_eyre,Jane Eyre,0.0003,single_work,1,1,1,1.7328679513998633,189604,12541
+dubliners,Dubliners,0.001,single_author_collection,15,1,10,4.664683539198911,69264,7157
+the_iliad,The Iliad,0.001,single_work,1,1,100,3.69385461954052,194969,12300
+democracy_in_america,Democracy in America,0.001,single_work,2,1,5,2.6876392038420827,187753,9301
+origin_of_species,Origin of Species,0.003,single_work,1,1,1,1.7328679513998633,156024,6887
+wealth_of_nations,Wealth of Nations,0.0001,single_work,5,1,1,2.831480240067973,380080,9478
+les_miserables,Les Miserables,0.03,single_work,5,1,17,3.9300925287360826,575614,22677
+decline_and_fall_vol1,Decline and Fall Vol 1,0.003,single_work,1,1,1,1.7328679513998633,262698,15983
+emile,Emile,0.01,single_work,5,1,1,2.831480240067973,252843,11174
+ulysses,Ulysses,0.0001,single_work,18,1,8,4.736198448394496,268854,28990
+collected_poe,Collected Poe,0.01,single_author_collection,70,1,20,6.478088276462972,91801,9312
+principia_ethica,Principia Ethica,0.0003,single_work,1,1,1,1.7328679513998633,98676,3814
+critique_of_pure_reason,Critique of Pure Reason,0.0003,single_work,1,1,6,2.359249435647547,209795,6537

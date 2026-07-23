@@ -1,0 +1,45 @@
+loaded moby_dick                tokens=  219,054 V=16,956
+loaded war_and_peace            tokens=  583,368 V=17,445
+loaded don_quixote              tokens=  433,304 V=15,574
+loaded pride_and_prejudice      tokens=  128,565 V= 6,729
+loaded jane_eyre                tokens=  189,604 V=12,541
+loaded the_iliad                tokens=  194,969 V=12,300
+loaded democracy_in_america     tokens=  187,753 V= 9,301
+loaded origin_of_species        tokens=  156,024 V= 6,887
+loaded wealth_of_nations        tokens=  380,080 V= 9,478
+loaded les_miserables           tokens=  575,614 V=22,677
+loaded decline_and_fall_vol1    tokens=  262,698 V=15,983
+loaded emile                    tokens=  252,843 V=11,174
+loaded ulysses                  tokens=  268,854 V=28,990
+loaded critique_of_pure_reason  tokens=  209,795 V= 6,537
+
+27 fits queued
+[1/27] pride_and_prejudice      m= 1 V=  6729 k=   188.7 s=    79.2 s/V=0.0118 k/Navg=0.028
+[2/27] wealth_of_nations        m= 1 V=  9478 k=   176.2 s=   124.4 s/V=0.0131 k/Navg=0.019
+[3/27] origin_of_species        m= 1 V=  6887 k=   132.3 s=    89.7 s/V=0.0130 k/Navg=0.019
+[4/27] democracy_in_america     m= 1 V=  9301 k=   202.4 s=   116.1 s/V=0.0125 k/Navg=0.022
+[5/27] critique_of_pure_reason  m= 1 V=  6537 k=   340.0 s=    72.7 s/V=0.0111 k/Navg=0.052
+[6/27] ulysses                  m= 1 V= 28990 k=   613.9 s=   274.1 s/V=0.0095 k/Navg=0.021
+[7/27] the_iliad                m= 1 V= 12300 k=    88.4 s=   146.5 s/V=0.0119 k/Navg=0.007
+[8/27] emile                    m= 1 V= 11174 k=   292.5 s=   132.1 s/V=0.0118 k/Navg=0.026
+[9/27] jane_eyre                m= 1 V= 12541 k=   221.8 s=   148.3 s/V=0.0118 k/Navg=0.018
+[10/27] don_quixote              m= 1 V= 15574 k=   358.9 s=   192.8 s/V=0.0124 k/Navg=0.023
+[11/27] mix2_a                   m= 2 V= 11991 k=   331.2 s=   153.9 s/V=0.0128 k/Navg=0.041
+[12/27] moby_dick                m= 1 V= 16956 k=   423.4 s=   192.6 s/V=0.0114 k/Navg=0.025
+[13/27] les_miserables           m= 1 V= 22677 k=   462.1 s=   277.1 s/V=0.0122 k/Navg=0.020
+[14/27] mix2_g                   m= 2 V= 22301 k=   437.1 s=   261.3 s/V=0.0117 k/Navg=0.031
+[15/27] decline_and_fall_vol1    m= 1 V= 15983 k=   294.1 s=   181.4 s/V=0.0114 k/Navg=0.018
+[16/27] mix2_e                   m= 2 V= 34167 k=   559.9 s=   350.1 s/V=0.0103 k/Navg=0.027
+[17/27] mix2_d                   m= 2 V= 19683 k=   396.7 s=   259.1 s/V=0.0132 k/Navg=0.033
+[18/27] mix2_f                   m= 2 V= 18418 k=   429.2 s=   236.9 s/V=0.0129 k/Navg=0.038
+[19/27] mix2_b                   m= 2 V= 21412 k=   556.2 s=   259.4 s/V=0.0121 k/Navg=0.040
+[20/27] mix2_c                   m= 2 V= 25782 k=   542.5 s=   327.1 s/V=0.0127 k/Navg=0.034
+[21/27] war_and_peace            m= 1 V= 17445 k=   399.3 s=   227.2 s/V=0.0130 k/Navg=0.023
+[22/27] mix4_a                   m= 4 V= 24665 k=   601.4 s=   315.2 s/V=0.0128 k/Navg=0.054
+[23/27] mix4_c                   m= 4 V= 40369 k=   520.2 s=   453.0 s/V=0.0112 k/Navg=0.033
+[24/27] mix4_b                   m= 4 V= 32785 k=   670.5 s=   430.4 s/V=0.0131 k/Navg=0.048
+[25/27] mix7_a                   m= 7 V= 39282 k=   864.7 s=   517.7 s/V=0.0132 k/Navg=0.065
+[26/27] mix7_b                   m= 7 V= 49200 k=   755.4 s=   560.6 s/V=0.0114 k/Navg=0.053
+[27/27] mix14_a                  m=14 V= 63541 k=  1092.2 s=   760.3 s/V=0.0120 k/Navg=0.079
+
+summary written

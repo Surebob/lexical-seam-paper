@@ -1,0 +1,49 @@
+{
+  "experiment_id": "7c_lambda_metadata_predictability",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_angle2_lambda_metadata"
+  ],
+  "status": "complete",
+  "outputs": {
+    "lambda_metadata_per_corpus.csv": {
+      "rows": 25,
+      "schema": [
+        "slug",
+        "name",
+        "lambda_k",
+        "log10_lambda_k",
+        "token_count",
+        "vocab_size",
+        "structure",
+        "structure_code",
+        "unit_count",
+        "author_count",
+        "era_span_years",
+        "log_unit_count",
+        "log_author_count",
+        "log_era_span_years",
+        "heterogeneity_score"
+      ]
+    },
+    "lambda_metadata_summary.csv": {
+      "rows": 7
+    },
+    "lambda_by_structure.csv": {
+      "rows": 5
+    },
+    "aggregate_statistics.csv": {
+      "rows": 9,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "claim_map_rows_satisfied": [
+    "line 504 max_abs_metadata_correlation",
+    "line 536 lambda_k range restatement is also present here, though 7a remains the canonical Table 4 lambda source"
+  ]
+}

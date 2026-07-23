@@ -1,0 +1,8 @@
+predictor,pearson_r,spearman_r,abs_pearson_r,abs_spearman_r,n_corpora,response,source
+structure_code,-0.07349084851610509,-0.02381591377305706,0.07349084851610509,0.02381591377305706,25,log10_lambda_k,results/zipf_angle2_lambda_metadata/summary.json
+log_unit_count,-0.08750818186031276,-0.053956426355011786,0.08750818186031276,0.053956426355011786,25,log10_lambda_k,results/zipf_angle2_lambda_metadata/summary.json
+log_author_count,-0.26729532763453223,-0.17404270450575,0.26729532763453223,0.17404270450575,25,log10_lambda_k,results/zipf_angle2_lambda_metadata/summary.json
+log_era_span_years,-0.10070513342403695,-0.06311230956484933,0.10070513342403695,0.06311230956484933,25,log10_lambda_k,results/zipf_angle2_lambda_metadata/summary.json
+heterogeneity_score,-0.15787251891453583,-0.046348766070972706,0.15787251891453583,0.046348766070972706,25,log10_lambda_k,results/zipf_angle2_lambda_metadata/summary.json
+token_count,-0.011303218702451647,-0.0585363414641613,0.011303218702451647,0.0585363414641613,25,log10_lambda_k,results/zipf_angle2_lambda_metadata/summary.json
+vocab_size,0.028973816998519537,0.0495005303656666,0.028973816998519537,0.0495005303656666,25,log10_lambda_k,results/zipf_angle2_lambda_metadata/summary.json

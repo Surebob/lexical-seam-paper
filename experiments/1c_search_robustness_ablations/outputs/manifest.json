@@ -1,0 +1,49 @@
+{
+  "experiment_id": "1c_search_robustness_ablations",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_boundary_ablation",
+    "results/zipf_guard_ablation",
+    "results/zipf_wls_test"
+  ],
+  "outputs": {
+    "robustness_ablation_by_corpus.csv": {
+      "rows": 30,
+      "schema": [
+        "ablation_family",
+        "slug",
+        "corpus",
+        "setting",
+        "x_low",
+        "exp_clamp",
+        "value_abs_limit",
+        "weighting",
+        "token_count",
+        "vocabulary_size",
+        "zm_c",
+        "zm_rmse",
+        "step2_winner_expr",
+        "step2_winner_math",
+        "step2_rmse",
+        "step2_delta_vs_zm",
+        "step2_helpful",
+        "canonical_step2_winner_expr",
+        "matches_canonical_step2_winner",
+        "notes"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 0,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "audit_flags": [
+    "Historical WLS output evaluates a fixed IS correction and does not store a freshly searched step-2 winner per weighted fit.",
+    "Ablation scope is diagnostic subsets, not all 25 English corpora."
+  ]
+}

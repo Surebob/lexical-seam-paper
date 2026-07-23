@@ -1,0 +1,141 @@
+slug,corpus,beam_rank,expr,math,rmse,uses_new_operator,symbolic_family
+aesops_fables,Aesop's Fables,1,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.16817471630002356,True,sigmoid-family
+aesops_fables,Aesop's Fables,2,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.16832494481798596,True,sigmoid-family
+aesops_fables,Aesop's Fables,3,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.16922954056178502,False,bregman-family
+aesops_fables,Aesop's Fables,4,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.17159871401499432,False,other
+aesops_fables,Aesop's Fables,5,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.17239960126205842,False,other
+aesops_fables,Aesop's Fables,6,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.17479457575179103,False,other
+aesops_fables,Aesop's Fables,7,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1749392242361762,False,other
+aesops_fables,Aesop's Fables,8,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.17497160606504875,False,other
+aesops_fables,Aesop's Fables,9,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.17549567485117257,False,other
+aesops_fables,Aesop's Fables,10,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.1771438910999912,False,bregman-family
+arabian_nights_vol1,Arabian Nights (Vol 1),1,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.18278688989650455,False,bregman-family
+arabian_nights_vol1,Arabian Nights (Vol 1),2,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.18282637890562417,True,sigmoid-family
+arabian_nights_vol1,Arabian Nights (Vol 1),3,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.18284971622897273,True,sigmoid-family
+arabian_nights_vol1,Arabian Nights (Vol 1),4,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.1845699635740453,False,other
+arabian_nights_vol1,Arabian Nights (Vol 1),5,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.1855988570468531,False,other
+arabian_nights_vol1,Arabian Nights (Vol 1),6,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.18624953256722684,False,bregman-family
+arabian_nights_vol1,Arabian Nights (Vol 1),7,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.18694417702938554,False,other
+arabian_nights_vol1,Arabian Nights (Vol 1),8,"mul[sub[1,x],sub[1,x]]",((1-x)*(1-x)),0.18732452301832536,False,polynomial
+arabian_nights_vol1,Arabian Nights (Vol 1),9,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1876760491256233,False,other
+arabian_nights_vol1,Arabian Nights (Vol 1),10,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.1876928741790554,False,other
+canterbury_tales,Canterbury Tales,1,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.1671471869143485,True,sigmoid-family
+canterbury_tales,Canterbury Tales,2,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.16738221555197022,True,sigmoid-family
+canterbury_tales,Canterbury Tales,3,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.1678242283162659,False,bregman-family
+canterbury_tales,Canterbury Tales,4,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.17016778812525912,False,other
+canterbury_tales,Canterbury Tales,5,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.17057069256526533,False,other
+canterbury_tales,Canterbury Tales,6,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.1708961208533756,False,other
+canterbury_tales,Canterbury Tales,7,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.17093623968880178,False,bregman-family
+canterbury_tales,Canterbury Tales,8,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.17113704626276577,False,other
+canterbury_tales,Canterbury Tales,9,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.17155766787686438,False,other
+canterbury_tales,Canterbury Tales,10,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.1723299287007539,False,polynomial
+collected_poe,Collected Poe,1,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.1731537226006591,True,sigmoid-family
+collected_poe,Collected Poe,2,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.17363931153446965,True,sigmoid-family
+collected_poe,Collected Poe,3,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.17464893963749728,False,bregman-family
+collected_poe,Collected Poe,4,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.17545087325392908,False,other
+collected_poe,Collected Poe,5,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.17722592930767092,False,other
+collected_poe,Collected Poe,6,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.17780968721161927,False,other
+collected_poe,Collected Poe,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.17879414959358172,False,other
+collected_poe,Collected Poe,8,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.17884344032060043,False,polynomial
+collected_poe,Collected Poe,9,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.17903141876702783,False,other
+collected_poe,Collected Poe,10,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.17911421443607753,False,other
+complete_sherlock_holmes,Complete Sherlock Holmes,1,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.16802673417015204,True,sigmoid-family
+complete_sherlock_holmes,Complete Sherlock Holmes,2,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.16831725244116796,True,sigmoid-family
+complete_sherlock_holmes,Complete Sherlock Holmes,3,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.1692196987389226,False,bregman-family
+complete_sherlock_holmes,Complete Sherlock Holmes,4,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.1710875766139428,False,other
+complete_sherlock_holmes,Complete Sherlock Holmes,5,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.1720915784289525,False,other
+complete_sherlock_holmes,Complete Sherlock Holmes,6,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.1731020971045488,False,other
+complete_sherlock_holmes,Complete Sherlock Holmes,7,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.1738734416273575,False,other
+complete_sherlock_holmes,Complete Sherlock Holmes,8,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.17403730451678676,False,other
+complete_sherlock_holmes,Complete Sherlock Holmes,9,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.17430077958530202,False,other
+complete_sherlock_holmes,Complete Sherlock Holmes,10,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.17451384855568502,False,bregman-family
+critique_of_pure_reason,Critique of Pure Reason,1,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.17641460727521532,True,sigmoid-family
+critique_of_pure_reason,Critique of Pure Reason,2,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.17647312549496663,False,bregman-family
+critique_of_pure_reason,Critique of Pure Reason,3,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.1766544741979789,True,sigmoid-family
+critique_of_pure_reason,Critique of Pure Reason,4,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.17708956325481962,False,bregman-family
+critique_of_pure_reason,Critique of Pure Reason,5,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.17747111204888652,False,other
+critique_of_pure_reason,Critique of Pure Reason,6,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.179747369536625,False,other
+critique_of_pure_reason,Critique of Pure Reason,7,"mul[sub[1,x],sub[1,x]]",((1-x)*(1-x)),0.18201439089620247,False,polynomial
+critique_of_pure_reason,Critique of Pure Reason,8,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.1822605807136197,False,other
+critique_of_pure_reason,Critique of Pure Reason,9,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.18236101984949582,False,other
+critique_of_pure_reason,Critique of Pure Reason,10,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.18255161761603136,False,other
+don_quixote,Don Quixote,1,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.17539345315994231,True,sigmoid-family
+don_quixote,Don Quixote,2,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.17555405735225219,True,sigmoid-family
+don_quixote,Don Quixote,3,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.1763356841530791,False,bregman-family
+don_quixote,Don Quixote,4,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.17692787402335688,False,bregman-family
+don_quixote,Don Quixote,5,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.177782754951745,False,other
+don_quixote,Don Quixote,6,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.17887159100651798,False,other
+don_quixote,Don Quixote,7,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.17916885732189522,False,other
+don_quixote,Don Quixote,8,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.17962778653555275,False,other
+don_quixote,Don Quixote,9,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.18013947664140664,False,other
+don_quixote,Don Quixote,10,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.18039864429037158,False,polynomial
+dubliners,Dubliners,1,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.17518979953881125,False,bregman-family
+dubliners,Dubliners,2,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.17544146987905637,True,sigmoid-family
+dubliners,Dubliners,3,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.1757227215094735,True,sigmoid-family
+dubliners,Dubliners,4,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.17632914837060779,False,other
+dubliners,Dubliners,5,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.1786986501957996,False,other
+dubliners,Dubliners,6,"mul[sub[1,x],sub[1,x]]",((1-x)*(1-x)),0.18077048968881346,False,polynomial
+dubliners,Dubliners,7,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.18084229963650614,False,bregman-family
+dubliners,Dubliners,8,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1810856247172799,False,other
+dubliners,Dubliners,9,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.18143708689167504,False,other
+dubliners,Dubliners,10,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.18177784855435708,False,other
+emile,Emile,1,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.17943049566076236,True,sigmoid-family
+emile,Emile,2,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.17956698378802405,True,sigmoid-family
+emile,Emile,3,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.18033837337902978,False,bregman-family
+emile,Emile,4,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.181539251240389,False,bregman-family
+emile,Emile,5,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.18220448616439197,False,other
+emile,Emile,6,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.18290425956361464,False,other
+emile,Emile,7,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.18364962089185866,False,other
+emile,Emile,8,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.18387368982328164,False,other
+emile,Emile,9,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.1844255510746463,False,other
+emile,Emile,10,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1851014183875947,False,other
+grimms_fairy_tales,Grimm's Fairy Tales,1,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.16479663604333397,True,sigmoid-family
+grimms_fairy_tales,Grimm's Fairy Tales,2,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.1649914362771524,True,sigmoid-family
+grimms_fairy_tales,Grimm's Fairy Tales,3,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.16550485072433857,False,bregman-family
+grimms_fairy_tales,Grimm's Fairy Tales,4,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.16705646289920434,False,other
+grimms_fairy_tales,Grimm's Fairy Tales,5,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.16733516871434567,False,bregman-family
+grimms_fairy_tales,Grimm's Fairy Tales,6,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.17009541382985208,False,other
+grimms_fairy_tales,Grimm's Fairy Tales,7,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.17026063742675127,False,other
+grimms_fairy_tales,Grimm's Fairy Tales,8,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.17138560205116826,False,other
+grimms_fairy_tales,Grimm's Fairy Tales,9,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1718680016624955,False,other
+grimms_fairy_tales,Grimm's Fairy Tales,10,"mul[sub[1,x],sub[1,x]]",((1-x)*(1-x)),0.17299875265967107,False,polynomial
+jane_eyre,Jane Eyre,1,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.16183967151697898,True,sigmoid-family
+jane_eyre,Jane Eyre,2,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.1622501034044777,True,sigmoid-family
+jane_eyre,Jane Eyre,3,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.16333010797099165,False,bregman-family
+jane_eyre,Jane Eyre,4,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.16395623934384868,False,other
+jane_eyre,Jane Eyre,5,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.16537552370333009,False,other
+jane_eyre,Jane Eyre,6,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.1667835051731643,False,other
+jane_eyre,Jane Eyre,7,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.1669347201354299,False,polynomial
+jane_eyre,Jane Eyre,8,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.16707255792195488,False,bregman-family
+jane_eyre,Jane Eyre,9,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.167205257156014,False,other
+jane_eyre,Jane Eyre,10,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.16745026079733993,False,other
+moby_dick,Moby Dick,1,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.1621264751767362,True,sigmoid-family
+moby_dick,Moby Dick,2,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.16249722422631613,True,sigmoid-family
+moby_dick,Moby Dick,3,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.16334575772525425,False,bregman-family
+moby_dick,Moby Dick,4,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.1643352350610081,False,other
+moby_dick,Moby Dick,5,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.16527313193343499,False,other
+moby_dick,Moby Dick,6,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.16619014146964828,False,other
+moby_dick,Moby Dick,7,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.16664448215301997,False,polynomial
+moby_dick,Moby Dick,8,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.16670359434462198,False,other
+moby_dick,Moby Dick,9,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.1668446074380373,False,bregman-family
+moby_dick,Moby Dick,10,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.1672059075720332,False,other
+pride_and_prejudice,Pride and Prejudice,1,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.16675903402110864,True,sigmoid-family
+pride_and_prejudice,Pride and Prejudice,2,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.16687219849357496,True,sigmoid-family
+pride_and_prejudice,Pride and Prejudice,3,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.16783926418160022,False,bregman-family
+pride_and_prejudice,Pride and Prejudice,4,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.17026931052871588,False,other
+pride_and_prejudice,Pride and Prejudice,5,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.17040718698413082,False,other
+pride_and_prejudice,Pride and Prejudice,6,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.17136127135128554,False,bregman-family
+pride_and_prejudice,Pride and Prejudice,7,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.17247679441468952,False,other
+pride_and_prejudice,Pride and Prejudice,8,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.17261218799183198,False,other
+pride_and_prejudice,Pride and Prejudice,9,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.17278689290997679,False,other
+pride_and_prejudice,Pride and Prejudice,10,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.17328369472839575,False,other
+ulysses,Ulysses,1,"eml[sub[x,1],eml[x,1]]","EML((x-1),EML(x,1))",0.1830188859516618,False,bregman-family
+ulysses,Ulysses,2,"sub[pow[x,x],sqrt[x]]","(pow(x,x)-sqrt(x))",0.18357922799465115,False,other
+ulysses,Ulysses,3,"sub[sin[x],erf[x]]",(sin(x)-erf(x)),0.18398606344704732,True,sigmoid-family
+ulysses,Ulysses,4,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.1841920533333066,False,other
+ulysses,Ulysses,5,"sub[erf[x],sin[x]]",(erf(x)-sin(x)),0.1844967834764301,True,sigmoid-family
+ulysses,Ulysses,6,"sub[sub[x,1],log[x]]",((x-1)-log(x)),0.1847061265396885,False,bregman-family
+ulysses,Ulysses,7,"mul[sub[1,x],sub[1,x]]",((1-x)*(1-x)),0.18493789288633808,False,polynomial
+ulysses,Ulysses,8,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.18809680839157453,False,other
+ulysses,Ulysses,9,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.18904552706641847,False,other
+ulysses,Ulysses,10,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.1890766606627257,False,other

@@ -1,0 +1,52 @@
+{
+  "experiment_id": "3d_pos_crossover_scaling",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_pos_all_corpora",
+    "results/zipf_pos_manual_v2"
+  ],
+  "outputs": {
+    "pos_scaling_points.csv": {
+      "rows": 25,
+      "schema": [
+        "slug",
+        "corpus",
+        "vocabulary_size",
+        "sqrt_v",
+        "k_crossover",
+        "alpha_per_corpus",
+        "log_vocabulary_size",
+        "log_k_crossover",
+        "crossover_deviation_from_sqrt_v",
+        "censored_at_top_n"
+      ]
+    },
+    "manual_validation.csv": {
+      "rows": 4,
+      "schema": [
+        "slug",
+        "corpus",
+        "source",
+        "vocabulary_size",
+        "manual_k_crossover",
+        "manual_alpha_per_corpus",
+        "spacy_k_crossover",
+        "abs_manual_minus_spacy_rank_gap",
+        "has_top300_manual_csv"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 9,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "audit_flags": [
+    "Manual validation has four alpha points but only three top300 manual POS CSV files.",
+    "Claim map/manuscript mention max rank gap 15; available data gives 10."
+  ]
+}

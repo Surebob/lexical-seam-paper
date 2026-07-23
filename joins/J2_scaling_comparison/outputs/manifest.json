@@ -1,0 +1,40 @@
+{
+  "join_id": "J2_scaling_comparison",
+  "generated_at_utc": "2026-04-20T04:06:28.543530+00:00",
+  "producer": "joins/J2_scaling_comparison/scripts/build_scaling_comparison.py",
+  "outputs": {
+    "scaling_comparison_summary.csv": {
+      "path": "joins/J2_scaling_comparison/outputs/scaling_comparison_summary.csv",
+      "rows": 6,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "upstreams": {
+    "3e_erf_fits": "experiments/3e_gate_family_bic_sweep/outputs/per_fit_results.csv",
+    "3e_per_corpus": "experiments/3e_gate_family_bic_sweep/outputs/per_corpus_results.csv",
+    "3d_pos": "experiments/3d_pos_crossover_scaling/outputs/aggregate_statistics.csv"
+  },
+  "method": {
+    "kstat_source": "OLS beta from experiment 3e erf k values joined to experiment 3e vocab sizes.",
+    "kstat_ols": {
+      "n": 25.0,
+      "intercept_alpha": -1.6343386790203684,
+      "beta": 0.758365585868885,
+      "beta_se": 0.19950759267693288,
+      "beta_ci_low": 0.34565268594136417,
+      "beta_ci_high": 1.1710784857964058,
+      "df": 23.0,
+      "r2": 0.3858317170270972,
+      "rss": 6.3295985110867
+    },
+    "ci": "Welch-propagated 95% Student-t CI using decoupled beta SE and POS alpha SE.",
+    "p_value": "Two-sided Welch t-test.",
+    "welch_df": 23.042291400815348,
+    "pos_alpha_se_from_ci": 0.006049264366279765
+  }
+}

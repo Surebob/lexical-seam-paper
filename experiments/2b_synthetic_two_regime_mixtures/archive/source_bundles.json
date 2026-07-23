@@ -1,0 +1,6 @@
+{
+  "source_bundles": [
+    "results/zipf_synthetic_mixture",
+    "results/zipf_breakthrough_probe"
+  ]
+}

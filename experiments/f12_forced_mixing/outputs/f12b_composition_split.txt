@@ -1,0 +1,37 @@
+Per-corpus s/V (sorted):
+  aggregate  s/V=0.00913  V=  7157  s=   65.4  Dubliners
+  single     s/V=0.00945  V= 28990  s=  274.1  Ulysses
+  aggregate  s/V=0.00996  V=  4394  s=   43.8  Aesop's Fables
+  aggregate  s/V=0.01022  V= 13883  s=  142.0  Arabian Nights (Vol 1)
+  aggregate  s/V=0.01084  V=  9312  s=  101.0  Collected Poe
+  aggregate  s/V=0.01101  V=  7817  s=   86.1  Complete Sherlock Holmes
+  single     s/V=0.01112  V=  6537  s=   72.7  Critique of Pure Reason
+  aggregate  s/V=0.01126  V= 17653  s=  198.7  Canterbury Tales
+  single     s/V=0.01135  V= 15983  s=  181.4  Decline and Fall Vol 1
+  single     s/V=0.01136  V= 16956  s=  192.6  Moby Dick
+  single     s/V=0.01177  V=  6729  s=   79.2  Pride and Prejudice
+  single     s/V=0.01182  V= 11174  s=  132.1  Emile
+  single     s/V=0.01183  V= 12541  s=  148.3  Jane Eyre
+  single     s/V=0.01191  V= 12300  s=  146.5  The Iliad
+  single     s/V=0.01210  V=  3814  s=   46.2  Principia Ethica
+  aggregate  s/V=0.01222  V=  4746  s=   58.0  Grimm's Fairy Tales
+  single     s/V=0.01222  V= 22677  s=  277.1  Les Miserables
+  single     s/V=0.01238  V= 15574  s=  192.8  Don Quixote
+  aggregate  s/V=0.01245  V= 24458  s=  304.5  Complete Works of Shakespeare
+  single     s/V=0.01248  V=  9301  s=  116.1  Democracy in America
+  aggregate  s/V=0.01273  V=  8617  s=  109.7  Federalist Papers
+  aggregate  s/V=0.01301  V= 12555  s=  163.3  King James Bible
+  single     s/V=0.01302  V= 17445  s=  227.2  War and Peace
+  single     s/V=0.01303  V=  6887  s=   89.7  Origin of Species
+  single     s/V=0.01312  V=  9478  s=  124.4  Wealth of Nations
+
+single    n=15  mean s/V=0.01193  sd=0.00092  median=0.01191  range=[0.00945,0.01312]
+aggregate n=10  mean s/V=0.01128  sd=0.00129  median=0.01113  range=[0.00913,0.01301]
+
+Welch t-test  single vs aggregate:  t=-1.371  p=0.190
+Mann-Whitney U (rank, distribution-free): U=50.0  p=0.174
+
+Bootstrap mean(aggregate) - mean(single) = -0.00065
+  95% CI [-0.00152, +0.00024]  (contains 0 => indistinguishable)
+  corr(log V, log s/V) [single] = -0.375  (near 0 => s/V flat in V)
+  corr(log V, log s/V) [aggregate] = +0.329  (near 0 => s/V flat in V)

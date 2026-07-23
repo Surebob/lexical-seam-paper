@@ -1,0 +1,2895 @@
+{
+  "rows": [
+    {
+      "slug": "shakespeare",
+      "name": "Complete Works of Shakespeare",
+      "token_count": 988670,
+      "vocab_size": 24458,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.621295752687553,
+            "zm": 4.527264531046672,
+            "moe": 4.589778232616867,
+            "softk": 4.543036505959832
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.04674172665703491,
+          "softk_minus_zm": 0.01577197491315996,
+          "softk_minus_zipf": -0.078259246727721
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 5.03036176207807,
+            "zm": 4.856260509102248,
+            "moe": 4.907014126684411,
+            "softk": 4.8782026584963
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.028811468188110645,
+          "softk_minus_zm": 0.021942149394051924,
+          "softk_minus_zipf": -0.15215910358176998
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 5.366804742591818,
+            "zm": 5.159650864566742,
+            "moe": 5.190471416369825,
+            "softk": 5.184780879261143
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.005690537108682392,
+          "softk_minus_zm": 0.025130014694401126,
+          "softk_minus_zipf": -0.18202386333067544
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.77683106823372,
+            "zm": 5.563381112185421,
+            "moe": 5.567993847246362,
+            "softk": 5.583226132342532
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.015232285096169917,
+          "softk_minus_zm": 0.019845020157111648,
+          "softk_minus_zipf": -0.19360493589118732
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 6.089576819678412,
+            "zm": 5.889802372638554,
+            "moe": 5.879427381244254,
+            "softk": 5.895184818742507
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.015757437498253424,
+          "softk_minus_zm": 0.005382446103952887,
+          "softk_minus_zipf": -0.19439200093590525
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.987294124701005,
+            "zm": 6.886706263261564,
+            "moe": 6.885901469512454,
+            "softk": 6.882154461847067
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.0037470076653871587,
+          "softk_minus_zm": -0.004551801414496737,
+          "softk_minus_zipf": -0.10513966285393828
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.0363749750459028,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.029801530300526596,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.023892012116598922,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.02064914603526482,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.016258369797493552,
+          "helps": false
+        },
+        "full": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.0010896150246089142,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "war_and_peace",
+      "name": "War and Peace",
+      "token_count": 583368,
+      "vocab_size": 17445,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.325236619823667,
+            "zm": 4.275979996778184,
+            "moe": 4.325511286777305,
+            "softk": 4.3135284574154324
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.011982829361872227,
+          "softk_minus_zm": 0.03754846063724848,
+          "softk_minus_zipf": -0.011708162408234912
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.689003372270712,
+            "zm": 4.599307303584137,
+            "moe": 4.631805028997445,
+            "softk": 4.64030786220721
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.008502833209764304,
+          "softk_minus_zm": 0.041000558623072614,
+          "softk_minus_zipf": -0.048695510063502034
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 5.068277611343874,
+            "zm": 4.958789141620635,
+            "moe": 4.969449850456851,
+            "softk": 4.991755326829891
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.022305476373039923,
+          "softk_minus_zm": 0.03296618520925598,
+          "softk_minus_zipf": -0.07652228451398368
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.512708390081865,
+            "zm": 5.400835079951594,
+            "moe": 5.388830975970513,
+            "softk": 5.408986435730798
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.020155459760284877,
+          "softk_minus_zm": 0.008151355779204117,
+          "softk_minus_zipf": -0.10372195435106768
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.8395185505993785,
+            "zm": 5.737250226979192,
+            "moe": 5.714696601918907,
+            "softk": 5.721093915091747
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.006397313172840313,
+          "softk_minus_zm": -0.016156311887445263,
+          "softk_minus_zipf": -0.11842463550763149
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.728314623077691,
+            "zm": 6.685806986839008,
+            "moe": 6.678027667860953,
+            "softk": 6.678678865152861
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.000651197291907657,
+          "softk_minus_zm": -0.007128121686147182,
+          "softk_minus_zipf": -0.04963575792482988
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.02985940455121383,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.03214468702424132,
+          "helps": false
+        },
+        "top200": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.011567709953452326,
+          "helps": false
+        },
+        "top500": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.005539672474597149,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.005659473780548097,
+          "helps": false
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0009358103826155872,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "moby_dick",
+      "name": "Moby Dick",
+      "token_count": 219054,
+      "vocab_size": 16956,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.325385795252989,
+            "zm": 4.299386655629538,
+            "moe": 4.336406023344887,
+            "softk": 4.332557375611218
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.0038486477336689973,
+          "softk_minus_zm": 0.03317071998167975,
+          "softk_minus_zipf": 0.007171580358229512
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.7098469427416205,
+            "zm": 4.653280753803315,
+            "moe": 4.677216267807484,
+            "softk": 4.680034866071619
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.002818598264134664,
+          "softk_minus_zm": 0.026754112268303487,
+          "softk_minus_zipf": -0.02981207667000163
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 5.081858204040724,
+            "zm": 5.010766533924114,
+            "moe": 5.0186597494169805,
+            "softk": 5.0221971231166505
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.003537373699669999,
+          "softk_minus_zm": 0.011430589192536367,
+          "softk_minus_zipf": -0.05966108092407385
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.499867085364925,
+            "zm": 5.426066436904787,
+            "moe": 5.417392532866205,
+            "softk": 5.417304026641254
+          },
+          "winner": "softk",
+          "softk_minus_moe": -8.850622495071292e-05,
+          "softk_minus_zm": -0.008762410263532416,
+          "softk_minus_zipf": -0.08256305872367076
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.799932923406829,
+            "zm": 5.731191078822747,
+            "moe": 5.714449830630524,
+            "softk": 5.714660990156417
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.00021115952589312315,
+          "softk_minus_zm": -0.016530088666330656,
+          "softk_minus_zipf": -0.0852719332504126
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.963919141212996,
+            "zm": 6.947351041367365,
+            "moe": 6.94910570072398,
+            "softk": 6.948129203324875
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.0009764973991046588,
+          "softk_minus_zm": 0.0007781619575100152,
+          "softk_minus_zipf": -0.015789937888120775
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": -0.02863921432926328,
+          "helps": false
+        },
+        "top100": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": -0.010235569712402928,
+          "helps": false
+        },
+        "top200": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.0018585772090735225,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.004973515128425782,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": 0.012734436564756174,
+          "helps": true
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0004310221974201389,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "king_james_bible",
+      "name": "King James Bible",
+      "token_count": 792180,
+      "vocab_size": 12555,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.093816083027682,
+            "zm": 4.043901683848845,
+            "moe": 4.071734126584886,
+            "softk": 4.106930087462777
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.0351959608778909,
+          "softk_minus_zm": 0.0630284036139317,
+          "softk_minus_zipf": 0.013114004435094806
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.503012163961198,
+            "zm": 4.413892733278405,
+            "moe": 4.420783044964394,
+            "softk": 4.448872099595951
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.028089054631556643,
+          "softk_minus_zm": 0.034979366317545946,
+          "softk_minus_zipf": -0.05414006436524765
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.865269651820569,
+            "zm": 4.762391958974505,
+            "moe": 4.750408508734183,
+            "softk": 4.759063181811828
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.008654673077645114,
+          "softk_minus_zm": -0.003328777162677099,
+          "softk_minus_zipf": -0.10620647000874062
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.269100507205842,
+            "zm": 5.170225010729366,
+            "moe": 5.143056856768994,
+            "softk": 5.130377318161099
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.012679538607894614,
+          "softk_minus_zm": -0.0398476925682667,
+          "softk_minus_zipf": -0.13872318904474223
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.534342256285429,
+            "zm": 5.446932553532536,
+            "moe": 5.415677384335553,
+            "softk": 5.398846028430836
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.01683135590471707,
+          "softk_minus_zm": -0.04808652510169953,
+          "softk_minus_zipf": -0.1354962278545928
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.080495234984778,
+            "zm": 6.0351662551816245,
+            "moe": 6.017965050637185,
+            "softk": 6.016425262838996
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.0015397877981895292,
+          "softk_minus_zm": -0.018740992342628715,
+          "softk_minus_zipf": -0.06406997214578247
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": 0.0008484166561914253,
+          "helps": true
+        },
+        "top100": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": 0.011807422198793896,
+          "helps": true
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.00827718666235891,
+          "helps": false
+        },
+        "top500": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": 0.008521043127659209,
+          "helps": true
+        },
+        "top1000": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": 0.010384788481152568,
+          "helps": true
+        },
+        "full": {
+          "expr": "eml[neg[x],add[x,x]]",
+          "gain": 0.0894896871269378,
+          "helps": true
+        }
+      }
+    },
+    {
+      "slug": "federalist_papers",
+      "name": "Federalist Papers",
+      "token_count": 192302,
+      "vocab_size": 8617,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 3.9622843267298613,
+            "zm": 3.9393664224900085,
+            "moe": 3.960439514532199,
+            "softk": 3.972459442318296
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.01201992778609684,
+          "softk_minus_zm": 0.033093019828287495,
+          "softk_minus_zipf": 0.010175115588434647
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.318394900171573,
+            "zm": 4.2841362697511745,
+            "moe": 4.2920872626111235,
+            "softk": 4.318818195630321
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.0267309330191976,
+          "softk_minus_zm": 0.03468192587914665,
+          "softk_minus_zipf": 0.0004232954587477522
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.654103345743183,
+            "zm": 4.615970125093551,
+            "moe": 4.612844204105377,
+            "softk": 4.642013056265928
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.029168852160551317,
+          "softk_minus_zm": 0.026042931172376882,
+          "softk_minus_zipf": -0.012090289477254323
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.10360766334545,
+            "zm": 5.067653945040607,
+            "moe": 5.0544040279667115,
+            "softk": 5.068331508583362
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.013927480616650278,
+          "softk_minus_zm": 0.0006775635427551663,
+          "softk_minus_zipf": -0.03527615476208812
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.430590360802245,
+            "zm": 5.400013297415596,
+            "moe": 5.383913651419427,
+            "softk": 5.380007979204175
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.003905672215251954,
+          "softk_minus_zm": -0.02000531821142104,
+          "softk_minus_zipf": -0.050582381598070825
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.207760950769132,
+            "zm": 6.199416070500408,
+            "moe": 6.196934223897512,
+            "softk": 6.199844992900314
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.0029107690028018496,
+          "softk_minus_zm": 0.0004289223999052183,
+          "softk_minus_zipf": -0.007915957868818602
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.026602790576721366,
+          "helps": false
+        },
+        "top100": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": 0.002991909032486792,
+          "helps": true
+        },
+        "top200": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.003253551596295756,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.00746680449407696,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.0005850963132490311,
+          "helps": false
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0018337847342417835,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "grimms_fairy_tales",
+      "name": "Grimm's Fairy Tales",
+      "token_count": 102114,
+      "vocab_size": 4746,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.281724170552089,
+            "zm": 4.213477235752963,
+            "moe": 4.238581501119786,
+            "softk": 4.264607438198147
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.026025937078361316,
+          "softk_minus_zm": 0.05113020244518385,
+          "softk_minus_zipf": -0.01711673235394251
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.64526343641277,
+            "zm": 4.5415687791666945,
+            "moe": 4.548900496877882,
+            "softk": 4.557413079365721
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.008512582487838927,
+          "softk_minus_zm": 0.01584430019902605,
+          "softk_minus_zipf": -0.08785035704704924
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 5.026566569042341,
+            "zm": 4.912429719274276,
+            "moe": 4.900171433955745,
+            "softk": 4.891388818467554
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.008782615488191148,
+          "softk_minus_zm": -0.02104090080672183,
+          "softk_minus_zipf": -0.13517775057478687
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.43519422913028,
+            "zm": 5.332953496890163,
+            "moe": 5.306984750543116,
+            "softk": 5.294670314267547
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.012314436275568497,
+          "softk_minus_zm": -0.03828318262261554,
+          "softk_minus_zipf": -0.14052391486273308
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.709966825674634,
+            "zm": 5.626605717552336,
+            "moe": 5.599285156397153,
+            "softk": 5.591598388897545
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.0076867674996083935,
+          "softk_minus_zm": -0.035007328654791614,
+          "softk_minus_zipf": -0.11836843677708941
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.128784795037904,
+            "zm": 6.088523680073925,
+            "moe": 6.077646160664019,
+            "softk": 6.077603811556091
+          },
+          "winner": "softk",
+          "softk_minus_moe": -4.2349107927996954e-05,
+          "softk_minus_zm": -0.010919868517833997,
+          "softk_minus_zipf": -0.05118098348181377
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": 0.00230656260209626,
+          "helps": true
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.013546730268754192,
+          "helps": false
+        },
+        "top200": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.006478556442755565,
+          "helps": false
+        },
+        "top500": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.0042090397702838345,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.0025107049177664487,
+          "helps": false
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0004983982554198074,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "don_quixote",
+      "name": "Don Quixote",
+      "token_count": 433304,
+      "vocab_size": 15574,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.38335904383722,
+            "zm": 4.295361115266339,
+            "moe": 4.337605761670451,
+            "softk": 4.303016836120531
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.03458892554991966,
+          "softk_minus_zm": 0.007655720854192083,
+          "softk_minus_zipf": -0.08034220771668821
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.743061839623665,
+            "zm": 4.61212836831963,
+            "moe": 4.64031125966066,
+            "softk": 4.622130935768978
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.01818032389168156,
+          "softk_minus_zm": 0.010002567449348021,
+          "softk_minus_zipf": -0.12093090385468663
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 5.067623869253,
+            "zm": 4.920237830875505,
+            "moe": 4.931336929165749,
+            "softk": 4.93243447125883
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.0010975420930812163,
+          "softk_minus_zm": 0.012196640383325352,
+          "softk_minus_zipf": -0.13518939799416962
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.459825717352129,
+            "zm": 5.314752812022188,
+            "moe": 5.307410846771591,
+            "softk": 5.32331501646149
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.015904169689899383,
+          "softk_minus_zm": 0.008562204439302334,
+          "softk_minus_zipf": -0.1365107008906392
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.740769074289566,
+            "zm": 5.6082921736551965,
+            "moe": 5.592760068405524,
+            "softk": 5.6078847065537225
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.015124638148198422,
+          "softk_minus_zm": -0.00040746710147399057,
+          "softk_minus_zipf": -0.13288436773584333
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.5561671213110975,
+            "zm": 6.496279797495423,
+            "moe": 6.49630277625205,
+            "softk": 6.496925073059477
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.0006222968074265367,
+          "softk_minus_zm": 0.0006452755640538044,
+          "softk_minus_zipf": -0.059242048251620716
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.009899332058060567,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.023129946934353093,
+          "helps": false
+        },
+        "top200": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.014653249568279361,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.013330576566181862,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.01014751218493954,
+          "helps": false
+        },
+        "full": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.0013981574011522058,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "pride_and_prejudice",
+      "name": "Pride and Prejudice",
+      "token_count": 128565,
+      "vocab_size": 6729,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.515950727443694,
+            "zm": 4.382694209325181,
+            "moe": 4.430041731448635,
+            "softk": 4.392866911723738
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.03717481972489711,
+          "softk_minus_zm": 0.010172702398556943,
+          "softk_minus_zipf": -0.12308381571995586
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.872232354398044,
+            "zm": 4.691168709404083,
+            "moe": 4.722742261909364,
+            "softk": 4.704670236458209
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.01807202545115505,
+          "softk_minus_zm": 0.01350152705412544,
+          "softk_minus_zipf": -0.167562117939835
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 5.192640897342903,
+            "zm": 4.997719183981026,
+            "moe": 5.010428236970967,
+            "softk": 5.01205621278683
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.0016279758158628255,
+          "softk_minus_zm": 0.01433702880580423,
+          "softk_minus_zipf": -0.1805846845560728
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.589816339160072,
+            "zm": 5.408421633777384,
+            "moe": 5.4020102883492305,
+            "softk": 5.413024929664562
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.011014641315331808,
+          "softk_minus_zm": 0.004603295887178227,
+          "softk_minus_zipf": -0.1767914094955101
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.8631571145811,
+            "zm": 5.7056722677428215,
+            "moe": 5.693387098104993,
+            "softk": 5.697791335656536
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.0044042375515429555,
+          "softk_minus_zm": -0.007880932086285597,
+          "softk_minus_zipf": -0.1653657789245644
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.413204348135392,
+            "zm": 6.332858287664597,
+            "moe": 6.338649310626814,
+            "softk": 6.336783021894429
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.0018662887323852573,
+          "softk_minus_zm": 0.003924734229832083,
+          "softk_minus_zipf": -0.07642132624096298
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.03807156834902291,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.03216884675678921,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.021947958016433122,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.01901726082475582,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.016664097056849188,
+          "helps": false
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0026861175930713577,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "canterbury_tales",
+      "name": "Canterbury Tales",
+      "token_count": 281189,
+      "vocab_size": 17653,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.4333046681504396,
+            "zm": 4.354996812738518,
+            "moe": 4.410433812060124,
+            "softk": 4.363435401391959
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.04699841066816557,
+          "softk_minus_zm": 0.008438588653440604,
+          "softk_minus_zipf": -0.06986926675848082
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.794138776626341,
+            "zm": 4.677062784269737,
+            "moe": 4.718763879693407,
+            "softk": 4.690907545644896
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.0278563340485114,
+          "softk_minus_zm": 0.013844761375158221,
+          "softk_minus_zipf": -0.1032312309814456
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 5.116165789671594,
+            "zm": 4.9832951046175635,
+            "moe": 5.007957600760369,
+            "softk": 4.999395894451292
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.008561706309076378,
+          "softk_minus_zm": 0.016100789833728868,
+          "softk_minus_zipf": -0.11676989522030201
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.526428468021393,
+            "zm": 5.393496699456239,
+            "moe": 5.397481997390814,
+            "softk": 5.4035717670997725
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.006089769708958137,
+          "softk_minus_zm": 0.010075067643533053,
+          "softk_minus_zipf": -0.12285670092162082
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.832820790474564,
+            "zm": 5.710026913159464,
+            "moe": 5.703064491589429,
+            "softk": 5.709678411706843
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.006613920117414018,
+          "softk_minus_zm": -0.0003485014526205532,
+          "softk_minus_zipf": -0.12314237876772083
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.850582452091423,
+            "zm": 6.803568686885705,
+            "moe": 6.812278605191087,
+            "softk": 6.806097442244247
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.006181162946839791,
+          "softk_minus_zm": 0.002528755358541801,
+          "softk_minus_zipf": -0.04448500984717629
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.04276187974862321,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0332497815840083,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.023959859299125683,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.019720765542306035,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.01593414155685373,
+          "helps": false
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0011308453724043765,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "arabian_nights_vol1",
+      "name": "Arabian Nights (Vol 1)",
+      "token_count": 176048,
+      "vocab_size": 13883,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.278869424997023,
+            "zm": 4.237089044286273,
+            "moe": 4.2720248130887795,
+            "softk": 4.257229851581542
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.01479496150723758,
+          "softk_minus_zm": 0.02014080729526846,
+          "softk_minus_zipf": -0.02163957341548084
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.623807848851472,
+            "zm": 4.558253291975097,
+            "moe": 4.580145016806261,
+            "softk": 4.580894323970699
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.0007493071644377736,
+          "softk_minus_zm": 0.022641031995601857,
+          "softk_minus_zipf": -0.042913524880773046
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.961560002891899,
+            "zm": 4.885939349298391,
+            "moe": 4.89313519718516,
+            "softk": 4.904636021447918
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.011500824262758336,
+          "softk_minus_zm": 0.018696672149527416,
+          "softk_minus_zipf": -0.05692398144398059
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.393403692943568,
+            "zm": 5.31792758891626,
+            "moe": 5.309031134802197,
+            "softk": 5.32199713136506
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.012965996562862792,
+          "softk_minus_zm": 0.004069542448799979,
+          "softk_minus_zipf": -0.07140656157850778
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.708190976219401,
+            "zm": 5.639690189352204,
+            "moe": 5.623506106346747,
+            "softk": 5.630730772768383
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.007224666421635995,
+          "softk_minus_zm": -0.008959416583820712,
+          "softk_minus_zipf": -0.07746020345101812
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.706085717676725,
+            "zm": 6.685473211034842,
+            "moe": 6.68667142363636,
+            "softk": 6.687754725961309
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.0010833023249485763,
+          "softk_minus_zm": 0.0022815149264667767,
+          "softk_minus_zipf": -0.01833099171541619
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.014047847019555582,
+          "helps": false
+        },
+        "top100": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": 0.0023796617702514233,
+          "helps": true
+        },
+        "top200": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.008158220329615523,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.009461327367524607,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.007558354158444289,
+          "helps": false
+        },
+        "full": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": 0.0011603129084946096,
+          "helps": true
+        }
+      }
+    },
+    {
+      "slug": "aesops_fables",
+      "name": "Aesop's Fables",
+      "token_count": 41594,
+      "vocab_size": 4394,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.100209181726576,
+            "zm": 4.071128251360304,
+            "moe": 4.087679097432396,
+            "softk": 4.097076033506537
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.009396936074140605,
+          "softk_minus_zm": 0.025947782146232612,
+          "softk_minus_zipf": -0.0031331482200389615
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.497522420113506,
+            "zm": 4.4541784657277965,
+            "moe": 4.456116010054979,
+            "softk": 4.456033976757518
+          },
+          "winner": "zm",
+          "softk_minus_moe": -8.203329746070409e-05,
+          "softk_minus_zm": 0.0018555110297215904,
+          "softk_minus_zipf": -0.04148844335598767
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.839187970431209,
+            "zm": 4.792808348389998,
+            "moe": 4.783487865889819,
+            "softk": 4.776996046426674
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.006491819463144921,
+          "softk_minus_zm": -0.01581230196332406,
+          "softk_minus_zipf": -0.06219192400453544
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.235152478903753,
+            "zm": 5.193728225495312,
+            "moe": 5.176542419805529,
+            "softk": 5.171919281324822
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.004623138480707389,
+          "softk_minus_zm": -0.021808944170490285,
+          "softk_minus_zipf": -0.06323319757893131
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.5238297143297705,
+            "zm": 5.490185336783799,
+            "moe": 5.472250850168901,
+            "softk": 5.4719533799604125
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.0002974702084888037,
+          "softk_minus_zm": -0.018231956823386852,
+          "softk_minus_zipf": -0.05187633436935801
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.226453453821152,
+            "zm": 6.221750903154405,
+            "moe": 6.22365870317628,
+            "softk": 6.22074737680541
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.0029113263708699932,
+          "softk_minus_zm": -0.0010035263489944768,
+          "softk_minus_zipf": -0.005706077015741329
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[1,x],eml[1,x]]",
+          "gain": -0.03749340268782514,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.02309785772290343,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.01754782653989101,
+          "helps": false
+        },
+        "top500": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.0028608500998972344,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.009838847535016973,
+          "helps": false
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0015259890005038523,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "complete_sherlock_holmes",
+      "name": "Complete Sherlock Holmes",
+      "token_count": 105863,
+      "vocab_size": 7817,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.394061064481104,
+            "zm": 4.296341049221136,
+            "moe": 4.340940967035025,
+            "softk": 4.29551713723951
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.0454238297955154,
+          "softk_minus_zm": -0.0008239119816257912,
+          "softk_minus_zipf": -0.098543927241594
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.757326658972315,
+            "zm": 4.624720883148024,
+            "moe": 4.654490528149713,
+            "softk": 4.629554399589969
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.024936128559744475,
+          "softk_minus_zm": 0.004833516441944852,
+          "softk_minus_zipf": -0.12777225938234604
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 5.0703397145341444,
+            "zm": 4.928433900670632,
+            "moe": 4.9420123554023,
+            "softk": 4.937827440020989
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.0041849153813107165,
+          "softk_minus_zm": 0.009393539350356583,
+          "softk_minus_zipf": -0.1325122745131555
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.454007412698273,
+            "zm": 5.319954550730808,
+            "moe": 5.316867971205799,
+            "softk": 5.3273666564599935
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.01049868525419484,
+          "softk_minus_zm": 0.007412105729185825,
+          "softk_minus_zipf": -0.1266407562382792
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.729974499069209,
+            "zm": 5.611588676876511,
+            "moe": 5.602143567903294,
+            "softk": 5.611020756191627
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.008877188288333393,
+          "softk_minus_zm": -0.0005679206848832052,
+          "softk_minus_zipf": -0.11895374287758198
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.493105179966957,
+            "zm": 6.447377412310836,
+            "moe": 6.456988589888799,
+            "softk": 6.453747597117771
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.003240992771027962,
+          "softk_minus_zm": 0.006370184806935519,
+          "softk_minus_zipf": -0.03935758284918567
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.02283579242248064,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.026297317923273902,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.021679067766102185,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.017226335348098712,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.015491366534688751,
+          "helps": false
+        },
+        "full": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": 0.00019275310219099562,
+          "helps": true
+        }
+      }
+    },
+    {
+      "slug": "jane_eyre",
+      "name": "Jane Eyre",
+      "token_count": 189604,
+      "vocab_size": 12541,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.406198144505625,
+            "zm": 4.320338945439086,
+            "moe": 4.373998816591715,
+            "softk": 4.322309888738684
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.05168892785303125,
+          "softk_minus_zm": 0.00197094329959846,
+          "softk_minus_zipf": -0.08388825576694092
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.7467861237984055,
+            "zm": 4.629351813279925,
+            "moe": 4.669424099716036,
+            "softk": 4.638581328098644
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.030842771617392017,
+          "softk_minus_zm": 0.009229514818718698,
+          "softk_minus_zipf": -0.10820479569976182
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 5.078927608534253,
+            "zm": 4.9491250410047885,
+            "moe": 4.971967002858252,
+            "softk": 4.963259467278252
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.00870753557999926,
+          "softk_minus_zm": 0.014134426273463951,
+          "softk_minus_zipf": -0.115668141256001
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.488930569113539,
+            "zm": 5.362293926149837,
+            "moe": 5.365820417448948,
+            "softk": 5.372723593329331
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.006903175880383472,
+          "softk_minus_zm": 0.010429667179494118,
+          "softk_minus_zipf": -0.11620697578420813
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.769945471792824,
+            "zm": 5.654465841232766,
+            "moe": 5.6493550421254906,
+            "softk": 5.655976858208183
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.006621816082692078,
+          "softk_minus_zm": 0.001511016975416446,
+          "softk_minus_zipf": -0.11396861358464161
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.685153958211458,
+            "zm": 6.639198902037371,
+            "moe": 6.649150527735459,
+            "softk": 6.642788574812209
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.006361952923249703,
+          "softk_minus_zm": 0.00358967277483746,
+          "softk_minus_zipf": -0.042365383399249446
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.025512487995971972,
+          "helps": false
+        },
+        "top100": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.027504838600287337,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0215925146475429,
+          "helps": false
+        },
+        "top500": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.01018614708620421,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.010263797989145583,
+          "helps": false
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0016077082842209933,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "dubliners",
+      "name": "Dubliners",
+      "token_count": 69264,
+      "vocab_size": 7157,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.346071015583651,
+            "zm": 4.278453551061081,
+            "moe": 4.319101864530301,
+            "softk": 4.290075291147845
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.029026573382456178,
+          "softk_minus_zm": 0.011621740086764198,
+          "softk_minus_zipf": -0.055995724435805805
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.691001184081959,
+            "zm": 4.598745913958304,
+            "moe": 4.625485768788617,
+            "softk": 4.614098915499791
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.01138685328882616,
+          "softk_minus_zm": 0.01535300154148711,
+          "softk_minus_zipf": -0.07690226858216853
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 5.035190815041345,
+            "zm": 4.9346211111423015,
+            "moe": 4.9452085405346144,
+            "softk": 4.94693985486776
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.0017313143331456615,
+          "softk_minus_zm": 0.012318743725458603,
+          "softk_minus_zipf": -0.08825096017358458
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.482996714484144,
+            "zm": 5.388535689064829,
+            "moe": 5.381825383310639,
+            "softk": 5.386909615513285
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.005084232202645644,
+          "softk_minus_zm": -0.0016260735515443159,
+          "softk_minus_zipf": -0.09608709897085888
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.774889632930244,
+            "zm": 5.692450223577021,
+            "moe": 5.67987342893198,
+            "softk": 5.681788315993398
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.001914887061417403,
+          "softk_minus_zm": -0.010661907583623176,
+          "softk_minus_zipf": -0.09310131693684642
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.541972737895993,
+            "zm": 6.5140093492139535,
+            "moe": 6.521278476962053,
+            "softk": 6.517051665375395
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.004226811586657497,
+          "softk_minus_zm": 0.0030423161614416827,
+          "softk_minus_zipf": -0.024921072520597498
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.027186583367430975,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.025560351647256452,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.023338236913435152,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.018238312775552296,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.013746719527685573,
+          "helps": false
+        },
+        "full": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": 0.0011538479227290455,
+          "helps": true
+        }
+      }
+    },
+    {
+      "slug": "the_iliad",
+      "name": "The Iliad",
+      "token_count": 194969,
+      "vocab_size": 12300,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.167422725603836,
+            "zm": 4.164017150050151,
+            "moe": 4.20981568179175,
+            "softk": 4.241032020687202
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.031216338895451834,
+          "softk_minus_zm": 0.07701487063705059,
+          "softk_minus_zipf": 0.073609295083366
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.557814160124749,
+            "zm": 4.540503572504167,
+            "moe": 4.562007881982552,
+            "softk": 4.610615437205321
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.04860755522276872,
+          "softk_minus_zm": 0.07011186470115405,
+          "softk_minus_zipf": 0.05280127708057236
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.940331354002146,
+            "zm": 4.916191166818482,
+            "moe": 4.916699323713641,
+            "softk": 4.9636045533785405
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.046905229664899295,
+          "softk_minus_zm": 0.047413386560058335,
+          "softk_minus_zipf": 0.02327319937639416
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.494200959931881,
+            "zm": 5.468193332848624,
+            "moe": 5.4467695199950885,
+            "softk": 5.464059593346388
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.017290073351299284,
+          "softk_minus_zm": -0.004133739502235834,
+          "softk_minus_zipf": -0.030141366585493046
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.8907672399158235,
+            "zm": 5.867516865495311,
+            "moe": 5.83814673777768,
+            "softk": 5.825681315481556
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.012465422296124018,
+          "softk_minus_zm": -0.041835550013755274,
+          "softk_minus_zipf": -0.06508592443426764
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.895521366908629,
+            "zm": 6.890807298983179,
+            "moe": 6.883404881675385,
+            "softk": 6.879693438081945
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.0037114435934402223,
+          "softk_minus_zm": -0.011113860901234673,
+          "softk_minus_zipf": -0.015827928826684712
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.03540629470362973,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.02660328259020693,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.020413198136067172,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.016452935085412734,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.013503604095905154,
+          "helps": false
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0013858788785054421,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "democracy_in_america",
+      "name": "Democracy in America",
+      "token_count": 187753,
+      "vocab_size": 9301,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 3.936767648557176,
+            "zm": 3.924322321892648,
+            "moe": 3.942937301570303,
+            "softk": 3.967534491723989
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.02459719015368611,
+          "softk_minus_zm": 0.04321216983134102,
+          "softk_minus_zipf": 0.030766843166813107
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.307350396736521,
+            "zm": 4.286075644891367,
+            "moe": 4.291246323009308,
+            "softk": 4.325092625120179
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.03384630211087103,
+          "softk_minus_zm": 0.03901698022881206,
+          "softk_minus_zipf": 0.01774222838365791
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.635839505933964,
+            "zm": 4.611443452629524,
+            "moe": 4.606495777520821,
+            "softk": 4.63628862190883
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.029792844388008888,
+          "softk_minus_zm": 0.024845169279306134,
+          "softk_minus_zipf": 0.00044911597486585464
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.104789810775068,
+            "zm": 5.081340021906887,
+            "moe": 5.066923370333473,
+            "softk": 5.075061756233105
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.008138385899632006,
+          "softk_minus_zm": -0.006278265673781647,
+          "softk_minus_zipf": -0.02972805454196248
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.465769093565166,
+            "zm": 5.445947473254305,
+            "moe": 5.428833733925922,
+            "softk": 5.4183005242672415
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.01053320965868032,
+          "softk_minus_zm": -0.02764694898706388,
+          "softk_minus_zipf": -0.047468569297924645
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.3184319916345855,
+            "zm": 6.314583858753442,
+            "moe": 6.311806433399232,
+            "softk": 6.311611212604429
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.00019522079480260857,
+          "softk_minus_zm": -0.0029726461490131584,
+          "softk_minus_zipf": -0.00682077903015621
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": -0.02194303982545058,
+          "helps": false
+        },
+        "top100": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": 0.019561143848385337,
+          "helps": true
+        },
+        "top200": {
+          "expr": "div[sub[1,x],eml[1,x]]",
+          "gain": -0.0038750139107646825,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.005993989019589169,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": 0.008053200343763361,
+          "helps": true
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0013453984406848196,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "origin_of_species",
+      "name": "Origin of Species",
+      "token_count": 156024,
+      "vocab_size": 6887,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.2394148233091755,
+            "zm": 4.198143009912232,
+            "moe": 4.235080845002977,
+            "softk": 4.251374707143812
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.01629386214083528,
+          "softk_minus_zm": 0.05323169723158028,
+          "softk_minus_zipf": 0.011959883834636642
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.603668426482107,
+            "zm": 4.53683458397076,
+            "moe": 4.553332597779077,
+            "softk": 4.5843649377945646
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.031032340015487492,
+          "softk_minus_zm": 0.047530353823804994,
+          "softk_minus_zipf": -0.019303488687542725
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.959016636648633,
+            "zm": 4.882832154872222,
+            "moe": 4.879783981318991,
+            "softk": 4.910467626726879
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.030683645407887816,
+          "softk_minus_zm": 0.027635471854656757,
+          "softk_minus_zipf": -0.048549009921753594
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.452972107773432,
+            "zm": 5.381552580021853,
+            "moe": 5.3593221801652,
+            "softk": 5.366931273364299
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.007609093199099526,
+          "softk_minus_zm": -0.014621306657553568,
+          "softk_minus_zipf": -0.08604083440913257
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.789826915823499,
+            "zm": 5.7301946685019605,
+            "moe": 5.703184935404163,
+            "softk": 5.690652972846237
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.01253196255792588,
+          "softk_minus_zm": -0.039541695655723075,
+          "softk_minus_zipf": -0.09917394297726201
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.406563746147002,
+            "zm": 6.383434243183849,
+            "moe": 6.374942420183649,
+            "softk": 6.375321709061686
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.00037928887803762024,
+          "softk_minus_zm": -0.008112534122163062,
+          "softk_minus_zipf": -0.03124203708531592
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": -0.010592110439020891,
+          "helps": false
+        },
+        "top100": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": -0.008196372260954432,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.014021039941777669,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.012969517565818198,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.006161191326489672,
+          "helps": false
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0016455215170733117,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "wealth_of_nations",
+      "name": "Wealth of Nations",
+      "token_count": 380080,
+      "vocab_size": 9478,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 3.9993587762792315,
+            "zm": 3.974646657080133,
+            "moe": 4.010273821621044,
+            "softk": 4.0462551388808965
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.03598131725985265,
+          "softk_minus_zm": 0.07160848180076362,
+          "softk_minus_zipf": 0.046896362601664965
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.429189766193421,
+            "zm": 4.378358822772827,
+            "moe": 4.3883940173803495,
+            "softk": 4.428306871769982
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.0399128543896321,
+          "softk_minus_zm": 0.04994804899715444,
+          "softk_minus_zipf": -0.00088289442343914
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.810767261282757,
+            "zm": 4.750699482715517,
+            "moe": 4.740369100040931,
+            "softk": 4.763639399848254
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.023270299807322203,
+          "softk_minus_zm": 0.012939917132736234,
+          "softk_minus_zipf": -0.04712786143450298
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.282003205933651,
+            "zm": 5.2246138123960995,
+            "moe": 5.19752565762183,
+            "softk": 5.1875610825932
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.009964575028629241,
+          "softk_minus_zm": -0.03705272980289909,
+          "softk_minus_zipf": -0.09444212334045066
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.600588765059706,
+            "zm": 5.551798845304026,
+            "moe": 5.520873768904871,
+            "softk": 5.4957593476285735
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.025114421276297705,
+          "softk_minus_zm": -0.05603949767545213,
+          "softk_minus_zipf": -0.10482941743113283
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.195766995601775,
+            "zm": 6.175560092867926,
+            "moe": 6.161544629142846,
+            "softk": 6.155611767747408
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.005932861395438138,
+          "softk_minus_zm": -0.019948325120517474,
+          "softk_minus_zipf": -0.04015522785436687
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.02109398727871234,
+          "helps": false
+        },
+        "top100": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": 0.004589596891796416,
+          "helps": true
+        },
+        "top200": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.00329649039350223,
+          "helps": false
+        },
+        "top500": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.004619192977614761,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": 0.005774408804989695,
+          "helps": true
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0007826936887813107,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "les_miserables",
+      "name": "Les Miserables",
+      "token_count": 575614,
+      "vocab_size": 22677,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.269161916223064,
+            "zm": 4.230606733024641,
+            "moe": 4.273720056177259,
+            "softk": 4.247728833670128
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.025991222507131262,
+          "softk_minus_zm": 0.017122100645487137,
+          "softk_minus_zipf": -0.021433082552936078
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.606742294283906,
+            "zm": 4.541211492317712,
+            "moe": 4.570927291317201,
+            "softk": 4.566397708240042
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.004529583077158783,
+          "softk_minus_zm": 0.02518621592233039,
+          "softk_minus_zipf": -0.04034458604386426
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.941220583186824,
+            "zm": 4.862696876232594,
+            "moe": 4.876593169238623,
+            "softk": 4.891137863591157
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.01454469435253447,
+          "softk_minus_zm": 0.028440987358563596,
+          "softk_minus_zipf": -0.05008271959566635
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.377220133797875,
+            "zm": 5.295805111881646,
+            "moe": 5.291117284737402,
+            "softk": 5.315326726089729
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.024209441352326166,
+          "softk_minus_zm": 0.019521614208082738,
+          "softk_minus_zipf": -0.061893407708146775
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.695424531815359,
+            "zm": 5.619380925895356,
+            "moe": 5.605301244472779,
+            "softk": 5.622260571087709
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.016959326614930603,
+          "softk_minus_zm": 0.002879645192352953,
+          "softk_minus_zipf": -0.07316396072764952
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.8275718271667,
+            "zm": 6.802444035183806,
+            "moe": 6.800381977779332,
+            "softk": 6.801859574689947
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.0014775969106146647,
+          "softk_minus_zm": -0.0005844604938589626,
+          "softk_minus_zipf": -0.025712252476753683
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.025060965926536158,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.02711188669736672,
+          "helps": false
+        },
+        "top200": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.01687842787218241,
+          "helps": false
+        },
+        "top500": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.003114324454891751,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.00605829707405553,
+          "helps": false
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0013088766963406384,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "decline_and_fall_vol1",
+      "name": "Decline and Fall Vol 1",
+      "token_count": 262698,
+      "vocab_size": 15983,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 3.8786551158119473,
+            "zm": 3.8784557993075452,
+            "moe": 3.887168164326155,
+            "softk": 3.9063197239025853
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.019151559576430444,
+          "softk_minus_zm": 0.027863924595040057,
+          "softk_minus_zipf": 0.027664608090637977
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.205491462818591,
+            "zm": 4.2049714028330705,
+            "moe": 4.207124908003498,
+            "softk": 4.245989250825304
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.03886434282180673,
+          "softk_minus_zm": 0.04101784799223385,
+          "softk_minus_zipf": 0.04049778800671344
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.554060788778424,
+            "zm": 4.553363031613308,
+            "moe": 4.550178834886374,
+            "softk": 4.5975674279503185
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.047388593063944384,
+          "softk_minus_zm": 0.0442043963370109,
+          "softk_minus_zipf": 0.04350663917189479
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.020728802757466,
+            "zm": 5.019983249961774,
+            "moe": 5.012382712569932,
+            "softk": 5.048017261241689
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.03563454867175775,
+          "softk_minus_zm": 0.02803401127991556,
+          "softk_minus_zipf": 0.027288458484223455
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.436133827535233,
+            "zm": 5.435461614685787,
+            "moe": 5.426234252905923,
+            "softk": 5.435170308688973
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.008936055783050456,
+          "softk_minus_zm": -0.00029130599681348457,
+          "softk_minus_zipf": -0.000963518846259781
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.721170793180686,
+            "zm": 6.7211701084082005,
+            "moe": 6.721115289041511,
+            "softk": 6.717869269968219
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.003246019073292139,
+          "softk_minus_zm": -0.003300838439981746,
+          "softk_minus_zipf": -0.003301523212467572
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": -0.014130225363536253,
+          "helps": false
+        },
+        "top100": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.018052255094962208,
+          "helps": false
+        },
+        "top200": {
+          "expr": "sub[sqrt[x],pow[x,x]]",
+          "gain": -0.007182314718062605,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.009536351069770237,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.010055556777750746,
+          "helps": false
+        },
+        "full": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -3.291230885033025e-05,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "emile",
+      "name": "Emile",
+      "token_count": 252843,
+      "vocab_size": 11174,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.453895568875522,
+            "zm": 4.352075402886931,
+            "moe": 4.3960579430408355,
+            "softk": 4.360680159222673
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.03537778381816281,
+          "softk_minus_zm": 0.008604756335741648,
+          "softk_minus_zipf": -0.09321540965284925
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.820690730674891,
+            "zm": 4.674715912867123,
+            "moe": 4.703626031731037,
+            "softk": 4.686633683866927
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.01699234786411008,
+          "softk_minus_zm": 0.011917770999803956,
+          "softk_minus_zipf": -0.13405704680796404
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 5.127952150927283,
+            "zm": 4.968084763530409,
+            "moe": 4.980020244235746,
+            "softk": 4.981817292351563
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.001797048115816935,
+          "softk_minus_zm": 0.013732528821154055,
+          "softk_minus_zipf": -0.14613485857571984
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.517675538181122,
+            "zm": 5.363260635249666,
+            "moe": 5.356437245974481,
+            "softk": 5.371154509713109
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.014717263738627473,
+          "softk_minus_zm": 0.00789387446344314,
+          "softk_minus_zipf": -0.14652102846801363
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.813055776984534,
+            "zm": 5.6752215463133915,
+            "moe": 5.660336761732009,
+            "softk": 5.671226523200708
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.010889761468699355,
+          "softk_minus_zm": -0.0039950231126830715,
+          "softk_minus_zipf": -0.1418292537838255
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.550809484270299,
+            "zm": 6.487121711325544,
+            "moe": 6.489192155925541,
+            "softk": 6.489722409140335
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.000530253214794385,
+          "softk_minus_zm": 0.0026006978147909976,
+          "softk_minus_zipf": -0.06108707512996325
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.016187483773597716,
+          "helps": false
+        },
+        "top100": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": -0.019719263491409886,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.016781660722538075,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.014492800456153185,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.013520287914714442,
+          "helps": false
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0014853490399472646,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "ulysses",
+      "name": "Ulysses",
+      "token_count": 268854,
+      "vocab_size": 28990,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.433003532341992,
+            "zm": 4.404113010404813,
+            "moe": 4.446221628751971,
+            "softk": 4.398277861568598
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.0479437671833729,
+          "softk_minus_zm": -0.005835148836214721,
+          "softk_minus_zipf": -0.03472567077339406
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.781817817356673,
+            "zm": 4.728558905256893,
+            "moe": 4.763646609696205,
+            "softk": 4.732321679565584
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.0313249301306211,
+          "softk_minus_zm": 0.003762774308690986,
+          "softk_minus_zipf": -0.04949613779108919
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 5.121338797601226,
+            "zm": 5.055669882128655,
+            "moe": 5.079755953310781,
+            "softk": 5.067297328551951
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.012458624758830084,
+          "softk_minus_zm": 0.011627446423295495,
+          "softk_minus_zipf": -0.05404146904927476
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.540257780766808,
+            "zm": 5.470330416503,
+            "moe": 5.479895027031668,
+            "softk": 5.483134024528556
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.003238997496887386,
+          "softk_minus_zm": 0.012803608025556024,
+          "softk_minus_zipf": -0.05712375623825228
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.862616264961333,
+            "zm": 5.795471764045913,
+            "moe": 5.795661043640454,
+            "softk": 5.801951464355526
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.0062904207150724645,
+          "softk_minus_zm": 0.006479700309613534,
+          "softk_minus_zipf": -0.06066480060580659
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 7.366644172022561,
+            "zm": 7.351230348257138,
+            "moe": 7.360040275685457,
+            "softk": 7.353701494174882
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.006338781510574876,
+          "softk_minus_zm": 0.002471145917744444,
+          "softk_minus_zipf": -0.012942677847678219
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.04073608901014368,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.03159346187634234,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.02684189722383673,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.01896928233583027,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.01700065562211652,
+          "helps": false
+        },
+        "full": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.0014928215431750796,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "collected_poe",
+      "name": "Collected Poe",
+      "token_count": 91801,
+      "vocab_size": 9312,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.199280129026332,
+            "zm": 4.179861349926951,
+            "moe": 4.2017972007545366,
+            "softk": 4.191279487394818
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.010517713359718961,
+          "softk_minus_zm": 0.011418137467866352,
+          "softk_minus_zipf": -0.00800064163151415
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.524377163549808,
+            "zm": 4.4930209939628405,
+            "moe": 4.505934752337151,
+            "softk": 4.512733457779536
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.0067987054423852555,
+          "softk_minus_zm": 0.019712463816695447,
+          "softk_minus_zipf": -0.01164370577027185
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.8378762335872985,
+            "zm": 4.8016944135777,
+            "moe": 4.805482678235805,
+            "softk": 4.823545695858322
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.018063017622517386,
+          "softk_minus_zm": 0.02185128228062183,
+          "softk_minus_zipf": -0.01433053772897619
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.2852761238213,
+            "zm": 5.249569965283401,
+            "moe": 5.242888594525398,
+            "softk": 5.261193673448403
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.018305078923005702,
+          "softk_minus_zm": 0.011623708165002355,
+          "softk_minus_zipf": -0.024082450372897135
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.638997221039041,
+            "zm": 5.6078190570994835,
+            "moe": 5.596484838477382,
+            "softk": 5.604444614724925
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.007959776247543182,
+          "softk_minus_zm": -0.0033744423745583063,
+          "softk_minus_zipf": -0.03455260631411594
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.6683107797436625,
+            "zm": 6.664039209234085,
+            "moe": 6.666311949576639,
+            "softk": 6.671484550103681
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.00517260052704227,
+          "softk_minus_zm": 0.007445340869596251,
+          "softk_minus_zipf": 0.0031737703600187572
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": -0.004929454671550565,
+          "helps": false
+        },
+        "top100": {
+          "expr": "mul[sub[1,x],mul[x,x]]",
+          "gain": 0.006184571594613317,
+          "helps": true
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.01053805770801948,
+          "helps": false
+        },
+        "top500": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.008540057012270022,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.0005857657114070255,
+          "helps": false
+        },
+        "full": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.0014374047840695625,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "principia_ethica",
+      "name": "Principia Ethica",
+      "token_count": 98676,
+      "vocab_size": 3814,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.237266403795237,
+            "zm": 4.1256637674863175,
+            "moe": 4.164913281864689,
+            "softk": 4.162561069512414
+          },
+          "winner": "zm",
+          "softk_minus_moe": -0.0023522123522754512,
+          "softk_minus_zm": 0.03689730202609631,
+          "softk_minus_zipf": -0.07470533428282344
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.61693450370177,
+            "zm": 4.4726797687925375,
+            "moe": 4.491174500901497,
+            "softk": 4.515502094982316
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.02432759408081875,
+          "softk_minus_zm": 0.04282232618977844,
+          "softk_minus_zipf": -0.1014324087194538
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.968923956673797,
+            "zm": 4.820424918279281,
+            "moe": 4.819804924879465,
+            "softk": 4.8402951780640375
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.020490253184572538,
+          "softk_minus_zm": 0.019870259784756428,
+          "softk_minus_zipf": -0.12862877860975974
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.413707281053986,
+            "zm": 5.287810156049993,
+            "moe": 5.272362574611397,
+            "softk": 5.26446786400104
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.007894710610356626,
+          "softk_minus_zm": -0.02334229204895255,
+          "softk_minus_zipf": -0.14923941705294563
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.678730166041172,
+            "zm": 5.578195730670632,
+            "moe": 5.562268670457861,
+            "softk": 5.542982838965928
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.01928583149193308,
+          "softk_minus_zm": -0.03521289170470343,
+          "softk_minus_zipf": -0.13574732707524362
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 5.978310064484517,
+            "zm": 5.917476589984626,
+            "moe": 5.913923711681961,
+            "softk": 5.91068217315341
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.0032415385285506915,
+          "softk_minus_zm": -0.006794416831215955,
+          "softk_minus_zipf": -0.06762789133110658
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "mul[sub[x,1],mul[x,x]]",
+          "gain": -0.029716254018627264,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.028501125662964352,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.022200029145755883,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.01860951240714815,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.015609427234011639,
+          "helps": false
+        },
+        "full": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.0013513877342089253,
+          "helps": false
+        }
+      }
+    },
+    {
+      "slug": "critique_of_pure_reason",
+      "name": "Critique of Pure Reason",
+      "token_count": 209795,
+      "vocab_size": 6537,
+      "heldout": {
+        "top50": {
+          "avg_nll": {
+            "zipf": 4.045428572319184,
+            "zm": 3.9829844954016393,
+            "moe": 4.0158889820988595,
+            "softk": 4.041621006090192
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.02573202399133212,
+          "softk_minus_zm": 0.058636510688552246,
+          "softk_minus_zipf": -0.003807566228992698
+        },
+        "top100": {
+          "avg_nll": {
+            "zipf": 4.4602154706948705,
+            "zm": 4.36755431672522,
+            "moe": 4.377708135854066,
+            "softk": 4.406737516984039
+          },
+          "winner": "zm",
+          "softk_minus_moe": 0.02902938112997333,
+          "softk_minus_zm": 0.03918320025881883,
+          "softk_minus_zipf": -0.053477953710831194
+        },
+        "top200": {
+          "avg_nll": {
+            "zipf": 4.851623238905593,
+            "zm": 4.751156177262219,
+            "moe": 4.741349091469067,
+            "softk": 4.756348870192131
+          },
+          "winner": "moe",
+          "softk_minus_moe": 0.014999778723064239,
+          "softk_minus_zm": 0.0051926929299117575,
+          "softk_minus_zipf": -0.09527436871346229
+        },
+        "top500": {
+          "avg_nll": {
+            "zipf": 5.307766245707306,
+            "zm": 5.2183003005275745,
+            "moe": 5.193841933658381,
+            "softk": 5.180955823993129
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.012886109665251944,
+          "softk_minus_zm": -0.037344476534445725,
+          "softk_minus_zipf": -0.12681042171417722
+        },
+        "top1000": {
+          "avg_nll": {
+            "zipf": 5.585480104735576,
+            "zm": 5.511309632552731,
+            "moe": 5.485084370985081,
+            "softk": 5.461634962853069
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.023449408132012017,
+          "softk_minus_zm": -0.0496746696996615,
+          "softk_minus_zipf": -0.12384514188250684
+        },
+        "full": {
+          "avg_nll": {
+            "zipf": 6.00665335524234,
+            "zm": 5.967962608254694,
+            "moe": 5.9564279569814556,
+            "softk": 5.952965161503562
+          },
+          "winner": "softk",
+          "softk_minus_moe": -0.003462795477893188,
+          "softk_minus_zm": -0.01499744675113135,
+          "softk_minus_zipf": -0.0536881937387772
+        }
+      },
+      "step2": {
+        "top50": {
+          "expr": "div[sub[x,1],eml[1,x]]",
+          "gain": -0.03248781840147491,
+          "helps": false
+        },
+        "top100": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.028760180575408065,
+          "helps": false
+        },
+        "top200": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.023210075522457595,
+          "helps": false
+        },
+        "top500": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.01756711716991241,
+          "helps": false
+        },
+        "top1000": {
+          "expr": "eml[sub[x,1],eml[x,1]]",
+          "gain": -0.016402075731143738,
+          "helps": false
+        },
+        "full": {
+          "expr": "sub[pow[x,x],sqrt[x]]",
+          "gain": -0.0015729479215106368,
+          "helps": false
+        }
+      }
+    }
+  ],
+  "cutoffs": {
+    "top50": {
+      "winner_counts": {
+        "zipf": 0,
+        "zm": 23,
+        "moe": 0,
+        "softk": 2
+      },
+      "softk_beats_moe": 15,
+      "softk_beats_zm": 2,
+      "softk_beats_zipf": 17,
+      "median_softk_minus_moe": -0.010517713359718961,
+      "median_softk_minus_zm": 0.025947782146232612,
+      "step2_help_count": 2
+    },
+    "top100": {
+      "winner_counts": {
+        "zipf": 0,
+        "zm": 25,
+        "moe": 0,
+        "softk": 0
+      },
+      "softk_beats_moe": 11,
+      "softk_beats_zm": 0,
+      "softk_beats_zipf": 21,
+      "median_softk_minus_moe": 0.002818598264134664,
+      "median_softk_minus_zm": 0.022641031995601857,
+      "step2_help_count": 6
+    },
+    "top200": {
+      "winner_counts": {
+        "zipf": 0,
+        "zm": 15,
+        "moe": 8,
+        "softk": 2
+      },
+      "softk_beats_moe": 7,
+      "softk_beats_zm": 3,
+      "softk_beats_zipf": 22,
+      "median_softk_minus_moe": 0.008654673077645114,
+      "median_softk_minus_zm": 0.01433702880580423,
+      "step2_help_count": 0
+    },
+    "top500": {
+      "winner_counts": {
+        "zipf": 0,
+        "zm": 4,
+        "moe": 14,
+        "softk": 7
+      },
+      "softk_beats_moe": 7,
+      "softk_beats_zm": 11,
+      "softk_beats_zipf": 24,
+      "median_softk_minus_moe": 0.008138385899632006,
+      "median_softk_minus_zm": 0.004069542448799979,
+      "step2_help_count": 1
+    },
+    "top1000": {
+      "winner_counts": {
+        "zipf": 0,
+        "zm": 1,
+        "moe": 14,
+        "softk": 10
+      },
+      "softk_beats_moe": 10,
+      "softk_beats_zm": 21,
+      "softk_beats_zipf": 25,
+      "median_softk_minus_moe": 0.0044042375515429555,
+      "median_softk_minus_zm": -0.010661907583623176,
+      "step2_help_count": 4
+    },
+    "full": {
+      "winner_counts": {
+        "zipf": 0,
+        "zm": 11,
+        "moe": 4,
+        "softk": 10
+      },
+      "softk_beats_moe": 17,
+      "softk_beats_zm": 13,
+      "softk_beats_zipf": 24,
+      "median_softk_minus_moe": -0.0018662887323852573,
+      "median_softk_minus_zm": -0.0005844604938589626,
+      "step2_help_count": 4
+    }
+  },
+  "metadata": {
+    "softk_summary": "/Volumes/External2TB/emlexperiment/results/zipf_seam_mandelbrot_softk_splitfit/summary.json",
+    "base_summary": "/Volumes/External2TB/emlexperiment/results/zipf_seam_mandelbrot_pmf/summary.json",
+    "canonical_heldout_protocol": "soft-k held-out windows are evaluated with split-fit params only; full-refit params are used only for full-corpus residual step-2 diagnostics"
+  }
+}

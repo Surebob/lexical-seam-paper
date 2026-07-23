@@ -1,0 +1,10 @@
+{
+  "experiment_id": "1a",
+  "output_dir": "experiments/1a_per_corpus_enriched_search/outputs",
+  "corpus_count": 25,
+  "beam_row_count": 250,
+  "historical_table_max_abs_numeric_diff": 0.0,
+  "historical_table_text_mismatch_count": 0,
+  "historical_top10_max_abs_numeric_diff": 0.0,
+  "historical_top10_text_mismatch_count": 0
+}

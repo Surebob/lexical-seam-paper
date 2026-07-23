@@ -1,0 +1,31 @@
+{
+  "winner_identity_changes": [],
+  "closest_generator_changes": [],
+  "c_band_66_79_hits": [],
+  "transition_type": "no_winner_identity_change",
+  "winner_unchanged_entire_sweep": true,
+  "endpoint_two_component_checks": [
+    {
+      "w1": 0.05,
+      "component1_mass": 0.05,
+      "component2_mass": 0.95,
+      "component1_fraction_at_rank1": 0.0702502803446053,
+      "component1_fraction_at_rankV": 0.011833470845864044,
+      "head_tail_dominance_crosses": false,
+      "meaningfully_two_component": false
+    },
+    {
+      "w1": 0.95,
+      "component1_mass": 0.95,
+      "component2_mass": 0.050000000000000044,
+      "component1_fraction_at_rank1": 0.9646349885707518,
+      "component1_fraction_at_rankV": 0.8121374089147492,
+      "head_tail_dominance_crosses": false,
+      "meaningfully_two_component": false
+    }
+  ],
+  "plots": [
+    "/Volumes/External2TB/emlexperiment/phase2_addon/t3_bifurcation_sweep/mixing_weight_sweep/fitted_c_vs_w1.png",
+    "/Volumes/External2TB/emlexperiment/phase2_addon/t3_bifurcation_sweep/mixing_weight_sweep/winner_cosines_vs_w1.png"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "join_id": "J1_paper_scope_rollup",
+  "generated_at_utc": "2026-04-20T01:38:27.419329+00:00",
+  "producer": "joins/J1_paper_scope_rollup/scripts/build_paper_scope_rollup.py",
+  "outputs": {
+    "paper_scope_summary.csv": {
+      "path": "joins/J1_paper_scope_rollup/outputs/paper_scope_summary.csv",
+      "rows": 7,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "upstreams": {
+    "1a_aggregate": "experiments/1a_per_corpus_enriched_search/outputs/aggregate_statistics.csv",
+    "3a_aggregate": "experiments/3a_smooth_two_regime_fits/outputs/aggregate_statistics.csv",
+    "6_aggregate": "experiments/6_multilingual_extension/outputs/aggregate_statistics.csv",
+    "6_table3": "experiments/6_multilingual_extension/outputs/table3_multilang.csv"
+  },
+  "notes": [
+    "J1 is a joined-output producer; it performs only explicit corpus-scope rollups.",
+    "No manuscript-builder computation is required for the mapped scope claims."
+  ]
+}

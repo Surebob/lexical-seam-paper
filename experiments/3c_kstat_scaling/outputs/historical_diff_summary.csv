@@ -1,0 +1,8 @@
+metric_name,value,notes
+kstat_scaling_point_row_count,25,Expected 25 per-corpus k_stat scaling rows.
+point_max_abs_numeric_diff,0.0,Maximum absolute numeric diff across overlapping per-corpus fields.
+point_text_mismatch_count,0,Count of non-numeric mismatches against the historical k_stat summary rows.
+aggregate_row_count,13,Count of overlapping aggregate rows compared to the historical bundle.
+aggregate_max_abs_numeric_diff,0.0,Maximum absolute numeric diff across overlapping aggregate metrics.
+aggregate_text_mismatch_count,0,Count of non-numeric mismatches in aggregate metrics.
+deferred_historical_sections,2,Historical POS forced-fit reference and historical k_stat-vs-POS comparison are intentionally deferred to experiments 3d and J2 under the consolidated design.

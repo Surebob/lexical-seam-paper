@@ -1,0 +1,6 @@
+{
+  "source_bundles": [
+    "results/zipf_angle6_bible_books"
+  ],
+  "cross_experiment_dependency": "experiments/7a_canonical_pmf_family/outputs/splitfit/pmf_variant_per_corpus.csv"
+}

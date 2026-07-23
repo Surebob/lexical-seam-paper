@@ -1,0 +1,108 @@
+{
+  "case_id": "t2c_gamma_is",
+  "family": "Gamma",
+  "prediction": {
+    "expected_generator": "Itakura-Saito",
+    "canonical": "(x-1)-log(x)",
+    "expected_first_reachable_step": 2,
+    "max_steps": 2
+  },
+  "mixture_params": [
+    {
+      "shape": 0.85,
+      "rate": 1.0,
+      "weight": 0.5
+    },
+    {
+      "shape": 4.0,
+      "rate": 1.0,
+      "weight": 0.5
+    }
+  ],
+  "distinguishability": {
+    "shape_gap": 3.15,
+    "shared_rate": 1.0
+  },
+  "fit": {
+    "method": "gamma_mle_shape_rate_loc_fixed_zero",
+    "converged": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "params": {
+      "shape": 0.8418145362103355,
+      "rate": 0.3509887460355697
+    },
+    "at_bounds": false
+  },
+  "density_estimation": {
+    "continuous": true,
+    "method": "gaussian_kde_on_iid_samples",
+    "grid_points": 600
+  },
+  "residual_diagnostics": {
+    "residual_rmse": 0.27372607637454044,
+    "residual_std": 0.27362183221361364,
+    "second_difference_sign_changes": 10,
+    "second_difference_sign_change_fraction": 0.01675041876046901,
+    "lag1_autocorrelation": 0.9984347936355353,
+    "noise_dominated_flag": false
+  },
+  "search_config": {
+    "max_steps": 2,
+    "beam_width": 50,
+    "keep_all_until_step": 2,
+    "diversity_weight": 0.35,
+    "semantic_hash_rounding_digits": 10,
+    "exp_clamp": 30.0,
+    "value_abs_limit": 1000000.0,
+    "unary_ops": [
+      "neg",
+      "inv",
+      "sqr",
+      "sqrt",
+      "exp",
+      "log"
+    ],
+    "binary_ops": [
+      "eml",
+      "add",
+      "sub",
+      "mul",
+      "div",
+      "pow"
+    ]
+  },
+  "sr_result": {
+    "predicted_occurrences": [
+      {
+        "step": 2,
+        "rmse_rank": 49,
+        "expr": "sub[sub[x,1],log[x]]",
+        "math": "((x-1)-log(x))",
+        "rmse": 0.3401911416181829,
+        "in_top5_by_rmse": false,
+        "in_diversity_beam": true,
+        "diversity_rank": 49
+      }
+    ],
+    "predicted_at_first_reachable_step": [
+      {
+        "step": 2,
+        "rmse_rank": 49,
+        "expr": "sub[sub[x,1],log[x]]",
+        "math": "((x-1)-log(x))",
+        "rmse": 0.3401911416181829,
+        "in_top5_by_rmse": false,
+        "in_diversity_beam": true,
+        "diversity_rank": 49
+      }
+    ],
+    "pass_top5_rmse_or_diversity_at_first_step": false,
+    "global_best": {
+      "step": 2,
+      "expr": "add[log[x],sub[1,x]]",
+      "math": "(log(x)+(1-x))",
+      "rmse": 0.2512283114259147,
+      "is_predicted_generator": false
+    }
+  }
+}

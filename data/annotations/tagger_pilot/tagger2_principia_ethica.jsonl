@@ -1,0 +1,500 @@
+{"type": "the", "rank": 1, "frequency": 5195, "tag": "DET", "confidence": 1.0, "reasoning": "Definite article before nouns in all displayed examples (e.g., 'the whole world', 'the conditions').", "alternative": null}
+{"type": "of", "rank": 2, "frequency": 3818, "tag": "ADP", "confidence": 1.0, "reasoning": "Genitive/partitive marker before noun phrases in all contexts such as 'value of a whole' and 'pity for ... existences'.", "alternative": null}
+{"type": "to", "rank": 3, "frequency": 3381, "tag": "PART", "confidence": 0.68, "reasoning": "Mostly marks infinitival verbs ('to be thought', 'to be wanted'), with one nominal phrase use not dominant.", "alternative": "ADP"}
+{"type": "is", "rank": 4, "frequency": 3232, "tag": "AUX", "confidence": 1.0, "reasoning": "Occurs as copular/linking verb: 'pleasure alone is good', 'it is  a means'.", "alternative": null}
+{"type": "that", "rank": 5, "frequency": 3129, "tag": "SCONJ", "confidence": 0.55, "reasoning": "Used to introduce clauses in sampled contexts ('that is found', '...that Ethics can have...').", "alternative": "DET"}
+{"type": "it", "rank": 6, "frequency": 2152, "tag": "PRON", "confidence": 1.0, "reasoning": "Pronominal argument/reference in examples like 'it is absurd' and 'such as what it commands'.", "alternative": null}
+{"type": "in", "rank": 7, "frequency": 2026, "tag": "ADP", "confidence": 1.0, "reasoning": "Spatial/abstract preposition before noun phrases ('in this case', 'in our present state').", "alternative": null}
+{"type": "a", "rank": 8, "frequency": 1902, "tag": "DET", "confidence": 1.0, "reasoning": "Indefinite article before countable nouns across examples ('a marked distinction', 'a separate name').", "alternative": null}
+{"type": "be", "rank": 9, "frequency": 1858, "tag": "AUX", "confidence": 1.0, "reasoning": "Auxiliary/copular form in phrases like 'to be good' and 'to be done'.", "alternative": null}
+{"type": "and", "rank": 10, "frequency": 1805, "tag": "CCONJ", "confidence": 1.0, "reasoning": "Coordinating conjunction joining clauses and noun phrases in the contexts.", "alternative": null}
+{"type": "which", "rank": 11, "frequency": 1532, "tag": "PRON", "confidence": 1.0, "reasoning": "Relative/wh-pronoun-like in examples: 'the difficulty which is found', 'emotions which is necessary'.", "alternative": null}
+{"type": "we", "rank": 12, "frequency": 1243, "tag": "PRON", "confidence": 1.0, "reasoning": "First-person plural subject in discussion passages ('we leave', 'we shall have').", "alternative": null}
+{"type": "good", "rank": 13, "frequency": 1115, "tag": "NOUN", "confidence": 0.65, "reasoning": "Technical ethical predicate often used as a substantive ('good is good', 'good in themselves').", "alternative": "ADJ"}
+{"type": "as", "rank": 14, "frequency": 1109, "tag": "SCONJ", "confidence": 0.6, "reasoning": "Frequently introduces comparisons or frames ('as above stated', 'as regards').", "alternative": "ADP"}
+{"type": "this", "rank": 15, "frequency": 1074, "tag": "PRON", "confidence": 0.72, "reasoning": "Refers to prior proposition or term ('this must not be taken', 'denote this and only this').", "alternative": "DET"}
+{"type": "not", "rank": 16, "frequency": 904, "tag": "PART", "confidence": 1.0, "reasoning": "Direct negation before predicates in all sampled contexts.", "alternative": null}
+{"type": "are", "rank": 17, "frequency": 898, "tag": "AUX", "confidence": 1.0, "reasoning": "Third-person plural copular/auxiliary in constructions like 'they are not' and 'qualities are so'.", "alternative": null}
+{"type": "what", "rank": 18, "frequency": 767, "tag": "PRON", "confidence": 1.0, "reasoning": "Interrogative/relative pronoun introducing embedded nominal content ('what is cognised', 'what exists').", "alternative": null}
+{"type": "or", "rank": 19, "frequency": 734, "tag": "CCONJ", "confidence": 1.0, "reasoning": "Coordination of alternatives appears in explicit binary options throughout contexts.", "alternative": null}
+{"type": "by", "rank": 20, "frequency": 723, "tag": "ADP", "confidence": 1.0, "reasoning": "Prepositional marker introducing agent/instrument causes (e.g., 'attributed by', 'as judged by').", "alternative": null}
+{"type": "have", "rank": 21, "frequency": 700, "tag": "AUX", "confidence": 0.9, "reasoning": "Perfect/auxiliary behavior in 'has followed', 'have to answer'; not a lexical object noun use here.", "alternative": null}
+{"type": "i", "rank": 22, "frequency": 671, "tag": "PRON", "confidence": 1.0, "reasoning": "First-person singular subject in personal argument ('I have', 'I contend').", "alternative": null}
+{"type": "but", "rank": 23, "frequency": 624, "tag": "CCONJ", "confidence": 1.0, "reasoning": "Contrasts proposition branches in passages like '... but something else ...'.", "alternative": null}
+{"type": "may", "rank": 24, "frequency": 582, "tag": "AUX", "confidence": 1.0, "reasoning": "Epistemic modal in contexts like 'may be', 'may involve', marking possibility.", "alternative": null}
+{"type": "for", "rank": 25, "frequency": 566, "tag": "ADP", "confidence": 0.95, "reasoning": "Preposition meaning purpose/pursuant to in contexts such as 'care for knowledge for its own sake'.", "alternative": null}
+{"type": "if", "rank": 26, "frequency": 547, "tag": "SCONJ", "confidence": 1.0, "reasoning": "Explicitly introduces conditionals ('if we consider', 'if this were').", "alternative": null}
+{"type": "with", "rank": 27, "frequency": 491, "tag": "ADP", "confidence": 1.0, "reasoning": "Comitative/associative preposition before noun groups ('with the importance', 'with regard').", "alternative": null}
+{"type": "they", "rank": 28, "frequency": 452, "tag": "PRON", "confidence": 1.0, "reasoning": "Third-person plural referential pronoun recurring as discussion subject ('they may', 'they had').", "alternative": null}
+{"type": "only", "rank": 29, "frequency": 430, "tag": "ADV", "confidence": 0.95, "reasoning": "Sentence-level modifier limiting scope, as in 'it only states', 'only connection'.", "alternative": null}
+{"type": "pleasure", "rank": 30, "frequency": 428, "tag": "NOUN", "confidence": 1.0, "reasoning": "Core noun of the treatise, appearing as 'consciousness of pleasure' and 'pleasure is ...'.", "alternative": null}
+{"type": "value", "rank": 31, "frequency": 422, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in phrases like 'value of' and 'degree of value'.", "alternative": null}
+{"type": "an", "rank": 32, "frequency": 421, "tag": "DET", "confidence": 1.0, "reasoning": "Indefinite article before singular nouns ('an action', 'an end').", "alternative": null}
+{"type": "any", "rank": 33, "frequency": 416, "tag": "DET", "confidence": 1.0, "reasoning": "Quantifier/determiner introducing unspecified members ('any fact', 'any objection').", "alternative": null}
+{"type": "has", "rank": 34, "frequency": 412, "tag": "AUX", "confidence": 1.0, "reasoning": "Auxiliary in perfect constructions ('has given', 'has followed').", "alternative": null}
+{"type": "can", "rank": 35, "frequency": 408, "tag": "AUX", "confidence": 1.0, "reasoning": "Ability/possibility modal in contexts such as 'can be', 'can be seen'.", "alternative": null}
+{"type": "all", "rank": 36, "frequency": 395, "tag": "DET", "confidence": 1.0, "reasoning": "Distributive determiner over noun sets ('all the actions', 'all those actions').", "alternative": null}
+{"type": "one", "rank": 37, "frequency": 395, "tag": "NUM", "confidence": 0.99, "reasoning": "Numeral in constructions 'one of', 'one pleasure', 'one or two'.", "alternative": null}
+{"type": "will", "rank": 38, "frequency": 386, "tag": "AUX", "confidence": 1.0, "reasoning": "Future/modal auxiliary in 'will be', 'will produce', 'will imply'.", "alternative": null}
+{"type": "he", "rank": 39, "frequency": 364, "tag": "PRON", "confidence": 1.0, "reasoning": "Third-person masculine pronoun referring to agents discussed by name ('he holds', 'he maintained').", "alternative": null}
+{"type": "so", "rank": 40, "frequency": 354, "tag": "ADV", "confidence": 0.78, "reasoning": "Degree modifier in 'so that', 'so much', and adverbial linking uses.", "alternative": "CCONJ"}
+{"type": "other", "rank": 41, "frequency": 335, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive in 'other questions' and 'other actions', marking contrastive otherness.", "alternative": null}
+{"type": "from", "rank": 42, "frequency": 333, "tag": "ADP", "confidence": 1.0, "reasoning": "Source/origin preposition in 'from this', 'from the facts'.", "alternative": null}
+{"type": "no", "rank": 43, "frequency": 326, "tag": "DET", "confidence": 0.97, "reasoning": "Negative determiner in 'no objection', 'no one', not part of wh- questions.", "alternative": null}
+{"type": "would", "rank": 44, "frequency": 320, "tag": "AUX", "confidence": 1.0, "reasoning": "Modal auxiliary in hypothetical/counterfactual contexts ('would produce', 'would be').", "alternative": null}
+{"type": "its", "rank": 45, "frequency": 314, "tag": "DET", "confidence": 1.0, "reasoning": "Possessive determiner before nouns ('its additional good', 'its sole constituents').", "alternative": null}
+{"type": "such", "rank": 46, "frequency": 313, "tag": "ADJ", "confidence": 1.0, "reasoning": "Determining adjective in 'such goods', 'such propositions', introducing a noun class.", "alternative": null}
+{"type": "must", "rank": 47, "frequency": 306, "tag": "AUX", "confidence": 1.0, "reasoning": "Deontic/modal auxiliary in 'must have', 'must be', 'must consider'.", "alternative": null}
+{"type": "means", "rank": 48, "frequency": 304, "tag": "VERB", "confidence": 0.6, "reasoning": "Mostly used as verb 'it means' and 'the proposition means', not the noun 'means of'.", "alternative": "NOUN"}
+{"type": "thing", "rank": 49, "frequency": 299, "tag": "NOUN", "confidence": 1.0, "reasoning": "Concrete/abstract entity noun in 'this thing' and 'such things'.", "alternative": null}
+{"type": "question", "rank": 50, "frequency": 298, "tag": "NOUN", "confidence": 1.0, "reasoning": "Discussed repeatedly as an item of inquiry ('the question'), including direct titles.", "alternative": null}
+{"type": "whole", "rank": 51, "frequency": 297, "tag": "NOUN", "confidence": 1.0, "reasoning": "Entity noun in 'whole has value', 'whole proposition' and related ethics arguments.", "alternative": null}
+{"type": "things", "rank": 52, "frequency": 293, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural count noun ('admirable things', 'things in themselves') across contexts.", "alternative": null}
+{"type": "ethics", "rank": 53, "frequency": 285, "tag": "NOUN", "confidence": 1.0, "reasoning": "Discipline name as noun in section headings and subject references.", "alternative": null}
+{"type": "on", "rank": 54, "frequency": 276, "tag": "ADP", "confidence": 1.0, "reasoning": "Temporal/spatial preposition in 'on this', 'on these', 'on the basis of'.", "alternative": null}
+{"type": "these", "rank": 55, "frequency": 270, "tag": "DET", "confidence": 1.0, "reasoning": "Demonstrative determiner in 'these questions', 'these relations'.", "alternative": null}
+{"type": "than", "rank": 56, "frequency": 258, "tag": "ADP", "confidence": 1.0, "reasoning": "Comparative preposition in 'better than', 'greater than', as in direct comparisons.", "alternative": null}
+{"type": "do", "rank": 57, "frequency": 257, "tag": "AUX", "confidence": 0.72, "reasoning": "Periphrastic auxiliary in 'do so and so', 'do think/affirm'; not generally lexical event verb.", "alternative": "VERB"}
+{"type": "at", "rank": 58, "frequency": 255, "tag": "ADP", "confidence": 1.0, "reasoning": "Locative/temporal preposition in 'at once', 'at the present time' style uses.", "alternative": null}
+{"type": "more", "rank": 59, "frequency": 255, "tag": "ADJ", "confidence": 0.95, "reasoning": "Scalar degree modifier with comparatives ('more good', 'more value').", "alternative": null}
+{"type": "true", "rank": 60, "frequency": 249, "tag": "ADJ", "confidence": 1.0, "reasoning": "Predicative/attributive adjective in 'true proposition', 'true knowledge'.", "alternative": null}
+{"type": "object", "rank": 61, "frequency": 248, "tag": "NOUN", "confidence": 1.0, "reasoning": "Target noun in 'object of this enquiry', 'object of judgement'.", "alternative": null}
+{"type": "some", "rank": 62, "frequency": 239, "tag": "DET", "confidence": 1.0, "reasoning": "Quantifier before nouns in 'some good', 'some reasons', as in indefinite selection.", "alternative": null}
+{"type": "our", "rank": 63, "frequency": 236, "tag": "DET", "confidence": 1.0, "reasoning": "Possessive determiner for first-person plural in 'our belief', 'our enquiry'.", "alternative": null}
+{"type": "itself", "rank": 64, "frequency": 233, "tag": "PRON", "confidence": 1.0, "reasoning": "Reflexive pronoun usage ('itself alone', 'consists in itself').", "alternative": null}
+{"type": "should", "rank": 65, "frequency": 229, "tag": "AUX", "confidence": 1.0, "reasoning": "Deontic modal in 'should observe', 'should be accepted'.", "alternative": null}
+{"type": "certain", "rank": 66, "frequency": 226, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'certain kinds', 'certain questions'.", "alternative": null}
+{"type": "fact", "rank": 67, "frequency": 226, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in 'this fact', 'a fact that'.", "alternative": null}
+{"type": "does", "rank": 68, "frequency": 222, "tag": "AUX", "confidence": 0.96, "reasoning": "Auxiliary-like in negative/yes-no constructions ('does not', 'does this').", "alternative": null}
+{"type": "there", "rank": 69, "frequency": 221, "tag": "PRON", "confidence": 0.9, "reasoning": "Existential/dummy and locative-like 'there may', in clauses discussing possibility.", "alternative": null}
+{"type": "been", "rank": 70, "frequency": 217, "tag": "AUX", "confidence": 0.99, "reasoning": "Perfect auxiliary form in 'have been', 'it had been', serving non-lexical verb role.", "alternative": null}
+{"type": "ethical", "rank": 71, "frequency": 215, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive descriptor in 'ethical judgments', 'ethical enquiry', and related compounds.", "alternative": null}
+{"type": "then", "rank": 72, "frequency": 212, "tag": "ADV", "confidence": 0.95, "reasoning": "Temporal/logical linker ('then therefore', 'then it follows') in argument progression.", "alternative": null}
+{"type": "possible", "rank": 73, "frequency": 208, "tag": "ADJ", "confidence": 0.98, "reasoning": "Predicative/attributive adjective in 'possible to know', 'possible actions'.", "alternative": null}
+{"type": "when", "rank": 74, "frequency": 206, "tag": "SCONJ", "confidence": 0.99, "reasoning": "Temporal/conditional subordinating adverb in 'when we ask', 'when used'.", "alternative": null}
+{"type": "also", "rank": 75, "frequency": 203, "tag": "ADV", "confidence": 1.0, "reasoning": "Sentence adverb adding scope as 'also' in coordination and addition.", "alternative": null}
+{"type": "his", "rank": 76, "frequency": 200, "tag": "DET", "confidence": 1.0, "reasoning": "Possessive determiner in 'his happiness', 'his view', etc.", "alternative": null}
+{"type": "us", "rank": 77, "frequency": 195, "tag": "PRON", "confidence": 1.0, "reasoning": "1st-plural object in 'us to do', 'us cannot'.", "alternative": null}
+{"type": "even", "rank": 78, "frequency": 192, "tag": "ADV", "confidence": 1.0, "reasoning": "Scalar/focus adverb in 'even if', 'even then', 'even one'.", "alternative": null}
+{"type": "two", "rank": 79, "frequency": 190, "tag": "NUM", "confidence": 0.99, "reasoning": "Numeral in paired enumerations ('two possible alternatives', 'two evils').", "alternative": null}
+{"type": "think", "rank": 80, "frequency": 187, "tag": "VERB", "confidence": 1.0, "reasoning": "Thought verb used in clauses like 'I think', 'if you think'.", "alternative": null}
+{"type": "case", "rank": 81, "frequency": 185, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun in 'this case', 'that case', used repeatedly in modal discussion.", "alternative": null}
+{"type": "them", "rank": 82, "frequency": 181, "tag": "PRON", "confidence": 1.0, "reasoning": "Object pronoun in 'them together', 'them as', referring to prior antecedents.", "alternative": null}
+{"type": "most", "rank": 83, "frequency": 180, "tag": "ADJ", "confidence": 0.97, "reasoning": "Superlative quantifier in 'the most important', 'most prominent'.", "alternative": null}
+{"type": "was", "rank": 84, "frequency": 180, "tag": "AUX", "confidence": 1.0, "reasoning": "Past copular auxiliary in historical/exemplification constructions ('was never', 'was plain').", "alternative": null}
+{"type": "action", "rank": 85, "frequency": 177, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun central to analysis ('an action', 'this action').", "alternative": null}
+{"type": "part", "rank": 86, "frequency": 174, "tag": "NOUN", "confidence": 1.0, "reasoning": "Component noun in 'part of', 'parts of the whole' discussions.", "alternative": null}
+{"type": "those", "rank": 87, "frequency": 173, "tag": "DET", "confidence": 1.0, "reasoning": "Demonstrative determiner with plural reference ('those actions', 'those relations').", "alternative": null}
+{"type": "mean", "rank": 88, "frequency": 170, "tag": "VERB", "confidence": 0.95, "reasoning": "Semantic verb in 'to mean' and 'means that', establishing definitions.", "alternative": null}
+{"type": "same", "rank": 89, "frequency": 169, "tag": "ADJ", "confidence": 0.98, "reasoning": "Attributive adjective in 'the same action', 'the same question'.", "alternative": null}
+{"type": "very", "rank": 90, "frequency": 164, "tag": "ADV", "confidence": 1.0, "reasoning": "Degree adverb intensifying claims ('very good', 'very complex').", "alternative": null}
+{"type": "end", "rank": 91, "frequency": 163, "tag": "NOUN", "confidence": 0.99, "reasoning": "Noun in 'end of', 'end in itself' across ethical criteria discussions.", "alternative": null}
+{"type": "cannot", "rank": 92, "frequency": 160, "tag": "AUX", "confidence": 0.95, "reasoning": "Modal negation fusion used as inability in 'cannot do', 'cannot be'.", "alternative": null}
+{"type": "far", "rank": 93, "frequency": 160, "tag": "ADV", "confidence": 0.98, "reasoning": "Distance/degree adverb in 'far greater', 'far too many', contexts modify scope.", "alternative": null}
+{"type": "existence", "rank": 94, "frequency": 159, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in repeated phrases ('the existence of', 'what exists').", "alternative": null}
+{"type": "reason", "rank": 95, "frequency": 158, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for explanatory cause ('give a reason', 'no reason').", "alternative": null}
+{"type": "sense", "rank": 96, "frequency": 158, "tag": "NOUN", "confidence": 1.0, "reasoning": "Semantic noun in 'the sense of the term', 'this sense'.", "alternative": null}
+{"type": "seems", "rank": 97, "frequency": 155, "tag": "AUX", "confidence": 0.98, "reasoning": "Evidential auxiliary in 'it seems that', introducing judgment of appearance.", "alternative": null}
+{"type": "say", "rank": 98, "frequency": 151, "tag": "VERB", "confidence": 1.0, "reasoning": "Speech verb in 'say that', 'said that', used in reported argument.", "alternative": null}
+{"type": "their", "rank": 99, "frequency": 149, "tag": "DET", "confidence": 0.99, "reasoning": "Third-person plural possessive before nouns in contexts like 'their objects', 'their relations'.", "alternative": null}
+{"type": "my", "rank": 100, "frequency": 148, "tag": "DET", "confidence": 1.0, "reasoning": "First-person possessive determiner in 'my business', 'my own good'.", "alternative": null}
+{"type": "s", "rank": 101, "frequency": 148, "tag": "PART", "confidence": 1.0, "reasoning": "Genitive/contracted marker in contexts like 'Sidgwick's' or apostrophized forms.", "alternative": null}
+{"type": "therefore", "rank": 102, "frequency": 146, "tag": "ADV", "confidence": 1.0, "reasoning": "Discourse/result adverb linking inference in 'therefore we', 'therefore it follows'.", "alternative": null}
+{"type": "intrinsic", "rank": 103, "frequency": 142, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective for value distinctions ('intrinsic value', 'intrinsic good').", "alternative": null}
+{"type": "actions", "rank": 104, "frequency": 141, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun in 'expedient actions', 'what actions ought'.", "alternative": null}
+{"type": "always", "rank": 105, "frequency": 141, "tag": "ADV", "confidence": 1.0, "reasoning": "Universal frequency adverb in 'always would', 'always considered'.", "alternative": null}
+{"type": "exist", "rank": 106, "frequency": 140, "tag": "VERB", "confidence": 1.0, "reasoning": "Main verb in 'must exist', 'can exist', introducing ontological claims.", "alternative": null}
+{"type": "great", "rank": 107, "frequency": 140, "tag": "ADJ", "confidence": 0.99, "reasoning": "Gradable adjective in 'great good', 'great evil', 'great part'.", "alternative": null}
+{"type": "first", "rank": 108, "frequency": 133, "tag": "ADJ", "confidence": 1.0, "reasoning": "Ordinal adjective in 'first division', 'first stage', 'first kind'.", "alternative": null}
+{"type": "now", "rank": 109, "frequency": 132, "tag": "ADV", "confidence": 1.0, "reasoning": "Temporal adverb in discourse sequencing ('now we shall', 'what is now').", "alternative": null}
+{"type": "both", "rank": 110, "frequency": 131, "tag": "DET", "confidence": 0.99, "reasoning": "Dual determiner in 'both what', 'both kinds', often quantifying paired items.", "alternative": null}
+{"type": "another", "rank": 111, "frequency": 130, "tag": "DET", "confidence": 1.0, "reasoning": "Quantifier/determiner introducing repeated alternatives ('another doctrine', 'another thing').", "alternative": null}
+{"type": "commonly", "rank": 112, "frequency": 130, "tag": "ADV", "confidence": 0.98, "reasoning": "Sentence adverb noting shared consensus ('commonly held', 'commonly written').", "alternative": null}
+{"type": "different", "rank": 113, "frequency": 130, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive contrastive adjective in 'different kinds', 'different classes'.", "alternative": null}
+{"type": "regard", "rank": 114, "frequency": 129, "tag": "VERB", "confidence": 0.92, "reasoning": "Frequently takes object in 'regard as' and evaluative sense ('we cannot regard').", "alternative": null}
+{"type": "better", "rank": 115, "frequency": 127, "tag": "ADJ", "confidence": 1.0, "reasoning": "Comparative adjective in 'better total result', 'better in itself'.", "alternative": null}
+{"type": "something", "rank": 116, "frequency": 127, "tag": "PRON", "confidence": 0.99, "reasoning": "Indefinite pronoun in 'something to be aimed at', 'something else'.", "alternative": null}
+{"type": "beautiful", "rank": 117, "frequency": 125, "tag": "ADJ", "confidence": 1.0, "reasoning": "Descriptive adjective in 'beautiful qualities', 'beautiful object'.", "alternative": null}
+{"type": "necessary", "rank": 118, "frequency": 125, "tag": "ADJ", "confidence": 1.0, "reasoning": "Modal adjective in phrase 'necessary conditions' and 'necessary relation'.", "alternative": null}
+{"type": "evil", "rank": 119, "frequency": 124, "tag": "NOUN", "confidence": 0.96, "reasoning": "Moral noun in 'great evil', 'evils of this class'.", "alternative": null}
+{"type": "nature", "rank": 120, "frequency": 124, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in 'nature of', 'according to nature', recurring in doctrine sections.", "alternative": null}
+{"type": "whether", "rank": 121, "frequency": 124, "tag": "SCONJ", "confidence": 1.0, "reasoning": "Subordinating conjunction in embedded alternatives 'whether ... or'.", "alternative": null}
+{"type": "happiness", "rank": 122, "frequency": 123, "tag": "NOUN", "confidence": 1.0, "reasoning": "Core substantive in 'pleasure and happiness', 'happiness is desirable'.", "alternative": null}
+{"type": "state", "rank": 123, "frequency": 123, "tag": "NOUN", "confidence": 1.0, "reasoning": "State noun in contexts of mental condition ('state of mind', 'state of consciousness').", "alternative": null}
+{"type": "either", "rank": 124, "frequency": 122, "tag": "DET", "confidence": 1.0, "reasoning": "Correlative determiner in 'either by', 'either way'.", "alternative": null}
+{"type": "general", "rank": 125, "frequency": 120, "tag": "ADJ", "confidence": 1.0, "reasoning": "Broad qualifier in 'general ethics', 'general statements'.", "alternative": null}
+{"type": "kind", "rank": 126, "frequency": 120, "tag": "NOUN", "confidence": 0.98, "reasoning": "Class noun in 'kind of thing', 'of this kind' and similar phrases.", "alternative": null}
+{"type": "natural", "rank": 127, "frequency": 120, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'natural world', 'natural fallacy'.", "alternative": null}
+{"type": "ought", "rank": 128, "frequency": 120, "tag": "AUX", "confidence": 1.0, "reasoning": "Moral modal in 'ought to', framing normative conclusions.", "alternative": null}
+{"type": "desire", "rank": 129, "frequency": 119, "tag": "NOUN", "confidence": 0.88, "reasoning": "Abstract noun in 'desire for', though also a verb; contexts here foreground nominal treatment.", "alternative": "VERB"}
+{"type": "were", "rank": 130, "frequency": 119, "tag": "AUX", "confidence": 1.0, "reasoning": "Past auxiliary in counterfactual and passive contexts ('were to', 'were different').", "alternative": null}
+{"type": "because", "rank": 131, "frequency": 117, "tag": "SCONJ", "confidence": 1.0, "reasoning": "Subordinator introducing explanation in 'because they are', 'because if'.", "alternative": null}
+{"type": "between", "rank": 132, "frequency": 116, "tag": "ADP", "confidence": 1.0, "reasoning": "Spatial/relational preposition in 'between actions', 'between these and those'.", "alternative": null}
+{"type": "shall", "rank": 133, "frequency": 116, "tag": "AUX", "confidence": 1.0, "reasoning": "Modal auxiliary in 'shall admit', 'shall submit', and legal/argumentative registers.", "alternative": null}
+{"type": "fallacy", "rank": 134, "frequency": 114, "tag": "NOUN", "confidence": 1.0, "reasoning": "Technical noun naming argument errors, repeatedly paired as 'naturalistic fallacy'.", "alternative": null}
+{"type": "yet", "rank": 135, "frequency": 114, "tag": "CCONJ", "confidence": 0.96, "reasoning": "Adversative link in 'yet this', 'yet not', preserving two-side reasoning.", "alternative": null}
+{"type": "generally", "rank": 136, "frequency": 111, "tag": "ADV", "confidence": 1.0, "reasoning": "Frequency-modifying adverb in 'generally accepted', 'generally true'.", "alternative": null}
+{"type": "you", "rank": 137, "frequency": 111, "tag": "PRON", "confidence": 1.0, "reasoning": "Second-person pronoun in apostrophized dialogic phrases ('you can', 'you do not').", "alternative": null}
+{"type": "certainly", "rank": 138, "frequency": 110, "tag": "ADV", "confidence": 1.0, "reasoning": "Sentential adverb expressing certainty in evaluative contexts ('certainly is', 'it is certainly wrong').", "alternative": null}
+{"type": "own", "rank": 139, "frequency": 104, "tag": "DET", "confidence": 1.0, "reasoning": "Possessive determiner with reflexive/attributive use ('own happiness', 'own good').", "alternative": null}
+{"type": "sole", "rank": 140, "frequency": 104, "tag": "ADJ", "confidence": 0.97, "reasoning": "Uniqueness marker in 'sole constituent', 'solely', emphasizing exclusivity.", "alternative": null}
+{"type": "upon", "rank": 141, "frequency": 104, "tag": "ADP", "confidence": 1.0, "reasoning": "Archaic-preposition use in 'upon a result', 'upon such'.", "alternative": null}
+{"type": "proposition", "rank": 142, "frequency": 103, "tag": "NOUN", "confidence": 1.0, "reasoning": "Logical noun in 'proposition that...', central to the argument structure.", "alternative": null}
+{"type": "naturalistic", "rank": 143, "frequency": 102, "tag": "ADJ", "confidence": 0.99, "reasoning": "Domain adjective in 'naturalistic fallacy' and similar coined terms.", "alternative": null}
+{"type": "right", "rank": 144, "frequency": 101, "tag": "ADJ", "confidence": 0.86, "reasoning": "Evaluative adjective in 'right conduct', 'even be right', more often adjectival than nominal.", "alternative": "NOUN"}
+{"type": "merely", "rank": 145, "frequency": 100, "tag": "ADV", "confidence": 1.0, "reasoning": "Restrictive adverb in 'merely be', 'merely a means'.", "alternative": null}
+{"type": "effects", "rank": 146, "frequency": 98, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun for outcomes/causal results ('effects of action').", "alternative": null}
+{"type": "goods", "rank": 147, "frequency": 96, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun 'goods' in 'mixed goods', 'higher goods'.", "alternative": null}
+{"type": "being", "rank": 148, "frequency": 95, "tag": "AUX", "confidence": 0.98, "reasoning": "Participial/auxiliary form in 'without being', 'is being', not noun here.", "alternative": null}
+{"type": "hedonism", "rank": 149, "frequency": 95, "tag": "NOUN", "confidence": 1.0, "reasoning": "Named doctrine noun in references to Hedonism as a theory.", "alternative": null}
+{"type": "about", "rank": 150, "frequency": 94, "tag": "ADP", "confidence": 1.0, "reasoning": "Preposition in topical/explanatory phrases like 'about this', 'about conduct'.", "alternative": null}
+{"type": "relation", "rank": 151, "frequency": 94, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in 'relation between', a recurring structural term.", "alternative": null}
+{"type": "thus", "rank": 152, "frequency": 94, "tag": "ADV", "confidence": 1.0, "reasoning": "Result/conclusion adverb ('thus appears', 'thus we see').", "alternative": null}
+{"type": "best", "rank": 153, "frequency": 93, "tag": "ADJ", "confidence": 1.0, "reasoning": "Superlative adjective in 'the best kind', 'best class'.", "alternative": null}
+{"type": "mill", "rank": 154, "frequency": 92, "tag": "PROPN", "confidence": 1.0, "reasoning": "Proper name of philosopher used in references to his works.", "alternative": null}
+{"type": "themselves", "rank": 155, "frequency": 92, "tag": "PRON", "confidence": 1.0, "reasoning": "Reflexive pronoun with plural antecedents ('they themselves').", "alternative": null}
+{"type": "particular", "rank": 156, "frequency": 91, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'particular objection', 'particular kind', modifying nouns.", "alternative": null}
+{"type": "way", "rank": 157, "frequency": 91, "tag": "NOUN", "confidence": 1.0, "reasoning": "Concrete/abstract noun in 'in this way', 'as a means'.", "alternative": null}
+{"type": "cognition", "rank": 158, "frequency": 90, "tag": "NOUN", "confidence": 1.0, "reasoning": "Technical noun in 'consciousness of cognition' and epistemic arguments.", "alternative": null}
+{"type": "though", "rank": 159, "frequency": 90, "tag": "SCONJ", "confidence": 1.0, "reasoning": "Concessive subordinator in 'Though ...', introducing contrastive clauses.", "alternative": null}
+{"type": "cases", "rank": 160, "frequency": 89, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun in legal/scientific framing ('in such cases', 'these cases').", "alternative": null}
+{"type": "really", "rank": 161, "frequency": 88, "tag": "ADV", "confidence": 1.0, "reasoning": "Sentential adverb modifying verbs/adjectives ('really good', 'really is').", "alternative": null}
+{"type": "since", "rank": 162, "frequency": 88, "tag": "SCONJ", "confidence": 1.0, "reasoning": "Temporal/causal subordinator in 'since', 'since this'.", "alternative": null}
+{"type": "truth", "rank": 163, "frequency": 88, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in 'truth of', 'truth of this proposition'.", "alternative": null}
+{"type": "much", "rank": 164, "frequency": 87, "tag": "DET", "confidence": 0.95, "reasoning": "Quantifying determiner in 'much good', 'much difficulty', closer to closed-class quantifier.", "alternative": null}
+{"type": "assert", "rank": 165, "frequency": 85, "tag": "VERB", "confidence": 0.98, "reasoning": "Speech-act verb in 'assert' and 'assert that', as a claim-making predicate.", "alternative": null}
+{"type": "doctrine", "rank": 166, "frequency": 85, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for systems of thought: 'doctrine of' and 'this doctrine'.", "alternative": null}
+{"type": "reality", "rank": 167, "frequency": 85, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in 'reality of', 'reality ... exists'.", "alternative": null}
+{"type": "out", "rank": 168, "frequency": 84, "tag": "ADP", "confidence": 0.99, "reasoning": "Part-of-complex preposition/adverb in contexts like 'out of', 'go out of'.", "alternative": null}
+{"type": "shew", "rank": 169, "frequency": 84, "tag": "VERB", "confidence": 1.0, "reasoning": "Archaic verb form (show) in explanatory passages 'we shall see', 'we have shewn'.", "alternative": null}
+{"type": "view", "rank": 170, "frequency": 84, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun in phrases such as 'in my view' and 'this view'.", "alternative": null}
+{"type": "common", "rank": 171, "frequency": 83, "tag": "ADJ", "confidence": 1.0, "reasoning": "General adjective in 'common sense', 'common sense of mankind'.", "alternative": null}
+{"type": "desirable", "rank": 172, "frequency": 83, "tag": "ADJ", "confidence": 1.0, "reasoning": "Predicate/adjectival form in 'desirable as', 'what is desirable'.", "alternative": null}
+{"type": "duty", "rank": 173, "frequency": 83, "tag": "NOUN", "confidence": 1.0, "reasoning": "Ethical noun in 'duty' as a principal category.", "alternative": null}
+{"type": "objects", "rank": 174, "frequency": 83, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun in 'objects of thought', 'objects of this class'.", "alternative": null}
+{"type": "virtue", "rank": 175, "frequency": 83, "tag": "NOUN", "confidence": 1.0, "reasoning": "Philosophical noun for trait classes and dispositions.", "alternative": null}
+{"type": "answer", "rank": 176, "frequency": 82, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for responses to ethical questions ('answer to', 'question answer').", "alternative": null}
+{"type": "just", "rank": 177, "frequency": 82, "tag": "ADV", "confidence": 0.98, "reasoning": "Focusing adverb in 'just to', 'just now', indicating limitation.", "alternative": null}
+{"type": "qualities", "rank": 178, "frequency": 81, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural concrete/abstract attributes in 'these qualities', 'cognitive qualities'.", "alternative": null}
+{"type": "meant", "rank": 179, "frequency": 80, "tag": "VERB", "confidence": 1.0, "reasoning": "Past tense sense verb in 'what is meant', 'not meant'.", "alternative": null}
+{"type": "said", "rank": 180, "frequency": 80, "tag": "VERB", "confidence": 1.0, "reasoning": "Verbal citation marker in 'it was said', 'as I said'.", "alternative": null}
+{"type": "indeed", "rank": 181, "frequency": 79, "tag": "ADV", "confidence": 1.0, "reasoning": "Discourse adverb affirming entailment in 'indeed', often sentence-initial or medial.", "alternative": null}
+{"type": "parts", "rank": 182, "frequency": 79, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural entity noun in analytic part-whole arguments ('parts of the whole').", "alternative": null}
+{"type": "seem", "rank": 183, "frequency": 79, "tag": "AUX", "confidence": 0.99, "reasoning": "Perception/evidential auxiliary in 'it seems' constructions introducing appearance.", "alternative": null}
+{"type": "conduct", "rank": 184, "frequency": 78, "tag": "NOUN", "confidence": 1.0, "reasoning": "Behavioral noun in 'conduct as means', 'good conduct', central ethical subject.", "alternative": null}
+{"type": "many", "rank": 185, "frequency": 78, "tag": "DET", "confidence": 1.0, "reasoning": "Quantifier determiners before plural nouns, e.g., 'many questions', 'many rules'.", "alternative": null}
+{"type": "mere", "rank": 186, "frequency": 78, "tag": "ADJ", "confidence": 1.0, "reasoning": "Restrictive modifier ('mere pleasure', 'mere consciousness').", "alternative": null}
+{"type": "beauty", "rank": 187, "frequency": 77, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for aesthetic property in 'true beauty', 'qualities of beauty'.", "alternative": null}
+{"type": "know", "rank": 188, "frequency": 76, "tag": "VERB", "confidence": 1.0, "reasoning": "Cognitive verb in 'know a thing', 'if I knew'.", "alternative": null}
+{"type": "principle", "rank": 189, "frequency": 76, "tag": "NOUN", "confidence": 1.0, "reasoning": "Foundational abstract noun in 'this principle', 'principle of ethics'.", "alternative": null}
+{"type": "quite", "rank": 190, "frequency": 76, "tag": "ADV", "confidence": 1.0, "reasoning": "Degree adverb in 'quite true', 'quite wrong' within arguments.", "alternative": null}
+{"type": "where", "rank": 191, "frequency": 76, "tag": "SCONJ", "confidence": 0.98, "reasoning": "Subordinating adverbial ('where this ...', 'whereas' relation with place/condition).", "alternative": null}
+{"type": "definition", "rank": 192, "frequency": 75, "tag": "NOUN", "confidence": 1.0, "reasoning": "Technical noun 'definition of' in philosophical exposition.", "alternative": null}
+{"type": "knowledge", "rank": 193, "frequency": 75, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in 'knowledge of', 'lack of knowledge'.", "alternative": null}
+{"type": "might", "rank": 194, "frequency": 75, "tag": "AUX", "confidence": 1.0, "reasoning": "Modal auxiliary in hypothetical 'might be', 'might have'.", "alternative": null}
+{"type": "real", "rank": 195, "frequency": 75, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'real good', 'real person', in metaphysical context.", "alternative": null}
+{"type": "chapter", "rank": 196, "frequency": 74, "tag": "NOUN", "confidence": 1.0, "reasoning": "Text-division noun in book organization references ('chapter', 'in this chapter').", "alternative": null}
+{"type": "greatest", "rank": 197, "frequency": 74, "tag": "ADJ", "confidence": 1.0, "reasoning": "Superlative adjective in 'greatest good' and similar maximal statements.", "alternative": null}
+{"type": "am", "rank": 198, "frequency": 73, "tag": "AUX", "confidence": 1.0, "reasoning": "1st person singular copular auxiliary in 'I am'.", "alternative": null}
+{"type": "nothing", "rank": 199, "frequency": 73, "tag": "PRON", "confidence": 0.99, "reasoning": "Indefinite pronoun in 'nothing else', 'nothing can be'.", "alternative": null}
+{"type": "consciousness", "rank": 200, "frequency": 72, "tag": "NOUN", "confidence": 1.0, "reasoning": "Phenomenological noun in 'consciousness of pleasure', 'absence of consciousness'.", "alternative": null}
+{"type": "important", "rank": 201, "frequency": 72, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'important distinction', 'important premises'.", "alternative": null}
+{"type": "plain", "rank": 202, "frequency": 72, "tag": "ADJ", "confidence": 1.0, "reasoning": "Clearness marker in 'plain and obvious', 'plainly states'.", "alternative": null}
+{"type": "prove", "rank": 203, "frequency": 72, "tag": "VERB", "confidence": 1.0, "reasoning": "Lexical verb in 'prove' and 'proved' context of arguments.", "alternative": null}
+{"type": "moral", "rank": 204, "frequency": 71, "tag": "ADJ", "confidence": 1.0, "reasoning": "Evaluative adjective in 'moral law', 'moral quality'.", "alternative": null}
+{"type": "sidgwick", "rank": 205, "frequency": 71, "tag": "PROPN", "confidence": 1.0, "reasoning": "Author surname used as a named reference throughout the text.", "alternative": null}
+{"type": "less", "rank": 206, "frequency": 70, "tag": "ADJ", "confidence": 1.0, "reasoning": "Degree comparator in 'less likely', 'less probable', modifying nouns/adj.", "alternative": null}
+{"type": "bad", "rank": 207, "frequency": 69, "tag": "ADJ", "confidence": 0.98, "reasoning": "Negative evaluative adjective in 'bad as', 'bad action'; mostly attribute not noun.", "alternative": null}
+{"type": "else", "rank": 208, "frequency": 69, "tag": "ADV", "confidence": 1.0, "reasoning": "Discourse modifier in 'else' alternatives ('or else').", "alternative": null}
+{"type": "judgment", "rank": 209, "frequency": 69, "tag": "NOUN", "confidence": 1.0, "reasoning": "Cognitive noun in 'ethical judgment', 'judgment of value'.", "alternative": null}
+{"type": "meaning", "rank": 210, "frequency": 69, "tag": "NOUN", "confidence": 1.0, "reasoning": "Semantic noun in 'meaning of', 'this meaning'.", "alternative": null}
+{"type": "metaphysical", "rank": 211, "frequency": 69, "tag": "ADJ", "confidence": 1.0, "reasoning": "Domain adjective in 'metaphysical form', 'metaphysical ethics'.", "alternative": null}
+{"type": "called", "rank": 212, "frequency": 68, "tag": "VERB", "confidence": 1.0, "reasoning": "Passive-like verb in naming constructions 'called X', 'it is called'.", "alternative": null}
+{"type": "consider", "rank": 213, "frequency": 68, "tag": "VERB", "confidence": 1.0, "reasoning": "Main verb in 'consider' constructions introducing analysis of cases.", "alternative": null}
+{"type": "made", "rank": 214, "frequency": 68, "tag": "VERB", "confidence": 1.0, "reasoning": "Past/perfective verb in 'was made', 'have made', not functioning as noun.", "alternative": null}
+{"type": "alone", "rank": 215, "frequency": 67, "tag": "ADV", "confidence": 1.0, "reasoning": "Restrictive adverb in 'alone for', 'alone as', limiting scope.", "alternative": null}
+{"type": "could", "rank": 216, "frequency": 67, "tag": "AUX", "confidence": 1.0, "reasoning": "Past modal auxiliary in 'could see', 'could produce'.", "alternative": null}
+{"type": "give", "rank": 217, "frequency": 67, "tag": "VERB", "confidence": 1.0, "reasoning": "Transitive verb in 'give reasons', 'give a place', with complement behavior.", "alternative": null}
+{"type": "property", "rank": 218, "frequency": 67, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in 'property of', 'property which'.", "alternative": null}
+{"type": "see", "rank": 219, "frequency": 67, "tag": "VERB", "confidence": 1.0, "reasoning": "Perception verb in 'see that', 'to see'.", "alternative": null}
+{"type": "thought", "rank": 220, "frequency": 67, "tag": "NOUN", "confidence": 1.0, "reasoning": "Mental content noun in 'thoughts', 'thought that', used as object of verbs.", "alternative": null}
+{"type": "goodness", "rank": 221, "frequency": 66, "tag": "NOUN", "confidence": 1.0, "reasoning": "Substantive of quality in 'goodness in', 'what is goodness'.", "alternative": null}
+{"type": "here", "rank": 222, "frequency": 65, "tag": "ADV", "confidence": 1.0, "reasoning": "Deictic adverb pointing to discourse location in 'here we must', 'here all'.", "alternative": null}
+{"type": "however", "rank": 223, "frequency": 65, "tag": "ADV", "confidence": 1.0, "reasoning": "Discourse adverb for concessive shift at sentence start or mid-clause.", "alternative": null}
+{"type": "judgments", "rank": 224, "frequency": 65, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun for evaluative acts ('judgments which', 'moral judgments').", "alternative": null}
+{"type": "produce", "rank": 225, "frequency": 65, "tag": "VERB", "confidence": 1.0, "reasoning": "Causative verb in 'produce result', 'produce best total result'.", "alternative": null}
+{"type": "proof", "rank": 226, "frequency": 65, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for demonstration/evidence in logical argument ('proof of', 'for proof').", "alternative": null}
+{"type": "second", "rank": 227, "frequency": 65, "tag": "ADJ", "confidence": 0.99, "reasoning": "Ordinal adjective in 'second step', 'second method', 'second class'.", "alternative": null}
+{"type": "without", "rank": 228, "frequency": 65, "tag": "ADP", "confidence": 1.0, "reasoning": "Preposition indicating exclusion in 'without it', 'without consequence'.", "alternative": null}
+{"type": "how", "rank": 229, "frequency": 64, "tag": "ADV", "confidence": 1.0, "reasoning": "Interrogative/focus adverb in 'how does', 'how far'.", "alternative": null}
+{"type": "spencer", "rank": 230, "frequency": 64, "tag": "PROPN", "confidence": 1.0, "reasoning": "Proper name appearing as 'Spencer' in citations.", "alternative": null}
+{"type": "well", "rank": 231, "frequency": 64, "tag": "ADV", "confidence": 1.0, "reasoning": "Filler/discourse and quality adverb in 'well as', 'well known'.", "alternative": null}
+{"type": "emotion", "rank": 232, "frequency": 63, "tag": "NOUN", "confidence": 1.0, "reasoning": "Affective noun in 'emotion involved', 'admirable mental emotions'.", "alternative": null}
+{"type": "man", "rank": 233, "frequency": 63, "tag": "NOUN", "confidence": 1.0, "reasoning": "Human actor noun in generic examples ('each man', 'another man').", "alternative": null}
+{"type": "order", "rank": 234, "frequency": 63, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for command/sequence in 'order of', 'in this order'.", "alternative": null}
+{"type": "others", "rank": 235, "frequency": 63, "tag": "PRON", "confidence": 0.98, "reasoning": "Plural third-person pronoun in 'others are', 'others as', meaning other persons/things.", "alternative": null}
+{"type": "ideal", "rank": 236, "frequency": 61, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'ideal of ethics', 'ideal good'.", "alternative": null}
+{"type": "who", "rank": 237, "frequency": 61, "tag": "PRON", "confidence": 1.0, "reasoning": "Interrogative/relative pronoun introducing clauses ('who says', 'who is').", "alternative": null}
+{"type": "evils", "rank": 238, "frequency": 60, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun in mixed-evil discussions ('evils of this class').", "alternative": null}
+{"type": "results", "rank": 239, "frequency": 60, "tag": "NOUN", "confidence": 1.0, "reasoning": "Outcome noun in 'results of', 'better total result'.", "alternative": null}
+{"type": "still", "rank": 240, "frequency": 60, "tag": "ADV", "confidence": 1.0, "reasoning": "Temporal/additional adverb in 'still is', 'still to be'.", "alternative": null}
+{"type": "whatever", "rank": 241, "frequency": 60, "tag": "PRON", "confidence": 1.0, "reasoning": "Free-choice/indefinite pronoun in 'anything ... whatever', 'whatever is'.", "alternative": null}
+{"type": "class", "rank": 242, "frequency": 59, "tag": "NOUN", "confidence": 1.0, "reasoning": "Taxonomic noun used in 'class of questions', 'two classes'.", "alternative": null}
+{"type": "defined", "rank": 243, "frequency": 59, "tag": "VERB", "confidence": 0.99, "reasoning": "Past participial/verb form in 'has been defined', 'defined as'.", "alternative": null}
+{"type": "evolution", "rank": 244, "frequency": 59, "tag": "NOUN", "confidence": 1.0, "reasoning": "Theory noun in 'evolutionary explanations', 'evolution of conduct'.", "alternative": null}
+{"type": "human", "rank": 245, "frequency": 59, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive for persons/agency in 'human nature', 'human life'.", "alternative": null}
+{"type": "point", "rank": 246, "frequency": 59, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for argumentative focus in 'point made', 'point of view'.", "alternative": null}
+{"type": "questions", "rank": 247, "frequency": 59, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural interrogative noun as in 'questions of ethics', 'other questions'.", "alternative": null}
+{"type": "desired", "rank": 248, "frequency": 58, "tag": "VERB", "confidence": 0.7, "reasoning": "Participial form most often in verbal sense ('desired by us'), but can serve attributive role.", "alternative": "ADJ"}
+{"type": "pain", "rank": 249, "frequency": 58, "tag": "NOUN", "confidence": 1.0, "reasoning": "Affective noun in 'consciousness of pain', 'avoid pain'.", "alternative": null}
+{"type": "positive", "rank": 250, "frequency": 58, "tag": "ADJ", "confidence": 1.0, "reasoning": "Valence adjective in 'positive goods', 'positive value'.", "alternative": null}
+{"type": "valuable", "rank": 251, "frequency": 58, "tag": "ADJ", "confidence": 0.99, "reasoning": "Gradable adjective in 'valuable good', 'valuable thought', and similar.", "alternative": null}
+{"type": "absolutely", "rank": 252, "frequency": 57, "tag": "ADV", "confidence": 1.0, "reasoning": "Scalar adverb in 'absolutely no', 'absolutely clear'.", "alternative": null}
+{"type": "false", "rank": 253, "frequency": 57, "tag": "ADJ", "confidence": 1.0, "reasoning": "Predicate adjective in false statements, not nounal in sampled contexts.", "alternative": null}
+{"type": "had", "rank": 254, "frequency": 57, "tag": "AUX", "confidence": 1.0, "reasoning": "Past auxiliary in pluperfect/complex verb sequences ('had followed', 'had offered').", "alternative": null}
+{"type": "never", "rank": 255, "frequency": 57, "tag": "ADV", "confidence": 1.0, "reasoning": "Temporal-negation adverb in 'never will', 'never had'.", "alternative": null}
+{"type": "practical", "rank": 256, "frequency": 57, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'practical ethics', 'practical enquiry'.", "alternative": null}
+{"type": "future", "rank": 257, "frequency": 56, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for temporality and temporal states ('in the future', 'a future realisation').", "alternative": null}
+{"type": "into", "rank": 258, "frequency": 56, "tag": "ADP", "confidence": 1.0, "reasoning": "Directional preposition as in 'into this future', 'into parts'.", "alternative": null}
+{"type": "mr", "rank": 259, "frequency": 56, "tag": "NOUN", "confidence": 0.9, "reasoning": "Title abbreviation before author surnames in references like 'Mr Spencer'.", "alternative": null}
+{"type": "self", "rank": 260, "frequency": 56, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for the agent itself in moral psychology ('self', 'the self').", "alternative": null}
+{"type": "anything", "rank": 261, "frequency": 55, "tag": "PRON", "confidence": 1.0, "reasoning": "Indefinite pronoun in 'anything at all', 'anything is'.", "alternative": null}
+{"type": "clearly", "rank": 262, "frequency": 55, "tag": "ADV", "confidence": 1.0, "reasoning": "Sentential adverb marking clarity ('clearly seen', 'as clearly').", "alternative": null}
+{"type": "form", "rank": 263, "frequency": 54, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in 'the form of', 'form of argument'.", "alternative": null}
+{"type": "under", "rank": 264, "frequency": 54, "tag": "ADP", "confidence": 1.0, "reasoning": "Preposition in 'under this', 'understand under conditions'.", "alternative": null}
+{"type": "useful", "rank": 265, "frequency": 54, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'useful result', 'useful to this'.", "alternative": null}
+{"type": "belief", "rank": 266, "frequency": 53, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for held propositions in belief-oriented arguments.", "alternative": null}
+{"type": "identical", "rank": 267, "frequency": 53, "tag": "ADJ", "confidence": 1.0, "reasoning": "Adjectival in 'identical to', expressing sameness in logic passages.", "alternative": null}
+{"type": "distinguish", "rank": 268, "frequency": 52, "tag": "VERB", "confidence": 1.0, "reasoning": "Action verb in calls to differentiate classes ('distinguish from', 'distinguish that').", "alternative": null}
+{"type": "egoism", "rank": 269, "frequency": 52, "tag": "NOUN", "confidence": 1.0, "reasoning": "Named ethical theory as a noun, contrasted against utilitarianism.", "alternative": null}
+{"type": "feeling", "rank": 270, "frequency": 52, "tag": "NOUN", "confidence": 1.0, "reasoning": "Internal-state noun in 'emotion and feeling', 'feelings of pleasure'.", "alternative": null}
+{"type": "instance", "rank": 271, "frequency": 52, "tag": "NOUN", "confidence": 1.0, "reasoning": "Example/occurrence noun in 'instances of', 'this instance'.", "alternative": null}
+{"type": "make", "rank": 272, "frequency": 52, "tag": "VERB", "confidence": 1.0, "reasoning": "Action verb in 'make mistakes', 'make clear'.", "alternative": null}
+{"type": "namely", "rank": 273, "frequency": 52, "tag": "ADV", "confidence": 1.0, "reasoning": "Clarifying adverb introducing reformulation ('namely that').", "alternative": null}
+{"type": "present", "rank": 274, "frequency": 52, "tag": "ADJ", "confidence": 0.72, "reasoning": "Often attributive ('present state'), but can be verbal ('is present'); here noun phrase dominance is adjectival.", "alternative": "VERB"}
+{"type": "prof", "rank": 275, "frequency": 52, "tag": "NOUN", "confidence": 0.92, "reasoning": "Authorial shorthand before surnames/titles, functioning as noun phrase element ('prof. Spencer').", "alternative": null}
+{"type": "says", "rank": 276, "frequency": 52, "tag": "VERB", "confidence": 1.0, "reasoning": "Reported speech verb in 'he says'/'it says' and chapter references.", "alternative": null}
+{"type": "time", "rank": 277, "frequency": 52, "tag": "NOUN", "confidence": 1.0, "reasoning": "Temporal noun in 'time to', 'past', 'at this time'.", "alternative": null}
+{"type": "among", "rank": 278, "frequency": 51, "tag": "ADP", "confidence": 1.0, "reasoning": "Preposition in inclusion sets ('among those', 'among virtues').", "alternative": null}
+{"type": "essential", "rank": 279, "frequency": 51, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'essential quality', 'essential conditions'.", "alternative": null}
+{"type": "propositions", "rank": 280, "frequency": 51, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural abstract noun of philosophical claims ('propositions that').", "alternative": null}
+{"type": "reasons", "rank": 281, "frequency": 51, "tag": "NOUN", "confidence": 1.0, "reasoning": "Ground-giving nouns in 'reasons for', 'reasons to believe'.", "alternative": null}
+{"type": "supposed", "rank": 282, "frequency": 51, "tag": "VERB", "confidence": 1.0, "reasoning": "Past participle verb in 'supposed that', 'as supposed by'.", "alternative": null}
+{"type": "towards", "rank": 283, "frequency": 51, "tag": "ADP", "confidence": 1.0, "reasoning": "Directional/abstract preposition in 'towards what', 'towards a goal'.", "alternative": null}
+{"type": "although", "rank": 284, "frequency": 50, "tag": "SCONJ", "confidence": 1.0, "reasoning": "Concessive subordinator in 'although ...', introducing contrast.", "alternative": null}
+{"type": "difference", "rank": 285, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in 'difference between' and 'difference of opinion'.", "alternative": null}
+{"type": "distinction", "rank": 286, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun marking conceptual partition ('distinction between').", "alternative": null}
+{"type": "duties", "rank": 287, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "Moral role noun in multiple plural forms ('duties as').", "alternative": null}
+{"type": "greater", "rank": 288, "frequency": 50, "tag": "ADJ", "confidence": 0.99, "reasoning": "Comparative modifier in 'greater good', 'greater than', clearly adjective.", "alternative": null}
+{"type": "hold", "rank": 289, "frequency": 50, "tag": "VERB", "confidence": 1.0, "reasoning": "Verbal predicate in 'hold that', 'hold that principle'.", "alternative": null}
+{"type": "life", "rank": 290, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "Biological/ethical noun in 'life or nature', common subject/object.", "alternative": null}
+{"type": "me", "rank": 291, "frequency": 50, "tag": "PRON", "confidence": 1.0, "reasoning": "First-person object pronoun in 'let me', 'I am', consistent with quoted examples.", "alternative": null}
+{"type": "metaphysics", "rank": 292, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "Discipline noun in references to metaphysical claims.", "alternative": null}
+{"type": "follows", "rank": 293, "frequency": 49, "tag": "VERB", "confidence": 1.0, "reasoning": "Verbal progression marker in 'follows from', 'follows this'.", "alternative": null}
+{"type": "given", "rank": 294, "frequency": 49, "tag": "VERB", "confidence": 1.0, "reasoning": "Participle/verb in conditionals ('given that', 'it is given'), functioning as verb.", "alternative": null}
+{"type": "mind", "rank": 295, "frequency": 49, "tag": "NOUN", "confidence": 1.0, "reasoning": "Mental noun in 'human mind', 'state of the mind'.", "alternative": null}
+{"type": "obvious", "rank": 296, "frequency": 49, "tag": "ADJ", "confidence": 1.0, "reasoning": "Evaluative adjective in 'it is obvious', 'obvious that'.", "alternative": null}
+{"type": "take", "rank": 297, "frequency": 49, "tag": "VERB", "confidence": 1.0, "reasoning": "Directive verb in 'take ... as', 'take it'.", "alternative": null}
+{"type": "ultimate", "rank": 298, "frequency": 49, "tag": "ADJ", "confidence": 1.0, "reasoning": "Qualifying adjective in 'ultimate condition', 'ultimate form'.", "alternative": null}
+{"type": "actually", "rank": 299, "frequency": 48, "tag": "ADV", "confidence": 1.0, "reasoning": "Sentential adverb correcting scope ('actually true', 'actually not').", "alternative": null}
+{"type": "appreciation", "rank": 300, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for evaluative experience ('aesthetic appreciation').", "alternative": null}
+{"type": "discussion", "rank": 301, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun referring to sections of argument ('first division of discussion').", "alternative": null}
+{"type": "held", "rank": 302, "frequency": 48, "tag": "VERB", "confidence": 1.0, "reasoning": "Past verb in 'was held', 'holds that' where an assertion is maintained.", "alternative": null}
+{"type": "him", "rank": 303, "frequency": 48, "tag": "PRON", "confidence": 1.0, "reasoning": "Third-person singular object pronoun in references to named authors.", "alternative": null}
+{"type": "include", "rank": 304, "frequency": 48, "tag": "VERB", "confidence": 1.0, "reasoning": "Transitive verb in 'include properties', 'include these'.", "alternative": null}
+{"type": "universal", "rank": 305, "frequency": 48, "tag": "ADJ", "confidence": 1.0, "reasoning": "General qualifier in 'universal laws', 'universal statement'.", "alternative": null}
+{"type": "use", "rank": 306, "frequency": 48, "tag": "NOUN", "confidence": 0.65, "reasoning": "Appears both as noun ('the use of') and verb ('use of'); majority-like noun-like contexts.", "alternative": "VERB"}
+{"type": "word", "rank": 307, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "Lexical noun for linguistic item in examples ('word has', 'the word').", "alternative": null}
+{"type": "world", "rank": 308, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "Concrete/abstract noun as in 'whole world', 'this world'.", "alternative": null}
+{"type": "appears", "rank": 309, "frequency": 47, "tag": "VERB", "confidence": 1.0, "reasoning": "Copular/appearance verb in 'appears that', introducing observed claims.", "alternative": null}
+{"type": "before", "rank": 310, "frequency": 47, "tag": "ADP", "confidence": 1.0, "reasoning": "Preposition in temporal ordering ('before this', 'before that').", "alternative": null}
+{"type": "correct", "rank": 311, "frequency": 47, "tag": "ADJ", "confidence": 1.0, "reasoning": "Evaluative adjective in 'correct proposition', 'to be correct'.", "alternative": null}
+{"type": "rules", "rank": 312, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "Normative noun plural in 'moral rules', 'legal rules'.", "alternative": null}
+{"type": "ask", "rank": 313, "frequency": 46, "tag": "VERB", "confidence": 1.0, "reasoning": "Speech/elicitation verb in 'ask what', 'ask whether'.", "alternative": null}
+{"type": "ever", "rank": 314, "frequency": 46, "tag": "ADV", "confidence": 1.0, "reasoning": "Temporal/general adverb in 'ever since', 'ever been', 'ever to'.", "alternative": null}
+{"type": "latter", "rank": 315, "frequency": 46, "tag": "ADJ", "confidence": 1.0, "reasoning": "Determiner-like adjective in 'latter case', 'latter class'.", "alternative": null}
+{"type": "name", "rank": 316, "frequency": 46, "tag": "NOUN", "confidence": 1.0, "reasoning": "Label noun for concepts and individuals ('name of', 'the name').", "alternative": null}
+{"type": "suppose", "rank": 317, "frequency": 46, "tag": "VERB", "confidence": 1.0, "reasoning": "Cognitive-conditional verb in 'suppose that', 'let us suppose'.", "alternative": null}
+{"type": "wholes", "rank": 318, "frequency": 46, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun for part-whole arguments, in 'wholes and parts'.", "alternative": null}
+{"type": "why", "rank": 319, "frequency": 46, "tag": "ADV", "confidence": 1.0, "reasoning": "Interrogative adverb introducing rationale ('why this', 'why there is').", "alternative": null}
+{"type": "course", "rank": 320, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "Narrative/lecture noun in 'in course', 'course of', though not temporal.", "alternative": null}
+{"type": "except", "rank": 321, "frequency": 45, "tag": "ADP", "confidence": 1.0, "reasoning": "Exclusion preposition in 'except those', 'except where', fitting non-auxiliary use.", "alternative": null}
+{"type": "matter", "rank": 322, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "Topic noun in 'this matter', 'matter of'.", "alternative": null}
+{"type": "method", "rank": 323, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "Technical noun in 'this method', 'method of enquiry'.", "alternative": null}
+{"type": "organic", "rank": 324, "frequency": 45, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'organic whole' and related technical constructions.", "alternative": null}
+{"type": "words", "rank": 325, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "Lexical noun for lexical items under discussion ('our words', 'these words').", "alternative": null}
+{"type": "confusion", "rank": 326, "frequency": 44, "tag": "NOUN", "confidence": 1.0, "reasoning": "Philosophical noun denoting mix-up concept in semantic argument.", "alternative": null}
+{"type": "idea", "rank": 327, "frequency": 44, "tag": "NOUN", "confidence": 1.0, "reasoning": "Core noun for conceptual content ('an idea', 'the idea that').", "alternative": null}
+{"type": "result", "rank": 328, "frequency": 44, "tag": "NOUN", "confidence": 1.0, "reasoning": "Outcome noun in 'result of action', 'as a result'.", "alternative": null}
+{"type": "sufficient", "rank": 329, "frequency": 44, "tag": "ADJ", "confidence": 1.0, "reasoning": "Sufficiency adjective in 'sufficient basis', 'sufficiently'.", "alternative": null}
+{"type": "wrong", "rank": 330, "frequency": 44, "tag": "ADJ", "confidence": 0.95, "reasoning": "Value adjective in 'wrong act', 'wrong thing'; could nominalize rarely.", "alternative": null}
+{"type": "assertion", "rank": 331, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "Speech-act noun in 'the assertion that', frequent philosophical object.", "alternative": null}
+{"type": "conditions", "rank": 332, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun for hypothetical premises in 'conditions of'.", "alternative": null}
+{"type": "degree", "rank": 333, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in 'degree of', 'to a degree'.", "alternative": null}
+{"type": "each", "rank": 334, "frequency": 43, "tag": "DET", "confidence": 1.0, "reasoning": "Distributive determiner in 'each suggested definition', 'each of them'.", "alternative": null}
+{"type": "equally", "rank": 335, "frequency": 43, "tag": "ADV", "confidence": 1.0, "reasoning": "Distributive adverb in 'equally universal', 'equally present'.", "alternative": null}
+{"type": "appear", "rank": 336, "frequency": 42, "tag": "VERB", "confidence": 1.0, "reasoning": "Appearance verb in 'appear that', 'appears', as core predicate.", "alternative": null}
+{"type": "cause", "rank": 337, "frequency": 42, "tag": "NOUN", "confidence": 0.9, "reasoning": "Causal noun in 'cause and effect' dominates, though can be verbal; noun reading stronger in contexts.", "alternative": null}
+{"type": "law", "rank": 338, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract/object noun for normative order in many references to moral or natural law.", "alternative": null}
+{"type": "nor", "rank": 339, "frequency": 42, "tag": "CCONJ", "confidence": 1.0, "reasoning": "Negative coordinator in 'neither... nor', explicit correlative pattern.", "alternative": null}
+{"type": "ugly", "rank": 340, "frequency": 42, "tag": "ADJ", "confidence": 1.0, "reasoning": "Aesthetic quality adjective in 'ugly or' and related binaries.", "alternative": null}
+{"type": "unless", "rank": 341, "frequency": 42, "tag": "SCONJ", "confidence": 1.0, "reasoning": "Conditional subordinator in 'unless this', 'unless'.", "alternative": null}
+{"type": "contemplation", "rank": 342, "frequency": 41, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for mental act in 'aesthetic contemplation', used repeatedly as conceptual object.", "alternative": null}
+{"type": "distinct", "rank": 343, "frequency": 41, "tag": "ADJ", "confidence": 1.0, "reasoning": "Differentiating adjective in 'distinct from', 'distinctly'.", "alternative": null}
+{"type": "distinguished", "rank": 344, "frequency": 41, "tag": "VERB", "confidence": 1.0, "reasoning": "Past participle/verb in 'distinguished by', clearly predicative description.", "alternative": null}
+{"type": "love", "rank": 345, "frequency": 41, "tag": "NOUN", "confidence": 0.97, "reasoning": "Noun for affection in 'love of', though context can also include verb phrase but noun dominant.", "alternative": null}
+{"type": "respect", "rank": 346, "frequency": 41, "tag": "NOUN", "confidence": 0.93, "reasoning": "Noun in 'reverence/respect for'; mostly non-verbal nominal object.", "alternative": null}
+{"type": "truths", "rank": 347, "frequency": 41, "tag": "NOUN", "confidence": 1.0, "reasoning": "Philosophical plural noun for propositions ('truths are').", "alternative": null}
+{"type": "used", "rank": 348, "frequency": 41, "tag": "VERB", "confidence": 1.0, "reasoning": "Past verbal form in 'used by', 'used to prove'.", "alternative": null}
+{"type": "bearing", "rank": 349, "frequency": 40, "tag": "VERB", "confidence": 0.99, "reasoning": "Gerund/verb in 'bearing on', central as processive noun-verb form.", "alternative": null}
+{"type": "call", "rank": 350, "frequency": 40, "tag": "VERB", "confidence": 1.0, "reasoning": "Speech/action verb in 'call this', 'call attention'.", "alternative": null}
+{"type": "circumstances", "rank": 351, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun in 'special circumstances', 'under such circumstances'.", "alternative": null}
+{"type": "done", "rank": 352, "frequency": 40, "tag": "VERB", "confidence": 1.0, "reasoning": "Past participle in 'has done', 'were done', functioning as verb.", "alternative": null}
+{"type": "every", "rank": 353, "frequency": 40, "tag": "DET", "confidence": 1.0, "reasoning": "Distributive determiner in 'every virtue', 'every case'.", "alternative": null}
+{"type": "fundamental", "rank": 354, "frequency": 40, "tag": "ADJ", "confidence": 1.0, "reasoning": "Core adjective in 'fundamental condition', 'fundamental error'.", "alternative": null}
+{"type": "having", "rank": 355, "frequency": 40, "tag": "VERB", "confidence": 1.0, "reasoning": "Non-finite verb form introducing participial clauses ('having regard to', 'having these').", "alternative": null}
+{"type": "least", "rank": 356, "frequency": 40, "tag": "ADJ", "confidence": 0.9, "reasoning": "Quantifier adjective in 'least amount', 'at least'.", "alternative": null}
+{"type": "main", "rank": 357, "frequency": 40, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'main argument', 'main object'.", "alternative": null}
+{"type": "rational", "rank": 358, "frequency": 40, "tag": "ADJ", "confidence": 1.0, "reasoning": "Adjectival marker in 'rational end', 'rational basis'.", "alternative": null}
+{"type": "theory", "rank": 359, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "Philosophical noun in 'this theory', 'theory of'.", "alternative": null}
+{"type": "consists", "rank": 360, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "Verbal predicate in 'consists that', 'consists in'.", "alternative": null}
+{"type": "contradiction", "rank": 361, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in logic passages discussing contradiction.", "alternative": null}
+{"type": "error", "rank": 362, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for mistaken claims in discussions of argument.", "alternative": null}
+{"type": "himself", "rank": 363, "frequency": 39, "tag": "PRON", "confidence": 1.0, "reasoning": "Reflexive pronoun in constructions like 'if only for himself', 'to him'.", "alternative": null}
+{"type": "three", "rank": 364, "frequency": 39, "tag": "NUM", "confidence": 0.99, "reasoning": "Cardinal in 'the third class', 'three kinds'.", "alternative": null}
+{"type": "virtues", "rank": 365, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural of virtue in ethical categories.", "alternative": null}
+{"type": "whereas", "rank": 366, "frequency": 39, "tag": "SCONJ", "confidence": 1.0, "reasoning": "Contrastive subordinator in clauses beginning 'whereas'.", "alternative": null}
+{"type": "arguments", "rank": 367, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun for reasons and proofs in the text ('arguments that').", "alternative": null}
+{"type": "conclusions", "rank": 368, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "Summary noun for logical outcomes in argument flow.", "alternative": null}
+{"type": "seen", "rank": 369, "frequency": 38, "tag": "VERB", "confidence": 1.0, "reasoning": "Past passive verb in 'seen that', 'as has been seen'.", "alternative": null}
+{"type": "simple", "rank": 370, "frequency": 38, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'simple example', 'simple relation'.", "alternative": null}
+{"type": "taken", "rank": 371, "frequency": 38, "tag": "VERB", "confidence": 1.0, "reasoning": "Past participle/verb in 'taken as', 'taken to'.", "alternative": null}
+{"type": "able", "rank": 372, "frequency": 37, "tag": "ADJ", "confidence": 1.0, "reasoning": "Capability adjective in 'able to act', 'able as'.", "alternative": null}
+{"type": "already", "rank": 373, "frequency": 37, "tag": "ADV", "confidence": 1.0, "reasoning": "Temporal adverb in 'already shown', 'already established'.", "alternative": null}
+{"type": "alternative", "rank": 374, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "Nominal substitute for options in 'other alternatives'.", "alternative": null}
+{"type": "hope", "rank": 375, "frequency": 37, "tag": "NOUN", "confidence": 0.95, "reasoning": "Expectation noun in phrases like 'there is hope', though verb-like uses are limited here.", "alternative": null}
+{"type": "importance", "rank": 376, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract noun in 'importance of', 'its importance'.", "alternative": null}
+{"type": "proper", "rank": 377, "frequency": 37, "tag": "ADJ", "confidence": 1.0, "reasoning": "Qualifying adjective in 'proper disposition', 'proper place'.", "alternative": null}
+{"type": "proved", "rank": 378, "frequency": 37, "tag": "VERB", "confidence": 1.0, "reasoning": "Past verb in 'proved that', 'it can be proved'.", "alternative": null}
+{"type": "quality", "rank": 379, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract property noun in 'qualitiy and', 'qualities and quality'.", "alternative": null}
+{"type": "terms", "rank": 380, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun in definitions and formulae ('terms as', 'in these terms').", "alternative": null}
+{"type": "difficult", "rank": 381, "frequency": 36, "tag": "ADJ", "confidence": 1.0, "reasoning": "Evaluative adjective in 'difficult question', 'difficult conclusion'.", "alternative": null}
+{"type": "former", "rank": 382, "frequency": 36, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective contrasting prior items ('former class', 'former doctrine').", "alternative": null}
+{"type": "further", "rank": 383, "frequency": 36, "tag": "ADV", "confidence": 1.0, "reasoning": "Discourse adverb adding extension ('further considered', 'furthermore-like' function).", "alternative": null}
+{"type": "hand", "rank": 384, "frequency": 36, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun meaning assistance/support in 'hand in', as part of idiom contexts.", "alternative": null}
+{"type": "recognised", "rank": 385, "frequency": 36, "tag": "VERB", "confidence": 1.0, "reasoning": "Past participle in 'recognised as', 'recognised by'.", "alternative": null}
+{"type": "causal", "rank": 386, "frequency": 35, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'causal reasoning', 'causal connection'.", "alternative": null}
+{"type": "conclusion", "rank": 387, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "Result noun at section ends ('the conclusion is').", "alternative": null}
+{"type": "rule", "rank": 388, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "Normative/propositional noun in 'rules of ethics'.", "alternative": null}
+{"type": "total", "rank": 389, "frequency": 35, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive in 'total result', 'total good'.", "alternative": null}
+{"type": "utility", "rank": 390, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "Utility as key theoretical noun throughout ethical discussions.", "alternative": null}
+{"type": "admit", "rank": 391, "frequency": 34, "tag": "VERB", "confidence": 1.0, "reasoning": "Cognitive/argumentative verb 'I admit', 'it must admit'.", "alternative": null}
+{"type": "ends", "rank": 392, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun as telic notions in 'ends of action' and similar.", "alternative": null}
+{"type": "find", "rank": 393, "frequency": 34, "tag": "VERB", "confidence": 1.0, "reasoning": "Verb meaning discover in 'find that'.", "alternative": null}
+{"type": "kinds", "rank": 394, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun in taxonomic distinctions ('kinds of good').", "alternative": null}
+{"type": "obviously", "rank": 395, "frequency": 34, "tag": "ADV", "confidence": 1.0, "reasoning": "Sentence adverb marking epistemic accessibility ('obviously true').", "alternative": null}
+{"type": "perhaps", "rank": 396, "frequency": 34, "tag": "ADV", "confidence": 1.0, "reasoning": "Modal adverb in tentative claim ('perhaps').", "alternative": null}
+{"type": "predicate", "rank": 397, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "Grammatical-semantic noun in 'predicate of'.", "alternative": null}
+{"type": "saying", "rank": 398, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "Gerund noun for quoted statements in logical exposition.", "alternative": null}
+{"type": "argument", "rank": 399, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "Core noun for reasoning chains in the chapter.", "alternative": null}
+{"type": "considered", "rank": 400, "frequency": 33, "tag": "VERB", "confidence": 1.0, "reasoning": "Past participial verb 'considered by' in discussion of views.", "alternative": null}
+{"type": "element", "rank": 401, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "Part-level noun in analytic decomposition ('element of', 'elements consist').", "alternative": null}
+{"type": "interest", "rank": 402, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for motivational value ('interest in').", "alternative": null}
+{"type": "person", "rank": 403, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "Human noun in moral psychology and examples ('this person').", "alternative": null}
+{"type": "sum", "rank": 404, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "Mathematical/quantitative noun in 'sum of goods'.", "alternative": null}
+{"type": "supersensible", "rank": 405, "frequency": 33, "tag": "ADJ", "confidence": 1.0, "reasoning": "Technical adjective in 'supersensible property'.", "alternative": null}
+{"type": "truly", "rank": 406, "frequency": 33, "tag": "ADV", "confidence": 1.0, "reasoning": "Focusing adverb in 'truly a', 'truly good'.", "alternative": null}
+{"type": "attempt", "rank": 407, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for effort of proof 'attempt to'.", "alternative": null}
+{"type": "define", "rank": 408, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "Verb in 'define that', 'defined'.", "alternative": null}
+{"type": "discover", "rank": 409, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "Verb meaning find/explain in epistemic contexts.", "alternative": null}
+{"type": "effect", "rank": 410, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "Result noun in 'effect on', 'effects of action'.", "alternative": null}
+{"type": "observed", "rank": 411, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "Past participle verb in 'it has been observed'.", "alternative": null}
+{"type": "perform", "rank": 412, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "Lexical verb in 'perform actions' and duty-like contexts.", "alternative": null}
+{"type": "persons", "rank": 413, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural of person in social/ethical discussion contexts.", "alternative": null}
+{"type": "pleasant", "rank": 414, "frequency": 32, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'pleasant feeling', 'pleasant experiences'.", "alternative": null}
+{"type": "pointed", "rank": 415, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "Past participle/verb meaning indicate, as in 'points to'.", "alternative": null}
+{"type": "possess", "rank": 416, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "Transitive verb in 'possess what', 'possess this quality'.", "alternative": null}
+{"type": "society", "rank": 417, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "Collective noun for social context and standards.", "alternative": null}
+{"type": "too", "rank": 418, "frequency": 32, "tag": "ADV", "confidence": 1.0, "reasoning": "Additive adverb in 'too much', 'too much'.", "alternative": null}
+{"type": "willed", "rank": 419, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "Past participle in passive-like constructions 'will be willed', 'willed action'.", "alternative": null}
+{"type": "aim", "rank": 420, "frequency": 31, "tag": "NOUN", "confidence": 0.97, "reasoning": "Goal noun as in 'aim to', but mostly nominal in passages about what we aim at.", "alternative": null}
+{"type": "criterion", "rank": 421, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "Key evaluative noun 'criterion of'.", "alternative": null}
+{"type": "disposition", "rank": 422, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "Psychological noun for stable tendencies.", "alternative": null}
+{"type": "evolved", "rank": 423, "frequency": 31, "tag": "VERB", "confidence": 0.98, "reasoning": "Past tense/participle form in 'evolved', describing change over time.", "alternative": null}
+{"type": "exactly", "rank": 424, "frequency": 31, "tag": "ADV", "confidence": 1.0, "reasoning": "Precision adverb in 'exactly what', 'exactly as'.", "alternative": null}
+{"type": "follow", "rank": 425, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "Causal/logical verb in 'follow from', 'as follows'.", "alternative": null}
+{"type": "hence", "rank": 426, "frequency": 31, "tag": "ADV", "confidence": 1.0, "reasoning": "Inferential adverb in consequence statements ('hence we conclude').", "alternative": null}
+{"type": "impossible", "rank": 427, "frequency": 31, "tag": "ADJ", "confidence": 1.0, "reasoning": "Negated possibility adjective in 'impossible that', 'impossible for us'.", "alternative": null}
+{"type": "indefinable", "rank": 428, "frequency": 31, "tag": "ADJ", "confidence": 1.0, "reasoning": "Technical adjective used with philosophical quality nouns.", "alternative": null}
+{"type": "likely", "rank": 429, "frequency": 31, "tag": "ADV", "confidence": 1.0, "reasoning": "Probability adverb in 'likely that', 'likely to'.", "alternative": null}
+{"type": "quantity", "rank": 430, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "Measure noun in 'quantity of', common with value calculus passages.", "alternative": null}
+{"type": "term", "rank": 431, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "Terminological noun in 'this term', 'in terms'.", "alternative": null}
+{"type": "together", "rank": 432, "frequency": 31, "tag": "ADV", "confidence": 1.0, "reasoning": "Compositional adverb in 'together with', 'put together'.", "alternative": null}
+{"type": "according", "rank": 433, "frequency": 30, "tag": "ADP", "confidence": 1.0, "reasoning": "Prepositional usage in 'according as', 'according to'.", "alternative": null}
+{"type": "chief", "rank": 434, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "Superlative-like attribute in 'chief end', 'chief objections'.", "alternative": null}
+{"type": "complex", "rank": 435, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'complex action', 'complex qualities'.", "alternative": null}
+{"type": "concerned", "rank": 436, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "Past participle in 'concerned with', participial adjective-like but verbal origin.", "alternative": null}
+{"type": "easily", "rank": 437, "frequency": 30, "tag": "ADV", "confidence": 1.0, "reasoning": "Manner adverb 'easily done' in argumentation.", "alternative": null}
+{"type": "evident", "rank": 438, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "Perceptual/inference adjective in 'evident that'.", "alternative": null}
+{"type": "instances", "rank": 439, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "Examples plural noun in 'instances of', 'these instances'.", "alternative": null}
+{"type": "little", "rank": 440, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "Modifier of quantity/degree ('little difference'), in this corpus behaving as determiner-adjective.", "alternative": null}
+{"type": "maintain", "rank": 441, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "Speech/perhaps-argument verb in 'maintain that', 'it is maintained'.", "alternative": null}
+{"type": "people", "rank": 442, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "Collective count noun in social examples ('people are'), not a proper noun.", "alternative": null}
+{"type": "place", "rank": 443, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "Locative or abstract noun in 'place in', 'takes place'.", "alternative": null}
+{"type": "properties", "rank": 444, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "Abstract plural noun in 'properties of quality'.", "alternative": null}
+{"type": "shewn", "rank": 445, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "Past form of show in 'it has shewn', explicit archaic spelling.", "alternative": null}
+{"type": "subject", "rank": 446, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "Topical noun in 'subject of', 'subject to'.", "alternative": null}
+{"type": "supposition", "rank": 447, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "Hypothesis noun in logical setup ('by supposition').", "alternative": null}
+{"type": "thinking", "rank": 448, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "Gerund/nominalized verb in 'thinking that', mental process concept.", "alternative": null}
+{"type": "understood", "rank": 449, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "Past participle in 'it may be understood', explanatory passages.", "alternative": null}
+{"type": "admitted", "rank": 450, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "Past main verb in 'it was admitted', 'I admitted'.", "alternative": null}
+{"type": "appropriate", "rank": 451, "frequency": 29, "tag": "ADJ", "confidence": 1.0, "reasoning": "Qualifier in 'appropriate rule', 'appropriate cases'.", "alternative": null}
+{"type": "b", "rank": 452, "frequency": 29, "tag": "X", "confidence": 0.6, "reasoning": "Single-letter label appearing in enumerated subsections '(b)' where tokenization keeps it isolated.", "alternative": null}
+{"type": "consequences", "rank": 453, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "Outcome noun in ethical and causal arguments.", "alternative": null}
+{"type": "doubt", "rank": 454, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for uncertainty in reasoning passages.", "alternative": null}
+{"type": "due", "rank": 455, "frequency": 29, "tag": "ADP", "confidence": 0.97, "reasoning": "Preposition in 'due to', not standalone adverbial here.", "alternative": null}
+{"type": "existed", "rank": 456, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "Past tense verb in 'if something existed'.", "alternative": null}
+{"type": "holds", "rank": 457, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "Present tense verb in 'holds that', logical relation statements.", "alternative": null}
+{"type": "last", "rank": 458, "frequency": 29, "tag": "ADJ", "confidence": 1.0, "reasoning": "Ordering adjective in 'last chapter' or 'last objection'.", "alternative": null}
+{"type": "nevertheless", "rank": 459, "frequency": 29, "tag": "ADV", "confidence": 1.0, "reasoning": "Discourse connector expressing concession/contrast at paragraph level.", "alternative": null}
+{"type": "philosophers", "rank": 460, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun for people in profession of philosophy.", "alternative": null}
+{"type": "positively", "rank": 461, "frequency": 29, "tag": "ADV", "confidence": 1.0, "reasoning": "Sentence adverb intensifying stance ('positively may').", "alternative": null}
+{"type": "principles", "rank": 462, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural abstract noun for axioms/theoretical items.", "alternative": null}
+{"type": "reference", "rank": 463, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun in citation and grounding phrases.", "alternative": null}
+{"type": "solely", "rank": 464, "frequency": 29, "tag": "ADV", "confidence": 1.0, "reasoning": "Restrictive adverb in 'solely as', 'solely to'.", "alternative": null}
+{"type": "universally", "rank": 465, "frequency": 29, "tag": "ADV", "confidence": 1.0, "reasoning": "Scope adverb in 'universally true', 'universally valid'.", "alternative": null}
+{"type": "greatly", "rank": 466, "frequency": 28, "tag": "ADV", "confidence": 1.0, "reasoning": "Degree adverb modifying extent in 'greatly differ', 'greatly increased'.", "alternative": null}
+{"type": "kant", "rank": 467, "frequency": 28, "tag": "PROPN", "confidence": 1.0, "reasoning": "Named philosopher cited in chapter references.", "alternative": null}
+{"type": "laws", "rank": 468, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun for normative rules.", "alternative": null}
+{"type": "like", "rank": 469, "frequency": 28, "tag": "ADP", "confidence": 0.9, "reasoning": "Comparison/preposition in 'like that', 'like it'; few verbal uses nearby.", "alternative": null}
+{"type": "notion", "rank": 470, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "Concept noun in 'notion of', central abstract argument.", "alternative": null}
+{"type": "number", "rank": 471, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "Quantitative noun in 'number of', 'three numbers'.", "alternative": null}
+{"type": "above", "rank": 472, "frequency": 27, "tag": "ADP", "confidence": 0.98, "reasoning": "Spatial/structural preposition in 'above all', 'above these'.", "alternative": null}
+{"type": "against", "rank": 473, "frequency": 27, "tag": "ADP", "confidence": 1.0, "reasoning": "Preposition of opposition in 'against these'.", "alternative": null}
+{"type": "almost", "rank": 474, "frequency": 27, "tag": "ADV", "confidence": 1.0, "reasoning": "Degree adverb in 'almost unique', 'almost a'.", "alternative": null}
+{"type": "denote", "rank": 475, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "Verbal signification predicate in 'denote this', 'denote'.", "alternative": null}
+{"type": "eternal", "rank": 476, "frequency": 27, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attribute of metaphysical entities in 'eternal reality'.", "alternative": null}
+{"type": "makes", "rank": 477, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "Present verb in 'makes us', 'makes sense'.", "alternative": null}
+{"type": "necessarily", "rank": 478, "frequency": 27, "tag": "ADV", "confidence": 1.0, "reasoning": "Modal adverb in 'necessarily requires', modifying logical implications.", "alternative": null}
+{"type": "need", "rank": 479, "frequency": 27, "tag": "AUX", "confidence": 0.95, "reasoning": "Modal auxiliary in 'need to' constructions; no lexical action dominant.", "alternative": null}
+{"type": "relations", "rank": 480, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun in part-whole and cause-effect framing.", "alternative": null}
+{"type": "supposing", "rank": 481, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "Conditional verbal form in 'supposing that', introducing hypothetical stance.", "alternative": null}
+{"type": "try", "rank": 482, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "Attempt verb in 'try to', direct effort sense.", "alternative": null}
+{"type": "actual", "rank": 483, "frequency": 26, "tag": "ADJ", "confidence": 0.98, "reasoning": "Attributive in 'actual cases', 'actual state' and related distinctions.", "alternative": null}
+{"type": "again", "rank": 484, "frequency": 26, "tag": "ADV", "confidence": 1.0, "reasoning": "Repetition/discourse adverb in 'again and', 'again we'.", "alternative": null}
+{"type": "alternatives", "rank": 485, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun meaning option sets in decision contexts.", "alternative": null}
+{"type": "did", "rank": 486, "frequency": 26, "tag": "AUX", "confidence": 1.0, "reasoning": "Past auxiliary in 'did not', 'did hold', not lexical main verb.", "alternative": null}
+{"type": "establish", "rank": 487, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "Lexical verb in 'establish the claim', 'establish that'.", "alternative": null}
+{"type": "found", "rank": 488, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "Past verb in 'found this', 'was found'.", "alternative": null}
+{"type": "intrinsically", "rank": 489, "frequency": 26, "tag": "ADV", "confidence": 1.0, "reasoning": "Manner/degree adverb from adjective 'intrinsic'.", "alternative": null}
+{"type": "pleasures", "rank": 490, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural noun in Hedonism discussions ('higher pleasures').", "alternative": null}
+{"type": "possibly", "rank": 491, "frequency": 26, "tag": "ADV", "confidence": 1.0, "reasoning": "Modal adverb of possibility in epistemic statements.", "alternative": null}
+{"type": "scientific", "rank": 492, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'scientific treatment', 'scientific studies'.", "alternative": null}
+{"type": "simply", "rank": 493, "frequency": 26, "tag": "ADV", "confidence": 1.0, "reasoning": "Restrictive adverb in 'simply that', 'simply the'.", "alternative": null}
+{"type": "states", "rank": 494, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural of state as noun in conditions and mental conditions.", "alternative": null}
+{"type": "unique", "rank": 495, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "Attributive adjective in 'unique class', 'unique in itself'.", "alternative": null}
+{"type": "values", "rank": 496, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "Plural abstract noun central to argument ('values in').", "alternative": null}
+{"type": "volition", "rank": 497, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "Psychological noun meaning will in Kant/ethics discussion.", "alternative": null}
+{"type": "apart", "rank": 498, "frequency": 25, "tag": "ADV", "confidence": 1.0, "reasoning": "Adverbial separation marker in 'apart from'.", "alternative": null}
+{"type": "assumption", "rank": 499, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "Noun for premises ('the assumption that').", "alternative": null}
+{"type": "condition", "rank": 500, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "Stateful noun in 'condition of' and normative if-then statements.", "alternative": null}

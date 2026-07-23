@@ -1,0 +1,94 @@
+{
+  "experiment_id": "10a_search_depth_robustness",
+  "status": "partial_blocked_missing_transfer_rows",
+  "migration_type": "multi_bundle_consolidation",
+  "generated_at_utc": "2026-04-20T01:31:23.526226+00:00",
+  "source_bundles": {
+    "step10_ablation": "results/zipf_step10_ablation",
+    "head_poly_decomposition": "results/zipf_head_poly_decomposition",
+    "head_poly_transfer": "results/zipf_head_poly_transfer"
+  },
+  "outputs": {
+    "step10_ablation_per_corpus.csv": {
+      "rows": 2,
+      "schema": [
+        "slug",
+        "corpus",
+        "step2_expression",
+        "step10_expression",
+        "grid_min",
+        "grid_max",
+        "difference_min",
+        "difference_max",
+        "difference_mean_abs",
+        "difference_std",
+        "best_poly_degree",
+        "best_poly_r2",
+        "polyfit_degree3_r2",
+        "polyfit_degree4_r2",
+        "polyfit_degree5_r2",
+        "polyfit_degree3_coefficients_json",
+        "polyfit_degree4_coefficients_json",
+        "polyfit_degree5_coefficients_json",
+        "plot_path",
+        "canonical_source"
+      ]
+    },
+    "polynomial_decomposition_per_corpus.csv": {
+      "rows": 2,
+      "schema": [
+        "slug",
+        "corpus",
+        "zm_rmse",
+        "step2_rmse",
+        "step10_rmse",
+        "poly3_rmse",
+        "poly4_rmse",
+        "poly5_rmse",
+        "poly3_coefficients_json",
+        "poly4_coefficients_json",
+        "poly5_coefficients_json",
+        "poly5_minus_step10_rmse",
+        "canonical_source"
+      ]
+    },
+    "poly_transfer.csv": {
+      "rows": 2,
+      "schema": [
+        "source_corpus",
+        "target_corpus",
+        "source_poly5_coefficients_json",
+        "target_zm_rmse",
+        "target_step2_rmse",
+        "target_in_domain_poly5_rmse",
+        "target_step10_rmse",
+        "zero_shot_rmse",
+        "zero_shot_minus_in_domain_poly5",
+        "zero_shot_minus_step10",
+        "canonical_source"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 10,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "blocked_items": [
+    "War and Peace -> King James Bible",
+    "Moby Dick -> Bible"
+  ],
+  "claim_map_rows_satisfied": [
+    "step-10 minus step-2 degree-5 polynomial R^2 for Shakespeare and War and Peace",
+    "direct polynomial decomposition RMSE comparisons for Shakespeare and War and Peace",
+    "two saved zero-shot transfer rows"
+  ],
+  "claim_map_rows_unsatisfied": [
+    "War and Peace -> Bible transfer",
+    "Moby Dick -> Bible transfer"
+  ]
+}

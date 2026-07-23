@@ -1,0 +1,8 @@
+{
+  "source_bundles": {
+    "hybrid_headtail_splitfit": "results/zipf_hybrid_headtail_splitfit",
+    "hybrid_mechpenalty": "results/zipf_hybrid_mechpenalty",
+    "hybrid_vs_softk_analysis": "results/zipf_hybrid_vs_softk_analysis",
+    "fully_ours_variants": "results/zipf_fully_ours_variants"
+  }
+}

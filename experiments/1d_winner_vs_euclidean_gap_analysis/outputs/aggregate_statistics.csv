@@ -1,0 +1,5 @@
+metric_name,value,display_format,notes
+median_winner_minus_euclidean_gap_full_rmse,0.005951682350291393,float,Median full-RMSE gap between the winning step-2 expression and Euclidean Bregman candidate.
+euclidean_step2_winner_count,0,X/25 count,Count of corpora where the Euclidean Bregman candidate is the step-2 winner.
+max_core_generator_gap_full_rmse_typical_band,0.007914350538206189,float rendered as below 0.01,Maximum full-RMSE gap between the winner and the better of the IS/exp Bregman core family.
+winner_family_gap_below_0p01_count,25,X/25 count,Count of corpora where the winner is within 0.01 full-RMSE of the core IS/exp Bregman family.

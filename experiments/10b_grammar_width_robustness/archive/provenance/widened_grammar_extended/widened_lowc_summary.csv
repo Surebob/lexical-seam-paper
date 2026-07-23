@@ -1,0 +1,18 @@
+slug,name,language,zm_c,original_step2_expr,widened_step2_expr,widened_matches_original,widened_is_bregman,cos_vs_exp,cos_vs_xx,cos_vs_is,span_r2,manifold_verdict
+arabic_1001_nights,"One Thousand and One Nights (Arabic, Wikisource)",Arabic,0.0,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",1,0,0.972777142020992,1.0000000000000002,0.9901804453264317,1.0,yes
+aesops_fables,Aesop's Fables,English,3.68769267556447,"eml[sub[x,1],eml[x,1]]","sub[erf[x],sin[x]]",0,0,-0.9427692187937401,-0.9869762675286,-0.9786876112230537,0.9777161409454964,yes
+arabian_nights_vol1,Arabian Nights (Vol 1),English,6.42540318643635,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",1,1,1.0,0.9742209314874835,0.937911539691386,1.0,yes
+canterbury_tales,Canterbury Tales,English,15.250535352832612,"eml[sub[x,1],eml[x,1]]","sub[erf[x],sin[x]]",0,0,-0.9709655955005854,-0.9940074441768635,-0.9768012445313283,0.9883644294336114,yes
+collected_poe,Collected Poe,English,6.957528471368607,"eml[sub[x,1],eml[x,1]]","sub[erf[x],sin[x]]",0,0,-0.9653519871165932,-0.9932028964404107,-0.9801480026282209,0.986456807437462,yes
+complete_sherlock_holmes,Complete Sherlock Holmes,English,10.294479612917323,"eml[sub[x,1],eml[x,1]]","sub[erf[x],sin[x]]",0,0,-0.9510308754903435,-0.9902898115408426,-0.9780654550921051,0.9815452496211675,yes
+critique_of_pure_reason,Critique of Pure Reason,English,57.9583035946641,"eml[sub[x,1],eml[x,1]]","sub[sin[x],erf[x]]",0,0,0.9532130052260764,0.9903317406371762,0.9791491397020726,0.9818643465180855,yes
+don_quixote,Don Quixote,English,65.66394188576379,"eml[sub[x,1],eml[x,1]]","sub[erf[x],sin[x]]",0,0,-0.9703307172463348,-0.9938328241016718,-0.9774771378304464,0.9879315180696797,yes
+dubliners,Dubliners,English,3.263282326595508,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",1,1,0.9999999999999998,0.9678809395215042,0.9273918604754052,1.0,yes
+emile,Emile,English,51.48067915381241,"eml[sub[x,1],eml[x,1]]","sub[erf[x],sin[x]]",0,0,-0.962554070882439,-0.9924508641141957,-0.977908016341421,0.9849864869680007,yes
+grimms_fairy_tales,Grimm's Fairy Tales,English,45.98251274197185,"eml[sub[x,1],eml[x,1]]","sub[sin[x],erf[x]]",0,0,0.9371464892242747,0.9850071321355528,0.9776952254647572,0.9759519786969072,yes
+jane_eyre,Jane Eyre,English,16.307585257849095,"eml[sub[x,1],eml[x,1]]","sub[erf[x],sin[x]]",0,0,-0.9636773964590284,-0.9925575130765312,-0.9765575326338269,0.9851708884030501,yes
+moby_dick,Moby Dick,English,10.497932011426359,"eml[sub[x,1],eml[x,1]]","sub[erf[x],sin[x]]",0,0,-0.972717871053633,-0.9947183049718556,-0.9796869825205029,0.9898548234683544,yes
+pride_and_prejudice,Pride and Prejudice,English,34.11942084275591,"eml[sub[x,1],eml[x,1]]","sub[erf[x],sin[x]]",0,0,-0.9405563466810457,-0.9864416216844563,-0.9755126012773956,0.9763898705751659,yes
+ulysses,Ulysses,English,0.6324152122192379,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",1,1,1.0,0.9739877789576482,0.9363156894221625,1.0,yes
+mandarin_three_kingdoms,"Romance of the Three Kingdoms (Chinese, Gutenberg 23950)",Mandarin,0.0,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",1,0,0.9741921523137139,1.0,0.9920233420364435,1.0,yes
+russian_war_and_peace,"War and Peace (Russian, Wikisource)",Russian,0.0,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",1,0,0.974310084378835,1.0,0.9913381204095556,1.0,yes

@@ -1,0 +1,49 @@
+{
+  "test": "T1 branch-structure test for x^x - sqrt(x) shifted by 0.5*(x-1)",
+  "definition": "f(x) = x^x - sqrt(x) - 0.5*(x - 1)",
+  "preflight": {
+    "x_power_x_at_1": "1",
+    "handwritten_derivative": "x^x*(1 + log(x)) - 1/(2*sqrt(x)) - 0.5",
+    "sympy_derivative_matches_handwritten": true,
+    "handwritten_f_prime_at_1": "0"
+  },
+  "symbolic": {
+    "f_at_1": "0",
+    "f_prime_at_1": "0",
+    "f_second": "x**x*(log(x) + 1)**2 + x**x/x + 1/(4*x**(3/2))",
+    "f_second_positive_on_0_05_to_1": true,
+    "positive_sign_argument": "For x > 0, f_second = x^x*((log(x)+1)^2 + 1/x) + 1/(4*x^(3/2)), a sum of strictly positive terms."
+  },
+  "numerical": {
+    "sample_count": 1000,
+    "x_min": 0.05,
+    "x_max": 1.0,
+    "f_at_1_abs": 0.0,
+    "f_prime_at_1_abs": 0.0,
+    "f_at_1_tolerance_pass_1e_10": true,
+    "f_prime_at_1_tolerance_pass_1e_8": true,
+    "all_f_second_positive": true,
+    "min_f_second": 1.8612404630977943,
+    "min_f_second_x": 0.7137637637637638,
+    "max_f_second": 43.007399078393604,
+    "max_f_second_x": 0.05,
+    "f_second_sign_changes_on_grid": 0,
+    "f_second_near_zero_count_abs_lt_1e_8": 0
+  },
+  "pass_fail": {
+    "condition_f_1_eq_0": true,
+    "condition_f_prime_1_eq_0": true,
+    "condition_f_second_positive": true,
+    "all_three_bregman_boundary_conditions_pass": true
+  },
+  "bonus_known_generator_comparison": {
+    "method": "Centered vector cosine over f(x) samples on [0.05, 1.0]; diagnostic only, not an equivalence proof.",
+    "shape_cosines": {
+      "IS_Bregman_-logx_plus_x_minus_1": 0.9718101917344857,
+      "Euclidean_half_x_minus_1_squared": 0.9963944116434817,
+      "Exp_Bregman_exp_x_minus_1_minus_x": 0.9920423094474364
+    },
+    "closest_by_absolute_cosine": "Euclidean_half_x_minus_1_squared",
+    "finding": "The shifted x^x - sqrt(x) branch is a valid convex Bregman generator after centering at x=1, but it is not structurally identical to the IS, exponential, or Euclidean generators under this simple comparison."
+  }
+}

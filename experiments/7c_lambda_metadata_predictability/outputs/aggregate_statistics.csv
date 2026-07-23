@@ -1,0 +1,10 @@
+metric_name,value,display_format,notes
+correlation_pearson_log_unit_count,-0.08750818186031276,Pearson r,Correlation between log10(lambda_k) and log unit count.
+correlation_pearson_log_author_count,-0.26729532763453223,Pearson r,Correlation between log10(lambda_k) and log author count.
+correlation_pearson_log_era_span_years,-0.10070513342403695,Pearson r,Correlation between log10(lambda_k) and log era span.
+correlation_pearson_heterogeneity_score,-0.15787251891453583,Pearson r,Correlation between log10(lambda_k) and composite heterogeneity score.
+max_abs_metadata_correlation,0.26729532763453223,absolute Pearson r,Maximum absolute Pearson correlation among manuscript-listed metadata predictors.
+max_abs_all_available_correlation,0.26729532763453223,absolute Pearson r,"Maximum absolute Pearson correlation among all saved predictors, including structure code and corpus-size variables."
+lambda_k_min,0.0001,scientific notation,Minimum lambda_k in the metadata table.
+lambda_k_max,0.03,scientific notation,Maximum lambda_k in the metadata table.
+corpus_count,25,integer,Number of English corpora in the lambda-metadata table.

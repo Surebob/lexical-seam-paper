@@ -1,0 +1,2 @@
+metric_name,value,display_format,notes
+synthetic_mixture_configuration_count,4,integer,"Four historical non-component rows are present, but the same-exponent control is alpha=0.8/0.8, not the manuscript/map's claimed alpha=1.5/1.5; see BLOCKED.md."

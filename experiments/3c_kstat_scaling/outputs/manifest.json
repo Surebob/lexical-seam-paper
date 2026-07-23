@@ -1,0 +1,30 @@
+{
+  "experiment_id": "3c_kstat_scaling",
+  "research_question": "How does the transition centre inferred from the canonical smooth fit scale with vocabulary size across the 25 English corpora?",
+  "upstream_dependencies": [
+    "/Volumes/External2TB/emlexperiment/experiments/3a_smooth_two_regime_fits/outputs/smooth_fit_per_corpus.csv",
+    "/Volumes/External2TB/emlexperiment/results/zipf_kstat_scaling/summary.json",
+    "/Volumes/External2TB/emlexperiment/results/zipf_kstat_scaling/report.md"
+  ],
+  "output_files": [
+    "kstat_scaling_points.csv",
+    "aggregate_statistics.csv",
+    "historical_point_diff.csv",
+    "historical_aggregate_diff.csv",
+    "historical_diff_summary.csv"
+  ],
+  "protocol": {
+    "forced_model": "log(k_stat) = alpha * log(V)",
+    "half_reference": 0.5,
+    "ci_method": "Student-t 95% CI on the forced-fit alpha using curve_fit covariance SE and df = n - 1",
+    "pvalue_method": "Two-sided one-sample Student-t test on per-corpus alpha_stat values against 0.5"
+  },
+  "row_counts": {
+    "kstat_scaling_points": 25,
+    "aggregate_statistics": 14
+  },
+  "deferred_to_j2": [
+    "historical POS forced-fit reference",
+    "historical k_stat-vs-k_POS comparison block"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "experiment_id": "2a_function_word_ablation",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_function_word_test"
+  ],
+  "outputs": {
+    "function_word_ablation.csv": {
+      "rows": 3,
+      "schema": [
+        "ablation",
+        "historical_case",
+        "token_count",
+        "unique_words",
+        "zm_a",
+        "zm_b",
+        "zm_c",
+        "zm_rmse",
+        "step2_winner",
+        "step2_winner_display",
+        "step2_rmse",
+        "step2_helpful",
+        "rmse_delta_step2_minus_zm"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 0,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "notes": [
+    "No claim-map aggregate rows are assigned to 2a; claims map directly to function_word_ablation.csv cells."
+  ]
+}

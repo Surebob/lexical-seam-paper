@@ -1,0 +1,4 @@
+parameter,corr_theta,corr_lambda_flip,theta_regression_weight,flip_regression_weight,notes
+transition_fraction,-0.5398572685952805,0.3927140848347974,-0.5398572685952798,0.39271408483479714,Legacy coupled-logistic sweep parameter.
+sigmoid_width,0.30512247928820985,0.5540437051777377,0.3051224792882102,0.5540437051777384,Legacy coupled-logistic width; not decoupled-erf w_gate/w_tail.
+tail_head_slope_contrast,0.11885807414466101,0.11627360024716427,0.11885807414466122,0.1162736002471646,Implemented as varying b2 with b1 fixed at the low-c median.

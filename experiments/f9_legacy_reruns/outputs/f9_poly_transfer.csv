@@ -1,0 +1,4 @@
+source,target,zm_rmse_target,transfer_rmse,indomain_rmse,transfer_beats_zm
+War and Peace,King James Bible,0.18823090029045722,0.14980299072576017,0.14943772760567212,True
+Moby Dick,King James Bible,0.18823090029045722,0.17993580406999493,0.14943772760567212,True
+Complete Works of Shakespeare,War and Peace,0.1829820865897712,0.15127264595250442,0.14580780405661314,True

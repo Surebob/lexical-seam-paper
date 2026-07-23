@@ -1,0 +1,7 @@
+gate_a,gate_b,cosine_similarity,passes_lt_0p99
+algebraic,arctan,0.9969964804980623,False
+algebraic,erf,0.9993158104031755,False
+algebraic,logistic,0.9978339512494488,False
+arctan,erf,0.9937618457784999,False
+arctan,logistic,0.9986091791677972,False
+erf,logistic,0.994867988810451,False

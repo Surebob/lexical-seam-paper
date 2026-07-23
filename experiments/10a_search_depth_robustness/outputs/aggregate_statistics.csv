@@ -1,0 +1,11 @@
+metric_name,value,display_format,notes
+shakespeare_step10_minus_step2_poly5_r2,0.9772794594503794,R^2,Degree-5 polynomial fit to step10 minus step2 on the 1000-point grid.
+war_and_peace_step10_minus_step2_poly5_r2,0.9927384752120223,R^2,Degree-5 polynomial fit to step10 minus step2 on the 1000-point grid.
+shakespeare_poly5_direct_rmse,0.1505496191235793,RMSE,Direct ZM + step-2 + poly5 residual-decomposition RMSE.
+shakespeare_step10_rmse,0.1598718529967204,RMSE,Step-10 monster RMSE.
+war_and_peace_poly5_direct_rmse,0.14581271318709715,RMSE,Direct ZM + step-2 + poly5 residual-decomposition RMSE.
+war_and_peace_step10_rmse,0.14534740465186036,RMSE,Step-10 monster RMSE.
+shakespeare_to_war_and_peace_zero_shot_rmse,0.15127747094311222,RMSE,Zero-shot degree-5 polynomial transfer from Shakespeare to War and Peace.
+war_and_peace_to_shakespeare_zero_shot_rmse,0.15565236538090854,RMSE,Zero-shot degree-5 polynomial transfer from War and Peace to Shakespeare.
+saved_transfer_count,2,integer count,Number of transfer rows saved in the historical bundle.
+missing_transfer_claims_count,2,integer count,Transfer claims present in manuscript prose but absent from saved outputs.

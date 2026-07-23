@@ -1,0 +1,105 @@
+{
+  "case_id": "t2b_poisson_kl",
+  "family": "Poisson",
+  "prediction": {
+    "expected_generator": "generalized KL",
+    "canonical": "x*log(x)-x+1",
+    "expected_first_reachable_step": 3,
+    "max_steps": 3
+  },
+  "mixture_params": [
+    {
+      "lambda": 5.0,
+      "weight": 0.5
+    },
+    {
+      "lambda": 20.0,
+      "weight": 0.5
+    }
+  ],
+  "distinguishability": {
+    "lambda_gap": 15.0,
+    "sqrt_largest_lambda": 4.47213595499958,
+    "separation_in_sqrt_largest_lambda": 3.3541019662496843
+  },
+  "fit": {
+    "method": "closed_form_poisson_mle_plus_smoothed_histogram_density_estimate",
+    "converged": true,
+    "params": {
+      "lambda": 12.5606
+    },
+    "at_bounds": false
+  },
+  "density_estimation": {
+    "continuous": false,
+    "method": "gaussian_smoothed_histogram_with_0.5_pseudocount",
+    "grid_points": 57
+  },
+  "residual_diagnostics": {
+    "residual_rmse": 13.333361599580035,
+    "residual_std": 9.855700394228188,
+    "second_difference_sign_changes": 10,
+    "second_difference_sign_change_fraction": 0.18518518518518517,
+    "lag1_autocorrelation": 0.9982555014623069,
+    "noise_dominated_flag": false
+  },
+  "search_config": {
+    "max_steps": 3,
+    "beam_width": 50,
+    "keep_all_until_step": 2,
+    "diversity_weight": 0.35,
+    "semantic_hash_rounding_digits": 10,
+    "exp_clamp": 30.0,
+    "value_abs_limit": 1000000.0,
+    "unary_ops": [
+      "neg",
+      "inv",
+      "sqr",
+      "sqrt",
+      "exp",
+      "log"
+    ],
+    "binary_ops": [
+      "eml",
+      "add",
+      "sub",
+      "mul",
+      "div",
+      "pow"
+    ]
+  },
+  "sr_result": {
+    "predicted_occurrences": [
+      {
+        "step": 3,
+        "rmse_rank": 6436,
+        "expr": "sub[add[1,neg[x]],mul[log[x],neg[x]]]",
+        "math": "((1+(-x))-(log(x)*(-x)))",
+        "rmse": 13.316046615320841,
+        "in_top5_by_rmse": false,
+        "in_diversity_beam": false,
+        "diversity_rank": null
+      }
+    ],
+    "predicted_at_first_reachable_step": [
+      {
+        "step": 3,
+        "rmse_rank": 6436,
+        "expr": "sub[add[1,neg[x]],mul[log[x],neg[x]]]",
+        "math": "((1+(-x))-(log(x)*(-x)))",
+        "rmse": 13.316046615320841,
+        "in_top5_by_rmse": false,
+        "in_diversity_beam": false,
+        "diversity_rank": null
+      }
+    ],
+    "pass_top5_rmse_or_diversity_at_first_step": false,
+    "global_best": {
+      "step": 3,
+      "expr": "div[pow[eml[x,1],eml[x,1]],pow[add[x,x],neg[x]]]",
+      "math": "(pow(EML(x,1),EML(x,1))/pow((x+x),(-x)))",
+      "rmse": 4.987523814020072,
+      "is_predicted_generator": false
+    }
+  }
+}

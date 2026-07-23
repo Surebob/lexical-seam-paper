@@ -1,0 +1,15 @@
+metric_name,value,display_format,notes
+english_corpus_count,25,integer,Canonical English corpus count inherited from experiment 3a.
+forced_alpha,0.5214222874234132,decimal_4,Forced fit of log(k_stat) = alpha * log(V).
+forced_alpha_se,0.014498655766700645,decimal_6,SE from curve_fit covariance.
+forced_alpha_ci_low,0.4914985326409799,decimal_4,Student-t 95% CI on the forced-fit alpha using curve_fit covariance SE and df = n - 1
+forced_alpha_ci_high,0.5513460422058466,decimal_4,Student-t 95% CI on the forced-fit alpha using curve_fit covariance SE and df = n - 1
+forced_alpha_df,24,integer,Degrees of freedom used for the forced-fit alpha CI.
+mean_alpha_per_corpus,0.5233587827304038,decimal_6,Mean of per-corpus alpha_stat = log(k_stat)/log(V).
+median_alpha_per_corpus,0.5010318155557384,decimal_6,Median of per-corpus alpha_stat = log(k_stat)/log(V).
+mean_alpha_ci_low,0.4915929814532695,decimal_6,Student-t 95% CI for the mean per-corpus alpha_stat value.
+mean_alpha_ci_high,0.5551245840075381,decimal_6,Student-t 95% CI for the mean per-corpus alpha_stat value.
+alpha_stat_vs_half_t_statistic,1.517674862285457,decimal_6,Two-sided one-sample t statistic for alpha_stat vs 0.5.
+alpha_stat_vs_half_pvalue,0.14215982943526212,decimal_6,Two-sided one-sample p-value for mean(alpha_stat) vs 0.5.
+forced_alpha_vs_half_pvalue,0.14215982943526212,decimal_6,"Compatibility row for the manuscript claim map; numerically identical to alpha_stat_vs_half_pvalue and based on the per-corpus one-sample t-test, not a separate test on the forced-fit alpha."
+alpha_stat_vs_half_df,24,integer,Degrees of freedom for the one-sample t-test on alpha_stat values.

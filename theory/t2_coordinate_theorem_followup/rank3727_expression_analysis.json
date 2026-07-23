@@ -1,0 +1,33 @@
+{
+  "rank_by_rmse": 3727,
+  "expression": "div[mul[log[x],log[x]],div[1,sqrt[x]]]",
+  "math": "((log(x)*log(x))/(1/sqrt(x)))",
+  "rmse": 2.9411426025283762,
+  "cosine_vs_shifted_kl": 0.9994075006858061,
+  "cosine_vs_unshifted_negative_entropy": -0.4427554096549023,
+  "bregman_boundary_diagnostics": {
+    "f_at_1": 0.0,
+    "fprime_at_1": 3.61264582125786e-08,
+    "fsecond_min_continuous_grid": -21.31545008910689,
+    "fsecond_positive_continuous_grid": false,
+    "bregman_conditions_pass": false,
+    "second_diff_min_on_integer_support": 0.002105113018031823,
+    "second_diff_positive_on_integer_support": true
+  },
+  "affine_equivalence_to_shifted_kl": {
+    "a": -0.024277606321835777,
+    "b": 2.496006938428166,
+    "rmse": 0.020525889885452307,
+    "r2": 0.9987242402530726,
+    "max_abs_residual": 0.03614847849421521
+  },
+  "affine_equivalence_to_unshifted_negative_entropy": {
+    "a": 2.4717293321063285,
+    "b": 2.496006938428164,
+    "rmse": 0.020525889885452293,
+    "r2": 0.9987242402530726,
+    "max_abs_residual": 0.03614847849421632
+  },
+  "algebraically_equivalent_to_shifted_kl_under_affine_fit": false,
+  "algebraically_equivalent_to_unshifted_negative_entropy_under_affine_fit": false
+}

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "5a_simulation_recovery_from_smooth_models",
+  "status": "complete_from_historical_bundle",
+  "source_bundle": "results/zipf_simulation_recovery",
+  "generated_at_utc": "2026-04-20T00:28:05.371647+00:00",
+  "outputs": {
+    "simulation_recovery_per_corpus.csv": {
+      "rows": 25
+    },
+    "aggregate_statistics.csv": {
+      "rows": 27
+    }
+  },
+  "audit": "Historical smooth-generation source is preserved as canonical Phase 2 migration data; if strict decoupled-erf recovery is required, this experiment should be rerun rather than inferred."
+}

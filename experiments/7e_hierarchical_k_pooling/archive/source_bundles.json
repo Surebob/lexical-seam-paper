@@ -1,0 +1,6 @@
+{
+  "source_bundles": [
+    "results/zipf_angle4_hierk"
+  ],
+  "cross_experiment_dependency": "experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv"
+}

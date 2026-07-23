@@ -1,0 +1,16 @@
+metric_name,value,display_format,notes
+median_width_ratio,1.0,ratio,Median w_right / w_left across 25 corpus-level asymmetric fits.
+mean_width_ratio,1.0277414029159235,ratio,Mean w_right / w_left across 25 corpus-level asymmetric fits.
+material_asymmetry_count,5,X/25 count,Count with greater than 1.5x width imbalance.
+asymmetric_beats_softk_count,22,X/25 count,Full held-out NLL count where asymmetric gate beats symmetric soft-k.
+asymmetric_beats_moe_count,19,X/25 count,Full held-out NLL count where asymmetric gate beats MOEZipf.
+asymmetric_beats_zm_count,13,X/25 count,Full held-out NLL count where asymmetric gate beats ZM.
+median_asymmetric_minus_softk,-0.00027249631523407203,signed average NLL delta,"Median full held-out NLL delta, asymmetric minus symmetric soft-k."
+median_asymmetric_minus_moe,-0.0020649397719525453,signed average NLL delta,"Median full held-out NLL delta, asymmetric minus MOEZipf."
+median_asymmetric_minus_zm,-0.00020422108558371121,signed average NLL delta,"Median full held-out NLL delta, asymmetric minus ZM."
+asymmetric_step2_help_count,6,X/25 count,Count where step-2 search helps on full asymmetric-gate residuals.
+full_winner_count_zipf,0,X/25 count,Full held-out winner count with asymmetric gate included as a fifth candidate.
+full_winner_count_zm,11,X/25 count,Full held-out winner count with asymmetric gate included as a fifth candidate.
+full_winner_count_moe,4,X/25 count,Full held-out winner count with asymmetric gate included as a fifth candidate.
+full_winner_count_softk,2,X/25 count,Full held-out winner count with asymmetric gate included as a fifth candidate.
+full_winner_count_asym,8,X/25 count,Full held-out winner count with asymmetric gate included as a fifth candidate.

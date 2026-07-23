@@ -1,0 +1,6 @@
+slug,corpus,gate,bic,rmse,k,w_gate,w_tail,best_start_index,best_nfev,wall_clock_seconds,starts_within_1_bic,k_hit_lower_bound,k_hit_upper_bound,w_gate_hit_lower_bound,w_gate_hit_upper_bound,w_tail_hit_lower_bound,w_tail_hit_upper_bound
+federalist_papers,Federalist Papers,logistic,-367782.9089164232,5.368649227058655e-10,227.86650576206495,1.4486891207377208,0.48070548413465797,8,109,42.92731285095215,1,False,False,False,False,False,False
+federalist_papers,Federalist Papers,tanh,-367169.49198617414,5.563179249075523e-10,227.8665061534687,2.8973782404018538,0.4807054832757251,17,100,47.55859708786011,1,False,False,False,False,False,False
+federalist_papers,Federalist Papers,erf,-124638.93379360635,0.000719549205109767,218.4064671640724,2.98534919985246,0.502111934795926,21,58,83.81780815124512,26,False,False,False,False,False,False
+federalist_papers,Federalist Papers,algebraic,-88700.24271253828,0.005790428175408492,285.2948479866367,3.0652177939933583,0.3792555860639669,63,104,57.93515491485596,26,False,False,False,False,False,False
+federalist_papers,Federalist Papers,arctan,-74797.71339881708,0.012973362334023943,342.5152082530285,2.1408974355390398,0.3113478046425737,46,71,36.735657930374146,18,False,False,False,False,False,False

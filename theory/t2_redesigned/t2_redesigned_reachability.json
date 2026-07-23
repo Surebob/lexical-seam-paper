@@ -1,0 +1,20 @@
+{
+  "gaussian_euclidean": {
+    "first_reachable_step": 2,
+    "rmse_rank_on_generator_target": 1,
+    "expr": "mul[sub[1,x],sub[1,x]]",
+    "math": "((1-x)*(1-x))"
+  },
+  "poisson_kl": {
+    "first_reachable_step": 3,
+    "rmse_rank_on_generator_target": 1,
+    "expr": "sub[add[1,neg[x]],mul[log[x],neg[x]]]",
+    "math": "((1+(-x))-(log(x)*(-x)))"
+  },
+  "gamma_is": {
+    "first_reachable_step": 2,
+    "rmse_rank_on_generator_target": 1,
+    "expr": "sub[sub[x,1],log[x]]",
+    "math": "((x-1)-log(x))"
+  }
+}

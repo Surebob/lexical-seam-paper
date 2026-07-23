@@ -1,0 +1,49 @@
+{
+  "experiment_id": "7d_asymmetric_gate_diagnostic",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_angle3_asymmetric_gate_splitfit"
+  ],
+  "status": "complete",
+  "outputs": {
+    "asymmetric_gate_per_corpus.csv": {
+      "rows": 25,
+      "schema": [
+        "slug",
+        "corpus",
+        "token_count",
+        "vocabulary_size",
+        "lambda_k",
+        "w_left",
+        "w_right",
+        "width_ratio_w_right_over_w_left",
+        "width_imbalance_ratio",
+        "material_asymmetry",
+        "k",
+        "transition_fraction",
+        "asymmetric_full_avg_nll",
+        "softk_full_avg_nll",
+        "moe_full_avg_nll",
+        "zm_full_avg_nll",
+        "asymmetric_minus_softk",
+        "asymmetric_minus_moe",
+        "asymmetric_minus_zm",
+        "full_step2_help",
+        "full_step2_gain",
+        "canonical_source"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 15,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "claim_map_rows_satisfied": [
+    "line 413 / 504 asymmetric gate width ratio, material asymmetry count, held-out delta, and step-2 help count"
+  ]
+}

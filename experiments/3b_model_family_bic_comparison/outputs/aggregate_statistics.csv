@@ -1,0 +1,6 @@
+metric_name,value,display_format,notes
+piecewise_loses_to_smooth_on_all_25,25,X/25 count,Count of corpora where both hard and continuous piecewise BIC are worse than the better smooth family.
+winner_count_smooth_family_total,12,X/25 count,BIC winner count for smooth families combined under true single-ZM baseline convention.
+moezipf_bic_winner_count,13,X/25 count,MOEZipf winner count after replacing the v4 mislabeled pure-Zipf baseline with true single-ZM BIC.
+winner_count_moezipf,13,X/25 count,Alias for manuscript discussion restatements.
+median_rmse_cost_sqrtv_vs_free_k,0.0005167497326957621,float,Median RMSE cost of fixed k=sqrt(V) relative to free-k smooth fit.

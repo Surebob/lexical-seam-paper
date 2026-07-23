@@ -1,0 +1,48 @@
+{
+  "experiment_id": "1b_non_linguistic_control",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_enriched_city_populations",
+    "results/zipf_enriched_city_populations_step2_only"
+  ],
+  "outputs": {
+    "city_population_control.csv": {
+      "rows": 1,
+      "schema": [
+        "dataset",
+        "city_count",
+        "vocab_size",
+        "population_sum",
+        "zm_a",
+        "zm_b",
+        "zm_c",
+        "zm_rmse",
+        "step2_winner_expr",
+        "step2_winner_math",
+        "step2_composite_rmse",
+        "step2_helpful",
+        "step2_delta_vs_zm",
+        "is_bregman_rank_in_step2_beam",
+        "is_bregman_rmse",
+        "exp_bregman_rank_in_step2_beam",
+        "exp_bregman_rmse",
+        "terminal_winner_expr",
+        "terminal_winner_math",
+        "terminal_composite_rmse",
+        "terminal_helpful"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 0,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "notes": [
+    "No fresh city-data download or symbolic search was run; values are normalized from saved summaries."
+  ]
+}

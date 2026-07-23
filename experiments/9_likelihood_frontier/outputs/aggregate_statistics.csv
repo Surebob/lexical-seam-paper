@@ -1,0 +1,19 @@
+metric_name,value,display_format,notes
+hybrid_beats_moe_count,21,X/25 count,Canonical splitfit hybrid head-tail beats MOE on full held-out NLL.
+hybrid_beats_softk_count,22,X/25 count,Canonical splitfit hybrid head-tail beats current splitfit soft-k comparator.
+median_hybrid_minus_softk,-0.001677944396615949,decimal NLL difference,Median full held-out hybrid minus soft-k; negative favors hybrid.
+hybrid_step2_help_count,9,X/25 count,Count where residual step-2 search helps the hybrid model.
+nested_beats_moe_count,21,X/25 count,Nested seam architecture beats MOE on held-out NLL.
+nested_beats_softk_count,18,X/25 count,Nested seam architecture beats soft-k on held-out NLL.
+nested_beats_zm_count,16,X/25 count,Nested seam architecture beats ZM on held-out NLL.
+nested_fourway_winner_count,14,X/25 count,"Nested seam is four-way held-out winner among Zipf, ZM, MOE, and nested."
+nested_step2_help_count,11,X/25 count,Count where residual step-2 search helps nested seam.
+three_regime_beats_softk_count,12,X/25 count,Three-regime architecture beats soft-k on held-out NLL.
+three_regime_median_minus_softk,0.00010526860518478287,decimal NLL difference,Median three-regime minus soft-k; negative favors three-regime.
+mechanism_penalty_grid,"[0.01, 0.1, 1.0, 10.0, 100.0]",JSON numeric list,Penalty strengths swept in the mechanism-penalty hybrid.
+mechanism_penalty_step2_help_count_all_lambdas,"{""0.01"": 25, ""0.1"": 25, ""1"": 25, ""10"": 25, ""100"": 25}",JSON count map,Held-out step-2 help count is 25/25 for every penalty strength.
+mechanism_penalty_frontier_result,no lambda satisfies help <=4/25 and beats MOE >=18/25,verdict string,Primary negative finding: penalty does not locate the intended likelihood-mechanism Pareto point.
+nested_seam_free_parameter_count,8,protocol constant,Nested seam protocol constant from claim-map/manuscript method rows.
+nested_mini_seam_floor,5,protocol constant,Nested seam protocol constant from claim-map/manuscript method rows.
+nested_mini_seam_logV_multiplier,0.5,protocol constant,Nested seam protocol constant from claim-map/manuscript method rows.
+nested_mini_seam_width,0.22,protocol constant,Nested seam protocol constant from claim-map/manuscript method rows.

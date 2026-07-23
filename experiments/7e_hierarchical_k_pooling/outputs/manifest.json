@@ -1,0 +1,37 @@
+{
+  "experiment_id": "7e_hierarchical_k_pooling",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_angle4_hierk"
+  ],
+  "cross_experiment_dependencies": [
+    "experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv"
+  ],
+  "status": "complete_with_audit_flag",
+  "outputs": {
+    "hierk_summary.csv": {
+      "rows": 1
+    },
+    "hierk_iteration_history.csv": {
+      "rows": 4
+    },
+    "hierk_head_window_per_corpus.csv": {
+      "rows": 150
+    },
+    "hierk_vs_softk_comparison.csv": {
+      "rows": 25
+    },
+    "aggregate_statistics.csv": {
+      "rows": 13,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "audit_flags": [
+    "Manuscript wording says hierarchical pooling does not improve over soft-k, but comparison to 7a canonical v4 soft-k shows hierk beats soft-k on 20/25 with median delta -0.000912303553."
+  ]
+}

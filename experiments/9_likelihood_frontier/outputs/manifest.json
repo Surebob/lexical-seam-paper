@@ -1,0 +1,138 @@
+{
+  "experiment_id": "9_likelihood_frontier",
+  "status": "complete_from_historical_bundles",
+  "migration_type": "multi_bundle_consolidation",
+  "generated_at_utc": "2026-04-20T01:12:45.170780+00:00",
+  "source_bundles": {
+    "hybrid_headtail_splitfit": "results/zipf_hybrid_headtail_splitfit",
+    "hybrid_mechpenalty": "results/zipf_hybrid_mechpenalty",
+    "hybrid_vs_softk_analysis": "results/zipf_hybrid_vs_softk_analysis",
+    "fully_ours_variants": "results/zipf_fully_ours_variants"
+  },
+  "canonical_decisions": {
+    "hybrid_vs_softk": "zipf_hybrid_headtail_splitfit is canonical for manuscript-facing hybrid-vs-soft-k counts.",
+    "legacy_diagnostic": "zipf_hybrid_vs_softk_analysis is preserved as a legitimate legacy pre-splitfit comparator sidecar.",
+    "paper_scope": "PMF arc including experiment 9 is queued for Paper 2; Paper 1 will remove Pareto-frontier discussion."
+  },
+  "outputs": {
+    "hybrid_headtail_per_corpus.csv": {
+      "rows": 25,
+      "schema": [
+        "slug",
+        "corpus",
+        "token_count",
+        "vocabulary_size",
+        "selected_lambda",
+        "k",
+        "w",
+        "top100_hybrid",
+        "top100_moe",
+        "top100_softk",
+        "full_zipf",
+        "full_zm",
+        "full_moe",
+        "full_softk",
+        "full_hybrid",
+        "hybrid_minus_moe",
+        "hybrid_minus_zm",
+        "hybrid_minus_softk",
+        "hybrid_minus_zipf",
+        "canonical_hybrid_vs_softk_winner",
+        "full_step2_help",
+        "full_step2_gain",
+        "full_step2_expression",
+        "canonical_source"
+      ]
+    },
+    "fully_ours_variants.csv": {
+      "rows": 50,
+      "schema": [
+        "slug",
+        "corpus",
+        "token_count",
+        "vocabulary_size",
+        "variant",
+        "test_avg_nll",
+        "bic",
+        "rmse",
+        "step2_gain",
+        "step2_help",
+        "params_json",
+        "canonical_source"
+      ]
+    },
+    "mechanism_penalty_sweep.csv": {
+      "rows": 125,
+      "schema": [
+        "slug",
+        "corpus",
+        "token_count",
+        "vocabulary_size",
+        "lambda_mech",
+        "test_avg_nll",
+        "test_loglike",
+        "train_step2_gain",
+        "train_step2_expression",
+        "heldout_step2_gain",
+        "heldout_step2_help",
+        "heldout_step2_expression",
+        "k",
+        "w",
+        "alpha_tail",
+        "beta_tail",
+        "transition_fraction",
+        "success",
+        "optimizer_message",
+        "canonical_source"
+      ]
+    },
+    "hybrid_vs_softk_diagnostic.csv": {
+      "rows": 25,
+      "schema": [
+        "slug",
+        "corpus",
+        "canonical_hybrid_full_nll",
+        "canonical_softk_full_nll",
+        "canonical_delta_hybrid_minus_softk",
+        "canonical_winner",
+        "analysis_hybrid_full_nll",
+        "analysis_softk_full_nll",
+        "analysis_delta_hybrid_minus_softk",
+        "analysis_winner",
+        "softk_comparator_delta_analysis_minus_canonical",
+        "analysis_softk_matched_source_group",
+        "analysis_source_verdict",
+        "canonical_softk_generation",
+        "analysis_softk_generation",
+        "notes"
+      ]
+    },
+    "hybrid_structure_summary.csv": {
+      "rows": 80,
+      "schema": [
+        "component",
+        "metric_name",
+        "value",
+        "display_format",
+        "source",
+        "notes"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 18,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "claim_map_rows_satisfied": [
+    "hybrid-vs-MOE and hybrid-vs-soft-k held-out counts",
+    "median hybrid-minus-soft-k held-out delta",
+    "hybrid residual step-2 help count",
+    "nested seam likelihood-frontier counts and protocol constants",
+    "mechanism-penalty negative-frontier result"
+  ]
+}

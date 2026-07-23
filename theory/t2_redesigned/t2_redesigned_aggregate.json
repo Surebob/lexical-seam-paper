@@ -1,0 +1,115 @@
+{
+  "status": "complete",
+  "seed": 20260419,
+  "sample_count_per_experiment": 10000,
+  "pass_count": 0,
+  "case_count": 3,
+  "overall_verdict": "no_support_under_redesigned_protocol",
+  "cases": [
+    {
+      "case_id": "t2a_gaussian_euclidean",
+      "family": "Gaussian",
+      "predicted_generator": "Euclidean",
+      "max_steps": 2,
+      "verdict": "FAIL_PREDICTED_PRESENT_BUT_NOT_TOP5",
+      "pass": false,
+      "predicted_occurrences": [
+        {
+          "step": 2,
+          "rmse_rank": 16,
+          "expr": "mul[sub[1,x],sub[1,x]]",
+          "math": "((1-x)*(1-x))",
+          "rmse": 0.2184282539251113,
+          "in_top5_by_rmse": false,
+          "in_diversity_beam": false,
+          "diversity_rank": null
+        }
+      ],
+      "global_best": {
+        "step": 2,
+        "expr": "sub[sqrt[x],pow[x,x]]",
+        "math": "(sqrt(x)-pow(x,x))",
+        "rmse": 0.18740059320489277,
+        "is_predicted_generator": false
+      },
+      "residual_diagnostics": {
+        "residual_rmse": 0.1934820966114388,
+        "residual_std": 0.19037069215965963,
+        "second_difference_sign_changes": 8,
+        "second_difference_sign_change_fraction": 0.01340033500837521,
+        "lag1_autocorrelation": 0.9997779428977283,
+        "noise_dominated_flag": false
+      }
+    },
+    {
+      "case_id": "t2b_poisson_kl",
+      "family": "Poisson",
+      "predicted_generator": "generalized KL",
+      "max_steps": 3,
+      "verdict": "FAIL_PREDICTED_PRESENT_BUT_NOT_TOP5",
+      "pass": false,
+      "predicted_occurrences": [
+        {
+          "step": 3,
+          "rmse_rank": 6436,
+          "expr": "sub[add[1,neg[x]],mul[log[x],neg[x]]]",
+          "math": "((1+(-x))-(log(x)*(-x)))",
+          "rmse": 13.316046615320841,
+          "in_top5_by_rmse": false,
+          "in_diversity_beam": false,
+          "diversity_rank": null
+        }
+      ],
+      "global_best": {
+        "step": 3,
+        "expr": "div[pow[eml[x,1],eml[x,1]],pow[add[x,x],neg[x]]]",
+        "math": "(pow(EML(x,1),EML(x,1))/pow((x+x),(-x)))",
+        "rmse": 4.987523814020072,
+        "is_predicted_generator": false
+      },
+      "residual_diagnostics": {
+        "residual_rmse": 13.333361599580035,
+        "residual_std": 9.855700394228188,
+        "second_difference_sign_changes": 10,
+        "second_difference_sign_change_fraction": 0.18518518518518517,
+        "lag1_autocorrelation": 0.9982555014623069,
+        "noise_dominated_flag": false
+      }
+    },
+    {
+      "case_id": "t2c_gamma_is",
+      "family": "Gamma",
+      "predicted_generator": "Itakura-Saito",
+      "max_steps": 2,
+      "verdict": "FAIL_PREDICTED_PRESENT_BUT_NOT_TOP5",
+      "pass": false,
+      "predicted_occurrences": [
+        {
+          "step": 2,
+          "rmse_rank": 49,
+          "expr": "sub[sub[x,1],log[x]]",
+          "math": "((x-1)-log(x))",
+          "rmse": 0.3401911416181829,
+          "in_top5_by_rmse": false,
+          "in_diversity_beam": true,
+          "diversity_rank": 49
+        }
+      ],
+      "global_best": {
+        "step": 2,
+        "expr": "add[log[x],sub[1,x]]",
+        "math": "(log(x)+(1-x))",
+        "rmse": 0.2512283114259147,
+        "is_predicted_generator": false
+      },
+      "residual_diagnostics": {
+        "residual_rmse": 0.27372607637454044,
+        "residual_std": 0.27362183221361364,
+        "second_difference_sign_changes": 10,
+        "second_difference_sign_change_fraction": 0.01675041876046901,
+        "lag1_autocorrelation": 0.9984347936355353,
+        "noise_dominated_flag": false
+      }
+    }
+  ]
+}

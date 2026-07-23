@@ -1,0 +1,1000 @@
+{"type": "the", "rank": 1, "frequency": 7044, "tag": "DET", "confidence": 1.0, "reasoning": "definite article before nouns throughout the shown Grimm contexts"}
+{"type": "and", "rank": 2, "frequency": 5481, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinates clauses and noun phrases in the shown narrative contexts"}
+{"type": "to", "rank": 3, "frequency": 2669, "tag": "PART", "confidence": 0.65, "reasoning": "often marks infinitives in the shown contexts such as to look, to be made, and to get, though some uses are directional", "alternative": "ADP"}
+{"type": "he", "rank": 4, "frequency": 2093, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person masculine subject pronoun in the narrative contexts"}
+{"type": "a", "rank": 5, "frequency": 1920, "tag": "DET", "confidence": 1.0, "reasoning": "indefinite article before singular nouns in the shown contexts"}
+{"type": "was", "rank": 6, "frequency": 1384, "tag": "AUX", "confidence": 0.75, "reasoning": "appears as auxiliary or copular be in contexts like was standing and was beautiful; high-frequency be-form defaults to AUX with copular ambiguity", "alternative": "VERB"}
+{"type": "of", "rank": 7, "frequency": 1371, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition introducing possessive or partitive complements in the shown contexts"}
+{"type": "it", "rank": 8, "frequency": 1310, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person neuter pronoun referring back to situations or objects in the contexts"}
+{"type": "she", "rank": 9, "frequency": 1232, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person feminine subject pronoun in the narrative contexts"}
+{"type": "you", "rank": 10, "frequency": 1192, "tag": "PRON", "confidence": 1.0, "reasoning": "second-person pronoun in dialogue contexts"}
+{"type": "in", "rank": 11, "frequency": 1164, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking location or time in the shown contexts"}
+{"type": "said", "rank": 12, "frequency": 1162, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense speech verb introducing dialogue throughout the contexts"}
+{"type": "that", "rank": 13, "frequency": 1151, "tag": "SCONJ", "confidence": 0.65, "reasoning": "frequently introduces reported or result clauses in the shown fairy-tale prose, though demonstrative uses also occur", "alternative": "DET"}
+{"type": "her", "rank": 14, "frequency": 1115, "tag": "DET", "confidence": 0.55, "reasoning": "shown contexts include possessive uses such as her mother and her brother, with some object-pronoun uses also likely", "alternative": "PRON"}
+{"type": "i", "rank": 15, "frequency": 1103, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person singular pronoun in dialogue"}
+{"type": "his", "rank": 16, "frequency": 1036, "tag": "DET", "confidence": 0.95, "reasoning": "possessive determiner before nouns such as sons and father in the contexts"}
+{"type": "but", "rank": 17, "frequency": 898, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinates contrastive clauses in the narrative contexts"}
+{"type": "him", "rank": 18, "frequency": 881, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person masculine object pronoun in the shown contexts"}
+{"type": "they", "rank": 19, "frequency": 847, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person plural subject pronoun in narrative clauses"}
+{"type": "had", "rank": 20, "frequency": 839, "tag": "VERB", "confidence": 0.6, "reasoning": "often functions as main possessive verb in fairy-tale contexts such as had a daughter, though perfect auxiliary uses also occur", "alternative": "AUX"}
+{"type": "as", "rank": 21, "frequency": 771, "tag": "SCONJ", "confidence": 0.7, "reasoning": "appears in comparison and clause-linking contexts such as as beautiful as and as they were walking", "alternative": "ADP"}
+{"type": "for", "rank": 22, "frequency": 751, "tag": "ADP", "confidence": 0.9, "reasoning": "usually preposition marking purpose, recipient, or duration in the shown contexts", "alternative": "CCONJ"}
+{"type": "so", "rank": 23, "frequency": 730, "tag": "ADV", "confidence": 0.75, "reasoning": "mostly degree or result adverb in contexts like so early and so she ran, with some clause-linking force", "alternative": "CCONJ"}
+{"type": "not", "rank": 24, "frequency": 707, "tag": "PART", "confidence": 1.0, "reasoning": "negative particle modifying verbs and auxiliaries in the contexts"}
+{"type": "with", "rank": 25, "frequency": 705, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition introducing accompaniment or instrument complements"}
+{"type": "then", "rank": 26, "frequency": 674, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal sequencing adverb in the fairy-tale narration"}
+{"type": "when", "rank": 27, "frequency": 647, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing temporal clauses"}
+{"type": "on", "rank": 28, "frequency": 629, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking location, contact, or time"}
+{"type": "at", "rank": 29, "frequency": 620, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking location or point in time"}
+{"type": "all", "rank": 30, "frequency": 591, "tag": "DET", "confidence": 0.9, "reasoning": "quantifying determiner before or standing for groups in the contexts", "alternative": "PRON"}
+{"type": "will", "rank": 31, "frequency": 570, "tag": "AUX", "confidence": 0.95, "reasoning": "modal auxiliary marking future or volition in dialogue"}
+{"type": "be", "rank": 32, "frequency": 529, "tag": "AUX", "confidence": 0.9, "reasoning": "be-form used in passive, copular, and auxiliary constructions in the contexts"}
+{"type": "have", "rank": 33, "frequency": 503, "tag": "AUX", "confidence": 0.55, "reasoning": "mixed between perfect auxiliary and main possessive verb; high-frequency helper use is common in dialogue", "alternative": "VERB"}
+{"type": "into", "rank": 34, "frequency": 480, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking motion into a place or state"}
+{"type": "out", "rank": 35, "frequency": 471, "tag": "ADV", "confidence": 0.65, "reasoning": "directional particle/adverb in phrasal motion contexts such as went out, with some out of prepositional uses", "alternative": "ADP"}
+{"type": "is", "rank": 36, "frequency": 466, "tag": "AUX", "confidence": 0.85, "reasoning": "be-form used in copular and auxiliary constructions; treated as AUX under the project convention for high-frequency be forms"}
+{"type": "came", "rank": 37, "frequency": 461, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main motion verb in the narrative contexts"}
+{"type": "me", "rank": 38, "frequency": 455, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person object pronoun in dialogue"}
+{"type": "went", "rank": 39, "frequency": 445, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main motion verb in the narrative contexts"}
+{"type": "what", "rank": 40, "frequency": 428, "tag": "PRON", "confidence": 0.95, "reasoning": "interrogative or relative pronoun in dialogue and reported questions"}
+{"type": "one", "rank": 41, "frequency": 409, "tag": "NUM", "confidence": 0.75, "reasoning": "usually numeral in expressions like one day or one of them, with some pronominal uses", "alternative": "PRON"}
+{"type": "up", "rank": 42, "frequency": 402, "tag": "ADV", "confidence": 0.85, "reasoning": "directional adverb or particle in contexts such as get up, stood up, and went up"}
+{"type": "little", "rank": 43, "frequency": 401, "tag": "ADJ", "confidence": 0.95, "reasoning": "adjective modifying nouns such as old man, girl, or thing in the contexts"}
+{"type": "there", "rank": 44, "frequency": 395, "tag": "ADV", "confidence": 0.65, "reasoning": "mostly locative or discourse adverb in shown narrative contexts, though existential there also occurs", "alternative": "PRON"}
+{"type": "them", "rank": 45, "frequency": 377, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person plural object pronoun"}
+{"type": "my", "rank": 46, "frequency": 372, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns in dialogue"}
+{"type": "king", "rank": 47, "frequency": 368, "tag": "NOUN", "confidence": 0.85, "reasoning": "common role noun in phrases like the king, though fairy-tale role titles can behave name-like", "alternative": "PROPN"}
+{"type": "s", "rank": 48, "frequency": 364, "tag": "PART", "confidence": 0.8, "reasoning": "tokenized possessive or contraction remnant in the extracted text", "alternative": "AUX"}
+{"type": "were", "rank": 49, "frequency": 344, "tag": "AUX", "confidence": 0.9, "reasoning": "be-form used in auxiliary and copular constructions; high-frequency be-form treated as AUX"}
+{"type": "if", "rank": 50, "frequency": 328, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing conditional clauses"}
+{"type": "this", "rank": 51, "frequency": 328, "tag": "DET", "confidence": 0.65, "reasoning": "demonstrative often modifies nouns in the contexts, with some standalone pronominal uses", "alternative": "PRON"}
+{"type": "down", "rank": 52, "frequency": 325, "tag": "ADV", "confidence": 0.9, "reasoning": "directional adverb or particle in motion contexts"}
+{"type": "who", "rank": 53, "frequency": 320, "tag": "PRON", "confidence": 1.0, "reasoning": "relative or interrogative pronoun referring to persons"}
+{"type": "no", "rank": 54, "frequency": 311, "tag": "DET", "confidence": 0.9, "reasoning": "negative determiner before nouns in most contexts, with possible dialogue response uses", "alternative": "INTJ"}
+{"type": "by", "rank": 55, "frequency": 296, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking agency, location, or means"}
+{"type": "away", "rank": 56, "frequency": 292, "tag": "ADV", "confidence": 1.0, "reasoning": "directional adverb in motion contexts such as ran away or get away"}
+{"type": "do", "rank": 57, "frequency": 285, "tag": "AUX", "confidence": 0.65, "reasoning": "frequently auxiliary in questions and negatives in dialogue, though main-verb uses also occur", "alternative": "VERB"}
+{"type": "again", "rank": 58, "frequency": 282, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb marking repetition in the narrative contexts"}
+{"type": "go", "rank": 59, "frequency": 278, "tag": "VERB", "confidence": 1.0, "reasoning": "main motion verb in dialogue and narration"}
+{"type": "would", "rank": 60, "frequency": 265, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in conditional or habitual clauses"}
+{"type": "could", "rank": 61, "frequency": 260, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary expressing ability or possibility"}
+{"type": "took", "rank": 62, "frequency": 247, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb in action contexts"}
+{"type": "their", "rank": 63, "frequency": 241, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before plural or collective nouns"}
+{"type": "your", "rank": 64, "frequency": 234, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns in dialogue"}
+{"type": "very", "rank": 65, "frequency": 229, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb modifying adjectives or adverbs"}
+{"type": "man", "rank": 66, "frequency": 228, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to a male person"}
+{"type": "now", "rank": 67, "frequency": 224, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal or discourse adverb in narration and dialogue"}
+{"type": "are", "rank": 68, "frequency": 220, "tag": "AUX", "confidence": 0.9, "reasoning": "be-form used in copular and auxiliary constructions; treated as AUX under the high-frequency be convention"}
+{"type": "did", "rank": 69, "frequency": 211, "tag": "AUX", "confidence": 0.7, "reasoning": "often auxiliary in questions, negatives, and emphatic dialogue, though past main-verb uses occur", "alternative": "VERB"}
+{"type": "good", "rank": 70, "frequency": 210, "tag": "ADJ", "confidence": 0.95, "reasoning": "adjective modifying nouns or describing characters and things"}
+{"type": "time", "rank": 71, "frequency": 207, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for time or occasion in the narrative contexts"}
+{"type": "old", "rank": 72, "frequency": 205, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying people and things, as in old man"}
+{"type": "we", "rank": 73, "frequency": 200, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person plural pronoun in dialogue"}
+{"type": "from", "rank": 74, "frequency": 199, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking source or separation"}
+{"type": "upon", "rank": 75, "frequency": 198, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking location or contact, often equivalent to on"}
+{"type": "off", "rank": 76, "frequency": 197, "tag": "ADV", "confidence": 0.65, "reasoning": "directional particle/adverb in phrasal verbs such as went off or took off, with prepositional uses possible", "alternative": "ADP"}
+{"type": "day", "rank": 77, "frequency": 192, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a day or occasion"}
+{"type": "which", "rank": 78, "frequency": 189, "tag": "PRON", "confidence": 0.75, "reasoning": "mostly relative pronoun referring back to things, though determiner uses may occur", "alternative": "DET"}
+{"type": "come", "rank": 79, "frequency": 188, "tag": "VERB", "confidence": 1.0, "reasoning": "main motion verb in dialogue and narration"}
+{"type": "father", "rank": 80, "frequency": 183, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship noun in family-story contexts"}
+{"type": "saw", "rank": 81, "frequency": 183, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of perception"}
+{"type": "how", "rank": 82, "frequency": 182, "tag": "ADV", "confidence": 0.8, "reasoning": "interrogative or relative adverb introducing manner clauses"}
+{"type": "home", "rank": 83, "frequency": 180, "tag": "NOUN", "confidence": 0.55, "reasoning": "appears as a place noun and in directional expressions like go home; contexts mix nominal and adverbial behavior", "alternative": "ADV"}
+{"type": "before", "rank": 84, "frequency": 175, "tag": "SCONJ", "confidence": 0.55, "reasoning": "often introduces temporal clauses, though prepositional uses before noun phrases also occur", "alternative": "ADP"}
+{"type": "should", "rank": 85, "frequency": 172, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary expressing obligation or expectation"}
+{"type": "about", "rank": 86, "frequency": 171, "tag": "ADP", "confidence": 0.9, "reasoning": "preposition marking topic or approximate relation in the contexts"}
+{"type": "himself", "rank": 87, "frequency": 171, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun referring back to a male subject"}
+{"type": "shall", "rank": 88, "frequency": 169, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in dialogue"}
+{"type": "take", "rank": 89, "frequency": 169, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of taking or carrying in the contexts"}
+{"type": "well", "rank": 90, "frequency": 169, "tag": "ADV", "confidence": 0.75, "reasoning": "usually adverb of manner or discourse marker in dialogue, though adjective uses are possible", "alternative": "ADJ"}
+{"type": "must", "rank": 91, "frequency": 166, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary expressing necessity"}
+{"type": "thought", "rank": 92, "frequency": 166, "tag": "VERB", "confidence": 0.85, "reasoning": "past-tense mental verb in narrative reporting, with nominal thought possible", "alternative": "NOUN"}
+{"type": "where", "rank": 93, "frequency": 165, "tag": "ADV", "confidence": 0.9, "reasoning": "locative interrogative or relative adverb in the contexts"}
+{"type": "let", "rank": 94, "frequency": 158, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in imperatives and permissive constructions"}
+{"type": "soon", "rank": 95, "frequency": 158, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal adverb in narrative sequencing"}
+{"type": "can", "rank": 96, "frequency": 156, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary expressing ability or possibility"}
+{"type": "see", "rank": 97, "frequency": 155, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of perception"}
+{"type": "mother", "rank": 98, "frequency": 154, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship noun in family-story contexts"}
+{"type": "cried", "rank": 99, "frequency": 153, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense speech or exclamation verb introducing dialogue"}
+{"type": "back", "rank": 100, "frequency": 152, "tag": "ADV", "confidence": 0.65, "reasoning": "mostly directional adverb in motion contexts such as came back or went back, though body-part noun uses are possible", "alternative": "NOUN"}
+{"type": "great", "rank": 101, "frequency": 152, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing size, intensity, or importance in the contexts"}
+{"type": "wife", "rank": 102, "frequency": 152, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship or household-role noun"}
+{"type": "am", "rank": 103, "frequency": 151, "tag": "AUX", "confidence": 0.9, "reasoning": "first-person be-form in copular or auxiliary dialogue clauses"}
+{"type": "give", "rank": 104, "frequency": 148, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of giving in imperative and finite clauses"}
+{"type": "way", "rank": 105, "frequency": 148, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for path, manner, or route"}
+{"type": "last", "rank": 106, "frequency": 147, "tag": "ADV", "confidence": 0.55, "reasoning": "often appears in fixed temporal expression at last, though adjectival ordering uses also occur", "alternative": "ADJ"}
+{"type": "over", "rank": 107, "frequency": 147, "tag": "ADP", "confidence": 0.65, "reasoning": "commonly preposition marking path or position over something, with particle uses possible", "alternative": "ADV"}
+{"type": "long", "rank": 108, "frequency": 146, "tag": "ADJ", "confidence": 0.6, "reasoning": "often adjective modifying time, road, or objects, though adverbial duration uses also occur", "alternative": "ADV"}
+{"type": "two", "rank": 109, "frequency": 146, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in the shown narrative contexts"}
+{"type": "after", "rank": 110, "frequency": 145, "tag": "ADP", "confidence": 0.55, "reasoning": "often preposition in temporal or pursuit expressions, though clausal after also occurs", "alternative": "SCONJ"}
+{"type": "been", "rank": 111, "frequency": 145, "tag": "AUX", "confidence": 0.9, "reasoning": "past participle of be in perfect, passive, or copular constructions"}
+{"type": "once", "rank": 112, "frequency": 145, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal adverb in story-opening and sequencing contexts"}
+{"type": "door", "rank": 113, "frequency": 143, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a physical door"}
+{"type": "more", "rank": 114, "frequency": 142, "tag": "ADV", "confidence": 0.55, "reasoning": "comparative degree word often modifying adjectives or verbs, though determiner uses with nouns also occur", "alternative": "DET"}
+{"type": "some", "rank": 115, "frequency": 139, "tag": "DET", "confidence": 0.9, "reasoning": "indefinite quantifying determiner before nouns in the contexts"}
+{"type": "put", "rank": 116, "frequency": 135, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of placing or setting in action contexts"}
+{"type": "an", "rank": 117, "frequency": 134, "tag": "DET", "confidence": 1.0, "reasoning": "indefinite article before vowel-initial noun phrases"}
+{"type": "has", "rank": 118, "frequency": 131, "tag": "AUX", "confidence": 0.7, "reasoning": "often perfect auxiliary in dialogue and narration, though possessive main-verb uses occur", "alternative": "VERB"}
+{"type": "fell", "rank": 119, "frequency": 130, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of falling"}
+{"type": "other", "rank": 120, "frequency": 130, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjectival modifier distinguishing another person or thing"}
+{"type": "asked", "rank": 121, "frequency": 128, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense speech verb introducing questions"}
+{"type": "nothing", "rank": 122, "frequency": 127, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite negative pronoun standing for no thing"}
+{"type": "still", "rank": 123, "frequency": 127, "tag": "ADV", "confidence": 0.9, "reasoning": "adverb marking continuation or persistence in the contexts"}
+{"type": "house", "rank": 124, "frequency": 126, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a dwelling"}
+{"type": "or", "rank": 125, "frequency": 126, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating conjunction marking alternatives"}
+{"type": "tree", "rank": 126, "frequency": 126, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a tree in forest and garden contexts"}
+{"type": "hans", "rank": 127, "frequency": 125, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a fairy-tale character"}
+{"type": "like", "rank": 128, "frequency": 125, "tag": "ADP", "confidence": 0.55, "reasoning": "often comparative preposition meaning similar to, though verbal liking uses also occur", "alternative": "VERB"}
+{"type": "sat", "rank": 129, "frequency": 125, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main posture verb"}
+{"type": "till", "rank": 130, "frequency": 125, "tag": "SCONJ", "confidence": 0.7, "reasoning": "usually introduces temporal clauses meaning until, with prepositional uses possible", "alternative": "ADP"}
+{"type": "beautiful", "rank": 131, "frequency": 123, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing people or objects in the fairy-tale contexts"}
+{"type": "get", "rank": 132, "frequency": 122, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in imperatives and motion/result constructions"}
+{"type": "bird", "rank": 133, "frequency": 121, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an animal"}
+{"type": "however", "rank": 134, "frequency": 121, "tag": "ADV", "confidence": 1.0, "reasoning": "discourse adverb marking contrast or continuation"}
+{"type": "made", "rank": 135, "frequency": 121, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial main verb of making or causing"}
+{"type": "found", "rank": 136, "frequency": 119, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of finding"}
+{"type": "ran", "rank": 137, "frequency": 119, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main motion verb"}
+{"type": "began", "rank": 138, "frequency": 117, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb marking the start of an action"}
+{"type": "head", "rank": 139, "frequency": 117, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for body part or top/front part"}
+{"type": "only", "rank": 140, "frequency": 117, "tag": "ADV", "confidence": 0.9, "reasoning": "focus adverb limiting the scope of a phrase or clause"}
+{"type": "set", "rank": 141, "frequency": 116, "tag": "VERB", "confidence": 0.85, "reasoning": "main verb of placing, arranging, or setting out in the contexts"}
+{"type": "son", "rank": 142, "frequency": 115, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship noun"}
+{"type": "answered", "rank": 143, "frequency": 114, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense speech verb responding to dialogue"}
+{"type": "looked", "rank": 144, "frequency": 113, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of looking"}
+{"type": "water", "rank": 145, "frequency": 113, "tag": "NOUN", "confidence": 1.0, "reasoning": "common substance noun in fetching, drinking, and well contexts"}
+{"type": "heard", "rank": 146, "frequency": 111, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of hearing"}
+{"type": "got", "rank": 147, "frequency": 109, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb in getting, becoming, or movement constructions"}
+{"type": "gave", "rank": 148, "frequency": 108, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of giving"}
+{"type": "too", "rank": 149, "frequency": 106, "tag": "ADV", "confidence": 1.0, "reasoning": "degree or additive adverb in the shown contexts"}
+{"type": "night", "rank": 150, "frequency": 105, "tag": "NOUN", "confidence": 1.0, "reasoning": "common temporal noun"}
+{"type": "first", "rank": 151, "frequency": 104, "tag": "ADJ", "confidence": 0.6, "reasoning": "ordinal modifier in many contexts, though adverbial sequencing uses also occur", "alternative": "ADV"}
+{"type": "here", "rank": 152, "frequency": 104, "tag": "ADV", "confidence": 1.0, "reasoning": "locative adverb in dialogue and narration"}
+{"type": "princess", "rank": 153, "frequency": 103, "tag": "NOUN", "confidence": 0.85, "reasoning": "fairy-tale role noun, usually in phrases like the princess, though role names can be name-like", "alternative": "PROPN"}
+{"type": "than", "rank": 154, "frequency": 103, "tag": "ADP", "confidence": 1.0, "reasoning": "comparative marker in than-phrases"}
+{"type": "three", "rank": 155, "frequency": 103, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number"}
+{"type": "never", "rank": 156, "frequency": 102, "tag": "ADV", "confidence": 1.0, "reasoning": "negative temporal/frequency adverb"}
+{"type": "morning", "rank": 157, "frequency": 100, "tag": "NOUN", "confidence": 1.0, "reasoning": "common temporal noun"}
+{"type": "told", "rank": 158, "frequency": 100, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense communication verb"}
+{"type": "woman", "rank": 159, "frequency": 99, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to an adult female person"}
+{"type": "gretel", "rank": 160, "frequency": 98, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a fairy-tale character"}
+{"type": "much", "rank": 161, "frequency": 97, "tag": "ADV", "confidence": 0.5, "reasoning": "mixed degree adverb and quantifying determiner uses; contexts often use it for degree or amount", "alternative": "DET"}
+{"type": "together", "rank": 162, "frequency": 97, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb indicating joint action or proximity"}
+{"type": "called", "rank": 163, "frequency": 96, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of naming or summoning"}
+{"type": "golden", "rank": 164, "frequency": 95, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing color or material, as in golden hair or objects"}
+{"type": "daughter", "rank": 165, "frequency": 94, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship noun"}
+{"type": "eat", "rank": 166, "frequency": 94, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of eating in dialogue and narration"}
+{"type": "horse", "rank": 167, "frequency": 92, "tag": "NOUN", "confidence": 1.0, "reasoning": "common animal noun"}
+{"type": "red", "rank": 168, "frequency": 92, "tag": "ADJ", "confidence": 0.8, "reasoning": "color adjective in the contexts, though it may participate in name-like phrases such as Rose-red", "alternative": "PROPN"}
+{"type": "brought", "rank": 169, "frequency": 91, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of bringing"}
+{"type": "herself", "rank": 170, "frequency": 91, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive feminine pronoun"}
+{"type": "poor", "rank": 171, "frequency": 91, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing poverty, pity, or unfortunate condition"}
+{"type": "just", "rank": 172, "frequency": 90, "tag": "ADV", "confidence": 0.9, "reasoning": "focus or degree adverb in contexts such as just as beautiful and just then"}
+{"type": "know", "rank": 173, "frequency": 90, "tag": "VERB", "confidence": 1.0, "reasoning": "main mental-state verb in dialogue"}
+{"type": "cat", "rank": 174, "frequency": 89, "tag": "NOUN", "confidence": 0.9, "reasoning": "animal noun, sometimes personified as a fairy-tale character", "alternative": "PROPN"}
+{"type": "fox", "rank": 175, "frequency": 89, "tag": "NOUN", "confidence": 0.9, "reasoning": "animal noun, sometimes personified as a fairy-tale character", "alternative": "PROPN"}
+{"type": "gold", "rank": 176, "frequency": 89, "tag": "NOUN", "confidence": 1.0, "reasoning": "common material or treasure noun"}
+{"type": "quite", "rank": 177, "frequency": 89, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb modifying adjectives or adverbs"}
+{"type": "white", "rank": 178, "frequency": 89, "tag": "ADJ", "confidence": 0.95, "reasoning": "color adjective in the shown contexts"}
+{"type": "done", "rank": 179, "frequency": 88, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle of do in completed-action contexts"}
+{"type": "might", "rank": 180, "frequency": 86, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary expressing possibility"}
+{"type": "forest", "rank": 181, "frequency": 85, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun central to the story settings"}
+{"type": "round", "rank": 182, "frequency": 85, "tag": "ADV", "confidence": 0.5, "reasoning": "mixed directional adverb and prepositional uses around movement or position; contexts are not single-function", "alternative": "ADP"}
+{"type": "next", "rank": 183, "frequency": 84, "tag": "ADJ", "confidence": 0.6, "reasoning": "often ordinal adjective modifying day or moment, though adverbial sequencing uses occur", "alternative": "ADV"}
+{"type": "child", "rank": 184, "frequency": 83, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to a young person"}
+{"type": "may", "rank": 185, "frequency": 83, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary expressing permission or possibility"}
+{"type": "castle", "rank": 186, "frequency": 82, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun in fairy-tale settings"}
+{"type": "lay", "rank": 187, "frequency": 82, "tag": "VERB", "confidence": 0.9, "reasoning": "past-tense or base verb of lying/placing in the story contexts"}
+{"type": "wood", "rank": 188, "frequency": 82, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for forest or material"}
+{"type": "left", "rank": 189, "frequency": 80, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly past-tense verb of leaving, with adjectival or directional senses possible", "alternative": "ADJ"}
+{"type": "through", "rank": 190, "frequency": 80, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking path through a place"}
+{"type": "any", "rank": 191, "frequency": 79, "tag": "DET", "confidence": 0.9, "reasoning": "indefinite determiner before nouns in negative or conditional contexts"}
+{"type": "bed", "rank": 192, "frequency": 79, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a bed"}
+{"type": "children", "rank": 193, "frequency": 79, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun referring to young people"}
+{"type": "make", "rank": 194, "frequency": 79, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of making or causing"}
+{"type": "stood", "rank": 195, "frequency": 79, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense posture or position verb"}
+{"type": "cut", "rank": 196, "frequency": 78, "tag": "VERB", "confidence": 0.9, "reasoning": "main verb of cutting in action contexts"}
+{"type": "queen", "rank": 197, "frequency": 78, "tag": "NOUN", "confidence": 0.85, "reasoning": "fairy-tale role noun, usually in phrases like the queen, though it can behave title-like", "alternative": "PROPN"}
+{"type": "us", "rank": 198, "frequency": 78, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person plural object pronoun in dialogue"}
+{"type": "young", "rank": 199, "frequency": 78, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying people or animals by age"}
+{"type": "each", "rank": 200, "frequency": 77, "tag": "DET", "confidence": 0.9, "reasoning": "distributive determiner before singular or plural nouns"}
+{"type": "such", "rank": 201, "frequency": 77, "tag": "DET", "confidence": 0.9, "reasoning": "determiner modifying nouns with a kind or degree sense in the shown contexts"}
+{"type": "find", "rank": 202, "frequency": 76, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of finding or discovering"}
+{"type": "going", "rank": 203, "frequency": 75, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund or participial form of go in motion and prospective-action contexts"}
+{"type": "hand", "rank": 204, "frequency": 75, "tag": "NOUN", "confidence": 1.0, "reasoning": "common body-part noun"}
+{"type": "another", "rank": 205, "frequency": 73, "tag": "DET", "confidence": 0.9, "reasoning": "determiner marking an additional or different entity"}
+{"type": "bring", "rank": 206, "frequency": 73, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of bringing in imperatives and action clauses"}
+{"type": "heart", "rank": 207, "frequency": 73, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for body part or emotional center"}
+{"type": "behind", "rank": 208, "frequency": 72, "tag": "ADP", "confidence": 0.6, "reasoning": "often preposition marking position behind something, with adverbial uses also possible", "alternative": "ADV"}
+{"type": "boy", "rank": 209, "frequency": 72, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to a young male person"}
+{"type": "every", "rank": 210, "frequency": 72, "tag": "DET", "confidence": 1.0, "reasoning": "universal determiner before nouns"}
+{"type": "gone", "rank": 211, "frequency": 72, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of go in motion or absence contexts"}
+{"type": "wolf", "rank": 212, "frequency": 72, "tag": "NOUN", "confidence": 0.9, "reasoning": "animal noun, sometimes personified as a character", "alternative": "PROPN"}
+{"type": "fast", "rank": 213, "frequency": 71, "tag": "ADV", "confidence": 0.65, "reasoning": "often modifies motion verbs with speed, though adjectival uses such as fast hold are possible", "alternative": "ADJ"}
+{"type": "look", "rank": 214, "frequency": 71, "tag": "VERB", "confidence": 0.8, "reasoning": "mostly main verb of looking in imperatives and action clauses, with nominal look possible", "alternative": "NOUN"}
+{"type": "fire", "rank": 215, "frequency": 70, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for fire or hearth"}
+{"type": "tailor", "rank": 216, "frequency": 69, "tag": "NOUN", "confidence": 0.85, "reasoning": "occupation or role noun, though often used as a fairy-tale character label", "alternative": "PROPN"}
+{"type": "while", "rank": 217, "frequency": 69, "tag": "SCONJ", "confidence": 0.95, "reasoning": "subordinating conjunction introducing temporal clauses"}
+{"type": "evening", "rank": 218, "frequency": 68, "tag": "NOUN", "confidence": 1.0, "reasoning": "common temporal noun"}
+{"type": "prince", "rank": 219, "frequency": 68, "tag": "NOUN", "confidence": 0.85, "reasoning": "royal role noun, often character-like in fairy tales", "alternative": "PROPN"}
+{"type": "tell", "rank": 220, "frequency": 68, "tag": "VERB", "confidence": 1.0, "reasoning": "main communication verb in dialogue"}
+{"type": "something", "rank": 221, "frequency": 67, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun standing for an unspecified thing"}
+{"type": "under", "rank": 222, "frequency": 67, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking position below or beneath"}
+{"type": "work", "rank": 223, "frequency": 67, "tag": "NOUN", "confidence": 0.6, "reasoning": "mixed noun and verb uses; contexts often refer to labor or task as a thing", "alternative": "VERB"}
+{"type": "laid", "rank": 224, "frequency": 65, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of placing or laying"}
+{"type": "girl", "rank": 225, "frequency": 64, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to a young female person"}
+{"type": "asleep", "rank": 226, "frequency": 63, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective describing sleeping state"}
+{"type": "eyes", "rank": 227, "frequency": 63, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun"}
+{"type": "world", "rank": 228, "frequency": 63, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to the world or realm of experience"}
+{"type": "cook", "rank": 229, "frequency": 62, "tag": "VERB", "confidence": 0.75, "reasoning": "often main verb meaning prepare food, though occupational noun uses can occur", "alternative": "NOUN"}
+{"type": "dwarf", "rank": 230, "frequency": 62, "tag": "NOUN", "confidence": 0.85, "reasoning": "fantasy-being noun, sometimes used as a character label", "alternative": "PROPN"}
+{"type": "flew", "rank": 231, "frequency": 61, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main motion verb"}
+{"type": "until", "rank": 232, "frequency": 61, "tag": "SCONJ", "confidence": 0.95, "reasoning": "subordinating conjunction introducing temporal limit clauses"}
+{"type": "life", "rank": 233, "frequency": 60, "tag": "NOUN", "confidence": 1.0, "reasoning": "common abstract noun referring to life or living"}
+{"type": "sitting", "rank": 234, "frequency": 60, "tag": "VERB", "confidence": 0.95, "reasoning": "gerund or participial form of sit in posture contexts"}
+{"type": "side", "rank": 235, "frequency": 59, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for side or position"}
+{"type": "dead", "rank": 236, "frequency": 58, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing state of death"}
+{"type": "own", "rank": 237, "frequency": 58, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjectival possessive intensifier in phrases such as his own or her own"}
+{"type": "why", "rank": 238, "frequency": 58, "tag": "ADV", "confidence": 1.0, "reasoning": "interrogative adverb asking reason in dialogue"}
+{"type": "dear", "rank": 239, "frequency": 57, "tag": "ADJ", "confidence": 0.75, "reasoning": "adjective or vocative modifier in affectionate dialogue, with interjection-like use possible", "alternative": "INTJ"}
+{"type": "ah", "rank": 240, "frequency": 56, "tag": "INTJ", "confidence": 1.0, "reasoning": "interjection in dialogue"}
+{"type": "bride", "rank": 241, "frequency": 56, "tag": "NOUN", "confidence": 1.0, "reasoning": "common role noun in wedding contexts"}
+{"type": "care", "rank": 242, "frequency": 56, "tag": "NOUN", "confidence": 0.6, "reasoning": "mixed noun and verb uses; contexts often refer to taking care or concern as a thing", "alternative": "VERB"}
+{"type": "hair", "rank": 243, "frequency": 56, "tag": "NOUN", "confidence": 1.0, "reasoning": "common body-part/material noun"}
+{"type": "knew", "rank": 244, "frequency": 56, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense mental-state verb"}
+{"type": "many", "rank": 245, "frequency": 56, "tag": "DET", "confidence": 0.9, "reasoning": "quantifying determiner before plural nouns"}
+{"type": "open", "rank": 246, "frequency": 56, "tag": "ADJ", "confidence": 0.55, "reasoning": "mixed adjective and verb uses; contexts include state descriptions like open door as well as open actions", "alternative": "VERB"}
+{"type": "run", "rank": 247, "frequency": 56, "tag": "VERB", "confidence": 0.9, "reasoning": "main motion verb in action contexts"}
+{"type": "seven", "rank": 248, "frequency": 56, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number"}
+{"type": "wanted", "rank": 249, "frequency": 56, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of wanting"}
+{"type": "fine", "rank": 250, "frequency": 54, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing quality or appearance"}
+{"type": "rose", "rank": 251, "frequency": 54, "tag": "NOUN", "confidence": 0.55, "reasoning": "contexts mix flower noun and name-like Rose-red material; past-tense verb rose is also possible", "alternative": "PROPN"}
+{"type": "say", "rank": 252, "frequency": 54, "tag": "VERB", "confidence": 1.0, "reasoning": "main speech verb in dialogue"}
+{"type": "enough", "rank": 253, "frequency": 52, "tag": "ADV", "confidence": 0.6, "reasoning": "degree word after adjectives or verbs in many contexts, with adjectival/determiner uses possible", "alternative": "ADJ"}
+{"type": "full", "rank": 254, "frequency": 52, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing filled state or completeness"}
+{"type": "oh", "rank": 255, "frequency": 52, "tag": "INTJ", "confidence": 1.0, "reasoning": "interjection in dialogue"}
+{"type": "peasant", "rank": 256, "frequency": 52, "tag": "NOUN", "confidence": 0.95, "reasoning": "common social-role noun"}
+{"type": "want", "rank": 257, "frequency": 52, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of wanting in dialogue"}
+{"type": "window", "rank": 258, "frequency": 52, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a window"}
+{"type": "without", "rank": 259, "frequency": 52, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking absence or lack"}
+{"type": "yes", "rank": 260, "frequency": 52, "tag": "INTJ", "confidence": 1.0, "reasoning": "dialogue response word functioning as an interjection"}
+{"type": "happened", "rank": 261, "frequency": 51, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb describing occurrence"}
+{"type": "room", "rank": 262, "frequency": 51, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun"}
+{"type": "better", "rank": 263, "frequency": 50, "tag": "ADJ", "confidence": 0.6, "reasoning": "comparative adjective in many contexts, though adverbial better also occurs", "alternative": "ADV"}
+{"type": "master", "rank": 264, "frequency": 50, "tag": "NOUN", "confidence": 0.9, "reasoning": "role noun referring to an employer, owner, or master figure", "alternative": "PROPN"}
+{"type": "thing", "rank": 265, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an object, matter, or unspecified item"}
+{"type": "third", "rank": 266, "frequency": 50, "tag": "ADJ", "confidence": 0.7, "reasoning": "ordinal adjective modifying son, day, or trial-like nouns", "alternative": "NUM"}
+{"type": "whole", "rank": 267, "frequency": 50, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjective modifying nouns with complete or entire sense"}
+{"type": "wished", "rank": 268, "frequency": 50, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of wishing"}
+{"type": "cannot", "rank": 269, "frequency": 49, "tag": "AUX", "confidence": 1.0, "reasoning": "negative modal auxiliary equivalent to can not"}
+{"type": "leave", "rank": 270, "frequency": 49, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of departing from or allowing to remain"}
+{"type": "longer", "rank": 271, "frequency": 49, "tag": "ADV", "confidence": 0.7, "reasoning": "often adverb in temporal comparative expressions such as no longer, though adjectival uses occur", "alternative": "ADJ"}
+{"type": "t", "rank": 272, "frequency": 49, "tag": "PART", "confidence": 0.8, "reasoning": "tokenized contraction remnant from negative forms such as don't or can't"}
+{"type": "lived", "rank": 273, "frequency": 48, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of living"}
+{"type": "money", "rank": 274, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for money or wealth"}
+{"type": "soldier", "rank": 275, "frequency": 48, "tag": "NOUN", "confidence": 0.9, "reasoning": "occupation or role noun, sometimes used as a character label", "alternative": "PROPN"}
+{"type": "thou", "rank": 276, "frequency": 48, "tag": "PRON", "confidence": 1.0, "reasoning": "archaic second-person singular pronoun in dialogue"}
+{"type": "yet", "rank": 277, "frequency": 48, "tag": "ADV", "confidence": 0.8, "reasoning": "adverb marking time, continuation, or contrast, with occasional conjunction-like force", "alternative": "CCONJ"}
+{"type": "drink", "rank": 278, "frequency": 47, "tag": "VERB", "confidence": 0.65, "reasoning": "often main verb of drinking, though noun uses for beverage are possible", "alternative": "NOUN"}
+{"type": "hansel", "rank": 279, "frequency": 47, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a fairy-tale character"}
+{"type": "husband", "rank": 280, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship or marital-role noun"}
+{"type": "its", "rank": 281, "frequency": 47, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns"}
+{"type": "right", "rank": 282, "frequency": 47, "tag": "ADJ", "confidence": 0.6, "reasoning": "mixed adjective and noun uses; contexts commonly describe correctness or proper side", "alternative": "NOUN"}
+{"type": "sun", "rank": 283, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the sun"}
+{"type": "think", "rank": 284, "frequency": 47, "tag": "VERB", "confidence": 1.0, "reasoning": "main mental-state verb in dialogue"}
+{"type": "our", "rank": 285, "frequency": 46, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns"}
+{"type": "thus", "rank": 286, "frequency": 46, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb meaning in this way or therefore in narrative exposition"}
+{"type": "youth", "rank": 287, "frequency": 46, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a young person or young age"}
+{"type": "anything", "rank": 288, "frequency": 45, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun standing for any thing"}
+{"type": "bear", "rank": 289, "frequency": 45, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly animal noun in Grimm story contexts, though verb bear is possible", "alternative": "VERB"}
+{"type": "cap", "rank": 290, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an item of clothing"}
+{"type": "garden", "rank": 291, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun"}
+{"type": "help", "rank": 292, "frequency": 45, "tag": "VERB", "confidence": 0.65, "reasoning": "often main verb in requests and rescue contexts, though noun help also occurs", "alternative": "NOUN"}
+{"type": "second", "rank": 293, "frequency": 45, "tag": "ADJ", "confidence": 0.7, "reasoning": "ordinal adjective modifying character or event nouns", "alternative": "NUM"}
+{"type": "seen", "rank": 294, "frequency": 45, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of see in perception contexts"}
+{"type": "twelve", "rank": 295, "frequency": 45, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number"}
+{"type": "bread", "rank": 296, "frequency": 44, "tag": "NOUN", "confidence": 1.0, "reasoning": "common food noun"}
+{"type": "given", "rank": 297, "frequency": 44, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of give"}
+{"type": "keep", "rank": 298, "frequency": 44, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning retain, guard, or continue"}
+{"type": "replied", "rank": 299, "frequency": 44, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense speech verb in dialogue"}
+{"type": "rest", "rank": 300, "frequency": 44, "tag": "NOUN", "confidence": 0.65, "reasoning": "often noun meaning remainder or repose, though verb uses are possible", "alternative": "VERB"}
+{"type": "sent", "rank": 301, "frequency": 44, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of sending"}
+{"type": "sprang", "rank": 302, "frequency": 44, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main motion verb"}
+{"type": "turned", "rank": 303, "frequency": 44, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of turning or transforming"}
+{"type": "brother", "rank": 304, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship noun"}
+{"type": "carried", "rank": 305, "frequency": 43, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of carrying"}
+{"type": "cow", "rank": 306, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "common animal noun"}
+{"type": "everything", "rank": 307, "frequency": 43, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun standing for all things"}
+{"type": "looking", "rank": 308, "frequency": 43, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund or participial form of look"}
+{"type": "table", "rank": 309, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a table"}
+{"type": "threw", "rank": 310, "frequency": 43, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of throwing"}
+{"type": "dog", "rank": 311, "frequency": 42, "tag": "NOUN", "confidence": 0.9, "reasoning": "animal noun, sometimes personified as a character", "alternative": "PROPN"}
+{"type": "face", "rank": 312, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "common body-part noun"}
+{"type": "light", "rank": 313, "frequency": 42, "tag": "NOUN", "confidence": 0.6, "reasoning": "mixed noun and adjective uses; contexts often refer to light as a thing or illumination", "alternative": "ADJ"}
+{"type": "people", "rank": 314, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun referring to persons"}
+{"type": "place", "rank": 315, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to a location"}
+{"type": "themselves", "rank": 316, "frequency": 42, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive third-person plural pronoun"}
+{"type": "wine", "rank": 317, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "common beverage noun"}
+{"type": "wish", "rank": 318, "frequency": 42, "tag": "VERB", "confidence": 0.55, "reasoning": "contexts mix verbal wishing and nominal wish-granting; dialogue often uses it as a verb", "alternative": "NOUN"}
+{"type": "years", "rank": 319, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural temporal noun"}
+{"type": "became", "rank": 320, "frequency": 41, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of becoming"}
+{"type": "same", "rank": 321, "frequency": 41, "tag": "DET", "confidence": 0.7, "reasoning": "identity determiner in phrases such as the same thing or same place", "alternative": "ADJ"}
+{"type": "these", "rank": 322, "frequency": 41, "tag": "DET", "confidence": 0.9, "reasoning": "plural demonstrative determiner before nouns, with possible standalone uses", "alternative": "PRON"}
+{"type": "also", "rank": 323, "frequency": 40, "tag": "ADV", "confidence": 1.0, "reasoning": "additive adverb"}
+{"type": "always", "rank": 324, "frequency": 40, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb"}
+{"type": "carry", "rank": 325, "frequency": 40, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of carrying"}
+{"type": "led", "rank": 326, "frequency": 40, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of leading"}
+{"type": "sleep", "rank": 327, "frequency": 40, "tag": "VERB", "confidence": 0.55, "reasoning": "contexts mix verbal sleep and nominal sleep; many uses occur in verbal or infinitive constructions", "alternative": "NOUN"}
+{"type": "snow", "rank": 328, "frequency": 40, "tag": "NOUN", "confidence": 0.55, "reasoning": "can refer to snow as a substance and to name-like Snow-white or Snowdrop material", "alternative": "PROPN"}
+{"type": "standing", "rank": 329, "frequency": 40, "tag": "VERB", "confidence": 0.95, "reasoning": "participle of stand in posture or location contexts"}
+{"type": "ate", "rank": 330, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of eating"}
+{"type": "end", "rank": 331, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for conclusion or extremity"}
+{"type": "huntsman", "rank": 332, "frequency": 39, "tag": "NOUN", "confidence": 0.9, "reasoning": "occupation or role noun, sometimes used as a character label", "alternative": "PROPN"}
+{"type": "kingdom", "rank": 333, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place or political-domain noun"}
+{"type": "live", "rank": 334, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of living"}
+{"type": "met", "rank": 335, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of meeting"}
+{"type": "near", "rank": 336, "frequency": 39, "tag": "ADP", "confidence": 0.55, "reasoning": "often preposition marking proximity to a place or thing, though adverb/adjective uses occur", "alternative": "ADV"}
+{"type": "piece", "rank": 337, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a part or portion"}
+{"type": "true", "rank": 338, "frequency": 39, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning real or faithful"}
+{"type": "alas", "rank": 339, "frequency": 38, "tag": "INTJ", "confidence": 1.0, "reasoning": "interjection expressing sorrow or distress in dialogue"}
+{"type": "black", "rank": 340, "frequency": 38, "tag": "ADJ", "confidence": 0.95, "reasoning": "color adjective in the contexts"}
+{"type": "brothers", "rank": 341, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural kinship noun"}
+{"type": "fall", "rank": 342, "frequency": 38, "tag": "VERB", "confidence": 0.65, "reasoning": "often main verb of falling, though nominal fall uses are possible", "alternative": "NOUN"}
+{"type": "ground", "rank": 343, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place/substance noun"}
+{"type": "large", "rank": 344, "frequency": 38, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing size"}
+{"type": "mouse", "rank": 345, "frequency": 38, "tag": "NOUN", "confidence": 0.9, "reasoning": "animal noun, sometimes personified as a character", "alternative": "PROPN"}
+{"type": "try", "rank": 346, "frequency": 38, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning attempt"}
+{"type": "both", "rank": 347, "frequency": 37, "tag": "DET", "confidence": 0.9, "reasoning": "dual quantifying determiner or pronoun; contexts mostly quantify paired entities", "alternative": "PRON"}
+{"type": "fish", "rank": 348, "frequency": 37, "tag": "NOUN", "confidence": 0.85, "reasoning": "usually animal or food noun, though verb fish is possible", "alternative": "VERB"}
+{"type": "miller", "rank": 349, "frequency": 37, "tag": "NOUN", "confidence": 0.9, "reasoning": "occupation noun, sometimes used as a character label", "alternative": "PROPN"}
+{"type": "ready", "rank": 350, "frequency": 37, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective describing preparedness"}
+{"type": "ring", "rank": 351, "frequency": 37, "tag": "NOUN", "confidence": 0.75, "reasoning": "often common noun for jewelry or circular object, though verbal ringing may occur", "alternative": "VERB"}
+{"type": "servant", "rank": 352, "frequency": 37, "tag": "NOUN", "confidence": 0.95, "reasoning": "common role noun"}
+{"type": "thee", "rank": 353, "frequency": 37, "tag": "PRON", "confidence": 1.0, "reasoning": "archaic second-person object pronoun"}
+{"type": "things", "rank": 354, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for objects or matters"}
+{"type": "already", "rank": 355, "frequency": 36, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal adverb indicating prior completion"}
+{"type": "court", "rank": 356, "frequency": 36, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for royal court or courtyard/legal setting"}
+{"type": "drew", "rank": 357, "frequency": 36, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of drawing, pulling, or moving"}
+{"type": "feast", "rank": 358, "frequency": 36, "tag": "NOUN", "confidence": 0.9, "reasoning": "common noun for a celebratory meal or event"}
+{"type": "forth", "rank": 359, "frequency": 36, "tag": "ADV", "confidence": 1.0, "reasoning": "directional adverb in motion expressions like went forth"}
+{"type": "glass", "rank": 360, "frequency": 36, "tag": "NOUN", "confidence": 1.0, "reasoning": "common material or object noun"}
+{"type": "lady", "rank": 361, "frequency": 36, "tag": "NOUN", "confidence": 0.95, "reasoning": "common social-role noun"}
+{"type": "opened", "rank": 362, "frequency": 36, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of opening"}
+{"type": "snowdrop", "rank": 363, "frequency": 36, "tag": "PROPN", "confidence": 0.85, "reasoning": "name-like fairy-tale character token rather than an ordinary flower use in the sampled story contexts", "alternative": "NOUN"}
+{"type": "wind", "rank": 364, "frequency": 36, "tag": "NOUN", "confidence": 0.65, "reasoning": "usually common noun for moving air, though verbal winding uses are possible", "alternative": "VERB"}
+{"type": "alone", "rank": 365, "frequency": 35, "tag": "ADV", "confidence": 0.55, "reasoning": "often adverbial in being or going alone, though predicate adjective uses are also natural", "alternative": "ADJ"}
+{"type": "chanticleer", "rank": 366, "frequency": 35, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper name of an animal character"}
+{"type": "finger", "rank": 367, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "common body-part noun"}
+{"type": "four", "rank": 368, "frequency": 35, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number"}
+{"type": "free", "rank": 369, "frequency": 35, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjective describing liberty or lack of constraint"}
+{"type": "held", "rank": 370, "frequency": 35, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of holding"}
+{"type": "passed", "rank": 371, "frequency": 35, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of passing or moving by"}
+{"type": "rode", "rank": 372, "frequency": 35, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of riding"}
+{"type": "shudder", "rank": 373, "frequency": 35, "tag": "VERB", "confidence": 0.6, "reasoning": "appears in contexts about learning to shudder, where it functions verbally, though nominal uses are possible", "alternative": "NOUN"}
+{"type": "wild", "rank": 374, "frequency": 35, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing animals, places, or behavior"}
+{"type": "grew", "rank": 375, "frequency": 34, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of growing or becoming"}
+{"type": "half", "rank": 376, "frequency": 34, "tag": "NUM", "confidence": 0.6, "reasoning": "fractional numeral or quantity word in the shown contexts, with noun uses possible", "alternative": "NOUN"}
+{"type": "ll", "rank": 377, "frequency": 34, "tag": "AUX", "confidence": 1.0, "reasoning": "tokenized contraction remnant for future auxiliary 'll"}
+{"type": "lying", "rank": 378, "frequency": 34, "tag": "VERB", "confidence": 0.95, "reasoning": "gerund or participial form of lie in posture/location contexts"}
+{"type": "along", "rank": 379, "frequency": 33, "tag": "ADV", "confidence": 0.6, "reasoning": "directional adverb in movement expressions, though prepositional along uses occur", "alternative": "ADP"}
+{"type": "friend", "rank": 380, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "common social relationship noun"}
+{"type": "maid", "rank": 381, "frequency": 33, "tag": "NOUN", "confidence": 0.95, "reasoning": "common role noun referring to a young woman or servant"}
+{"type": "myself", "rank": 382, "frequency": 33, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person reflexive pronoun"}
+{"type": "stone", "rank": 383, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a stone or material"}
+{"type": "witch", "rank": 384, "frequency": 33, "tag": "NOUN", "confidence": 0.9, "reasoning": "fantasy role noun, sometimes functioning as a character label", "alternative": "PROPN"}
+{"type": "blood", "rank": 385, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "common body-substance noun"}
+{"type": "eldest", "rank": 386, "frequency": 32, "tag": "ADJ", "confidence": 0.95, "reasoning": "superlative age adjective modifying son, daughter, or sibling nouns"}
+{"type": "even", "rank": 387, "frequency": 32, "tag": "ADV", "confidence": 1.0, "reasoning": "focus adverb"}
+{"type": "lie", "rank": 388, "frequency": 32, "tag": "VERB", "confidence": 0.6, "reasoning": "mixed verb and noun uses; contexts often use lie as a main verb of reclining or speaking falsely", "alternative": "NOUN"}
+{"type": "palace", "rank": 389, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun in royal contexts"}
+{"type": "pick", "rank": 390, "frequency": 32, "tag": "VERB", "confidence": 0.9, "reasoning": "main verb of picking or selecting"}
+{"type": "apple", "rank": 391, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "common food or fruit noun"}
+{"type": "felt", "rank": 392, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of feeling or sensing"}
+{"type": "giant", "rank": 393, "frequency": 31, "tag": "NOUN", "confidence": 0.9, "reasoning": "fantasy-being noun, sometimes character-like in fairy tales", "alternative": "PROPN"}
+{"type": "hold", "rank": 394, "frequency": 31, "tag": "VERB", "confidence": 0.7, "reasoning": "often main verb of holding, though noun uses such as a hold are possible", "alternative": "NOUN"}
+{"type": "killed", "rank": 395, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of killing"}
+{"type": "kitchen", "rank": 396, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun"}
+{"type": "lost", "rank": 397, "frequency": 31, "tag": "VERB", "confidence": 0.65, "reasoning": "often past-tense or participial verb of losing, though adjectival lost uses occur", "alternative": "ADJ"}
+{"type": "most", "rank": 398, "frequency": 31, "tag": "ADV", "confidence": 0.6, "reasoning": "often superlative degree adverb, with determiner uses before nouns also possible", "alternative": "DET"}
+{"type": "pocket", "rank": 399, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a clothing pocket"}
+{"type": "sea", "rank": 400, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place/natural-feature noun"}
+{"type": "sit", "rank": 401, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "main posture verb"}
+{"type": "skin", "rank": 402, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "common body/material noun"}
+{"type": "taken", "rank": 403, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of take"}
+{"type": "yourself", "rank": 404, "frequency": 31, "tag": "PRON", "confidence": 1.0, "reasoning": "second-person reflexive pronoun"}
+{"type": "ask", "rank": 405, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "main speech verb used for questions or requests"}
+{"type": "awoke", "rank": 406, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of waking"}
+{"type": "best", "rank": 407, "frequency": 30, "tag": "ADJ", "confidence": 0.85, "reasoning": "superlative adjective in evaluative contexts, with adverbial uses possible", "alternative": "ADV"}
+{"type": "clever", "rank": 408, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing intelligence or skill"}
+{"type": "clothes", "rank": 409, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for garments"}
+{"type": "does", "rank": 410, "frequency": 30, "tag": "AUX", "confidence": 0.7, "reasoning": "often auxiliary in questions and negatives, though main-verb uses occur", "alternative": "VERB"}
+{"type": "ever", "rank": 411, "frequency": 30, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal or emphatic adverb"}
+{"type": "far", "rank": 412, "frequency": 30, "tag": "ADV", "confidence": 0.9, "reasoning": "distance adverb in motion or extent contexts"}
+{"type": "forced", "rank": 413, "frequency": 30, "tag": "VERB", "confidence": 0.9, "reasoning": "past-tense or participial verb of compelling"}
+{"type": "land", "rank": 414, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place or territory noun"}
+{"type": "men", "rank": 415, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun referring to adult male persons"}
+{"type": "o", "rank": 416, "frequency": 30, "tag": "INTJ", "confidence": 1.0, "reasoning": "vocative or exclamatory interjection in dialogue"}
+{"type": "sister", "rank": 417, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship noun"}
+{"type": "tom", "rank": 418, "frequency": 30, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a character"}
+{"type": "walked", "rank": 419, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main motion verb"}
+{"type": "beard", "rank": 420, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "common body-hair noun"}
+{"type": "blow", "rank": 421, "frequency": 29, "tag": "VERB", "confidence": 0.55, "reasoning": "contexts mix verbal blowing and nominal blow; fairy-tale action contexts make the verb frequent", "alternative": "NOUN"}
+{"type": "close", "rank": 422, "frequency": 29, "tag": "ADJ", "confidence": 0.55, "reasoning": "mixed adjective/adverb and verb uses; contexts often describe nearness or closed state", "alternative": "VERB"}
+{"type": "don", "rank": 423, "frequency": 29, "tag": "AUX", "confidence": 0.8, "reasoning": "tokenized contraction remnant from don't, paired with separate t token"}
+{"type": "elsie", "rank": 424, "frequency": 29, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a character"}
+{"type": "frightened", "rank": 425, "frequency": 29, "tag": "ADJ", "confidence": 0.6, "reasoning": "often predicate adjective describing fear, though participial verb uses occur", "alternative": "VERB"}
+{"type": "goose", "rank": 426, "frequency": 29, "tag": "NOUN", "confidence": 0.9, "reasoning": "animal noun, sometimes personified or tale-title-like", "alternative": "PROPN"}
+{"type": "hard", "rank": 427, "frequency": 29, "tag": "ADJ", "confidence": 0.6, "reasoning": "often adjective describing difficulty or firmness, with adverbial uses possible", "alternative": "ADV"}
+{"type": "joy", "rank": 428, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for happiness"}
+{"type": "kill", "rank": 429, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of killing"}
+{"type": "road", "rank": 430, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place/path noun"}
+{"type": "sparrow", "rank": 431, "frequency": 29, "tag": "NOUN", "confidence": 0.85, "reasoning": "bird noun, sometimes personified as a tale character", "alternative": "PROPN"}
+{"type": "thy", "rank": 432, "frequency": 29, "tag": "DET", "confidence": 1.0, "reasoning": "archaic possessive determiner before nouns"}
+{"type": "tired", "rank": 433, "frequency": 29, "tag": "ADJ", "confidence": 0.9, "reasoning": "predicate adjective describing fatigue"}
+{"type": "word", "rank": 434, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to speech or a promise"}
+{"type": "big", "rank": 435, "frequency": 28, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing size"}
+{"type": "eaten", "rank": 436, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of eat"}
+{"type": "fear", "rank": 437, "frequency": 28, "tag": "NOUN", "confidence": 0.65, "reasoning": "often abstract noun naming fear, though verbal fear uses occur", "alternative": "VERB"}
+{"type": "fetch", "rank": 438, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in imperatives meaning go and bring"}
+{"type": "goodbye", "rank": 439, "frequency": 28, "tag": "INTJ", "confidence": 0.8, "reasoning": "farewell expression in dialogue, functioning interjectionally"}
+{"type": "length", "rank": 440, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for extent, duration, or length"}
+{"type": "lion", "rank": 441, "frequency": 28, "tag": "NOUN", "confidence": 0.9, "reasoning": "animal noun, sometimes personified as a character", "alternative": "PROPN"}
+{"type": "married", "rank": 442, "frequency": 28, "tag": "VERB", "confidence": 0.6, "reasoning": "often participial or past-tense verb in wedding contexts, though adjectival married is possible", "alternative": "ADJ"}
+{"type": "mind", "rank": 443, "frequency": 28, "tag": "NOUN", "confidence": 0.65, "reasoning": "often noun for thought or intention, though imperative verb mind occurs", "alternative": "VERB"}
+{"type": "quickly", "rank": 444, "frequency": 28, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb modifying actions"}
+{"type": "shepherd", "rank": 445, "frequency": 28, "tag": "NOUN", "confidence": 0.95, "reasoning": "occupation or role noun"}
+{"type": "small", "rank": 446, "frequency": 28, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing size"}
+{"type": "sure", "rank": 447, "frequency": 28, "tag": "ADJ", "confidence": 0.9, "reasoning": "predicate adjective indicating certainty"}
+{"type": "turn", "rank": 448, "frequency": 28, "tag": "VERB", "confidence": 0.65, "reasoning": "often main verb of turning or changing direction, though nominal turn occurs", "alternative": "NOUN"}
+{"type": "wedding", "rank": 449, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "common event noun"}
+{"type": "afterwards", "rank": 450, "frequency": 27, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal adverb meaning later"}
+{"type": "comes", "rank": 451, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "finite main motion verb"}
+{"type": "fairy", "rank": 452, "frequency": 27, "tag": "NOUN", "confidence": 0.65, "reasoning": "often noun for a supernatural being, though it also modifies tale or story nouns", "alternative": "ADJ"}
+{"type": "fisherman", "rank": 453, "frequency": 27, "tag": "NOUN", "confidence": 0.95, "reasoning": "occupation or role noun"}
+{"type": "food", "rank": 454, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for things eaten"}
+{"type": "lord", "rank": 455, "frequency": 27, "tag": "NOUN", "confidence": 0.8, "reasoning": "social or noble title noun, with some name-like/vocative uses possible", "alternative": "PROPN"}
+{"type": "luck", "rank": 456, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for fortune or chance"}
+{"type": "maiden", "rank": 457, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "common role noun for a young woman"}
+{"type": "merry", "rank": 458, "frequency": 27, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing cheerful state or mood"}
+{"type": "pleased", "rank": 459, "frequency": 27, "tag": "ADJ", "confidence": 0.6, "reasoning": "often predicate adjective describing emotional state, though participial verb uses occur", "alternative": "VERB"}
+{"type": "saying", "rank": 460, "frequency": 27, "tag": "VERB", "confidence": 0.6, "reasoning": "often gerund or participial speech verb, though noun saying occurs", "alternative": "NOUN"}
+{"type": "seized", "rank": 461, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of grabbing or taking"}
+{"type": "shut", "rank": 462, "frequency": 27, "tag": "VERB", "confidence": 0.55, "reasoning": "mixed verb and adjective uses; contexts often describe the action of shutting", "alternative": "ADJ"}
+{"type": "wait", "rank": 463, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning remain or delay"}
+{"type": "youngest", "rank": 464, "frequency": 27, "tag": "ADJ", "confidence": 1.0, "reasoning": "superlative age adjective modifying child, son, or daughter"}
+{"type": "able", "rank": 465, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective expressing ability"}
+{"type": "agreed", "rank": 466, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of agreeing"}
+{"type": "chamber", "rank": 467, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common room/place noun"}
+{"type": "cloak", "rank": 468, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common clothing noun"}
+{"type": "coming", "rank": 469, "frequency": 26, "tag": "VERB", "confidence": 0.95, "reasoning": "gerund or participial form of come"}
+{"type": "country", "rank": 470, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place or region noun"}
+{"type": "death", "rank": 471, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun naming death"}
+{"type": "drove", "rank": 472, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of driving or forcing movement"}
+{"type": "followed", "rank": 473, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of following"}
+{"type": "frederick", "rank": 474, "frequency": 26, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a character"}
+{"type": "grandmother", "rank": 475, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship noun"}
+{"type": "heavy", "rank": 476, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing weight or burden"}
+{"type": "ill", "rank": 477, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing sickness or bad condition"}
+{"type": "iron", "rank": 478, "frequency": 26, "tag": "NOUN", "confidence": 0.6, "reasoning": "often material noun, though it can modify objects adjectivally", "alternative": "ADJ"}
+{"type": "kind", "rank": 479, "frequency": 26, "tag": "ADJ", "confidence": 0.55, "reasoning": "contexts mix adjective meaning benevolent and noun meaning sort or type", "alternative": "NOUN"}
+{"type": "ordered", "rank": 480, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb of commanding or arranging"}
+{"type": "pray", "rank": 481, "frequency": 26, "tag": "VERB", "confidence": 0.9, "reasoning": "main verb or polite discourse verb in dialogue"}
+{"type": "pretty", "rank": 482, "frequency": 26, "tag": "ADJ", "confidence": 0.8, "reasoning": "adjective describing attractiveness, with degree-adverb use possible", "alternative": "ADV"}
+{"type": "rapunzel", "rank": 483, "frequency": 26, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a fairy-tale character"}
+{"type": "shoes", "rank": 484, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common clothing noun"}
+{"type": "therefore", "rank": 485, "frequency": 26, "tag": "ADV", "confidence": 1.0, "reasoning": "discourse adverb marking inference or consequence"}
+{"type": "towards", "rank": 486, "frequency": 26, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking direction or relation"}
+{"type": "trouble", "rank": 487, "frequency": 26, "tag": "NOUN", "confidence": 0.65, "reasoning": "often noun for difficulty or distress, though verbal trouble uses occur", "alternative": "VERB"}
+{"type": "wept", "rank": 488, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of weeping"}
+{"type": "against", "rank": 489, "frequency": 25, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking opposition or contact"}
+{"type": "air", "rank": 490, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for air or atmosphere"}
+{"type": "begged", "rank": 491, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense speech/request verb"}
+{"type": "caught", "rank": 492, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of catching"}
+{"type": "dark", "rank": 493, "frequency": 25, "tag": "ADJ", "confidence": 0.75, "reasoning": "often adjective describing lack of light, though nominal darkness uses occur", "alternative": "NOUN"}
+{"type": "died", "rank": 494, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of dying"}
+{"type": "fat", "rank": 495, "frequency": 25, "tag": "ADJ", "confidence": 0.95, "reasoning": "adjective describing body condition or size"}
+{"type": "fellow", "rank": 496, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to a man or person"}
+{"type": "hands", "rank": 497, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun"}
+{"type": "happy", "rank": 498, "frequency": 25, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing emotional state"}
+{"type": "huntsmen", "rank": 499, "frequency": 25, "tag": "NOUN", "confidence": 0.95, "reasoning": "plural occupation or role noun"}
+{"type": "learn", "rank": 500, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning acquire knowledge or skill"}
+{"type": "pass", "rank": 501, "frequency": 25, "tag": "VERB", "confidence": 0.9, "reasoning": "main verb in contexts such as pass over, pass by, and pass the night"}
+{"type": "sing", "rank": 502, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of singing in the bird and song contexts"}
+{"type": "stay", "rank": 503, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning remain in a place in contexts like stay there and stay with you"}
+{"type": "thinking", "rank": 504, "frequency": 25, "tag": "VERB", "confidence": 0.95, "reasoning": "gerund or participial form of think in contexts like thinking how and thinking that"}
+{"type": "voice", "rank": 505, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to a speaking or singing voice"}
+{"type": "because", "rank": 506, "frequency": 24, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing reason clauses"}
+{"type": "days", "rank": 507, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural temporal noun in expressions like fourteen days and two days"}
+{"type": "draw", "rank": 508, "frequency": 24, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning pull, haul, or draw up in the shown contexts"}
+{"type": "loved", "rank": 509, "frequency": 24, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial main verb of loving"}
+{"type": "matter", "rank": 510, "frequency": 24, "tag": "NOUN", "confidence": 0.95, "reasoning": "noun in contexts such as no hard matter, what's the matter, and cut the matter short"}
+{"type": "mountain", "rank": 511, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place or landform noun"}
+{"type": "outside", "rank": 512, "frequency": 24, "tag": "ADV", "confidence": 0.75, "reasoning": "mostly locative adverb in contexts like went outside and carried them outside, with adjectival use also present", "alternative": "ADJ"}
+{"type": "seemed", "rank": 513, "frequency": 24, "tag": "VERB", "confidence": 1.0, "reasoning": "linking verb in seemed as if, seemed to be, and similar contexts"}
+{"type": "silver", "rank": 514, "frequency": 24, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly material/treasure noun paired with gold, though it can modify objects adjectivally", "alternative": "ADJ"}
+{"type": "throw", "rank": 515, "frequency": 24, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of throwing in imperatives and action clauses"}
+{"type": "top", "rank": 516, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for upper part in contexts like top of the mountain and top of the fat"}
+{"type": "use", "rank": 517, "frequency": 24, "tag": "NOUN", "confidence": 0.85, "reasoning": "noun in contexts like made good use, no use, ready for use, and of what use"}
+{"type": "anyone", "rank": 518, "frequency": 23, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun referring to any person"}
+{"type": "ball", "rank": 519, "frequency": 23, "tag": "NOUN", "confidence": 0.85, "reasoning": "contexts include both dance event and toy object uses, both nominal"}
+{"type": "birds", "rank": 520, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common animal noun"}
+{"type": "danced", "rank": 521, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of dancing"}
+{"type": "feet", "rank": 522, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun"}
+{"type": "gate", "rank": 523, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a physical gate"}
+{"type": "hear", "rank": 524, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "main perception verb in dialogue and narration"}
+{"type": "hundred", "rank": 525, "frequency": 23, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in quantities such as three hundred and one hundred"}
+{"type": "likewise", "rank": 526, "frequency": 23, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb meaning also or in the same way"}
+{"type": "others", "rank": 527, "frequency": 23, "tag": "PRON", "confidence": 0.9, "reasoning": "substantive pronoun referring to other people or remaining members"}
+{"type": "reached", "rank": 528, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of arriving at or reaching a place"}
+{"type": "speak", "rank": 529, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "main speech verb"}
+{"type": "straight", "rank": 530, "frequency": 23, "tag": "ADV", "confidence": 0.65, "reasoning": "often adverb in went straight or shot straight, though adjectival straight also appears", "alternative": "ADJ"}
+{"type": "straw", "rank": 531, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common material noun in straw into gold, on the straw, and the straw burned"}
+{"type": "town", "rank": 532, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun"}
+{"type": "walk", "rank": 533, "frequency": 23, "tag": "VERB", "confidence": 0.75, "reasoning": "most contexts use walk as a main motion verb, though one has the noun phrase a walk", "alternative": "NOUN"}
+{"type": "afraid", "rank": 534, "frequency": 22, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective describing fear in contexts like were afraid and do not be afraid"}
+{"type": "ashes", "rank": 535, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in hearth and path contexts"}
+{"type": "corner", "rank": 536, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun in phrases like in the corner"}
+{"type": "dance", "rank": 537, "frequency": 22, "tag": "VERB", "confidence": 0.6, "reasoning": "contexts mix verbal dance with noun phrases like the dance; action uses are prominent", "alternative": "NOUN"}
+{"type": "dummling", "rank": 538, "frequency": 22, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper name of a fairy-tale character"}
+{"type": "feel", "rank": 539, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "main perception or emotion verb in the shown contexts"}
+{"type": "heaven", "rank": 540, "frequency": 22, "tag": "NOUN", "confidence": 0.75, "reasoning": "common religious/place noun in God in heaven and for heaven's sake, though personified Heaven appears capitalized in one context", "alternative": "PROPN"}
+{"type": "high", "rank": 541, "frequency": 22, "tag": "ADJ", "confidence": 0.85, "reasoning": "adjective in high tower and high road, with adverbial so high also present", "alternative": "ADV"}
+{"type": "jumped", "rank": 542, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main motion verb"}
+{"type": "knocked", "rank": 543, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of knocking or striking"}
+{"type": "partlet", "rank": 544, "frequency": 22, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper name of the animal character paired with Chanticleer"}
+{"type": "pieces", "rank": 545, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in phrases like pieces of rock and into pieces"}
+{"type": "remained", "rank": 546, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb meaning stayed or continued"}
+{"type": "return", "rank": 547, "frequency": 22, "tag": "VERB", "confidence": 0.85, "reasoning": "mostly main verb meaning go back, though noun return occurs in return of his brother", "alternative": "NOUN"}
+{"type": "sleeping", "rank": 548, "frequency": 22, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly participial verb in found him sleeping and had been sleeping, though sleeping Briar Rose is adjectival", "alternative": "ADJ"}
+{"type": "whom", "rank": 549, "frequency": 22, "tag": "PRON", "confidence": 1.0, "reasoning": "relative or interrogative object pronoun referring to persons"}
+{"type": "angry", "rank": 550, "frequency": 21, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing emotional state"}
+{"type": "become", "rank": 551, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in what had become of and what will become of me"}
+{"type": "cellar", "rank": 552, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun"}
+{"type": "die", "rank": 553, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of dying in hunger and death-threat contexts"}
+{"type": "dish", "rank": 554, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for vessel or prepared food quantity"}
+{"type": "doing", "rank": 555, "frequency": 21, "tag": "VERB", "confidence": 0.9, "reasoning": "gerund or participial form of do in what are you doing and while she was doing"}
+{"type": "duck", "rank": 556, "frequency": 21, "tag": "NOUN", "confidence": 0.9, "reasoning": "animal noun, personified in dialogue but still functioning as the animal role", "alternative": "PROPN"}
+{"type": "early", "rank": 557, "frequency": 21, "tag": "ADV", "confidence": 0.8, "reasoning": "mostly temporal adverb in rise early, went to bed early, and come back early", "alternative": "ADJ"}
+{"type": "else", "rank": 558, "frequency": 21, "tag": "ADV", "confidence": 0.8, "reasoning": "postposed adverb in anyone else, nothing else, and everything else contexts"}
+{"type": "foot", "rank": 559, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common body-part noun in literal foot contexts and foot-plank compound"}
+{"type": "moment", "rank": 560, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common temporal noun in expressions like in a moment and at this moment"}
+{"type": "mr", "rank": 561, "frequency": 21, "tag": "PROPN", "confidence": 0.75, "reasoning": "title token before proper or character names such as Mr Fox and Mr Korbes", "alternative": "NOUN"}
+{"type": "neck", "rank": 562, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common body-part noun"}
+{"type": "nor", "rank": 563, "frequency": 21, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating conjunction in neither/nor and negative coordination"}
+{"type": "rich", "rank": 564, "frequency": 21, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing wealth or abundance"}
+{"type": "royal", "rank": 565, "frequency": 21, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying palace, table, and other court nouns"}
+{"type": "safe", "rank": 566, "frequency": 21, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjective or resultative predicate describing safety, with adverbial safe in locked the door safe"}
+{"type": "slept", "rank": 567, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of sleeping"}
+{"type": "struck", "rank": 568, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of striking or clock striking"}
+{"type": "though", "rank": 569, "frequency": 21, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction marking concession"}
+{"type": "tower", "rank": 570, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place/building noun"}
+{"type": "trees", "rank": 571, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common plant noun"}
+{"type": "wicked", "rank": 572, "frequency": 21, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing moral badness in looks, dwarfs, and thoughts"}
+{"type": "wretch", "rank": 573, "frequency": 21, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun used vocatively or self-referentially for an unfortunate person"}
+{"type": "among", "rank": 574, "frequency": 20, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking position within a group or collection"}
+{"type": "ass", "rank": 575, "frequency": 20, "tag": "NOUN", "confidence": 0.9, "reasoning": "animal noun, personified in dialogue but still the creature role", "alternative": "PROPN"}
+{"type": "axe", "rank": 576, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "common tool noun"}
+{"type": "flower", "rank": 577, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "common plant/object noun used as magical safeguard"}
+{"type": "hour", "rank": 578, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "common temporal noun"}
+{"type": "indeed", "rank": 579, "frequency": 20, "tag": "ADV", "confidence": 1.0, "reasoning": "emphatic discourse adverb"}
+{"type": "moon", "rank": 580, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "common celestial noun"}
+{"type": "name", "rank": 581, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to a personal name"}
+{"type": "pity", "rank": 582, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in had pity, full of pity, and a pity"}
+{"type": "raven", "rank": 583, "frequency": 20, "tag": "NOUN", "confidence": 0.8, "reasoning": "bird noun, sometimes a transformed or character-like figure", "alternative": "PROPN"}
+{"type": "sadly", "rank": 584, "frequency": 20, "tag": "ADV", "confidence": 1.0, "reasoning": "manner or degree adverb modifying frightened, flew, rue, and vexed"}
+{"type": "seeing", "rank": 585, "frequency": 20, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund or participial form of see in perception contexts"}
+{"type": "whether", "rank": 586, "frequency": 20, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing embedded alternatives"}
+{"type": "alive", "rank": 587, "frequency": 19, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective describing living state"}
+{"type": "bad", "rank": 588, "frequency": 19, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing luck, weather, thing, or situation"}
+{"type": "broke", "rank": 589, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of breaking or daybreak in finite clauses"}
+{"type": "cart", "rank": 590, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "common vehicle noun"}
+{"type": "cock", "rank": 591, "frequency": 19, "tag": "NOUN", "confidence": 0.85, "reasoning": "common noun for rooster or tap, with animal-personified contexts present", "alternative": "PROPN"}
+{"type": "cottage", "rank": 592, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "common dwelling noun"}
+{"type": "crept", "rank": 593, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main motion verb"}
+{"type": "doctor", "rank": 594, "frequency": 19, "tag": "NOUN", "confidence": 0.9, "reasoning": "occupation or role noun, repeatedly the doctor in story contexts", "alternative": "PROPN"}
+{"type": "drank", "rank": 595, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of drinking"}
+{"type": "dress", "rank": 596, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "common clothing noun in ball and bride contexts"}
+{"type": "frog", "rank": 597, "frequency": 19, "tag": "NOUN", "confidence": 0.85, "reasoning": "animal noun, personified as a speaking character", "alternative": "PROPN"}
+{"type": "gardener", "rank": 598, "frequency": 19, "tag": "NOUN", "confidence": 0.95, "reasoning": "occupation or role noun"}
+{"type": "glad", "rank": 599, "frequency": 19, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective describing emotional state"}
+{"type": "grieved", "rank": 600, "frequency": 19, "tag": "VERB", "confidence": 0.6, "reasoning": "contexts include finite past verb in father grieved and predicate participial/adjectival uses like were grieved", "alternative": "ADJ"}
+{"type": "having", "rank": 601, "frequency": 19, "tag": "AUX", "confidence": 0.6, "reasoning": "often perfect participial auxiliary in having stolen, having allowed, and having groped, though main-verb uses such as having a conversation occur", "alternative": "VERB"}
+{"type": "horses", "rank": 602, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common animal noun"}
+{"type": "journey", "rank": 603, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a trip or course of travel"}
+{"type": "juniper", "rank": 604, "frequency": 19, "tag": "NOUN", "confidence": 0.95, "reasoning": "plant/tree noun in repeated juniper-tree contexts"}
+{"type": "kept", "rank": 605, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb meaning retained, continued, or guarded"}
+{"type": "laughed", "rank": 606, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of laughing"}
+{"type": "legs", "rank": 607, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun"}
+{"type": "middle", "rank": 608, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for central position in phrases like the middle of the forest or door"}
+{"type": "miser", "rank": 609, "frequency": 19, "tag": "NOUN", "confidence": 0.95, "reasoning": "common character-role noun for a miser, including title and dialogue uses"}
+{"type": "peas", "rank": 610, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common food/seed noun"}
+{"type": "princesses", "rank": 611, "frequency": 19, "tag": "NOUN", "confidence": 0.95, "reasoning": "plural fairy-tale role noun"}
+{"type": "pulled", "rank": 612, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of pulling"}
+{"type": "rolled", "rank": 613, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of rolling"}
+{"type": "salad", "rank": 614, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "common food noun"}
+{"type": "scarcely", "rank": 615, "frequency": 19, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in scarcely had constructions and degree/time contexts"}
+{"type": "show", "rank": 616, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning reveal or demonstrate"}
+{"type": "singing", "rank": 617, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund or participial form of sing in bird and music contexts"}
+{"type": "stones", "rank": 618, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for rocks or precious stones"}
+{"type": "stretched", "rank": 619, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb in stretched out, stretched his paw, and stretched herself"}
+{"type": "tail", "rank": 620, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "common animal body-part noun"}
+{"type": "tried", "rank": 621, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb meaning attempted"}
+{"type": "vain", "rank": 622, "frequency": 19, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjective in the fixed phrase in vain and related futile-effort contexts"}
+{"type": "waiting", "rank": 623, "frequency": 19, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjectival modifier in waiting-maid, though participial verb uses are possible", "alternative": "VERB"}
+{"type": "watch", "rank": 624, "frequency": 19, "tag": "VERB", "confidence": 0.6, "reasoning": "contexts mix verbal watch with noun phrase keep watch; infinitive and finite verb uses are frequent", "alternative": "NOUN"}
+{"type": "words", "rank": 625, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for spoken words"}
+{"type": "apples", "rank": 626, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common fruit noun"}
+{"type": "ashputtel", "rank": 627, "frequency": 18, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper name of the Cinderella-like fairy-tale character"}
+{"type": "being", "rank": 628, "frequency": 18, "tag": "VERB", "confidence": 0.6, "reasoning": "contexts mostly use being as gerund or passive auxiliary, though human being is a noun use", "alternative": "NOUN"}
+{"type": "bottom", "rank": 629, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for lowest part or base"}
+{"type": "carter", "rank": 630, "frequency": 18, "tag": "NOUN", "confidence": 0.9, "reasoning": "occupation or role noun, despite one title-like Mr Carter context", "alternative": "PROPN"}
+{"type": "catherine", "rank": 631, "frequency": 18, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a character"}
+{"type": "clock", "rank": 632, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "common object noun"}
+{"type": "dancing", "rank": 633, "frequency": 18, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly gerund or participial form of dance, though rejoicing and dancing has nominal flavor", "alternative": "NOUN"}
+{"type": "deep", "rank": 634, "frequency": 18, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing sleep, water, draught, or depth"}
+{"type": "falada", "rank": 635, "frequency": 18, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper name of the speaking horse"}
+{"type": "farther", "rank": 636, "frequency": 18, "tag": "ADV", "confidence": 1.0, "reasoning": "comparative directional adverb in farther on and go farther contexts"}
+{"type": "girls", "rank": 637, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for young female persons"}
+{"type": "knife", "rank": 638, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "common tool/object noun"}
+{"type": "learnt", "rank": 639, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of learning"}
+{"type": "lifted", "rank": 640, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of lifting"}
+{"type": "making", "rank": 641, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund or participial form of make"}
+{"type": "marry", "rank": 642, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in marriage contexts"}
+{"type": "meantime", "rank": 643, "frequency": 18, "tag": "NOUN", "confidence": 0.75, "reasoning": "noun in the temporal phrase in the meantime"}
+{"type": "mouth", "rank": 644, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "common body-part noun"}
+{"type": "noise", "rank": 645, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for sound"}
+{"type": "ought", "rank": 646, "frequency": 18, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary expressing obligation or expected action"}
+{"type": "please", "rank": 647, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning satisfy or delight in the shown contexts"}
+{"type": "running", "rank": 648, "frequency": 18, "tag": "VERB", "confidence": 0.95, "reasoning": "gerund or participial form of run in motion and flow contexts"}
+{"type": "showed", "rank": 649, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of showing"}
+{"type": "someone", "rank": 650, "frequency": 18, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun referring to an unspecified person"}
+{"type": "spot", "rank": 651, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a place or point"}
+{"type": "strange", "rank": 652, "frequency": 18, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing dream, things, feeling, or village"}
+{"type": "thither", "rank": 653, "frequency": 18, "tag": "ADV", "confidence": 1.0, "reasoning": "archaic directional adverb meaning to that place"}
+{"type": "times", "rank": 654, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for occasions or repetitions"}
+{"type": "waited", "rank": 655, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of waiting"}
+{"type": "art", "rank": 656, "frequency": 17, "tag": "AUX", "confidence": 0.75, "reasoning": "mostly archaic second-person be-form in thou art contexts, though one context has the noun art", "alternative": "NOUN"}
+{"type": "coat", "rank": 657, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "common clothing noun"}
+{"type": "crying", "rank": 658, "frequency": 17, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund or participial form of cry in speech and weeping contexts"}
+{"type": "dwarfs", "rank": 659, "frequency": 17, "tag": "NOUN", "confidence": 0.95, "reasoning": "plural fantasy-being noun in the seven dwarfs contexts"}
+{"type": "faithful", "rank": 660, "frequency": 17, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing loyalty of people, animals, or servants"}
+{"type": "fallen", "rank": 661, "frequency": 17, "tag": "VERB", "confidence": 0.8, "reasoning": "past participle of fall in had fallen and fallen into contexts, with adjectival readings possible", "alternative": "ADJ"}
+{"type": "guest", "rank": 662, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "common social-role noun"}
+{"type": "heinel", "rank": 663, "frequency": 17, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a character"}
+{"type": "hole", "rank": 664, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an opening or cavity"}
+{"type": "inside", "rank": 665, "frequency": 17, "tag": "ADV", "confidence": 1.0, "reasoning": "locative adverb in looked inside and went inside contexts"}
+{"type": "love", "rank": 666, "frequency": 17, "tag": "NOUN", "confidence": 0.55, "reasoning": "contexts mix noun uses like full of love and true love with verb uses like love you", "alternative": "VERB"}
+{"type": "order", "rank": 667, "frequency": 17, "tag": "NOUN", "confidence": 0.85, "reasoning": "noun in in order that, in order to, and keep things in order contexts"}
+{"type": "part", "rank": 668, "frequency": 17, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly noun for portion or share, though one context uses part as a verb meaning separate", "alternative": "VERB"}
+{"type": "pig", "rank": 669, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "common animal noun"}
+{"type": "placed", "rank": 670, "frequency": 17, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of placing"}
+{"type": "short", "rank": 671, "frequency": 17, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjective modifying time or while, and in cut the matter short"}
+{"type": "spoke", "rank": 672, "frequency": 17, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main speech verb"}
+{"type": "spring", "rank": 673, "frequency": 17, "tag": "NOUN", "confidence": 0.55, "reasoning": "contexts mix water-source noun and verbal spring into a tree; noun uses are slightly more central here", "alternative": "VERB"}
+{"type": "those", "rank": 674, "frequency": 17, "tag": "DET", "confidence": 0.9, "reasoning": "plural demonstrative determiner before nouns such as trees, things, and days"}
+{"type": "touched", "rank": 675, "frequency": 17, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of touching or emotionally affecting"}
+{"type": "village", "rank": 676, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun"}
+{"type": "wide", "rank": 677, "frequency": 17, "tag": "ADJ", "confidence": 0.95, "reasoning": "adjective describing open door, waters, heath, and sea"}
+{"type": "bargain", "rank": 678, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in bargain and into the bargain contexts"}
+{"type": "beasts", "rank": 679, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common animal noun"}
+{"type": "below", "rank": 680, "frequency": 16, "tag": "ADV", "confidence": 0.65, "reasoning": "mostly locative adverb in step below, stood below, and when she was below, though prepositional uses occur", "alternative": "ADP"}
+{"type": "boat", "rank": 681, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "common vehicle noun"}
+{"type": "calf", "rank": 682, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "common young-animal noun"}
+{"type": "dinner", "rank": 683, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "common meal noun"}
+{"type": "dove", "rank": 684, "frequency": 16, "tag": "NOUN", "confidence": 0.9, "reasoning": "bird noun, sometimes acting as a magical or personified figure", "alternative": "PROPN"}
+{"type": "earth", "rank": 685, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for ground or world"}
+{"type": "flowers", "rank": 686, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common plant noun"}
+{"type": "giants", "rank": 687, "frequency": 16, "tag": "NOUN", "confidence": 0.95, "reasoning": "plural fantasy-being noun"}
+{"type": "god", "rank": 688, "frequency": 16, "tag": "PROPN", "confidence": 0.95, "reasoning": "capitalized deity name in the source contexts, lowercased by tokenization"}
+{"type": "haste", "rank": 689, "frequency": 16, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in make haste and in all haste, though imperative haste away appears", "alternative": "VERB"}
+{"type": "hill", "rank": 690, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "common landform noun"}
+{"type": "kywitt", "rank": 691, "frequency": 16, "tag": "INTJ", "confidence": 0.6, "reasoning": "onomatopoetic refrain in the juniper-tree song rather than a normal lexical word", "alternative": "X"}
+{"type": "loud", "rank": 692, "frequency": 16, "tag": "ADJ", "confidence": 0.6, "reasoning": "contexts include adjectival loud cry and loud screams as well as adverbial snored loud", "alternative": "ADV"}
+{"type": "neither", "rank": 693, "frequency": 16, "tag": "CCONJ", "confidence": 0.55, "reasoning": "mostly part of correlative neither...nor coordination, though determiner-like uses before nouns occur", "alternative": "DET"}
+{"type": "nobody", "rank": 694, "frequency": 16, "tag": "PRON", "confidence": 1.0, "reasoning": "negative indefinite pronoun referring to no person"}
+{"type": "none", "rank": 695, "frequency": 16, "tag": "PRON", "confidence": 1.0, "reasoning": "negative indefinite pronoun referring to no one or no members"}
+{"type": "peace", "rank": 696, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for peace or quiet"}
+{"type": "pope", "rank": 697, "frequency": 16, "tag": "NOUN", "confidence": 0.8, "reasoning": "religious office/title noun, with one capitalized institutional title context", "alternative": "PROPN"}
+{"type": "really", "rank": 698, "frequency": 16, "tag": "ADV", "confidence": 1.0, "reasoning": "degree or truth adverb"}
+{"type": "roland", "rank": 699, "frequency": 16, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a character"}
+{"type": "roof", "rank": 700, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the top covering of a house"}
+{"type": "shoe", "rank": 701, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "common clothing noun in the repeated slipper/shoe contexts"}
+{"type": "song", "rank": 702, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a sung piece or refrain"}
+{"type": "stand", "rank": 703, "frequency": 16, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in stand godmother, stand in the market, and cannot stand contexts"}
+{"type": "stop", "rank": 704, "frequency": 16, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning cease or halt in the shown contexts"}
+{"type": "stopped", "rank": 705, "frequency": 16, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb meaning halted or ceased"}
+{"type": "suddenly", "rank": 706, "frequency": 16, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal manner adverb marking abrupt events"}
+{"type": "sultan", "rank": 707, "frequency": 16, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper name of the shepherd's dog character"}
+{"type": "tomorrow", "rank": 708, "frequency": 16, "tag": "ADV", "confidence": 0.75, "reasoning": "temporal word used adverbially in till tomorrow and tomorrow morning contexts", "alternative": "NOUN"}
+{"type": "upstairs", "rank": 709, "frequency": 16, "tag": "ADV", "confidence": 1.0, "reasoning": "locative directional adverb"}
+{"type": "wants", "rank": 710, "frequency": 16, "tag": "VERB", "confidence": 1.0, "reasoning": "finite main verb of wanting"}
+{"type": "whose", "rank": 711, "frequency": 16, "tag": "DET", "confidence": 0.75, "reasoning": "possessive relative determiner before nouns such as eyes, lives, and head, with standalone pronominal use also present", "alternative": "PRON"}
+{"type": "within", "rank": 712, "frequency": 16, "tag": "ADV", "confidence": 0.65, "reasoning": "mostly locative adverb in no one within and dreary within, though within two yards is prepositional", "alternative": "ADP"}
+{"type": "across", "rank": 713, "frequency": 15, "tag": "ADP", "confidence": 0.9, "reasoning": "preposition marking path across fields, water, or a loaf"}
+{"type": "around", "rank": 714, "frequency": 15, "tag": "ADV", "confidence": 0.55, "reasoning": "mixed locative adverb and preposition uses; looked around and falling around are adverbial, around him is prepositional", "alternative": "ADP"}
+{"type": "beast", "rank": 715, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "common animal noun"}
+{"type": "beer", "rank": 716, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "common beverage noun"}
+{"type": "blue", "rank": 717, "frequency": 15, "tag": "ADJ", "confidence": 1.0, "reasoning": "color adjective modifying light"}
+{"type": "cage", "rank": 718, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "common container/object noun"}
+{"type": "cake", "rank": 719, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "common food noun"}
+{"type": "cheese", "rank": 720, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "common food noun"}
+{"type": "cold", "rank": 721, "frequency": 15, "tag": "ADJ", "confidence": 0.85, "reasoning": "adjective describing temperature or state, though cold wind has attributive use and the cold can be nominal", "alternative": "NOUN"}
+{"type": "dogs", "rank": 722, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common animal noun"}
+{"type": "draught", "rank": 723, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for sleeping drink or drink quantity"}
+{"type": "easy", "rank": 724, "frequency": 15, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing task, chair, manner, or road"}
+{"type": "enchantress", "rank": 725, "frequency": 15, "tag": "NOUN", "confidence": 0.9, "reasoning": "fantasy role noun referring to the witch-like figure", "alternative": "PROPN"}
+{"type": "fly", "rank": 726, "frequency": 15, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly main verb of flying, though one context has the noun a fly", "alternative": "NOUN"}
+{"type": "front", "rank": 727, "frequency": 15, "tag": "NOUN", "confidence": 0.9, "reasoning": "noun in the spatial expression in front of"}
+{"type": "handsome", "rank": 728, "frequency": 15, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing clothes, princes, carriage, and a man"}
+{"type": "hunger", "rank": 729, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/physical-state noun in of hunger and satisfy hunger contexts"}
+{"type": "liked", "rank": 730, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of liking or wanting"}
+{"type": "listen", "rank": 731, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in imperatives and dialogue"}
+{"type": "listened", "rank": 732, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of listening"}
+{"type": "move", "rank": 733, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning move or stir"}
+{"type": "need", "rank": 734, "frequency": 15, "tag": "VERB", "confidence": 0.55, "reasoning": "mixed contexts include need not as verbal/modal-like use and no need or sore need as noun", "alternative": "NOUN"}
+{"type": "needle", "rank": 735, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "common object/tool noun"}
+{"type": "parson", "rank": 736, "frequency": 15, "tag": "NOUN", "confidence": 0.95, "reasoning": "common clerical role noun"}
+{"type": "perhaps", "rank": 737, "frequency": 15, "tag": "ADV", "confidence": 1.0, "reasoning": "modal adverb expressing possibility"}
+{"type": "picked", "rank": 738, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of picking or selecting"}
+{"type": "plenty", "rank": 739, "frequency": 15, "tag": "NOUN", "confidence": 0.95, "reasoning": "quantity noun in plenty to eat and plenty of food contexts"}
+{"type": "river", "rank": 740, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place/natural-feature noun"}
+{"type": "robbers", "rank": 741, "frequency": 15, "tag": "NOUN", "confidence": 0.95, "reasoning": "plural common role noun for thieves"}
+{"type": "sang", "rank": 742, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of singing"}
+{"type": "save", "rank": 743, "frequency": 15, "tag": "VERB", "confidence": 0.8, "reasoning": "mostly main verb meaning rescue, though one context has save meaning except", "alternative": "ADP"}
+{"type": "servants", "rank": 744, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common role noun"}
+{"type": "sight", "rank": 745, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for seeing or visible scene"}
+{"type": "slipped", "rank": 746, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of slipping or moving quietly"}
+{"type": "stairs", "rank": 747, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common place/object noun"}
+{"type": "strength", "rank": 748, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for physical power"}
+{"type": "stuck", "rank": 749, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb in stuck up, stuck fast, and stuck in her throat"}
+{"type": "thrown", "rank": 750, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of throw"}
+{"type": "warm", "rank": 751, "frequency": 15, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly main verb in warm each other, warm you, and warm themselves, though warm beer is adjectival", "alternative": "ADJ"}
+{"type": "whatever", "rank": 752, "frequency": 15, "tag": "PRON", "confidence": 1.0, "reasoning": "free-choice pronoun standing for anything that fits the clause"}
+{"type": "above", "rank": 753, "frequency": 14, "tag": "ADP", "confidence": 0.55, "reasoning": "mixed prepositional and adverbial uses; above the ground and above the sleepers are prepositional", "alternative": "ADV"}
+{"type": "ale", "rank": 754, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "common beverage noun"}
+{"type": "behave", "rank": 755, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in behave well and behave unkindly contexts"}
+{"type": "beneath", "rank": 756, "frequency": 14, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking lower position"}
+{"type": "bound", "rank": 757, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of binding"}
+{"type": "certainly", "rank": 758, "frequency": 14, "tag": "ADV", "confidence": 1.0, "reasoning": "modal adverb expressing certainty"}
+{"type": "countryman", "rank": 759, "frequency": 14, "tag": "NOUN", "confidence": 0.95, "reasoning": "common social-role noun"}
+{"type": "cup", "rank": 760, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "common container noun"}
+{"type": "dirty", "rank": 761, "frequency": 14, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjective describing person, inn, or daughter, though one context has the verb dirty", "alternative": "VERB"}
+{"type": "doves", "rank": 762, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common bird noun"}
+{"type": "dragon", "rank": 763, "frequency": 14, "tag": "NOUN", "confidence": 0.95, "reasoning": "fantasy creature noun"}
+{"type": "eating", "rank": 764, "frequency": 14, "tag": "VERB", "confidence": 0.95, "reasoning": "gerund or participial form of eat"}
+{"type": "everyone", "rank": 765, "frequency": 14, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun referring to all people"}
+{"type": "fundevogel", "rank": 766, "frequency": 14, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper name of a fairy-tale character"}
+{"type": "green", "rank": 767, "frequency": 14, "tag": "ADJ", "confidence": 1.0, "reasoning": "color adjective in meadows, meadow, stick, and outside was green contexts"}
+{"type": "grey", "rank": 768, "frequency": 14, "tag": "ADJ", "confidence": 1.0, "reasoning": "color adjective modifying sea or man"}
+{"type": "harm", "rank": 769, "frequency": 14, "tag": "NOUN", "confidence": 0.9, "reasoning": "abstract noun in contexts like do harm and no harm"}
+{"type": "heads", "rank": 770, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common body-part noun"}
+{"type": "hung", "rank": 771, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of hanging"}
+{"type": "hungry", "rank": 772, "frequency": 14, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing hunger state"}
+{"type": "late", "rank": 773, "frequency": 14, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjective in late queen, late hour, and late companion, though late into the night is adverbial", "alternative": "ADV"}
+{"type": "lives", "rank": 774, "frequency": 14, "tag": "NOUN", "confidence": 0.55, "reasoning": "contexts are split between plural noun lives and finite verb lives here or wherein lives", "alternative": "VERB"}
+{"type": "lucky", "rank": 775, "frequency": 14, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing fortunate state or thing"}
+{"type": "marleen", "rank": 776, "frequency": 14, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a character"}
+{"type": "meat", "rank": 777, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "common food noun"}
+{"type": "mine", "rank": 778, "frequency": 14, "tag": "PRON", "confidence": 1.0, "reasoning": "possessive pronoun in one of mine, coach of mine, and better than mine contexts"}
+{"type": "paid", "rank": 779, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of paying"}
+{"type": "path", "rank": 780, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "common route noun"}
+{"type": "pot", "rank": 781, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "common container noun"}
+{"type": "power", "rank": 782, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for control, force, or authority"}
+{"type": "promised", "rank": 783, "frequency": 14, "tag": "VERB", "confidence": 0.8, "reasoning": "mostly past-tense or participial verb of promising, though promised bride is adjectival", "alternative": "ADJ"}
+{"type": "rage", "rank": 784, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for anger"}
+{"type": "sack", "rank": 785, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "common container noun"}
+{"type": "saved", "rank": 786, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of saving"}
+{"type": "search", "rank": 787, "frequency": 14, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in in search of contexts, though will I search is verbal", "alternative": "VERB"}
+{"type": "sons", "rank": 788, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural kinship noun"}
+{"type": "sound", "rank": 789, "frequency": 14, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun for heard sound or sound of drums, though sound sleep is adjectival", "alternative": "ADJ"}
+{"type": "step", "rank": 790, "frequency": 14, "tag": "NOUN", "confidence": 0.6, "reasoning": "contexts mix noun uses like firm step and every step with verbal step below and step over", "alternative": "VERB"}
+{"type": "task", "rank": 791, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for assigned work"}
+{"type": "weep", "rank": 792, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of weeping in infinitive and finite contexts"}
+{"type": "year", "rank": 793, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "common temporal noun"}
+{"type": "between", "rank": 794, "frequency": 13, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking position or division between things"}
+{"type": "bones", "rank": 795, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun in the juniper-tree refrain"}
+{"type": "branches", "rank": 796, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural plant-part noun"}
+{"type": "break", "rank": 797, "frequency": 13, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of breaking or breaking through"}
+{"type": "broken", "rank": 798, "frequency": 13, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly past participle in had broken and have broken, though broken glass is adjectival", "alternative": "ADJ"}
+{"type": "burning", "rank": 799, "frequency": 13, "tag": "VERB", "confidence": 0.55, "reasoning": "mixed gerund/participle and adjective uses; flames were burning is verbal, burning lights is adjectival", "alternative": "ADJ"}
+{"type": "bush", "rank": 800, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "common plant noun"}
+{"type": "carriage", "rank": 801, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "common vehicle noun"}
+{"type": "climbed", "rank": 802, "frequency": 13, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main motion verb"}
+{"type": "counsel", "rank": 803, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun meaning advice in all shown contexts"}
+{"type": "curdken", "rank": 804, "frequency": 13, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a character"}
+{"type": "empty", "rank": 805, "frequency": 13, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjective describing castle, stomach, or rooms, though one context uses empty as a verb", "alternative": "VERB"}
+{"type": "fair", "rank": 806, "frequency": 13, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing maidens, appearance, or beauty"}
+{"type": "few", "rank": 807, "frequency": 13, "tag": "DET", "confidence": 1.0, "reasoning": "quantifying determiner before plural nouns"}
+{"type": "field", "rank": 808, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun"}
+{"type": "gathered", "rank": 809, "frequency": 13, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of gathering"}
+{"type": "hat", "rank": 810, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "common clothing noun"}
+{"type": "hay", "rank": 811, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "common plant/material noun in hay-loft and cow-feed contexts"}
+{"type": "immediately", "rank": 812, "frequency": 13, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal adverb meaning at once"}
+{"type": "merchant", "rank": 813, "frequency": 13, "tag": "NOUN", "confidence": 0.95, "reasoning": "occupation or role noun"}
+{"type": "mountains", "rank": 814, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common landform noun"}
+{"type": "mrs", "rank": 815, "frequency": 13, "tag": "PROPN", "confidence": 0.75, "reasoning": "title token before character names such as Mrs Fox and Mrs Cat", "alternative": "NOUN"}
+{"type": "obliged", "rank": 816, "frequency": 13, "tag": "VERB", "confidence": 0.75, "reasoning": "past participle in was obliged to constructions, with adjective-like obligation reading", "alternative": "ADJ"}
+{"type": "pearls", "rank": 817, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common treasure/object noun"}
+{"type": "play", "rank": 818, "frequency": 13, "tag": "VERB", "confidence": 0.6, "reasoning": "contexts mix verbal play upon fiddle or join play with noun uses such as game of play and child's play", "alternative": "NOUN"}
+{"type": "pushed", "rank": 819, "frequency": 13, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of pushing"}
+{"type": "sad", "rank": 820, "frequency": 13, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing emotional state"}
+{"type": "sausage", "rank": 821, "frequency": 13, "tag": "NOUN", "confidence": 0.85, "reasoning": "food noun used as a personified fairy-tale character", "alternative": "PROPN"}
+{"type": "seek", "rank": 822, "frequency": 13, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning search for"}
+{"type": "shake", "rank": 823, "frequency": 13, "tag": "VERB", "confidence": 1.0, "reasoning": "imperative or infinitive main verb of shaking"}
+{"type": "shook", "rank": 824, "frequency": 13, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of shaking"}
+{"type": "six", "rank": 825, "frequency": 13, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number"}
+{"type": "sorrowful", "rank": 826, "frequency": 13, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing sad emotional state"}
+{"type": "steps", "rank": 827, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for stairs or individual steps"}
+{"type": "tears", "rank": 828, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for tears from crying"}
+{"type": "thereupon", "rank": 829, "frequency": 13, "tag": "ADV", "confidence": 1.0, "reasoning": "discourse/temporal adverb meaning then or consequently"}
+{"type": "thirsty", "rank": 830, "frequency": 13, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing thirst state"}
+{"type": "thousand", "rank": 831, "frequency": 13, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in quantities"}
+{"type": "wheels", "rank": 832, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common object noun"}
+{"type": "whither", "rank": 833, "frequency": 13, "tag": "ADV", "confidence": 1.0, "reasoning": "archaic directional/interrogative adverb meaning to where"}
+{"type": "willingly", "rank": 834, "frequency": 13, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb expressing willingness"}
+{"type": "advice", "rank": 835, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common abstract noun for counsel"}
+{"type": "arms", "rank": 836, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun in held in arms and rubbed his arms contexts"}
+{"type": "beg", "rank": 837, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in repeated beg a boon refrain"}
+{"type": "beside", "rank": 838, "frequency": 12, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking position next to someone or something"}
+{"type": "betrothed", "rank": 839, "frequency": 12, "tag": "NOUN", "confidence": 0.55, "reasoning": "contexts include nominal uses like her betrothed and first betrothed as well as adjectival betrothed husband", "alternative": "ADJ"}
+{"type": "body", "rank": 840, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for person or physical body"}
+{"type": "cask", "rank": 841, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common container noun"}
+{"type": "changed", "rank": 842, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of changing or transforming"}
+{"type": "church", "rank": 843, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common building/institution noun"}
+{"type": "deal", "rank": 844, "frequency": 12, "tag": "NOUN", "confidence": 0.95, "reasoning": "noun in quantity expressions such as great deal and good deal"}
+{"type": "dressed", "rank": 845, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of dressing"}
+{"type": "ears", "rank": 846, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun"}
+{"type": "evil", "rank": 847, "frequency": 12, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjective modifying thought, spirits, and similar nouns, though bring evil is nominal", "alternative": "NOUN"}
+{"type": "fortune", "rank": 848, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for luck, fate, or wealth"}
+{"type": "geese", "rank": 849, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common animal noun"}
+{"type": "grisly", "rank": 850, "frequency": 12, "tag": "PROPN", "confidence": 0.85, "reasoning": "part of the proper nickname King Grisly-beard in the shown contexts", "alternative": "ADJ"}
+{"type": "happily", "rank": 851, "frequency": 12, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb modifying lived or emotional state"}
+{"type": "hazel", "rank": 852, "frequency": 12, "tag": "NOUN", "confidence": 0.6, "reasoning": "plant noun used in the compound hazel-tree", "alternative": "ADJ"}
+{"type": "heap", "rank": 853, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for pile or mound"}
+{"type": "hills", "rank": 854, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common landform noun"}
+{"type": "holle", "rank": 855, "frequency": 12, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper name in Mother Holle"}
+{"type": "hurt", "rank": 856, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning injure or cause pain"}
+{"type": "ilsabill", "rank": 857, "frequency": 12, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a character"}
+{"type": "jorinda", "rank": 858, "frequency": 12, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a character"}
+{"type": "jorindel", "rank": 859, "frequency": 12, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a character"}
+{"type": "judge", "rank": 860, "frequency": 12, "tag": "NOUN", "confidence": 0.95, "reasoning": "common judicial role noun"}
+{"type": "knowing", "rank": 861, "frequency": 12, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly gerund or participial form of know in without knowing and not knowing contexts, though worth the knowing is nominal", "alternative": "NOUN"}
+{"type": "knows", "rank": 862, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "finite main verb of knowing"}
+{"type": "lina", "rank": 863, "frequency": 12, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of a character"}
+{"type": "lips", "rank": 864, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun"}
+{"type": "meadow", "rank": 865, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place/natural-feature noun"}
+{"type": "milk", "rank": 866, "frequency": 12, "tag": "NOUN", "confidence": 0.55, "reasoning": "contexts split between milk as food/substance and milk as verb; noun uses are slightly more central", "alternative": "VERB"}
+{"type": "nuts", "rank": 867, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common food noun"}
+{"type": "pillow", "rank": 868, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common bedding noun"}
+{"type": "played", "rank": 869, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb in play, music, and game contexts"}
+{"type": "presently", "rank": 870, "frequency": 12, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal adverb meaning soon or shortly"}
+{"type": "quietly", "rank": 871, "frequency": 12, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb modifying actions"}
+{"type": "returned", "rank": 872, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of returning or returning blows"}
+{"type": "satisfied", "rank": 873, "frequency": 12, "tag": "VERB", "confidence": 0.6, "reasoning": "contexts include had satisfied appetite/themselves plus predicate satisfied state", "alternative": "ADJ"}
+{"type": "says", "rank": 874, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "finite speech verb"}
+{"type": "sell", "rank": 875, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of selling"}
+{"type": "shore", "rank": 876, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun for edge of water"}
+{"type": "silly", "rank": 877, "frequency": 12, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing people, pride, or goose"}
+{"type": "softly", "rank": 878, "frequency": 12, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb in softly repeated dialogue and crept softly away"}
+{"type": "soup", "rank": 879, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common food noun"}
+{"type": "stayed", "rank": 880, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of staying or remaining"}
+{"type": "stream", "rank": 881, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common natural-feature noun for flowing water"}
+{"type": "swallowed", "rank": 882, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of swallowing"}
+{"type": "sword", "rank": 883, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common weapon noun"}
+{"type": "thieves", "rank": 884, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common role noun"}
+{"type": "travelling", "rank": 885, "frequency": 12, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly gerund or participial form of travel, though travelling companion is adjectival", "alternative": "ADJ"}
+{"type": "whilst", "rank": 886, "frequency": 12, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing temporal clauses"}
+{"type": "willow", "rank": 887, "frequency": 12, "tag": "NOUN", "confidence": 0.65, "reasoning": "plant noun used in willow spray and willow-wren compounds", "alternative": "ADJ"}
+{"type": "won", "rank": 888, "frequency": 12, "tag": "AUX", "confidence": 0.95, "reasoning": "tokenized contraction component from won't in the shown contexts"}
+{"type": "barrel", "rank": 889, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "common container noun"}
+{"type": "bought", "rank": 890, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb of buying"}
+{"type": "bow", "rank": 891, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "common weapon noun in carried a bow and took up his bow contexts"}
+{"type": "bridegroom", "rank": 892, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "common wedding-role noun"}
+{"type": "business", "rank": 893, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "common abstract noun for affair, task, or concern"}
+{"type": "buy", "rank": 894, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of buying"}
+{"type": "city", "rank": 895, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "common place noun"}
+{"type": "cry", "rank": 896, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of crying out or weeping"}
+{"type": "d", "rank": 897, "frequency": 11, "tag": "PART", "confidence": 0.7, "reasoning": "tokenized poetic contraction suffix from forms such as frolick'd, whirl'd, comb'd, and curl'd"}
+{"type": "daughters", "rank": 898, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural kinship noun"}
+{"type": "desire", "rank": 899, "frequency": 11, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly main verb in what do you desire and if you desire contexts, though desire to sleep is nominal", "alternative": "NOUN"}
+{"type": "dream", "rank": 900, "frequency": 11, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in tell you a dream and only a dream contexts, though lady dream is a verb use", "alternative": "VERB"}
+{"type": "dry", "rank": 901, "frequency": 12, "tag": "ADJ", "confidence": 0.85, "reasoning": "describes states such as a dry riverbed, dry cow, or dry stick in most contexts; one context has a resultative verbal use 'laid to dry'.", "alternative": "VERB"}
+{"type": "earn", "rank": 902, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in contexts about earning bread, salt, or livelihood."}
+{"type": "emperor", "rank": 903, "frequency": 12, "tag": "NOUN", "confidence": 0.9, "reasoning": "common title/office noun in the contexts, even when used as a character title.", "alternative": "PROPN"}
+{"type": "entered", "rank": 904, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb for coming into rooms, houses, or service."}
+{"type": "false", "rank": 905, "frequency": 12, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying persons, claims, or appearances as not true or treacherous."}
+{"type": "feathers", "rank": 906, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural concrete noun referring to bird feathers or feather coverings."}
+{"type": "fetched", "rank": 907, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb meaning brought or went to get something."}
+{"type": "fields", "rank": 908, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural place noun referring to fields in the countryside."}
+{"type": "floor", "rank": 909, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "concrete noun for the floor of a room or building."}
+{"type": "follow", "rank": 910, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning go after or obey directions in the shown contexts."}
+{"type": "forgot", "rank": 911, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb meaning failed to remember."}
+{"type": "form", "rank": 912, "frequency": 12, "tag": "NOUN", "confidence": 0.65, "reasoning": "several contexts use it as a noun in phrases like 'form of the cook' or 'right form', though one context has verbal 'form a circle'.", "alternative": "VERB"}
+{"type": "fur", "rank": 913, "frequency": 12, "tag": "NOUN", "confidence": 0.8, "reasoning": "material or animal-covering noun, often appearing in compounds or clothing descriptions.", "alternative": "ADJ"}
+{"type": "hardly", "rank": 914, "frequency": 12, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb meaning scarcely or barely in the contexts."}
+{"type": "hid", "rank": 915, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb meaning concealed."}
+{"type": "hidden", "rank": 916, "frequency": 12, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly past participle in passive or perfect-like contexts about being hidden, with some adjective-like state readings.", "alternative": "ADJ"}
+{"type": "itself", "rank": 917, "frequency": 12, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun referring back to an inanimate noun or event."}
+{"type": "lily", "rank": 918, "frequency": 12, "tag": "PROPN", "confidence": 1.0, "reasoning": "used as the character name Lily in the contexts."}
+{"type": "manikin", "rank": 919, "frequency": 12, "tag": "NOUN", "confidence": 0.9, "reasoning": "common role noun for a little manikin character rather than a fixed personal name.", "alternative": "PROPN"}
+{"type": "mayor", "rank": 920, "frequency": 12, "tag": "NOUN", "confidence": 0.95, "reasoning": "title or office noun referring to the mayor."}
+{"type": "mill", "rank": 921, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common concrete noun for a mill building or place."}
+{"type": "new", "rank": 922, "frequency": 12, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying nouns as newly made, newly arrived, or different."}
+{"type": "plate", "rank": 923, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "concrete noun for a dish or plate."}
+{"type": "ravens", "rank": 924, "frequency": 12, "tag": "NOUN", "confidence": 0.95, "reasoning": "plural animal noun for ravens, even when personified in fairy-tale contexts.", "alternative": "PROPN"}
+{"type": "reward", "rank": 925, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/concrete noun for payment or prize given in return for service."}
+{"type": "rope", "rank": 926, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "concrete noun for a rope."}
+{"type": "sheep", "rank": 927, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "animal noun referring to sheep."}
+{"type": "shoemaker", "rank": 928, "frequency": 12, "tag": "NOUN", "confidence": 0.95, "reasoning": "occupation noun referring to a shoemaker character."}
+{"type": "shone", "rank": 929, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb meaning gave light or gleamed."}
+{"type": "shoulders", "rank": 930, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun."}
+{"type": "sorry", "rank": 931, "frequency": 12, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective expressing regret, pity, or a poor condition."}
+{"type": "stable", "rank": 932, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "place noun for a horse stable."}
+{"type": "stars", "rank": 933, "frequency": 12, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly plural noun for celestial stars; one exclamatory 'my stars' use is idiomatic.", "alternative": "INTJ"}
+{"type": "stomach", "rank": 934, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun."}
+{"type": "story", "rank": 935, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a tale or account."}
+{"type": "taking", "rank": 936, "frequency": 12, "tag": "VERB", "confidence": 0.8, "reasoning": "gerund or present participle of take in contexts about taking things or action.", "alternative": "NOUN"}
+{"type": "uneasy", "rank": 937, "frequency": 12, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing a troubled or uncomfortable state."}
+{"type": "used", "rank": 938, "frequency": 12, "tag": "VERB", "confidence": 0.8, "reasoning": "past participle or past verb in contexts of being used or accustomed; some adjective-like readings are possible.", "alternative": "ADJ"}
+{"type": "wall", "rank": 939, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "concrete noun for a wall."}
+{"type": "wonderful", "rank": 940, "frequency": 12, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying people, objects, or events as marvelous."}
+{"type": "allowed", "rank": 941, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb meaning permitted."}
+{"type": "although", "rank": 942, "frequency": 11, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing concessive clauses."}
+{"type": "answer", "rank": 943, "frequency": 11, "tag": "VERB", "confidence": 0.55, "reasoning": "contexts mix verbal uses such as 'answer me' with noun uses such as 'an answer'; verbal uses slightly dominate the sampled lines.", "alternative": "NOUN"}
+{"type": "apron", "rank": 944, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "concrete clothing noun."}
+{"type": "bade", "rank": 945, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "archaic past-tense verb meaning ordered or told someone to do something."}
+{"type": "boar", "rank": 946, "frequency": 11, "tag": "NOUN", "confidence": 0.95, "reasoning": "animal noun for a boar; personification does not make it a fixed name in the contexts.", "alternative": "PROPN"}
+{"type": "butter", "rank": 947, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "food/substance noun."}
+{"type": "chain", "rank": 948, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "concrete noun for a chain."}
+{"type": "comforted", "rank": 949, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning consoled."}
+{"type": "courtyard", "rank": 950, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "place noun for a courtyard."}
+{"type": "covered", "rank": 951, "frequency": 11, "tag": "VERB", "confidence": 0.8, "reasoning": "past participle or passive verb in contexts about being covered, with adjective-like state readings possible.", "alternative": "ADJ"}
+{"type": "dearest", "rank": 952, "frequency": 11, "tag": "ADJ", "confidence": 0.85, "reasoning": "superlative adjective in affectionate address and modification; vocative uses are close to nominal.", "alternative": "NOUN"}
+{"type": "drop", "rank": 953, "frequency": 11, "tag": "NOUN", "confidence": 0.55, "reasoning": "sampled contexts include noun uses such as a drop of liquid and verbal uses about things dropping or falling.", "alternative": "VERB"}
+{"type": "easily", "rank": 954, "frequency": 11, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying verbs or adjectives with the sense 'without difficulty'."}
+{"type": "either", "rank": 955, "frequency": 11, "tag": "DET", "confidence": 0.7, "reasoning": "mostly determiner in phrases such as either side or either alternative; some adverbial polarity uses possible.", "alternative": "ADV"}
+{"type": "fiddler", "rank": 956, "frequency": 11, "tag": "NOUN", "confidence": 0.95, "reasoning": "occupation/role noun for a fiddler character."}
+{"type": "fingers", "rank": 957, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun."}
+{"type": "finished", "rank": 958, "frequency": 11, "tag": "VERB", "confidence": 0.85, "reasoning": "past-tense or participial verb for completing an action; adjective-like result states are possible.", "alternative": "ADJ"}
+{"type": "flock", "rank": 959, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "collective noun for a group of birds or animals."}
+{"type": "following", "rank": 960, "frequency": 11, "tag": "VERB", "confidence": 0.6, "reasoning": "contexts mix participial verb uses with adjectival uses like 'the following day'; verbal reading is slightly more central.", "alternative": "ADJ"}
+{"type": "fond", "rank": 961, "frequency": 11, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in 'fond of' and affectionate descriptions."}
+{"type": "forward", "rank": 962, "frequency": 11, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb indicating direction or movement forward."}
+{"type": "grief", "rank": 963, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for sorrow."}
+{"type": "grown", "rank": 964, "frequency": 11, "tag": "VERB", "confidence": 0.75, "reasoning": "past participle in phrases like grown old or grown large; adjective-like state readings are possible.", "alternative": "ADJ"}
+{"type": "hanging", "rank": 965, "frequency": 11, "tag": "VERB", "confidence": 0.75, "reasoning": "present participle in contexts about something hanging, with adjectival state readings possible.", "alternative": "ADJ"}
+{"type": "hunting", "rank": 966, "frequency": 11, "tag": "VERB", "confidence": 0.85, "reasoning": "gerund or participle in contexts such as going hunting or being out hunting.", "alternative": "NOUN"}
+{"type": "jug", "rank": 967, "frequency": 11, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly concrete container noun; one song-like/onomatopoetic occurrence makes a small ambiguity.", "alternative": "INTJ"}
+{"type": "kids", "rank": 968, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for young goats or children, depending on tale context."}
+{"type": "leg", "rank": 969, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun."}
+{"type": "lies", "rank": 970, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "finite verb meaning rests, is situated, or tells falsehoods in context."}
+{"type": "meal", "rank": 971, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for food or ground grain in the contexts."}
+{"type": "merrily", "rank": 972, "frequency": 11, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb describing cheerful manner."}
+{"type": "nest", "rank": 973, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "concrete noun for a bird or animal nest."}
+{"type": "nice", "rank": 974, "frequency": 11, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing people or things as pleasant/fine."}
+{"type": "nut", "rank": 975, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "concrete food/seed noun."}
+{"type": "pair", "rank": 976, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "count noun for two matched items."}
+{"type": "pay", "rank": 977, "frequency": 11, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly main verb in pay a visit or pay wages; nominal pay is possible in some contexts.", "alternative": "NOUN"}
+{"type": "princes", "rank": 978, "frequency": 11, "tag": "NOUN", "confidence": 0.95, "reasoning": "plural title/role noun rather than a fixed proper name.", "alternative": "PROPN"}
+{"type": "promise", "rank": 979, "frequency": 11, "tag": "NOUN", "confidence": 0.55, "reasoning": "contexts mix noun uses such as keeping a promise with verb uses such as promise me.", "alternative": "VERB"}
+{"type": "rate", "rank": 980, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in the fixed phrase 'at any rate'."}
+{"type": "reach", "rank": 981, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning arrive at or extend to."}
+{"type": "received", "rank": 982, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning got or was given something."}
+{"type": "ride", "rank": 983, "frequency": 11, "tag": "VERB", "confidence": 0.85, "reasoning": "mostly main verb about riding a horse or going on horseback; noun readings are possible.", "alternative": "NOUN"}
+{"type": "roast", "rank": 984, "frequency": 11, "tag": "ADJ", "confidence": 0.6, "reasoning": "often attributive in phrases like roast meat or roast pig, though verb uses such as roast them also occur.", "alternative": "VERB"}
+{"type": "screamed", "rank": 985, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense speech/noise verb."}
+{"type": "sexton", "rank": 986, "frequency": 11, "tag": "NOUN", "confidence": 0.95, "reasoning": "occupation/role noun for the church officer."}
+{"type": "shot", "rank": 987, "frequency": 11, "tag": "VERB", "confidence": 0.85, "reasoning": "mostly past-tense or participial verb of shoot; noun reading is possible in isolated uses.", "alternative": "NOUN"}
+{"type": "since", "rank": 988, "frequency": 11, "tag": "SCONJ", "confidence": 0.65, "reasoning": "often introduces temporal or causal subordinate clauses, though adverbial temporal uses also occur.", "alternative": "ADV"}
+{"type": "sisters", "rank": 989, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural kinship noun."}
+{"type": "sought", "rank": 990, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning searched for or tried to obtain."}
+{"type": "spin", "rank": 991, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in contexts about spinning thread or flax."}
+{"type": "spindle", "rank": 992, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "concrete tool noun."}
+{"type": "steak", "rank": 993, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "food noun."}
+{"type": "talers", "rank": 994, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural currency noun."}
+{"type": "talk", "rank": 995, "frequency": 11, "tag": "VERB", "confidence": 0.6, "reasoning": "contexts mix verbal uses like talk so with noun uses like a long talk; verbal use is slightly more active in the samples.", "alternative": "NOUN"}
+{"type": "tore", "rank": 996, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning ripped or pulled apart."}
+{"type": "underneath", "rank": 997, "frequency": 11, "tag": "ADP", "confidence": 0.75, "reasoning": "mostly preposition before noun phrases such as underneath the tree, with possible adverbial uses.", "alternative": "ADV"}
+{"type": "understand", "rank": 998, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning comprehend."}
+{"type": "visit", "rank": 999, "frequency": 11, "tag": "VERB", "confidence": 0.55, "reasoning": "contexts mix infinitival or finite verb uses with noun phrases such as a visit to pay.", "alternative": "NOUN"}
+{"type": "watched", "rank": 1000, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning looked at or kept watch."}

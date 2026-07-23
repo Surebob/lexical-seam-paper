@@ -1,0 +1,14 @@
+metric_name,metric_label,rendered_value,value,display_format
+books_analyzed,Books analyzed,66,66,integer
+per_book_step2_help_count,Per-book step-2 helps,6/66,6,X/66 ratio
+per_book_softk_beats_zm_count,Per-book soft-k beats ZM,33/66,33,X/66 ratio
+per_book_softk_beats_moe_count,Per-book soft-k beats MOE,45/66,45,X/66 ratio
+median_per_book_softk_minus_zm,Median per-book soft-k minus ZM,-0.000133398,-0.00013339837693404633,signed decimal
+median_per_book_softk_minus_moe,Median per-book soft-k minus MOE,-0.00280378,-0.0028037828229647843,signed decimal
+median_per_book_step2_gain,Median per-book step-2 gain,-0.00361318,-0.0036131801096206256,signed decimal
+whole_bible_singlefit_softk_nll,Whole-Bible single-fit soft-k held-out NLL,6.016,6.016015736044842,average NLL
+aggregate_per_book_softk_nll,Aggregate per-book soft-k held-out NLL,5.604,5.604219509298761,average NLL
+improvement_from_decomposition,Whole-fit minus aggregate per-book NLL,0.412,0.4117962267460813,average NLL delta
+per_book_step2_nonhelp_count,Per-book step-2 non-help count,60/66,60,X/66 ratio
+whole_bible_step2_gain,Whole-Bible soft-k step-2 gain,0.0894897,0.0894896871269378,signed decimal
+median_other24_softk_step2_gain,Median soft-k step-2 gain across other 24 English corpora,-0.00134839,-0.0013483930874468725,signed decimal

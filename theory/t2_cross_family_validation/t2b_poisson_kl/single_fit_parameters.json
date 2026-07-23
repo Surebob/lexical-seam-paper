@@ -1,0 +1,62 @@
+{
+  "case_id": "t2b_poisson_kl",
+  "title": "T2b Poisson -> generalized KL",
+  "mixture_params": {
+    "component_1": {
+      "lambda": 6.0,
+      "weight": 0.5
+    },
+    "component_2": {
+      "lambda": 24.0,
+      "weight": 0.5
+    }
+  },
+  "fit": {
+    "method": "nonlinear_least_squares_on_sorted_log_pmf",
+    "success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "cost": 63.66911612954323,
+    "params": {
+      "log_amp": 1.4991777214494428,
+      "lambda": 23.123137374329787,
+      "mixture_mean_mle_lambda": 15.0
+    },
+    "at_bounds": {
+      "lambda": false
+    }
+  },
+  "residual_rmse": 1.1894827646179589,
+  "diagnostic": {
+    "component_corr": -0.15567069042850176,
+    "component_relative_l2": 1.2216381573617072,
+    "max_abs_second_difference": 0.32094750002199923,
+    "mean_abs_second_difference": 0.05297847643773922,
+    "sign_changes_second_difference": 26
+  },
+  "search_config": {
+    "beam_width": 50,
+    "max_steps": 4,
+    "keep_all_until_step": 2,
+    "diversity_weight": 0.35,
+    "constant_variance_threshold": 1e-10,
+    "exp_clamp": 30.0,
+    "value_abs_limit": 1000000.0,
+    "semantic_hash_rounding_digits": 10,
+    "unary_ops": [
+      "neg",
+      "inv",
+      "sqr",
+      "sqrt",
+      "exp",
+      "log"
+    ],
+    "binary_ops": [
+      "eml",
+      "add",
+      "sub",
+      "mul",
+      "div",
+      "pow"
+    ]
+  }
+}

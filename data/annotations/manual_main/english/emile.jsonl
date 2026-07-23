@@ -1,0 +1,1000 @@
+{"type": "the", "rank": 1, "frequency": 12621, "tag": "DET", "confidence": 1.0, "reasoning": "definite article in all shown contexts"}
+{"type": "to", "rank": 2, "frequency": 8709, "tag": "PART", "confidence": 0.8, "reasoning": "mostly infinitive marker in contexts such as 'to do', 'to live', and 'to show'; one 'as to' prepositional use occurs", "alternative": "ADP"}
+{"type": "of", "rank": 3, "frequency": 8107, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking possession, relation, or source in all contexts"}
+{"type": "and", "rank": 4, "frequency": 6693, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating conjunction joining words, phrases, and clauses"}
+{"type": "is", "rank": 5, "frequency": 5446, "tag": "VERB", "confidence": 0.72, "reasoning": "shown mostly as copular main verb in 'is confined', 'is good', 'is a bad mother', and 'is contrary', with some auxiliary/passive ambiguity", "alternative": "AUX"}
+{"type": "a", "rank": 6, "frequency": 4328, "tag": "DET", "confidence": 1.0, "reasoning": "indefinite article in all contexts"}
+{"type": "he", "rank": 7, "frequency": 3828, "tag": "PRON", "confidence": 1.0, "reasoning": "personal pronoun referring to a male person or pupil"}
+{"type": "in", "rank": 8, "frequency": 3798, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking location, manner, or domain"}
+{"type": "it", "rank": 9, "frequency": 3347, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person neuter pronoun or dummy pronoun in the shown clauses"}
+{"type": "i", "rank": 10, "frequency": 3255, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person singular pronoun throughout the contexts"}
+{"type": "that", "rank": 11, "frequency": 2940, "tag": "SCONJ", "confidence": 0.66, "reasoning": "frequently introduces clauses in this argumentative prose, especially 'so that' and 'it follows that', though demonstrative and relative uses also appear", "alternative": "DET"}
+{"type": "not", "rank": 12, "frequency": 2743, "tag": "PART", "confidence": 1.0, "reasoning": "negative particle in all shown contexts"}
+{"type": "his", "rank": 13, "frequency": 2739, "tag": "DET", "confidence": 0.96, "reasoning": "possessive determiner before nouns such as slaves, father, friends, and scholar"}
+{"type": "you", "rank": 14, "frequency": 2435, "tag": "PRON", "confidence": 1.0, "reasoning": "second-person personal pronoun in direct address"}
+{"type": "be", "rank": 15, "frequency": 2307, "tag": "AUX", "confidence": 0.86, "reasoning": "mostly auxiliary in passive or modal constructions such as 'must be avoided', 'should be taught', and 'will be', with some copular uses", "alternative": "VERB"}
+{"type": "are", "rank": 16, "frequency": 2185, "tag": "AUX", "confidence": 0.74, "reasoning": "mixes auxiliary/passive and copular uses; high-frequency be-form is often auxiliary in the sampled constructions", "alternative": "VERB"}
+{"type": "for", "rank": 17, "frequency": 2169, "tag": "ADP", "confidence": 0.96, "reasoning": "preposition marking purpose, benefit, or relation in the contexts"}
+{"type": "will", "rank": 18, "frequency": 1901, "tag": "AUX", "confidence": 0.86, "reasoning": "mostly modal auxiliary marking future or volition; one context has nominal 'his will'", "alternative": "NOUN"}
+{"type": "we", "rank": 19, "frequency": 1858, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person plural pronoun"}
+{"type": "they", "rank": 20, "frequency": 1846, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person plural pronoun"}
+{"type": "as", "rank": 21, "frequency": 1845, "tag": "SCONJ", "confidence": 0.68, "reasoning": "often introduces comparative or manner clauses such as 'as if' and 'as ... as', though some prepositional comparative uses occur", "alternative": "ADP"}
+{"type": "this", "rank": 22, "frequency": 1780, "tag": "DET", "confidence": 0.92, "reasoning": "mostly demonstrative determiner before nouns such as family, object, illustration, and act", "alternative": "PRON"}
+{"type": "him", "rank": 23, "frequency": 1761, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person singular object pronoun"}
+{"type": "which", "rank": 24, "frequency": 1711, "tag": "PRON", "confidence": 0.94, "reasoning": "relative pronoun referring back to objects, ideas, or clauses"}
+{"type": "but", "rank": 25, "frequency": 1703, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating conjunction marking contrast"}
+{"type": "have", "rank": 26, "frequency": 1598, "tag": "AUX", "confidence": 0.78, "reasoning": "mostly auxiliary in perfect constructions such as 'have told', 'have doubted', and 'have armed', with some main-verb possession uses", "alternative": "VERB"}
+{"type": "with", "rank": 27, "frequency": 1554, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking accompaniment, means, or relation"}
+{"type": "by", "rank": 28, "frequency": 1460, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking agent, means, or source"}
+{"type": "them", "rank": 29, "frequency": 1413, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person plural object pronoun"}
+{"type": "what", "rank": 30, "frequency": 1413, "tag": "PRON", "confidence": 1.0, "reasoning": "interrogative or fused relative pronoun in the shown contexts"}
+{"type": "if", "rank": 31, "frequency": 1407, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing conditional clauses"}
+{"type": "their", "rank": 32, "frequency": 1405, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns such as senses, conduct, opinion, books, and interest"}
+{"type": "her", "rank": 33, "frequency": 1186, "tag": "DET", "confidence": 0.68, "reasoning": "sample mixes possessive determiner uses such as 'her mother' and 'her heart' with object pronoun uses such as 'gave her'", "alternative": "PRON"}
+{"type": "so", "rank": 34, "frequency": 1162, "tag": "ADV", "confidence": 0.92, "reasoning": "degree or discourse adverb in 'so far', 'so supple', 'so to say', and related uses"}
+{"type": "all", "rank": 35, "frequency": 1154, "tag": "DET", "confidence": 0.78, "reasoning": "mostly quantifier determiner before nouns or possessives, though standalone pronoun use occurs in 'this is all'", "alternative": "PRON"}
+{"type": "my", "rank": 36, "frequency": 1095, "tag": "DET", "confidence": 1.0, "reasoning": "first-person possessive determiner before nouns"}
+{"type": "or", "rank": 37, "frequency": 1092, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating conjunction marking alternatives"}
+{"type": "no", "rank": 38, "frequency": 1088, "tag": "DET", "confidence": 0.94, "reasoning": "negative determiner before nouns such as sense, care, impression, and sort"}
+{"type": "do", "rank": 39, "frequency": 1040, "tag": "AUX", "confidence": 0.68, "reasoning": "often auxiliary/support verb in questions and negatives, though some main-verb action uses occur", "alternative": "VERB"}
+{"type": "when", "rank": 40, "frequency": 1040, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing temporal or conditional clauses"}
+{"type": "from", "rank": 41, "frequency": 1033, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking source, separation, or origin"}
+{"type": "at", "rank": 42, "frequency": 1026, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking location, time, or target"}
+{"type": "our", "rank": 43, "frequency": 1018, "tag": "DET", "confidence": 1.0, "reasoning": "first-person plural possessive determiner before nouns"}
+{"type": "one", "rank": 44, "frequency": 1000, "tag": "NUM", "confidence": 0.72, "reasoning": "often numeric or quantifying 'one', though it also appears as impersonal pronoun in 'one must'", "alternative": "PRON"}
+{"type": "who", "rank": 45, "frequency": 985, "tag": "PRON", "confidence": 1.0, "reasoning": "relative/interrogative pronoun referring to persons"}
+{"type": "would", "rank": 46, "frequency": 950, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in hypothetical or conditional constructions"}
+{"type": "she", "rank": 47, "frequency": 940, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person singular feminine pronoun"}
+{"type": "on", "rank": 48, "frequency": 939, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking location, topic, or dependence"}
+{"type": "more", "rank": 49, "frequency": 924, "tag": "ADV", "confidence": 0.9, "reasoning": "comparative degree adverb modifying adjectives or adverbs such as different, scrupulous, and easily"}
+{"type": "man", "rank": 50, "frequency": 886, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to a human male or mankind in general"}
+{"type": "has", "rank": 51, "frequency": 852, "tag": "AUX", "confidence": 0.76, "reasoning": "mostly auxiliary in perfect/passive constructions such as 'has penetrated', 'has had', 'has appealed', and 'has been drilled', with one main possession use", "alternative": "VERB"}
+{"type": "than", "rank": 52, "frequency": 836, "tag": "ADP", "confidence": 1.0, "reasoning": "comparative marker after better, less, more, and similar comparatives"}
+{"type": "only", "rank": 53, "frequency": 821, "tag": "ADV", "confidence": 0.9, "reasoning": "focus adverb meaning merely or exclusively, though one 'only time' use is adjectival"}
+{"type": "should", "rank": 54, "frequency": 800, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary expressing condition, obligation, or hypothetical result"}
+{"type": "there", "rank": 55, "frequency": 780, "tag": "PRON", "confidence": 0.66, "reasoning": "mostly existential 'there is/are/comes' rather than locative adverb", "alternative": "ADV"}
+{"type": "can", "rank": 56, "frequency": 743, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary expressing ability or possibility"}
+{"type": "your", "rank": 57, "frequency": 739, "tag": "DET", "confidence": 1.0, "reasoning": "second-person possessive determiner before nouns"}
+{"type": "must", "rank": 58, "frequency": 695, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary expressing necessity"}
+{"type": "own", "rank": 59, "frequency": 670, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjective intensifying possession in phrases like 'his own', 'their own', and 'your own'"}
+{"type": "me", "rank": 60, "frequency": 666, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person singular object pronoun"}
+{"type": "us", "rank": 61, "frequency": 647, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person plural object pronoun"}
+{"type": "was", "rank": 62, "frequency": 638, "tag": "VERB", "confidence": 0.72, "reasoning": "mostly copular main verb in 'was the origin', 'was not ignorant', and 'was just', though passive auxiliary use occurs", "alternative": "AUX"}
+{"type": "without", "rank": 63, "frequency": 610, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition meaning lacking or outside"}
+{"type": "make", "rank": 64, "frequency": 586, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning cause, create, or compel"}
+{"type": "may", "rank": 65, "frequency": 585, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary expressing possibility or permission"}
+{"type": "child", "rank": 66, "frequency": 570, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to a child"}
+{"type": "these", "rank": 67, "frequency": 552, "tag": "DET", "confidence": 0.94, "reasoning": "demonstrative determiner before nouns such as difficulties, phrases, questions, and precautions"}
+{"type": "an", "rank": 68, "frequency": 546, "tag": "DET", "confidence": 1.0, "reasoning": "indefinite article before vowel-initial nouns"}
+{"type": "good", "rank": 69, "frequency": 538, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing impulses, qualities, people, and women"}
+{"type": "its", "rank": 70, "frequency": 537, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns such as character, worth, possessor, and needs"}
+{"type": "know", "rank": 71, "frequency": 536, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of cognition"}
+{"type": "how", "rank": 72, "frequency": 515, "tag": "ADV", "confidence": 1.0, "reasoning": "interrogative or relative adverb modifying manner or degree"}
+{"type": "men", "rank": 73, "frequency": 491, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun referring to human beings or males"}
+{"type": "those", "rank": 74, "frequency": 488, "tag": "DET", "confidence": 0.78, "reasoning": "mostly demonstrative determiner before nouns such as needs, races, and people, though standalone pronoun uses occur", "alternative": "PRON"}
+{"type": "himself", "rank": 75, "frequency": 478, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun referring to male subject or Emile"}
+{"type": "other", "rank": 76, "frequency": 478, "tag": "ADJ", "confidence": 0.76, "reasoning": "mostly modifies nouns in 'other people' and 'other creatures', with reciprocal/pronominal 'each other' uses", "alternative": "PRON"}
+{"type": "never", "rank": 77, "frequency": 472, "tag": "ADV", "confidence": 1.0, "reasoning": "negative temporal/frequency adverb"}
+{"type": "any", "rank": 78, "frequency": 463, "tag": "DET", "confidence": 1.0, "reasoning": "determiner before nouns such as shock, idea, reason, harm, and child"}
+{"type": "were", "rank": 79, "frequency": 441, "tag": "AUX", "confidence": 0.74, "reasoning": "mixes passive auxiliary and copular past plural/subjunctive uses; passive/auxiliary uses are prominent", "alternative": "VERB"}
+{"type": "nature", "rank": 80, "frequency": 437, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun for nature"}
+{"type": "nothing", "rank": 81, "frequency": 434, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite negative pronoun"}
+{"type": "let", "rank": 82, "frequency": 431, "tag": "VERB", "confidence": 1.0, "reasoning": "imperative or main verb introducing commands such as 'let him' and 'let us'"}
+{"type": "see", "rank": 83, "frequency": 431, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning perceive or understand"}
+{"type": "first", "rank": 84, "frequency": 426, "tag": "ADJ", "confidence": 0.8, "reasoning": "ordinal adjective modifying fruits, thing, sentiment, and spark; one adverbial 'first teach' use occurs", "alternative": "ADV"}
+{"type": "does", "rank": 85, "frequency": 405, "tag": "AUX", "confidence": 0.66, "reasoning": "mixes auxiliary support in negatives/questions with main verb uses like 'what she does'; auxiliary support is common in this sample", "alternative": "VERB"}
+{"type": "life", "rank": 86, "frequency": 405, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun for life"}
+{"type": "always", "rank": 87, "frequency": 404, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb"}
+{"type": "such", "rank": 88, "frequency": 397, "tag": "DET", "confidence": 0.9, "reasoning": "determiner before nouns such as teaching, attributes, task, modifications, and danger"}
+{"type": "time", "rank": 89, "frequency": 389, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for time, timing, or duration"}
+{"type": "had", "rank": 90, "frequency": 385, "tag": "AUX", "confidence": 0.86, "reasoning": "mostly auxiliary in past perfect constructions such as 'had prepared', 'had touched', and 'had questioned'"}
+{"type": "say", "rank": 91, "frequency": 382, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of speaking or stating"}
+{"type": "every", "rank": 92, "frequency": 362, "tag": "DET", "confidence": 1.0, "reasoning": "universal determiner before nouns or pronoun-like one"}
+{"type": "shall", "rank": 93, "frequency": 361, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary marking future or obligation"}
+{"type": "children", "rank": 94, "frequency": 356, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun"}
+{"type": "heart", "rank": 95, "frequency": 346, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun, literal/metaphorical, for emotional center"}
+{"type": "emile", "rank": 96, "frequency": 339, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper name of Rousseau's fictional pupil"}
+{"type": "very", "rank": 97, "frequency": 338, "tag": "ADV", "confidence": 0.96, "reasoning": "degree adverb modifying adjectives/adverbs, with one emphatic 'very one' occurrence"}
+{"type": "find", "rank": 98, "frequency": 335, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning discover or locate"}
+{"type": "little", "rank": 99, "frequency": 334, "tag": "ADJ", "confidence": 0.72, "reasoning": "mostly adjective modifying hamlet, ball, lady, or amount, though 'little by little' and 'say little' are not straightforward adjectives", "alternative": "ADV"}
+{"type": "think", "rank": 100, "frequency": 334, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of cognition"}
+{"type": "love", "rank": 101, "frequency": 331, "tag": "VERB", "confidence": 0.86, "reasoning": "contexts mostly use it as a main verb: love ourselves, love one another, others will love you", "alternative": "NOUN"}
+{"type": "take", "rank": 102, "frequency": 330, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all shown contexts: take cover, take care, take so much trouble"}
+{"type": "things", "rank": 103, "frequency": 320, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun referring to objects or matters in all contexts"}
+{"type": "before", "rank": 104, "frequency": 319, "tag": "SCONJ", "confidence": 0.75, "reasoning": "mostly introduces temporal clauses such as before we win it and before he can speak", "alternative": "ADP"}
+{"type": "people", "rank": 105, "frequency": 313, "tag": "NOUN", "confidence": 0.95, "reasoning": "common plural noun in most contexts; one verbal use in people heaven is exceptional", "alternative": "VERB"}
+{"type": "way", "rank": 106, "frequency": 312, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun meaning path, method, or manner in the examples"}
+{"type": "reason", "rank": 107, "frequency": 310, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun throughout: light of reason, voice of reason, effect on his reason"}
+{"type": "cannot", "rank": 108, "frequency": 308, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary construction in each context, equivalent to can not"}
+{"type": "young", "rank": 109, "frequency": 305, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying man, traveller, Astyanax, and man's desires"}
+{"type": "give", "rank": 110, "frequency": 297, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples: give pleasure, give heed, give them, give it"}
+{"type": "am", "rank": 111, "frequency": 288, "tag": "VERB", "confidence": 0.82, "reasoning": "shown mainly as copular be: as I am, I am not hers, I am much mistaken", "alternative": "AUX"}
+{"type": "up", "rank": 112, "frequency": 287, "tag": "ADP", "confidence": 0.62, "reasoning": "often particle/prepositional element in make up, called up, takes up, brought up; UD treatment varies by construction", "alternative": "ADV"}
+{"type": "even", "rank": 113, "frequency": 284, "tag": "ADV", "confidence": 1.0, "reasoning": "focus/intensifying adverb in all contexts: even more, even the mysteries, not even"}
+{"type": "too", "rank": 114, "frequency": 284, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb in all examples: too long, too much, too wise, too serious"}
+{"type": "others", "rank": 115, "frequency": 282, "tag": "PRON", "confidence": 0.9, "reasoning": "substantive pronoun referring to other people without a following noun"}
+{"type": "same", "rank": 116, "frequency": 280, "tag": "DET", "confidence": 0.95, "reasoning": "determiner before nouns in the examples: same reason, same time, same calmness"}
+{"type": "much", "rank": 117, "frequency": 276, "tag": "ADV", "confidence": 0.72, "reasoning": "mostly degree adverb in as much, much later, so much as; could be determiner in other contexts", "alternative": "DET"}
+{"type": "into", "rank": 118, "frequency": 272, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking direction or transformation in all shown contexts"}
+{"type": "use", "rank": 119, "frequency": 272, "tag": "VERB", "confidence": 0.72, "reasoning": "split between main verb uses and noun phrase uses such as the use of the plane; shown contexts lean slightly verbal", "alternative": "NOUN"}
+{"type": "another", "rank": 120, "frequency": 271, "tag": "DET", "confidence": 0.95, "reasoning": "determiner before nouns such as channel, Minerva, mould, and course"}
+{"type": "been", "rank": 121, "frequency": 269, "tag": "AUX", "confidence": 1.0, "reasoning": "past participle of be used in perfect/passive constructions across the examples"}
+{"type": "less", "rank": 122, "frequency": 260, "tag": "ADV", "confidence": 0.8, "reasoning": "comparative degree modifier in less well attested, less deceitful, less excitable; also determiner in the less the ratio", "alternative": "DET"}
+{"type": "some", "rank": 123, "frequency": 260, "tag": "DET", "confidence": 1.0, "reasoning": "determiner before nouns in the shown contexts: some feeling, some sort, some well-known event"}
+{"type": "about", "rank": 124, "frequency": 257, "tag": "ADP", "confidence": 0.9, "reasoning": "mostly preposition introducing topic or relation, including about going and about travel", "alternative": "ADV"}
+{"type": "like", "rank": 125, "frequency": 257, "tag": "ADP", "confidence": 0.65, "reasoning": "several contexts use comparison preposition like the dancing-master and like the spider; one context is main verb we like", "alternative": "VERB"}
+{"type": "most", "rank": 126, "frequency": 255, "tag": "ADV", "confidence": 0.78, "reasoning": "mostly superlative degree modifier: most important, most elegant, most deeply, most carefully", "alternative": "DET"}
+{"type": "well", "rank": 127, "frequency": 251, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying received, swaddled, know, and written in the examples"}
+{"type": "out", "rank": 128, "frequency": 249, "tag": "ADP", "confidence": 0.65, "reasoning": "particle/prepositional element in decked out, put out, sent out, arising out of", "alternative": "ADV"}
+{"type": "place", "rank": 129, "frequency": 246, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun meaning location, position, or ordered slot in all examples"}
+{"type": "could", "rank": 130, "frequency": 243, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in all contexts"}
+{"type": "upon", "rank": 131, "frequency": 243, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in acts upon, fall upon, claim upon, founded upon"}
+{"type": "then", "rank": 132, "frequency": 237, "tag": "ADV", "confidence": 0.95, "reasoning": "temporal/discourse adverb in now and then, then jealousy, then he saws"}
+{"type": "far", "rank": 133, "frequency": 236, "tag": "ADV", "confidence": 0.82, "reasoning": "adverbial degree or distance use, especially far from and far-off; compounds include adjectival use", "alternative": "ADJ"}
+{"type": "made", "rank": 134, "frequency": 232, "tag": "VERB", "confidence": 0.86, "reasoning": "main/passive lexical verb make in made to submit, made use, made for you, promises made", "alternative": "AUX"}
+{"type": "nor", "rank": 135, "frequency": 230, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating negative conjunction in neither/nor and nor to constructions"}
+{"type": "because", "rank": 136, "frequency": 229, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing reason clauses in all examples"}
+{"type": "learn", "rank": 137, "frequency": 225, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts: learn to use, learn to see, must learn it"}
+{"type": "where", "rank": 138, "frequency": 221, "tag": "ADV", "confidence": 0.7, "reasoning": "locative/interrogative adverb in where it sets, where can we find, where women; some clauses are subordinate locatives", "alternative": "SCONJ"}
+{"type": "why", "rank": 139, "frequency": 221, "tag": "ADV", "confidence": 1.0, "reasoning": "interrogative/reason adverb in all contexts"}
+{"type": "great", "rank": 140, "frequency": 220, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying wisdom, charm, difference, and philosopher"}
+{"type": "between", "rank": 141, "frequency": 219, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking relations between entities in all examples"}
+{"type": "mind", "rank": 142, "frequency": 219, "tag": "NOUN", "confidence": 1.0, "reasoning": "common abstract noun in all examples"}
+{"type": "rather", "rank": 143, "frequency": 219, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in comparative/contrastive uses: rather richer, rather than, or rather"}
+{"type": "enough", "rank": 144, "frequency": 204, "tag": "ADV", "confidence": 0.86, "reasoning": "mostly degree adverb after adjectives/adverbs: rich enough, calm enough, courage enough", "alternative": "PRON"}
+{"type": "sophy", "rank": 145, "frequency": 203, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name Sophy in all contexts"}
+{"type": "while", "rank": 146, "frequency": 201, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating temporal/contrast conjunction in all shown contexts"}
+{"type": "everything", "rank": 147, "frequency": 197, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun standing for all things in all contexts"}
+{"type": "age", "rank": 148, "frequency": 193, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to life stage or years in all examples"}
+{"type": "need", "rank": 149, "frequency": 193, "tag": "NOUN", "confidence": 0.62, "reasoning": "mixed noun and verb uses; shown contexts include this so-called need, feel the need, having need, but also I need you", "alternative": "VERB"}
+{"type": "soon", "rank": 150, "frequency": 193, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal adverb in all examples"}
+{"type": "two", "rank": 151, "frequency": 193, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in all contexts"}
+{"type": "long", "rank": 152, "frequency": 192, "tag": "ADV", "confidence": 0.64, "reasoning": "mostly temporal/durational adverb in long ago, long desired, so long as, though adjectival uses may occur", "alternative": "ADJ"}
+{"type": "knows", "rank": 153, "frequency": 190, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb know in all examples"}
+{"type": "right", "rank": 154, "frequency": 190, "tag": "NOUN", "confidence": 0.7, "reasoning": "mixed uses, but several examples are substantive noun: a better right, what is right, the right use, right conduct", "alternative": "ADJ"}
+{"type": "better", "rank": 155, "frequency": 189, "tag": "ADV", "confidence": 0.65, "reasoning": "frequent comparative adverb after verbs and adjectives: do without her better, use a lever better; also adjective in better results", "alternative": "ADJ"}
+{"type": "themselves", "rank": 156, "frequency": 189, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun in all shown contexts"}
+{"type": "work", "rank": 157, "frequency": 189, "tag": "NOUN", "confidence": 0.72, "reasoning": "mixed noun and verb; shown contexts include manual work and the work yourself, with verb uses also present", "alternative": "VERB"}
+{"type": "each", "rank": 158, "frequency": 188, "tag": "DET", "confidence": 0.9, "reasoning": "determiner in each other and each other's constructions throughout the examples"}
+{"type": "makes", "rank": 159, "frequency": 188, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb make in all contexts"}
+{"type": "many", "rank": 160, "frequency": 186, "tag": "DET", "confidence": 1.0, "reasoning": "determiner quantifying nouns: many useless things, many successive sensations, many strange rites"}
+{"type": "god", "rank": 161, "frequency": 185, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper name/title of the deity in monotheistic theological contexts"}
+{"type": "natural", "rank": 162, "frequency": 184, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying strength, equality, surroundings, and philosophy"}
+{"type": "over", "rank": 163, "frequency": 182, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in watchful over, power over, against/over relation contexts"}
+{"type": "get", "rank": 164, "frequency": 181, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts: get everything, get a taste, get him to notice"}
+{"type": "women", "rank": 165, "frequency": 181, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all contexts"}
+{"type": "being", "rank": 166, "frequency": 179, "tag": "NOUN", "confidence": 0.72, "reasoning": "mixed nominal and participial uses; examples include Being of beings and a senseless being, with one being overheard participle", "alternative": "VERB"}
+{"type": "myself", "rank": 167, "frequency": 179, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun in all examples"}
+{"type": "did", "rank": 168, "frequency": 178, "tag": "AUX", "confidence": 0.78, "reasoning": "mostly auxiliary/support do in did not and question/negation; one lexical did what he could do", "alternative": "VERB"}
+{"type": "said", "rank": 169, "frequency": 178, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle/past tense lexical verb say in all contexts"}
+{"type": "show", "rank": 170, "frequency": 176, "tag": "VERB", "confidence": 0.95, "reasoning": "main verb in show him, to show, show it now; one noun phrase false show is exceptional", "alternative": "NOUN"}
+{"type": "among", "rank": 171, "frequency": 174, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in all examples"}
+{"type": "now", "rank": 172, "frequency": 173, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal adverb in all examples"}
+{"type": "true", "rank": 173, "frequency": 172, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in predicative and attributive uses: is true, true course, true love"}
+{"type": "eyes", "rank": 174, "frequency": 168, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun referring to physical eyes in all examples"}
+{"type": "still", "rank": 175, "frequency": 168, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb marking continuation or concessive contrast in all examples"}
+{"type": "against", "rank": 176, "frequency": 167, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking opposition or relation in all contexts"}
+{"type": "day", "rank": 177, "frequency": 165, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun denoting a day in all examples"}
+{"type": "speak", "rank": 178, "frequency": 165, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "yet", "rank": 179, "frequency": 165, "tag": "ADV", "confidence": 0.8, "reasoning": "mixed discourse adverb and coordinating contrast; examples include as yet and yet it is", "alternative": "CCONJ"}
+{"type": "ideas", "rank": 180, "frequency": 164, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all examples"}
+{"type": "just", "rank": 181, "frequency": 164, "tag": "ADV", "confidence": 0.72, "reasoning": "mostly adverbial focus in just the opposite, just what, just as well; one adjective just or unjust", "alternative": "ADJ"}
+{"type": "really", "rank": 182, "frequency": 164, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying mean, master, blind, and saw"}
+{"type": "education", "rank": 183, "frequency": 162, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "matter", "rank": 184, "frequency": 162, "tag": "NOUN", "confidence": 0.9, "reasoning": "mostly common noun meaning subject, issue, or substance; phrase what does that matter is idiomatic but still nominal/lexical", "alternative": "VERB"}
+{"type": "words", "rank": 185, "frequency": 162, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all examples"}
+{"type": "body", "rank": 186, "frequency": 161, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for physical body or object in all examples"}
+{"type": "care", "rank": 187, "frequency": 161, "tag": "NOUN", "confidence": 0.78, "reasoning": "mixed noun and verb; examples include the care bestowed and care of household, but take care is verbal idiom", "alternative": "VERB"}
+{"type": "means", "rank": 188, "frequency": 161, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun meaning instruments or resources in the shown contexts"}
+{"type": "self", "rank": 189, "frequency": 161, "tag": "NOUN", "confidence": 0.86, "reasoning": "nominal base in real self and compounds such as self-control and self-love", "alternative": "ADJ"}
+{"type": "hand", "rank": 190, "frequency": 160, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the physical hand in all examples"}
+{"type": "power", "rank": 191, "frequency": 160, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in all examples"}
+{"type": "go", "rank": 192, "frequency": 159, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "neither", "rank": 193, "frequency": 158, "tag": "CCONJ", "confidence": 0.8, "reasoning": "mostly negative coordinator in neither...nor and neither look nor speak; one sentence-initial Neither also coordinates", "alternative": "DET"}
+{"type": "through", "rank": 194, "frequency": 157, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in all contexts"}
+{"type": "knowledge", "rank": 195, "frequency": 155, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun throughout"}
+{"type": "world", "rank": 196, "frequency": 152, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "master", "rank": 197, "frequency": 151, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun for a person with control or skill in all shown contexts"}
+{"type": "strength", "rank": 198, "frequency": 151, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in all examples"}
+{"type": "become", "rank": 199, "frequency": 150, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "whole", "rank": 200, "frequency": 150, "tag": "ADJ", "confidence": 0.78, "reasoning": "mostly adjective/determiner-like modifier in whole period, whole body, whole weight; one substantive the whole appears", "alternative": "NOUN"}
+{"type": "happiness", "rank": 201, "frequency": 149, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "tell", "rank": 202, "frequency": 149, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all shown contexts"}
+{"type": "ever", "rank": 203, "frequency": 148, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal/frequency adverb in if ever, more than ever, and had ever been"}
+{"type": "mother", "rank": 204, "frequency": 148, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship noun in all examples"}
+{"type": "human", "rank": 205, "frequency": 147, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying mind, race, institutions, and unaided mind"}
+{"type": "pupil", "rank": 206, "frequency": 146, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the student in all contexts"}
+{"type": "ourselves", "rank": 207, "frequency": 145, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun in all examples"}
+{"type": "part", "rank": 208, "frequency": 145, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in phrases such as your part, difficult part, my own part, and no part of nature"}
+{"type": "woman", "rank": 209, "frequency": 145, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "order", "rank": 210, "frequency": 143, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in present order, absence of order, and little order"}
+{"type": "teach", "rank": 211, "frequency": 143, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "alone", "rank": 212, "frequency": 142, "tag": "ADV", "confidence": 0.9, "reasoning": "focus adverb meaning only/by itself in me alone, feelings alone, crime alone, rank alone"}
+{"type": "country", "rank": 213, "frequency": 142, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for nation or countryside in all contexts"}
+{"type": "thus", "rank": 214, "frequency": 142, "tag": "ADV", "confidence": 1.0, "reasoning": "manner/result adverb in all examples"}
+{"type": "understand", "rank": 215, "frequency": 142, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all shown contexts"}
+{"type": "once", "rank": 216, "frequency": 140, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal/frequency adverb in once given, I once undertook, at once"}
+{"type": "desire", "rank": 217, "frequency": 139, "tag": "NOUN", "confidence": 0.76, "reasoning": "mostly noun in one desire, this desire, his desire; one context has the verb ought not desire", "alternative": "VERB"}
+{"type": "done", "rank": 218, "frequency": 139, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of do in all contexts"}
+{"type": "passions", "rank": 219, "frequency": 139, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all examples"}
+{"type": "whether", "rank": 220, "frequency": 139, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing indirect questions in all examples"}
+{"type": "itself", "rank": 221, "frequency": 137, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun in all examples"}
+{"type": "come", "rank": 222, "frequency": 136, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "idea", "rank": 223, "frequency": 136, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "least", "rank": 224, "frequency": 136, "tag": "ADV", "confidence": 0.8, "reasoning": "mostly adverbial in at least and heed him least; can be adjectival in other uses", "alternative": "ADJ"}
+{"type": "real", "rank": 225, "frequency": 136, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying duties, talents, reform, and happiness"}
+{"type": "taste", "rank": 226, "frequency": 136, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun for aesthetic or sensory taste in all examples"}
+{"type": "after", "rank": 227, "frequency": 132, "tag": "ADP", "confidence": 0.92, "reasoning": "preposition in follows after, after them, after months, and after the manner"}
+{"type": "feel", "rank": 228, "frequency": 132, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "needs", "rank": 229, "frequency": 131, "tag": "NOUN", "confidence": 0.65, "reasoning": "mixed noun and verb/adverbial uses; examples include the needs of fellow-men and her needs, plus a man needs a guide", "alternative": "VERB"}
+{"type": "found", "rank": 230, "frequency": 130, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb find in passive and active forms throughout"}
+{"type": "therefore", "rank": 231, "frequency": 130, "tag": "ADV", "confidence": 1.0, "reasoning": "logical/discourse adverb in all contexts"}
+{"type": "anything", "rank": 232, "frequency": 128, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun in all contexts"}
+{"type": "happy", "rank": 233, "frequency": 128, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in predicative uses throughout"}
+{"type": "merely", "rank": 234, "frequency": 127, "tag": "ADV", "confidence": 1.0, "reasoning": "restrictive adverb in all examples"}
+{"type": "might", "rank": 235, "frequency": 127, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in all examples"}
+{"type": "state", "rank": 236, "frequency": 127, "tag": "NOUN", "confidence": 0.82, "reasoning": "mostly noun in state of misery, state of things, and the state; one context has venture to state", "alternative": "VERB"}
+{"type": "often", "rank": 237, "frequency": 126, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb in all contexts"}
+{"type": "follow", "rank": 238, "frequency": 125, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "law", "rank": 239, "frequency": 124, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "both", "rank": 240, "frequency": 123, "tag": "DET", "confidence": 0.78, "reasoning": "quantifier/determiner in both remain, both of, both by men and women; often pronominal in surface form", "alternative": "PRON"}
+{"type": "feeling", "rank": 241, "frequency": 122, "tag": "NOUN", "confidence": 0.82, "reasoning": "mostly noun for an emotion or sensation; one context has feeling woman as an adjectival participle", "alternative": "ADJ"}
+{"type": "given", "rank": 242, "frequency": 122, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of give in passive/participle constructions"}
+{"type": "put", "rank": 243, "frequency": 122, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all shown contexts"}
+{"type": "live", "rank": 244, "frequency": 121, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "thought", "rank": 245, "frequency": 121, "tag": "VERB", "confidence": 0.78, "reasoning": "mostly past tense of think in the shown examples, though thought of declining years is nominal", "alternative": "NOUN"}
+{"type": "different", "rank": 246, "frequency": 120, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all contexts"}
+{"type": "rest", "rank": 247, "frequency": 119, "tag": "NOUN", "confidence": 0.7, "reasoning": "mostly noun in the rest and sit down to rest, with one lexical verb use in rest on authority", "alternative": "VERB"}
+{"type": "society", "rank": 248, "frequency": 119, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "already", "rank": 249, "frequency": 118, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal/aspectual adverb in all examples"}
+{"type": "pleasure", "rank": 250, "frequency": 118, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "virtue", "rank": 251, "frequency": 118, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "want", "rank": 252, "frequency": 118, "tag": "NOUN", "confidence": 0.62, "reasoning": "split between noun uses state of want and feel the want, and verb uses did not want and do not want", "alternative": "VERB"}
+{"type": "word", "rank": 253, "frequency": 118, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all examples"}
+{"type": "free", "rank": 254, "frequency": 117, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in live free, intelligent and free, active and free, free state"}
+{"type": "study", "rank": 255, "frequency": 116, "tag": "NOUN", "confidence": 0.6, "reasoning": "mixed noun and verb uses; examples include study of the earth and study of languages, but also study him and study his countenance", "alternative": "VERB"}
+{"type": "truth", "rank": 256, "frequency": 116, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "leave", "rank": 257, "frequency": 115, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "under", "rank": 258, "frequency": 115, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in all examples"}
+{"type": "thing", "rank": 259, "frequency": 114, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all examples"}
+{"type": "quite", "rank": 260, "frequency": 112, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb in all examples"}
+{"type": "father", "rank": 261, "frequency": 111, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship noun in all contexts"}
+{"type": "teaching", "rank": 262, "frequency": 111, "tag": "NOUN", "confidence": 0.62, "reasoning": "mixed noun and verbal gerund; examples include the teaching of nature and fine teaching, but also teaching them our way", "alternative": "VERB"}
+{"type": "longer", "rank": 263, "frequency": 110, "tag": "ADV", "confidence": 1.0, "reasoning": "comparative temporal adverb in some days longer and no longer constructions"}
+{"type": "man's", "rank": 264, "frequency": 110, "tag": "NOUN", "confidence": 0.86, "reasoning": "tokenized possessive form of common noun man in man's injustice, man's first state, man's worth", "alternative": "DET"}
+{"type": "senses", "rank": 265, "frequency": 109, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun referring to sensory faculties in all examples"}
+{"type": "present", "rank": 266, "frequency": 108, "tag": "ADJ", "confidence": 0.72, "reasoning": "mostly adjective in present condition/state and those present; one context has present as a verb", "alternative": "VERB"}
+{"type": "common", "rank": 267, "frequency": 107, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "keep", "rank": 268, "frequency": 107, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "regard", "rank": 269, "frequency": 107, "tag": "NOUN", "confidence": 0.68, "reasoning": "mostly noun in with regard to phrases, with one clear verb use regard his own", "alternative": "VERB"}
+{"type": "art", "rank": 270, "frequency": 106, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "cause", "rank": 271, "frequency": 106, "tag": "NOUN", "confidence": 0.82, "reasoning": "mostly noun in cause of want, determining cause, and cause for fear; one context has verb cause evils", "alternative": "VERB"}
+{"type": "form", "rank": 272, "frequency": 106, "tag": "VERB", "confidence": 0.6, "reasoning": "split between verb uses to form and will form, and noun uses receives its form and take the form", "alternative": "NOUN"}
+{"type": "set", "rank": 273, "frequency": 106, "tag": "VERB", "confidence": 0.95, "reasoning": "mostly lexical verb in set her opinion, set Sophy laughing, set up; one participial use set forth", "alternative": "ADJ"}
+{"type": "indeed", "rank": 274, "frequency": 104, "tag": "ADV", "confidence": 1.0, "reasoning": "emphatic/discourse adverb in all examples"}
+{"type": "sense", "rank": 275, "frequency": 104, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun for sensory faculty or judgment in all examples"}
+{"type": "till", "rank": 276, "frequency": 104, "tag": "SCONJ", "confidence": 0.82, "reasoning": "mostly subordinating temporal conjunction: till you know, till he is, till it has; one after till M is clipped", "alternative": "ADP"}
+{"type": "sees", "rank": 277, "frequency": 103, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb see in all examples"}
+{"type": "duties", "rank": 278, "frequency": 101, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all contexts"}
+{"type": "having", "rank": 279, "frequency": 101, "tag": "VERB", "confidence": 1.0, "reasoning": "verbal gerund/participle form of have in all examples"}
+{"type": "also", "rank": 280, "frequency": 100, "tag": "ADV", "confidence": 1.0, "reasoning": "additive adverb in all examples"}
+{"type": "experience", "rank": 281, "frequency": 100, "tag": "NOUN", "confidence": 0.78, "reasoning": "mostly noun in the experience we have gained and more experience; one context has verb must experience", "alternative": "VERB"}
+{"type": "few", "rank": 282, "frequency": 100, "tag": "DET", "confidence": 1.0, "reasoning": "quantifying determiner before nouns in all examples"}
+{"type": "evil", "rank": 283, "frequency": 99, "tag": "NOUN", "confidence": 0.72, "reasoning": "mostly substantive abstract noun in birth of evil and good and evil; one attributive use evil power appears", "alternative": "ADJ"}
+{"type": "footnote", "rank": 284, "frequency": 99, "tag": "X", "confidence": 0.86, "reasoning": "metadata marker from bracketed footnote apparatus rather than body-text lexical use"}
+{"type": "honour", "rank": 285, "frequency": 99, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "judge", "rank": 286, "frequency": 99, "tag": "VERB", "confidence": 0.78, "reasoning": "mostly verb in judge books, we judge, learn to judge; one context has the judge as noun", "alternative": "NOUN"}
+{"type": "again", "rank": 287, "frequency": 98, "tag": "ADV", "confidence": 1.0, "reasoning": "repetition adverb in all examples"}
+{"type": "change", "rank": 288, "frequency": 98, "tag": "VERB", "confidence": 0.62, "reasoning": "mixed verb and noun; examples include change his station and change both terms, but also the change and what a change", "alternative": "NOUN"}
+{"type": "kind", "rank": 289, "frequency": 98, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun meaning sort/type in all examples"}
+{"type": "perceive", "rank": 290, "frequency": 98, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "though", "rank": 291, "frequency": 98, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating concessive conjunction in all contexts"}
+{"type": "try", "rank": 292, "frequency": 98, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "religion", "rank": 293, "frequency": 97, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in all contexts"}
+{"type": "whose", "rank": 294, "frequency": 97, "tag": "DET", "confidence": 0.86, "reasoning": "possessive relative determiner before nouns such as water, apprenticeship, and value", "alternative": "PRON"}
+{"type": "able", "rank": 295, "frequency": 96, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in be able and people able constructions"}
+{"type": "begin", "rank": 296, "frequency": 96, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "best", "rank": 297, "frequency": 96, "tag": "ADJ", "confidence": 0.72, "reasoning": "mostly superlative adjective in best food and best advice; at their best and did his best are more nominal/adverbial", "alternative": "NOUN"}
+{"type": "beyond", "rank": 298, "frequency": 96, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in all shown contexts"}
+{"type": "ill", "rank": 299, "frequency": 96, "tag": "ADJ", "confidence": 0.76, "reasoning": "mostly adjective or compound modifier in ill-faith, ill-assorted, ill-treatment; think ill is adverbial", "alternative": "ADV"}
+{"type": "last", "rank": 300, "frequency": 96, "tag": "VERB", "confidence": 0.58, "reasoning": "mixed uses: last for ever and last as long are verbs, the last is adjectival/substantive, and at last is adverbial", "alternative": "ADJ"}
+{"type": "death", "rank": 301, "frequency": 95, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in all contexts"}
+{"type": "sight", "rank": 302, "frequency": 95, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to seeing or visible presence in all examples"}
+{"type": "away", "rank": 303, "frequency": 94, "tag": "ADV", "confidence": 1.0, "reasoning": "directional particle/adverb in carried away, dragged away, turned away, far away"}
+{"type": "certain", "rank": 304, "frequency": 94, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective or predicative adjective in all examples"}
+{"type": "object", "rank": 305, "frequency": 94, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all shown contexts"}
+{"type": "poor", "rank": 306, "frequency": 93, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying interpreters, man, people, and poor in spirit"}
+{"type": "respect", "rank": 307, "frequency": 93, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in self-respect, respect for goodness, same respect, and in this respect"}
+{"type": "laws", "rank": 308, "frequency": 92, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common/abstract noun in all examples"}
+{"type": "relations", "rank": 309, "frequency": 92, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all examples"}
+{"type": "whom", "rank": 310, "frequency": 92, "tag": "PRON", "confidence": 1.0, "reasoning": "relative/interrogative pronoun in all contexts"}
+{"type": "yourself", "rank": 311, "frequency": 91, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun in all contexts"}
+{"type": "attention", "rank": 312, "frequency": 90, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "control", "rank": 313, "frequency": 89, "tag": "NOUN", "confidence": 0.62, "reasoning": "mixed noun and verb; beyond/under our control are nouns, while control ourselves and control him are verbs", "alternative": "VERB"}
+{"type": "hands", "rank": 314, "frequency": 89, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all contexts"}
+{"type": "herself", "rank": 315, "frequency": 89, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun in all examples"}
+{"type": "taken", "rank": 316, "frequency": 89, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of take in all shown contexts"}
+{"type": "end", "rank": 317, "frequency": 88, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun meaning limit or conclusion in all examples"}
+{"type": "seems", "rank": 318, "frequency": 88, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical/copular verb seem in all contexts"}
+{"type": "duty", "rank": 319, "frequency": 87, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "interest", "rank": 320, "frequency": 87, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "youth", "rank": 321, "frequency": 87, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun referring to youth or a young person in all contexts"}
+{"type": "example", "rank": 322, "frequency": 86, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all examples"}
+{"type": "strong", "rank": 323, "frequency": 86, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all contexts"}
+{"type": "feelings", "rank": 324, "frequency": 85, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all examples"}
+{"type": "wrong", "rank": 325, "frequency": 85, "tag": "ADJ", "confidence": 0.88, "reasoning": "mostly adjective or adjectival substantive: wrong things, think it wrong, in the wrong, wrong course"}
+{"type": "desires", "rank": 326, "frequency": 84, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly plural noun in rising desires and our desires; one context has verb desires happiness", "alternative": "VERB"}
+{"type": "imagination", "rank": 327, "frequency": 84, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "ought", "rank": 328, "frequency": 84, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in all examples"}
+{"type": "sure", "rank": 329, "frequency": 84, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in feel sure, be sure, may be sure, and are sure"}
+{"type": "either", "rank": 330, "frequency": 83, "tag": "CCONJ", "confidence": 0.68, "reasoning": "mostly part of either/or coordination; one context has no clear idea of either as pronominal", "alternative": "PRON"}
+{"type": "look", "rank": 331, "frequency": 83, "tag": "NOUN", "confidence": 0.58, "reasoning": "split between noun uses look and gesture/a sweeter look and verb uses look me in the face/eyes look", "alternative": "VERB"}
+{"type": "since", "rank": 332, "frequency": 83, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction in causal or temporal clauses across the examples"}
+{"type": "useful", "rank": 333, "frequency": 83, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all contexts"}
+{"type": "choose", "rank": 334, "frequency": 82, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "course", "rank": 335, "frequency": 82, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "doubt", "rank": 336, "frequency": 82, "tag": "NOUN", "confidence": 0.72, "reasoning": "mostly noun in no doubt; one example has the lexical verb I doubt", "alternative": "VERB"}
+{"type": "fear", "rank": 337, "frequency": 82, "tag": "NOUN", "confidence": 0.82, "reasoning": "mostly noun in sort of fear, fear of darkness, inward fear; have to fear is verbal", "alternative": "VERB"}
+{"type": "help", "rank": 338, "frequency": 82, "tag": "NOUN", "confidence": 0.72, "reasoning": "mostly noun in help of others and help-meet, though could not help laughing is verbal idiom", "alternative": "VERB"}
+{"type": "home", "rank": 339, "frequency": 82, "tag": "NOUN", "confidence": 0.78, "reasoning": "mostly noun in home training and the home; take him home is adverbial", "alternative": "ADV"}
+{"type": "judgment", "rank": 340, "frequency": 82, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "nurse", "rank": 341, "frequency": 82, "tag": "NOUN", "confidence": 0.86, "reasoning": "mostly noun for caregiver; one context has mothers nurse their children as verb", "alternative": "VERB"}
+{"type": "question", "rank": 342, "frequency": 82, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all examples"}
+{"type": "turn", "rank": 343, "frequency": 82, "tag": "NOUN", "confidence": 0.68, "reasoning": "mostly noun in in turn and my turn, with one verb use turn him into", "alternative": "VERB"}
+{"type": "ask", "rank": 344, "frequency": 81, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "brought", "rank": 345, "frequency": 81, "tag": "VERB", "confidence": 1.0, "reasoning": "past tense/participle of bring in all examples"}
+{"type": "consider", "rank": 346, "frequency": 81, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "difference", "rank": 347, "frequency": 81, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "passion", "rank": 348, "frequency": 81, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "wise", "rank": 349, "frequency": 81, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying men, man, and physician in all examples"}
+{"type": "within", "rank": 350, "frequency": 81, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in all examples"}
+{"type": "believe", "rank": 351, "frequency": 80, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "gives", "rank": 352, "frequency": 80, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb give in all contexts"}
+{"type": "left", "rank": 353, "frequency": 80, "tag": "VERB", "confidence": 0.62, "reasoning": "mixed past/participle verb in never left and left to himself, plus direction adjective/noun right or left", "alternative": "ADJ"}
+{"type": "becomes", "rank": 354, "frequency": 79, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical/copular verb become in all contexts"}
+{"type": "read", "rank": 355, "frequency": 79, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "seen", "rank": 356, "frequency": 79, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of see in all examples"}
+{"type": "making", "rank": 357, "frequency": 78, "tag": "VERB", "confidence": 1.0, "reasoning": "verbal gerund/participle of make in all examples"}
+{"type": "none", "rank": 358, "frequency": 78, "tag": "PRON", "confidence": 1.0, "reasoning": "negative indefinite pronoun in all examples"}
+{"type": "old", "rank": 359, "frequency": 78, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in ten years old, old age, ten-year-old child, old enough"}
+{"type": "pleasures", "rank": 360, "frequency": 78, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all contexts"}
+{"type": "says", "rank": 361, "frequency": 78, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb say in all examples"}
+{"type": "taught", "rank": 362, "frequency": 78, "tag": "VERB", "confidence": 1.0, "reasoning": "past tense/participle of teach in all examples"}
+{"type": "voice", "rank": 363, "frequency": 78, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "wish", "rank": 364, "frequency": 78, "tag": "VERB", "confidence": 0.78, "reasoning": "mostly verb in wish it, you wish to teach, and if we wish; one context has secret wish as noun", "alternative": "NOUN"}
+{"type": "answer", "rank": 365, "frequency": 77, "tag": "VERB", "confidence": 0.72, "reasoning": "mostly verb in answer me, answer at random, girl to answer; one context has the answer as noun", "alternative": "NOUN"}
+{"type": "further", "rank": 366, "frequency": 77, "tag": "ADV", "confidence": 0.9, "reasoning": "comparative distance/degree adverb in further on, no further, wandered further, further we advance"}
+{"type": "off", "rank": 367, "frequency": 77, "tag": "ADP", "confidence": 0.68, "reasoning": "particle/prepositional element in taken off, leaves off, far-off, turn off", "alternative": "ADV"}
+{"type": "ready", "rank": 368, "frequency": 77, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all contexts"}
+{"type": "earth", "rank": 369, "frequency": 76, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the world/planet in all examples"}
+{"type": "easy", "rank": 370, "frequency": 76, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "general", "rank": 371, "frequency": 76, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying well-being, rules, object, inference"}
+{"type": "afraid", "rank": 372, "frequency": 75, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in afraid of/to constructions in all examples"}
+{"type": "almost", "rank": 373, "frequency": 75, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb in all examples"}
+{"type": "choice", "rank": 374, "frequency": 75, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "thinks", "rank": 375, "frequency": 75, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb think in all examples"}
+{"type": "person", "rank": 376, "frequency": 74, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "rich", "rank": 377, "frequency": 74, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective or adjectival substantive in all examples"}
+{"type": "back", "rank": 378, "frequency": 73, "tag": "ADV", "confidence": 1.0, "reasoning": "directional adverb/particle in go back, reflected back, bring it back, come back"}
+{"type": "lead", "rank": 379, "frequency": 73, "tag": "VERB", "confidence": 0.82, "reasoning": "mostly verb in lead to, to lead, and paths lead; one context has the metal lead", "alternative": "NOUN"}
+{"type": "takes", "rank": 380, "frequency": 73, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb take in all examples"}
+{"type": "towards", "rank": 381, "frequency": 73, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in all examples"}
+{"type": "books", "rank": 382, "frequency": 72, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all contexts"}
+{"type": "child's", "rank": 383, "frequency": 72, "tag": "NOUN", "confidence": 0.86, "reasoning": "tokenized possessive form of child in child's mind, child's competition, child's system", "alternative": "DET"}
+{"type": "result", "rank": 384, "frequency": 72, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "easily", "rank": 385, "frequency": 71, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in all examples"}
+{"type": "greater", "rank": 386, "frequency": 71, "tag": "ADJ", "confidence": 1.0, "reasoning": "comparative adjective in all examples"}
+{"type": "husband", "rank": 387, "frequency": 71, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship/social noun in all contexts"}
+{"type": "living", "rank": 388, "frequency": 71, "tag": "NOUN", "confidence": 0.65, "reasoning": "mixed nominal gerund in way/art of living and adjective in living beings/flesh", "alternative": "ADJ"}
+{"type": "mistaken", "rank": 389, "frequency": 71, "tag": "ADJ", "confidence": 0.86, "reasoning": "adjectival/passive participle in be mistaken and mistaken lessons"}
+{"type": "sometimes", "rank": 390, "frequency": 71, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb in all examples"}
+{"type": "together", "rank": 391, "frequency": 71, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in all examples"}
+{"type": "authority", "rank": 392, "frequency": 70, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "bear", "rank": 393, "frequency": 70, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "bring", "rank": 394, "frequency": 70, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "die", "rank": 395, "frequency": 70, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "doing", "rank": 396, "frequency": 70, "tag": "VERB", "confidence": 1.0, "reasoning": "verbal gerund/participle of do in all examples"}
+{"type": "fail", "rank": 397, "frequency": 70, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "government", "rank": 398, "frequency": 70, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "nation", "rank": 399, "frequency": 70, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/collective noun in all contexts"}
+{"type": "required", "rank": 400, "frequency": 70, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of require in passive/participle constructions throughout"}
+{"type": "scarcely", "rank": 401, "frequency": 70, "tag": "ADV", "confidence": 1.0, "reasoning": "degree/frequency adverb in all contexts"}
+{"type": "seek", "rank": 402, "frequency": 70, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "affection", "rank": 403, "frequency": 69, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "childhood", "rank": 404, "frequency": 69, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common life-stage noun in all examples"}
+{"type": "enjoy", "rank": 405, "frequency": 69, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "learning", "rank": 406, "frequency": 69, "tag": "VERB", "confidence": 0.65, "reasoning": "mixed verbal gerund/participle and noun; examples include I am learning and capable of learning, plus learning as a possession", "alternative": "NOUN"}
+{"type": "perhaps", "rank": 407, "frequency": 69, "tag": "ADV", "confidence": 1.0, "reasoning": "modal adverb in all examples"}
+{"type": "told", "rank": 408, "frequency": 69, "tag": "VERB", "confidence": 1.0, "reasoning": "past tense/participle of tell in all contexts"}
+{"type": "unless", "rank": 409, "frequency": 69, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conditional conjunction in all examples"}
+{"type": "full", "rank": 410, "frequency": 68, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all contexts"}
+{"type": "habit", "rank": 411, "frequency": 68, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "moreover", "rank": 412, "frequency": 68, "tag": "ADV", "confidence": 1.0, "reasoning": "discourse adverb in all examples"}
+{"type": "simple", "rank": 413, "frequency": 68, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all contexts"}
+{"type": "vain", "rank": 414, "frequency": 68, "tag": "ADJ", "confidence": 0.75, "reasoning": "appears mainly in fixed adverbial in vain and adjectival vain struggles; surface form is adjectival", "alternative": "ADV"}
+{"type": "called", "rank": 415, "frequency": 67, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of call in so-called and passive naming constructions"}
+{"type": "method", "rank": 416, "frequency": 67, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "opinion", "rank": 417, "frequency": 67, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "pride", "rank": 418, "frequency": 67, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "room", "rank": 419, "frequency": 67, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a physical room in all contexts"}
+{"type": "years", "rank": 420, "frequency": 67, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun denoting years in all examples"}
+{"type": "alike", "rank": 421, "frequency": 66, "tag": "ADV", "confidence": 0.62, "reasoning": "mixed predicative adjective and adverbial uses; examples include are alike and treated/lead alike", "alternative": "ADJ"}
+{"type": "born", "rank": 422, "frequency": 66, "tag": "VERB", "confidence": 0.72, "reasoning": "mostly participial/passive form of bear in before he is born and pity is born; new-born compounds are adjectival", "alternative": "ADJ"}
+{"type": "however", "rank": 423, "frequency": 66, "tag": "ADV", "confidence": 1.0, "reasoning": "discourse adverb in all examples"}
+{"type": "wife", "rank": 424, "frequency": 66, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship/social noun in all contexts"}
+{"type": "bad", "rank": 425, "frequency": 65, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "food", "rank": 426, "frequency": 65, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "friend", "rank": 427, "frequency": 65, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun and form of address in all examples"}
+{"type": "instead", "rank": 428, "frequency": 65, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in instead of constructions throughout"}
+{"type": "moral", "rank": 429, "frequency": 65, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying symptoms, lessons, ideas, and training"}
+{"type": "rule", "rank": 430, "frequency": 65, "tag": "NOUN", "confidence": 0.82, "reasoning": "mostly noun in the rule, rule of habit, and as your rule; one context has verb must rule", "alternative": "VERB"}
+{"type": "book", "rank": 431, "frequency": 64, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "freedom", "rank": 432, "frequency": 64, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "prejudices", "rank": 433, "frequency": 64, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all contexts"}
+{"type": "reach", "rank": 434, "frequency": 64, "tag": "NOUN", "confidence": 0.58, "reasoning": "split between noun phrase beyond his reach and verb uses reach our goal/reach an age", "alternative": "VERB"}
+{"type": "seem", "rank": 435, "frequency": 64, "tag": "VERB", "confidence": 1.0, "reasoning": "finite verb seem in all contexts"}
+{"type": "above", "rank": 436, "frequency": 63, "tag": "ADP", "confidence": 0.72, "reasoning": "mostly preposition or fixed prepositional phrase: above fable, above all, above-mentioned", "alternative": "ADV"}
+{"type": "aware", "rank": 437, "frequency": 63, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in aware of constructions throughout"}
+{"type": "comes", "rank": 438, "frequency": 63, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb come in all examples"}
+{"type": "girl", "rank": 439, "frequency": 63, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "prevent", "rank": 440, "frequency": 63, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "sex", "rank": 441, "frequency": 63, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "tutor", "rank": 442, "frequency": 63, "tag": "NOUN", "confidence": 1.0, "reasoning": "common role noun in all contexts"}
+{"type": "difficult", "rank": 443, "frequency": 62, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "difficulty", "rank": 444, "frequency": 62, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "got", "rank": 445, "frequency": 62, "tag": "VERB", "confidence": 1.0, "reasoning": "past tense/participle of get in all examples"}
+{"type": "mankind", "rank": 446, "frequency": 62, "tag": "NOUN", "confidence": 1.0, "reasoning": "collective/common noun in all contexts"}
+{"type": "pity", "rank": 447, "frequency": 62, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "position", "rank": 448, "frequency": 62, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "air", "rank": 449, "frequency": 61, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for tune or atmosphere/fluid in all examples"}
+{"type": "conduct", "rank": 450, "frequency": 61, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun meaning behavior in all contexts"}
+{"type": "down", "rank": 451, "frequency": 61, "tag": "ADV", "confidence": 0.72, "reasoning": "mostly directional/particle adverb in run down, laid down, coming down; one context has cheek down as noun", "alternative": "NOUN"}
+{"type": "hard", "rank": 452, "frequency": 61, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "meaning", "rank": 453, "frequency": 61, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "return", "rank": 454, "frequency": 61, "tag": "VERB", "confidence": 0.78, "reasoning": "mostly verb in I return, to return, return it, return to subject; one context has time of your return as noun", "alternative": "NOUN"}
+{"type": "wants", "rank": 455, "frequency": 61, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb want in all examples"}
+{"type": "face", "rank": 456, "frequency": 60, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "former", "rank": 457, "frequency": 60, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective/determiner-like modifier in all examples"}
+{"type": "head", "rank": 458, "frequency": 60, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "individual", "rank": 459, "frequency": 60, "tag": "ADJ", "confidence": 0.82, "reasoning": "mostly adjective modifying member, will, and bent; private individual is substantivized", "alternative": "NOUN"}
+{"type": "used", "rank": 460, "frequency": 60, "tag": "VERB", "confidence": 1.0, "reasoning": "past/participle form of use in used to and are used to constructions"}
+{"type": "value", "rank": 461, "frequency": 60, "tag": "NOUN", "confidence": 0.78, "reasoning": "mostly noun in value of favours, much value, excessive value; one context has verb to value", "alternative": "VERB"}
+{"type": "early", "rank": 462, "frequency": 59, "tag": "ADV", "confidence": 0.58, "reasoning": "split between adverbial learn/come early and adjectival early education/early bent", "alternative": "ADJ"}
+{"type": "effect", "rank": 463, "frequency": 59, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "gain", "rank": 464, "frequency": 59, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "lessons", "rank": 465, "frequency": 59, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all contexts"}
+{"type": "necessary", "rank": 466, "frequency": 59, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "public", "rank": 467, "frequency": 59, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying good, opinion, life, and opinion"}
+{"type": "small", "rank": 468, "frequency": 59, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "hear", "rank": 469, "frequency": 58, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "hold", "rank": 470, "frequency": 58, "tag": "VERB", "confidence": 0.62, "reasoning": "mixed verb and noun: hold such a faith/hold his tongue are verbs, get/losing my hold are nouns", "alternative": "NOUN"}
+{"type": "mean", "rank": 471, "frequency": 58, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning intend or signify in all contexts"}
+{"type": "possible", "rank": 472, "frequency": 58, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "remember", "rank": 473, "frequency": 58, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "thinking", "rank": 474, "frequency": 58, "tag": "VERB", "confidence": 0.72, "reasoning": "mostly verbal gerund/participle in thinking of him and thinking of Homer; way/art of thinking are nominal", "alternative": "NOUN"}
+{"type": "case", "rank": 475, "frequency": 57, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "character", "rank": 476, "frequency": 57, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in all contexts"}
+{"type": "delight", "rank": 477, "frequency": 57, "tag": "NOUN", "confidence": 0.74, "reasoning": "mostly noun in tears/chief delight; two examples use verb delight in", "alternative": "VERB"}
+{"type": "depends", "rank": 478, "frequency": 57, "tag": "VERB", "confidence": 1.0, "reasoning": "finite verb depend in all contexts"}
+{"type": "eye", "rank": 479, "frequency": 57, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the eye in all examples"}
+{"type": "here", "rank": 480, "frequency": 57, "tag": "ADV", "confidence": 1.0, "reasoning": "locative/discourse adverb in all contexts"}
+{"type": "point", "rank": 481, "frequency": 57, "tag": "NOUN", "confidence": 0.82, "reasoning": "mostly noun in point I was coming to, prove this point, starting point; one context has verb point to", "alternative": "VERB"}
+{"type": "soul", "rank": 482, "frequency": 57, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "whatever", "rank": 483, "frequency": 57, "tag": "PRON", "confidence": 0.75, "reasoning": "indefinite relative pronoun/determiner in all contexts; whatever advantages is determiner-like", "alternative": "DET"}
+{"type": "advantage", "rank": 484, "frequency": 56, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "fault", "rank": 485, "frequency": 56, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "plain", "rank": 486, "frequency": 56, "tag": "ADJ", "confidence": 0.86, "reasoning": "mostly adjective in plain and simple and plain tale; one context has a plain or valley as noun", "alternative": "NOUN"}
+{"type": "sort", "rank": 487, "frequency": 56, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun meaning kind/type in all examples"}
+{"type": "speech", "rank": 488, "frequency": 56, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "subject", "rank": 489, "frequency": 56, "tag": "NOUN", "confidence": 0.72, "reasoning": "mostly noun in political and topical senses; one example uses subject him as verb", "alternative": "VERB"}
+{"type": "town", "rank": 490, "frequency": 56, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "worthy", "rank": 491, "frequency": 56, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "call", "rank": 492, "frequency": 55, "tag": "VERB", "confidence": 0.78, "reasoning": "mostly verb in I call, death will call, prefer to call; one context has the call of nature as noun", "alternative": "NOUN"}
+{"type": "dear", "rank": 493, "frequency": 55, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective or vocative modifier in all contexts"}
+{"type": "knowing", "rank": 494, "frequency": 55, "tag": "VERB", "confidence": 1.0, "reasoning": "verbal gerund/participle of know in all examples"}
+{"type": "motion", "rank": 495, "frequency": 55, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in all examples"}
+{"type": "spite", "rank": 496, "frequency": 55, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in fixed prepositional phrase in spite of throughout"}
+{"type": "water", "rank": 497, "frequency": 55, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "conscience", "rank": 498, "frequency": 54, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "finds", "rank": 499, "frequency": 54, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb find in all contexts"}
+{"type": "foolish", "rank": 500, "frequency": 54, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "social", "rank": 501, "frequency": 54, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying group, contract, system, and life"}
+{"type": "spirit", "rank": 502, "frequency": 54, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "suppose", "rank": 503, "frequency": 54, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "worth", "rank": 504, "frequency": 54, "tag": "ADJ", "confidence": 0.58, "reasoning": "mixed predicative adjective worth your while/worth the winning and noun uses greater worth/child's worth", "alternative": "NOUN"}
+{"type": "birth", "rank": 505, "frequency": 53, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "business", "rank": 506, "frequency": 53, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "clear", "rank": 507, "frequency": 53, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in predicative and attributive uses throughout"}
+{"type": "condition", "rank": 508, "frequency": 53, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "else", "rank": 509, "frequency": 53, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in or else, no one else, everybody else constructions"}
+{"type": "girls", "rank": 510, "frequency": 53, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all contexts"}
+{"type": "later", "rank": 511, "frequency": 53, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal adverb in all examples"}
+{"type": "lest", "rank": 512, "frequency": 53, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing prevention clauses in all contexts"}
+{"type": "moment", "rank": 513, "frequency": 53, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all examples"}
+{"type": "morals", "rank": 514, "frequency": 53, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all contexts"}
+{"type": "objects", "rank": 515, "frequency": 53, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common/abstract noun in all examples"}
+{"type": "strange", "rank": 516, "frequency": 53, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all contexts"}
+{"type": "trade", "rank": 517, "frequency": 53, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all examples"}
+{"type": "wealth", "rank": 518, "frequency": 53, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in all contexts"}
+{"type": "according", "rank": 519, "frequency": 52, "tag": "ADP", "confidence": 1.0, "reasoning": "fixed prepositional expression according to in all examples"}
+{"type": "danger", "rank": 520, "frequency": 52, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "known", "rank": 521, "frequency": 52, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of know in all examples"}
+{"type": "language", "rank": 522, "frequency": 52, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "thoughts", "rank": 523, "frequency": 52, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all contexts"}
+{"type": "vice", "rank": 524, "frequency": 52, "tag": "NOUN", "confidence": 0.95, "reasoning": "abstract noun in moral contexts; vice versa occurrence is a fixed Latin phrase but still tokenized as the same form"}
+{"type": "action", "rank": 525, "frequency": 51, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "compare", "rank": 526, "frequency": 51, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "grown", "rank": 527, "frequency": 51, "tag": "VERB", "confidence": 0.72, "reasoning": "past participle in grown up and grown-up constructions; adjectival reading is also present", "alternative": "ADJ"}
+{"type": "heard", "rank": 528, "frequency": 51, "tag": "VERB", "confidence": 1.0, "reasoning": "past tense/participle of hear in all examples"}
+{"type": "history", "rank": 529, "frequency": 51, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "knew", "rank": 530, "frequency": 51, "tag": "VERB", "confidence": 1.0, "reasoning": "past tense of know in all examples"}
+{"type": "lose", "rank": 531, "frequency": 51, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "money", "rank": 532, "frequency": 51, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all examples"}
+{"type": "pleasant", "rank": 533, "frequency": 51, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all contexts"}
+{"type": "serve", "rank": 534, "frequency": 51, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "talk", "rank": 535, "frequency": 51, "tag": "VERB", "confidence": 0.78, "reasoning": "mostly verb in learn to talk, foxes talk, talk of something else; one context has pious talk as noun", "alternative": "NOUN"}
+{"type": "tears", "rank": 536, "frequency": 51, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all contexts"}
+{"type": "took", "rank": 537, "frequency": 51, "tag": "VERB", "confidence": 1.0, "reasoning": "past tense of take in all examples"}
+{"type": "touch", "rank": 538, "frequency": 51, "tag": "VERB", "confidence": 0.68, "reasoning": "mixed verb and noun; contexts include cannot touch, touch upon, must not touch, but also by touch", "alternative": "NOUN"}
+{"type": "vanity", "rank": 539, "frequency": 51, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "weakness", "rank": 540, "frequency": 51, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "content", "rank": 541, "frequency": 50, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in be content/not content constructions throughout"}
+{"type": "discover", "rank": 542, "frequency": 50, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "house", "rank": 543, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "matters", "rank": 544, "frequency": 50, "tag": "NOUN", "confidence": 0.58, "reasoning": "split between noun uses these matters/matters of convention and verb uses everything matters/it matters", "alternative": "VERB"}
+{"type": "mere", "rank": 545, "frequency": 50, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying humbug, plaything, thank you, and decisions"}
+{"type": "saying", "rank": 546, "frequency": 50, "tag": "VERB", "confidence": 0.72, "reasoning": "mostly verbal participle in what are you saying, I am saying, saying that; one context has fine saying as noun", "alternative": "NOUN"}
+{"type": "sensations", "rank": 547, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract/common noun in all contexts"}
+{"type": "something", "rank": 548, "frequency": 50, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun in all examples"}
+{"type": "speaking", "rank": 549, "frequency": 50, "tag": "VERB", "confidence": 1.0, "reasoning": "verbal gerund/participle in all contexts"}
+{"type": "behold", "rank": 550, "frequency": 49, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "false", "rank": 551, "frequency": 49, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "justice", "rank": 552, "frequency": 49, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "pain", "rank": 553, "frequency": 49, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "relation", "rank": 554, "frequency": 49, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "results", "rank": 555, "frequency": 49, "tag": "NOUN", "confidence": 0.86, "reasoning": "mostly plural noun in results of and dangerous results; one context has verb results from", "alternative": "VERB"}
+{"type": "rights", "rank": 556, "frequency": 49, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all contexts"}
+{"type": "share", "rank": 557, "frequency": 49, "tag": "NOUN", "confidence": 0.58, "reasoning": "split between noun uses her share/take your share and verb uses does not share/share his room", "alternative": "VERB"}
+{"type": "bodies", "rank": 558, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all contexts"}
+{"type": "distance", "rank": 559, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "expect", "rank": 560, "frequency": 48, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "fashion", "rank": 561, "frequency": 48, "tag": "NOUN", "confidence": 0.72, "reasoning": "mostly noun in after/in this fashion; one context has verb fashion him", "alternative": "VERB"}
+{"type": "fine", "rank": 562, "frequency": 48, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all contexts"}
+{"type": "new", "rank": 563, "frequency": 48, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "open", "rank": 564, "frequency": 48, "tag": "ADJ", "confidence": 0.72, "reasoning": "mostly adjective in open shame/expression and thrown open; one context has verb open around us", "alternative": "VERB"}
+{"type": "slave", "rank": 565, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "son", "rank": 566, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship noun in all contexts"}
+{"type": "active", "rank": 567, "frequency": 47, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "begins", "rank": 568, "frequency": 47, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb begin in all contexts"}
+{"type": "clearly", "rank": 569, "frequency": 47, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in all examples"}
+{"type": "draw", "rank": 570, "frequency": 47, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "fellow", "rank": 571, "frequency": 47, "tag": "ADJ", "confidence": 0.72, "reasoning": "mostly compound/attributive modifier in fellow-feeling, fellow-countrymen, fellow-creatures; young fellow is nominal", "alternative": "NOUN"}
+{"type": "follows", "rank": 572, "frequency": 47, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb follow in all examples"}
+{"type": "giving", "rank": 573, "frequency": 47, "tag": "VERB", "confidence": 1.0, "reasoning": "verbal gerund/participle of give in all examples"}
+{"type": "half", "rank": 574, "frequency": 47, "tag": "NUM", "confidence": 1.0, "reasoning": "fractional numeral/quantifier in all contexts"}
+{"type": "led", "rank": 575, "frequency": 47, "tag": "VERB", "confidence": 1.0, "reasoning": "past tense/participle of lead in all examples"}
+{"type": "name", "rank": 576, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "nations", "rank": 577, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all contexts"}
+{"type": "opinions", "rank": 578, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all contexts"}
+{"type": "pains", "rank": 579, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common/abstract noun in all examples"}
+{"type": "parents", "rank": 580, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common kinship noun in all contexts"}
+{"type": "prejudice", "rank": 581, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "reasons", "rank": 582, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract/common noun in all contexts"}
+{"type": "run", "rank": 583, "frequency": 47, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "side", "rank": 584, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "travel", "rank": 585, "frequency": 47, "tag": "VERB", "confidence": 0.78, "reasoning": "mostly verb in must travel and they travel; one context has books of travel as noun", "alternative": "NOUN"}
+{"type": "beauty", "rank": 586, "frequency": 46, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "except", "rank": 587, "frequency": 46, "tag": "ADP", "confidence": 0.86, "reasoning": "preposition/subordinator meaning excluding in all examples; mostly before phrases rather than full finite clauses", "alternative": "SCONJ"}
+{"type": "exercise", "rank": 588, "frequency": 46, "tag": "NOUN", "confidence": 0.78, "reasoning": "mostly noun in bodily/violent exercise; one context has laws exercise constraint as verb", "alternative": "VERB"}
+{"type": "guide", "rank": 589, "frequency": 46, "tag": "NOUN", "confidence": 0.86, "reasoning": "mostly noun for a guide; one context has landmark to guide us as verb", "alternative": "VERB"}
+{"type": "impression", "rank": 590, "frequency": 46, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "philosophy", "rank": 591, "frequency": 46, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in all contexts"}
+{"type": "rules", "rank": 592, "frequency": 46, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common/abstract noun in all contexts"}
+{"type": "sufferings", "rank": 593, "frequency": 46, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract/common noun in all examples"}
+{"type": "capable", "rank": 594, "frequency": 45, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in capable of constructions throughout"}
+{"type": "contrary", "rank": 595, "frequency": 45, "tag": "NOUN", "confidence": 0.74, "reasoning": "mostly substantive in fixed phrase on the contrary and the contrary of what should be done", "alternative": "ADJ"}
+{"type": "creatures", "rank": 596, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all contexts"}
+{"type": "escape", "rank": 597, "frequency": 45, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "family", "rank": 598, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/collective noun in all contexts"}
+{"type": "fresh", "rank": 599, "frequency": 45, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "hearts", "rank": 600, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common/abstract noun in all contexts"}
+{"type": "importance", "rank": 601, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "light", "rank": 602, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "please", "rank": 603, "frequency": 45, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "seeing", "rank": 604, "frequency": 45, "tag": "VERB", "confidence": 1.0, "reasoning": "verbal gerund/participle of see in all examples"}
+{"type": "three", "rank": 605, "frequency": 45, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in all contexts"}
+{"type": "unknown", "rank": 606, "frequency": 45, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "carefully", "rank": 607, "frequency": 44, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in all examples"}
+{"type": "causes", "rank": 608, "frequency": 44, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly plural noun in causes/effects and first causes; one context has verb causes anxiety", "alternative": "VERB"}
+{"type": "chance", "rank": 609, "frequency": 44, "tag": "NOUN", "confidence": 0.95, "reasoning": "common/abstract noun in all examples; chance sown is an attributive use"}
+{"type": "charm", "rank": 610, "frequency": 44, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in all contexts"}
+{"type": "compelled", "rank": 611, "frequency": 44, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of compel in passive/adjectival passive constructions"}
+{"type": "feels", "rank": 612, "frequency": 44, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb feel in all contexts"}
+{"type": "learnt", "rank": 613, "frequency": 44, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of learn in all examples"}
+{"type": "morality", "rank": 614, "frequency": 44, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "principles", "rank": 615, "frequency": 44, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all examples"}
+{"type": "consists", "rank": 616, "frequency": 43, "tag": "VERB", "confidence": 1.0, "reasoning": "finite verb consist in/of throughout"}
+{"type": "days", "rank": 617, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all examples"}
+{"type": "dependent", "rank": 618, "frequency": 43, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in dependent on constructions throughout"}
+{"type": "effects", "rank": 619, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common/abstract noun in all contexts"}
+{"type": "force", "rank": 620, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all examples"}
+{"type": "games", "rank": 621, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all contexts"}
+{"type": "health", "rank": 622, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in all examples"}
+{"type": "necessity", "rank": 623, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "play", "rank": 624, "frequency": 43, "tag": "NOUN", "confidence": 0.62, "reasoning": "split between noun uses work and play/play upon words and verb uses I would play/never play", "alternative": "VERB"}
+{"type": "purpose", "rank": 625, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "saw", "rank": 626, "frequency": 43, "tag": "VERB", "confidence": 1.0, "reasoning": "past tense of see in all examples"}
+{"type": "sovereign", "rank": 627, "frequency": 43, "tag": "NOUN", "confidence": 0.58, "reasoning": "mixed political noun and adjective: sovereign power is adjectival, while neither sovereign and subjects and sovereign are nominal", "alternative": "ADJ"}
+{"type": "useless", "rank": 628, "frequency": 43, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "watch", "rank": 629, "frequency": 43, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "ways", "rank": 630, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all examples"}
+{"type": "forget", "rank": 631, "frequency": 42, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "hardly", "rank": 632, "frequency": 42, "tag": "ADV", "confidence": 1.0, "reasoning": "degree/frequency adverb in all examples"}
+{"type": "marriage", "rank": 633, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "paris", "rank": 634, "frequency": 42, "tag": "PROPN", "confidence": 1.0, "reasoning": "place name Paris in all contexts"}
+{"type": "questions", "rank": 635, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all contexts"}
+{"type": "teaches", "rank": 636, "frequency": 42, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb teach in all examples"}
+{"type": "vices", "rank": 637, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in all contexts"}
+{"type": "avoid", "rank": 638, "frequency": 41, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "generally", "rank": 639, "frequency": 41, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in all examples"}
+{"type": "mine", "rank": 640, "frequency": 41, "tag": "PRON", "confidence": 1.0, "reasoning": "possessive pronoun in all examples"}
+{"type": "picture", "rank": 641, "frequency": 41, "tag": "NOUN", "confidence": 0.78, "reasoning": "mostly noun in the picture and charming picture; one context has verb I picture", "alternative": "VERB"}
+{"type": "promise", "rank": 642, "frequency": 41, "tag": "NOUN", "confidence": 0.7, "reasoning": "mostly noun in your promise, promise of another, this promise; also verb I promise", "alternative": "VERB"}
+{"type": "second", "rank": 643, "frequency": 41, "tag": "NUM", "confidence": 1.0, "reasoning": "ordinal number in all examples"}
+{"type": "system", "rank": 644, "frequency": 41, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "weak", "rank": 645, "frequency": 41, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "although", "rank": 646, "frequency": 40, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating concessive conjunction in all examples"}
+{"type": "curiosity", "rank": 647, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "future", "rank": 648, "frequency": 40, "tag": "NOUN", "confidence": 0.62, "reasoning": "mixed noun and adjective: pursuing a future and into the future are nouns, future mistress/time are adjectival", "alternative": "ADJ"}
+{"type": "greatly", "rank": 649, "frequency": 40, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb in all examples"}
+{"type": "kindly", "rank": 650, "frequency": 40, "tag": "ADJ", "confidence": 0.58, "reasoning": "split between adjective uses kindly heart/just and kindly and adverb uses received us kindly/kindly sending", "alternative": "ADV"}
+{"type": "latter", "rank": 651, "frequency": 40, "tag": "PRON", "confidence": 0.72, "reasoning": "mostly substantive pronoun in the latter; one context has this latter passion as adjectival modifier", "alternative": "ADJ"}
+{"type": "leads", "rank": 652, "frequency": 40, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb lead in all examples"}
+{"type": "memory", "rank": 653, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "miserable", "rank": 654, "frequency": 40, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "next", "rank": 655, "frequency": 40, "tag": "ADJ", "confidence": 0.82, "reasoning": "mostly adjective/ordinal modifier in next day, next business, next place; come next is adverbial", "alternative": "ADV"}
+{"type": "oh", "rank": 656, "frequency": 40, "tag": "INTJ", "confidence": 1.0, "reasoning": "interjection in dialogue in all examples"}
+{"type": "require", "rank": 657, "frequency": 40, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all contexts"}
+{"type": "scholar", "rank": 658, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "common role noun in all contexts"}
+{"type": "spend", "rank": 659, "frequency": 40, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "suffering", "rank": 660, "frequency": 40, "tag": "NOUN", "confidence": 0.95, "reasoning": "mostly noun meaning pain/distress in all examples"}
+{"type": "task", "rank": 661, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "tastes", "rank": 662, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common/abstract noun in all examples"}
+{"type": "tone", "rank": 663, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in all contexts"}
+{"type": "train", "rank": 664, "frequency": 40, "tag": "VERB", "confidence": 0.78, "reasoning": "mostly verb in to train, train their sense, who must train; one context has in its train as noun", "alternative": "NOUN"}
+{"type": "walk", "rank": 665, "frequency": 40, "tag": "VERB", "confidence": 0.78, "reasoning": "mostly verb in let you walk, walk into, walk in; one context has took him a walk as noun", "alternative": "NOUN"}
+{"type": "worse", "rank": 666, "frequency": 40, "tag": "ADJ", "confidence": 1.0, "reasoning": "comparative adjective in all examples"}
+{"type": "acquired", "rank": 667, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of acquire in all contexts"}
+{"type": "assume", "rank": 668, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "carried", "rank": 669, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of carry in all examples"}
+{"type": "cold", "rank": 670, "frequency": 39, "tag": "ADJ", "confidence": 0.62, "reasoning": "mixed adjective and noun: clear and cold/cold-hearted are adjectival, extreme cold/great cold are nouns", "alternative": "NOUN"}
+{"type": "eager", "rank": 671, "frequency": 39, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all examples"}
+{"type": "educated", "rank": 672, "frequency": 39, "tag": "VERB", "confidence": 0.78, "reasoning": "past participle of educate in well-educated/carefully educated/have to be educated; adjectival reading also present", "alternative": "ADJ"}
+{"type": "fate", "rank": 673, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "faults", "rank": 674, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common/abstract noun in all examples"}
+{"type": "formed", "rank": 675, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle/past tense of form in all contexts"}
+{"type": "ignorance", "rank": 676, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "impossible", "rank": 677, "frequency": 39, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all contexts"}
+{"type": "liberty", "rank": 678, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all examples"}
+{"type": "lie", "rank": 679, "frequency": 39, "tag": "VERB", "confidence": 0.58, "reasoning": "split between verb uses cease to lie/cannot lie and noun uses a downright lie/gives the lie", "alternative": "NOUN"}
+{"type": "lives", "rank": 680, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb live in all contexts"}
+{"type": "loves", "rank": 681, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb love in all examples"}
+{"type": "secret", "rank": 682, "frequency": 39, "tag": "NOUN", "confidence": 0.7, "reasoning": "mostly noun in the secret of art/the one and the other/in secret, with one adjectival secret wish", "alternative": "ADJ"}
+{"type": "understanding", "rank": 683, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun/nominal gerund in all contexts"}
+{"type": "wicked", "rank": 684, "frequency": 39, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjectival substantive in the wicked and wicked takes, functioning as an adjective used nominally"}
+{"type": "clothes", "rank": 685, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in all examples"}
+{"type": "concerned", "rank": 686, "frequency": 38, "tag": "VERB", "confidence": 0.72, "reasoning": "mostly passive/participle form of concern; more concerned and not concerned have adjectival passive force", "alternative": "ADJ"}
+{"type": "confidence", "rank": 687, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "dare", "rank": 688, "frequency": 38, "tag": "VERB", "confidence": 1.0, "reasoning": "main/modal-like verb dare in all contexts"}
+{"type": "gave", "rank": 689, "frequency": 38, "tag": "VERB", "confidence": 1.0, "reasoning": "past tense of give in all examples"}
+{"type": "hence", "rank": 690, "frequency": 38, "tag": "ADV", "confidence": 1.0, "reasoning": "consequential/temporal adverb in all examples"}
+{"type": "lost", "rank": 691, "frequency": 38, "tag": "VERB", "confidence": 1.0, "reasoning": "past tense/participle of lose in all contexts"}
+{"type": "milk", "rank": 692, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all examples"}
+{"type": "night", "rank": 693, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "peace", "rank": 694, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in all contexts"}
+{"type": "refuse", "rank": 695, "frequency": 38, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in all examples"}
+{"type": "sensitive", "rank": 696, "frequency": 38, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in all contexts"}
+{"type": "spring", "rank": 697, "frequency": 38, "tag": "VERB", "confidence": 0.72, "reasoning": "mostly verb in spring up and spring from; one context has the season spring as noun", "alternative": "NOUN"}
+{"type": "step", "rank": 698, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in all contexts"}
+{"type": "taking", "rank": 699, "frequency": 38, "tag": "VERB", "confidence": 1.0, "reasoning": "verbal gerund/participle of take in all examples"}
+{"type": "trouble", "rank": 700, "frequency": 38, "tag": "VERB", "confidence": 0.76, "reasoning": "mostly verb in must not trouble, trouble ourselves, do not trouble; one context has takes trouble as noun", "alternative": "NOUN"}
+{"type": "bodily", "rank": 701, "frequency": 37, "tag": "ADJ", "confidence": 1.0, "reasoning": "modifies exercise, organs, activity, and labour in the contexts shown"}
+{"type": "creature", "rank": 702, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a living being in all contexts"}
+{"type": "eat", "rank": 703, "frequency": 37, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of consuming food in all four contexts"}
+{"type": "established", "rank": 704, "frequency": 37, "tag": "VERB", "confidence": 0.78, "reasoning": "mostly past participle/passive uses such as rights or confidence being established; one attributive adjective use in 'established fact'", "alternative": "ADJ"}
+{"type": "explain", "rank": 705, "frequency": 37, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning make clear in every context"}
+{"type": "fact", "rank": 706, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun naming an observed or asserted fact throughout"}
+{"type": "fancy", "rank": 707, "frequency": 37, "tag": "NOUN", "confidence": 0.58, "reasoning": "appears as noun in 'took such a fancy' and 'beauty of fancy'; also has adjective and verb uses in the shown contexts", "alternative": "VERB"}
+{"type": "forms", "rank": 708, "frequency": 37, "tag": "NOUN", "confidence": 0.62, "reasoning": "plural noun in 'forms of government' and 'different forms', though two contexts use the verb 'forms'", "alternative": "VERB"}
+{"type": "goes", "rank": 709, "frequency": 37, "tag": "VERB", "confidence": 1.0, "reasoning": "finite main verb of motion or idiom in all contexts"}
+{"type": "lover", "rank": 710, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a beloved or truth-lover in the contexts shown"}
+{"type": "practice", "rank": 711, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun meaning custom, practical matters, or repeated action in all contexts"}
+{"type": "presence", "rank": 712, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun meaning being present throughout"}
+{"type": "remain", "rank": 713, "frequency": 37, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning continue to be or stay in all contexts"}
+{"type": "shows", "rank": 714, "frequency": 37, "tag": "VERB", "confidence": 1.0, "reasoning": "finite verb meaning demonstrates in every context"}
+{"type": "spent", "rank": 715, "frequency": 37, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle or past-tense verb describing time or money spent"}
+{"type": "view", "rank": 716, "frequency": 37, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in 'point of view', 'end in view', and 'full view'; one context uses verb 'view them'", "alternative": "VERB"}
+{"type": "virtues", "rank": 717, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for moral qualities in all contexts"}
+{"type": "accept", "rank": 718, "frequency": 36, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning receive or assent to in every context"}
+{"type": "author", "rank": 719, "frequency": 36, "tag": "NOUN", "confidence": 0.86, "reasoning": "common noun for writer or creator; capitalized 'Author of nature' is honorific but still functions as the noun author", "alternative": "PROPN"}
+{"type": "chief", "rank": 720, "frequency": 36, "tag": "ADJ", "confidence": 0.95, "reasoning": "modifies part, fault, maxim, and citizens in the shown contexts"}
+{"type": "continually", "rank": 721, "frequency": 36, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying seeing, sacrificed, watch, and speaking"}
+{"type": "cruel", "rank": 722, "frequency": 36, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying pleasures, it, murderers, and peace"}
+{"type": "dangerous", "rank": 723, "frequency": 36, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying objects, curiosity, enemy, and mysteries"}
+{"type": "development", "rank": 724, "frequency": 36, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for growth or unfolding in every context"}
+{"type": "due", "rank": 725, "frequency": 36, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in 'due respect' and predicative 'is due to' constructions"}
+{"type": "empty", "rank": 726, "frequency": 36, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying precepts, compliment, vows, and attention"}
+{"type": "faith", "rank": 727, "frequency": 36, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for belief or trust in all contexts"}
+{"type": "fall", "rank": 728, "frequency": 36, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning descend, fail, or become victim in all contexts"}
+{"type": "fortune", "rank": 729, "frequency": 36, "tag": "NOUN", "confidence": 0.95, "reasoning": "noun for wealth or luck; one personified Fortune context still functions nominally"}
+{"type": "harm", "rank": 730, "frequency": 36, "tag": "NOUN", "confidence": 0.9, "reasoning": "mostly noun as object or complement in 'do harm', 'serious harm', and 'what harm'"}
+{"type": "important", "rank": 731, "frequency": 36, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying lesson, senses, faculty, and part"}
+{"type": "pay", "rank": 732, "frequency": 36, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in 'pay court', 'pay heed', and 'price to pay'"}
+{"type": "source", "rank": 733, "frequency": 36, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for origin or cause in all contexts"}
+{"type": "suffer", "rank": 734, "frequency": 36, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning undergo pain or harm in every context"}
+{"type": "conditions", "rank": 735, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun meaning circumstances or requirements throughout"}
+{"type": "considered", "rank": 736, "frequency": 35, "tag": "VERB", "confidence": 0.92, "reasoning": "past participle or finite verb in passive/mental-process uses such as 'are considered' and 'I considered'"}
+{"type": "continue", "rank": 737, "frequency": 35, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning persist or proceed in all contexts"}
+{"type": "conversation", "rank": 738, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for talk in all contexts"}
+{"type": "cries", "rank": 739, "frequency": 35, "tag": "VERB", "confidence": 0.7, "reasoning": "verb in 'cries out', 'cries', and 'only cries'; also appears as noun in 'the cries of children'", "alternative": "NOUN"}
+{"type": "direction", "rank": 740, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun meaning guidance or spatial direction in every context"}
+{"type": "honest", "rank": 741, "frequency": 35, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in imperatives and noun modifiers like honest lad and honest trades"}
+{"type": "hope", "rank": 742, "frequency": 35, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly verbal in 'do not hope', 'you hope', and 'may hope'; one context has noun 'last hope'", "alternative": "NOUN"}
+{"type": "ills", "rank": 743, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for sufferings or evils in all contexts"}
+{"type": "lived", "rank": 744, "frequency": 35, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of living in all contexts"}
+{"type": "meant", "rank": 745, "frequency": 35, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb meaning signified or intended"}
+{"type": "path", "rank": 746, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for literal or figurative path in all contexts"}
+{"type": "pleasing", "rank": 747, "frequency": 35, "tag": "ADJ", "confidence": 0.95, "reasoning": "participial adjective describing masks, details, employments, or qualities made pleasing"}
+{"type": "produce", "rank": 748, "frequency": 35, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning bring about in every context"}
+{"type": "scorn", "rank": 749, "frequency": 35, "tag": "NOUN", "confidence": 0.78, "reasoning": "mostly noun in lists like scorn and mockery or scorn of men; one context uses verb 'pour scorn'", "alternative": "VERB"}
+{"type": "short", "rank": 750, "frequency": 35, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying walk, time, lever, and time span"}
+{"type": "wisdom", "rank": 751, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for wisdom in every context"}
+{"type": "arguments", "rank": 752, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for reasons or argumentative claims throughout"}
+{"type": "arts", "rank": 753, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for skills or practical arts in every context"}
+{"type": "ashamed", "rank": 754, "frequency": 34, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective describing embarrassment in all contexts"}
+{"type": "charms", "rank": 755, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for attractiveness or delights in the shown contexts"}
+{"type": "convinced", "rank": 756, "frequency": 34, "tag": "ADJ", "confidence": 0.82, "reasoning": "predicative participial adjective in 'am/was convinced'; retains verbal origin but describes state of belief", "alternative": "VERB"}
+{"type": "expression", "rank": 757, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for phrase, facial look, or mode of speech throughout"}
+{"type": "feet", "rank": 758, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun in all contexts"}
+{"type": "greatest", "rank": 759, "frequency": 34, "tag": "ADJ", "confidence": 1.0, "reasoning": "superlative adjective modifying rule, marvels, respect, and thinkers"}
+{"type": "increase", "rank": 760, "frequency": 34, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning make greater in every context"}
+{"type": "learned", "rank": 761, "frequency": 34, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly past participle of learn; one context has adjective 'appear learned'", "alternative": "ADJ"}
+{"type": "listen", "rank": 762, "frequency": 34, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning attend to speech or conscience in all contexts"}
+{"type": "manners", "rank": 763, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun meaning social conduct or customs throughout"}
+{"type": "observe", "rank": 764, "frequency": 34, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning watch, notice, or study in every context"}
+{"type": "poverty", "rank": 765, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun for poor condition in all contexts"}
+{"type": "provided", "rank": 766, "frequency": 34, "tag": "VERB", "confidence": 0.6, "reasoning": "verb in 'nature has provided' and 'has provided for'; two contexts use conditional 'provided it/provided he' like a subordinator", "alternative": "SCONJ"}
+{"type": "race", "rank": 767, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the human race throughout"}
+{"type": "round", "rank": 768, "frequency": 34, "tag": "ADP", "confidence": 0.55, "reasoning": "used as preposition in 'wall round' and 'round himself'; also adverbial in 'come round' and 'turns round'", "alternative": "ADV"}
+{"type": "science", "rank": 769, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun naming bodies of knowledge in every context"}
+{"type": "sun", "rank": 770, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "common celestial noun in all contexts"}
+{"type": "table", "rank": 771, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for furniture or dining table in every context"}
+{"type": "times", "rank": 772, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for periods or occurrences throughout"}
+{"type": "timid", "rank": 773, "frequency": 34, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing manner, person, respect, or character in all contexts"}
+{"type": "wretched", "rank": 774, "frequency": 34, "tag": "ADJ", "confidence": 0.95, "reasoning": "adjective describing creatures or condition; nominalized 'the wretched' still functions adjectivally"}
+{"type": "yours", "rank": 775, "frequency": 34, "tag": "PRON", "confidence": 1.0, "reasoning": "possessive pronoun standing alone in all contexts"}
+{"type": "account", "rank": 776, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in fixed phrases such as on account, on no account, and no account"}
+{"type": "acquire", "rank": 777, "frequency": 33, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning gain or obtain in all contexts"}
+{"type": "actions", "rank": 778, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for deeds or conduct throughout"}
+{"type": "blame", "rank": 779, "frequency": 33, "tag": "ADJ", "confidence": 0.5, "reasoning": "two shown uses are predicative 'to blame', one is noun 'cause for blame', and one is verb 'should not blame'", "alternative": "VERB"}
+{"type": "deceive", "rank": 780, "frequency": 33, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning mislead in every context"}
+{"type": "everybody", "rank": 781, "frequency": 33, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun referring to all people in all contexts"}
+{"type": "felt", "rank": 782, "frequency": 33, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of feeling in all contexts"}
+{"type": "going", "rank": 783, "frequency": 33, "tag": "VERB", "confidence": 0.58, "reasoning": "gerund/participle in 'spent in going' and 'as he is going'; also part of adjective 'easy-going'", "alternative": "ADJ"}
+{"type": "goodness", "rank": 784, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for moral quality or retained quality throughout"}
+{"type": "habits", "rank": 785, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for repeated tendencies or bodily customs in all contexts"}
+{"type": "joy", "rank": 786, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for delight in all contexts"}
+{"type": "number", "rank": 787, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for quantity or count in every context"}
+{"type": "physical", "rank": 788, "frequency": 33, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying man, degeneration, world, and science"}
+{"type": "places", "rank": 789, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for locations, including literal and abstract uses"}
+{"type": "powers", "rank": 790, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for capacities or abilities throughout"}
+{"type": "preservation", "rank": 791, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in self-preservation and species-preservation contexts"}
+{"type": "private", "rank": 792, "frequency": 33, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying interest, life, domestic sphere, and company"}
+{"type": "signs", "rank": 793, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for marks, indications, or symbols in every context"}
+{"type": "simplicity", "rank": 794, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun meaning plainness or directness throughout"}
+{"type": "sleep", "rank": 795, "frequency": 33, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly verb in 'go to sleep', 'sleep on', and 'made to sleep'; one context has noun pair 'food and sleep'", "alternative": "NOUN"}
+{"type": "sophy's", "rank": 796, "frequency": 33, "tag": "PROPN", "confidence": 0.95, "reasoning": "possessive form of the proper name Sophy in every context"}
+{"type": "tried", "rank": 797, "frequency": 33, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb meaning attempted or tested throughout"}
+{"type": "woman's", "rank": 798, "frequency": 33, "tag": "NOUN", "confidence": 0.9, "reasoning": "possessive common noun in phrases like woman's judgment, honour, reason, and whims", "alternative": "DET"}
+{"type": "blood", "rank": 799, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for blood in physiological contexts throughout"}
+{"type": "carry", "rank": 800, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning bear or execute in all contexts"}
+{"type": "circumstances", "rank": 801, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for surrounding conditions in every context"}
+{"type": "contract", "rank": 802, "frequency": 32, "tag": "NOUN", "confidence": 0.78, "reasoning": "mostly noun for marriage/social contract or agreement; one context uses verb 'contract with cold'", "alternative": "VERB"}
+{"type": "decide", "rank": 803, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning determine or judge in all contexts"}
+{"type": "efforts", "rank": 804, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for attempts or exertions throughout"}
+{"type": "error", "rank": 805, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for mistake or false belief in every context"}
+{"type": "existence", "rank": 806, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun meaning being or reality in all contexts"}
+{"type": "fit", "rank": 807, "frequency": 32, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjective in 'fit for' and 'make him fit'; one context uses verb 'fit me for it'", "alternative": "VERB"}
+{"type": "following", "rank": 808, "frequency": 32, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly gerund/participle in 'following nature' or 'following her vocation'; one context is adjective in 'following day'", "alternative": "ADJ"}
+{"type": "instinct", "rank": 809, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun for instinct in all contexts"}
+{"type": "kindness", "rank": 810, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for kindness in every context"}
+{"type": "king", "rank": 811, "frequency": 32, "tag": "NOUN", "confidence": 0.95, "reasoning": "common title noun, even when used in historical references"}
+{"type": "length", "rank": 812, "frequency": 32, "tag": "NOUN", "confidence": 0.65, "reasoning": "appears in fixed phrase 'at length' throughout; the token itself is the noun object of 'at' though the phrase is adverbial", "alternative": "ADV"}
+{"type": "opposite", "rank": 813, "frequency": 32, "tag": "ADJ", "confidence": 0.85, "reasoning": "mostly adjective modifying side, way, and direction; one nominal use in 'the opposite'", "alternative": "NOUN"}
+{"type": "principle", "rank": 814, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "common abstract noun for rule or foundational idea throughout"}
+{"type": "progress", "rank": 815, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for advancement or development in every context"}
+{"type": "receive", "rank": 816, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning take in or be given in all contexts"}
+{"type": "requires", "rank": 817, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "finite verb meaning needs or demands throughout"}
+{"type": "rise", "rank": 818, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning ascend, get up, or revolt in every context"}
+{"type": "skill", "rank": 819, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for ability or dexterity in all contexts"}
+{"type": "stick", "rank": 820, "frequency": 32, "tag": "NOUN", "confidence": 0.55, "reasoning": "two contexts are the physical stick in water, while two use phrasal verb 'stick to'", "alternative": "VERB"}
+{"type": "suitable", "rank": 821, "frequency": 32, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning appropriate in all contexts"}
+{"type": "thoroughly", "rank": 822, "frequency": 32, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying understood, taught, agreed, and aroused"}
+{"type": "thousand", "rank": 823, "frequency": 32, "tag": "NUM", "confidence": 1.0, "reasoning": "numeral in literal and idiomatic quantity expressions"}
+{"type": "unable", "rank": 824, "frequency": 32, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective meaning not able in all contexts"}
+{"type": "wanted", "rank": 825, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "past or participial verb of wanting or being wanted throughout"}
+{"type": "wine", "rank": 826, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for wine in every context"}
+{"type": "absurd", "rank": 827, "frequency": 31, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing prejudices, religions, person, and precautions"}
+{"type": "add", "rank": 828, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning append or increase in all contexts"}
+{"type": "cease", "rank": 829, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning stop in every context"}
+{"type": "conceal", "rank": 830, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning hide in all contexts"}
+{"type": "dark", "rank": 831, "frequency": 31, "tag": "NOUN", "confidence": 0.65, "reasoning": "mostly nominal in 'the dark' and 'in the dark'; one context is adjective in 'very dark'", "alternative": "ADJ"}
+{"type": "disposition", "rank": 832, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for character or temperament in every context"}
+{"type": "distinguish", "rank": 833, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning tell apart in all contexts"}
+{"type": "facts", "rank": 834, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for facts or observed circumstances throughout"}
+{"type": "fair", "rank": 835, "frequency": 31, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing trees, idea, day, and maiden"}
+{"type": "heed", "rank": 836, "frequency": 31, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in 'what heed', 'pay no heed', and 'give no heed'; one context uses verb 'we scarcely heed'", "alternative": "VERB"}
+{"type": "lack", "rank": 837, "frequency": 31, "tag": "NOUN", "confidence": 0.5, "reasoning": "split between noun 'lack of occupation/strength' and verb 'lack confidence/reason'", "alternative": "VERB"}
+{"type": "midst", "rank": 838, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in fixed prepositional phrase 'in the midst of' throughout"}
+{"type": "price", "rank": 839, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for cost or exchange value in every context"}
+{"type": "remains", "rank": 840, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "finite verb meaning stays or continues in all contexts"}
+{"type": "sorts", "rank": 841, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun in repeated phrase 'all sorts of' throughout"}
+{"type": "teacher", "rank": 842, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for instructor in every context"}
+{"type": "tender", "rank": 843, "frequency": 31, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying heart, bond, and little heart"}
+{"type": "wishes", "rank": 844, "frequency": 31, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly plural noun for desires; one context uses finite verb 'wishes to be'", "alternative": "VERB"}
+{"type": "arms", "rank": 845, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun in all contexts"}
+{"type": "beginning", "rank": 846, "frequency": 30, "tag": "NOUN", "confidence": 0.55, "reasoning": "noun in 'has its beginning' and 'the beginning'; also participle in 'beginning to decline/abandon'", "alternative": "VERB"}
+{"type": "bread", "rank": 847, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "common food noun in every context"}
+{"type": "cry", "rank": 848, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb of crying in all contexts"}
+{"type": "daughter", "rank": 849, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "common kinship noun in all contexts"}
+{"type": "deceived", "rank": 850, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle/passive verb of being misled throughout"}
+{"type": "exist", "rank": 851, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning have existence in all contexts"}
+{"type": "grow", "rank": 852, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning become, increase, or develop in every context"}
+{"type": "growing", "rank": 853, "frequency": 30, "tag": "VERB", "confidence": 0.8, "reasoning": "mostly participial verb in body/principle growing contexts; 'growing emotion' is adjectival", "alternative": "ADJ"}
+{"type": "intelligence", "rank": 854, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for intellect or intelligence in every context"}
+{"type": "labour", "rank": 855, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for work or effort throughout"}
+{"type": "land", "rank": 856, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for country or property in all contexts"}
+{"type": "mistress", "rank": 857, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for beloved woman or mistress throughout"}
+{"type": "motive", "rank": 858, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for reason or motivating cause in all contexts"}
+{"type": "obey", "rank": 859, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning submit to or follow in every context"}
+{"type": "philosopher", "rank": 860, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for philosopher in all contexts"}
+{"type": "philosophers", "rank": 861, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for philosophers throughout"}
+{"type": "plan", "rank": 862, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for scheme or method in every context"}
+{"type": "preserve", "rank": 863, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning maintain or protect in all contexts"}
+{"type": "sacred", "rank": 864, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying institution, rights, will, and awards/tears"}
+{"type": "several", "rank": 865, "frequency": 30, "tag": "DET", "confidence": 1.0, "reasoning": "determiner specifying plural quantity before pieces, trades, points, and reflections"}
+{"type": "single", "rank": 866, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying step, cry, moment, and untruth"}
+{"type": "special", "rank": 867, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying attention, cases, organ, and object"}
+{"type": "ten", "rank": 868, "frequency": 30, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal numeral in all contexts"}
+{"type": "win", "rank": 869, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning gain or succeed in all contexts"}
+{"type": "yield", "rank": 870, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning give way or submit in every context"}
+{"type": "busy", "rank": 871, "frequency": 29, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective describing being occupied in all contexts"}
+{"type": "certainly", "rank": 872, "frequency": 29, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying whole clauses or verbs in every context"}
+{"type": "cost", "rank": 873, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for expense or sacrifice in all contexts"}
+{"type": "courage", "rank": 874, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for bravery throughout"}
+{"type": "delightful", "rank": 875, "frequency": 29, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying surprise, Lotus-eaters, certainty, and image"}
+{"type": "enter", "rank": 876, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning go into or engage in throughout"}
+{"type": "imaginary", "rank": 877, "frequency": 29, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying person, hero, portraits, and pleasures"}
+{"type": "laid", "rank": 878, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of lay in all contexts"}
+{"type": "looks", "rank": 879, "frequency": 29, "tag": "VERB", "confidence": 0.75, "reasoning": "finite verb in three contexts; one context has plural noun 'his looks'", "alternative": "NOUN"}
+{"type": "manner", "rank": 880, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for way, demeanor, or style in every context"}
+{"type": "modest", "rank": 881, "frequency": 29, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing language, confidence, girl, and conduct"}
+{"type": "modesty", "rank": 882, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for modesty in all contexts"}
+{"type": "mother's", "rank": 883, "frequency": 29, "tag": "NOUN", "confidence": 0.9, "reasoning": "possessive common noun in phrases like mother's love, milk, company, and care", "alternative": "DET"}
+{"type": "neglect", "rank": 884, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning fail to attend to in every context"}
+{"type": "pass", "rank": 885, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning pass over, move along, or pass from one to another"}
+{"type": "prefer", "rank": 886, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning choose over another in all contexts"}
+{"type": "reading", "rank": 887, "frequency": 29, "tag": "NOUN", "confidence": 0.55, "reasoning": "noun in 'use of reading' and 'your reading'; also gerund/progressive verb in 'reading music' and 'been reading books'", "alternative": "VERB"}
+{"type": "received", "rank": 888, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of receive in all contexts"}
+{"type": "reward", "rank": 889, "frequency": 29, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun for recompense; one context uses verb 'reward with dishonour'", "alternative": "VERB"}
+{"type": "shown", "rank": 890, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of show in all contexts"}
+{"type": "speaks", "rank": 891, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "finite verb meaning talks or expresses in every context"}
+{"type": "steps", "rank": 892, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for actions, footprints, or short movements throughout"}
+{"type": "talking", "rank": 893, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund or progressive verb of speaking in all contexts"}
+{"type": "until", "rank": 894, "frequency": 29, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing time clauses throughout"}
+{"type": "accordance", "rank": 895, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in fixed phrase 'in accordance with' throughout"}
+{"type": "accustomed", "rank": 896, "frequency": 28, "tag": "ADJ", "confidence": 0.8, "reasoning": "participial adjective in 'be accustomed to' constructions; semantically a state of habituation", "alternative": "VERB"}
+{"type": "adopt", "rank": 897, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning take on or choose in every context"}
+{"type": "came", "rank": 898, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb of coming in all contexts"}
+{"type": "constantly", "rank": 899, "frequency": 28, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying follow, substituting, recall, and experiencing"}
+{"type": "convince", "rank": 900, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning persuade or prove to in every context"}
+{"type": "cure", "rank": 901, "frequency": 28, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly main verb in doctors cure, hard to cure, and cure the child; one context has noun 'the cure'", "alternative": "NOUN"}
+{"type": "dead", "rank": 902, "frequency": 28, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying bodies, languages, matter, or describing alive/dead state"}
+{"type": "deeds", "rank": 903, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for actions or acts in every context"}
+{"type": "difficulties", "rank": 904, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for obstacles or problems throughout"}
+{"type": "especially", "rank": 905, "frequency": 28, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb marking special emphasis in all contexts"}
+{"type": "influence", "rank": 906, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for effect or power over someone throughout"}
+{"type": "large", "rank": 907, "frequency": 28, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in fixed and literal uses such as at large, large scale, large-minded, and large island"}
+{"type": "mothers", "rank": 908, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural kinship noun throughout"}
+{"type": "proof", "rank": 909, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for evidence or demonstration in every context"}
+{"type": "property", "rank": 910, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for possessions or ownership rights in all contexts"}
+{"type": "pure", "rank": 911, "frequency": 28, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying honourable speech, hearts, feeling, and reason"}
+{"type": "rank", "rank": 912, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for social position in all contexts"}
+{"type": "rarely", "rank": 913, "frequency": 28, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying lead, hear, mistaken, and extended"}
+{"type": "reasoning", "rank": 914, "frequency": 28, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly noun for the art, process, or chain of reasoning; one context is gerund in 'reasoning with her'", "alternative": "VERB"}
+{"type": "shame", "rank": 915, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for disgrace or modest embarrassment in all contexts"}
+{"type": "size", "rank": 916, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for magnitude or dimensions throughout"}
+{"type": "species", "rank": 917, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for biological/human category in every context"}
+{"type": "towns", "rank": 918, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for settlements in all contexts"}
+{"type": "training", "rank": 919, "frequency": 28, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly gerund/participle in training reason, man, eye, and hand; one context has noun phrase 'the training of a man'", "alternative": "NOUN"}
+{"type": "went", "rank": 920, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb of going in all contexts"}
+{"type": "act", "rank": 921, "frequency": 27, "tag": "VERB", "confidence": 0.78, "reasoning": "mostly infinitive verb in 'to act'; one context has noun 'an act of rebellion'", "alternative": "NOUN"}
+{"type": "admit", "rank": 922, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning concede or allow in all contexts"}
+{"type": "boys", "rank": 923, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for male children throughout"}
+{"type": "changed", "rank": 924, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle or past-tense verb of changing in every context"}
+{"type": "decided", "rank": 925, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb meaning determined or settled throughout"}
+{"type": "demand", "rank": 926, "frequency": 27, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly verb in 'never demand', 'you demand', and 'delight demand'; one context has noun 'the demand'", "alternative": "NOUN"}
+{"type": "destroy", "rank": 927, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning ruin or annihilate in every context"}
+{"type": "equally", "rank": 928, "frequency": 27, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying out of place, binding, indifferent, and shared"}
+{"type": "french", "rank": 929, "frequency": 27, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjective/demonym in French fashion, French people, and French call; can verge on proper demonym", "alternative": "PROPN"}
+{"type": "friends", "rank": 930, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for companions or supporters in all contexts"}
+{"type": "grasp", "rank": 931, "frequency": 27, "tag": "NOUN", "confidence": 0.78, "reasoning": "mostly noun in phrases like within/beyond/eludes my grasp; one context uses verb 'strive to grasp'", "alternative": "VERB"}
+{"type": "hundred", "rank": 932, "frequency": 27, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal numeral in all contexts"}
+{"type": "independent", "rank": 933, "frequency": 27, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning self-sufficient or free from dependence throughout"}
+{"type": "leaves", "rank": 934, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "finite verb meaning departs, lets remain, or leaves off in all contexts"}
+{"type": "lesson", "rank": 935, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for teaching or moral example in every context"}
+{"type": "manhood", "rank": 936, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for adult male/human maturity throughout"}
+{"type": "minds", "rank": 937, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for mental faculties or persons' minds in all contexts"}
+{"type": "mistake", "rank": 938, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for error in every context"}
+{"type": "move", "rank": 939, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning move physically or emotionally in all contexts"}
+{"type": "movements", "rank": 940, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for bodily motions throughout"}
+{"type": "near", "rank": 941, "frequency": 27, "tag": "ADP", "confidence": 0.55, "reasoning": "often relational as in rivers near them and near its beak; also appears adjectival in 'near and dear' and verbal-particle-like in 'draw near'", "alternative": "ADJ"}
+{"type": "obedience", "rank": 942, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for obedience in all contexts"}
+{"type": "proportion", "rank": 943, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for ratio or harmony throughout"}
+{"type": "rightly", "rank": 944, "frequency": 27, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying used, judge, laugh, and uses"}
+{"type": "risk", "rank": 945, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for danger or chance of harm in every context"}
+{"type": "seeking", "rank": 946, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund/participle of seek in all contexts"}
+{"type": "substance", "rank": 947, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "philosophical common noun for substance throughout"}
+{"type": "trying", "rank": 948, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund/participle of try in all contexts"}
+{"type": "understood", "rank": 949, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of understanding throughout"}
+{"type": "usually", "rank": 950, "frequency": 27, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb marking usuality in all contexts"}
+{"type": "winter", "rank": 951, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "season noun, including attributive winter clothes"}
+{"type": "abandon", "rank": 952, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning give up in every context"}
+{"type": "adapted", "rank": 953, "frequency": 26, "tag": "VERB", "confidence": 0.92, "reasoning": "past participle/passive verb of adapting in all contexts"}
+{"type": "along", "rank": 954, "frequency": 26, "tag": "ADP", "confidence": 1.0, "reasoning": "part of prepositional expression 'along with' in every context"}
+{"type": "bed", "rank": 955, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for bed in all contexts"}
+{"type": "began", "rank": 956, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb of beginning throughout"}
+{"type": "changes", "rank": 957, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for alterations or variations in all contexts"}
+{"type": "circle", "rank": 958, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "geometrical noun in every context"}
+{"type": "citizens", "rank": 959, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for members of a state throughout"}
+{"type": "depend", "rank": 960, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in 'depend on' constructions throughout"}
+{"type": "emile's", "rank": 961, "frequency": 26, "tag": "PROPN", "confidence": 0.95, "reasoning": "possessive form of the proper name Emile in every context"}
+{"type": "equal", "rank": 962, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing angles, objects, shadows, and distances"}
+{"type": "examine", "rank": 963, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning inspect or consider in all contexts"}
+{"type": "explanation", "rank": 964, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for explanatory account in every context"}
+{"type": "fathers", "rank": 965, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural kinship noun throughout"}
+{"type": "forward", "rank": 966, "frequency": 26, "tag": "ADV", "confidence": 0.9, "reasoning": "adverb in 'looking forward', 'step forward', and 'look forward' uses"}
+{"type": "getting", "rank": 967, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund/participle of get in all contexts"}
+{"type": "growth", "rank": 968, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for development or increase throughout"}
+{"type": "healthy", "rank": 969, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing mind, heart, child, and children"}
+{"type": "high", "rank": 970, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective or adjective element in high-mightiness, high place, and high opinion"}
+{"type": "humanity", "rank": 971, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for mankind or humane feeling in all contexts"}
+{"type": "hurt", "rank": 972, "frequency": 26, "tag": "VERB", "confidence": 0.8, "reasoning": "mostly verb in hurt the ear, hurt himself, and hurts or kills; one context has noun 'my own hurt'", "alternative": "NOUN"}
+{"type": "ignorant", "rank": 973, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing people or state of not knowing in all contexts"}
+{"type": "innocence", "rank": 974, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for innocence throughout"}
+{"type": "learns", "rank": 975, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "finite verb meaning acquires knowledge or skill in every context"}
+{"type": "outside", "rank": 976, "frequency": 26, "tag": "ADP", "confidence": 0.8, "reasoning": "mostly relational in outside Geneva, outside himself, and outside me; one context nominalizes 'the outside'", "alternative": "NOUN"}
+{"type": "profess", "rank": 977, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning claim or declare in all contexts"}
+{"type": "proud", "rank": 978, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective meaning taking pride throughout"}
+{"type": "qualities", "rank": 979, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for traits or attributes throughout"}
+{"type": "reached", "rank": 980, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle or past-tense verb of reaching in all contexts"}
+{"type": "reader", "rank": 981, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the person reading in every context"}
+{"type": "readily", "rank": 982, "frequency": 26, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying learns, perceives, puts, and forgive"}
+{"type": "secure", "rank": 983, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning obtain or make safe in all contexts"}
+{"type": "showing", "rank": 984, "frequency": 26, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly gerund/participle of show; one context has noun phrase 'by your own showing'", "alternative": "NOUN"}
+{"type": "sooner", "rank": 985, "frequency": 26, "tag": "ADV", "confidence": 1.0, "reasoning": "comparative adverb in sooner or later and develops sooner"}
+{"type": "studies", "rank": 986, "frequency": 26, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly plural noun for fields of study; one context uses finite verb 'studies the ways'", "alternative": "VERB"}
+{"type": "sweet", "rank": 987, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing fruits, experience, laws, and poverty made sweet"}
+{"type": "terms", "rank": 988, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for words, algebraic elements, or general terms throughout"}
+{"type": "tools", "rank": 989, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for instruments in all contexts"}
+{"type": "unhappy", "rank": 990, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing persons or state of misery throughout"}
+{"type": "year", "rank": 991, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "time noun, including compounds like ten-year-old and seventeenth year"}
+{"type": "zeal", "rank": 992, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for fervor or earnest effort in all contexts"}
+{"type": "anger", "rank": 993, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for anger in every context"}
+{"type": "appearance", "rank": 994, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for outward look or seeming throughout"}
+{"type": "asked", "rank": 995, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb of asking in all contexts"}
+{"type": "attempt", "rank": 996, "frequency": 25, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in 'all attempt', 'an attempt', and 'no attempt'; one context uses verb 'attempt to give'", "alternative": "VERB"}
+{"type": "close", "rank": 997, "frequency": 25, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjective/adverbial adjective in close to, close at hand, and close acquaintance; one context has noun 'the close of life'", "alternative": "NOUN"}
+{"type": "de", "rank": 998, "frequency": 25, "tag": "X", "confidence": 0.9, "reasoning": "French nobiliary/prepositional particle in names and a French quotation, not an English POS item"}
+{"type": "dress", "rank": 999, "frequency": 25, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun for clothing/style of dress; one context uses verb 'to dress becomingly'", "alternative": "VERB"}
+{"type": "endure", "rank": 1000, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning withstand or continue in all contexts"}

@@ -1,0 +1,51 @@
+{
+  "winner_identity_changes": [
+    {
+      "from_K": 1000,
+      "to_K": 2000,
+      "from_c": 255.74927297999844,
+      "to_c": 412.4626382901348,
+      "from_winner": "eml[sub[x,1],eml[x,1]]",
+      "to_winner": "sub[sub[x,1],log[x]]",
+      "from_closest_generator": "exp",
+      "to_closest_generator": "IS"
+    },
+    {
+      "from_K": 2000,
+      "to_K": 5000,
+      "from_c": 412.4626382901348,
+      "to_c": 89.86735375728246,
+      "from_winner": "sub[sub[x,1],log[x]]",
+      "to_winner": "eml[sub[x,1],eml[x,1]]",
+      "from_closest_generator": "IS",
+      "to_closest_generator": "exp"
+    }
+  ],
+  "closest_generator_changes": [
+    {
+      "from_K": 1000,
+      "to_K": 2000,
+      "from_c": 255.74927297999844,
+      "to_c": 412.4626382901348,
+      "from_closest_generator": "exp",
+      "to_closest_generator": "IS"
+    },
+    {
+      "from_K": 2000,
+      "to_K": 5000,
+      "from_c": 412.4626382901348,
+      "to_c": 89.86735375728246,
+      "from_closest_generator": "IS",
+      "to_closest_generator": "exp"
+    }
+  ],
+  "c_band_66_79_hits": [],
+  "transition_type": "sharp_IS_exp_bifurcation_candidate",
+  "winner_unchanged_entire_sweep": false,
+  "c_min": 15.636487216815336,
+  "c_max": 412.4626382901348,
+  "plots": [
+    "/Volumes/External2TB/emlexperiment/phase2_addon/t3_bifurcation_sweep_v2/break_rank_sweep/fitted_c_vs_K.png",
+    "/Volumes/External2TB/emlexperiment/phase2_addon/t3_bifurcation_sweep_v2/break_rank_sweep/winner_cosines_vs_K.png"
+  ]
+}

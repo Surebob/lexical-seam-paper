@@ -1,0 +1,6 @@
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.9
+spacy>=3.7        # POS tagging (3d); model: en_core_web_sm
+jieba>=0.42       # Mandarin tokenization (6)
+mpmath>=1.3       # zeta/Hurwitz for MOEZipf fits

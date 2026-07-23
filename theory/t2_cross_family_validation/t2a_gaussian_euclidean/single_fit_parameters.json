@@ -1,0 +1,65 @@
+{
+  "case_id": "t2a_gaussian_euclidean",
+  "title": "T2a Gaussian -> Euclidean",
+  "mixture_params": {
+    "component_1": {
+      "mu": -1.2,
+      "sigma": 0.65,
+      "weight": 0.5
+    },
+    "component_2": {
+      "mu": 1.35,
+      "sigma": 1.15,
+      "weight": 0.5
+    }
+  },
+  "fit": {
+    "method": "nonlinear_least_squares_on_sorted_log_density",
+    "success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "cost": 1294.783108212151,
+    "params": {
+      "log_amp": 0.6189920211097156,
+      "mu": 0.002866994315395568,
+      "sigma": 1.0339335610784388
+    },
+    "at_bounds": {
+      "mu": false,
+      "sigma": false
+    }
+  },
+  "residual_rmse": 1.3600331446655216,
+  "diagnostic": {
+    "component_corr": -0.2403354910528297,
+    "component_relative_l2": 1.161570620761769,
+    "max_abs_second_difference": 0.029259591116467476,
+    "mean_abs_second_difference": 0.0031154425117400778,
+    "sign_changes_second_difference": 859
+  },
+  "search_config": {
+    "beam_width": 50,
+    "max_steps": 4,
+    "keep_all_until_step": 2,
+    "diversity_weight": 0.35,
+    "constant_variance_threshold": 1e-10,
+    "exp_clamp": 30.0,
+    "value_abs_limit": 1000000.0,
+    "semantic_hash_rounding_digits": 10,
+    "unary_ops": [
+      "neg",
+      "inv",
+      "sqr",
+      "sqrt",
+      "exp",
+      "log"
+    ],
+    "binary_ops": [
+      "eml",
+      "add",
+      "sub",
+      "mul",
+      "div",
+      "pow"
+    ]
+  }
+}

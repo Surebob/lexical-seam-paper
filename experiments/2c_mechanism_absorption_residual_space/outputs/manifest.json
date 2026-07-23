@@ -1,0 +1,72 @@
+{
+  "experiment_id": "2c_mechanism_absorption_residual_space",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_breakthrough_probe",
+    "results/zipf_simulation_recovery"
+  ],
+  "outputs": {
+    "residual_search_per_corpus.csv": {
+      "rows": 25,
+      "schema": [
+        "slug",
+        "corpus",
+        "moe_base_rmse",
+        "moe_winner_expr",
+        "moe_step2_residual_rmse",
+        "moe_step2_composite_rmse",
+        "moe_improvement",
+        "smooth_base_rmse",
+        "smooth_winner_expr",
+        "smooth_step2_residual_rmse",
+        "smooth_step2_composite_rmse",
+        "smooth_improvement"
+      ]
+    },
+    "head_formula_competition.csv": {
+      "rows": 25,
+      "schema": [
+        "slug",
+        "corpus",
+        "winner_expr",
+        "winner_family",
+        "c",
+        "full_best_formula",
+        "top50_best_formula",
+        "top100_best_formula",
+        "top200_best_formula",
+        "full_gap_euclidean",
+        "top50_gap_euclidean",
+        "top100_gap_euclidean",
+        "top200_gap_euclidean"
+      ]
+    },
+    "head_basis_per_corpus.csv": {
+      "rows": 25,
+      "schema": [
+        "slug",
+        "corpus",
+        "family",
+        "c",
+        "linear_u",
+        "quadratic_u2",
+        "cubic_u3",
+        "head_rmse",
+        "head_r2",
+        "head_k"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 15,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "audit_flags": [
+    "Five Euclidean-gap comparison aggregates are imported from zipf_simulation_recovery because v4 maps them to 2c to avoid LaTeX builder joins."
+  ]
+}

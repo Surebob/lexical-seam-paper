@@ -1,0 +1,30 @@
+{
+  "final_interpretation": "methodology_scope_theory_matches_deviance_coordinate_not_sr_coordinate",
+  "clean_kl_support_conditions": [],
+  "test_a_any_kl_support": false,
+  "test_b_kl_support": false,
+  "test_c_kl_support": false,
+  "test_d": {
+    "test": "D_bregman_divergence_expansion_reference",
+    "rates": [
+      5.0,
+      20.0
+    ],
+    "fitted_lambda": 12.5,
+    "derivation_summary": [
+      "For the Poisson exponential family, A(theta)=exp(theta) and A*(mu)=mu*log(mu)-mu, so the mean-parameter Bregman divergence is D(mu||lambda)=mu*log(mu/lambda)-mu+lambda.",
+      "For a support count k this gives the Poisson deviance D(k||lambda).",
+      "The SR residual used here is the pointwise log-density ratio log q(k)-log p_lambda(k), not D(k||lambda). The full distribution KL is sum_k q(k)*[log q(k)-log p_lambda(k)]. Therefore the KL generator does not directly equal the pointwise residual; this is a methodology/theory-object mismatch to test numerically."
+    ],
+    "raw_cosine_residual_vs_poisson_deviance": 0.9918153156696913,
+    "centered_cosine_residual_vs_poisson_deviance": 0.9871286458939946,
+    "raw_cosine_residual_vs_kl_on_sr_x": 0.07354395242902481,
+    "centered_cosine_residual_vs_kl_on_sr_x": -0.4617814887228652,
+    "raw_cosine_residual_vs_negative_poisson_deviance": -0.9918153156696913,
+    "total_distribution_kl_sum_q_log_q_over_p": 1.7498086009333003,
+    "poisson_deviance_exists_in_mean_parameter_space": true,
+    "poisson_deviance_directly_equals_pointwise_log_density_residual": false
+  },
+  "test_d_deviance_match": true,
+  "test_d_sr_coordinate_miss": true
+}

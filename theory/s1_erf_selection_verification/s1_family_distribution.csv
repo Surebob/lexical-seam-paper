@@ -1,0 +1,7 @@
+scope,symbolic_family,count,proportion
+top1_only,bregman-family,3,0.21428571428571427
+top1_only,sigmoid-family,11,0.7857142857142857
+top10_all_entries,bregman-family,27,0.19285714285714287
+top10_all_entries,other,75,0.5357142857142857
+top10_all_entries,polynomial,10,0.07142857142857142
+top10_all_entries,sigmoid-family,28,0.2

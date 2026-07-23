@@ -1,0 +1,62 @@
+[
+  {
+    "family": "Gaussian",
+    "case_id": "t2a_gaussian_euclidean",
+    "original_predicted_generator": "Euclidean",
+    "winner": "sub[sqrt[x],pow[x,x]]",
+    "winner_math": "(sqrt(x)-pow(x,x))",
+    "winner_sign_cosine_verdict": "not_shape_equivalent",
+    "top20_bregman_expression_count": 3,
+    "predicted_occurrence": {
+      "step": 2,
+      "rmse_rank": 16,
+      "expr": "mul[sub[1,x],sub[1,x]]",
+      "math": "((1-x)*(1-x))",
+      "rmse": 0.2184282539251113,
+      "in_top5_by_rmse": false,
+      "in_diversity_beam": false,
+      "diversity_rank": null
+    },
+    "revised_verdict": "BREGMAN_CLASS_PRESENT_BUT_PREDICTED_NOT_SELECTED"
+  },
+  {
+    "family": "Poisson",
+    "case_id": "t2b_poisson_kl",
+    "original_predicted_generator": "generalized KL",
+    "winner": "div[pow[eml[x,1],eml[x,1]],pow[add[x,x],neg[x]]]",
+    "winner_math": "(pow(EML(x,1),EML(x,1))/pow((x+x),(-x)))",
+    "winner_sign_cosine_verdict": "not_shape_equivalent",
+    "top20_bregman_expression_count": 0,
+    "predicted_occurrence": {
+      "step": 3,
+      "rmse_rank": 6436,
+      "expr": "sub[add[1,neg[x]],mul[log[x],neg[x]]]",
+      "math": "((1+(-x))-(log(x)*(-x)))",
+      "rmse": 13.316046615320841,
+      "in_top5_by_rmse": false,
+      "in_diversity_beam": false,
+      "diversity_rank": null
+    },
+    "revised_verdict": "NO_TOP20_BREGMAN_SUPPORT"
+  },
+  {
+    "family": "Gamma",
+    "case_id": "t2c_gamma_is",
+    "original_predicted_generator": "Itakura-Saito",
+    "winner": "add[log[x],sub[1,x]]",
+    "winner_math": "(log(x)+(1-x))",
+    "winner_sign_cosine_verdict": "equivalent_to_predicted_up_to_sign",
+    "top20_bregman_expression_count": 0,
+    "predicted_occurrence": {
+      "step": 2,
+      "rmse_rank": 49,
+      "expr": "sub[sub[x,1],log[x]]",
+      "math": "((x-1)-log(x))",
+      "rmse": 0.3401911416181829,
+      "in_top5_by_rmse": false,
+      "in_diversity_beam": true,
+      "diversity_rank": 49
+    },
+    "revised_verdict": "SIGN_CONVENTION_PASS"
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "test": "poisson_count_coordinate_theorem_prediction",
+  "rates": [
+    5.0,
+    20.0
+  ],
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "fitted_lambda": 12.5,
+  "k_max_99pct_mass": 30,
+  "captured_mass": 0.993262659360034,
+  "support_size": 31,
+  "residual_rmse": 3.2606252248768124,
+  "predicted_shifted_kl_generator": "x*log(x)-x+1",
+  "predicted_unshifted_negative_entropy": "x*log(x)-x",
+  "shifted_kl_occurrences": [],
+  "unshifted_negative_entropy_occurrences": [
+    {
+      "step": 3,
+      "rmse_rank": 7093,
+      "expr": "div[sub[1,log[x]],div[1,neg[x]]]",
+      "math": "((1-log(x))/(1/(-x)))",
+      "rmse": 3.7114298922631273,
+      "in_top5_by_rmse": false,
+      "in_top20_by_rmse": false
+    }
+  ],
+  "predicted_in_top5_at_depth3": false,
+  "predicted_in_top20_at_depth3": false,
+  "winner": {
+    "expression": "mul[pow[add[x,x],sub[x,1]],pow[add[x,x],add[x,x]]]",
+    "math": "(pow((x+x),(x-1))*pow((x+x),(x+x)))",
+    "rmse": 1.8274352616910219,
+    "cosine_vs_shifted_kl": 0.7067048090913367,
+    "cosine_vs_negative_shifted_kl": -0.7067048090913367,
+    "max_abs_cosine_vs_shifted_kl": 0.7067048090913367,
+    "cosine_vs_unshifted_negative_entropy": -0.7470188469163233,
+    "f_at_1": 4.0,
+    "fprime_at_1": 16.31776078569237,
+    "fsecond_min": 10.988692516545143,
+    "fsecond_positive_on_domain": true,
+    "bregman_conditions_pass": false
+  },
+  "top5_depth3": [
+    {
+      "rank": 1,
+      "expression": "mul[pow[add[x,x],sub[x,1]],pow[add[x,x],add[x,x]]]",
+      "math": "(pow((x+x),(x-1))*pow((x+x),(x+x)))",
+      "rmse": 1.8274352616910219,
+      "is_shifted_kl_generator": false,
+      "cosine_vs_shifted_kl": 0.7067048090913367,
+      "cosine_vs_unshifted_negative_entropy": -0.7470188469163233
+    },
+    {
+      "rank": 2,
+      "expression": "add[pow[add[x,x],eml[x,x]],mul[log[x],log[x]]]",
+      "math": "(pow((x+x),EML(x,x))+(log(x)*log(x)))",
+      "rmse": 1.8691942012273537,
+      "is_shifted_kl_generator": false,
+      "cosine_vs_shifted_kl": 0.7027891369749018,
+      "cosine_vs_unshifted_negative_entropy": -0.7823072441565336
+    },
+    {
+      "rank": 3,
+      "expression": "add[pow[add[x,x],eml[x,x]],div[sub[1,x],add[x,x]]]",
+      "math": "(pow((x+x),EML(x,x))+((1-x)/(x+x)))",
+      "rmse": 1.878487181307367,
+      "is_shifted_kl_generator": false,
+      "cosine_vs_shifted_kl": 0.6570563693835978,
+      "cosine_vs_unshifted_negative_entropy": -0.7823293482587056
+    },
+    {
+      "rank": 4,
+      "expression": "add[pow[add[x,x],eml[x,1]],div[sub[1,x],add[x,x]]]",
+      "math": "(pow((x+x),EML(x,1))+((1-x)/(x+x)))",
+      "rmse": 1.8954128219117443,
+      "is_shifted_kl_generator": false,
+      "cosine_vs_shifted_kl": 0.6920119267046203,
+      "cosine_vs_unshifted_negative_entropy": -0.7711352413823385
+    },
+    {
+      "rank": 5,
+      "expression": "add[mul[log[x],log[x]],pow[add[x,x],eml[x,1]]]",
+      "math": "((log(x)*log(x))+pow((x+x),EML(x,1)))",
+      "rmse": 1.907187125216068,
+      "is_shifted_kl_generator": false,
+      "cosine_vs_shifted_kl": 0.735040464817597,
+      "cosine_vs_unshifted_negative_entropy": -0.7688114681991142
+    }
+  ],
+  "best_cosine_candidate_vs_shifted_kl": {
+    "step": 3,
+    "rmse_rank": 3727,
+    "expr": "div[mul[log[x],log[x]],div[1,sqrt[x]]]",
+    "math": "((log(x)*log(x))/(1/sqrt(x)))",
+    "rmse": 2.9411426025283762,
+    "cosine": 0.9994075006858061
+  },
+  "best_cosine_candidate_vs_unshifted_negative_entropy": {
+    "step": 3,
+    "rmse_rank": 7093,
+    "expr": "div[sub[1,log[x]],div[1,neg[x]]]",
+    "math": "((1-log(x))/(1/(-x)))",
+    "rmse": 3.7114298922631273,
+    "cosine": 1.0
+  },
+  "top20_bregman_count": 0,
+  "primary_verdict": "FAILED_PRIMARY_TOP5_CRITERION"
+}

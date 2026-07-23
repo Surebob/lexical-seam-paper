@@ -1,0 +1,14 @@
+metric_name,value,display_format,notes
+alpha,0.5049174340956519,decimal exponent,"Fitted hierarchical prior exponent in log k_i ~ Normal(alpha log V_i, sigma^2)."
+sigma,0.05,decimal,Fitted hierarchical prior spread.
+sigma_lower_bound,0.05,decimal,Lower bound used by historical hierarchical pooling fit.
+sigma_at_lower_bound,True,boolean,Whether fitted sigma is pinned at the lower bound.
+hierk_beats_moe_count,16,X/25 count,Full held-out NLL count where hierarchical-k beats MOEZipf.
+hierk_beats_zm_count,16,X/25 count,Full held-out NLL count where hierarchical-k beats ZM.
+hierk_beats_zipf_count,24,X/25 count,Full held-out NLL count where hierarchical-k beats Zipf.
+median_hierk_minus_moe,-0.0015156050832834111,signed average NLL delta,"Median full held-out NLL delta, hierarchical-k minus MOEZipf."
+median_hierk_minus_zm,-0.0007236162731860674,signed average NLL delta,"Median full held-out NLL delta, hierarchical-k minus ZM."
+hierk_step2_help_count,4,X/25 count,Count where step-2 search helps on full hierarchical-k residuals.
+hierk_beats_softk_count,20,X/25 count,Cross-experiment comparison against 7a canonical v4 soft-k Table 4 values.
+median_hierk_minus_softk,-0.0009123035534583934,signed average NLL delta,"Cross-experiment median full held-out NLL delta, hierarchical-k minus 7a canonical soft-k."
+hierk_vs_softk_summary,hierk beats 7a canonical soft-k on 20/25; median delta -0.000912303553458,text summary,This data-level result conflicts with manuscript wording that hierarchical pooling does not improve over per-corpus soft-k; see README AUDIT.

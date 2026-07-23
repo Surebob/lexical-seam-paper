@@ -1,0 +1,186 @@
+tokenizing failure corpora...
+  Complete Works of Shakespeare        V=24,458
+  War and Peace                        V=17,445
+  King James Bible                     V=12,555
+  Federalist Papers                    V= 8,617
+  Origin of Species                    V= 6,887
+  Wealth of Nations                    V= 9,478
+  Les Miserables                       V=22,677
+  Principia Ethica                     V= 3,814
+  Critique of Pure Reason              V= 6,537
+144 landscape fits queued
+[1/144] Complete Works of Shakes nll=73380 pi=0.0442 gap=4.73 pred_err=0.760
+[2/144] Complete Works of Shakes nll=73464 pi=0.0010 gap=0.50 pred_err=0.328
+[3/144] Complete Works of Shakes nll=73567 pi=0.0010 gap=0.56 pred_err=0.500
+[4/144] Complete Works of Shakes nll=73372 pi=0.0389 gap=0.50 pred_err=0.339
+[5/144] Complete Works of Shakes nll=73375 pi=0.0443 gap=0.50 pred_err=0.628
+[6/144] Complete Works of Shakes nll=73378 pi=0.0235 gap=0.65 pred_err=0.331
+[7/144] Complete Works of Shakes nll=73364 pi=0.2822 gap=3.46 pred_err=0.576
+[8/144] Complete Works of Shakes nll=73386 pi=0.0222 gap=5.13 pred_err=0.393
+[9/144] Complete Works of Shakes nll=73396 pi=0.0125 gap=0.61 pred_err=1.169
+[10/144] Complete Works of Shakes nll=73378 pi=0.0010 gap=0.50 pred_err=0.652
+[11/144] Complete Works of Shakes nll=73368 pi=0.3000 gap=3.39 pred_err=0.768
+[12/144] Complete Works of Shakes nll=73374 pi=0.0540 gap=0.50 pred_err=0.039
+[13/144] Complete Works of Shakes nll=73370 pi=0.3000 gap=3.69 pred_err=1.141
+[14/144] Complete Works of Shakes nll=73383 pi=0.0103 gap=4.31 pred_err=0.535
+[15/144] Complete Works of Shakes nll=73364 pi=0.0330 gap=6.53 pred_err=0.924
+[16/144] War and Peace            nll=52476 pi=0.1746 gap=4.39 pred_err=0.738
+[17/144] Complete Works of Shakes nll=73385 pi=0.0252 gap=5.04 pred_err=0.846
+[18/144] War and Peace            nll=52480 pi=0.1190 gap=2.07 pred_err=0.440
+[19/144] War and Peace            nll=52571 pi=0.0165 gap=5.37 pred_err=0.376
+[20/144] War and Peace            nll=52489 pi=0.3000 gap=3.43 pred_err=1.389
+[21/144] War and Peace            nll=52483 pi=0.3000 gap=2.54 pred_err=0.642
+[22/144] War and Peace            nll=52484 pi=0.3000 gap=4.13 pred_err=0.451
+[23/144] War and Peace            nll=52484 pi=0.1057 gap=1.76 pred_err=0.911
+[24/144] War and Peace            nll=52486 pi=0.3000 gap=4.68 pred_err=1.080
+[25/144] War and Peace            nll=52489 pi=0.0010 gap=7.60 pred_err=1.371
+[26/144] War and Peace            nll=52476 pi=0.2980 gap=3.56 pred_err=0.767
+[27/144] War and Peace            nll=52484 pi=0.0435 gap=3.75 pred_err=0.953
+[28/144] War and Peace            nll=52484 pi=0.1940 gap=5.02 pred_err=0.461
+[29/144] War and Peace            nll=52488 pi=0.0395 gap=0.50 pred_err=1.503
+[30/144] War and Peace            nll=52484 pi=0.0456 gap=3.78 pred_err=0.957
+[31/144] War and Peace            nll=52481 pi=0.0089 gap=5.60 pred_err=0.372
+[32/144] King James Bible         nll=41156 pi=0.0047 gap=5.26 pred_err=0.362
+[33/144] King James Bible         nll=41144 pi=0.0107 gap=5.40 pred_err=0.100
+[34/144] King James Bible         nll=41151 pi=0.0903 gap=1.85 pred_err=0.879
+[35/144] King James Bible         nll=41159 pi=0.1947 gap=3.90 pred_err=1.273
+[36/144] King James Bible         nll=41153 pi=0.0027 gap=5.58 pred_err=0.243
+[37/144] War and Peace            nll=52652 pi=0.0010 gap=90.88 pred_err=1.914
+[38/144] King James Bible         nll=41148 pi=0.0010 gap=10.13 pred_err=0.418
+[39/144] King James Bible         nll=41184 pi=0.0573 gap=5.03 pred_err=1.480
+[40/144] King James Bible         nll=41191 pi=0.1437 gap=4.13 pred_err=1.134
+[41/144] King James Bible         nll=41162 pi=0.0169 gap=5.87 pred_err=0.516
+[42/144] Federalist Papers        nll=24522 pi=0.1915 gap=5.35 pred_err=2.129
+[43/144] King James Bible         nll=41156 pi=0.0010 gap=3.97 pred_err=0.260
+[44/144] King James Bible         nll=41148 pi=0.0059 gap=1.42 pred_err=0.289
+[45/144] Federalist Papers        nll=24515 pi=0.0143 gap=3.92 pred_err=1.305
+[46/144] Federalist Papers        nll=24511 pi=0.0713 gap=5.04 pred_err=0.342
+[47/144] King James Bible         nll=41147 pi=0.0010 gap=5.43 pred_err=0.331
+[48/144] King James Bible         nll=41155 pi=0.0155 gap=5.44 pred_err=0.177
+[49/144] Federalist Papers        nll=24515 pi=0.0143 gap=3.92 pred_err=1.305
+[50/144] King James Bible         nll=41177 pi=0.3000 gap=3.26 pred_err=0.378
+[51/144] Federalist Papers        nll=24519 pi=0.0211 gap=1.76 pred_err=0.792
+[52/144] Federalist Papers        nll=24514 pi=0.0697 gap=5.68 pred_err=0.135
+[53/144] Federalist Papers        nll=24513 pi=0.0219 gap=4.03 pred_err=0.810
+[54/144] Federalist Papers        nll=24523 pi=0.3000 gap=2.46 pred_err=1.337
+[55/144] Federalist Papers        nll=24521 pi=0.0010 gap=4.10 pred_err=0.898
+[56/144] Federalist Papers        nll=24611 pi=0.0384 gap=3.86 pred_err=0.499
+[57/144] King James Bible         nll=41154 pi=0.3000 gap=2.90 pred_err=0.444
+[58/144] Federalist Papers        nll=24518 pi=0.0010 gap=8.33 pred_err=0.810
+[59/144] Federalist Papers        nll=24519 pi=0.0014 gap=7.37 pred_err=0.510
+[60/144] Federalist Papers        nll=24513 pi=0.0219 gap=4.03 pred_err=0.810
+[61/144] Federalist Papers        nll=24513 pi=0.0715 gap=7.67 pred_err=0.114
+[62/144] Origin of Species        nll=20415 pi=0.1907 gap=2.06 pred_err=1.352
+[63/144] Federalist Papers        nll=24518 pi=0.0011 gap=8.21 pred_err=0.542
+[64/144] Origin of Species        nll=20415 pi=0.3000 gap=4.70 pred_err=0.226
+[65/144] Origin of Species        nll=20415 pi=0.0355 gap=2.09 pred_err=0.557
+[66/144] Origin of Species        nll=20415 pi=0.0030 gap=5.17 pred_err=0.838
+[67/144] Origin of Species        nll=20416 pi=0.3000 gap=3.41 pred_err=0.892
+[68/144] Federalist Papers        nll=24519 pi=0.0015 gap=7.12 pred_err=0.831
+[69/144] King James Bible         nll=41152 pi=0.0261 gap=4.74 pred_err=0.361
+[70/144] Origin of Species        nll=20416 pi=0.2980 gap=8.79 pred_err=0.869
+[71/144] Origin of Species        nll=20414 pi=0.3000 gap=4.54 pred_err=0.571
+[72/144] Origin of Species        nll=20416 pi=0.0137 gap=4.37 pred_err=1.060
+[73/144] Origin of Species        nll=20415 pi=0.0052 gap=1.72 pred_err=0.415
+[74/144] Origin of Species        nll=20415 pi=0.0410 gap=0.92 pred_err=0.236
+[75/144] Origin of Species        nll=20415 pi=0.0228 gap=2.55 pred_err=0.563
+[76/144] Wealth of Nations        nll=30216 pi=0.0010 gap=0.50 pred_err=0.562
+[77/144] Origin of Species        nll=20415 pi=0.2479 gap=1.68 pred_err=1.297
+[78/144] Origin of Species        nll=20414 pi=0.3000 gap=4.38 pred_err=0.355
+[79/144] Origin of Species        nll=20416 pi=0.1038 gap=0.50 pred_err=0.531
+[80/144] Origin of Species        nll=20415 pi=0.2023 gap=2.08 pred_err=1.570
+[81/144] Wealth of Nations        nll=30153 pi=0.0233 gap=5.58 pred_err=1.412
+[82/144] Wealth of Nations        nll=30115 pi=0.0010 gap=8.09 pred_err=0.696
+[83/144] Origin of Species        nll=20415 pi=0.0010 gap=6.90 pred_err=0.725
+[84/144] Wealth of Nations        nll=30120 pi=0.2672 gap=3.18 pred_err=1.022
+[85/144] Wealth of Nations        nll=30113 pi=0.2703 gap=5.38 pred_err=0.479
+[86/144] Wealth of Nations        nll=30113 pi=0.3000 gap=5.39 pred_err=0.402
+[87/144] Wealth of Nations        nll=30221 pi=0.0010 gap=0.52 pred_err=0.487
+[88/144] Wealth of Nations        nll=30114 pi=0.3000 gap=3.83 pred_err=0.581
+[89/144] Wealth of Nations        nll=30111 pi=0.3000 gap=6.59 pred_err=0.354
+[90/144] Wealth of Nations        nll=30109 pi=0.0078 gap=5.06 pred_err=0.235
+[91/144] Wealth of Nations        nll=30113 pi=0.1522 gap=3.15 pred_err=0.272
+[92/144] Wealth of Nations        nll=30123 pi=0.2998 gap=1.70 pred_err=0.332
+[93/144] Wealth of Nations        nll=30164 pi=0.0223 gap=6.81 pred_err=1.990
+[94/144] Wealth of Nations        nll=30116 pi=0.0309 gap=4.62 pred_err=0.509
+[95/144] Les Miserables           nll=62578 pi=0.1693 gap=2.68 pred_err=1.016
+[96/144] Les Miserables           nll=62581 pi=0.0340 gap=2.89 pred_err=0.056
+[97/144] Wealth of Nations        nll=31020 pi=0.0010 gap=71.47 pred_err=2.747
+[98/144] Les Miserables           nll=62572 pi=0.2992 gap=4.58 pred_err=1.251
+[99/144] Les Miserables           nll=62573 pi=0.0950 gap=5.08 pred_err=1.526
+[100/144] Les Miserables           nll=62612 pi=0.0056 gap=4.36 pred_err=1.093
+[101/144] Les Miserables           nll=62579 pi=0.3000 gap=2.69 pred_err=0.635
+[102/144] Les Miserables           nll=62582 pi=0.2204 gap=2.97 pred_err=1.399
+[103/144] Wealth of Nations        nll=30146 pi=0.0010 gap=17.42 pred_err=2.533
+[104/144] Les Miserables           nll=62573 pi=0.2996 gap=4.45 pred_err=1.564
+[105/144] Les Miserables           nll=62579 pi=0.1470 gap=4.22 pred_err=0.180
+[106/144] Les Miserables           nll=62590 pi=0.0010 gap=0.54 pred_err=1.080
+[107/144] Principia Ethica         nll=11432 pi=0.0487 gap=0.50 pred_err=0.740
+[108/144] Les Miserables           nll=62636 pi=0.3000 gap=2.95 pred_err=2.666
+[109/144] Principia Ethica         nll=11425 pi=0.0083 gap=6.58 pred_err=1.191
+[110/144] Principia Ethica         nll=11426 pi=0.1177 gap=4.84 pred_err=0.569
+[111/144] Les Miserables           nll=62573 pi=0.0067 gap=5.38 pred_err=1.312
+[112/144] Principia Ethica         nll=11427 pi=0.3000 gap=4.15 pred_err=0.480
+[113/144] Les Miserables           nll=62580 pi=0.3000 gap=2.63 pred_err=1.086
+[114/144] Principia Ethica         nll=11428 pi=0.0205 gap=7.06 pred_err=1.211
+[115/144] Les Miserables           nll=62570 pi=0.0144 gap=5.40 pred_err=0.984
+[116/144] Principia Ethica         nll=11426 pi=0.3000 gap=3.69 pred_err=0.536
+[117/144] Principia Ethica         nll=11425 pi=0.0083 gap=6.58 pred_err=1.191
+[118/144] Principia Ethica         nll=11426 pi=0.0451 gap=5.76 pred_err=0.270
+[119/144] Principia Ethica         nll=11433 pi=0.0011 gap=1.26 pred_err=1.161
+[120/144] Principia Ethica         nll=11428 pi=0.0639 gap=5.22 pred_err=0.929
+[121/144] Principia Ethica         nll=11431 pi=0.0443 gap=0.82 pred_err=1.026
+[122/144] Les Miserables           nll=62591 pi=0.0015 gap=7.98 pred_err=0.366
+[123/144] Les Miserables           nll=62579 pi=0.2459 gap=0.50 pred_err=0.671
+[124/144] Principia Ethica         nll=11433 pi=0.0010 gap=1.31 pred_err=0.536
+[125/144] Principia Ethica         nll=11426 pi=0.3000 gap=4.02 pred_err=0.510
+[126/144] Principia Ethica         nll=11426 pi=0.2357 gap=4.71 pred_err=0.376
+[127/144] Principia Ethica         nll=11425 pi=0.0157 gap=6.31 pred_err=0.382
+[128/144] Principia Ethica         nll=11430 pi=0.0010 gap=6.36 pred_err=0.205
+[129/144] Critique of Pure Reason  nll=18856 pi=0.0082 gap=7.27 pred_err=0.681
+[130/144] Critique of Pure Reason  nll=18851 pi=0.0021 gap=7.81 pred_err=0.186
+[131/144] Critique of Pure Reason  nll=18852 pi=0.0208 gap=2.11 pred_err=0.479
+[132/144] Critique of Pure Reason  nll=18851 pi=0.0028 gap=7.64 pred_err=0.990
+[133/144] Critique of Pure Reason  nll=18848 pi=0.0247 gap=6.30 pred_err=0.625
+[134/144] Critique of Pure Reason  nll=18850 pi=0.0941 gap=0.68 pred_err=0.690
+[135/144] Critique of Pure Reason  nll=18851 pi=0.0718 gap=5.14 pred_err=0.658
+[136/144] Critique of Pure Reason  nll=18848 pi=0.0231 gap=6.35 pred_err=0.662
+[137/144] Critique of Pure Reason  nll=18848 pi=0.3000 gap=3.19 pred_err=0.552
+[138/144] Critique of Pure Reason  nll=18852 pi=0.0519 gap=1.15 pred_err=1.382
+[139/144] Critique of Pure Reason  nll=18850 pi=0.0740 gap=0.78 pred_err=0.583
+[140/144] Critique of Pure Reason  nll=18851 pi=0.0010 gap=8.54 pred_err=1.159
+[141/144] Critique of Pure Reason  nll=18848 pi=0.0044 gap=7.84 pred_err=0.697
+[142/144] Critique of Pure Reason  nll=18848 pi=0.2189 gap=3.45 pred_err=0.440
+[143/144] Critique of Pure Reason  nll=18882 pi=0.0010 gap=28.54 pred_err=2.148
+[144/144] Critique of Pure Reason  nll=18848 pi=0.0784 gap=5.12 pred_err=0.144
+
+27 erf fits queued on pred-selected basins
+[1/27] King James Bible         rep1 V= 12512 s=   165.2
+[2/27] King James Bible         rep0 V= 12583 s=   161.8
+[3/27] King James Bible         rep2 V= 12610 s=   168.4
+[4/27] Federalist Papers        rep0 V=  8600 s=   111.0
+[5/27] Federalist Papers        rep1 V=  8594 s= 10174.9
+[6/27] Federalist Papers        rep2 V=  8700 s=   113.0
+[7/27] Origin of Species        rep0 V=  6948 s=    88.9
+[8/27] Origin of Species        rep1 V=  6865 s=    88.5
+[9/27] Origin of Species        rep2 V=  6847 s=    89.7
+[10/27] Wealth of Nations        rep0 V=  9526 s=   124.7
+[11/27] Wealth of Nations        rep2 V=  9421 s=   124.4
+[12/27] Wealth of Nations        rep1 V=  9590 s=   124.9
+[13/27] Complete Works of Shakes rep2 V= 24511 s=   311.4
+[14/27] War and Peace            rep0 V= 17196 s=   226.3
+[15/27] War and Peace            rep1 V= 17491 s=   229.4
+[16/27] Principia Ethica         rep0 V=  3865 s=    46.5
+[17/27] Principia Ethica         rep2 V=  3792 s=    43.3
+[18/27] Principia Ethica         rep1 V=  3797 s=    40.7
+[19/27] Critique of Pure Reason  rep1 V=  6539 s=    73.7
+[20/27] Critique of Pure Reason  rep0 V=  6571 s= 40247.1
+[21/27] Critique of Pure Reason  rep2 V=  6550 s= 39984.5
+[22/27] Les Miserables           rep1 V= 22580 s=   283.5
+[23/27] Complete Works of Shakes rep0 V= 24408 s=   305.6
+[24/27] Complete Works of Shakes rep1 V= 24441 s=   311.5
+[25/27] War and Peace            rep2 V= 17426 s=   230.5
+[26/27] Les Miserables           rep2 V= 22731 s=   283.7
+[27/27] Les Miserables           rep0 V= 22661 s=   281.3
+
+summary written

@@ -1,0 +1,5 @@
+metric_name,value,display_format,source_metric_name,notes
+logistic_recovery_count,25,X/Y,logistic_recovered_count,Count where logistic-generated synthetic data recovered logistic.
+erf_beats_true_count,0,X/Y,erf_beats_logistic_count,Count where erf beats the true logistic generator on logistic-generated data.
+synthetic_completed_corpus_count,25,integer,completed_corpus_count,Number of synthetic corpora with all gate fits complete.
+synthetic_completed_fit_count,125,integer,completed_fit_count,Number of synthetic corpus/gate fits complete.

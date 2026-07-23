@@ -1,0 +1,80 @@
+{
+  "test": "C_negative_binomial_fit_by_poisson",
+  "negative_binomial_mean": 10.0,
+  "dispersion": 2.0,
+  "negative_binomial_variance": 60.0,
+  "negative_binomial_success_probability": 0.16666666666666666,
+  "fitted_poisson_lambda": 10.0,
+  "support_min": 0,
+  "support_max": 103,
+  "label": "negative_binomial_mean10_dispersion2_fit_poisson",
+  "support_size": 104,
+  "residual_rmse": 62.53607361738073,
+  "winner_expression": "pow[sub[add[x,x],log[x]],eml[add[x,x],1]]",
+  "winner_math": "pow(((x+x)-log(x)),EML((x+x),1))",
+  "winner_rmse": 9.3519664346444,
+  "winner_cosine_kl": 0.04434417733376183,
+  "winner_cosine_neg_kl": -0.04434417733376183,
+  "winner_max_abs_cosine_kl": 0.04434417733376183,
+  "top5_step3": [
+    {
+      "step": 3,
+      "rank": 1,
+      "expression": "pow[sub[add[x,x],log[x]],eml[add[x,x],1]]",
+      "math": "pow(((x+x)-log(x)),EML((x+x),1))",
+      "rmse": 9.3519664346444,
+      "is_kl": false
+    },
+    {
+      "step": 3,
+      "rank": 2,
+      "expression": "pow[sub[add[x,x],log[x]],eml[add[x,x],sqrt[x]]]",
+      "math": "pow(((x+x)-log(x)),EML((x+x),sqrt(x)))",
+      "rmse": 9.65888123099797,
+      "is_kl": false
+    },
+    {
+      "step": 3,
+      "rank": 3,
+      "expression": "pow[sub[add[x,x],log[x]],eml[add[x,x],pow[x,x]]]",
+      "math": "pow(((x+x)-log(x)),EML((x+x),pow(x,x)))",
+      "rmse": 9.824628502591237,
+      "is_kl": false
+    },
+    {
+      "step": 3,
+      "rank": 4,
+      "expression": "pow[eml[add[x,x],add[x,x]],add[eml[x,x],log[x]]]",
+      "math": "pow(EML((x+x),(x+x)),(EML(x,x)+log(x)))",
+      "rmse": 16.77535984152227,
+      "is_kl": false
+    },
+    {
+      "step": 3,
+      "rank": 5,
+      "expression": "mul[eml[add[x,x],add[x,x]],eml[eml[x,1],div[1,x]]]",
+      "math": "(EML((x+x),(x+x))*EML(EML(x,1),(1/x)))",
+      "rmse": 17.089523843210515,
+      "is_kl": false
+    }
+  ],
+  "kl_occurrence": {
+    "step": 3,
+    "rmse_rank": 7051,
+    "expr": "sub[add[1,neg[x]],mul[log[x],neg[x]]]",
+    "math": "((1+(-x))-(log(x)*(-x)))",
+    "rmse": 62.53185252307367,
+    "in_top5_by_rmse": false,
+    "in_diversity_beam": false,
+    "diversity_rank": null
+  },
+  "kl_occurrence_bregman_diag": {
+    "f_at_1": 0.0,
+    "fprime_at_1": 1.2041580426167377e-08,
+    "fsecond_min": 1.0001425435488782,
+    "bregman_conditions_pass": true
+  },
+  "kl_in_top20_with_bregman_conditions": false,
+  "top20_bregman_count": 0,
+  "top20_bregman": []
+}

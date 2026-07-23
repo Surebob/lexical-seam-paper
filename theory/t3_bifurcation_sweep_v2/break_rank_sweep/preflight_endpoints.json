@@ -1,0 +1,112 @@
+{
+  "status": "pass",
+  "pass_condition": "abs(c_K5000 - c_K50) > 50",
+  "c_delta": 74.23086654046712,
+  "winner_differs": false,
+  "endpoints": [
+    {
+      "K": 50,
+      "A": 1.0,
+      "B": 13.363924278053585,
+      "continuity_abs_error": 0.0,
+      "c": 15.636487216815336,
+      "b": 1.522246215975222,
+      "zm_rmse": 0.024233370241574185,
+      "residual_rmse": 0.024233370241574185,
+      "winner_expr": "eml[sub[x,1],eml[x,1]]",
+      "winner_math": "EML((x-1),EML(x,1))",
+      "winner_rmse": 0.03117037483570062,
+      "top5": [
+        {
+          "rank": 1,
+          "expression": "eml[sub[x,1],eml[x,1]]",
+          "math": "EML((x-1),EML(x,1))",
+          "rmse": 0.03117037483570062
+        },
+        {
+          "rank": 2,
+          "expression": "sub[pow[x,x],sqrt[x]]",
+          "math": "(pow(x,x)-sqrt(x))",
+          "rmse": 0.04227380892396879
+        },
+        {
+          "rank": 3,
+          "expression": "sub[sqrt[x],pow[x,x]]",
+          "math": "(sqrt(x)-pow(x,x))",
+          "rmse": 0.046534517957575815
+        },
+        {
+          "rank": 4,
+          "expression": "add[neg[x],pow[x,x]]",
+          "math": "((-x)+pow(x,x))",
+          "rmse": 0.04823233168324748
+        },
+        {
+          "rank": 5,
+          "expression": "sub[div[x,1],pow[x,x]]",
+          "math": "((x/1)-pow(x,x))",
+          "rmse": 0.051326511656876
+        }
+      ],
+      "cosine_vs_IS": 0.910748676289261,
+      "cosine_vs_exp": 1.0000000000000002,
+      "cosine_vs_Euclidean": 0.9982065991235795,
+      "cosine_vs_xx_sqrtx": -0.3372822373723925,
+      "closest_generator": "exp",
+      "bregman_conditions_pass": true,
+      "top20_rmse_spread": 0.04828273955273904
+    },
+    {
+      "K": 5000,
+      "A": 1.0,
+      "B": 387.7794816774544,
+      "continuity_abs_error": 2.168404344971009e-19,
+      "c": 89.86735375728246,
+      "b": 0.9983318782057093,
+      "zm_rmse": 0.11123844840072039,
+      "residual_rmse": 0.11123844840072039,
+      "winner_expr": "eml[sub[x,1],eml[x,1]]",
+      "winner_math": "EML((x-1),EML(x,1))",
+      "winner_rmse": 0.11394935369168005,
+      "top5": [
+        {
+          "rank": 1,
+          "expression": "eml[sub[x,1],eml[x,1]]",
+          "math": "EML((x-1),EML(x,1))",
+          "rmse": 0.11394935369168005
+        },
+        {
+          "rank": 2,
+          "expression": "sub[sqrt[x],pow[x,x]]",
+          "math": "(sqrt(x)-pow(x,x))",
+          "rmse": 0.11619798380054769
+        },
+        {
+          "rank": 3,
+          "expression": "sub[sub[x,1],log[x]]",
+          "math": "((x-1)-log(x))",
+          "rmse": 0.11649121829934309
+        },
+        {
+          "rank": 4,
+          "expression": "sub[pow[x,x],sqrt[x]]",
+          "math": "(pow(x,x)-sqrt(x))",
+          "rmse": 0.11842312773204763
+        },
+        {
+          "rank": 5,
+          "expression": "sub[div[x,1],pow[x,x]]",
+          "math": "((x/1)-pow(x,x))",
+          "rmse": 0.1189271540940777
+        }
+      ],
+      "cosine_vs_IS": 0.910748676289261,
+      "cosine_vs_exp": 1.0000000000000002,
+      "cosine_vs_Euclidean": 0.9982065991235795,
+      "cosine_vs_xx_sqrtx": -0.3372822373723925,
+      "closest_generator": "exp",
+      "bregman_conditions_pass": true,
+      "top20_rmse_spread": 0.01905854470415369
+    }
+  ]
+}

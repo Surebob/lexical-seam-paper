@@ -1,0 +1,6 @@
+slug,corpus,gate,min_bic,median_bic,max_bic,starts_within_1_bic
+federalist_papers,Federalist Papers,logistic,-367782.9089164232,-44014.5452360414,-36917.28007503726,1
+federalist_papers,Federalist Papers,tanh,-367169.49198617414,-44014.54532858379,-39707.52107163262,1
+federalist_papers,Federalist Papers,erf,-124638.93379360635,-44098.41104936402,-39700.9461847914,26
+federalist_papers,Federalist Papers,algebraic,-88700.24271253828,-43883.72572123103,-39423.459611855375,26
+federalist_papers,Federalist Papers,arctan,-74797.71339881708,-43730.90946361238,-35109.14327392679,18

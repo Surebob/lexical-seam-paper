@@ -1,0 +1,28 @@
+metric_name,value,display_format,notes
+english_corpus_count,25,integer,Source corpus count.
+simulation_replicates_per_corpus,10,integer,Historical replicate count per corpus.
+empirical_median_gap_full,0.005957768525842372,decimal,Empirical winner-vs-Euclidean full-RMSE gap.
+empirical_median_gap_top100,0.0927593769132754,decimal,Empirical winner-vs-Euclidean top-100 RMSE gap.
+smooth_exact_winner_match_rate,0.484,proportion,Replicate-level exact winner match rate for smooth-generated synthetic corpora.
+smooth_step2_help_rate,0.588,proportion,Replicate-level step-2 help rate for smooth-generated synthetic corpora.
+smooth_majority_winner_match_count,12,X/25 count,Corpus-level majority winner match count for smooth-generated synthetic corpora.
+smooth_median_winner_vs_euclidean_gap_full,0.00782647873747841,decimal,"Replicate-level median gap, smooth synthetic, full RMSE."
+smooth_median_winner_vs_euclidean_gap_top100,0.0371124830010002,decimal,"Replicate-level median gap, smooth synthetic, top-100 RMSE."
+single_zm_control_exact_winner_match_rate,0.2,proportion,Replicate-level exact winner match rate for single-ZM control synthetic corpora.
+single_zm_control_step2_help_rate,0.0,proportion,Replicate-level step-2 help rate for single-ZM control synthetic corpora.
+single_zm_control_step2_help_count,0,X/25 count,Corpus count with any positive single-ZM-control help rate.
+single_zm_control_majority_winner_match_count,5,X/25 count,Corpus-level majority winner match count for single-ZM controls.
+single_zm_control_median_winner_vs_euclidean_gap_full,0.0077141688283103305,decimal,"Replicate-level median gap, single-ZM control, full RMSE."
+single_zm_control_median_winner_vs_euclidean_gap_top100,0.09593359073805141,decimal,"Replicate-level median gap, single-ZM control, top-100 RMSE."
+basis_corr_linear_smooth,0.892854405891926,correlation,Correlation of empirical and smooth-generated linear head-basis coefficient.
+basis_corr_quadratic_smooth,0.8794468873817035,correlation,Correlation of empirical and smooth-generated quadratic head-basis coefficient.
+basis_corr_cubic_smooth,0.806545507783293,correlation,Correlation of empirical and smooth-generated cubic head-basis coefficient.
+basis_corr_linear_zm,0.37542454418261295,correlation,Correlation of empirical and single-ZM-control linear head-basis coefficient.
+basis_corr_quadratic_zm,0.48403455528452977,correlation,Correlation of empirical and single-ZM-control quadratic head-basis coefficient.
+basis_corr_cubic_zm,0.3417143411251593,correlation,Correlation of empirical and single-ZM-control cubic head-basis coefficient.
+high_c_total_count,11,X/25 count,Empirical IS-winner high-c block size.
+high_c_block_size,11,X/25 count,Alias for high-c IS-winner block size.
+high_c_exact_match_count,11,X/25 count,Smooth-generated exact winner matches in high-c IS block.
+high_c_exact_match_rate_smooth,1.0,proportion,Smooth-generated exact winner match rate in high-c IS block.
+high_c_help_rate_smooth,1.0,proportion,Smooth-generated step-2 help rate in high-c IS block.
+high_c_help_rate_zm_control,0.0,proportion,Single-ZM-control step-2 help rate in high-c IS block.

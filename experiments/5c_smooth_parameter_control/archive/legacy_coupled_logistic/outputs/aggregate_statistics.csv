@@ -1,0 +1,12 @@
+metric_name,value,display_format,notes
+synthetic_row_count,216,integer,Number of legacy synthetic sweep configurations.
+synthetic_full_winner_count_is,43,count,Legacy full-RMSE winner count.
+synthetic_full_winner_count_xpow,58,count,Legacy full-RMSE winner count.
+synthetic_full_winner_count_exp,115,count,Legacy full-RMSE winner count.
+synthetic_top100_winner_count_is,89,count,Legacy top-100 winner count.
+synthetic_top100_winner_count_exp,88,count,Legacy top-100 winner count.
+synthetic_top100_winner_count_xpow,39,count,Legacy top-100 winner count.
+theta_range_min,-145.35905966042247,degrees,Minimum theta in legacy sweep.
+theta_range_max,172.8374415669215,degrees,Maximum theta in legacy sweep.
+flip_lambda_range_min,0.0,lambda,Minimum flip lambda in legacy sweep.
+flip_lambda_range_max,1.05,lambda,Maximum flip lambda in legacy sweep.

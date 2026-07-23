@@ -1,0 +1,38 @@
+row_type,metric_name,slug,corpus,vocab_size,erf_k,log_vocab_size,log_erf_k,value,ci_low,ci_high,df,notes
+corpus,,shakespeare,Complete Works of Shakespeare,24458,512.0969048918904,10.104712639749316,6.238513874497673,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,war_and_peace,War and Peace,17445,399.33160818921266,9.766808353620874,5.989792169937551,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,moby_dick,Moby Dick,16956,423.40622775409474,9.738377032472528,6.0483320675063705,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,king_james_bible,King James Bible,12555,336.73410430578775,9.437874271591685,5.8192936109270335,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,federalist_papers,Federalist Papers,8617,208.760943341056,9.061492275239766,5.341189785547605,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,grimms_fairy_tales,Grimm's Fairy Tales,4746,94.19115163606668,8.465057436995709,4.545326245493887,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,don_quixote,Don Quixote,15574,358.8562758582806,9.653358136136932,5.882921962529843,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,pride_and_prejudice,Pride and Prejudice,6729,188.7356305528288,8.814181823188319,5.240347255709699,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,canterbury_tales,Canterbury Tales,17653,204.06973809343242,9.778661019589283,5.318461788824835,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,arabian_nights_vol1,Arabian Nights (Vol 1),13883,98.18320419389575,9.538420349034803,4.5868351640099325,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,aesops_fables,Aesop's Fables,4394,209.23104367329384,8.387995252944556,5.343439113501477,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,complete_sherlock_holmes,Complete Sherlock Holmes,7817,147.95301378220583,8.96405612822033,4.9968947489138795,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,jane_eyre,Jane Eyre,12541,221.77697916056016,9.43675855582405,5.401672278549269,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,dubliners,Dubliners,7157,522.3604258171179,8.875846177738598,6.258357820531287,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,the_iliad,The Iliad,12300,88.40402540831631,9.417354541360508,4.481917504900023,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,democracy_in_america,Democracy in America,9301,202.443523167002,9.137877200242468,5.3104609497065995,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,origin_of_species,Origin of Species,6887,132.32899708731787,8.837390855544697,4.885291223880079,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,wealth_of_nations,Wealth of Nations,9478,176.1545925000518,9.156728602527533,5.17136197597763,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,les_miserables,Les Miserables,22677,462.1482981711422,10.029106473960287,6.13588583128735,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,decline_and_fall_vol1,Decline and Fall Vol 1,15983,294.02892415302637,9.679280936368654,5.683678143972421,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,emile,Emile,11174,292.5062061672901,9.321344930019094,5.678485884112769,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,ulysses,Ulysses,28990,613.8970686190553,10.274706221915702,6.419827273408295,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,collected_poe,Collected Poe,9312,109.44873159574392,9.139059169971219,4.695456235009477,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,principia_ethica,Principia Ethica,3814,45.43134641098472,8.246433786160365,3.816202316377812,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+corpus,,critique_of_pure_reason,Critique of Pure Reason,6537,339.9821387997656,8.78523362361273,5.828893083288438,,,,,Input point for intercept OLS fit log(k_erf) = alpha + beta*log(V).
+aggregate,n_corpora,,,,,,,25,,,,Number of English corpora in the decoupled erf k-scaling recheck.
+aggregate,ols_intercept_alpha,,,,,,,-1.6343386790203667,,,,Intercept in log(k_erf) = alpha + beta*log(V).
+aggregate,ols_beta,,,,,,,0.758365585868885,0.34565268594136417,1.1710784857964058,23,Primary requested slope beta from intercept OLS fit log(k_erf) = alpha + beta*log(V).
+aggregate,ols_beta_se,,,,,,,0.19950759267693288,,,,"Standard error of beta from OLS residual variance and Sxx, df = n - 2."
+aggregate,ols_r2,,,,,,,0.38583171702709707,,,,R^2 for intercept OLS fit.
+aggregate,ols_rss,,,,,,,6.329598511086701,,,,Residual sum of squares for intercept OLS fit.
+aggregate,forced_origin_beta,,,,,,,0.582851433069693,0.5596680852417903,0.6060347808975957,24,"Diagnostic forced-through-origin slope sum(logV*logk)/sum(logV^2), included only for method comparison to existing 3c forced exponent."
+aggregate,forced_origin_beta_se,,,,,,,0.011232794217180625,,,,"Standard error for forced-through-origin diagnostic slope, df = n - 1."
+aggregate,delta_ols_beta_minus_coupled_logistic_forced_alpha_3c,,,,,,,0.2369432984454718,,,,Primary OLS beta minus reference coupled_logistic_forced_alpha_3c = 0.5214222874234132.
+aggregate,delta_forced_beta_minus_coupled_logistic_forced_alpha_3c,,,,,,,0.06142914564627977,,,,Forced-origin diagnostic beta minus reference coupled_logistic_forced_alpha_3c = 0.5214222874234132.
+aggregate,delta_ols_beta_minus_pos_crossover_alpha_3d,,,,,,,0.21346558586888498,,,,Primary OLS beta minus reference pos_crossover_alpha_3d = 0.5449.
+aggregate,delta_forced_beta_minus_pos_crossover_alpha_3d,,,,,,,0.03795143306969295,,,,Forced-origin diagnostic beta minus reference pos_crossover_alpha_3d = 0.5449.

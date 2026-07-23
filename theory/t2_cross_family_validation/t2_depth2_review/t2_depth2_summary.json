@@ -1,0 +1,70 @@
+{
+  "max_steps": 2,
+  "note": "Depth-2 review uses the same live search implementation and reports both RMSE ranking and diversity-beam retention.",
+  "cases": [
+    {
+      "case_id": "t2a_gaussian_euclidean",
+      "title": "T2a Gaussian -> Euclidean",
+      "predicted_generator": "Euclidean",
+      "predicted_generated_depth2": true,
+      "predicted_occurrences_depth2": [
+        {
+          "step": 2,
+          "rmse_rank": 66,
+          "expr": "mul[sub[1,x],sub[1,x]]",
+          "math": "((1-x)*(1-x))",
+          "rmse": 1.3799198797255174,
+          "selected_by_diversity_for_next_step": false
+        }
+      ],
+      "global_best_depth2": {
+        "step": 2,
+        "expr": "div[sub[x,1],pow[x,x]]",
+        "math": "((x-1)/pow(x,x))",
+        "rmse": 1.329118030288044,
+        "classification": "other"
+      },
+      "predicted_wins_depth2": false
+    },
+    {
+      "case_id": "t2b_poisson_kl",
+      "title": "T2b Poisson -> generalized KL",
+      "predicted_generator": "generalized KL",
+      "predicted_generated_depth2": false,
+      "predicted_occurrences_depth2": [],
+      "global_best_depth2": {
+        "step": 2,
+        "expr": "div[log[x],pow[x,x]]",
+        "math": "(log(x)/pow(x,x))",
+        "rmse": 1.1002070414215035,
+        "classification": "other"
+      },
+      "predicted_wins_depth2": false
+    },
+    {
+      "case_id": "t2c_gamma_is",
+      "title": "T2c Gamma -> Itakura-Saito",
+      "predicted_generator": "Itakura-Saito",
+      "predicted_generated_depth2": true,
+      "predicted_occurrences_depth2": [
+        {
+          "step": 2,
+          "rmse_rank": 53,
+          "expr": "sub[sub[x,1],log[x]]",
+          "math": "((x-1)-log(x))",
+          "rmse": 1.4640393720385372,
+          "selected_by_diversity_for_next_step": false
+        }
+      ],
+      "global_best_depth2": {
+        "step": 2,
+        "expr": "sub[eml[1,x],eml[x,1]]",
+        "math": "(EML(1,x)-EML(x,1))",
+        "rmse": 1.3118554046784445,
+        "classification": "other"
+      },
+      "predicted_wins_depth2": false
+    }
+  ],
+  "predicted_win_count_depth2": 0
+}

@@ -1,0 +1,108 @@
+{
+  "case_id": "t2a_gaussian_euclidean",
+  "family": "Gaussian",
+  "prediction": {
+    "expected_generator": "Euclidean",
+    "canonical": "(1-x)^2",
+    "expected_first_reachable_step": 2,
+    "max_steps": 2
+  },
+  "mixture_params": [
+    {
+      "mean": -1.25,
+      "sigma": 1.0,
+      "weight": 0.5
+    },
+    {
+      "mean": 1.25,
+      "sigma": 1.0,
+      "weight": 0.5
+    }
+  ],
+  "distinguishability": {
+    "mean_gap": 2.5,
+    "pooled_sigma": 1.0,
+    "separation_in_sigma": 2.5
+  },
+  "fit": {
+    "method": "closed_form_gaussian_mle",
+    "converged": true,
+    "params": {
+      "mean": 0.04130312058362945,
+      "sigma": 1.5990209744235038
+    },
+    "at_bounds": false
+  },
+  "density_estimation": {
+    "continuous": true,
+    "method": "gaussian_kde_on_iid_samples",
+    "grid_points": 600
+  },
+  "residual_diagnostics": {
+    "residual_rmse": 0.1934820966114388,
+    "residual_std": 0.19037069215965963,
+    "second_difference_sign_changes": 8,
+    "second_difference_sign_change_fraction": 0.01340033500837521,
+    "lag1_autocorrelation": 0.9997779428977283,
+    "noise_dominated_flag": false
+  },
+  "search_config": {
+    "max_steps": 2,
+    "beam_width": 50,
+    "keep_all_until_step": 2,
+    "diversity_weight": 0.35,
+    "semantic_hash_rounding_digits": 10,
+    "exp_clamp": 30.0,
+    "value_abs_limit": 1000000.0,
+    "unary_ops": [
+      "neg",
+      "inv",
+      "sqr",
+      "sqrt",
+      "exp",
+      "log"
+    ],
+    "binary_ops": [
+      "eml",
+      "add",
+      "sub",
+      "mul",
+      "div",
+      "pow"
+    ]
+  },
+  "sr_result": {
+    "predicted_occurrences": [
+      {
+        "step": 2,
+        "rmse_rank": 16,
+        "expr": "mul[sub[1,x],sub[1,x]]",
+        "math": "((1-x)*(1-x))",
+        "rmse": 0.2184282539251113,
+        "in_top5_by_rmse": false,
+        "in_diversity_beam": false,
+        "diversity_rank": null
+      }
+    ],
+    "predicted_at_first_reachable_step": [
+      {
+        "step": 2,
+        "rmse_rank": 16,
+        "expr": "mul[sub[1,x],sub[1,x]]",
+        "math": "((1-x)*(1-x))",
+        "rmse": 0.2184282539251113,
+        "in_top5_by_rmse": false,
+        "in_diversity_beam": false,
+        "diversity_rank": null
+      }
+    ],
+    "pass_top5_rmse_or_diversity_at_first_step": false,
+    "global_best": {
+      "step": 2,
+      "expr": "sub[sqrt[x],pow[x,x]]",
+      "math": "(sqrt(x)-pow(x,x))",
+      "rmse": 0.18740059320489277,
+      "is_predicted_generator": false
+    }
+  }
+}

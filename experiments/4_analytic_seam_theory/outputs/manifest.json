@@ -1,0 +1,15 @@
+{
+  "experiment_id": "4_analytic_seam_theory",
+  "canonical_model": "decoupled_erf",
+  "canonical_status": "blocked_missing_decoupled_erf_seam_theory",
+  "blocked_reason": "No decoupled-erf seam sign/projection/second-order source outputs exist in the historical result bundles.",
+  "missing_sources": [
+    "decoupled-erf raw seam sign-law outputs",
+    "decoupled-erf tangent-space projection outputs",
+    "decoupled-erf second-order seam correction outputs"
+  ],
+  "legacy_archive": "archive/legacy_coupled_logistic",
+  "legacy_model": "coupled_logistic",
+  "generated_at_utc": "2026-04-20T00:26:01.134333+00:00",
+  "canonical_outputs": []
+}

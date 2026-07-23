@@ -1,0 +1,122 @@
+{
+  "experiment_id": "3e_gate_family_bic_sweep",
+  "generated_at_utc": "2026-04-20T02:55:59.541382+00:00",
+  "producer": "experiments/3e_gate_family_bic_sweep/scripts/run_3e.py",
+  "source_bundles": {
+    "real_gate_sweep_dir": "results/s2_v3_windows_full_outputs_2026-04-18",
+    "synthetic_recovery_dir": "results/s2_synthetic_recovery_outputs_workers32_2026-04-18/outputs",
+    "logistic_parameter_source": "results/windows_s2_decoupled_v3_results_2026-04-18/outputs/s2_v3_logistic_local_params.csv"
+  },
+  "provenance_scripts_copied": [
+    "experiments/3e_gate_family_bic_sweep/archive/provenance/run_s2_v3_full.py",
+    "experiments/3e_gate_family_bic_sweep/archive/provenance/run_s2_v3_windows.py",
+    "experiments/3e_gate_family_bic_sweep/archive/provenance/run_synthetic_gate_recovery.py"
+  ],
+  "outputs": {
+    "per_fit_results.csv": {
+      "rows": 125,
+      "schema": [
+        "slug",
+        "corpus",
+        "gate_family",
+        "seed",
+        "a1",
+        "b1",
+        "c1",
+        "a2",
+        "b2",
+        "c2",
+        "k",
+        "w_gate",
+        "w_tail",
+        "BIC",
+        "final_rmse",
+        "k_hit_lower_bound",
+        "k_hit_upper_bound",
+        "w_gate_hit_lower_bound",
+        "w_gate_hit_upper_bound",
+        "w_tail_hit_lower_bound",
+        "w_tail_hit_upper_bound",
+        "any_bounds_hit",
+        "best_start_index",
+        "best_nfev",
+        "wall_clock_seconds",
+        "peak_memory_mb",
+        "starts_within_1_bic",
+        "optimizer_warm_start_info",
+        "dispersion_min_bic",
+        "dispersion_median_bic",
+        "dispersion_max_bic",
+        "dispersion_across_starts",
+        "parameter_source"
+      ]
+    },
+    "per_corpus_results.csv": {
+      "rows": 25,
+      "schema": [
+        "slug",
+        "corpus",
+        "seed",
+        "vocab_size",
+        "winning_gate",
+        "winner_bic",
+        "independent_gate_spread",
+        "tanh_calibration_pass",
+        "bic_tanh_minus_logistic",
+        "w_gate_tanh_over_2w_gate_logistic_ratio",
+        "w_tail_tanh_over_w_tail_logistic_ratio",
+        "logistic_bic",
+        "erf_bic",
+        "algebraic_bic",
+        "arctan_bic",
+        "worst_gate"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 10,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "source_metric_name",
+        "notes"
+      ]
+    },
+    "synthetic_recovery.csv": {
+      "rows": 25,
+      "schema": [
+        "synthetic_corpus_id",
+        "corpus",
+        "true_gate",
+        "recovered_gate_by_fitter",
+        "recovery_match",
+        "erf_beats_true",
+        "winner_bic",
+        "logistic_bic",
+        "erf_bic",
+        "bic_erf_minus_logistic",
+        "independent_gate_spread"
+      ]
+    },
+    "synthetic_recovery_aggregate.csv": {
+      "rows": 4,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "source_metric_name",
+        "notes"
+      ]
+    }
+  },
+  "audit_limitations": [
+    "Mac prototype run_s2_v3_full.py would have saved all-gate coefficients to s2_v3_gate_params_per_corpus.csv: line 754 defines gate_param_fieldnames with logistic_a1, erf_a1, algebraic_a1, arctan_a1; line 791 writes the CSV; line 853 populates fields from fits[gate]. The corresponding results/s2_v3_decoupled_five_gate_2026-04-18/ output directory is absent, consistent with an interrupted run.",
+    "Completed Windows port run_s2_v3_windows.py had coefficients in memory via decoupled_smooth_model.py, but wrote only BIC/RMSE/k/w diagnostics to s2_v3_per_fit_results.csv: line 117 defines saved fields, line 216 appends reduced-schema rows, and line 408 writes final outputs.",
+    "Therefore non-logistic a1,b1,c1,a2,b2,c2 coefficients are unavailable from saved outputs. Recovering them requires either a fresh rerun of the Mac script or a patched Windows script and rerun of the full five-gate sweep.",
+    "Logistic coefficients are populated from results/windows_s2_decoupled_v3_results_2026-04-18/outputs/s2_v3_logistic_local_params.csv. Manuscript-cited claims (BIC values, winner counts, spreads, and synthetic recovery) do not depend on non-logistic regime coefficients.",
+    "Synthetic-recovery tanh calibration is not interpreted because near-zero RMSE synthetic fits magnify tiny tanh/logistic numerical differences in BIC."
+  ],
+  "limits": {
+    "missing_nonlogistic_regime_parameter_cells": 600
+  }
+}

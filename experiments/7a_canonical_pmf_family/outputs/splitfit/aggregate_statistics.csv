@@ -1,0 +1,40 @@
+metric_name,value,display_format,notes
+winner_count_zipf,0,X/25 count,Recomputed from canonical Table 4.
+winner_count_zm,11,X/25 count,Recomputed from canonical Table 4.
+winner_count_moe,4,X/25 count,Recomputed from canonical Table 4.
+winner_count_softk,10,X/25 count,Recomputed from canonical Table 4.
+softk_beats_zipf_count,24,X/25 count,Canonical Table 4 soft-k vs Zipf.
+softk_beats_zm_count,13,X/25 count,Canonical Table 4 soft-k vs ZM.
+softk_beats_moe_count,17,X/25 count,Canonical Table 4 soft-k vs MOEZipf.
+median_softk_minus_zipf,-0.03935758284918567,signed decimal,Median canonical Table 4 soft-k minus Zipf.
+median_softk_minus_zm,-0.0005844604938589626,signed decimal,Median canonical Table 4 soft-k minus ZM.
+median_softk_minus_moe,-0.0019493145923430433,signed decimal,Median canonical Table 4 soft-k minus MOEZipf.
+free_pmf_heldout_winner_count_zipf,0,X/25 count,Free PMF four-family held-out winner count.
+free_pmf_heldout_winner_count_zm,12,X/25 count,Free PMF four-family held-out winner count.
+free_pmf_heldout_winner_count_moe,5,X/25 count,Free PMF four-family held-out winner count.
+free_pmf_heldout_winner_count_seam,8,X/25 count,Free PMF four-family held-out winner count.
+fixedk_beats_free_count,17,X/25 count,Fixed-k vs free held-out comparison.
+median_fixedk_minus_free,-0.00026061539831978564,signed decimal,Median fixed-k minus free held-out NLL.
+fixedk_step2_help_count,5,X/25 count,Full-corpus residual diagnostic.
+fixedk_step2_gain_median,-0.0013125668475314212,signed decimal,Median fixed-k step-2 gain.
+fixedkw_beats_free_count,17,X/25 count,"Fixed-k,w vs free held-out comparison."
+median_fixedkw_minus_free,-0.0037987817092863807,signed decimal,"Median fixed-k,w minus free held-out NLL."
+fixedkw_step2_help_count,17,X/25 count,Full-corpus residual diagnostic.
+fixedkw_step2_gain_median,0.00485590759989446,signed decimal,"Median fixed-k,w step-2 gain."
+softk_beats_free_count,19,X/25 count,Canonical Table 4 soft-k vs free Seam-Mandelbrot.
+median_softk_minus_free,-0.0006897677588852957,signed decimal,Median canonical Table 4 soft-k minus free Seam-Mandelbrot.
+softk_beats_fixedk_count,24,X/25 count,Named splitfit regularization comparison.
+median_softk_minus_fixedk,-0.00036654381325362806,signed decimal,Named splitfit regularization comparison.
+softk_step2_help_count,4,X/25 count,Full-corpus residual diagnostic from explicit splitfit schema.
+softk_step2_nonhelp_count,21,X/25 count,Complement of soft-k step-2 help count.
+softk_step2_gain_median,-0.0013453984406848196,signed decimal,Median soft-k full-refit residual step-2 gain.
+free_pmf_step2_help_count,2,X/25 count,Free Seam-Mandelbrot full-corpus residual step-2 help count.
+softk_parameter_count,6,integer,Protocol constant for soft-k Seam-Mandelbrot PMF.
+lambda_k_min,0.0001,scientific notation,Minimum selected lambda_k in canonical Table 4.
+lambda_k_max,0.03,scientific notation,Maximum selected lambda_k in canonical Table 4.
+lambda_count_1e-4,5,count,Selected lambda_k distribution from canonical Table 4.
+lambda_count_3e-4,7,count,Selected lambda_k distribution from canonical Table 4.
+lambda_count_1e-3,5,count,Selected lambda_k distribution from canonical Table 4.
+lambda_count_3e-3,4,count,Selected lambda_k distribution from canonical Table 4.
+lambda_count_1e-2,2,count,Selected lambda_k distribution from canonical Table 4.
+lambda_count_3e-2,2,count,Selected lambda_k distribution from canonical Table 4.

@@ -1,0 +1,72 @@
+{
+  "experiment_id": "2b_synthetic_two_regime_mixtures",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_synthetic_mixture",
+    "results/zipf_breakthrough_probe"
+  ],
+  "outputs": {
+    "synthetic_mixture_runs.csv": {
+      "rows": 6,
+      "schema": [
+        "mixture_id",
+        "historical_name",
+        "alpha_1",
+        "alpha_2",
+        "weight_1",
+        "claimed_by_v4",
+        "token_equivalent",
+        "vocab_equivalent",
+        "zm_a",
+        "zm_b",
+        "zm_c",
+        "zm_rmse",
+        "step2_winner",
+        "step2_winner_display",
+        "step2_rmse",
+        "step2_helps",
+        "top5_json"
+      ]
+    },
+    "planted_mixture_runs.csv": {
+      "rows": 1,
+      "schema": [
+        "mixture_id",
+        "mixture_name",
+        "source_bundle",
+        "original_step2_winner",
+        "original_step2_rmse",
+        "zm_baseline_rmse",
+        "zm_step2_rmse",
+        "zm_rmse",
+        "zm_plus_step2_rmse",
+        "moezipf_alpha",
+        "moezipf_beta",
+        "moezipf_baseline_rmse",
+        "moezipf_step2_rmse",
+        "moe_rmse",
+        "moe_plus_step2_rmse",
+        "moezipf_step2_winner",
+        "moezipf_step2_winner_math",
+        "step2_winner_display",
+        "moezipf_step2_improvement",
+        "integer_scale_factor"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 1,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "blocked": [
+    "claimed alpha=1.5/1.5 same-exponent control is not present in source bundles"
+  ],
+  "audit_flags": [
+    "line 277 planted-mixture values are migrated from zipf_breakthrough_probe into 2b to repair the narrative provenance mismatch"
+  ]
+}

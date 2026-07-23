@@ -1,0 +1,6 @@
+{
+  "source_bundles": [
+    "results/zipf_multilang_romance",
+    "results/zipf_multilang_verify"
+  ]
+}

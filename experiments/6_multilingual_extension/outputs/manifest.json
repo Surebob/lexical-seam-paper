@@ -1,0 +1,71 @@
+{
+  "experiment_id": "6_multilingual_extension",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_multilang_romance",
+    "results/zipf_multilang_verify"
+  ],
+  "outputs": {
+    "multilang_per_corpus.csv": {
+      "rows": 7,
+      "schema": [
+        "slug",
+        "language",
+        "corpus",
+        "token_count",
+        "raw_token_count",
+        "vocabulary_size",
+        "zm_a",
+        "zm_b",
+        "zm_c",
+        "single_zm_rmse",
+        "single_zm_bic",
+        "moezipf_rmse",
+        "moezipf_bic",
+        "smooth_7param_rmse",
+        "smooth_7param_bic",
+        "smooth_8param_rmse",
+        "smooth_8param_bic",
+        "transition_fraction",
+        "step2_winner",
+        "step2_winner_display",
+        "step2_rmse",
+        "bregman_in_beam",
+        "artifact_note",
+        "high_bregman_rmse",
+        "low_bregman_rmse",
+        "euclidean_rmse",
+        "xpow_rmse",
+        "gap_to_high_bregman",
+        "gap_to_euclidean",
+        "k_over_sqrt_v"
+      ]
+    },
+    "table3_multilang.csv": {
+      "rows": 7,
+      "schema": [
+        "language",
+        "corpus",
+        "vocabulary_size",
+        "zm_c",
+        "single_zm_rmse",
+        "smooth_rmse",
+        "step2_winner_display",
+        "k_over_sqrt_v"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 8,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "notes": [
+    "Uses historical smooth_8param values from the multilingual bundle; decoupled-erf canon applies only to 3a/3c/4/5c per migration adjustment.",
+    "T1 branch-shift result is not part of this Phase 2 migration output."
+  ]
+}

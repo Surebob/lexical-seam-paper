@@ -1,0 +1,113 @@
+{
+  "poisson_sorted_rank": {
+    "test": "poisson_sorted_rank",
+    "kind": "poisson_kl",
+    "support_size": 113,
+    "residual_rmse": 23.69264518071564,
+    "winner_expression": "div[pow[eml[x,1],eml[1,x]],eml[neg[x],mul[x,x]]]",
+    "winner_math": "(pow(EML(x,1),EML(1,x))/EML((-x),(x*x)))",
+    "winner_rmse": 3.086733798585374,
+    "winner_cosine_vs_predicted": 0.07543924068755449,
+    "winner_cosine_vs_negative_predicted": -0.07543924068755449,
+    "winner_max_abs_cosine_vs_predicted": 0.07543924068755449,
+    "predicted_occurrences": [
+      {
+        "step": 3,
+        "rmse_rank": 6843,
+        "expr": "sub[add[1,neg[x]],mul[log[x],neg[x]]]",
+        "math": "((1+(-x))-(log(x)*(-x)))",
+        "rmse": 23.690096815392103,
+        "in_top5_by_rmse": false,
+        "in_diversity_beam": false,
+        "diversity_rank": null
+      }
+    ],
+    "top20_bregman_count": 0,
+    "fitted_lambda": 12.5,
+    "sort_rule": "descending fitted single-Poisson probability, then ascending count",
+    "residual_vs_deviance_cosine_in_sorted_order": 0.9918153156696913,
+    "residual_vs_kl_sr_coordinate_cosine": 0.024603794248124106
+  },
+  "zm_natural_parameter": {
+    "test": "zm_natural_param_c_over_r_plus_c",
+    "kind": "gamma_is",
+    "support_size": 24458,
+    "residual_rmse": 0.18443042500644333,
+    "winner_expression": "pow[mul[x,x],eml[1,x]]",
+    "winner_math": "pow((x*x),EML(1,x))",
+    "winner_rmse": 0.17604748003909315,
+    "winner_cosine_vs_predicted": 0.0009251820206325986,
+    "winner_cosine_vs_negative_predicted": -0.0009251820206325986,
+    "winner_max_abs_cosine_vs_predicted": 0.0009251820206325986,
+    "predicted_occurrences": [
+      {
+        "step": 2,
+        "rmse_rank": 385,
+        "expr": "sub[sub[x,1],log[x]]",
+        "math": "((x-1)-log(x))",
+        "rmse": 1.779408877388147,
+        "in_top5_by_rmse": false,
+        "in_diversity_beam": false,
+        "diversity_rank": null
+      }
+    ],
+    "top20_bregman_count": 0,
+    "corpus": "Complete Works of Shakespeare",
+    "vocabulary_size": 24458,
+    "zm_c": 244.84484777363113,
+    "coordinate_primary": "linear-normalized c/(r+c)",
+    "reference_log_rank_is_cosine": 0.1420457988438693,
+    "natural_param_is_cosine": 0.01099086034173578,
+    "reference_log_rplusc_is_cosine": 0.019665344919106476,
+    "log_rank_control": {
+      "test": "zm_log_rank_control",
+      "kind": "gamma_is",
+      "support_size": 24458,
+      "residual_rmse": 0.18443042500644333,
+      "winner_expression": "sub[sub[x,1],log[x]]",
+      "winner_math": "((x-1)-log(x))",
+      "winner_rmse": 0.18285154352815539,
+      "winner_cosine_vs_predicted": 0.9999999999999998,
+      "winner_cosine_vs_negative_predicted": -0.9999999999999998,
+      "winner_max_abs_cosine_vs_predicted": 0.9999999999999998,
+      "predicted_occurrences": [
+        {
+          "step": 2,
+          "rmse_rank": 1,
+          "expr": "sub[sub[x,1],log[x]]",
+          "math": "((x-1)-log(x))",
+          "rmse": 0.18285154352815539,
+          "in_top5_by_rmse": true,
+          "in_diversity_beam": true,
+          "diversity_rank": 1
+        }
+      ],
+      "top20_bregman_count": 5
+    },
+    "log_rplusc_reference": {
+      "test": "zm_log_rplusc_reference",
+      "kind": "gamma_is",
+      "support_size": 24458,
+      "residual_rmse": 0.18443042500644333,
+      "winner_expression": "sub[sqrt[x],pow[x,x]]",
+      "winner_math": "(sqrt(x)-pow(x,x))",
+      "winner_rmse": 0.1921016695454328,
+      "winner_cosine_vs_predicted": -0.6604369478233348,
+      "winner_cosine_vs_negative_predicted": 0.6604369478233348,
+      "winner_max_abs_cosine_vs_predicted": 0.6604369478233348,
+      "predicted_occurrences": [
+        {
+          "step": 2,
+          "rmse_rank": 29,
+          "expr": "sub[sub[x,1],log[x]]",
+          "math": "((x-1)-log(x))",
+          "rmse": 0.24981376992683996,
+          "in_top5_by_rmse": false,
+          "in_diversity_beam": true,
+          "diversity_rank": 43
+        }
+      ],
+      "top20_bregman_count": 3
+    }
+  }
+}

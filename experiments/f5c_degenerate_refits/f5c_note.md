@@ -1,0 +1,1 @@
+f5c verdict: all six language refits interior (no bound hits); s/V = 0.0068 (PL) to 0.0096 (PT), joining English 0.0118-0.0122. Degeneracy cured; s-law cross-language within factor ~1.7, depth caveat applies (language corpora smaller).

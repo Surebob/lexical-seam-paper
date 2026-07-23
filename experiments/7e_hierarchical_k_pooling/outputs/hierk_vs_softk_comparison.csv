@@ -1,0 +1,26 @@
+slug,corpus,hierk_full_avg_nll,softk_full_avg_nll,hierk_minus_softk,hierk_beats_softk,softk_source
+shakespeare,Complete Works of Shakespeare,6.881832677420709,6.882154461847067,-0.0003217844263581071,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+war_and_peace,War and Peace,6.678419629848475,6.678678865152861,-0.0002592353043864293,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+moby_dick,Moby Dick,6.950364024414742,6.948129203324875,0.002234821089866834,False,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+king_james_bible,King James Bible,6.021012781327764,6.016015736044842,0.004997045282921775,False,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+federalist_papers,Federalist Papers,6.1988231900840765,6.199844992900314,-0.001021802816237205,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+grimms_fairy_tales,Grimm's Fairy Tales,6.081725042419086,6.077603811556091,0.0041212308629949845,False,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+don_quixote,Don Quixote,6.496012769506018,6.496925073059477,-0.0009123035534583934,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+pride_and_prejudice,Pride and Prejudice,6.335101731630408,6.336783021894429,-0.0016812902640213068,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+canterbury_tales,Canterbury Tales,6.8041130188221475,6.806097442244247,-0.0019844234220993684,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+arabian_nights_vol1,Arabian Nights (Vol 1),6.686839081370042,6.687754725961309,-0.0009156445912665845,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+aesops_fables,Aesop's Fables,6.227198045996877,6.22074737680541,0.006450669191466751,False,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+complete_sherlock_holmes,Complete Sherlock Holmes,6.4501738150974415,6.453747597117771,-0.003573782020329652,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+jane_eyre,Jane Eyre,6.642465347772237,6.643433234761215,-0.0009678869889775399,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+dubliners,Dubliners,6.513285732940767,6.517051665375395,-0.00376593243462775,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+the_iliad,The Iliad,6.878643277833837,6.879693438081945,-0.0010501602481074457,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+democracy_in_america,Democracy in America,6.311458672138045,6.311611212604429,-0.0001525404663844654,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+origin_of_species,Origin of Species,6.374442239563384,6.375321709061686,-0.0008794694983018658,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+wealth_of_nations,Wealth of Nations,6.15599061858259,6.155611767747408,0.00037885083518141016,False,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+les_miserables,Les Miserables,6.801268330494189,6.801859574689947,-0.0005912441957578451,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+decline_and_fall_vol1,Decline and Fall Vol 1,6.715877872940722,6.717869269968219,-0.001991397027496511,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+emile,Emile,6.487676550842258,6.489722409140335,-0.002045858298077796,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+ulysses,Ulysses,7.350956482431356,7.353701494174882,-0.002745011743526149,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+collected_poe,Collected Poe,6.666433050066014,6.671484550103681,-0.005051500037667189,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+principia_ethica,Principia Ethica,5.910334132072979,5.91068217315341,-0.0003480410804312939,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv
+critique_of_pure_reason,Critique of Pure Reason,5.952594627808615,5.95290862285357,-0.00031399504495510655,True,experiments/7a_canonical_pmf_family/outputs/splitfit/table4_fourway.csv

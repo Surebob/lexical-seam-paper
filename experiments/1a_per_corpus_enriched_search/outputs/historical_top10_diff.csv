@@ -1,0 +1,1251 @@
+corpus,beam_rank,field,new_value,historical_value,abs_diff,matches
+Aesop's Fables,1,rmse,0.16922954056178502,0.16922954056178502,0.0,True
+Aesop's Fables,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Aesop's Fables,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Aesop's Fables,1,winner_family,exp,exp,,True
+Aesop's Fables,1,uses_new_operator,False,False,,True
+Aesop's Fables,2,rmse,0.17159871401499432,0.17159871401499432,0.0,True
+Aesop's Fables,2,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Aesop's Fables,2,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Aesop's Fables,2,winner_family,xpow,xpow,,True
+Aesop's Fables,2,uses_new_operator,False,False,,True
+Aesop's Fables,3,rmse,0.17239960126205842,0.17239960126205842,0.0,True
+Aesop's Fables,3,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Aesop's Fables,3,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Aesop's Fables,3,winner_family,other,other,,True
+Aesop's Fables,3,uses_new_operator,False,False,,True
+Aesop's Fables,4,rmse,0.17479457575179103,0.17479457575179103,0.0,True
+Aesop's Fables,4,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Aesop's Fables,4,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Aesop's Fables,4,winner_family,other,other,,True
+Aesop's Fables,4,uses_new_operator,False,False,,True
+Aesop's Fables,5,rmse,0.1749392242361762,0.1749392242361762,0.0,True
+Aesop's Fables,5,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Aesop's Fables,5,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Aesop's Fables,5,winner_family,other,other,,True
+Aesop's Fables,5,uses_new_operator,False,False,,True
+Aesop's Fables,6,rmse,0.17497160606504875,0.17497160606504875,0.0,True
+Aesop's Fables,6,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Aesop's Fables,6,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Aesop's Fables,6,winner_family,other,other,,True
+Aesop's Fables,6,uses_new_operator,False,False,,True
+Aesop's Fables,7,rmse,0.17549567485117257,0.17549567485117257,0.0,True
+Aesop's Fables,7,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Aesop's Fables,7,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Aesop's Fables,7,winner_family,other,other,,True
+Aesop's Fables,7,uses_new_operator,False,False,,True
+Aesop's Fables,8,rmse,0.1771438910999912,0.1771438910999912,0.0,True
+Aesop's Fables,8,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Aesop's Fables,8,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Aesop's Fables,8,winner_family,is,is,,True
+Aesop's Fables,8,uses_new_operator,False,False,,True
+Aesop's Fables,9,rmse,0.17799936962132182,0.17799936962132182,0.0,True
+Aesop's Fables,9,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Aesop's Fables,9,expression_display,(1 - x)^2,(1 - x)^2,,True
+Aesop's Fables,9,winner_family,euclidean,euclidean,,True
+Aesop's Fables,9,uses_new_operator,False,False,,True
+Aesop's Fables,10,rmse,0.17832557710186317,0.17832557710186317,0.0,True
+Aesop's Fables,10,expression,"mul[sub[1,x],sub[x,1]]","mul[sub[1,x],sub[x,1]]",,True
+Aesop's Fables,10,expression_display,((1-x)*(x-1)),((1-x)*(x-1)),,True
+Aesop's Fables,10,winner_family,other,other,,True
+Aesop's Fables,10,uses_new_operator,False,False,,True
+Arabian Nights (Vol 1),1,rmse,0.18278688989650455,0.18278688989650455,0.0,True
+Arabian Nights (Vol 1),1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Arabian Nights (Vol 1),1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Arabian Nights (Vol 1),1,winner_family,exp,exp,,True
+Arabian Nights (Vol 1),1,uses_new_operator,False,False,,True
+Arabian Nights (Vol 1),2,rmse,0.1845699635740453,0.1845699635740453,0.0,True
+Arabian Nights (Vol 1),2,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Arabian Nights (Vol 1),2,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Arabian Nights (Vol 1),2,winner_family,xpow,xpow,,True
+Arabian Nights (Vol 1),2,uses_new_operator,False,False,,True
+Arabian Nights (Vol 1),3,rmse,0.1855988570468531,0.1855988570468531,0.0,True
+Arabian Nights (Vol 1),3,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Arabian Nights (Vol 1),3,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Arabian Nights (Vol 1),3,winner_family,other,other,,True
+Arabian Nights (Vol 1),3,uses_new_operator,False,False,,True
+Arabian Nights (Vol 1),4,rmse,0.18624953256722684,0.18624953256722684,0.0,True
+Arabian Nights (Vol 1),4,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Arabian Nights (Vol 1),4,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Arabian Nights (Vol 1),4,winner_family,is,is,,True
+Arabian Nights (Vol 1),4,uses_new_operator,False,False,,True
+Arabian Nights (Vol 1),5,rmse,0.18694417702938554,0.18694417702938554,0.0,True
+Arabian Nights (Vol 1),5,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Arabian Nights (Vol 1),5,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Arabian Nights (Vol 1),5,winner_family,other,other,,True
+Arabian Nights (Vol 1),5,uses_new_operator,False,False,,True
+Arabian Nights (Vol 1),6,rmse,0.18732452301832536,0.18732452301832536,0.0,True
+Arabian Nights (Vol 1),6,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Arabian Nights (Vol 1),6,expression_display,(1 - x)^2,(1 - x)^2,,True
+Arabian Nights (Vol 1),6,winner_family,euclidean,euclidean,,True
+Arabian Nights (Vol 1),6,uses_new_operator,False,False,,True
+Arabian Nights (Vol 1),7,rmse,0.1876760491256233,0.1876760491256233,0.0,True
+Arabian Nights (Vol 1),7,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Arabian Nights (Vol 1),7,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Arabian Nights (Vol 1),7,winner_family,other,other,,True
+Arabian Nights (Vol 1),7,uses_new_operator,False,False,,True
+Arabian Nights (Vol 1),8,rmse,0.1876928741790554,0.1876928741790554,0.0,True
+Arabian Nights (Vol 1),8,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Arabian Nights (Vol 1),8,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Arabian Nights (Vol 1),8,winner_family,other,other,,True
+Arabian Nights (Vol 1),8,uses_new_operator,False,False,,True
+Arabian Nights (Vol 1),9,rmse,0.18791596991191123,0.18791596991191123,0.0,True
+Arabian Nights (Vol 1),9,expression,"add[sub[1,x],log[x]]","add[sub[1,x],log[x]]",,True
+Arabian Nights (Vol 1),9,expression_display,((1-x)+log(x)),((1-x)+log(x)),,True
+Arabian Nights (Vol 1),9,winner_family,other,other,,True
+Arabian Nights (Vol 1),9,uses_new_operator,False,False,,True
+Arabian Nights (Vol 1),10,rmse,0.18793885188049106,0.18793885188049106,0.0,True
+Arabian Nights (Vol 1),10,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Arabian Nights (Vol 1),10,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Arabian Nights (Vol 1),10,winner_family,other,other,,True
+Arabian Nights (Vol 1),10,uses_new_operator,False,False,,True
+Canterbury Tales,1,rmse,0.1678242283162659,0.1678242283162659,0.0,True
+Canterbury Tales,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Canterbury Tales,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Canterbury Tales,1,winner_family,exp,exp,,True
+Canterbury Tales,1,uses_new_operator,False,False,,True
+Canterbury Tales,2,rmse,0.17016778812525912,0.17016778812525912,0.0,True
+Canterbury Tales,2,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Canterbury Tales,2,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Canterbury Tales,2,winner_family,other,other,,True
+Canterbury Tales,2,uses_new_operator,False,False,,True
+Canterbury Tales,3,rmse,0.17057069256526533,0.17057069256526533,0.0,True
+Canterbury Tales,3,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Canterbury Tales,3,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Canterbury Tales,3,winner_family,xpow,xpow,,True
+Canterbury Tales,3,uses_new_operator,False,False,,True
+Canterbury Tales,4,rmse,0.1708961208533756,0.1708961208533756,0.0,True
+Canterbury Tales,4,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Canterbury Tales,4,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Canterbury Tales,4,winner_family,other,other,,True
+Canterbury Tales,4,uses_new_operator,False,False,,True
+Canterbury Tales,5,rmse,0.17093623968880178,0.17093623968880178,0.0,True
+Canterbury Tales,5,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Canterbury Tales,5,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Canterbury Tales,5,winner_family,is,is,,True
+Canterbury Tales,5,uses_new_operator,False,False,,True
+Canterbury Tales,6,rmse,0.17113704626276577,0.17113704626276577,0.0,True
+Canterbury Tales,6,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Canterbury Tales,6,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Canterbury Tales,6,winner_family,other,other,,True
+Canterbury Tales,6,uses_new_operator,False,False,,True
+Canterbury Tales,7,rmse,0.17155766787686438,0.17155766787686438,0.0,True
+Canterbury Tales,7,expression,"add[sub[1,x],log[x]]","add[sub[1,x],log[x]]",,True
+Canterbury Tales,7,expression_display,((1-x)+log(x)),((1-x)+log(x)),,True
+Canterbury Tales,7,winner_family,other,other,,True
+Canterbury Tales,7,uses_new_operator,False,False,,True
+Canterbury Tales,8,rmse,0.1723299287007539,0.1723299287007539,0.0,True
+Canterbury Tales,8,expression,"mul[sub[1,x],sub[x,1]]","mul[sub[1,x],sub[x,1]]",,True
+Canterbury Tales,8,expression_display,((1-x)*(x-1)),((1-x)*(x-1)),,True
+Canterbury Tales,8,winner_family,other,other,,True
+Canterbury Tales,8,uses_new_operator,False,False,,True
+Canterbury Tales,9,rmse,0.1723643623551438,0.1723643623551438,0.0,True
+Canterbury Tales,9,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Canterbury Tales,9,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Canterbury Tales,9,winner_family,other,other,,True
+Canterbury Tales,9,uses_new_operator,False,False,,True
+Canterbury Tales,10,rmse,0.1725431229353729,0.1725431229353729,0.0,True
+Canterbury Tales,10,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Canterbury Tales,10,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Canterbury Tales,10,winner_family,other,other,,True
+Canterbury Tales,10,uses_new_operator,False,False,,True
+Collected Poe,1,rmse,0.17464893963749728,0.17464893963749728,0.0,True
+Collected Poe,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Collected Poe,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Collected Poe,1,winner_family,exp,exp,,True
+Collected Poe,1,uses_new_operator,False,False,,True
+Collected Poe,2,rmse,0.17545087325392908,0.17545087325392908,0.0,True
+Collected Poe,2,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Collected Poe,2,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Collected Poe,2,winner_family,other,other,,True
+Collected Poe,2,uses_new_operator,False,False,,True
+Collected Poe,3,rmse,0.17722592930767092,0.17722592930767092,0.0,True
+Collected Poe,3,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Collected Poe,3,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Collected Poe,3,winner_family,other,other,,True
+Collected Poe,3,uses_new_operator,False,False,,True
+Collected Poe,4,rmse,0.17780968721161927,0.17780968721161927,0.0,True
+Collected Poe,4,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Collected Poe,4,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Collected Poe,4,winner_family,xpow,xpow,,True
+Collected Poe,4,uses_new_operator,False,False,,True
+Collected Poe,5,rmse,0.17879414959358172,0.17879414959358172,0.0,True
+Collected Poe,5,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Collected Poe,5,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Collected Poe,5,winner_family,other,other,,True
+Collected Poe,5,uses_new_operator,False,False,,True
+Collected Poe,6,rmse,0.17884344032060043,0.17884344032060043,0.0,True
+Collected Poe,6,expression,"mul[sub[1,x],sub[x,1]]","mul[sub[1,x],sub[x,1]]",,True
+Collected Poe,6,expression_display,((1-x)*(x-1)),((1-x)*(x-1)),,True
+Collected Poe,6,winner_family,other,other,,True
+Collected Poe,6,uses_new_operator,False,False,,True
+Collected Poe,7,rmse,0.17903141876702783,0.17903141876702783,0.0,True
+Collected Poe,7,expression,"add[sub[1,x],log[x]]","add[sub[1,x],log[x]]",,True
+Collected Poe,7,expression_display,((1-x)+log(x)),((1-x)+log(x)),,True
+Collected Poe,7,winner_family,other,other,,True
+Collected Poe,7,uses_new_operator,False,False,,True
+Collected Poe,8,rmse,0.17911421443607753,0.17911421443607753,0.0,True
+Collected Poe,8,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Collected Poe,8,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Collected Poe,8,winner_family,other,other,,True
+Collected Poe,8,uses_new_operator,False,False,,True
+Collected Poe,9,rmse,0.17926465042934145,0.17926465042934145,0.0,True
+Collected Poe,9,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Collected Poe,9,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Collected Poe,9,winner_family,other,other,,True
+Collected Poe,9,uses_new_operator,False,False,,True
+Collected Poe,10,rmse,0.17929969444976834,0.17929969444976834,0.0,True
+Collected Poe,10,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Collected Poe,10,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Collected Poe,10,winner_family,is,is,,True
+Collected Poe,10,uses_new_operator,False,False,,True
+Complete Sherlock Holmes,1,rmse,0.1692196987389226,0.1692196987389226,0.0,True
+Complete Sherlock Holmes,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Complete Sherlock Holmes,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Complete Sherlock Holmes,1,winner_family,exp,exp,,True
+Complete Sherlock Holmes,1,uses_new_operator,False,False,,True
+Complete Sherlock Holmes,2,rmse,0.1710875766139428,0.1710875766139428,0.0,True
+Complete Sherlock Holmes,2,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Complete Sherlock Holmes,2,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Complete Sherlock Holmes,2,winner_family,other,other,,True
+Complete Sherlock Holmes,2,uses_new_operator,False,False,,True
+Complete Sherlock Holmes,3,rmse,0.1720915784289525,0.1720915784289525,0.0,True
+Complete Sherlock Holmes,3,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Complete Sherlock Holmes,3,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Complete Sherlock Holmes,3,winner_family,xpow,xpow,,True
+Complete Sherlock Holmes,3,uses_new_operator,False,False,,True
+Complete Sherlock Holmes,4,rmse,0.1731020971045488,0.1731020971045488,0.0,True
+Complete Sherlock Holmes,4,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Complete Sherlock Holmes,4,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Complete Sherlock Holmes,4,winner_family,other,other,,True
+Complete Sherlock Holmes,4,uses_new_operator,False,False,,True
+Complete Sherlock Holmes,5,rmse,0.1738734416273575,0.1738734416273575,0.0,True
+Complete Sherlock Holmes,5,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Complete Sherlock Holmes,5,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Complete Sherlock Holmes,5,winner_family,other,other,,True
+Complete Sherlock Holmes,5,uses_new_operator,False,False,,True
+Complete Sherlock Holmes,6,rmse,0.17403730451678676,0.17403730451678676,0.0,True
+Complete Sherlock Holmes,6,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Complete Sherlock Holmes,6,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Complete Sherlock Holmes,6,winner_family,other,other,,True
+Complete Sherlock Holmes,6,uses_new_operator,False,False,,True
+Complete Sherlock Holmes,7,rmse,0.17430077958530202,0.17430077958530202,0.0,True
+Complete Sherlock Holmes,7,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Complete Sherlock Holmes,7,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Complete Sherlock Holmes,7,winner_family,other,other,,True
+Complete Sherlock Holmes,7,uses_new_operator,False,False,,True
+Complete Sherlock Holmes,8,rmse,0.17451384855568502,0.17451384855568502,0.0,True
+Complete Sherlock Holmes,8,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Complete Sherlock Holmes,8,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Complete Sherlock Holmes,8,winner_family,is,is,,True
+Complete Sherlock Holmes,8,uses_new_operator,False,False,,True
+Complete Sherlock Holmes,9,rmse,0.17513341187820883,0.17513341187820883,0.0,True
+Complete Sherlock Holmes,9,expression,"add[sub[1,x],log[x]]","add[sub[1,x],log[x]]",,True
+Complete Sherlock Holmes,9,expression_display,((1-x)+log(x)),((1-x)+log(x)),,True
+Complete Sherlock Holmes,9,winner_family,other,other,,True
+Complete Sherlock Holmes,9,uses_new_operator,False,False,,True
+Complete Sherlock Holmes,10,rmse,0.17514353623541226,0.17514353623541226,0.0,True
+Complete Sherlock Holmes,10,expression,"mul[sub[1,x],sub[x,1]]","mul[sub[1,x],sub[x,1]]",,True
+Complete Sherlock Holmes,10,expression_display,((1-x)*(x-1)),((1-x)*(x-1)),,True
+Complete Sherlock Holmes,10,winner_family,other,other,,True
+Complete Sherlock Holmes,10,uses_new_operator,False,False,,True
+Complete Works of Shakespeare,1,rmse,0.18285154352815539,0.18285154352815539,0.0,True
+Complete Works of Shakespeare,1,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Complete Works of Shakespeare,1,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Complete Works of Shakespeare,1,winner_family,is,is,,True
+Complete Works of Shakespeare,1,uses_new_operator,False,False,,True
+Complete Works of Shakespeare,2,rmse,0.18461777340942814,0.18461777340942814,0.0,True
+Complete Works of Shakespeare,2,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Complete Works of Shakespeare,2,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Complete Works of Shakespeare,2,winner_family,exp,exp,,True
+Complete Works of Shakespeare,2,uses_new_operator,False,False,,True
+Complete Works of Shakespeare,3,rmse,0.18618029461475435,0.18618029461475435,0.0,True
+Complete Works of Shakespeare,3,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Complete Works of Shakespeare,3,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Complete Works of Shakespeare,3,winner_family,other,other,,True
+Complete Works of Shakespeare,3,uses_new_operator,False,False,,True
+Complete Works of Shakespeare,4,rmse,0.1863648247937214,0.1863648247937214,0.0,True
+Complete Works of Shakespeare,4,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Complete Works of Shakespeare,4,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Complete Works of Shakespeare,4,winner_family,xpow,xpow,,True
+Complete Works of Shakespeare,4,uses_new_operator,False,False,,True
+Complete Works of Shakespeare,5,rmse,0.18705984191927655,0.18705984191927655,0.0,True
+Complete Works of Shakespeare,5,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Complete Works of Shakespeare,5,expression_display,(1 - x)^2,(1 - x)^2,,True
+Complete Works of Shakespeare,5,winner_family,euclidean,euclidean,,True
+Complete Works of Shakespeare,5,uses_new_operator,False,False,,True
+Complete Works of Shakespeare,6,rmse,0.18750264146230872,0.18750264146230872,0.0,True
+Complete Works of Shakespeare,6,expression,"mul[sub[x,1],log[x]]","mul[sub[x,1],log[x]]",,True
+Complete Works of Shakespeare,6,expression_display,((x-1)*log(x)),((x-1)*log(x)),,True
+Complete Works of Shakespeare,6,winner_family,other,other,,True
+Complete Works of Shakespeare,6,uses_new_operator,False,False,,True
+Complete Works of Shakespeare,7,rmse,0.18906525781893654,0.18906525781893654,0.0,True
+Complete Works of Shakespeare,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Complete Works of Shakespeare,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Complete Works of Shakespeare,7,winner_family,other,other,,True
+Complete Works of Shakespeare,7,uses_new_operator,False,False,,True
+Complete Works of Shakespeare,8,rmse,0.18918977817012575,0.18918977817012575,0.0,True
+Complete Works of Shakespeare,8,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Complete Works of Shakespeare,8,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Complete Works of Shakespeare,8,winner_family,other,other,,True
+Complete Works of Shakespeare,8,uses_new_operator,False,False,,True
+Complete Works of Shakespeare,9,rmse,0.18985739752992065,0.18985739752992065,0.0,True
+Complete Works of Shakespeare,9,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Complete Works of Shakespeare,9,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Complete Works of Shakespeare,9,winner_family,other,other,,True
+Complete Works of Shakespeare,9,uses_new_operator,False,False,,True
+Complete Works of Shakespeare,10,rmse,0.18994582370773802,0.18994582370773802,0.0,True
+Complete Works of Shakespeare,10,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Complete Works of Shakespeare,10,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Complete Works of Shakespeare,10,winner_family,other,other,,True
+Complete Works of Shakespeare,10,uses_new_operator,False,False,,True
+Critique of Pure Reason,1,rmse,0.17647312549496663,0.17647312549496663,0.0,True
+Critique of Pure Reason,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Critique of Pure Reason,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Critique of Pure Reason,1,winner_family,exp,exp,,True
+Critique of Pure Reason,1,uses_new_operator,False,False,,True
+Critique of Pure Reason,2,rmse,0.17708956325481962,0.17708956325481962,0.0,True
+Critique of Pure Reason,2,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Critique of Pure Reason,2,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Critique of Pure Reason,2,winner_family,is,is,,True
+Critique of Pure Reason,2,uses_new_operator,False,False,,True
+Critique of Pure Reason,3,rmse,0.17747111204888652,0.17747111204888652,0.0,True
+Critique of Pure Reason,3,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Critique of Pure Reason,3,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Critique of Pure Reason,3,winner_family,xpow,xpow,,True
+Critique of Pure Reason,3,uses_new_operator,False,False,,True
+Critique of Pure Reason,4,rmse,0.179747369536625,0.179747369536625,0.0,True
+Critique of Pure Reason,4,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Critique of Pure Reason,4,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Critique of Pure Reason,4,winner_family,other,other,,True
+Critique of Pure Reason,4,uses_new_operator,False,False,,True
+Critique of Pure Reason,5,rmse,0.18201439089620247,0.18201439089620247,0.0,True
+Critique of Pure Reason,5,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Critique of Pure Reason,5,expression_display,(1 - x)^2,(1 - x)^2,,True
+Critique of Pure Reason,5,winner_family,euclidean,euclidean,,True
+Critique of Pure Reason,5,uses_new_operator,False,False,,True
+Critique of Pure Reason,6,rmse,0.1822605807136197,0.1822605807136197,0.0,True
+Critique of Pure Reason,6,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Critique of Pure Reason,6,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Critique of Pure Reason,6,winner_family,other,other,,True
+Critique of Pure Reason,6,uses_new_operator,False,False,,True
+Critique of Pure Reason,7,rmse,0.18236101984949582,0.18236101984949582,0.0,True
+Critique of Pure Reason,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Critique of Pure Reason,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Critique of Pure Reason,7,winner_family,other,other,,True
+Critique of Pure Reason,7,uses_new_operator,False,False,,True
+Critique of Pure Reason,8,rmse,0.18255161761603136,0.18255161761603136,0.0,True
+Critique of Pure Reason,8,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Critique of Pure Reason,8,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Critique of Pure Reason,8,winner_family,other,other,,True
+Critique of Pure Reason,8,uses_new_operator,False,False,,True
+Critique of Pure Reason,9,rmse,0.1842819395349757,0.1842819395349757,0.0,True
+Critique of Pure Reason,9,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Critique of Pure Reason,9,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Critique of Pure Reason,9,winner_family,other,other,,True
+Critique of Pure Reason,9,uses_new_operator,False,False,,True
+Critique of Pure Reason,10,rmse,0.18658953364035624,0.18658953364035624,0.0,True
+Critique of Pure Reason,10,expression,"div[sub[x,1],eml[x,x]]","div[sub[x,1],eml[x,x]]",,True
+Critique of Pure Reason,10,expression_display,"((x-1)/EML(x,x))","((x-1)/EML(x,x))",,True
+Critique of Pure Reason,10,winner_family,other,other,,True
+Critique of Pure Reason,10,uses_new_operator,False,False,,True
+Decline and Fall Vol 1,1,rmse,0.2058860211560133,0.2058860211560133,0.0,True
+Decline and Fall Vol 1,1,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Decline and Fall Vol 1,1,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Decline and Fall Vol 1,1,winner_family,is,is,,True
+Decline and Fall Vol 1,1,uses_new_operator,False,False,,True
+Decline and Fall Vol 1,2,rmse,0.20932438344350124,0.20932438344350124,0.0,True
+Decline and Fall Vol 1,2,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Decline and Fall Vol 1,2,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Decline and Fall Vol 1,2,winner_family,exp,exp,,True
+Decline and Fall Vol 1,2,uses_new_operator,False,False,,True
+Decline and Fall Vol 1,3,rmse,0.20992229399220722,0.20992229399220722,0.0,True
+Decline and Fall Vol 1,3,expression,"mul[sub[x,1],log[x]]","mul[sub[x,1],log[x]]",,True
+Decline and Fall Vol 1,3,expression_display,((x-1)*log(x)),((x-1)*log(x)),,True
+Decline and Fall Vol 1,3,winner_family,other,other,,True
+Decline and Fall Vol 1,3,uses_new_operator,False,False,,True
+Decline and Fall Vol 1,4,rmse,0.20995625893348913,0.20995625893348913,0.0,True
+Decline and Fall Vol 1,4,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Decline and Fall Vol 1,4,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Decline and Fall Vol 1,4,winner_family,xpow,xpow,,True
+Decline and Fall Vol 1,4,uses_new_operator,False,False,,True
+Decline and Fall Vol 1,5,rmse,0.21025428129507875,0.21025428129507875,0.0,True
+Decline and Fall Vol 1,5,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Decline and Fall Vol 1,5,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Decline and Fall Vol 1,5,winner_family,other,other,,True
+Decline and Fall Vol 1,5,uses_new_operator,False,False,,True
+Decline and Fall Vol 1,6,rmse,0.21103785977955958,0.21103785977955958,0.0,True
+Decline and Fall Vol 1,6,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Decline and Fall Vol 1,6,expression_display,(1 - x)^2,(1 - x)^2,,True
+Decline and Fall Vol 1,6,winner_family,euclidean,euclidean,,True
+Decline and Fall Vol 1,6,uses_new_operator,False,False,,True
+Decline and Fall Vol 1,7,rmse,0.21410814856942986,0.21410814856942986,0.0,True
+Decline and Fall Vol 1,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Decline and Fall Vol 1,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Decline and Fall Vol 1,7,winner_family,other,other,,True
+Decline and Fall Vol 1,7,uses_new_operator,False,False,,True
+Decline and Fall Vol 1,8,rmse,0.2149098802274645,0.2149098802274645,0.0,True
+Decline and Fall Vol 1,8,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Decline and Fall Vol 1,8,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Decline and Fall Vol 1,8,winner_family,other,other,,True
+Decline and Fall Vol 1,8,uses_new_operator,False,False,,True
+Decline and Fall Vol 1,9,rmse,0.215585071617005,0.215585071617005,0.0,True
+Decline and Fall Vol 1,9,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Decline and Fall Vol 1,9,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Decline and Fall Vol 1,9,winner_family,other,other,,True
+Decline and Fall Vol 1,9,uses_new_operator,False,False,,True
+Decline and Fall Vol 1,10,rmse,0.21652049404144233,0.21652049404144233,0.0,True
+Decline and Fall Vol 1,10,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Decline and Fall Vol 1,10,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Decline and Fall Vol 1,10,winner_family,other,other,,True
+Decline and Fall Vol 1,10,uses_new_operator,False,False,,True
+Democracy in America,1,rmse,0.1894135889625467,0.1894135889625467,0.0,True
+Democracy in America,1,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Democracy in America,1,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Democracy in America,1,winner_family,is,is,,True
+Democracy in America,1,uses_new_operator,False,False,,True
+Democracy in America,2,rmse,0.19273164051225666,0.19273164051225666,0.0,True
+Democracy in America,2,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Democracy in America,2,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Democracy in America,2,winner_family,exp,exp,,True
+Democracy in America,2,uses_new_operator,False,False,,True
+Democracy in America,3,rmse,0.19373191872802986,0.19373191872802986,0.0,True
+Democracy in America,3,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Democracy in America,3,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Democracy in America,3,winner_family,xpow,xpow,,True
+Democracy in America,3,uses_new_operator,False,False,,True
+Democracy in America,4,rmse,0.19480911702258394,0.19480911702258394,0.0,True
+Democracy in America,4,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Democracy in America,4,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Democracy in America,4,winner_family,other,other,,True
+Democracy in America,4,uses_new_operator,False,False,,True
+Democracy in America,5,rmse,0.19623206363320225,0.19623206363320225,0.0,True
+Democracy in America,5,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Democracy in America,5,expression_display,(1 - x)^2,(1 - x)^2,,True
+Democracy in America,5,winner_family,euclidean,euclidean,,True
+Democracy in America,5,uses_new_operator,False,False,,True
+Democracy in America,6,rmse,0.19664850812580853,0.19664850812580853,0.0,True
+Democracy in America,6,expression,"mul[sub[x,1],log[x]]","mul[sub[x,1],log[x]]",,True
+Democracy in America,6,expression_display,((x-1)*log(x)),((x-1)*log(x)),,True
+Democracy in America,6,winner_family,other,other,,True
+Democracy in America,6,uses_new_operator,False,False,,True
+Democracy in America,7,rmse,0.19765160080064176,0.19765160080064176,0.0,True
+Democracy in America,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Democracy in America,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Democracy in America,7,winner_family,other,other,,True
+Democracy in America,7,uses_new_operator,False,False,,True
+Democracy in America,8,rmse,0.19821548320499285,0.19821548320499285,0.0,True
+Democracy in America,8,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Democracy in America,8,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Democracy in America,8,winner_family,other,other,,True
+Democracy in America,8,uses_new_operator,False,False,,True
+Democracy in America,9,rmse,0.1986446049874002,0.1986446049874002,0.0,True
+Democracy in America,9,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Democracy in America,9,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Democracy in America,9,winner_family,other,other,,True
+Democracy in America,9,uses_new_operator,False,False,,True
+Democracy in America,10,rmse,0.1999097020896594,0.1999097020896594,0.0,True
+Democracy in America,10,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Democracy in America,10,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Democracy in America,10,winner_family,other,other,,True
+Democracy in America,10,uses_new_operator,False,False,,True
+Don Quixote,1,rmse,0.1763356841530791,0.1763356841530791,0.0,True
+Don Quixote,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Don Quixote,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Don Quixote,1,winner_family,exp,exp,,True
+Don Quixote,1,uses_new_operator,False,False,,True
+Don Quixote,2,rmse,0.17692787402335688,0.17692787402335688,0.0,True
+Don Quixote,2,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Don Quixote,2,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Don Quixote,2,winner_family,is,is,,True
+Don Quixote,2,uses_new_operator,False,False,,True
+Don Quixote,3,rmse,0.177782754951745,0.177782754951745,0.0,True
+Don Quixote,3,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Don Quixote,3,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Don Quixote,3,winner_family,other,other,,True
+Don Quixote,3,uses_new_operator,False,False,,True
+Don Quixote,4,rmse,0.17887159100651798,0.17887159100651798,0.0,True
+Don Quixote,4,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Don Quixote,4,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Don Quixote,4,winner_family,other,other,,True
+Don Quixote,4,uses_new_operator,False,False,,True
+Don Quixote,5,rmse,0.17916885732189522,0.17916885732189522,0.0,True
+Don Quixote,5,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Don Quixote,5,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Don Quixote,5,winner_family,xpow,xpow,,True
+Don Quixote,5,uses_new_operator,False,False,,True
+Don Quixote,6,rmse,0.17962778653555275,0.17962778653555275,0.0,True
+Don Quixote,6,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Don Quixote,6,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Don Quixote,6,winner_family,other,other,,True
+Don Quixote,6,uses_new_operator,False,False,,True
+Don Quixote,7,rmse,0.18013947664140664,0.18013947664140664,0.0,True
+Don Quixote,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Don Quixote,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Don Quixote,7,winner_family,other,other,,True
+Don Quixote,7,uses_new_operator,False,False,,True
+Don Quixote,8,rmse,0.18039864429037158,0.18039864429037158,0.0,True
+Don Quixote,8,expression,"mul[sub[1,x],sub[x,1]]","mul[sub[1,x],sub[x,1]]",,True
+Don Quixote,8,expression_display,((1-x)*(x-1)),((1-x)*(x-1)),,True
+Don Quixote,8,winner_family,other,other,,True
+Don Quixote,8,uses_new_operator,False,False,,True
+Don Quixote,9,rmse,0.18093847051614811,0.18093847051614811,0.0,True
+Don Quixote,9,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Don Quixote,9,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Don Quixote,9,winner_family,other,other,,True
+Don Quixote,9,uses_new_operator,False,False,,True
+Don Quixote,10,rmse,0.18147045795407055,0.18147045795407055,0.0,True
+Don Quixote,10,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Don Quixote,10,expression_display,(1 - x)^2,(1 - x)^2,,True
+Don Quixote,10,winner_family,euclidean,euclidean,,True
+Don Quixote,10,uses_new_operator,False,False,,True
+Dubliners,1,rmse,0.17518979953881125,0.17518979953881125,0.0,True
+Dubliners,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Dubliners,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Dubliners,1,winner_family,exp,exp,,True
+Dubliners,1,uses_new_operator,False,False,,True
+Dubliners,2,rmse,0.17632914837060779,0.17632914837060779,0.0,True
+Dubliners,2,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Dubliners,2,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Dubliners,2,winner_family,xpow,xpow,,True
+Dubliners,2,uses_new_operator,False,False,,True
+Dubliners,3,rmse,0.1786986501957996,0.1786986501957996,0.0,True
+Dubliners,3,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Dubliners,3,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Dubliners,3,winner_family,other,other,,True
+Dubliners,3,uses_new_operator,False,False,,True
+Dubliners,4,rmse,0.18077048968881346,0.18077048968881346,0.0,True
+Dubliners,4,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Dubliners,4,expression_display,(1 - x)^2,(1 - x)^2,,True
+Dubliners,4,winner_family,euclidean,euclidean,,True
+Dubliners,4,uses_new_operator,False,False,,True
+Dubliners,5,rmse,0.18084229963650614,0.18084229963650614,0.0,True
+Dubliners,5,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Dubliners,5,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Dubliners,5,winner_family,is,is,,True
+Dubliners,5,uses_new_operator,False,False,,True
+Dubliners,6,rmse,0.1810856247172799,0.1810856247172799,0.0,True
+Dubliners,6,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Dubliners,6,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Dubliners,6,winner_family,other,other,,True
+Dubliners,6,uses_new_operator,False,False,,True
+Dubliners,7,rmse,0.18143708689167504,0.18143708689167504,0.0,True
+Dubliners,7,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Dubliners,7,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Dubliners,7,winner_family,other,other,,True
+Dubliners,7,uses_new_operator,False,False,,True
+Dubliners,8,rmse,0.18177784855435708,0.18177784855435708,0.0,True
+Dubliners,8,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Dubliners,8,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Dubliners,8,winner_family,other,other,,True
+Dubliners,8,uses_new_operator,False,False,,True
+Dubliners,9,rmse,0.18304553590511552,0.18304553590511552,0.0,True
+Dubliners,9,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Dubliners,9,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Dubliners,9,winner_family,other,other,,True
+Dubliners,9,uses_new_operator,False,False,,True
+Dubliners,10,rmse,0.18382445286488935,0.18382445286488935,0.0,True
+Dubliners,10,expression,"add[sub[1,x],log[x]]","add[sub[1,x],log[x]]",,True
+Dubliners,10,expression_display,((1-x)+log(x)),((1-x)+log(x)),,True
+Dubliners,10,winner_family,other,other,,True
+Dubliners,10,uses_new_operator,False,False,,True
+Emile,1,rmse,0.18033837337902978,0.18033837337902978,0.0,True
+Emile,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Emile,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Emile,1,winner_family,exp,exp,,True
+Emile,1,uses_new_operator,False,False,,True
+Emile,2,rmse,0.181539251240389,0.181539251240389,0.0,True
+Emile,2,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Emile,2,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Emile,2,winner_family,is,is,,True
+Emile,2,uses_new_operator,False,False,,True
+Emile,3,rmse,0.18220448616439197,0.18220448616439197,0.0,True
+Emile,3,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Emile,3,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Emile,3,winner_family,other,other,,True
+Emile,3,uses_new_operator,False,False,,True
+Emile,4,rmse,0.18290425956361464,0.18290425956361464,0.0,True
+Emile,4,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Emile,4,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Emile,4,winner_family,xpow,xpow,,True
+Emile,4,uses_new_operator,False,False,,True
+Emile,5,rmse,0.18364962089185866,0.18364962089185866,0.0,True
+Emile,5,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Emile,5,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Emile,5,winner_family,other,other,,True
+Emile,5,uses_new_operator,False,False,,True
+Emile,6,rmse,0.18387368982328164,0.18387368982328164,0.0,True
+Emile,6,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Emile,6,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Emile,6,winner_family,other,other,,True
+Emile,6,uses_new_operator,False,False,,True
+Emile,7,rmse,0.1844255510746463,0.1844255510746463,0.0,True
+Emile,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Emile,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Emile,7,winner_family,other,other,,True
+Emile,7,uses_new_operator,False,False,,True
+Emile,8,rmse,0.1851014183875947,0.1851014183875947,0.0,True
+Emile,8,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Emile,8,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Emile,8,winner_family,other,other,,True
+Emile,8,uses_new_operator,False,False,,True
+Emile,9,rmse,0.18538998164645648,0.18538998164645648,0.0,True
+Emile,9,expression,"mul[sub[1,x],sub[x,1]]","mul[sub[1,x],sub[x,1]]",,True
+Emile,9,expression_display,((1-x)*(x-1)),((1-x)*(x-1)),,True
+Emile,9,winner_family,other,other,,True
+Emile,9,uses_new_operator,False,False,,True
+Emile,10,rmse,0.185927068237907,0.185927068237907,0.0,True
+Emile,10,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Emile,10,expression_display,(1 - x)^2,(1 - x)^2,,True
+Emile,10,winner_family,euclidean,euclidean,,True
+Emile,10,uses_new_operator,False,False,,True
+Federalist Papers,1,rmse,0.1916277812723682,0.1916277812723682,0.0,True
+Federalist Papers,1,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Federalist Papers,1,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Federalist Papers,1,winner_family,is,is,,True
+Federalist Papers,1,uses_new_operator,False,False,,True
+Federalist Papers,2,rmse,0.195160110344618,0.195160110344618,0.0,True
+Federalist Papers,2,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Federalist Papers,2,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Federalist Papers,2,winner_family,exp,exp,,True
+Federalist Papers,2,uses_new_operator,False,False,,True
+Federalist Papers,3,rmse,0.19614223206439965,0.19614223206439965,0.0,True
+Federalist Papers,3,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Federalist Papers,3,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Federalist Papers,3,winner_family,xpow,xpow,,True
+Federalist Papers,3,uses_new_operator,False,False,,True
+Federalist Papers,4,rmse,0.19727938347322796,0.19727938347322796,0.0,True
+Federalist Papers,4,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Federalist Papers,4,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Federalist Papers,4,winner_family,other,other,,True
+Federalist Papers,4,uses_new_operator,False,False,,True
+Federalist Papers,5,rmse,0.19870611998493082,0.19870611998493082,0.0,True
+Federalist Papers,5,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Federalist Papers,5,expression_display,(1 - x)^2,(1 - x)^2,,True
+Federalist Papers,5,winner_family,euclidean,euclidean,,True
+Federalist Papers,5,uses_new_operator,False,False,,True
+Federalist Papers,6,rmse,0.19902458946316315,0.19902458946316315,0.0,True
+Federalist Papers,6,expression,"mul[sub[x,1],log[x]]","mul[sub[x,1],log[x]]",,True
+Federalist Papers,6,expression_display,((x-1)*log(x)),((x-1)*log(x)),,True
+Federalist Papers,6,winner_family,other,other,,True
+Federalist Papers,6,uses_new_operator,False,False,,True
+Federalist Papers,7,rmse,0.20001646437741885,0.20001646437741885,0.0,True
+Federalist Papers,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Federalist Papers,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Federalist Papers,7,winner_family,other,other,,True
+Federalist Papers,7,uses_new_operator,False,False,,True
+Federalist Papers,8,rmse,0.20059531543877052,0.20059531543877052,0.0,True
+Federalist Papers,8,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Federalist Papers,8,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Federalist Papers,8,winner_family,other,other,,True
+Federalist Papers,8,uses_new_operator,False,False,,True
+Federalist Papers,9,rmse,0.20110334067221847,0.20110334067221847,0.0,True
+Federalist Papers,9,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Federalist Papers,9,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Federalist Papers,9,winner_family,other,other,,True
+Federalist Papers,9,uses_new_operator,False,False,,True
+Federalist Papers,10,rmse,0.2024278544633605,0.2024278544633605,0.0,True
+Federalist Papers,10,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Federalist Papers,10,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Federalist Papers,10,winner_family,other,other,,True
+Federalist Papers,10,uses_new_operator,False,False,,True
+Grimm's Fairy Tales,1,rmse,0.16550485072433857,0.16550485072433857,0.0,True
+Grimm's Fairy Tales,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Grimm's Fairy Tales,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Grimm's Fairy Tales,1,winner_family,exp,exp,,True
+Grimm's Fairy Tales,1,uses_new_operator,False,False,,True
+Grimm's Fairy Tales,2,rmse,0.16705646289920434,0.16705646289920434,0.0,True
+Grimm's Fairy Tales,2,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Grimm's Fairy Tales,2,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Grimm's Fairy Tales,2,winner_family,xpow,xpow,,True
+Grimm's Fairy Tales,2,uses_new_operator,False,False,,True
+Grimm's Fairy Tales,3,rmse,0.16733516871434567,0.16733516871434567,0.0,True
+Grimm's Fairy Tales,3,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Grimm's Fairy Tales,3,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Grimm's Fairy Tales,3,winner_family,is,is,,True
+Grimm's Fairy Tales,3,uses_new_operator,False,False,,True
+Grimm's Fairy Tales,4,rmse,0.17009541382985208,0.17009541382985208,0.0,True
+Grimm's Fairy Tales,4,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Grimm's Fairy Tales,4,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Grimm's Fairy Tales,4,winner_family,other,other,,True
+Grimm's Fairy Tales,4,uses_new_operator,False,False,,True
+Grimm's Fairy Tales,5,rmse,0.17026063742675127,0.17026063742675127,0.0,True
+Grimm's Fairy Tales,5,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Grimm's Fairy Tales,5,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Grimm's Fairy Tales,5,winner_family,other,other,,True
+Grimm's Fairy Tales,5,uses_new_operator,False,False,,True
+Grimm's Fairy Tales,6,rmse,0.17138560205116826,0.17138560205116826,0.0,True
+Grimm's Fairy Tales,6,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Grimm's Fairy Tales,6,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Grimm's Fairy Tales,6,winner_family,other,other,,True
+Grimm's Fairy Tales,6,uses_new_operator,False,False,,True
+Grimm's Fairy Tales,7,rmse,0.1718680016624955,0.1718680016624955,0.0,True
+Grimm's Fairy Tales,7,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Grimm's Fairy Tales,7,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Grimm's Fairy Tales,7,winner_family,other,other,,True
+Grimm's Fairy Tales,7,uses_new_operator,False,False,,True
+Grimm's Fairy Tales,8,rmse,0.17299875265967107,0.17299875265967107,0.0,True
+Grimm's Fairy Tales,8,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Grimm's Fairy Tales,8,expression_display,(1 - x)^2,(1 - x)^2,,True
+Grimm's Fairy Tales,8,winner_family,euclidean,euclidean,,True
+Grimm's Fairy Tales,8,uses_new_operator,False,False,,True
+Grimm's Fairy Tales,9,rmse,0.17325037708296276,0.17325037708296276,0.0,True
+Grimm's Fairy Tales,9,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Grimm's Fairy Tales,9,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Grimm's Fairy Tales,9,winner_family,other,other,,True
+Grimm's Fairy Tales,9,uses_new_operator,False,False,,True
+Grimm's Fairy Tales,10,rmse,0.17615437633513226,0.17615437633513226,0.0,True
+Grimm's Fairy Tales,10,expression,"div[sub[x,1],eml[x,x]]","div[sub[x,1],eml[x,x]]",,True
+Grimm's Fairy Tales,10,expression_display,"((x-1)/EML(x,x))","((x-1)/EML(x,x))",,True
+Grimm's Fairy Tales,10,winner_family,other,other,,True
+Grimm's Fairy Tales,10,uses_new_operator,False,False,,True
+Jane Eyre,1,rmse,0.16333010797099165,0.16333010797099165,0.0,True
+Jane Eyre,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Jane Eyre,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Jane Eyre,1,winner_family,exp,exp,,True
+Jane Eyre,1,uses_new_operator,False,False,,True
+Jane Eyre,2,rmse,0.16395623934384868,0.16395623934384868,0.0,True
+Jane Eyre,2,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Jane Eyre,2,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Jane Eyre,2,winner_family,other,other,,True
+Jane Eyre,2,uses_new_operator,False,False,,True
+Jane Eyre,3,rmse,0.16537552370333009,0.16537552370333009,0.0,True
+Jane Eyre,3,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Jane Eyre,3,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Jane Eyre,3,winner_family,other,other,,True
+Jane Eyre,3,uses_new_operator,False,False,,True
+Jane Eyre,4,rmse,0.1667835051731643,0.1667835051731643,0.0,True
+Jane Eyre,4,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Jane Eyre,4,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Jane Eyre,4,winner_family,xpow,xpow,,True
+Jane Eyre,4,uses_new_operator,False,False,,True
+Jane Eyre,5,rmse,0.1669347201354299,0.1669347201354299,0.0,True
+Jane Eyre,5,expression,"mul[sub[1,x],sub[x,1]]","mul[sub[1,x],sub[x,1]]",,True
+Jane Eyre,5,expression_display,((1-x)*(x-1)),((1-x)*(x-1)),,True
+Jane Eyre,5,winner_family,other,other,,True
+Jane Eyre,5,uses_new_operator,False,False,,True
+Jane Eyre,6,rmse,0.16707255792195488,0.16707255792195488,0.0,True
+Jane Eyre,6,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Jane Eyre,6,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Jane Eyre,6,winner_family,is,is,,True
+Jane Eyre,6,uses_new_operator,False,False,,True
+Jane Eyre,7,rmse,0.167205257156014,0.167205257156014,0.0,True
+Jane Eyre,7,expression,"add[sub[1,x],log[x]]","add[sub[1,x],log[x]]",,True
+Jane Eyre,7,expression_display,((1-x)+log(x)),((1-x)+log(x)),,True
+Jane Eyre,7,winner_family,other,other,,True
+Jane Eyre,7,uses_new_operator,False,False,,True
+Jane Eyre,8,rmse,0.16745026079733993,0.16745026079733993,0.0,True
+Jane Eyre,8,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Jane Eyre,8,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Jane Eyre,8,winner_family,other,other,,True
+Jane Eyre,8,uses_new_operator,False,False,,True
+Jane Eyre,9,rmse,0.1676662998589509,0.1676662998589509,0.0,True
+Jane Eyre,9,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Jane Eyre,9,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Jane Eyre,9,winner_family,other,other,,True
+Jane Eyre,9,uses_new_operator,False,False,,True
+Jane Eyre,10,rmse,0.16802212433557512,0.16802212433557512,0.0,True
+Jane Eyre,10,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Jane Eyre,10,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Jane Eyre,10,winner_family,other,other,,True
+Jane Eyre,10,uses_new_operator,False,False,,True
+King James Bible,1,rmse,0.1854896711109791,0.1854896711109791,0.0,True
+King James Bible,1,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+King James Bible,1,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+King James Bible,1,winner_family,is,is,,True
+King James Bible,1,uses_new_operator,False,False,,True
+King James Bible,2,rmse,0.18845643682086718,0.18845643682086718,0.0,True
+King James Bible,2,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+King James Bible,2,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+King James Bible,2,winner_family,exp,exp,,True
+King James Bible,2,uses_new_operator,False,False,,True
+King James Bible,3,rmse,0.1897989414396081,0.1897989414396081,0.0,True
+King James Bible,3,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+King James Bible,3,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+King James Bible,3,winner_family,xpow,xpow,,True
+King James Bible,3,uses_new_operator,False,False,,True
+King James Bible,4,rmse,0.19031393231636576,0.19031393231636576,0.0,True
+King James Bible,4,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+King James Bible,4,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+King James Bible,4,winner_family,other,other,,True
+King James Bible,4,uses_new_operator,False,False,,True
+King James Bible,5,rmse,0.1914413534612705,0.1914413534612705,0.0,True
+King James Bible,5,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+King James Bible,5,expression_display,(1 - x)^2,(1 - x)^2,,True
+King James Bible,5,winner_family,euclidean,euclidean,,True
+King James Bible,5,uses_new_operator,False,False,,True
+King James Bible,6,rmse,0.19163952982997645,0.19163952982997645,0.0,True
+King James Bible,6,expression,"mul[sub[x,1],log[x]]","mul[sub[x,1],log[x]]",,True
+King James Bible,6,expression_display,((x-1)*log(x)),((x-1)*log(x)),,True
+King James Bible,6,winner_family,other,other,,True
+King James Bible,6,uses_new_operator,False,False,,True
+King James Bible,7,rmse,0.1932524420326454,0.1932524420326454,0.0,True
+King James Bible,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+King James Bible,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+King James Bible,7,winner_family,other,other,,True
+King James Bible,7,uses_new_operator,False,False,,True
+King James Bible,8,rmse,0.1937384568581069,0.1937384568581069,0.0,True
+King James Bible,8,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+King James Bible,8,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+King James Bible,8,winner_family,other,other,,True
+King James Bible,8,uses_new_operator,False,False,,True
+King James Bible,9,rmse,0.1943807555682465,0.1943807555682465,0.0,True
+King James Bible,9,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+King James Bible,9,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+King James Bible,9,winner_family,other,other,,True
+King James Bible,9,uses_new_operator,False,False,,True
+King James Bible,10,rmse,0.19519313546129038,0.19519313546129038,0.0,True
+King James Bible,10,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+King James Bible,10,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+King James Bible,10,winner_family,other,other,,True
+King James Bible,10,uses_new_operator,False,False,,True
+Les Miserables,1,rmse,0.1868492241461159,0.1868492241461159,0.0,True
+Les Miserables,1,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Les Miserables,1,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Les Miserables,1,winner_family,is,is,,True
+Les Miserables,1,uses_new_operator,False,False,,True
+Les Miserables,2,rmse,0.18880587501084395,0.18880587501084395,0.0,True
+Les Miserables,2,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Les Miserables,2,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Les Miserables,2,winner_family,exp,exp,,True
+Les Miserables,2,uses_new_operator,False,False,,True
+Les Miserables,3,rmse,0.19051378923228393,0.19051378923228393,0.0,True
+Les Miserables,3,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Les Miserables,3,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Les Miserables,3,winner_family,other,other,,True
+Les Miserables,3,uses_new_operator,False,False,,True
+Les Miserables,4,rmse,0.1905762231061338,0.1905762231061338,0.0,True
+Les Miserables,4,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Les Miserables,4,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Les Miserables,4,winner_family,xpow,xpow,,True
+Les Miserables,4,uses_new_operator,False,False,,True
+Les Miserables,5,rmse,0.1915234203750298,0.1915234203750298,0.0,True
+Les Miserables,5,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Les Miserables,5,expression_display,(1 - x)^2,(1 - x)^2,,True
+Les Miserables,5,winner_family,euclidean,euclidean,,True
+Les Miserables,5,uses_new_operator,False,False,,True
+Les Miserables,6,rmse,0.19179657728648045,0.19179657728648045,0.0,True
+Les Miserables,6,expression,"mul[sub[x,1],log[x]]","mul[sub[x,1],log[x]]",,True
+Les Miserables,6,expression_display,((x-1)*log(x)),((x-1)*log(x)),,True
+Les Miserables,6,winner_family,other,other,,True
+Les Miserables,6,uses_new_operator,False,False,,True
+Les Miserables,7,rmse,0.1928668929564853,0.1928668929564853,0.0,True
+Les Miserables,7,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Les Miserables,7,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Les Miserables,7,winner_family,other,other,,True
+Les Miserables,7,uses_new_operator,False,False,,True
+Les Miserables,8,rmse,0.19302132016689016,0.19302132016689016,0.0,True
+Les Miserables,8,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Les Miserables,8,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Les Miserables,8,winner_family,other,other,,True
+Les Miserables,8,uses_new_operator,False,False,,True
+Les Miserables,9,rmse,0.193550241230349,0.193550241230349,0.0,True
+Les Miserables,9,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Les Miserables,9,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Les Miserables,9,winner_family,other,other,,True
+Les Miserables,9,uses_new_operator,False,False,,True
+Les Miserables,10,rmse,0.19387955089688624,0.19387955089688624,0.0,True
+Les Miserables,10,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Les Miserables,10,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Les Miserables,10,winner_family,other,other,,True
+Les Miserables,10,uses_new_operator,False,False,,True
+Moby Dick,1,rmse,0.16334575772525425,0.16334575772525425,0.0,True
+Moby Dick,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Moby Dick,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Moby Dick,1,winner_family,exp,exp,,True
+Moby Dick,1,uses_new_operator,False,False,,True
+Moby Dick,2,rmse,0.1643352350610081,0.1643352350610081,0.0,True
+Moby Dick,2,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Moby Dick,2,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Moby Dick,2,winner_family,other,other,,True
+Moby Dick,2,uses_new_operator,False,False,,True
+Moby Dick,3,rmse,0.16527313193343499,0.16527313193343499,0.0,True
+Moby Dick,3,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Moby Dick,3,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Moby Dick,3,winner_family,other,other,,True
+Moby Dick,3,uses_new_operator,False,False,,True
+Moby Dick,4,rmse,0.16619014146964828,0.16619014146964828,0.0,True
+Moby Dick,4,expression,"add[sub[1,x],log[x]]","add[sub[1,x],log[x]]",,True
+Moby Dick,4,expression_display,((1-x)+log(x)),((1-x)+log(x)),,True
+Moby Dick,4,winner_family,other,other,,True
+Moby Dick,4,uses_new_operator,False,False,,True
+Moby Dick,5,rmse,0.16664448215301997,0.16664448215301997,0.0,True
+Moby Dick,5,expression,"mul[sub[1,x],sub[x,1]]","mul[sub[1,x],sub[x,1]]",,True
+Moby Dick,5,expression_display,((1-x)*(x-1)),((1-x)*(x-1)),,True
+Moby Dick,5,winner_family,other,other,,True
+Moby Dick,5,uses_new_operator,False,False,,True
+Moby Dick,6,rmse,0.16670359434462198,0.16670359434462198,0.0,True
+Moby Dick,6,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Moby Dick,6,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Moby Dick,6,winner_family,xpow,xpow,,True
+Moby Dick,6,uses_new_operator,False,False,,True
+Moby Dick,7,rmse,0.1668446074380373,0.1668446074380373,0.0,True
+Moby Dick,7,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Moby Dick,7,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Moby Dick,7,winner_family,is,is,,True
+Moby Dick,7,uses_new_operator,False,False,,True
+Moby Dick,8,rmse,0.1672059075720332,0.1672059075720332,0.0,True
+Moby Dick,8,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Moby Dick,8,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Moby Dick,8,winner_family,other,other,,True
+Moby Dick,8,uses_new_operator,False,False,,True
+Moby Dick,9,rmse,0.1674771082413954,0.1674771082413954,0.0,True
+Moby Dick,9,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Moby Dick,9,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Moby Dick,9,winner_family,other,other,,True
+Moby Dick,9,uses_new_operator,False,False,,True
+Moby Dick,10,rmse,0.16790832742305825,0.16790832742305825,0.0,True
+Moby Dick,10,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Moby Dick,10,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Moby Dick,10,winner_family,other,other,,True
+Moby Dick,10,uses_new_operator,False,False,,True
+Origin of Species,1,rmse,0.17636580852673006,0.17636580852673006,0.0,True
+Origin of Species,1,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Origin of Species,1,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Origin of Species,1,winner_family,is,is,,True
+Origin of Species,1,uses_new_operator,False,False,,True
+Origin of Species,2,rmse,0.18042756320488335,0.18042756320488335,0.0,True
+Origin of Species,2,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Origin of Species,2,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Origin of Species,2,winner_family,exp,exp,,True
+Origin of Species,2,uses_new_operator,False,False,,True
+Origin of Species,3,rmse,0.1808233752237219,0.1808233752237219,0.0,True
+Origin of Species,3,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Origin of Species,3,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Origin of Species,3,winner_family,xpow,xpow,,True
+Origin of Species,3,uses_new_operator,False,False,,True
+Origin of Species,4,rmse,0.18244251857222923,0.18244251857222923,0.0,True
+Origin of Species,4,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Origin of Species,4,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Origin of Species,4,winner_family,other,other,,True
+Origin of Species,4,uses_new_operator,False,False,,True
+Origin of Species,5,rmse,0.18389871461013296,0.18389871461013296,0.0,True
+Origin of Species,5,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Origin of Species,5,expression_display,(1 - x)^2,(1 - x)^2,,True
+Origin of Species,5,winner_family,euclidean,euclidean,,True
+Origin of Species,5,uses_new_operator,False,False,,True
+Origin of Species,6,rmse,0.18470282169828559,0.18470282169828559,0.0,True
+Origin of Species,6,expression,"mul[sub[x,1],log[x]]","mul[sub[x,1],log[x]]",,True
+Origin of Species,6,expression_display,((x-1)*log(x)),((x-1)*log(x)),,True
+Origin of Species,6,winner_family,other,other,,True
+Origin of Species,6,uses_new_operator,False,False,,True
+Origin of Species,7,rmse,0.18646991992112658,0.18646991992112658,0.0,True
+Origin of Species,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Origin of Species,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Origin of Species,7,winner_family,other,other,,True
+Origin of Species,7,uses_new_operator,False,False,,True
+Origin of Species,8,rmse,0.18763081846028964,0.18763081846028964,0.0,True
+Origin of Species,8,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Origin of Species,8,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Origin of Species,8,winner_family,other,other,,True
+Origin of Species,8,uses_new_operator,False,False,,True
+Origin of Species,9,rmse,0.18824903791789907,0.18824903791789907,0.0,True
+Origin of Species,9,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Origin of Species,9,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Origin of Species,9,winner_family,other,other,,True
+Origin of Species,9,uses_new_operator,False,False,,True
+Origin of Species,10,rmse,0.1906042923427014,0.1906042923427014,0.0,True
+Origin of Species,10,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Origin of Species,10,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Origin of Species,10,winner_family,other,other,,True
+Origin of Species,10,uses_new_operator,False,False,,True
+Pride and Prejudice,1,rmse,0.16783926418160022,0.16783926418160022,0.0,True
+Pride and Prejudice,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Pride and Prejudice,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Pride and Prejudice,1,winner_family,exp,exp,,True
+Pride and Prejudice,1,uses_new_operator,False,False,,True
+Pride and Prejudice,2,rmse,0.17026931052871588,0.17026931052871588,0.0,True
+Pride and Prejudice,2,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Pride and Prejudice,2,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Pride and Prejudice,2,winner_family,other,other,,True
+Pride and Prejudice,2,uses_new_operator,False,False,,True
+Pride and Prejudice,3,rmse,0.17040718698413082,0.17040718698413082,0.0,True
+Pride and Prejudice,3,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Pride and Prejudice,3,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Pride and Prejudice,3,winner_family,xpow,xpow,,True
+Pride and Prejudice,3,uses_new_operator,False,False,,True
+Pride and Prejudice,4,rmse,0.17136127135128554,0.17136127135128554,0.0,True
+Pride and Prejudice,4,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Pride and Prejudice,4,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Pride and Prejudice,4,winner_family,is,is,,True
+Pride and Prejudice,4,uses_new_operator,False,False,,True
+Pride and Prejudice,5,rmse,0.17247679441468952,0.17247679441468952,0.0,True
+Pride and Prejudice,5,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Pride and Prejudice,5,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Pride and Prejudice,5,winner_family,other,other,,True
+Pride and Prejudice,5,uses_new_operator,False,False,,True
+Pride and Prejudice,6,rmse,0.17261218799183198,0.17261218799183198,0.0,True
+Pride and Prejudice,6,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Pride and Prejudice,6,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Pride and Prejudice,6,winner_family,other,other,,True
+Pride and Prejudice,6,uses_new_operator,False,False,,True
+Pride and Prejudice,7,rmse,0.17278689290997679,0.17278689290997679,0.0,True
+Pride and Prejudice,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Pride and Prejudice,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Pride and Prejudice,7,winner_family,other,other,,True
+Pride and Prejudice,7,uses_new_operator,False,False,,True
+Pride and Prejudice,8,rmse,0.17328369472839575,0.17328369472839575,0.0,True
+Pride and Prejudice,8,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Pride and Prejudice,8,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Pride and Prejudice,8,winner_family,other,other,,True
+Pride and Prejudice,8,uses_new_operator,False,False,,True
+Pride and Prejudice,9,rmse,0.17497436207033337,0.17497436207033337,0.0,True
+Pride and Prejudice,9,expression,"mul[sub[1,x],sub[x,1]]","mul[sub[1,x],sub[x,1]]",,True
+Pride and Prejudice,9,expression_display,((1-x)*(x-1)),((1-x)*(x-1)),,True
+Pride and Prejudice,9,winner_family,other,other,,True
+Pride and Prejudice,9,uses_new_operator,False,False,,True
+Pride and Prejudice,10,rmse,0.1751643958019783,0.1751643958019783,0.0,True
+Pride and Prejudice,10,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Pride and Prejudice,10,expression_display,(1 - x)^2,(1 - x)^2,,True
+Pride and Prejudice,10,winner_family,euclidean,euclidean,,True
+Pride and Prejudice,10,uses_new_operator,False,False,,True
+Principia Ethica,1,rmse,0.18433252648149676,0.18433252648149676,0.0,True
+Principia Ethica,1,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Principia Ethica,1,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Principia Ethica,1,winner_family,is,is,,True
+Principia Ethica,1,uses_new_operator,False,False,,True
+Principia Ethica,2,rmse,0.18558013861480332,0.18558013861480332,0.0,True
+Principia Ethica,2,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Principia Ethica,2,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Principia Ethica,2,winner_family,xpow,xpow,,True
+Principia Ethica,2,uses_new_operator,False,False,,True
+Principia Ethica,3,rmse,0.18570469317744617,0.18570469317744617,0.0,True
+Principia Ethica,3,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Principia Ethica,3,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Principia Ethica,3,winner_family,exp,exp,,True
+Principia Ethica,3,uses_new_operator,False,False,,True
+Principia Ethica,4,rmse,0.188753509622901,0.188753509622901,0.0,True
+Principia Ethica,4,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Principia Ethica,4,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Principia Ethica,4,winner_family,other,other,,True
+Principia Ethica,4,uses_new_operator,False,False,,True
+Principia Ethica,5,rmse,0.19100413579783837,0.19100413579783837,0.0,True
+Principia Ethica,5,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Principia Ethica,5,expression_display,(1 - x)^2,(1 - x)^2,,True
+Principia Ethica,5,winner_family,euclidean,euclidean,,True
+Principia Ethica,5,uses_new_operator,False,False,,True
+Principia Ethica,6,rmse,0.19226525583595236,0.19226525583595236,0.0,True
+Principia Ethica,6,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Principia Ethica,6,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Principia Ethica,6,winner_family,other,other,,True
+Principia Ethica,6,uses_new_operator,False,False,,True
+Principia Ethica,7,rmse,0.1929502728604544,0.1929502728604544,0.0,True
+Principia Ethica,7,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Principia Ethica,7,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Principia Ethica,7,winner_family,other,other,,True
+Principia Ethica,7,uses_new_operator,False,False,,True
+Principia Ethica,8,rmse,0.1940077022829837,0.1940077022829837,0.0,True
+Principia Ethica,8,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Principia Ethica,8,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Principia Ethica,8,winner_family,other,other,,True
+Principia Ethica,8,uses_new_operator,False,False,,True
+Principia Ethica,9,rmse,0.19690803353921044,0.19690803353921044,0.0,True
+Principia Ethica,9,expression,"mul[sub[x,1],log[x]]","mul[sub[x,1],log[x]]",,True
+Principia Ethica,9,expression_display,((x-1)*log(x)),((x-1)*log(x)),,True
+Principia Ethica,9,winner_family,other,other,,True
+Principia Ethica,9,uses_new_operator,False,False,,True
+Principia Ethica,10,rmse,0.19699495435247777,0.19699495435247777,0.0,True
+Principia Ethica,10,expression,"div[sub[1,x],eml[x,x]]","div[sub[1,x],eml[x,x]]",,True
+Principia Ethica,10,expression_display,"((1-x)/EML(x,x))","((1-x)/EML(x,x))",,True
+Principia Ethica,10,winner_family,other,other,,True
+Principia Ethica,10,uses_new_operator,False,False,,True
+The Iliad,1,rmse,0.18039390059445717,0.18039390059445717,0.0,True
+The Iliad,1,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+The Iliad,1,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+The Iliad,1,winner_family,is,is,,True
+The Iliad,1,uses_new_operator,False,False,,True
+The Iliad,2,rmse,0.18248795135804466,0.18248795135804466,0.0,True
+The Iliad,2,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+The Iliad,2,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+The Iliad,2,winner_family,exp,exp,,True
+The Iliad,2,uses_new_operator,False,False,,True
+The Iliad,3,rmse,0.18347525186194907,0.18347525186194907,0.0,True
+The Iliad,3,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+The Iliad,3,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+The Iliad,3,winner_family,xpow,xpow,,True
+The Iliad,3,uses_new_operator,False,False,,True
+The Iliad,4,rmse,0.1843815663552406,0.1843815663552406,0.0,True
+The Iliad,4,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+The Iliad,4,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+The Iliad,4,winner_family,other,other,,True
+The Iliad,4,uses_new_operator,False,False,,True
+The Iliad,5,rmse,0.18573989590774173,0.18573989590774173,0.0,True
+The Iliad,5,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+The Iliad,5,expression_display,(1 - x)^2,(1 - x)^2,,True
+The Iliad,5,winner_family,euclidean,euclidean,,True
+The Iliad,5,uses_new_operator,False,False,,True
+The Iliad,6,rmse,0.18709277932509552,0.18709277932509552,0.0,True
+The Iliad,6,expression,"mul[sub[x,1],log[x]]","mul[sub[x,1],log[x]]",,True
+The Iliad,6,expression_display,((x-1)*log(x)),((x-1)*log(x)),,True
+The Iliad,6,winner_family,other,other,,True
+The Iliad,6,uses_new_operator,False,False,,True
+The Iliad,7,rmse,0.1878612415675822,0.1878612415675822,0.0,True
+The Iliad,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+The Iliad,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+The Iliad,7,winner_family,other,other,,True
+The Iliad,7,uses_new_operator,False,False,,True
+The Iliad,8,rmse,0.18842517770533024,0.18842517770533024,0.0,True
+The Iliad,8,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+The Iliad,8,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+The Iliad,8,winner_family,other,other,,True
+The Iliad,8,uses_new_operator,False,False,,True
+The Iliad,9,rmse,0.18855158818965834,0.18855158818965834,0.0,True
+The Iliad,9,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+The Iliad,9,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+The Iliad,9,winner_family,other,other,,True
+The Iliad,9,uses_new_operator,False,False,,True
+The Iliad,10,rmse,0.18973908008828885,0.18973908008828885,0.0,True
+The Iliad,10,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+The Iliad,10,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+The Iliad,10,winner_family,other,other,,True
+The Iliad,10,uses_new_operator,False,False,,True
+Ulysses,1,rmse,0.1830188859516618,0.1830188859516618,0.0,True
+Ulysses,1,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Ulysses,1,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Ulysses,1,winner_family,exp,exp,,True
+Ulysses,1,uses_new_operator,False,False,,True
+Ulysses,2,rmse,0.18357922799465115,0.18357922799465115,0.0,True
+Ulysses,2,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Ulysses,2,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Ulysses,2,winner_family,xpow,xpow,,True
+Ulysses,2,uses_new_operator,False,False,,True
+Ulysses,3,rmse,0.1841920533333066,0.1841920533333066,0.0,True
+Ulysses,3,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Ulysses,3,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Ulysses,3,winner_family,other,other,,True
+Ulysses,3,uses_new_operator,False,False,,True
+Ulysses,4,rmse,0.1847061265396885,0.1847061265396885,0.0,True
+Ulysses,4,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Ulysses,4,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Ulysses,4,winner_family,is,is,,True
+Ulysses,4,uses_new_operator,False,False,,True
+Ulysses,5,rmse,0.18493789288633808,0.18493789288633808,0.0,True
+Ulysses,5,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Ulysses,5,expression_display,(1 - x)^2,(1 - x)^2,,True
+Ulysses,5,winner_family,euclidean,euclidean,,True
+Ulysses,5,uses_new_operator,False,False,,True
+Ulysses,6,rmse,0.18809680839157453,0.18809680839157453,0.0,True
+Ulysses,6,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Ulysses,6,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Ulysses,6,winner_family,other,other,,True
+Ulysses,6,uses_new_operator,False,False,,True
+Ulysses,7,rmse,0.18904552706641847,0.18904552706641847,0.0,True
+Ulysses,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Ulysses,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Ulysses,7,winner_family,other,other,,True
+Ulysses,7,uses_new_operator,False,False,,True
+Ulysses,8,rmse,0.1890766606627257,0.1890766606627257,0.0,True
+Ulysses,8,expression,"add[sub[1,x],log[x]]","add[sub[1,x],log[x]]",,True
+Ulysses,8,expression_display,((1-x)+log(x)),((1-x)+log(x)),,True
+Ulysses,8,winner_family,other,other,,True
+Ulysses,8,uses_new_operator,False,False,,True
+Ulysses,9,rmse,0.1891688612664704,0.1891688612664704,0.0,True
+Ulysses,9,expression,"mul[sub[x,1],log[x]]","mul[sub[x,1],log[x]]",,True
+Ulysses,9,expression_display,((x-1)*log(x)),((x-1)*log(x)),,True
+Ulysses,9,winner_family,other,other,,True
+Ulysses,9,uses_new_operator,False,False,,True
+Ulysses,10,rmse,0.18979312160963036,0.18979312160963036,0.0,True
+Ulysses,10,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Ulysses,10,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Ulysses,10,winner_family,other,other,,True
+Ulysses,10,uses_new_operator,False,False,,True
+War and Peace,1,rmse,0.18043682215068654,0.18043682215068654,0.0,True
+War and Peace,1,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+War and Peace,1,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+War and Peace,1,winner_family,is,is,,True
+War and Peace,1,uses_new_operator,False,False,,True
+War and Peace,2,rmse,0.1831808749702038,0.1831808749702038,0.0,True
+War and Peace,2,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+War and Peace,2,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+War and Peace,2,winner_family,exp,exp,,True
+War and Peace,2,uses_new_operator,False,False,,True
+War and Peace,3,rmse,0.18477824492784575,0.18477824492784575,0.0,True
+War and Peace,3,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+War and Peace,3,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+War and Peace,3,winner_family,xpow,xpow,,True
+War and Peace,3,uses_new_operator,False,False,,True
+War and Peace,4,rmse,0.18487584221156655,0.18487584221156655,0.0,True
+War and Peace,4,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+War and Peace,4,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+War and Peace,4,winner_family,other,other,,True
+War and Peace,4,uses_new_operator,False,False,,True
+War and Peace,5,rmse,0.18574372316034374,0.18574372316034374,0.0,True
+War and Peace,5,expression,"mul[sub[x,1],log[x]]","mul[sub[x,1],log[x]]",,True
+War and Peace,5,expression_display,((x-1)*log(x)),((x-1)*log(x)),,True
+War and Peace,5,winner_family,other,other,,True
+War and Peace,5,uses_new_operator,False,False,,True
+War and Peace,6,rmse,0.18584620267502414,0.18584620267502414,0.0,True
+War and Peace,6,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+War and Peace,6,expression_display,(1 - x)^2,(1 - x)^2,,True
+War and Peace,6,winner_family,euclidean,euclidean,,True
+War and Peace,6,uses_new_operator,False,False,,True
+War and Peace,7,rmse,0.1878457176871986,0.1878457176871986,0.0,True
+War and Peace,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+War and Peace,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+War and Peace,7,winner_family,other,other,,True
+War and Peace,7,uses_new_operator,False,False,,True
+War and Peace,8,rmse,0.18818508957537378,0.18818508957537378,0.0,True
+War and Peace,8,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+War and Peace,8,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+War and Peace,8,winner_family,other,other,,True
+War and Peace,8,uses_new_operator,False,False,,True
+War and Peace,9,rmse,0.18895663876694282,0.18895663876694282,0.0,True
+War and Peace,9,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+War and Peace,9,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+War and Peace,9,winner_family,other,other,,True
+War and Peace,9,uses_new_operator,False,False,,True
+War and Peace,10,rmse,0.18928731791406278,0.18928731791406278,0.0,True
+War and Peace,10,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+War and Peace,10,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+War and Peace,10,winner_family,other,other,,True
+War and Peace,10,uses_new_operator,False,False,,True
+Wealth of Nations,1,rmse,0.17689004675116576,0.17689004675116576,0.0,True
+Wealth of Nations,1,expression,"sub[sub[x,1],log[x]]","sub[sub[x,1],log[x]]",,True
+Wealth of Nations,1,expression_display,(x - 1) - log(x),(x - 1) - log(x),,True
+Wealth of Nations,1,winner_family,is,is,,True
+Wealth of Nations,1,uses_new_operator,False,False,,True
+Wealth of Nations,2,rmse,0.18113788155497706,0.18113788155497706,0.0,True
+Wealth of Nations,2,expression,"eml[sub[x,1],eml[x,1]]","eml[sub[x,1],eml[x,1]]",,True
+Wealth of Nations,2,expression_display,exp(x - 1) - x,exp(x - 1) - x,,True
+Wealth of Nations,2,winner_family,exp,exp,,True
+Wealth of Nations,2,uses_new_operator,False,False,,True
+Wealth of Nations,3,rmse,0.18174914536640613,0.18174914536640613,0.0,True
+Wealth of Nations,3,expression,"sub[pow[x,x],sqrt[x]]","sub[pow[x,x],sqrt[x]]",,True
+Wealth of Nations,3,expression_display,x^x - sqrt(x),x^x - sqrt(x),,True
+Wealth of Nations,3,winner_family,xpow,xpow,,True
+Wealth of Nations,3,uses_new_operator,False,False,,True
+Wealth of Nations,4,rmse,0.18272580500198493,0.18272580500198493,0.0,True
+Wealth of Nations,4,expression,"add[neg[x],pow[x,x]]","add[neg[x],pow[x,x]]",,True
+Wealth of Nations,4,expression_display,"((-x)+pow(x,x))","((-x)+pow(x,x))",,True
+Wealth of Nations,4,winner_family,other,other,,True
+Wealth of Nations,4,uses_new_operator,False,False,,True
+Wealth of Nations,5,rmse,0.18349139865351982,0.18349139865351982,0.0,True
+Wealth of Nations,5,expression,"mul[sub[x,1],log[x]]","mul[sub[x,1],log[x]]",,True
+Wealth of Nations,5,expression_display,((x-1)*log(x)),((x-1)*log(x)),,True
+Wealth of Nations,5,winner_family,other,other,,True
+Wealth of Nations,5,uses_new_operator,False,False,,True
+Wealth of Nations,6,rmse,0.18386891454918783,0.18386891454918783,0.0,True
+Wealth of Nations,6,expression,"mul[sub[1,x],sub[1,x]]","mul[sub[1,x],sub[1,x]]",,True
+Wealth of Nations,6,expression_display,(1 - x)^2,(1 - x)^2,,True
+Wealth of Nations,6,winner_family,euclidean,euclidean,,True
+Wealth of Nations,6,uses_new_operator,False,False,,True
+Wealth of Nations,7,rmse,0.18691447044103482,0.18691447044103482,0.0,True
+Wealth of Nations,7,expression,"div[sub[1,x],eml[1,x]]","div[sub[1,x],eml[1,x]]",,True
+Wealth of Nations,7,expression_display,"((1-x)/EML(1,x))","((1-x)/EML(1,x))",,True
+Wealth of Nations,7,winner_family,other,other,,True
+Wealth of Nations,7,uses_new_operator,False,False,,True
+Wealth of Nations,8,rmse,0.18810592880563973,0.18810592880563973,0.0,True
+Wealth of Nations,8,expression,"div[sub[x,1],eml[1,x]]","div[sub[x,1],eml[1,x]]",,True
+Wealth of Nations,8,expression_display,"((x-1)/EML(1,x))","((x-1)/EML(1,x))",,True
+Wealth of Nations,8,winner_family,other,other,,True
+Wealth of Nations,8,uses_new_operator,False,False,,True
+Wealth of Nations,9,rmse,0.18865887632524514,0.18865887632524514,0.0,True
+Wealth of Nations,9,expression,"sub[sqrt[x],pow[x,x]]","sub[sqrt[x],pow[x,x]]",,True
+Wealth of Nations,9,expression_display,"(sqrt(x)-pow(x,x))","(sqrt(x)-pow(x,x))",,True
+Wealth of Nations,9,winner_family,other,other,,True
+Wealth of Nations,9,uses_new_operator,False,False,,True
+Wealth of Nations,10,rmse,0.19054364682397112,0.19054364682397112,0.0,True
+Wealth of Nations,10,expression,"sub[div[x,1],pow[x,x]]","sub[div[x,1],pow[x,x]]",,True
+Wealth of Nations,10,expression_display,"((x/1)-pow(x,x))","((x/1)-pow(x,x))",,True
+Wealth of Nations,10,winner_family,other,other,,True
+Wealth of Nations,10,uses_new_operator,False,False,,True

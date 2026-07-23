@@ -1,0 +1,16 @@
+step,rank,expression,math,rmse,is_predicted_generator
+1,1,"eml[1,x]","EML(1,x)",11.658545785404476,False
+1,2,"eml[x,x]","EML(x,x)",11.682764951385197,False
+1,3,"eml[x,1]","EML(x,1)",11.728688988473211,False
+1,4,"add[1,x]",(1+x),12.108181097120257,False
+1,5,"add[x,x]",(x+x),12.146811646548986,False
+2,1,"pow[eml[x,1],eml[x,1]]","pow(EML(x,1),EML(x,1))",6.5879150554893551,False
+2,2,"eml[add[x,x],sqrt[x]]","EML((x+x),sqrt(x))",9.4982874944645346,False
+2,3,"add[eml[x,x],pow[x,x]]","(EML(x,x)+pow(x,x))",11.164317777395677,False
+2,4,"eml[log[x],mul[x,x]]","EML(log(x),(x*x))",12.607598985844538,False
+2,5,"add[neg[x],neg[x]]",((-x)+(-x)),14.601145680192131,False
+3,1,"div[pow[eml[x,1],eml[x,1]],pow[add[x,x],neg[x]]]","(pow(EML(x,1),EML(x,1))/pow((x+x),(-x)))",4.9875238140200722,False
+3,2,"pow[add[eml[x,x],log[x]],eml[pow[x,x],sqrt[x]]]","pow((EML(x,x)+log(x)),EML(pow(x,x),sqrt(x)))",6.7952147803119303,False
+3,3,"add[eml[mul[x,x],mul[x,x]],eml[mul[x,x],mul[x,x]]]","(EML((x*x),(x*x))+EML((x*x),(x*x)))",10.508361846043428,False
+3,4,"eml[eml[sqrt[x],div[1,x]],add[eml[1,x],div[x,1]]]","EML(EML(sqrt(x),(1/x)),(EML(1,x)+(x/1)))",7.3435473036357815,False
+3,5,"div[eml[add[1,x],pow[x,x]],eml[sub[1,x],pow[x,x]]]","(EML((1+x),pow(x,x))/EML((1-x),pow(x,x)))",9.5346512836722397,False

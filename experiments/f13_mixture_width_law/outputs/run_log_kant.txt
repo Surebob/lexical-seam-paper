@@ -1,0 +1,73 @@
+Critique of Pure Reason: V=6,537
+[1/48] nll=18852 pi=0.0302 gap=5.57 pred_err=0.488
+[2/48] nll=18859 pi=0.1291 gap=4.40 pred_err=0.546
+[3/48] nll=18849 pi=0.0336 gap=7.03 pred_err=1.455
+[4/48] nll=18850 pi=0.0024 gap=8.41 pred_err=0.776
+[5/48] nll=18852 pi=0.2901 gap=0.57 pred_err=1.473
+[6/48] nll=18851 pi=0.0010 gap=8.38 pred_err=1.420
+[7/48] nll=18857 pi=0.0010 gap=0.50 pred_err=1.520
+[8/48] nll=18851 pi=0.0010 gap=7.82 pred_err=0.814
+[9/48] nll=18853 pi=0.0010 gap=3.24 pred_err=0.589
+[10/48] nll=18853 pi=0.0010 gap=1.70 pred_err=0.766
+[11/48] nll=18848 pi=0.3000 gap=3.13 pred_err=0.142
+[12/48] nll=18852 pi=0.3000 gap=0.87 pred_err=1.532
+[13/48] nll=18854 pi=0.0745 gap=4.96 pred_err=1.229
+[14/48] nll=18851 pi=0.0207 gap=5.97 pred_err=0.343
+[15/48] nll=18863 pi=0.0010 gap=0.77 pred_err=1.042
+[16/48] nll=18848 pi=0.0247 gap=6.30 pred_err=0.625
+[17/48] nll=18849 pi=0.1063 gap=5.50 pred_err=0.290
+[18/48] nll=18849 pi=0.0175 gap=6.58 pred_err=0.279
+[19/48] nll=18850 pi=0.0319 gap=6.45 pred_err=1.069
+[20/48] nll=18849 pi=0.0621 gap=1.66 pred_err=0.825
+[21/48] nll=18849 pi=0.1398 gap=4.23 pred_err=0.228
+[22/48] nll=18880 pi=0.0010 gap=11.13 pred_err=1.779
+[23/48] nll=18874 pi=0.0010 gap=0.52 pred_err=1.502
+[24/48] nll=18855 pi=0.0010 gap=7.29 pred_err=1.019
+[25/48] nll=18856 pi=0.0603 gap=7.81 pred_err=0.810
+[26/48] nll=18851 pi=0.0029 gap=7.69 pred_err=0.656
+[27/48] nll=18847 pi=0.0159 gap=6.77 pred_err=0.497
+[28/48] nll=18850 pi=0.3000 gap=3.00 pred_err=0.355
+[29/48] nll=19851 pi=0.0214 gap=12.75 pred_err=2.238
+[30/48] nll=18851 pi=0.1479 gap=5.19 pred_err=0.631
+[31/48] nll=18850 pi=0.2858 gap=2.89 pred_err=0.527
+[32/48] nll=18848 pi=0.2327 gap=3.49 pred_err=0.336
+[33/48] nll=18875 pi=0.0011 gap=0.61 pred_err=1.081
+[34/48] nll=18848 pi=0.0263 gap=6.24 pred_err=0.330
+[35/48] nll=18853 pi=0.0047 gap=7.42 pred_err=0.443
+[36/48] nll=18854 pi=0.0866 gap=0.70 pred_err=0.359
+[37/48] nll=18853 pi=0.0357 gap=3.77 pred_err=0.829
+[38/48] nll=18852 pi=0.1458 gap=8.25 pred_err=0.545
+[39/48] nll=18851 pi=0.0010 gap=7.96 pred_err=0.182
+[40/48] nll=18858 pi=0.0015 gap=4.38 pred_err=1.449
+[41/48] nll=18856 pi=0.0029 gap=7.55 pred_err=0.612
+[42/48] nll=18851 pi=0.0010 gap=8.20 pred_err=0.970
+[43/48] nll=18853 pi=0.0274 gap=5.35 pred_err=0.466
+[44/48] nll=18848 pi=0.0046 gap=7.80 pred_err=0.689
+[45/48] nll=18855 pi=0.3000 gap=3.09 pred_err=1.094
+[46/48] nll=18854 pi=0.0252 gap=2.62 pred_err=0.821
+[47/48] nll=18856 pi=0.0036 gap=7.46 pred_err=0.371
+[48/48] nll=18869 pi=0.0010 gap=7.63 pred_err=2.077
+
+10 distinct admissible basins to width-test
+[1/20] basin1 rep0 s=78.9
+[2/20] basin3 rep0 s=40731.9
+[3/20] basin1 rep1 s=41446.5
+[4/20] basin0 rep1 s=40597.3
+[5/20] basin5 rep0 s=71.3
+[6/20] basin5 rep1 s=40942.7
+[7/20] basin0 rep0 s=77.1
+[8/20] basin2 rep1 s=40179.7
+[9/20] basin4 rep0 s=73.8
+[10/20] basin7 rep0 s=42253.1
+[11/20] basin8 rep0 s=74.2
+[12/20] basin3 rep1 s=74.3
+[13/20] basin7 rep1 s=40880.0
+[14/20] basin4 rep1 s=74.7
+[15/20] basin9 rep0 s=78.9
+[16/20] basin6 rep1 s=76.9
+[17/20] basin6 rep0 s=75.4
+[18/20] basin9 rep1 s=75.0
+[19/20] basin2 rep0 s=76.0
+[20/20] basin8 rep1 s=77.2
+
+summary written

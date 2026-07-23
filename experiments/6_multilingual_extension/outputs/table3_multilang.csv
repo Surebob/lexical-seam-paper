@@ -1,0 +1,8 @@
+language,corpus,vocabulary_size,zm_c,single_zm_rmse,smooth_rmse,step2_winner_display,k_over_sqrt_v
+Russian,"War and Peace (Russian, Wikisource)",26011,0.0,0.1986533462288086,0.10760855662525598,x^x - sqrt(x),77.57831999344482
+Mandarin,"Romance of the Three Kingdoms (Chinese, Gutenberg 23950)",23483,0.0,0.24068002348335757,0.09328835243243375,x^x - sqrt(x),70.59838476886385
+Arabic,"One Thousand and One Nights (Arabic, Wikisource)",25629,0.0,0.20703217962197742,0.10445800377377717,x^x - sqrt(x),80.390039197907
+Latin,"De Bello Gallico (Latin, Gutenberg 218 + 18837)",11127,3.6737168564664144,0.18805819616625413,0.10601769068423839,exp(x-1) - x,65.76502522609225
+French,"Les Misérables (French, Gutenberg)",16603,1.4439941485307846,0.18165515336912488,0.10858296534347892,exp(x-1) - x,60.379869809496356
+Spanish,"Don Quijote (Spanish, Gutenberg)",13114,1.9858681958674453,0.1916549930516649,0.10542773290258015,exp(x-1) - x,48.235324915285304
+Dutch,"Max Havelaar (Dutch, Gutenberg)",14115,0.9956392549199007,0.18734631217199718,0.10647498660352708,exp(x-1) - x,56.64875881741787

@@ -1,0 +1,24 @@
+metric_name,value,notes
+corpus_count,1,Number of synthetic corpora generated from known logistic decoupled model.
+logistic_bic_wins,1,Count of synthetic corpora where logistic has lowest BIC among independent gates.
+erf_bic_wins,0,Count of synthetic corpora where erf has lowest BIC among independent gates.
+algebraic_bic_wins,0,Count of synthetic corpora where algebraic has lowest BIC among independent gates.
+arctan_bic_wins,0,Count of synthetic corpora where arctan has lowest BIC among independent gates.
+tanh_calibration_pass_count,0,Count passing tanh/logistic calibration.
+logistic_recovered_count,1,Synthetic generator is logistic; this should be high if gate family is recovered.
+erf_beats_logistic_count,0,Count where erf BIC is lower than logistic on logistic-generated data.
+median_bic_spread,292985.1955176061,Median independent-gate BIC spread.
+mean_bic_spread,292985.1955176061,Mean independent-gate BIC spread.
+median_bic_erf_minus_logistic,243143.97512281686,Negative means erf beats logistic.
+mean_bic_erf_minus_logistic,243143.97512281686,Negative means erf beats logistic.
+max_logistic_independent_rank,1,Worst rank of logistic among independent gates.
+logistic_starts_within_1_bic_min,1,Minimum starts within 1 BIC for logistic.
+logistic_starts_within_1_bic_median,1,Median starts within 1 BIC for logistic.
+tanh_starts_within_1_bic_min,1,Minimum starts within 1 BIC for tanh.
+tanh_starts_within_1_bic_median,1,Median starts within 1 BIC for tanh.
+erf_starts_within_1_bic_min,26,Minimum starts within 1 BIC for erf.
+erf_starts_within_1_bic_median,26,Median starts within 1 BIC for erf.
+algebraic_starts_within_1_bic_min,26,Minimum starts within 1 BIC for algebraic.
+algebraic_starts_within_1_bic_median,26,Median starts within 1 BIC for algebraic.
+arctan_starts_within_1_bic_min,18,Minimum starts within 1 BIC for arctan.
+arctan_starts_within_1_bic_median,18,Median starts within 1 BIC for arctan.

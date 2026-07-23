@@ -1,0 +1,1000 @@
+{"type": "the", "rank": 1, "frequency": 4085, "tag": "DET", "confidence": 1.0, "reasoning": "definite article in all shown contexts"}
+{"type": "and", "rank": 2, "frequency": 2234, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating conjunction linking words, clauses, and phrases in the contexts"}
+{"type": "of", "rank": 3, "frequency": 1867, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking possession, relation, or partitive phrases throughout"}
+{"type": "to", "rank": 4, "frequency": 1753, "tag": "PART", "confidence": 0.65, "reasoning": "mostly infinitive marker in contexts like to think, to speak, and to live, though also prepositional before noun phrases", "alternative": "ADP"}
+{"type": "he", "rank": 5, "frequency": 1711, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person masculine pronoun in all contexts"}
+{"type": "a", "rank": 6, "frequency": 1589, "tag": "DET", "confidence": 1.0, "reasoning": "indefinite article in all shown contexts"}
+{"type": "was", "rank": 7, "frequency": 1161, "tag": "AUX", "confidence": 0.85, "reasoning": "mostly auxiliary or copular be in passives and predicates such as was asked, was nice, and was unfastened", "alternative": "VERB"}
+{"type": "his", "rank": 8, "frequency": 1160, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns such as friend, wife, eyes, and helmet"}
+{"type": "in", "rank": 9, "frequency": 1057, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking location, time, or relation in all contexts"}
+{"type": "had", "rank": 10, "frequency": 811, "tag": "AUX", "confidence": 0.9, "reasoning": "mostly auxiliary in perfect constructions such as had caught, had paid, had mentioned, and had told", "alternative": "VERB"}
+{"type": "her", "rank": 11, "frequency": 793, "tag": "DET", "confidence": 0.75, "reasoning": "mostly possessive determiner before nouns like fees, pupils, feet, and mother, with some object-pronoun uses", "alternative": "PRON"}
+{"type": "i", "rank": 12, "frequency": 789, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person singular pronoun in dialogue and narration"}
+{"type": "said", "rank": 13, "frequency": 755, "tag": "VERB", "confidence": 1.0, "reasoning": "speech verb introducing or following dialogue in all contexts"}
+{"type": "she", "rank": 14, "frequency": 714, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person feminine pronoun throughout"}
+{"type": "that", "rank": 15, "frequency": 713, "tag": "SCONJ", "confidence": 0.55, "reasoning": "mixed form, but clause-introducing uses such as sorry that and seeing that are frequent in the shown contexts", "alternative": "DET"}
+{"type": "it", "rank": 16, "frequency": 647, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person neuter pronoun or expletive pronoun in the contexts"}
+{"type": "s", "rank": 17, "frequency": 614, "tag": "AUX", "confidence": 0.65, "reasoning": "often tokenized contracted be in he's and that's, though the token also appears in possessives like Kathleen's", "alternative": "PART"}
+{"type": "mr", "rank": 18, "frequency": 576, "tag": "PROPN", "confidence": 0.9, "reasoning": "honorific title introducing personal names throughout the contexts"}
+{"type": "for", "rank": 19, "frequency": 508, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking purpose, exchange, duration, or relation in the shown contexts"}
+{"type": "at", "rank": 20, "frequency": 495, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking location, time, or direction throughout"}
+{"type": "him", "rank": 21, "frequency": 494, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person masculine object pronoun in all contexts"}
+{"type": "with", "rank": 22, "frequency": 488, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking accompaniment, instrument, or relation in all shown contexts"}
+{"type": "on", "rank": 23, "frequency": 458, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition or particle marking surface, time, or direction in the contexts"}
+{"type": "you", "rank": 24, "frequency": 458, "tag": "PRON", "confidence": 1.0, "reasoning": "second-person pronoun in dialogue throughout"}
+{"type": "as", "rank": 25, "frequency": 372, "tag": "SCONJ", "confidence": 0.6, "reasoning": "often introduces clauses or comparisons, though several contexts use it prepositionally in roles like as a reader", "alternative": "ADP"}
+{"type": "but", "rank": 26, "frequency": 351, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating conjunction expressing contrast throughout"}
+{"type": "not", "rank": 27, "frequency": 288, "tag": "PART", "confidence": 1.0, "reasoning": "negative particle in all shown contexts"}
+{"type": "they", "rank": 28, "frequency": 288, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person plural pronoun in all contexts"}
+{"type": "were", "rank": 29, "frequency": 272, "tag": "AUX", "confidence": 0.85, "reasoning": "mostly auxiliary or copular be in predicates and passives such as were launched and were standing", "alternative": "VERB"}
+{"type": "when", "rank": 30, "frequency": 266, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing temporal clauses throughout"}
+{"type": "all", "rank": 31, "frequency": 259, "tag": "DET", "confidence": 0.7, "reasoning": "mostly quantifying determiner before nouns such as talent and money, though it can stand alone as a pronoun", "alternative": "PRON"}
+{"type": "be", "rank": 32, "frequency": 248, "tag": "AUX", "confidence": 0.9, "reasoning": "base form of be used as auxiliary or copula in would be, to be warm, and might as well be", "alternative": "VERB"}
+{"type": "man", "rank": 33, "frequency": 239, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for adult male in the contexts"}
+{"type": "from", "rank": 34, "frequency": 238, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking source, origin, or separation throughout"}
+{"type": "out", "rank": 35, "frequency": 235, "tag": "ADV", "confidence": 0.75, "reasoning": "mostly adverbial particle in gave out, slipped out, went out, and leaping out, with prepositional out of phrases also present", "alternative": "ADP"}
+{"type": "t", "rank": 36, "frequency": 226, "tag": "PART", "confidence": 0.95, "reasoning": "tokenized negative contraction fragment in wouldn't, didn't, and don't"}
+{"type": "would", "rank": 37, "frequency": 224, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in all contexts"}
+{"type": "by", "rank": 38, "frequency": 220, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking agent, means, proximity, or relation throughout"}
+{"type": "up", "rank": 39, "frequency": 217, "tag": "ADV", "confidence": 0.75, "reasoning": "mostly adverbial particle in hold up, drew up, gone up, and went up, with some prepositional uses", "alternative": "ADP"}
+{"type": "one", "rank": 40, "frequency": 213, "tag": "NUM", "confidence": 0.7, "reasoning": "often numerical or quantifying, as in one leg and one of the stewards, though some pronoun-like uses occur", "alternative": "PRON"}
+{"type": "little", "rank": 41, "frequency": 211, "tag": "ADJ", "confidence": 0.95, "reasoning": "adjective modifying hubby, Jew, sweetheart, body, and music"}
+{"type": "what", "rank": 42, "frequency": 204, "tag": "PRON", "confidence": 1.0, "reasoning": "interrogative or fused relative pronoun in the shown contexts"}
+{"type": "we", "rank": 43, "frequency": 197, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person plural pronoun throughout"}
+{"type": "o", "rank": 44, "frequency": 196, "tag": "PROPN", "confidence": 0.75, "reasoning": "mostly Irish surname prefix in O'Halloran, O'Connor, and O'Callaghan, with occasional dialectal or exclamatory token uses", "alternative": "INTJ"}
+{"type": "which", "rank": 45, "frequency": 196, "tag": "PRON", "confidence": 1.0, "reasoning": "relative pronoun introducing relative clauses in all contexts"}
+{"type": "there", "rank": 46, "frequency": 193, "tag": "PRON", "confidence": 0.55, "reasoning": "mixed existential there in there had been and there was, plus locative adverb uses like up there and stood there", "alternative": "ADV"}
+{"type": "an", "rank": 47, "frequency": 190, "tag": "DET", "confidence": 1.0, "reasoning": "indefinite article before vowel-initial words throughout"}
+{"type": "my", "rank": 48, "frequency": 182, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns such as aunt, stirabout, bottle, and boy"}
+{"type": "me", "rank": 49, "frequency": 181, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person object pronoun throughout"}
+{"type": "then", "rank": 50, "frequency": 180, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal or discourse adverb in all contexts"}
+{"type": "is", "rank": 51, "frequency": 177, "tag": "AUX", "confidence": 0.85, "reasoning": "mostly copular or auxiliary be in who is, Joe Hynes is, and everything is gay", "alternative": "VERB"}
+{"type": "so", "rank": 52, "frequency": 172, "tag": "ADV", "confidence": 0.8, "reasoning": "mostly degree or result adverb in so unsteady, so full, and so enraged, with result-clause uses also present", "alternative": "SCONJ"}
+{"type": "them", "rank": 53, "frequency": 171, "tag": "PRON", "confidence": 0.85, "reasoning": "mostly third-person plural object pronoun, though dialectal determiner use appears in them flowers"}
+{"type": "no", "rank": 54, "frequency": 168, "tag": "DET", "confidence": 1.0, "reasoning": "negative determiner before nouns such as purpose, row, harshness, and use"}
+{"type": "have", "rank": 55, "frequency": 167, "tag": "AUX", "confidence": 0.65, "reasoning": "mixed between auxiliary have in might have answered and main verb have a little something or have a girl", "alternative": "VERB"}
+{"type": "gabriel", "rank": 56, "frequency": 158, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name Gabriel throughout the contexts"}
+{"type": "or", "rank": 57, "frequency": 158, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating conjunction marking alternatives throughout"}
+{"type": "who", "rank": 58, "frequency": 153, "tag": "PRON", "confidence": 1.0, "reasoning": "relative or interrogative pronoun referring to people"}
+{"type": "old", "rank": 59, "frequency": 148, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying friend, charm, style, friends, and nobility"}
+{"type": "their", "rank": 60, "frequency": 148, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns such as evenings, drinks, desire, and tongues"}
+{"type": "into", "rank": 61, "frequency": 146, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking motion or transformation into places or states"}
+{"type": "been", "rank": 62, "frequency": 144, "tag": "AUX", "confidence": 0.95, "reasoning": "past participle of be in perfect auxiliary/copular constructions"}
+{"type": "down", "rank": 63, "frequency": 138, "tag": "ADV", "confidence": 0.8, "reasoning": "mostly adverbial particle or direction word in bent down, pulled down, wandered down, and sat down", "alternative": "ADP"}
+{"type": "if", "rank": 64, "frequency": 138, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing conditional clauses throughout"}
+{"type": "some", "rank": 65, "frequency": 135, "tag": "DET", "confidence": 0.9, "reasoning": "indefinite determiner before nouns such as delusion, fact, questions, and centuries, with some pronoun-like uses"}
+{"type": "like", "rank": 66, "frequency": 134, "tag": "ADP", "confidence": 0.65, "reasoning": "mostly preposition or comparative marker in like a good man and not like others, though one context has the verb would not like", "alternative": "VERB"}
+{"type": "could", "rank": 67, "frequency": 132, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary throughout"}
+{"type": "good", "rank": 68, "frequency": 132, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying turn, reasons, citizen, children, and man"}
+{"type": "very", "rank": 69, "frequency": 132, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb intensifying adjectives and adverbs"}
+{"type": "now", "rank": 70, "frequency": 131, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal or discourse adverb in all contexts"}
+{"type": "about", "rank": 71, "frequency": 129, "tag": "ADP", "confidence": 0.9, "reasoning": "preposition in what about, about the room, about the table, and about her, with some adverbial wandering about uses"}
+{"type": "asked", "rank": 72, "frequency": 127, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense speech verb in all shown contexts"}
+{"type": "aunt", "rank": 73, "frequency": 127, "tag": "NOUN", "confidence": 0.75, "reasoning": "kinship noun, often used as a title before Kate or Julia but also as ordinary kinship reference", "alternative": "PROPN"}
+{"type": "this", "rank": 74, "frequency": 125, "tag": "DET", "confidence": 0.9, "reasoning": "mostly demonstrative determiner before nouns such as morning, figure, question, time, and manner"}
+{"type": "two", "rank": 75, "frequency": 124, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in all contexts"}
+{"type": "did", "rank": 76, "frequency": 123, "tag": "AUX", "confidence": 0.85, "reasoning": "mostly auxiliary do in questions and negatives, with a few main-verb uses like did their share", "alternative": "VERB"}
+{"type": "room", "rank": 77, "frequency": 120, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an interior space in all contexts"}
+{"type": "time", "rank": 78, "frequency": 119, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for occasion, duration, or time period"}
+{"type": "well", "rank": 79, "frequency": 119, "tag": "ADV", "confidence": 0.9, "reasoning": "mostly adverb in well worth, well-cut, well received, and discourse use ah well", "alternative": "INTJ"}
+{"type": "mrs", "rank": 80, "frequency": 117, "tag": "PROPN", "confidence": 0.9, "reasoning": "honorific title introducing married women's names throughout"}
+{"type": "after", "rank": 81, "frequency": 116, "tag": "ADP", "confidence": 0.8, "reasoning": "mostly preposition before noun phrases like after playing, after noon, and after a pause, with temporal-clause uses also possible", "alternative": "SCONJ"}
+{"type": "again", "rank": 82, "frequency": 115, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb of repetition or return in all contexts"}
+{"type": "know", "rank": 83, "frequency": 113, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning know in all contexts"}
+{"type": "went", "rank": 84, "frequency": 113, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense motion verb in all contexts"}
+{"type": "young", "rank": 85, "frequency": 111, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying man, men, woman, and chap"}
+{"type": "face", "rank": 86, "frequency": 109, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for face in all contexts"}
+{"type": "over", "rank": 87, "frequency": 108, "tag": "ADP", "confidence": 0.65, "reasoning": "mixed spatial/prepositional uses like over Ireland and passed over, plus adverbial uses such as round was over", "alternative": "ADV"}
+{"type": "do", "rank": 88, "frequency": 102, "tag": "AUX", "confidence": 0.6, "reasoning": "mixed between auxiliary do in questions or imperatives and main verb uses like do you good or what am I to do", "alternative": "VERB"}
+{"type": "before", "rank": 89, "frequency": 101, "tag": "SCONJ", "confidence": 0.55, "reasoning": "mixed temporal subordinator before he could reach and preposition/adverb in before him and before the houses", "alternative": "ADP"}
+{"type": "came", "rank": 90, "frequency": 101, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense motion or occurrence verb in all contexts"}
+{"type": "began", "rank": 91, "frequency": 100, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning started in all contexts"}
+{"type": "miss", "rank": 92, "frequency": 99, "tag": "PROPN", "confidence": 0.95, "reasoning": "honorific title before women's names in the shown contexts"}
+{"type": "eyes", "rank": 93, "frequency": 96, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun in all contexts"}
+{"type": "go", "rank": 94, "frequency": 96, "tag": "VERB", "confidence": 1.0, "reasoning": "main motion or action verb in all contexts"}
+{"type": "night", "rank": 95, "frequency": 96, "tag": "NOUN", "confidence": 1.0, "reasoning": "time noun in all contexts"}
+{"type": "back", "rank": 96, "frequency": 92, "tag": "ADV", "confidence": 0.75, "reasoning": "mostly adverbial particle in pushed back, looked back, turned back, and come back, with noun use in the back into the garden", "alternative": "NOUN"}
+{"type": "head", "rank": 97, "frequency": 90, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part or spatial noun in all contexts"}
+{"type": "made", "rank": 98, "frequency": 90, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb in made a copy, made feel, made punch, and made signs"}
+{"type": "m", "rank": 99, "frequency": 89, "tag": "AUX", "confidence": 0.65, "reasoning": "often contracted auxiliary in I'm, though it also appears as part of Irish surname tokens such as M'Coy", "alternative": "PROPN"}
+{"type": "street", "rank": 100, "frequency": 88, "tag": "NOUN", "confidence": 0.9, "reasoning": "mostly common noun for a street, though several Dublin street names also occur", "alternative": "PROPN"}
+{"type": "house", "rank": 101, "frequency": 87, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for dwelling or boarding house in all contexts"}
+{"type": "life", "rank": 102, "frequency": 82, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for life or manner of living in all contexts"}
+{"type": "see", "rank": 103, "frequency": 82, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning perceive or find out in all contexts"}
+{"type": "come", "rank": 104, "frequency": 79, "tag": "VERB", "confidence": 1.0, "reasoning": "main motion verb in come here, had come, come in, and come up"}
+{"type": "how", "rank": 105, "frequency": 79, "tag": "ADV", "confidence": 1.0, "reasoning": "interrogative or exclamatory adverb in how vain, how she used to dress, and how old"}
+{"type": "stood", "rank": 106, "frequency": 79, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in stood stock-still, stood in the hall, and stood at ease"}
+{"type": "too", "rank": 107, "frequency": 78, "tag": "ADV", "confidence": 1.0, "reasoning": "degree or additive adverb in too Irish, too fiercely, too grown up, and he too"}
+{"type": "ll", "rank": 108, "frequency": 77, "tag": "AUX", "confidence": 0.95, "reasoning": "contracted modal auxiliary in I'll, you'll, and we'll"}
+{"type": "us", "rank": 109, "frequency": 77, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person plural object pronoun in all contexts"}
+{"type": "himself", "rank": 110, "frequency": 76, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun referring back to a male subject"}
+{"type": "where", "rank": 111, "frequency": 76, "tag": "SCONJ", "confidence": 0.75, "reasoning": "mostly introduces embedded or relative location clauses such as where did he go and room where one steward was uncorking bottles", "alternative": "ADV"}
+{"type": "kate", "rank": 112, "frequency": 75, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name in Aunt Kate throughout"}
+{"type": "kernan", "rank": 113, "frequency": 75, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Mr Kernan throughout"}
+{"type": "right", "rank": 114, "frequency": 74, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjective in all right, newspapers were right, and right shoulder, though right enough is adverbial", "alternative": "ADV"}
+{"type": "men", "rank": 115, "frequency": 73, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for adult males"}
+{"type": "say", "rank": 116, "frequency": 73, "tag": "VERB", "confidence": 1.0, "reasoning": "main speech verb in all contexts"}
+{"type": "while", "rank": 117, "frequency": 73, "tag": "SCONJ", "confidence": 0.8, "reasoning": "mostly temporal subordinator in while I could stand and while he was helping, with after a while as noun phrase", "alternative": "NOUN"}
+{"type": "other", "rank": 118, "frequency": 72, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjectival modifier in other hand, other times, and other listeners, with occasional standalone use"}
+{"type": "are", "rank": 119, "frequency": 71, "tag": "AUX", "confidence": 0.9, "reasoning": "present plural be used as copula or auxiliary in the shown contexts", "alternative": "VERB"}
+{"type": "hand", "rank": 120, "frequency": 71, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun or compound component in all contexts"}
+{"type": "never", "rank": 121, "frequency": 71, "tag": "ADV", "confidence": 1.0, "reasoning": "negative frequency adverb in all contexts"}
+{"type": "voice", "rank": 122, "frequency": 70, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for voice in all contexts"}
+{"type": "door", "rank": 123, "frequency": 69, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for door, including compound next-door"}
+{"type": "great", "rank": 124, "frequency": 69, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying singers, gaps, minds, and trouble"}
+{"type": "only", "rank": 125, "frequency": 69, "tag": "ADV", "confidence": 1.0, "reasoning": "focusing adverb in can only, could only, only all palaver, and if he could only"}
+{"type": "seemed", "rank": 126, "frequency": 69, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense linking verb seemed in all contexts"}
+{"type": "think", "rank": 127, "frequency": 69, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning think or judge in all contexts"}
+{"type": "d", "rank": 128, "frequency": 68, "tag": "PROPN", "confidence": 0.9, "reasoning": "name particle in Bartell D'Arcy throughout the shown contexts"}
+{"type": "table", "rank": 129, "frequency": 68, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a table in all contexts"}
+{"type": "few", "rank": 130, "frequency": 65, "tag": "DET", "confidence": 1.0, "reasoning": "quantifying determiner before plural nouns such as patches, days, minutes, and words"}
+{"type": "first", "rank": 131, "frequency": 65, "tag": "ADJ", "confidence": 0.75, "reasoning": "ordinal adjective modifying gate, part, time, and caresses, though number-like", "alternative": "NUM"}
+{"type": "here", "rank": 132, "frequency": 64, "tag": "ADV", "confidence": 1.0, "reasoning": "locative adverb in send him here, coming up here, here's to us, and here and there"}
+{"type": "looked", "rank": 133, "frequency": 64, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning appeared or gazed in all contexts"}
+{"type": "mary", "rank": 134, "frequency": 64, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name in Hail Mary and Mary Jane"}
+{"type": "still", "rank": 135, "frequency": 64, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb marking continuation or further degree in all shown contexts"}
+{"type": "upon", "rank": 136, "frequency": 64, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition equivalent to on in all contexts"}
+{"type": "took", "rank": 137, "frequency": 63, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in took up, took a sip, took his hand, and took off"}
+{"type": "get", "rank": 138, "frequency": 61, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in get whipped, get attended to, get away, and get fellows to drill"}
+{"type": "long", "rank": 139, "frequency": 61, "tag": "ADJ", "confidence": 0.95, "reasoning": "adjective modifying time, years, and whistle, with as long as as a fixed comparative phrase"}
+{"type": "something", "rank": 140, "frequency": 61, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun referring to an unspecified thing"}
+{"type": "way", "rank": 141, "frequency": 61, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for manner or route in all contexts"}
+{"type": "felt", "rank": 142, "frequency": 59, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning felt emotionally or physically in all contexts"}
+{"type": "our", "rank": 143, "frequency": 59, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns such as immobility, names, friend, and door"}
+{"type": "towards", "rank": 144, "frequency": 59, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking direction in all contexts"}
+{"type": "cunningham", "rank": 145, "frequency": 58, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Mr Cunningham throughout"}
+{"type": "thought", "rank": 146, "frequency": 58, "tag": "VERB", "confidence": 0.8, "reasoning": "mostly past-tense verb in Maria thought, she thought, and he thought, with noun uses like thought of life", "alternative": "NOUN"}
+{"type": "any", "rank": 147, "frequency": 57, "tag": "DET", "confidence": 1.0, "reasoning": "indefinite determiner before nouns such as affront, drink, blood, and job"}
+{"type": "every", "rank": 148, "frequency": 57, "tag": "DET", "confidence": 1.0, "reasoning": "universal determiner before nouns such as Wednesday, time, day, and moment"}
+{"type": "father", "rank": 149, "frequency": 57, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly kinship common noun, though Father Tom Burke is a title-name use", "alternative": "PROPN"}
+{"type": "knew", "rank": 150, "frequency": 57, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning knew in all contexts"}
+{"type": "nothing", "rank": 151, "frequency": 57, "tag": "PRON", "confidence": 1.0, "reasoning": "negative indefinite pronoun in all contexts"}
+{"type": "gallaher", "rank": 152, "frequency": 56, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Ignatius Gallaher throughout"}
+{"type": "julia", "rank": 153, "frequency": 56, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name Aunt Julia or Julia"}
+{"type": "kearney", "rank": 154, "frequency": 56, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Mrs Kearney throughout"}
+{"type": "power", "rank": 155, "frequency": 56, "tag": "PROPN", "confidence": 0.95, "reasoning": "mostly surname/name Mr Power, not the common noun power in these contexts"}
+{"type": "yes", "rank": 156, "frequency": 56, "tag": "INTJ", "confidence": 1.0, "reasoning": "affirmative response or discourse interjection in dialogue"}
+{"type": "heard", "rank": 157, "frequency": 55, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb meaning heard in all contexts"}
+{"type": "through", "rank": 158, "frequency": 55, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking path, medium, or duration in all contexts"}
+{"type": "home", "rank": 159, "frequency": 54, "tag": "ADV", "confidence": 0.55, "reasoning": "mixed between directional adverb in go home and way home, and noun uses such as the home together", "alternative": "NOUN"}
+{"type": "light", "rank": 160, "frequency": 54, "tag": "NOUN", "confidence": 0.9, "reasoning": "mostly common noun for light, though light stuff is adjectival", "alternative": "ADJ"}
+{"type": "tell", "rank": 161, "frequency": 54, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning tell in all contexts"}
+{"type": "told", "rank": 162, "frequency": 54, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb meaning told in all contexts"}
+{"type": "always", "rank": 163, "frequency": 53, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb in all contexts"}
+{"type": "away", "rank": 164, "frequency": 53, "tag": "ADV", "confidence": 1.0, "reasoning": "adverbial particle or locative adverb in wore away, walked away, far away, and gone away"}
+{"type": "henchy", "rank": 165, "frequency": 53, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Mr Henchy throughout"}
+{"type": "jane", "rank": 166, "frequency": 53, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name in Mary Jane throughout"}
+{"type": "more", "rank": 167, "frequency": 53, "tag": "ADV", "confidence": 0.75, "reasoning": "mostly comparative degree adverb in more audible, more at ease, and much more pleasant, with some determiner uses", "alternative": "DET"}
+{"type": "put", "rank": 168, "frequency": 53, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in put on, put in, put over, and put it on the table"}
+{"type": "round", "rank": 169, "frequency": 53, "tag": "ADV", "confidence": 0.5, "reasoning": "highly mixed: round hat is adjectival, wrapped round is adpositional, and looked round is adverbial particle", "alternative": "ADP"}
+{"type": "turned", "rank": 170, "frequency": 53, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in turned his tie, turned and leaned, turned about, and turned down"}
+{"type": "used", "rank": 171, "frequency": 53, "tag": "VERB", "confidence": 1.0, "reasoning": "verb in habitual used to constructions throughout"}
+{"type": "corley", "rank": 172, "frequency": 52, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Corley throughout"}
+{"type": "day", "rank": 173, "frequency": 52, "tag": "NOUN", "confidence": 1.0, "reasoning": "time noun in all contexts"}
+{"type": "along", "rank": 174, "frequency": 51, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking movement along a path or surface"}
+{"type": "off", "rank": 175, "frequency": 51, "tag": "ADV", "confidence": 0.85, "reasoning": "mostly adverbial particle in take off, jumped off, taken off, and run off"}
+{"type": "re", "rank": 176, "frequency": 51, "tag": "AUX", "confidence": 0.75, "reasoning": "often contracted auxiliary in you're and we're, though name-token fragments also occur", "alternative": "PROPN"}
+{"type": "sat", "rank": 177, "frequency": 51, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in sat on his stool, sat some distance off, and they sat by the fire"}
+{"type": "your", "rank": 178, "frequency": 51, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns such as bazaar, voice, business, and soul"}
+{"type": "friends", "rank": 179, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for social relations"}
+{"type": "hands", "rank": 180, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun in all contexts"}
+{"type": "money", "rank": 181, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for money in all contexts"}
+{"type": "such", "rank": 182, "frequency": 50, "tag": "DET", "confidence": 1.0, "reasoning": "determiner modifying nouns such as sins, night, stripling, and spirits"}
+{"type": "saw", "rank": 183, "frequency": 49, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning saw in all contexts"}
+{"type": "these", "rank": 184, "frequency": 49, "tag": "DET", "confidence": 0.95, "reasoning": "demonstrative determiner before nouns such as signs, Continentals, and dead, with one pronoun-like use possible"}
+{"type": "browne", "rank": 185, "frequency": 48, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Mr Browne throughout"}
+{"type": "just", "rank": 186, "frequency": 48, "tag": "ADV", "confidence": 1.0, "reasoning": "focusing or temporal adverb in just a retreat, just occurred, just as, and just about to start"}
+{"type": "own", "rank": 187, "frequency": 48, "tag": "ADJ", "confidence": 0.95, "reasoning": "possessive adjective in own accord, own leader, own land, and own romantic ideas"}
+{"type": "three", "rank": 188, "frequency": 48, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in all contexts"}
+{"type": "boy", "rank": 189, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for male child or young male"}
+{"type": "dark", "rank": 190, "frequency": 47, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying house, night, eyes, or used predicatively in the dark"}
+{"type": "evening", "rank": 191, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "time noun in all contexts"}
+{"type": "much", "rank": 192, "frequency": 47, "tag": "ADV", "confidence": 0.7, "reasoning": "mostly degree adverb in much older and very much, though too much uses quantify a noun phrase", "alternative": "DET"}
+{"type": "people", "rank": 193, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for persons in all contexts"}
+{"type": "together", "rank": 194, "frequency": 47, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb expressing joint action or physical contact in all contexts"}
+{"type": "why", "rank": 195, "frequency": 47, "tag": "ADV", "confidence": 1.0, "reasoning": "interrogative adverb asking reason in all contexts"}
+{"type": "can", "rank": 196, "frequency": 46, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in all contexts"}
+{"type": "going", "rank": 197, "frequency": 46, "tag": "VERB", "confidence": 1.0, "reasoning": "progressive or gerund verb in going to eat, suggest going home, and going to vote"}
+{"type": "must", "rank": 198, "frequency": 46, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in all contexts"}
+{"type": "once", "rank": 199, "frequency": 46, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb meaning one time or once more in all contexts"}
+{"type": "connor", "rank": 200, "frequency": 45, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname component in Mr O'Connor throughout"}
+{"type": "course", "rank": 201, "frequency": 45, "tag": "NOUN", "confidence": 0.95, "reasoning": "appears chiefly in the fixed noun phrase of course"}
+{"type": "don", "rank": 202, "frequency": 45, "tag": "AUX", "confidence": 0.95, "reasoning": "tokenized auxiliary portion of don't in all shown contexts"}
+{"type": "last", "rank": 203, "frequency": 45, "tag": "ADV", "confidence": 0.65, "reasoning": "mostly in temporal phrase at last, though last interview is adjectival", "alternative": "ADJ"}
+{"type": "take", "rank": 204, "frequency": 45, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in take measures, take crackers, take it, and take her in his arms"}
+{"type": "woman", "rank": 205, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an adult female in all contexts"}
+{"type": "because", "rank": 206, "frequency": 44, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing cause clauses throughout"}
+{"type": "end", "rank": 207, "frequency": 44, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in in the end and end of Thomas Street"}
+{"type": "hall", "rank": 208, "frequency": 44, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun for building interior space, including hall-door compounds"}
+{"type": "under", "rank": 209, "frequency": 44, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking control, cover, name, or position throughout"}
+{"type": "walked", "rank": 210, "frequency": 44, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning walked in all contexts"}
+{"type": "another", "rank": 211, "frequency": 43, "tag": "DET", "confidence": 1.0, "reasoning": "determiner before nouns such as guest, card, priest, and excuse"}
+{"type": "brought", "rank": 212, "frequency": 43, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in brought him, brought out, brought pride, and brought in"}
+{"type": "fire", "rank": 213, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for fire or metaphorical fire in all contexts"}
+{"type": "let", "rank": 214, "frequency": 43, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in let in, let things pass, let you be, and let intrude"}
+{"type": "many", "rank": 215, "frequency": 43, "tag": "DET", "confidence": 1.0, "reasoning": "quantifying determiner before plural nouns such as courses, secrets, and memories"}
+{"type": "chandler", "rank": 216, "frequency": 42, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Little Chandler throughout"}
+{"type": "its", "rank": 217, "frequency": 42, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns such as light, fragility, hospitality, and leaves"}
+{"type": "left", "rank": 218, "frequency": 42, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly past-tense verb in left the house and left for Nuns' Island, though to the left is directional", "alternative": "ADJ"}
+{"type": "maria", "rank": 219, "frequency": 42, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name Maria throughout"}
+{"type": "mind", "rank": 220, "frequency": 42, "tag": "NOUN", "confidence": 0.9, "reasoning": "mostly common noun in make up his mind and through Gabriel's mind, with imperative mind you also present"}
+{"type": "mother", "rank": 221, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "kinship common noun in all contexts"}
+{"type": "called", "rank": 222, "frequency": 41, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb in called out, is called, and whom he called"}
+{"type": "make", "rank": 223, "frequency": 41, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in make you cry, make room, make a new man, and make up"}
+{"type": "poor", "rank": 224, "frequency": 41, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying houses, powers, Nannie, and James"}
+{"type": "against", "rank": 225, "frequency": 40, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking contact, opposition, or direction in all contexts"}
+{"type": "air", "rank": 226, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for air in all contexts"}
+{"type": "dublin", "rank": 227, "frequency": 40, "tag": "PROPN", "confidence": 1.0, "reasoning": "city name Dublin throughout"}
+{"type": "friend", "rank": 228, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for social relation in all contexts"}
+{"type": "gone", "rank": 229, "frequency": 40, "tag": "VERB", "confidence": 0.8, "reasoning": "past participle of go in had gone and is gone, though sometimes adjectival in aren't gone yet", "alternative": "ADJ"}
+{"type": "hat", "rank": 230, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for hat in all contexts"}
+{"type": "moment", "rank": 231, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "common time noun in all contexts"}
+{"type": "office", "rank": 232, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for workplace or office in all contexts"}
+{"type": "wife", "rank": 233, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "kinship/common noun for wife in all contexts"}
+{"type": "got", "rank": 234, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in got on, got out, got up, and got a separation"}
+{"type": "holohan", "rank": 235, "frequency": 39, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Mr Holohan throughout"}
+{"type": "look", "rank": 236, "frequency": 39, "tag": "VERB", "confidence": 0.8, "reasoning": "mostly verb in look at, look back, and look after, with one noun use the look of things", "alternative": "NOUN"}
+{"type": "malins", "rank": 237, "frequency": 39, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Freddy Malins and Mrs Malins"}
+{"type": "name", "rank": 238, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a name in all contexts"}
+{"type": "passed", "rank": 239, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in passed out, passed by, passed unnoticed, and passed through"}
+{"type": "ignatius", "rank": 240, "frequency": 38, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name Ignatius Gallaher"}
+{"type": "saying", "rank": 241, "frequency": 38, "tag": "VERB", "confidence": 1.0, "reasoning": "participial verb in notice saying, by saying, heard saying, and saying something"}
+{"type": "side", "rank": 242, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for side in all contexts"}
+{"type": "will", "rank": 243, "frequency": 38, "tag": "AUX", "confidence": 0.75, "reasoning": "mostly modal auxiliary in I will and will benefit, with one noun use legal will", "alternative": "NOUN"}
+{"type": "children", "rank": 244, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for children"}
+{"type": "fellow", "rank": 245, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a man or chap in all contexts"}
+{"type": "found", "rank": 246, "frequency": 37, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb meaning found in all contexts"}
+{"type": "glass", "rank": 247, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for drinking glass or glass panels"}
+{"type": "might", "rank": 248, "frequency": 37, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in all contexts"}
+{"type": "music", "rank": 249, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for music throughout"}
+{"type": "slowly", "rank": 250, "frequency": 37, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb modifying walked, turned, emerged, and moved"}
+{"type": "sure", "rank": 251, "frequency": 37, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective in I'm sure, to be sure, and was not sure"}
+{"type": "white", "rank": 252, "frequency": 37, "tag": "ADJ", "confidence": 0.9, "reasoning": "mostly color adjective modifying face, moustache, teeth, and lamp, with one noun use the white of letters", "alternative": "NOUN"}
+{"type": "daughter", "rank": 253, "frequency": 36, "tag": "NOUN", "confidence": 1.0, "reasoning": "kinship common noun in all contexts"}
+{"type": "ever", "rank": 254, "frequency": 36, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal/frequency adverb in ever since, if ever, and ever so nice"}
+{"type": "god", "rank": 255, "frequency": 36, "tag": "PROPN", "confidence": 1.0, "reasoning": "divine proper name in appeals and prayers"}
+{"type": "joe", "rank": 256, "frequency": 36, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name Joe throughout"}
+{"type": "looking", "rank": 257, "frequency": 36, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund or participial verb in looking for and looking in"}
+{"type": "years", "rank": 258, "frequency": 36, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural time noun in all contexts"}
+{"type": "girl", "rank": 259, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for young female in all contexts"}
+{"type": "than", "rank": 260, "frequency": 35, "tag": "ADP", "confidence": 1.0, "reasoning": "comparative marker in all contexts"}
+{"type": "window", "rank": 261, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for window in all contexts"}
+{"type": "world", "rank": 262, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for world in all contexts"}
+{"type": "better", "rank": 263, "frequency": 34, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly comparative adjective in better attended, that's better, and better right, though also adverbial in liked nothing better", "alternative": "ADV"}
+{"type": "even", "rank": 264, "frequency": 34, "tag": "ADV", "confidence": 1.0, "reasoning": "focus adverb in even a small order, even Mr Lyons, and even Aunt Julia"}
+{"type": "freddy", "rank": 265, "frequency": 34, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name Freddy Malins"}
+{"type": "heart", "rank": 266, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "common body/metaphorical noun for heart in all contexts"}
+{"type": "lay", "rank": 267, "frequency": 34, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb of lie in lay in his desk, lay upon its side, and lay at her feet"}
+{"type": "part", "rank": 268, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in dark part, poor part, second part, and took no part"}
+{"type": "those", "rank": 269, "frequency": 34, "tag": "DET", "confidence": 0.8, "reasoning": "mostly demonstrative determiner before nouns such as singers, shoneens, and whom, with pronoun-like uses", "alternative": "PRON"}
+{"type": "corner", "rank": 270, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for spatial corner in all contexts"}
+{"type": "coy", "rank": 271, "frequency": 33, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname component in Mr M'Coy throughout"}
+{"type": "four", "rank": 272, "frequency": 33, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in all contexts"}
+{"type": "seen", "rank": 273, "frequency": 33, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of see in all contexts"}
+{"type": "spoke", "rank": 274, "frequency": 33, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense speech verb in all contexts"}
+{"type": "thing", "rank": 275, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for thing in all contexts"}
+{"type": "cold", "rank": 276, "frequency": 32, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying air, grease, night, and interrogation"}
+{"type": "ladies", "rank": 277, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for women, including ladies' dressing-room"}
+{"type": "morning", "rank": 278, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "time noun in all contexts"}
+{"type": "perhaps", "rank": 279, "frequency": 32, "tag": "ADV", "confidence": 1.0, "reasoning": "modal adverb expressing uncertainty in all contexts"}
+{"type": "without", "rank": 280, "frequency": 32, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking absence or manner throughout"}
+{"type": "behind", "rank": 281, "frequency": 31, "tag": "ADP", "confidence": 0.85, "reasoning": "mostly preposition in behind her, bench behind, and behind the scenes, with some adverbial particle uses", "alternative": "ADV"}
+{"type": "didn", "rank": 282, "frequency": 31, "tag": "AUX", "confidence": 0.95, "reasoning": "tokenized auxiliary portion of didn't in all shown contexts"}
+{"type": "gave", "rank": 283, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in gave a concert, gave a jump, gave out, and gave the visitor slips"}
+{"type": "gentlemen", "rank": 284, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for men in formal/social contexts"}
+{"type": "half", "rank": 285, "frequency": 31, "tag": "NUM", "confidence": 0.9, "reasoning": "quantity or fractional number in half-moons, half-crowns, half-one, and half-disclosed"}
+{"type": "laughed", "rank": 286, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in laughed loudly and laughed at her tone"}
+{"type": "lenehan", "rank": 287, "frequency": 31, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Lenehan throughout"}
+{"type": "small", "rank": 288, "frequency": 31, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying whiskies, boys, person, and measures"}
+{"type": "tried", "rank": 289, "frequency": 31, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in tried to make, tried to quiet, and had often tried"}
+{"type": "won", "rank": 290, "frequency": 31, "tag": "AUX", "confidence": 0.6, "reasoning": "often contracted auxiliary in won't, though one shown context has lexical verb won siege or battle", "alternative": "VERB"}
+{"type": "also", "rank": 291, "frequency": 30, "tag": "ADV", "confidence": 1.0, "reasoning": "additive adverb in all contexts"}
+{"type": "answered", "rank": 292, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning replied or responded in all contexts"}
+{"type": "being", "rank": 293, "frequency": 30, "tag": "AUX", "confidence": 0.65, "reasoning": "mostly gerund/participle of be in being a row, being a little man, and reputation of being, with one noun creature sense", "alternative": "NOUN"}
+{"type": "between", "rank": 294, "frequency": 30, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking relation or position between entities"}
+{"type": "body", "rank": 295, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for body in all contexts"}
+{"type": "has", "rank": 296, "frequency": 30, "tag": "AUX", "confidence": 0.7, "reasoning": "mixed auxiliary have in has tried and has to, with main verb possession/condition uses like has colds", "alternative": "VERB"}
+{"type": "hear", "rank": 297, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning perceive by hearing in all contexts"}
+{"type": "city", "rank": 298, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for city in all contexts"}
+{"type": "each", "rank": 299, "frequency": 29, "tag": "DET", "confidence": 1.0, "reasoning": "distributive determiner before nouns such as neighbour, side, group, and sleeve"}
+{"type": "full", "rank": 300, "frequency": 29, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in full of conceit, full of people, full of anger, and full of joy"}
+{"type": "often", "rank": 301, "frequency": 29, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb in all contexts"}
+{"type": "open", "rank": 302, "frequency": 29, "tag": "ADJ", "confidence": 0.85, "reasoning": "mostly adjective or participial adjective in lay open, open book, and burst open", "alternative": "VERB"}
+{"type": "alleyne", "rank": 303, "frequency": 28, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Mr Alleyne throughout"}
+{"type": "black", "rank": 304, "frequency": 28, "tag": "ADJ", "confidence": 1.0, "reasoning": "color adjective modifying furniture, clothes, leather, and hair"}
+{"type": "boys", "rank": 305, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for boys in all contexts"}
+{"type": "business", "rank": 306, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for commercial or practical affairs in all contexts"}
+{"type": "dead", "rank": 307, "frequency": 28, "tag": "ADJ", "confidence": 0.85, "reasoning": "mostly adjective in dead-room, was dead, and dead elder sister, with from the dead as nominalized use", "alternative": "NOUN"}
+{"type": "done", "rank": 308, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of do in all contexts, including dialectal I done"}
+{"type": "everyone", "rank": 309, "frequency": 28, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun referring to all people"}
+{"type": "give", "rank": 310, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in give a whipping, give version, give ourselves, and give anything"}
+{"type": "nice", "rank": 311, "frequency": 28, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing Catholic, situation, collection, and person"}
+{"type": "opened", "rank": 312, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb in opened a shop, opened a bottle, and was opened"}
+{"type": "standing", "rank": 313, "frequency": 28, "tag": "VERB", "confidence": 0.85, "reasoning": "mostly participial verb in were standing and woman standing, though standing in draught is adjectival", "alternative": "ADJ"}
+{"type": "words", "rank": 314, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for words in all contexts"}
+{"type": "farrington", "rank": 315, "frequency": 27, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Farrington throughout"}
+{"type": "find", "rank": 316, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning discover or locate in all contexts"}
+{"type": "held", "rank": 317, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb in held up, held banknotes, was held, and held out"}
+{"type": "quickly", "rank": 318, "frequency": 27, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb modifying actions in all contexts"}
+{"type": "school", "rank": 319, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for school or school tradition in all contexts"}
+{"type": "shop", "rank": 320, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for shop in all contexts"}
+{"type": "silence", "rank": 321, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for silence in all contexts"}
+{"type": "sir", "rank": 322, "frequency": 27, "tag": "PROPN", "confidence": 0.65, "reasoning": "mixed honorific/title in Sir Walter and direct address sir, treated as title-like in this annotation pass", "alternative": "NOUN"}
+{"type": "work", "rank": 323, "frequency": 27, "tag": "NOUN", "confidence": 0.9, "reasoning": "mostly noun in work-girls, kind of work, and work going on, with verbal work possible elsewhere"}
+{"type": "arcy", "rank": 324, "frequency": 26, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname component in Mr Bartell D'Arcy throughout"}
+{"type": "beside", "rank": 325, "frequency": 26, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking position next to someone or something"}
+{"type": "continued", "rank": 326, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in continued Gabriel, continued his way, and continued blinking"}
+{"type": "herself", "rank": 327, "frequency": 26, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive feminine pronoun throughout"}
+{"type": "irish", "rank": 328, "frequency": 26, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjective modifying hospitality, whiskey, device, Revival, and teacher", "alternative": "PROPN"}
+{"type": "ivors", "rank": 329, "frequency": 26, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Miss Ivors throughout"}
+{"type": "jimmy", "rank": 330, "frequency": 26, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name Jimmy throughout"}
+{"type": "may", "rank": 331, "frequency": 26, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in all contexts"}
+{"type": "near", "rank": 332, "frequency": 26, "tag": "ADP", "confidence": 0.75, "reasoning": "mostly preposition before noun phrases such as the ashpit and Parkgate, with some adverb/adjective uses like coming near", "alternative": "ADV"}
+{"type": "ran", "rank": 333, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning ran in all contexts"}
+{"type": "should", "rank": 334, "frequency": 26, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in all contexts"}
+{"type": "stairs", "rank": 335, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for stairway in all contexts"}
+{"type": "wouldn", "rank": 336, "frequency": 26, "tag": "AUX", "confidence": 0.95, "reasoning": "tokenized auxiliary portion of wouldn't in all contexts"}
+{"type": "anything", "rank": 337, "frequency": 25, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun in all contexts"}
+{"type": "big", "rank": 338, "frequency": 25, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying teeth, hall, ratepayer, and hat"}
+{"type": "girls", "rank": 339, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for girls in all contexts"}
+{"type": "husband", "rank": 340, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "kinship/common noun husband in all contexts"}
+{"type": "minutes", "rank": 341, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural time noun in all contexts"}
+{"type": "mouth", "rank": 342, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun in all contexts"}
+{"type": "new", "rank": 343, "frequency": 25, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying ideas, stuff, Year, and office"}
+{"type": "others", "rank": 344, "frequency": 25, "tag": "PRON", "confidence": 1.0, "reasoning": "pronoun standing for other people or things"}
+{"type": "same", "rank": 345, "frequency": 25, "tag": "DET", "confidence": 0.9, "reasoning": "determiner before nouns such as way, time, and letter, with one standalone use"}
+{"type": "silent", "rank": 346, "frequency": 25, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective describing house, room, people, and figures"}
+{"type": "until", "rank": 347, "frequency": 25, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing temporal endpoint clauses"}
+{"type": "bad", "rank": 348, "frequency": 24, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in bad opinion, bad sort, bad way, and not so bad"}
+{"type": "brown", "rank": 349, "frequency": 24, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly color adjective in brown-clad, brown eyes, and all brown, though Brown Thomas and Mr Browne create proper-name ambiguity", "alternative": "PROPN"}
+{"type": "child", "rank": 350, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for child in all contexts"}
+{"type": "coming", "rank": 351, "frequency": 24, "tag": "VERB", "confidence": 1.0, "reasoning": "participial/progressive verb in is coming, night was coming, being was coming, and Freddy coming"}
+{"type": "enough", "rank": 352, "frequency": 24, "tag": "ADV", "confidence": 0.85, "reasoning": "degree adverb in fortunate enough, rich enough, long enough, and time enough"}
+{"type": "fine", "rank": 353, "frequency": 24, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying problem, fellow, day, and body"}
+{"type": "glanced", "rank": 354, "frequency": 24, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning looked briefly in all contexts"}
+{"type": "gretta", "rank": 355, "frequency": 24, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name Gretta throughout"}
+{"type": "grey", "rank": 356, "frequency": 24, "tag": "ADJ", "confidence": 1.0, "reasoning": "color adjective in grey river, face, eyes, hair, and face"}
+{"type": "hynes", "rank": 357, "frequency": 24, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Mr Hynes throughout"}
+{"type": "piano", "rank": 358, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "instrument noun in all contexts"}
+{"type": "set", "rank": 359, "frequency": 24, "tag": "VERB", "confidence": 1.0, "reasoning": "verb in set free, set down, and set out"}
+{"type": "shook", "rank": 360, "frequency": 24, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in shook hands, shook fist, and shook head"}
+{"type": "word", "rank": 361, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a word in all contexts"}
+{"type": "across", "rank": 362, "frequency": 23, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking movement or direction across a place or table"}
+{"type": "bed", "rank": 363, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for bed in all contexts"}
+{"type": "church", "rank": 364, "frequency": 23, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly common noun for religious institution or building, though George's Church is a proper-name use", "alternative": "PROPN"}
+{"type": "feel", "rank": 365, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning feel physically or emotionally in all contexts"}
+{"type": "followed", "rank": 366, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb in followed them, acclamation followed, and women followed"}
+{"type": "hair", "rank": 367, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part/material noun hair in all contexts"}
+{"type": "lady", "rank": 368, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for woman in all contexts"}
+{"type": "mahony", "rank": 369, "frequency": 23, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/name Mahony throughout"}
+{"type": "met", "rank": 370, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning met in all contexts"}
+{"type": "nearly", "rank": 371, "frequency": 23, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb in nearly choked, nearly put out, nearly a month, and nearly always"}
+{"type": "play", "rank": 372, "frequency": 23, "tag": "VERB", "confidence": 0.7, "reasoning": "mostly main verb in play the operas, play together, and play something, with no play as noun", "alternative": "NOUN"}
+{"type": "quite", "rank": 373, "frequency": 23, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb modifying brown, helpless, grey, and well"}
+{"type": "talk", "rank": 374, "frequency": 23, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly verb in talk to, began to talk, and talk of the affair, with one noun use confused talk", "alternative": "NOUN"}
+{"type": "things", "rank": 375, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for things in all contexts"}
+{"type": "wanted", "rank": 376, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in wanted adventures, wanted to retch, wanted to live, and wanted to join"}
+{"type": "arm", "rank": 377, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun or compound arm-chair in all contexts"}
+{"type": "ask", "rank": 378, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning ask in all contexts"}
+{"type": "bottle", "rank": 379, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for bottle in all contexts"}
+{"type": "case", "rank": 380, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for circumstance, legal matter, or example in all contexts"}
+{"type": "country", "rank": 381, "frequency": 22, "tag": "NOUN", "confidence": 0.9, "reasoning": "mostly common noun for nation or countryside, with country cute as adjectival use", "alternative": "ADJ"}
+{"type": "fell", "rank": 382, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb in light fell, nature fell, mouth fell, and he fell"}
+{"type": "high", "rank": 383, "frequency": 22, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying ambition, name, rooms, and altar"}
+{"type": "keep", "rank": 384, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in keep from asking, keep his tongue, keep up, and keep in touch"}
+{"type": "late", "rank": 385, "frequency": 22, "tag": "ADV", "confidence": 0.6, "reasoning": "mixed temporal adverb in came in late and too late, with adjective use in late one night", "alternative": "ADJ"}
+{"type": "laughing", "rank": 386, "frequency": 22, "tag": "VERB", "confidence": 0.85, "reasoning": "participial verb in came in laughing, roared laughing, and said laughing", "alternative": "ADJ"}
+{"type": "leave", "rank": 387, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in leave us, leave it, leave for a minute, and leave it behind"}
+{"type": "live", "rank": 388, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning live or reside in all contexts"}
+{"type": "mean", "rank": 389, "frequency": 22, "tag": "VERB", "confidence": 0.55, "reasoning": "split between verb uses what do you mean and I mean to see, and adjective uses mean of you or suburbs mean", "alternative": "ADJ"}
+{"type": "read", "rank": 390, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "verb meaning read in all contexts"}
+{"type": "really", "rank": 391, "frequency": 22, "tag": "ADV", "confidence": 1.0, "reasoning": "degree or truth adverb in all contexts"}
+{"type": "road", "rank": 392, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for road in all contexts"}
+{"type": "talking", "rank": 393, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund or participial verb in talking to, had been talking, and were talking"}
+{"type": "though", "rank": 394, "frequency": 22, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing concessive clauses throughout"}
+{"type": "car", "rank": 395, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "vehicle noun in all contexts"}
+{"type": "caught", "rank": 396, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense or participial verb in caught a glimpse, caught sight, and caught himself"}
+{"type": "clock", "rank": 397, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "timepiece noun in o'clock and Waterhouse's clock"}
+{"type": "company", "rank": 398, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for group, business company, or audience in all contexts"}
+{"type": "couldn", "rank": 399, "frequency": 21, "tag": "AUX", "confidence": 0.95, "reasoning": "tokenized auxiliary portion of couldn't in all contexts"}
+{"type": "drank", "rank": 400, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense verb meaning drank in all contexts"}
+{"type": "far", "rank": 401, "frequency": 21, "tag": "ADV", "confidence": 0.95, "reasoning": "distance adverb in as far as possible and as far as my experience goes"}
+{"type": "five", "rank": 402, "frequency": 21, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in five measures, five or six, and five minutes"}
+{"type": "gentleman", "rank": 403, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common social noun in the gentleman and stout gentleman contexts"}
+{"type": "hard", "rank": 404, "frequency": 21, "tag": "ADJ", "confidence": 0.95, "reasoning": "adjective in hard up, hard to know, hard work, and hard life"}
+{"type": "hour", "rank": 405, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "time noun in half-an-hour, quarter of an hour, and stood by the hour"}
+{"type": "jack", "rank": 406, "frequency": 21, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name in Jack Mooney and direct address to Jack"}
+{"type": "large", "rank": 407, "frequency": 21, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying eyes, face, head, hat, and brooch"}
+{"type": "noise", "rank": 408, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in the noise of tongues, make noise, and noise in the hall"}
+{"type": "person", "rank": 409, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common human noun in a person resembling, nice person, and generous person"}
+{"type": "red", "rank": 410, "frequency": 21, "tag": "ADJ", "confidence": 0.98, "reasoning": "color adjective modifying face and cheeks in the contexts"}
+{"type": "sent", "rank": 411, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle or finite verb in sent a letter, was sent out, and had sent his son"}
+{"type": "short", "rank": 412, "frequency": 21, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying body, sentence, periods, and arms"}
+{"type": "soon", "rank": 413, "frequency": 21, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal adverb in soon faded, as soon as, and soon it would be too late"}
+{"type": "stout", "rank": 414, "frequency": 21, "tag": "NOUN", "confidence": 0.65, "reasoning": "contexts split between bottles of stout as drink noun and stout as body adjective; drink noun is prominent", "alternative": "ADJ"}
+{"type": "walking", "rank": 415, "frequency": 21, "tag": "VERB", "confidence": 0.8, "reasoning": "mostly participial verb in seen walking, walking in sideways, and were walking quickly; one compound walking-stick use", "alternative": "ADJ"}
+{"type": "wore", "rank": 416, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb describing clothing in all shown contexts"}
+{"type": "year", "rank": 417, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "time noun in every year, next year, and New Year"}
+{"type": "yet", "rank": 418, "frequency": 21, "tag": "ADV", "confidence": 0.9, "reasoning": "adverbial still/nevertheless use in wished yet, not done yet, asked her yet, and and yet they say"}
+{"type": "blue", "rank": 419, "frequency": 20, "tag": "ADJ", "confidence": 1.0, "reasoning": "color adjective modifying dress, car, eyes, and hat"}
+{"type": "certain", "rank": 420, "frequency": 20, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying circumstances, friends, institutions, and feeling"}
+{"type": "chair", "rank": 421, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "furniture noun in arm-chair, left the chair free, and on her chair"}
+{"type": "cried", "rank": 422, "frequency": 20, "tag": "VERB", "confidence": 1.0, "reasoning": "speech or weeping verb in cried Miss Ivors, she cried, and little boy cried"}
+{"type": "dress", "rank": 423, "frequency": 20, "tag": "NOUN", "confidence": 0.9, "reasoning": "mostly clothing noun in smoothed her dress and wore a blue dress; one verb use in dress for mass", "alternative": "VERB"}
+{"type": "green", "rank": 424, "frequency": 20, "tag": "ADJ", "confidence": 0.85, "reasoning": "mostly color/place modifier in green marble and green eyes; Stephen's Green is a place-name use", "alternative": "PROPN"}
+{"type": "having", "rank": 425, "frequency": 20, "tag": "AUX", "confidence": 0.85, "reasoning": "perfect auxiliary participle in having been defeated and after having drunk; one lexical possession use", "alternative": "VERB"}
+{"type": "kept", "rank": 426, "frequency": 20, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in kept up, kept on saying, kept a bold face, and kept her figure in my eye"}
+{"type": "snow", "rank": 427, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "weather noun in the snow and snow was general all over Ireland"}
+{"type": "sometimes", "rank": 428, "frequency": 20, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb in sometimes formed, sometimes not finding it, and sometimes sent money"}
+{"type": "taken", "rank": 429, "frequency": 20, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle verb in body taken, would be taken, I've taken, and had taken"}
+{"type": "times", "rank": 430, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural time/event noun in old times, at times, and many times over"}
+{"type": "ve", "rank": 431, "frequency": 20, "tag": "AUX", "confidence": 1.0, "reasoning": "contraction fragment for have in I've broken, I've been, I've heard, and I've spent"}
+{"type": "want", "rank": 432, "frequency": 20, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in do you want, what we want, and we want it badly"}
+{"type": "am", "rank": 433, "frequency": 19, "tag": "AUX", "confidence": 0.95, "reasoning": "first-person be auxiliary/copula in I am thinking, I am afraid, and I am a little"}
+{"type": "answer", "rank": 434, "frequency": 19, "tag": "VERB", "confidence": 0.6, "reasoning": "contexts include did not answer as verb and in answer or suitable answer as noun; shown uses are mixed", "alternative": "NOUN"}
+{"type": "arms", "rank": 435, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun in threw her arms, in his arms, and arms trembled"}
+{"type": "bottles", "rank": 436, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural container noun in bottles of stout and making bottles"}
+{"type": "closed", "rank": 437, "frequency": 19, "tag": "VERB", "confidence": 0.8, "reasoning": "past verb/participle in heart closed, ring closed, hall-door was closed, and eyes were closed", "alternative": "ADJ"}
+{"type": "drink", "rank": 438, "frequency": 19, "tag": "NOUN", "confidence": 0.7, "reasoning": "shown contexts mostly a drink, chance of a drink, and finished his drink; one imperative let us drink", "alternative": "VERB"}
+{"type": "front", "rank": 439, "frequency": 19, "tag": "NOUN", "confidence": 0.75, "reasoning": "appears in in front of me and into the front of a dress, though front teeth/steps are attributive", "alternative": "ADJ"}
+{"type": "glasses", "rank": 440, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for drinking glasses and spectacles in the shown contexts"}
+{"type": "isn", "rank": 441, "frequency": 19, "tag": "AUX", "confidence": 1.0, "reasoning": "contraction fragment for isn't in all quoted questions"}
+{"type": "love", "rank": 442, "frequency": 19, "tag": "NOUN", "confidence": 0.65, "reasoning": "mixed uses, with in love and abstract Love prominent; one I'd love is verb", "alternative": "VERB"}
+{"type": "next", "rank": 443, "frequency": 19, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjective modifier in next-door girls and next year; one adverbial when you come next year"}
+{"type": "point", "rank": 444, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in point of a sharp instrument, point of shoe, every point, and point where ways diverged"}
+{"type": "remember", "rank": 445, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in do you remember, did not remember, and I remember hearing"}
+{"type": "sitting", "rank": 446, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in find him sitting, had been sitting, and would be sitting"}
+{"type": "smiling", "rank": 447, "frequency": 19, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in said smiling, looked smiling, and leaned smiling"}
+{"type": "soul", "rank": 448, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in blast your soul, his soul, and mercy on his soul"}
+{"type": "tea", "rank": 449, "frequency": 19, "tag": "NOUN", "confidence": 1.0, "reasoning": "drink/meal noun in tea-table, tea-merchant, and finished their tea"}
+{"type": "turn", "rank": 450, "frequency": 19, "tag": "VERB", "confidence": 0.65, "reasoning": "mixed uses: turn to him and turn up/over are verbs, but in turn is a noun phrase", "alternative": "NOUN"}
+{"type": "waiting", "rank": 451, "frequency": 19, "tag": "VERB", "confidence": 0.9, "reasoning": "present participle verb in waiting for a suitor and waiting-room context", "alternative": "NOUN"}
+{"type": "wish", "rank": 452, "frequency": 19, "tag": "VERB", "confidence": 0.75, "reasoning": "likely mixed in wishes and wish to constructions; verb sense dominates narrative dialogue", "alternative": "NOUN"}
+{"type": "able", "rank": 453, "frequency": 18, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in be able to and friends that a body can trust"}
+{"type": "best", "rank": 454, "frequency": 18, "tag": "ADJ", "confidence": 0.85, "reasoning": "superlative adjective in best of friends, two best, doing their best, and best respects", "alternative": "NOUN"}
+{"type": "call", "rank": 455, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in used to call, what shall I call them, heard a voice call, and call him"}
+{"type": "concert", "rank": 456, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "event noun in at a concert, pupils' concert, and wait for the concert"}
+{"type": "crofton", "rank": 457, "frequency": 18, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname/personal name in Mr Crofton and direct address Crofton"}
+{"type": "crowd", "rank": 458, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "collective noun in through the crowd, the crowd divided, and old crowd"}
+{"type": "death", "rank": 459, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/event noun in vulgar death, death of shame, narrative of her death"}
+{"type": "feet", "rank": 460, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun in at our feet, padded feet, and scraping his feet"}
+{"type": "floor", "rank": 461, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "surface/place noun in to the floor, on the floor, and floor above"}
+{"type": "laughter", "rank": 462, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/sound noun in laughter and fragrance, applause and laughter, and noise of laughter"}
+{"type": "moments", "rank": 463, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural time noun in at moments and for a few moments"}
+{"type": "mooney", "rank": 464, "frequency": 18, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Jack Mooney and Mrs Mooney contexts"}
+{"type": "most", "rank": 465, "frequency": 18, "tag": "ADV", "confidence": 0.85, "reasoning": "degree adverb in most scandalous, most painful, most generally useful, and the most so", "alternative": "DET"}
+{"type": "played", "rank": 466, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in had played a part, Sheridan played, men played, and Paris played"}
+{"type": "remembered", "rank": 467, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in anyone remembered him and she remembered her father"}
+{"type": "speak", "rank": 468, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in speak that way, speak to Mr Fitzpatrick, and would speak with him"}
+{"type": "till", "rank": 469, "frequency": 18, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction meaning until in all shown contexts"}
+{"type": "tom", "rank": 470, "frequency": 18, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name in direct address Tom and references to Tom's eyes"}
+{"type": "tram", "rank": 471, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "vehicle noun in tram-gongs, tram fare, and the tram was full"}
+{"type": "waited", "rank": 472, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in Gabriel waited, I waited, my aunt waited, and he waited outside"}
+{"type": "warm", "rank": 473, "frequency": 18, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in warm hand, warm soil, warm fire, and felt warm"}
+{"type": "watched", "rank": 474, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in watched face, watched the car, watched him, and watched his wife"}
+{"type": "whether", "rank": 475, "frequency": 18, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing alternatives or embedded questions"}
+{"type": "wished", "rank": 476, "frequency": 18, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in wished to speak, wished they would stop, and wished him gone"}
+{"type": "women", "rank": 477, "frequency": 18, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in other women, women's room, poor women, and women out of choirs"}
+{"type": "bit", "rank": 478, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "small-quantity noun in a bit that night, a bit of life, and a bit of class"}
+{"type": "both", "rank": 479, "frequency": 17, "tag": "DET", "confidence": 0.75, "reasoning": "determiner-like quantifier in both felt and both kissed, with both in the house/business coordinating phrases", "alternative": "PRON"}
+{"type": "bring", "rank": 480, "frequency": 17, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in bring it off, bring us coal, bring down, and bring the matter"}
+{"type": "conroy", "rank": 481, "frequency": 17, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Mr Conroy and Mrs Conroy contexts"}
+{"type": "days", "rank": 482, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural time noun in few days, schoolboy days, and seven days"}
+{"type": "figure", "rank": 483, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for person/shape in ludicrous figure, powerful-looking figure, and brown-clad figure"}
+{"type": "filled", "rank": 484, "frequency": 17, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in filled out glass, filled me with fear, and tears filled eyes"}
+{"type": "hot", "rank": 485, "frequency": 17, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying work, whiskies, specials, and peas"}
+{"type": "memory", "rank": 486, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in patient memory, a memory of summer, and in his memory"}
+{"type": "moustache", "rank": 487, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "facial-hair noun in brown moustache, eyebrows and moustache, and his moustache bristled"}
+{"type": "paper", "rank": 488, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "newspaper/material noun in London paper, the paper from his pocket, and paper of his cigarette"}
+{"type": "party", "rank": 489, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "group/social noun in the party was leaving, fourth member of the party, and party of four"}
+{"type": "returned", "rank": 490, "frequency": 17, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in returned to life, customers returned, old man returned, and barman returned"}
+{"type": "second", "rank": 491, "frequency": 17, "tag": "ADJ", "confidence": 0.75, "reasoning": "ordinal adjective in second reason, second stanza, and second helpings; one noun in a second or two", "alternative": "NUM"}
+{"type": "seeing", "rank": 492, "frequency": 17, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb introducing clauses like seeing that Aunt Kate was out of earshot"}
+{"type": "sight", "rank": 493, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in caught sight, the sight of them, and came in sight"}
+{"type": "stand", "rank": 494, "frequency": 17, "tag": "VERB", "confidence": 0.55, "reasoning": "mixed: music-stand and took her stand are nouns, but stand up is verb; shown contexts split", "alternative": "NOUN"}
+{"type": "stopped", "rank": 495, "frequency": 17, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in she stopped, singing stopped, and when they stopped he stopped"}
+{"type": "tone", "rank": 496, "frequency": 17, "tag": "NOUN", "confidence": 1.0, "reasoning": "voice/manner noun in same tone, tone of interrogation, friendly tone, and repentant tone"}
+{"type": "bar", "rank": 497, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun for music measure or pub/counter in every bar, manager of the bar, and left the bar"}
+{"type": "beautiful", "rank": 498, "frequency": 16, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying house, waltz, places, scenery, and crossing"}
+{"type": "clerk", "rank": 499, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "occupation noun in chief clerk, clerk to tea-merchant, and clerk suggested"}
+{"type": "conversation", "rank": 500, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/social noun in resuming their conversation and enter the conversation"}
+{"type": "desk", "rank": 501, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "furniture noun in lid of the desk, on the desk, and beside his desk"}
+{"type": "falling", "rank": 502, "frequency": 16, "tag": "VERB", "confidence": 0.95, "reasoning": "present participle verb in falling from figure, feet falling, snow falling, and falling out"}
+{"type": "fitzpatrick", "rank": 503, "frequency": 16, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Mr Fitzpatrick throughout the contexts"}
+{"type": "fogarty", "rank": 504, "frequency": 16, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Mr Fogarty contexts"}
+{"type": "houses", "rank": 505, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural building noun in houses and river, many houses, and ruinous houses"}
+{"type": "kathleen", "rank": 506, "frequency": 16, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name in Kathleen and Kathleen's contexts"}
+{"type": "london", "rank": 507, "frequency": 16, "tag": "PROPN", "confidence": 1.0, "reasoning": "place name in London paper and in London, Paris, Milan"}
+{"type": "meet", "rank": 508, "frequency": 16, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in should meet her, can meet, had to meet, and promised to meet"}
+{"type": "order", "rank": 509, "frequency": 16, "tag": "NOUN", "confidence": 0.85, "reasoning": "noun in in order to, rule of the order, and repeated the order", "alternative": "SCONJ"}
+{"type": "past", "rank": 510, "frequency": 16, "tag": "NOUN", "confidence": 0.6, "reasoning": "mixed: singers of the past and years past are noun/adjective-like, brushed past is adposition, past eleven is temporal adposition", "alternative": "ADP"}
+{"type": "piece", "rank": 511, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in rehearsing the piece, end of her piece, penny-piece, and piece of cardboard"}
+{"type": "polly", "rank": 512, "frequency": 16, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name in Polly contexts"}
+{"type": "pope", "rank": 513, "frequency": 16, "tag": "PROPN", "confidence": 0.8, "reasoning": "institutional title/name in the Pope and Pope Leo; lowercase token but refers to specific office/person", "alternative": "NOUN"}
+{"type": "priest", "rank": 514, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "religious occupation noun in American priest, poor priest, and the priest"}
+{"type": "sister", "rank": 515, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "kinship noun in Mangan's sister, elder sister, and her sister's bidding"}
+{"type": "smiled", "rank": 516, "frequency": 16, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in it smiled, Aunt Julia smiled, when he smiled, and Little Chandler smiled"}
+{"type": "suddenly", "rank": 517, "frequency": 16, "tag": "ADV", "confidence": 1.0, "reasoning": "manner/time adverb modifying retorted, opened, raising, and broke off"}
+{"type": "supper", "rank": 518, "frequency": 16, "tag": "NOUN", "confidence": 1.0, "reasoning": "meal noun in supper was coming, to her supper, supper-room, and go to supper"}
+{"type": "tenor", "rank": 519, "frequency": 16, "tag": "NOUN", "confidence": 0.95, "reasoning": "singer/voice noun in first tenor, second tenor, and tenor voice"}
+{"type": "twice", "rank": 520, "frequency": 16, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb in once or twice, nodded twice, and called twice"}
+{"type": "whose", "rank": 521, "frequency": 16, "tag": "PRON", "confidence": 1.0, "reasoning": "relative possessive pronoun introducing whose imagination, whose face, and whose lot"}
+{"type": "age", "rank": 522, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "time/life-stage noun in years of age, sceptical age, and age of marriage"}
+{"type": "bartell", "rank": 523, "frequency": 15, "tag": "PROPN", "confidence": 1.0, "reasoning": "given name in Mr Bartell D'Arcy contexts"}
+{"type": "believe", "rank": 524, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in I believe, they believe, and you don't believe it"}
+{"type": "books", "rank": 525, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural object noun in books and music, paper-covered books, and books of poetry"}
+{"type": "cab", "rank": 526, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "vehicle noun in get one cab, cab rattled, and in a cab with her"}
+{"type": "chap", "rank": 527, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "informal common noun for a man in a chap can go and decent chap"}
+{"type": "dinner", "rank": 528, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "meal noun in the dinner, good dinner, home to dinner, and any dinner"}
+{"type": "drawing", "rank": 529, "frequency": 15, "tag": "NOUN", "confidence": 0.55, "reasoning": "mixed: drawing her towards him is verb, while drawing-room is a fixed noun compound in several contexts", "alternative": "VERB"}
+{"type": "expression", "rank": 530, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "facial/abstract noun in such an expression, sour expression, and waves of expression"}
+{"type": "field", "rank": 531, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "place noun in a field, that field, reached the field, and end of the field"}
+{"type": "gaze", "rank": 532, "frequency": 15, "tag": "VERB", "confidence": 0.55, "reasoning": "mixed: to gaze after is verb in two contexts, but Lenehan's gaze and his gaze are nouns", "alternative": "NOUN"}
+{"type": "grew", "rank": 533, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in letters grew indistinct, hair grew, brow grew thoughtful, and grew tired"}
+{"type": "lamp", "rank": 534, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "lighting object noun in first lamp, little lamp, lamp-post, and street lamp"}
+{"type": "lily", "rank": 535, "frequency": 15, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name in That Lily and direct address Lily"}
+{"type": "listening", "rank": 536, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in listening to breath, music, stories, and distant music"}
+{"type": "lit", "rank": 537, "frequency": 15, "tag": "VERB", "confidence": 0.9, "reasoning": "past verb/participle in lit her candle, lamp was lit, lit cigarette, and garret lit by oil-lamp", "alternative": "ADJ"}
+{"type": "lived", "rank": 538, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in lived together, lived in a house, lived with her, and I lived nearest"}
+{"type": "matter", "rank": 539, "frequency": 15, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly noun in bring the matter, business matter, and little matter; one what would grammar matter is verb", "alternative": "VERB"}
+{"type": "nor", "rank": 540, "frequency": 15, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating negative conjunction in nor could, neither/nor, and neither I nor the day"}
+{"type": "nose", "rank": 541, "frequency": 15, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun in tip of her nose, hand to his nose, and blunt nose"}
+{"type": "question", "rank": 542, "frequency": 15, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly noun in fair question, at the question, and this question; one I don't question is verb", "alternative": "VERB"}
+{"type": "repeated", "rank": 543, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in story was repeated, repeated Little Chandler, and Aunt Kate repeated"}
+{"type": "says", "rank": 544, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "quoted present-tense speech verb in says I and says he"}
+{"type": "serious", "rank": 545, "frequency": 15, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in serious and silent, serious young man, very serious, and serious to solemnity"}
+{"type": "sing", "rank": 546, "frequency": 15, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in used to sing, began to sing, and have to sing"}
+{"type": "smile", "rank": 547, "frequency": 15, "tag": "VERB", "confidence": 0.6, "reasoning": "mixed: trying to smile and used to smile are verbs, while the smile and broader smile are nouns", "alternative": "NOUN"}
+{"type": "surprised", "rank": 548, "frequency": 15, "tag": "ADJ", "confidence": 0.8, "reasoning": "mostly predicative adjective in was surprised, though question had surprised her is verbal", "alternative": "VERB"}
+{"type": "ten", "rank": 549, "frequency": 15, "tag": "NUM", "confidence": 1.0, "reasoning": "number in ten and elevenpence, ten fingers, ten o'clock, and half ten"}
+{"type": "tonight", "rank": 550, "frequency": 15, "tag": "ADV", "confidence": 1.0, "reasoning": "time adverb in play tonight, listening tonight, and with tonight"}
+{"type": "walk", "rank": 551, "frequency": 15, "tag": "NOUN", "confidence": 0.55, "reasoning": "mixed: she'd walk home is verb, but the walk along the river and went for a walk are nouns; place name Walk also appears", "alternative": "VERB"}
+{"type": "wish", "rank": 552, "frequency": 15, "tag": "VERB", "confidence": 0.6, "reasoning": "mixed: did not wish and did I wish are verbs, but great wish and wish of a friend are nouns", "alternative": "NOUN"}
+{"type": "almost", "rank": 553, "frequency": 14, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb in almost cheerfully, almost hilarious, almost trotting, and almost more welcome"}
+{"type": "alone", "rank": 554, "frequency": 14, "tag": "ADV", "confidence": 0.85, "reasoning": "adverbial alone in sitting alone, remained alone, and beside him alone; one focusing use chronicles alone", "alternative": "ADJ"}
+{"type": "amid", "rank": 555, "frequency": 14, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in amid the silence, amid laughter, and amid the bustle"}
+{"type": "become", "rank": 556, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in had become, to become intimate, and become strained"}
+{"type": "beginning", "rank": 557, "frequency": 14, "tag": "VERB", "confidence": 0.65, "reasoning": "mixed: was beginning and beginning to search are verbs, but beginning of winter/acquaintance are nouns", "alternative": "NOUN"}
+{"type": "counter", "rank": 558, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "shop/office fixture noun in outside the counter, on the counter, and lifted up the counter"}
+{"type": "damn", "rank": 559, "frequency": 14, "tag": "INTJ", "confidence": 0.8, "reasoning": "expletive interjection in damn it and damn it all; one attributive no damn good", "alternative": "ADJ"}
+{"type": "deal", "rank": 560, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "quantity noun in a great deal and good deal contexts"}
+{"type": "died", "rank": 561, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in he died, died down, had died, and man had died"}
+{"type": "eight", "rank": 562, "frequency": 14, "tag": "NUM", "confidence": 1.0, "reasoning": "number in eight guineas and eight years"}
+{"type": "else", "rank": 563, "frequency": 14, "tag": "ADV", "confidence": 1.0, "reasoning": "post-pronominal adverb in what else, anything else, and someone else sense"}
+{"type": "entered", "rank": 564, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in entered the room, gentlemen entered, and had entered it"}
+{"type": "fellows", "rank": 565, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural informal noun for men in fellows had talents, gay fellows, and country fellows"}
+{"type": "gouin", "rank": 566, "frequency": 14, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname fragment from Ségouin in all contexts"}
+{"type": "hope", "rank": 567, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in I hope to God, I hope we'll meet, and I hope it's not too late"}
+{"type": "however", "rank": 568, "frequency": 14, "tag": "ADV", "confidence": 1.0, "reasoning": "conjunctive adverb in But however well, Mr Duffy however, and Sometimes however"}
+{"type": "leaned", "rank": 569, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in face had leaned, leaned elbows, leaned over, and leaned upon his arm"}
+{"type": "lips", "rank": 570, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun in lips appeared, pursing his lips, moving his lips"}
+{"type": "listened", "rank": 571, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in listened to clicking, I listened, he listened, and listened for a moment"}
+{"type": "morkan", "rank": 572, "frequency": 14, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Misses Morkan, Miss Morkan, and Patrick Morkan"}
+{"type": "myself", "rank": 573, "frequency": 14, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun in I myself, find myself, tying myself, and saw myself"}
+{"type": "nodded", "rank": 574, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in nodded in answer, nodded his head, and nodded familiarly"}
+{"type": "paid", "rank": 575, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in paid his bill, paid twopence, had paid his bills, and had been paid"}
+{"type": "papers", "rank": 576, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural document/newspaper noun in papers for cemetery, all the papers, sheaf of papers, and evening papers"}
+{"type": "pause", "rank": 577, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "silence interval noun in after a pause, long pause, and pause of a few seconds"}
+{"type": "playing", "rank": 578, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in piece she was playing, harpist playing, piano was playing, and companions playing"}
+{"type": "pocket", "rank": 579, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "clothing/storage noun in inner pocket, from his pocket, money in his pocket, and side-pocket"}
+{"type": "raised", "rank": 580, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in raised his eyes, raised my eyes, warriors raised, and raised himself"}
+{"type": "rather", "rank": 581, "frequency": 14, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb in rather long, rather free, rather intemperate, and rather tired"}
+{"type": "reached", "rank": 582, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in cries reached me, reached the field, reached it, and reached the foot"}
+{"type": "river", "rank": 583, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "geographic noun in along the river, down the river, and river lay quiet"}
+{"type": "sang", "rank": 584, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in sang songs, they sang, and guests sang in unison"}
+{"type": "shoulders", "rank": 585, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun in over their shoulders, shoulders humped, frail shoulders, and shrugged shoulders"}
+{"type": "since", "rank": 586, "frequency": 14, "tag": "SCONJ", "confidence": 0.9, "reasoning": "mostly subordinating/time conjunction in since I saw you, since he was a man, and since he had seen the clock", "alternative": "ADP"}
+{"type": "singing", "rank": 587, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in singing in chorus, D'Arcy singing, voice was singing, and she was singing"}
+{"type": "son", "rank": 588, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "kinship noun in son-in-law, son of inspector, by her son, and her son was going"}
+{"type": "speech", "rank": 589, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "spoken-address noun in rude speech, foolish speech, made a speech, and whole speech"}
+{"type": "streets", "rank": 590, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural place noun in squalid streets, narrow streets, and noisy streets"}
+{"type": "suppose", "rank": 591, "frequency": 14, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in I suppose and I suppose that's your doing"}
+{"type": "wall", "rank": 592, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "structure noun in wall of barracks, against the wall, and wall above piano"}
+{"type": "week", "rank": 593, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "time noun in that week, penny-a-week, for a week, and first week of June"}
+{"type": "whisky", "rank": 594, "frequency": 14, "tag": "NOUN", "confidence": 1.0, "reasoning": "drink noun in small whisky, measures of whisky, and whisky falling into glasses"}
+{"type": "colour", "rank": 595, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "color noun in touched with colour, high colour, slate-colour, and colour of violet"}
+{"type": "committee", "rank": 596, "frequency": 13, "tag": "NOUN", "confidence": 0.95, "reasoning": "collective organization noun in the Committee had treated her and any member of the Committee"}
+{"type": "contract", "rank": 597, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "legal document noun in contract was drawn, signed a contract, and the contract is not copied"}
+{"type": "copy", "rank": 598, "frequency": 13, "tag": "NOUN", "confidence": 0.9, "reasoning": "mostly noun in a copy of books/newspaper and made a copy; office-copy context still nominal", "alternative": "VERB"}
+{"type": "dillon", "rank": 599, "frequency": 13, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Joe Dillon and Leo Dillon contexts"}
+{"type": "during", "rank": 600, "frequency": 13, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition introducing time spans in during which, during the meal, during illness, and during the day"}
+{"type": "eliza", "rank": 601, "frequency": 13, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name in Eliza sighed, said Eliza, and found Eliza seated"}
+{"type": "everything", "rank": 602, "frequency": 13, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun standing for all things in everything was done and everything went on"}
+{"type": "fat", "rank": 603, "frequency": 13, "tag": "ADJ", "confidence": 0.8, "reasoning": "mostly adjective in fat gentleman and fat man; one idiom fat of the land is nominal", "alternative": "NOUN"}
+{"type": "game", "rank": 604, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in I know that game, the game lay between, game leg, and mug's game"}
+{"type": "itself", "rank": 605, "frequency": 13, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive/intensive pronoun in world itself, sufficient in itself, diffused itself, and drink itself"}
+{"type": "kind", "rank": 606, "frequency": 13, "tag": "NOUN", "confidence": 0.65, "reasoning": "mostly type noun in kind of talk, what kind of people, and some kind of Indian; one adjective kind to him", "alternative": "ADJ"}
+{"type": "laid", "rank": 607, "frequency": 13, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in laid waste, laid him down, laid him low, and been laid up"}
+{"type": "least", "rank": 608, "frequency": 13, "tag": "ADV", "confidence": 0.9, "reasoning": "adverbial expression in in the least, at least, and at least this virtue"}
+{"type": "lyons", "rank": 609, "frequency": 13, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Mr Lyons and Lyons' bottle contexts"}
+{"type": "manner", "rank": 610, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in his manner, brave manner, manner of Florentines, and manner of a showman"}
+{"type": "neither", "rank": 611, "frequency": 13, "tag": "CCONJ", "confidence": 0.75, "reasoning": "negative coordinator in neither I nor, neither answered nor raised, and neither rank nor caste", "alternative": "DET"}
+{"type": "paris", "rank": 612, "frequency": 13, "tag": "PROPN", "confidence": 1.0, "reasoning": "city name in Paris is so, London or Paris, and life of Paris"}
+{"type": "pushed", "rank": 613, "frequency": 13, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in cheeks pushed, pushed his hat, cap pushed back, and pushed one glass"}
+{"type": "ready", "rank": 614, "frequency": 13, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in stood ready, all were ready, made ready, and ready to carve"}
+{"type": "remained", "rank": 615, "frequency": 13, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in what remained, she remained, sheets remained, and remained leaning"}
+{"type": "run", "rank": 616, "frequency": 13, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly verb in longed to run, let a young lad run, and hand to run along; one swift run is noun", "alternative": "NOUN"}
+{"type": "shadow", "rank": 617, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "darkness/shape noun in shadow of a lamp, in the shadow, our shadow, and the shadow took her dress"}
+{"type": "sit", "rank": 618, "frequency": 13, "tag": "VERB", "confidence": 0.95, "reasoning": "main verb in sit down, used to sit, and made him sit; one good sit is nominal dialect"}
+{"type": "song", "rank": 619, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "music noun in the song, sing a song, little song, and old song"}
+{"type": "square", "rank": 620, "frequency": 13, "tag": "ADJ", "confidence": 0.55, "reasoning": "mixed uses: square table, square piano, and square dance are modifiers, while square of window is a noun", "alternative": "NOUN"}
+{"type": "steps", "rank": 621, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural stair/walking noun in front steps, on the steps, short steps, and two steps"}
+{"type": "story", "rank": 622, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "narrative noun in illustrated the story, ghost story, heard the story, and climax of his story"}
+{"type": "strange", "rank": 623, "frequency": 13, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in strange mood, strange voice, and found it strange"}
+{"type": "sunday", "rank": 624, "frequency": 13, "tag": "PROPN", "confidence": 0.8, "reasoning": "day-name use in Sunday finery, Sunday's dinner, and on Sunday; often attributive but still the day name", "alternative": "NOUN"}
+{"type": "taking", "rank": 625, "frequency": 13, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in taking out papers, taking up cardboard, taking substance, and taking a draught"}
+{"type": "thoughts", "rank": 626, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in her thoughts, sadder thoughts, sleeping thoughts, and thoughts went rioting"}
+{"type": "tired", "rank": 627, "frequency": 13, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in were tired, grew tired, too tired, and tired and sleepy"}
+{"type": "tongue", "rank": 628, "frequency": 13, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun in her tongue rambled, running his tongue, and Kernan's tongue"}
+{"type": "true", "rank": 629, "frequency": 13, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in not true, it was true, is it true, and true spirit"}
+{"type": "understand", "rank": 630, "frequency": 13, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in can't understand, did not understand, and Aunt Julia did not understand"}
+{"type": "villona", "rank": 631, "frequency": 13, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of the Hungarian character in all contexts"}
+{"type": "whenever", "rank": 632, "frequency": 13, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing repeated conditions in whenever there were people and whenever anyone came"}
+{"type": "accent", "rank": 633, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "speech-feature noun in Ireland accent, his accent, accent of forced bravery, and Gallaher's accent"}
+{"type": "added", "rank": 634, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past speech verb in then added quickly and he added with humour"}
+{"type": "afraid", "rank": 635, "frequency": 12, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicative adjective in was afraid, dreadfully afraid, and I am afraid"}
+{"type": "allowed", "rank": 636, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in allowed the dark, allowed rhythm, allowed his hand, and allowed whisky"}
+{"type": "among", "rank": 637, "frequency": 12, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in among the company, among houses, among the living, and among crowds"}
+{"type": "artistes", "rank": 638, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural performer noun in artistes should go, artistes bored him, and artistes talked"}
+{"type": "blood", "rank": 639, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "substance/body noun in blood went bounding, clotted blood, blood glowed, and traces of blood"}
+{"type": "book", "rank": 640, "frequency": 12, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly noun in open book, his book, and book of poems; one book an order is a verb", "alternative": "VERB"}
+{"type": "bridge", "rank": 641, "frequency": 12, "tag": "NOUN", "confidence": 0.8, "reasoning": "structure/place noun in coping of the bridge and Grattan Bridge; some proper-name bridge references", "alternative": "PROPN"}
+{"type": "burke", "rank": 642, "frequency": 12, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in O'Madden Burke and Father Burke contexts"}
+{"type": "catch", "rank": 643, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in catch the point, catch her, catch the boat, and catch the quick phrase"}
+{"type": "chief", "rank": 644, "frequency": 12, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective/title modifier in chief reporter and chief clerk"}
+{"type": "close", "rank": 645, "frequency": 12, "tag": "ADJ", "confidence": 0.5, "reasoning": "mixed uses: damn close and close dark room are adjective, close the door is verb, close by is adverbial", "alternative": "VERB"}
+{"type": "college", "rank": 646, "frequency": 12, "tag": "NOUN", "confidence": 0.65, "reasoning": "institution noun in teaching in the college and out of the college; also appears inside proper names like Trinity College", "alternative": "PROPN"}
+{"type": "confused", "rank": 647, "frequency": 12, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjectival state/modifier in sight was confused and confused murmur; one cigar had confused his mind is verbal", "alternative": "VERB"}
+{"type": "constable", "rank": 648, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "occupation noun in the constable repeated, knelt, and listened"}
+{"type": "cotter", "rank": 649, "frequency": 12, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in old Cotter and Mr Cotter contexts"}
+{"type": "cross", "rank": 650, "frequency": 12, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly main verb in cross the line, cross O'Connell Bridge, and cross the lines; one getting cross is adjective", "alternative": "ADJ"}
+{"type": "darkness", "rank": 651, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/light-condition noun in the darkness and partial darkness"}
+{"type": "decent", "rank": 652, "frequency": 12, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in decent tart, decent fellow, decent Orangeman, and decent skin"}
+{"type": "does", "rank": 653, "frequency": 12, "tag": "AUX", "confidence": 0.95, "reasoning": "auxiliary do in how does he expect and how does he knock; one lexical does it still auxiliary-like support"}
+{"type": "dressed", "rank": 654, "frequency": 12, "tag": "VERB", "confidence": 0.75, "reasoning": "past participle in were dressed, dressed in black, and when he was dressed; adjectival clothing state is possible", "alternative": "ADJ"}
+{"type": "ear", "rank": 655, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun in struck her ear, strained his ear, and box on the ear"}
+{"type": "fallen", "rank": 656, "frequency": 12, "tag": "VERB", "confidence": 0.85, "reasoning": "past participle verb in had fallen, fallen into revery, fallen down, and fallen to the floor", "alternative": "ADJ"}
+{"type": "frank", "rank": 657, "frequency": 12, "tag": "PROPN", "confidence": 0.55, "reasoning": "split between Frank as Eveline's lover and frank as adjective in frank use/frank-mannered; name uses are salient", "alternative": "ADJ"}
+{"type": "getting", "rank": 658, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in getting up, getting out, getting low, and getting on"}
+{"type": "humour", "rank": 659, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "mood/temper noun in good humour, ill humour, bad humour, and his humour"}
+{"type": "idea", "rank": 660, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in the idea had been, what idea, Mary Jane's idea, and idea struck him"}
+{"type": "job", "rank": 661, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "employment/task noun in some job, out of a job, gets a job, and do the job"}
+{"type": "king", "rank": 662, "frequency": 12, "tag": "PROPN", "confidence": 0.65, "reasoning": "mostly title/name references in King of England, King Billy, and Uncrowned King; one common opera role use", "alternative": "NOUN"}
+{"type": "known", "rank": 663, "frequency": 12, "tag": "VERB", "confidence": 0.85, "reasoning": "past participle verb in commonly known, is known, and had known him; adjective-like result state possible", "alternative": "ADJ"}
+{"type": "led", "rank": 664, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in led recruits, led them, led the table, and be said or led"}
+{"type": "leo", "rank": 665, "frequency": 12, "tag": "PROPN", "confidence": 1.0, "reasoning": "given name in Leo Dillon contexts"}
+{"type": "listen", "rank": 666, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in listen to Maria's song, listen for door, listen also, and turned to listen"}
+{"type": "living", "rank": 667, "frequency": 12, "tag": "ADJ", "confidence": 0.55, "reasoning": "mixed: living duties/affections/texture are adjectival, while are living and living over are verbal", "alternative": "VERB"}
+{"type": "married", "rank": 668, "frequency": 12, "tag": "VERB", "confidence": 0.65, "reasoning": "mixed: had married and was married are verbal, while married daughter is adjectival modifier", "alternative": "ADJ"}
+{"type": "nobody", "rank": 669, "frequency": 12, "tag": "PRON", "confidence": 1.0, "reasoning": "negative indefinite pronoun in nobody to protect her, nobody but ourselves, and nobody denied"}
+{"type": "opinion", "rank": 670, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in candid opinion, your opinion, bad opinion, and high opinion"}
+{"type": "outside", "rank": 671, "frequency": 12, "tag": "ADP", "confidence": 0.65, "reasoning": "mostly location marker in outside the drawing-room, outside the door, and quay outside; outside world is adjectival", "alternative": "ADV"}
+{"type": "overcoat", "rank": 672, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "clothing noun in green overcoat, folding his overcoat, and put on his overcoat"}
+{"type": "pale", "rank": 673, "frequency": 12, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in pale globes, pale red, pale blue blouse, and pale disc"}
+{"type": "place", "rank": 674, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in every place, the place in darkness, a place in the bench, and giving place"}
+{"type": "quay", "rank": 675, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "waterside place noun in on the quay, quay wall, along the quay, and snow-covered quay"}
+{"type": "seem", "rank": 676, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "linking verb in did not seem, seem studious, and words seem dull"}
+{"type": "sound", "rank": 677, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "auditory noun in no sound, solid sound, and sighing sound"}
+{"type": "speaking", "rank": 678, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in speaking to his fellow-men, without speaking, was speaking, and speaking to you"}
+{"type": "trying", "rank": 679, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in trying to say, trying to remember, trying to make up, and trying to persuade"}
+{"type": "wait", "rank": 680, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in needn't wait, let her wait, wait a minute, and wait a while"}
+{"type": "weathers", "rank": 681, "frequency": 12, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name of the acrobat Weathers in all contexts"}
+{"type": "wine", "rank": 682, "frequency": 12, "tag": "NOUN", "confidence": 1.0, "reasoning": "drink noun in wine-glasses, wine and dancing, and wine-glass"}
+{"type": "within", "rank": 683, "frequency": 12, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in within their reach, within him, within those walls, and to within an inch"}
+{"type": "wondered", "rank": 684, "frequency": 12, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in wondered could he touch, wondered why, wondered whether, and wondered at emotions"}
+{"type": "accident", "rank": 685, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "event noun in time of the accident, by accident, his accident, and accident had happened"}
+{"type": "ago", "rank": 686, "frequency": 11, "tag": "ADV", "confidence": 1.0, "reasoning": "time adverb/postposition in long ago, two years ago, and thirty years ago"}
+{"type": "arranged", "rank": 687, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in arranged battles, arranged to go, books were arranged, and arranged to go along"}
+{"type": "bank", "rank": 688, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "institution/place noun in rob his bank, Near the Bank, on the bank, and bank of clouds"}
+{"type": "became", "rank": 689, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past linking verb in became audible, became polite, became confessor, and became sad"}
+{"type": "buy", "rank": 690, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in would she buy, to buy spirits, what to buy, and he'll buy me"}
+{"type": "candle", "rank": 691, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "lighting object noun in unstable candle, candle-lamps, and steadied her candle"}
+{"type": "cap", "rank": 692, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "headwear/object noun in peaked cap, yachting cap, plaid cap, and cap of snow"}
+{"type": "christmas", "rank": 693, "frequency": 11, "tag": "PROPN", "confidence": 1.0, "reasoning": "holiday name in at Christmas, Christmas-card, Christmas is, and Christmas morning"}
+{"type": "coat", "rank": 694, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "clothing noun in filthy coat, frock-coat, put on his coat, and collar of his coat"}
+{"type": "collar", "rank": 695, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "clothing/body-edge noun in collar-bone, stock collar, collar of his coat, and cuffs and collar"}
+{"type": "concerts", "rank": 696, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural event noun in three concerts, concerts were to be, and grand concerts"}
+{"type": "covered", "rank": 697, "frequency": 11, "tag": "VERB", "confidence": 0.9, "reasoning": "past verb/participle in covered jealousy, table was covered, sunset covered plots, and table covered Lily's removal", "alternative": "ADJ"}
+{"type": "donnelly", "rank": 698, "frequency": 11, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Mrs Donnelly contexts"}
+{"type": "eye", "rank": 699, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun in one eye, an eye in a man's head, cock-eye, and in my eye"}
+{"type": "fact", "rank": 700, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in the fact, for a fact, some fact, and is that a fact"}
+{"type": "fair", "rank": 701, "frequency": 11, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in playing fair, fair complexion, fair-haired, and fair question"}
+{"type": "fear", "rank": 702, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract emotion noun in in fear, with fear, filled me with fear, and for fear"}
+{"type": "fingers", "rank": 703, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun in her fingers, through his fingers, and ten trembling fingers"}
+{"type": "foot", "rank": 704, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "body/location noun in foot of staircase, a foot on platform, foot of stairs, and right foot"}
+{"type": "gazed", "rank": 705, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in gazed admiringly, gazed out, gazed at the moon, and gazed formally"}
+{"type": "giving", "rank": 706, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in was giving a lecture, giving a last equation, giving side-thrusts, and giving place"}
+{"type": "healy", "rank": 707, "frequency": 11, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Miss Healy contexts"}
+{"type": "heavy", "rank": 708, "frequency": 11, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in heavy locks, heavy face, heavy odour, and heavy dirty eyes"}
+{"type": "honour", "rank": 709, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in man of honour, honour of God, and does it so much honour"}
+{"type": "johnny", "rank": 710, "frequency": 11, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal/horse name in never-to-be-forgotten Johnny and Johnny came in sight"}
+{"type": "lightly", "rank": 711, "frequency": 11, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb in held lightly, leaned lightly, mentioned lightly, and walking lightly"}
+{"type": "longed", "rank": 712, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in longed to execrate, ascend, be master, defend her"}
+{"type": "low", "rank": 713, "frequency": 11, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective/adverbial modifier in low-cut bodice, drawn low, funds low, and low laughter"}
+{"type": "making", "rank": 714, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in making him take, making a blush invade, making use, and making him do"}
+{"type": "manager", "rank": 715, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "occupation noun in the manager sent, manager of the bar, and manager asked"}
+{"type": "nature", "rank": 716, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in his nature, emotional nature, half-disclosed nature, and fervent nature"}
+{"type": "pass", "rank": 717, "frequency": 11, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly verb in pass boldly, pass the hours, and pass Gabriel's lips; one theater pass is noun", "alternative": "NOUN"}
+{"type": "porter", "rank": 718, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for worker or drink in porter pointed, porter took candle, sup of porter, and railway porter"}
+{"type": "present", "rank": 719, "frequency": 11, "tag": "NOUN", "confidence": 0.45, "reasoning": "split among birthday present and A Present as nouns, present an address as verb, and at present as adverbial", "alternative": "VERB"}
+{"type": "running", "rank": 720, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in running up steps, had been running, running out, and came running"}
+{"type": "soft", "rank": 721, "frequency": 11, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in soft hair, soft colours, soft thuds, and light soft hair"}
+{"type": "sorry", "rank": 722, "frequency": 11, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicative adjective in I'm sorry, would not be sorry, and was sorry"}
+{"type": "summer", "rank": 723, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "season noun in summer evening, memory of summer, summer blouse, and summer night"}
+{"type": "thanks", "rank": 724, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "gratitude noun in thanks for, thanks to her, and little thanks"}
+{"type": "themselves", "rank": 725, "frequency": 11, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun in veil themselves, let themselves loose, enjoy themselves, and fixed themselves"}
+{"type": "thick", "rank": 726, "frequency": 11, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in thick fingers, thick slices, thick face/arms, and thick lobes"}
+{"type": "throat", "rank": 727, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun in gripped his throat, coming into my throat, and brain and throat were dry"}
+{"type": "touch", "rank": 728, "frequency": 11, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly verb in nothing to touch, voice touch his ear, and hand touch his; one first touch is noun", "alternative": "NOUN"}
+{"type": "train", "rank": 729, "frequency": 11, "tag": "NOUN", "confidence": 1.0, "reasoning": "vehicle noun in set the train, slow train, special train, and home by train"}
+{"type": "wild", "rank": 730, "frequency": 11, "tag": "ADJ", "confidence": 0.85, "reasoning": "adjective in Wild West, wild rose, wild garden, and wild Irish; Wild West is name-like", "alternative": "PROPN"}
+{"type": "write", "rank": 731, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in write a poem, write an excuse, write something, and write for the Daily Express"}
+{"type": "written", "rank": 732, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle verb in had written, was written, and written to her"}
+{"type": "wrote", "rank": 733, "frequency": 11, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in wrote a column, thing you wrote, wrote seldom, and wrote regularly"}
+{"type": "yourself", "rank": 734, "frequency": 11, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun in for yourself, get yourself, see yourself, and enjoy yourself"}
+{"type": "address", "rank": 735, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in address of welcome, vote for the address, and your address"}
+{"type": "affair", "rank": 736, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "event/situation noun in the affair, such an affair, talking of the affair, and found out the affair"}
+{"type": "anyone", "rank": 737, "frequency": 10, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun in anyone wants, anyone came, anyone remembered, and won't tell anyone"}
+{"type": "bell", "rank": 738, "frequency": 10, "tag": "PROPN", "confidence": 0.75, "reasoning": "mostly surname in Mr Bell contexts; one ordinary bell rang context", "alternative": "NOUN"}
+{"type": "besides", "rank": 739, "frequency": 10, "tag": "ADV", "confidence": 1.0, "reasoning": "sentence-linking adverb in besides that, and besides he was, and besides Aunt Kate"}
+{"type": "bought", "rank": 740, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in had bought furniture, bought cakes, Mrs Kearney bought fabric, and bought every article"}
+{"type": "bright", "rank": 741, "frequency": 10, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in bright fire, bright morning, bright eyes, and bright yellow gloves"}
+{"type": "carried", "rank": 742, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in carried out, carried on, carried it back, and carried on a comedy"}
+{"type": "chapel", "rank": 743, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "religious building noun in at the chapel, opened the chapel, and attached to any chapel"}
+{"type": "cigarette", "rank": 744, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "smoking object noun in lit cigarette, tobacco for a cigarette, and cigarette papers"}
+{"type": "cry", "rank": 745, "frequency": 10, "tag": "VERB", "confidence": 0.55, "reasoning": "split between not to cry and cry tears as verbs, and a cry of anguish/wailing cry as nouns", "alternative": "NOUN"}
+{"type": "deep", "rank": 746, "frequency": 10, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in deep goster, deep-drawn breath, deep bass hum, and deep gallantries"}
+{"type": "dressing", "rank": 747, "frequency": 10, "tag": "NOUN", "confidence": 0.9, "reasoning": "appears as part of dressing-room compound noun in all shown contexts"}
+{"type": "drew", "rank": 748, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in drew near, train drew up, drew in breath, and drew it up"}
+{"type": "eat", "rank": 749, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in eat cakes, eat stirabout, eat me, and eat oysters"}
+{"type": "ended", "rank": 750, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in teaching was ended, ended by telling, piece ended, and career was ended"}
+{"type": "express", "rank": 751, "frequency": 10, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly verb in express desire, express idea, and express feelings; one Daily Express newspaper name", "alternative": "PROPN"}
+{"type": "fall", "rank": 752, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in fall asleep, let it fall, rise and fall, and dark to fall"}
+{"type": "feeling", "rank": 753, "frequency": 10, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in a feeling, ill-feeling, and great feeling; one participial feeling that I was about to slip", "alternative": "VERB"}
+{"type": "forget", "rank": 754, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in forget my existence, make her forget, they forget, and don't forget"}
+{"type": "gay", "rank": 755, "frequency": 10, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in gay fellows, Paris is gay, and branches were gay with leaves"}
+{"type": "general", "rank": 756, "frequency": 10, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in snow is general, general philosophy, general laughter, and general policy"}
+{"type": "glad", "rank": 757, "frequency": 10, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicative adjective in was glad of noise, glad of rest, glad he could rest, and glad he suggested"}
+{"type": "grace", "rank": 758, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in her grace, grace notes, much grace, and certain grace"}
+{"type": "grown", "rank": 759, "frequency": 10, "tag": "VERB", "confidence": 0.75, "reasoning": "past participle in air had grown, subject had grown, and grown out; grown up enough is adjective-like", "alternative": "ADJ"}
+{"type": "halted", "rank": 760, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in car halted, he halted before door, halted and looked, and halted puffing"}
+{"type": "hardly", "rank": 761, "frequency": 10, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb in hardly gone, hardly any patience, could hardly restrain, and hardly pained"}
+{"type": "haven", "rank": 762, "frequency": 10, "tag": "AUX", "confidence": 1.0, "reasoning": "contraction fragment for haven't in all contexts"}
+{"type": "help", "rank": 763, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in help yourself, help make pudding, God help me, and help him off"}
+{"type": "hill", "rank": 764, "frequency": 10, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly landform/place noun in crest of the hill and down the hill; Miss Hill is a surname use", "alternative": "PROPN"}
+{"type": "horse", "rank": 765, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "animal/vehicle-pulling noun in horse and trap, the horse was whipped, and white horse"}
+{"type": "james", "rank": 766, "frequency": 10, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name in Mr James Duffy and poor James contexts"}
+{"type": "john", "rank": 767, "frequency": 10, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name in John MacHale, John of Tuam, and direct address John"}
+{"type": "longer", "rank": 768, "frequency": 10, "tag": "ADV", "confidence": 1.0, "reasoning": "comparative adverb in no longer stay, no longer grace, and no longer beautiful"}
+{"type": "lord", "rank": 769, "frequency": 10, "tag": "PROPN", "confidence": 0.85, "reasoning": "title/divine name in their Lord, Lord Lytton, The Lord, and Lord Mayor", "alternative": "NOUN"}
+{"type": "lower", "rank": 770, "frequency": 10, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in lower office, lower lip, and lower teeth"}
+{"type": "minute", "rank": 771, "frequency": 10, "tag": "NOUN", "confidence": 0.55, "reasoning": "split between tiny adjective in minute life/body and time noun in for a minute and wait a minute", "alternative": "ADJ"}
+{"type": "moved", "rank": 772, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in moved her hand, arm which she moved, moved his head, and was genuinely moved"}
+{"type": "neck", "rank": 773, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun in curved neck, white curve of her neck, round his neck, and swathing his neck"}
+{"type": "notes", "rank": 774, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for musical notes or written notes in all shown contexts"}
+{"type": "ones", "rank": 775, "frequency": 10, "tag": "PRON", "confidence": 1.0, "reasoning": "substitute pronoun in good ones, mighty ones, younger ones, and all the good ones"}
+{"type": "pantry", "rank": 776, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "room noun in little pantry, into the pantry, from the pantry, and gas in the pantry"}
+{"type": "paused", "rank": 777, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in Gabriel paused, he paused to judge, monologue paused, and paused before the window"}
+{"type": "photograph", "rank": 778, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "picture noun in yellowing photograph, photograph wonderful, and photograph stood before pierglass"}
+{"type": "please", "rank": 779, "frequency": 10, "tag": "VERB", "confidence": 0.8, "reasoning": "verb in did not please him and to please a monarch; do please is polite particle-like use", "alternative": "INTJ"}
+{"type": "public", "rank": 780, "frequency": 10, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in public-house and public sight"}
+{"type": "pudding", "rank": 781, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "food noun in the pudding, pudding-fork, and ate some of the pudding"}
+{"type": "rain", "rank": 782, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "weather noun in heard the rain, at the rain, rain falls, and shining with rain"}
+{"type": "reason", "rank": 783, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/explanatory noun in first reason, by reason, the reason, and for this reason"}
+{"type": "row", "rank": 784, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "place/line/dispute noun in Westland Row, row complete, row of faces, and what row"}
+{"type": "saturday", "rank": 785, "frequency": 10, "tag": "PROPN", "confidence": 1.0, "reasoning": "day name in Saturday night and Saturday morning"}
+{"type": "slightly", "rank": 786, "frequency": 10, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb in curled slightly, ever so slightly, slightly above knees, and slightly angered"}
+{"type": "softly", "rank": 787, "frequency": 10, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb in softly padded, falling softly, laughing softly, and moaning softly"}
+{"type": "someone", "rank": 788, "frequency": 10, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun in gaze after someone, attack someone, meet someone, and someone opened the door"}
+{"type": "struck", "rank": 789, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in struck me, stick struck ground, idea struck him, and chords struck"}
+{"type": "talked", "rank": 790, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in artistes talked, they talked loudly, talked volubly, and talked of writing"}
+{"type": "tall", "rank": 791, "frequency": 10, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in tall hat, tall man, tall trees, and tall poles"}
+{"type": "thinking", "rank": 792, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in thinking about, help thinking, thinking that, and thinking seriously"}
+{"type": "turning", "rank": 793, "frequency": 10, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in turning him over, turning toward hostesses, turning to Power, and seen turning"}
+{"type": "twenty", "rank": 794, "frequency": 10, "tag": "NUM", "confidence": 1.0, "reasoning": "number in twenty-six, twenty-five, twenty years, and twenty minutes"}
+{"type": "uncle", "rank": 795, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "kinship noun in my uncle contexts"}
+{"type": "upper", "rank": 796, "frequency": 10, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjective in upper lip, upper classes, and upper part; boot upper is noun", "alternative": "NOUN"}
+{"type": "water", "rank": 797, "frequency": 10, "tag": "NOUN", "confidence": 1.0, "reasoning": "substance noun in water-jug, cool water, glass of water, and needles of water"}
+{"type": "working", "rank": 798, "frequency": 10, "tag": "ADJ", "confidence": 0.7, "reasoning": "mostly attributive in working-man; one working of cranes is nominal gerund", "alternative": "NOUN"}
+{"type": "wrong", "rank": 799, "frequency": 10, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in this wrong, you're wrong, nothing wrong, and wrong in these stories"}
+{"type": "agreed", "rank": 800, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in he agreed, they agreed, agreed to break off, and Maria agreed"}
+{"type": "bazaar", "rank": 801, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "event/place noun in centre of the bazaar, splendid bazaar, and go to the bazaar"}
+{"type": "begun", "rank": 802, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle verb in had begun to clear, had begun to chill, had begun life, and begun to like"}
+{"type": "boldly", "rank": 803, "frequency": 9, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb in flinging boldly, said boldly, walked boldly, and some boldly"}
+{"type": "break", "rank": 804, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in break forth, break out, break off, and break the silence"}
+{"type": "breath", "rank": 805, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "air/respiration noun in breath of opulence, his breath, out of breath, and under his breath"}
+{"type": "broke", "rank": 806, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in broke out, broke off, broke into a smile, and broke loose"}
+{"type": "broken", "rank": 807, "frequency": 9, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjectival in broken bread and broken harmonium; almost broken up is verbal participle", "alternative": "VERB"}
+{"type": "brother", "rank": 808, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "kinship noun in her brother, call her brother, and no brother of his"}
+{"type": "cards", "rank": 809, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural game/printed object noun in play my cards, counted cards, and selected cards"}
+{"type": "charge", "rank": 810, "frequency": 9, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly noun in took charge and in charge of; one we should charge them is verb", "alternative": "VERB"}
+{"type": "clothes", "rank": 811, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural clothing noun in black clothes, his clothes, clothes-rack, and plain clothes"}
+{"type": "coloured", "rank": 812, "frequency": 9, "tag": "ADJ", "confidence": 0.65, "reasoning": "mostly color adjective in coloured lamps and coloured crowd; Gabriel coloured is verbal", "alternative": "VERB"}
+{"type": "conscious", "rank": 813, "frequency": 9, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in keenly conscious, houses conscious, was conscious, and pleasantly conscious"}
+{"type": "cut", "rank": 814, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "verb in had cut, cut a slice, had been cut, and stick cut his thigh"}
+{"type": "doors", "rank": 815, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural doorway noun in through the doors, opened doors, gaping doors, and carriage doors"}
+{"type": "downstairs", "rank": 816, "frequency": 9, "tag": "ADV", "confidence": 1.0, "reasoning": "direction/location adverb in came downstairs, ran downstairs, sat downstairs, and came downstairs again"}
+{"type": "dull", "rank": 817, "frequency": 9, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in find it dull, dull boy, dull yellow light, and dull resentment"}
+{"type": "escaped", "rank": 818, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in cat escaped, fragrance escaped, and they had escaped"}
+{"type": "explained", "rank": 819, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "past speech/explanation verb in explained Gabriel, Kearney explained, Fogarty explained, and had explained"}
+{"type": "faces", "rank": 820, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural face noun in absent faces, circle of faces, implacable faces, and familiar faces"}
+{"type": "family", "rank": 821, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "kin/social group noun in family party, family life, family way, and his family"}
+{"type": "finished", "rank": 822, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in had finished, having finished, had finished round, and finished his drink"}
+{"type": "fond", "rank": 823, "frequency": 9, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in very fond of me, fond of music, fond of purse, and fond of delivering judgments"}
+{"type": "forward", "rank": 824, "frequency": 9, "tag": "ADV", "confidence": 1.0, "reasoning": "directional adverb in leaned forward, strain forward, looked forward, and walked forward"}
+{"type": "free", "rank": 825, "frequency": 9, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in free play, chair free, free from pictures, and shook himself free"}
+{"type": "given", "rank": 826, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle verb in given sixpence, given leave, given him the slip, and given her a pass"}
+{"type": "goloshes", "rank": 827, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural footwear noun in what are goloshes, kicked off goloshes, scraping snow from goloshes"}
+{"type": "ground", "rank": 828, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "surface/place noun in ground floor, tapping the ground, congenial ground, and struck the ground"}
+{"type": "jolly", "rank": 829, "frequency": 9, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in jolly gay fellows, jolly fine decent fellow, and very jolly"}
+{"type": "kitchen", "rank": 830, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "room noun in behind the kitchen, kitchen windows, kitchen empty, and kitchen was spick and span"}
+{"type": "knees", "rank": 831, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun in bended knees, above their knees, about her knees, and on her knees"}
+{"type": "less", "rank": 832, "frequency": 9, "tag": "ADV", "confidence": 0.9, "reasoning": "comparative degree adverb in no less than, less spacious, less remote, and less weary"}
+{"type": "liked", "rank": 833, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in I liked, she liked it, liked Harry, and liked the review"}
+{"type": "mistake", "rank": 834, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in made a mistake, by mistake, their mistake, and some mistake"}
+{"type": "note", "rank": 835, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in made a note, kinder note, taking angry note, and note of defiance"}
+{"type": "ourselves", "rank": 836, "frequency": 9, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun in give ourselves, blessed ourselves, nobody but ourselves, and between ourselves"}
+{"type": "pay", "rank": 837, "frequency": 9, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly verb in pay homage, pay rates, and pay up; in the pay of the Castle is noun", "alternative": "NOUN"}
+{"type": "plate", "rank": 838, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "dish/sign noun in on a plate, plate of peas, brass plate, and his plate"}
+{"type": "plates", "rank": 839, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural dish noun in their plates, passed the plates, plates of goose, and dishes and plates"}
+{"type": "pleasant", "rank": 840, "frequency": 9, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in pleasant noise, pleasant talk, and pleasant it would be"}
+{"type": "pleasure", "rank": 841, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in pleasure of the walk, express pleasure, and have the pleasure"}
+{"type": "properly", "rank": 842, "frequency": 9, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb in enjoy yourself properly, properly cooked, properly taped, and going on properly"}
+{"type": "quiet", "rank": 843, "frequency": 9, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in quiet street, be quiet, voice was quiet, and river lay quiet"}
+{"type": "quietly", "rank": 844, "frequency": 9, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb in returned quietly, said quietly, went quietly, and settled quietly"}
+{"type": "received", "rank": 845, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in received us, received praises, had received weight, and books he received"}
+{"type": "seconds", "rank": 846, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural time noun in a few seconds, thirty seconds, and four or five seconds"}
+{"type": "show", "rank": 847, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in show them, show her, show a stiff neck, and show the difference"}
+{"type": "showed", "rank": 848, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in showed the faith, showed him London, showed the way, and showed his biceps"}
+{"type": "six", "rank": 849, "frequency": 9, "tag": "NUM", "confidence": 1.0, "reasoning": "number in six times, six o'clock, five or six, and six of one"}
+{"type": "skirt", "rank": 850, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "clothing noun in panels of her skirt, blue serge skirt, and skirt was hooked"}
+{"type": "society", "rank": 851, "frequency": 9, "tag": "NOUN", "confidence": 0.65, "reasoning": "mixed ordinary noun in high society and society of one, plus named Society in concert contexts", "alternative": "PROPN"}
+{"type": "somewhat", "rank": 852, "frequency": 9, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb in somewhat irritable, somewhat awkward, calmed him somewhat, and somewhat disappointed"}
+{"type": "spent", "rank": 853, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in had spent the day, evenings were spent, spent money, and spent his last penny"}
+{"type": "station", "rank": 854, "frequency": 9, "tag": "NOUN", "confidence": 0.7, "reasoning": "railway place noun in Station names and out of the station; proper station names also occur", "alternative": "PROPN"}
+{"type": "stick", "rank": 855, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "object noun in walking-stick, blackthorn stick, held a stick, and tapping with his stick"}
+{"type": "strong", "rank": 856, "frequency": 9, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in strong rum punch, strong measures, strong cigar, and hot strong punch"}
+{"type": "subject", "rank": 857, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "topic/grammar noun in changed the subject, subject of chastising, grammatical subject, and subject had grown"}
+{"type": "suit", "rank": 858, "frequency": 9, "tag": "NOUN", "confidence": 1.0, "reasoning": "clothing noun in suit of greenish-black, cycling-suit, grey suit, and check suit"}
+{"type": "thank", "rank": 859, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "verb in thank God, thank Christ, thank you, and thank you sir"}
+{"type": "thin", "rank": 860, "frequency": 9, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in thin stream, thin face, thin edge, and thin cards"}
+{"type": "trouble", "rank": 861, "frequency": 9, "tag": "VERB", "confidence": 0.55, "reasoning": "mixed: don't trouble and trouble you are verbs, while no great trouble and after some trouble are nouns", "alternative": "NOUN"}
+{"type": "understood", "rank": 862, "frequency": 9, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in Jimmy understood, I understood, he understood, and Maria understood"}
+{"type": "visit", "rank": 863, "frequency": 9, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly verb in land to visit, came to visit, and to visit house; on a visit is noun", "alternative": "NOUN"}
+{"type": "west", "rank": 864, "frequency": 9, "tag": "PROPN", "confidence": 0.75, "reasoning": "regional/name-like use in West Briton and west of Ireland; lower-case direction noun possible", "alternative": "NOUN"}
+{"type": "whom", "rank": 865, "frequency": 9, "tag": "PRON", "confidence": 1.0, "reasoning": "relative pronoun in each of whom, Routh whom, whom the gang, and men whom she met"}
+{"type": "yellow", "rank": 866, "frequency": 9, "tag": "ADJ", "confidence": 1.0, "reasoning": "color adjective in yellow cheese, yellow teeth, yellow streaks, and yellow light"}
+{"type": "baritone", "rank": 867, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "singer/voice-role noun in the baritone contexts"}
+{"type": "bass", "rank": 868, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "voice/music noun in the bass, bass notes, and played in the bass"}
+{"type": "begin", "rank": 869, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in to begin, begin again, invited him to begin, and part to begin"}
+{"type": "bowed", "rank": 870, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in bowed her head, head bowed, bowed to opinions, and bowed respectfully"}
+{"type": "box", "rank": 871, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "container/seat noun in his box, snuff-box, sat on a box, and confession-box"}
+{"type": "candles", "rank": 872, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural object noun in the candles, two candles, bar the candles, and no candles"}
+{"type": "changed", "rank": 873, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in changed the subject, changed the alarm hand, changed the position, and haven't changed"}
+{"type": "clapping", "rank": 874, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "event/action noun in clapping came, burst of clapping, and sounds of clapping"}
+{"type": "companion", "rank": 875, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "person noun in his companion, charming companion, companion's face, and companion smoked"}
+{"type": "cover", "rank": 876, "frequency": 8, "tag": "VERB", "confidence": 0.7, "reasoning": "mostly verb in cover up folly, cover mouth, and cover agitation; under cover is noun", "alternative": "NOUN"}
+{"type": "daly", "rank": 877, "frequency": 8, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Miss Daly contexts"}
+{"type": "dear", "rank": 878, "frequency": 8, "tag": "ADJ", "confidence": 0.7, "reasoning": "adjective/vocative in dear dirty Dublin, my dear, and Gretta dear; dear knows is idiomatic", "alternative": "INTJ"}
+{"type": "desire", "rank": 879, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in desire to seize, sharp desire, impetuous desire, and joy and desire"}
+{"type": "dish", "rank": 880, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "serving vessel noun in blue dish, brought the dish, and dish of potatoes"}
+{"type": "distance", "rank": 881, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "spatial noun in some distance off, at some distance, a little distance, and made plaintive by distance"}
+{"type": "doorway", "rank": 882, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "place noun in stand in the doorway, stood in a doorway, and retreated from the doorway"}
+{"type": "drawn", "rank": 883, "frequency": 8, "tag": "VERB", "confidence": 0.8, "reasoning": "past participle verb in contract was drawn, cabs drawn up, hair drawn low, and deep-drawn breath", "alternative": "ADJ"}
+{"type": "drove", "rank": 884, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in they drove, he drove with Johnny, it drove off, and drove out"}
+{"type": "duffy", "rank": 885, "frequency": 8, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Mr Duffy and Mr James Duffy contexts"}
+{"type": "ears", "rank": 886, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun in tops of her ears, heard in his ears, cold ears, and lobes of his ears"}
+{"type": "eh", "rank": 887, "frequency": 8, "tag": "INTJ", "confidence": 1.0, "reasoning": "discourse interjection/tag question marker in eh, what and all quoted contexts"}
+{"type": "except", "rank": 888, "frequency": 8, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition/exclusion marker in except these two, except by bridges, except Gabriel, and bare except for"}
+{"type": "fist", "rank": 889, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun in with his fist, banged his fist, shook his fist, and restrain his fist"}
+{"type": "french", "rank": 890, "frequency": 8, "tag": "ADJ", "confidence": 0.7, "reasoning": "language/nationality adjective in spoke French, learned French, and French competitors; the French as people is nominalized", "alternative": "PROPN"}
+{"type": "gathered", "rank": 891, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in gathered together, had gathered, were gathered, and gathered in her skirt"}
+{"type": "goes", "rank": 892, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "present verb in how goes it, goes in to represent, experience goes, and goes in on ticket"}
+{"type": "habit", "rank": 893, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "behavior noun in had the habit, odd habit, a habit which made me uneasy, and habit of glancing"}
+{"type": "halloran", "rank": 894, "frequency": 8, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname fragment from O'Halloran in all contexts"}
+{"type": "handed", "rank": 895, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in handed it, handed him, handed round, and handed up"}
+{"type": "happy", "rank": 896, "frequency": 8, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in happy eyes, could be happy, rather happy, and proud and happy"}
+{"type": "helped", "rank": 897, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in helped the boy, was helped into house, helped him, and helped him off"}
+{"type": "hoped", "rank": 898, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in she hoped, aunt hoped, he hoped, and hoped Joe would not come drunk"}
+{"type": "hospitality", "rank": 899, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/social noun in qualities of hospitality, Irish hospitality, victims of hospitality"}
+{"type": "hotel", "rank": 900, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "lodging/place noun in Ségouin's hotel, room in hotel, as if hotel, and Shelbourne Hotel"}
+{"type": "hours", "rank": 901, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural time noun in a few hours, sober hours, and three mortal hours"}
+{"type": "ireland", "rank": 902, "frequency": 8, "tag": "PROPN", "confidence": 1.0, "reasoning": "country/place name in from Ireland, drank Ireland, North of Ireland, and west of Ireland"}
+{"type": "leaning", "rank": 903, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in leaning her head, leaning on elbow, leaning on counter, and leaning forehead"}
+{"type": "loudly", "rank": 904, "frequency": 8, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb in applauded loudly, protested loudly, talked loudly, and called loudly"}
+{"type": "madam", "rank": 905, "frequency": 8, "tag": "PROPN", "confidence": 0.8, "reasoning": "title/name-like reference in Madam Glynn and the Madam as a character label", "alternative": "NOUN"}
+{"type": "madden", "rank": 906, "frequency": 8, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname fragment in O'Madden Burke throughout"}
+{"type": "mass", "rank": 907, "frequency": 8, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly religious service noun in after mass, eight-o'clock mass, and Mass in chapel; one physical black mass use", "alternative": "PROPN"}
+{"type": "melancholy", "rank": 908, "frequency": 8, "tag": "NOUN", "confidence": 0.55, "reasoning": "split between noun in melancholy of soul/street and adjective in melancholy tone/air", "alternative": "ADJ"}
+{"type": "middle", "rank": 909, "frequency": 8, "tag": "NOUN", "confidence": 0.7, "reasoning": "mostly noun in middle of month, middle age, and middle of bazaar; middle-aged is adjectival compound", "alternative": "ADJ"}
+{"type": "mirror", "rank": 910, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "object noun in before the mirror, away from the mirror, swinging mirror, and darkened mirror"}
+{"type": "nervously", "rank": 911, "frequency": 8, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb in glanced nervously, laughed nervously, rolling nervously, and talked nervously"}
+{"type": "pa", "rank": 912, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "kinship/vocative noun for father in O pa, pa, and don't beat me pa"}
+{"type": "pair", "rank": 913, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "two-item noun in watched the pair, pair in view, pair of eyes, and have a pair"}
+{"type": "passing", "rank": 914, "frequency": 8, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly participial verb in passing by/out; the passing of twilight is nominal", "alternative": "NOUN"}
+{"type": "penny", "rank": 915, "frequency": 8, "tag": "NOUN", "confidence": 0.55, "reasoning": "split between penny on the counter as noun and penny cakes/penny-a-week/penny-piece as modifier", "alternative": "ADJ"}
+{"type": "phrase", "rank": 916, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "language noun in grandiose phrase, echoed her phrase, quaintness of her phrase, and use the phrase"}
+{"type": "pity", "rank": 917, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "emotion noun in what a pity, great pity, friendly pity, and O what a pity"}
+{"type": "placed", "rank": 918, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in been placed, placed it on hob, placed clothes in charge, and placed coal"}
+{"type": "plain", "rank": 919, "frequency": 8, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjective in plain roast goose, plain education, and plain clothes; central plain is noun", "alternative": "NOUN"}
+{"type": "platform", "rank": 920, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "rail/stage surface noun in platform to platform, lying on platform, on the platform, and crowded platform"}
+{"type": "pupils", "rank": 921, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural student noun in pupils' concert, Mary Jane's pupils, and one of her pupils"}
+{"type": "ring", "rank": 922, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "circle/group noun in ring of listeners, ring of men, ring of bystanders, and ring of onlookers"}
+{"type": "shouted", "rank": 923, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in shouted to cabman, was shouted at, shouted out, and shouted at her"}
+{"type": "silver", "rank": 924, "frequency": 8, "tag": "ADJ", "confidence": 1.0, "reasoning": "material/color adjective in silver buckle, silver bracelet, silver flakes, and silver clasps"}
+{"type": "sinico", "rank": 925, "frequency": 8, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Emily Sinico, Captain Sinico, Mrs Sinico, and Mary Sinico"}
+{"type": "smoke", "rank": 926, "frequency": 8, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in clouds of smoke, woolly smoke, and clouds of smoke; one to smoke it is verb", "alternative": "VERB"}
+{"type": "spirit", "rank": 927, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in spirit of fellowship, young in spirit, his spirit may rise, and great spirit"}
+{"type": "spite", "rank": 928, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun inside repeated in spite of constructions and danger of personal spite"}
+{"type": "staircase", "rank": 929, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "structure noun in narrow staircase, foot of staircase, mounted staircase, and ran to the staircase"}
+{"type": "stories", "rank": 930, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural narrative noun in detective stories, stories about catacombs, told her stories, and these stories"}
+{"type": "task", "rank": 931, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "work/duty noun in the task, Seguoin's task, her task, and task of living"}
+{"type": "tears", "rank": 932, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural fluid/emotion noun in tears gathered, tears filled eyes, and cry many tears"}
+{"type": "teeth", "rank": 933, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun in lower teeth, discoloured teeth, front teeth, and white teeth"}
+{"type": "telling", "rank": 934, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle verb in was telling, telling him, telling us, and telling my mother"}
+{"type": "thirty", "rank": 935, "frequency": 8, "tag": "NUM", "confidence": 1.0, "reasoning": "number in thirty-one, thirty years, thirty-four, and thirty seconds"}
+{"type": "tommy", "rank": 936, "frequency": 8, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name/direct address Tommy in all contexts"}
+{"type": "top", "rank": 937, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "upper-part noun in top of slope, top of monument, on the top, and top of piano"}
+{"type": "touched", "rank": 938, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in hand touched his, touched by lamplight, touched earth, and touched helmet"}
+{"type": "upstairs", "rank": 939, "frequency": 8, "tag": "ADV", "confidence": 1.0, "reasoning": "direction/location adverb in go upstairs, went upstairs, went heavily upstairs, and bathroom upstairs"}
+{"type": "use", "rank": 940, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "noun in no use, no use trying, by the use of gates, and use the phrase"}
+{"type": "waltz", "rank": 941, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "music/dance noun in waltz tune, played a waltz, this waltz, and pretty waltz"}
+{"type": "wandered", "rank": 942, "frequency": 8, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in wandered into room, wandered roads, wandered into Ringsend, and mind wandered"}
+{"type": "wasn", "rank": 943, "frequency": 8, "tag": "AUX", "confidence": 1.0, "reasoning": "contraction fragment for wasn't in all contexts"}
+{"type": "welcome", "rank": 944, "frequency": 8, "tag": "NOUN", "confidence": 0.55, "reasoning": "mixed: warm welcome and address of welcome are nouns, more welcome is adjective, and would we welcome is verb", "alternative": "VERB"}
+{"type": "wide", "rank": 945, "frequency": 8, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in wide sleeve, wide doors, wide wings, and wide-brimmed hat"}
+{"type": "youth", "rank": 946, "frequency": 8, "tag": "NOUN", "confidence": 1.0, "reasoning": "life-stage noun in youth could not be pleaded, thoughts of youth, gilded youth, and Polly's youth"}
+{"type": "already", "rank": 947, "frequency": 7, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal adverb in had already thrown, had already overstayed, had already come, and had already cleared"}
+{"type": "anger", "rank": 948, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "emotion noun in smouldering anger, Kearney's anger, with anger, and dull anger"}
+{"type": "appeared", "rank": 949, "frequency": 7, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in appeared in the doorway, look appeared, grin appeared, and puffs appeared"}
+{"type": "audience", "rank": 950, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "collective listener noun in his audience, audience was clapping, audience would think, and lack of audience"}
+{"type": "aunts", "rank": 951, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural kinship noun in his aunts and two aunts contexts"}
+{"type": "bag", "rank": 952, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "container noun in Downes's bag, bag of cats, bag full of good things, and bag of cakes"}
+{"type": "banisters", "rank": 953, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "stair railing noun in to the banisters, leaning on banisters, and over the banisters"}
+{"type": "beyond", "rank": 954, "frequency": 7, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in beyond the door, beyond the barrier, beyond Ringsend, and beyond my powers"}
+{"type": "boots", "rank": 955, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural footwear noun in his boots, cloth boots, house-boots, and over your boots"}
+{"type": "breakfast", "rank": 956, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "meal noun in breakfast things, breakfast-cup, after breakfast, and breakfast-time"}
+{"type": "brows", "rank": 957, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural facial-feature noun in brows were dark, under her brows, knit his brows, and wrinkled brows"}
+{"type": "care", "rank": 958, "frequency": 7, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in greatest care, take care, and care of children; what did he care is verb", "alternative": "VERB"}
+{"type": "cases", "rank": 959, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural instance/legal noun in cases in courts, cases of, known cases, and two cases"}
+{"type": "cashier", "rank": 960, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "occupation noun in the cashier came out, cashier of a bank, and the cashier was no good"}
+{"type": "catholic", "rank": 961, "frequency": 7, "tag": "ADJ", "confidence": 0.8, "reasoning": "mostly adjective in Catholic college, Catholic office, and catholic gesture; a nice Catholic is nominalized", "alternative": "PROPN"}
+{"type": "ceased", "rank": 962, "frequency": 7, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in had ceased, everyone else had ceased, and ceased to exist"}
+{"type": "cheeks", "rank": 963, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural body-part noun in cheeks pushed, red cheeks, cheeks suffused"}
+{"type": "circle", "rank": 964, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "group/shape noun in his circle, circle of minds, circle of accomplishments, and circle of faces"}
+{"type": "class", "rank": 965, "frequency": 7, "tag": "ADJ", "confidence": 0.65, "reasoning": "mostly compound modifier in third-class, high-class, and better-class; middle class is noun", "alternative": "NOUN"}
+{"type": "clear", "rank": 966, "frequency": 7, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in clear tone, clear and fresh, clear explanation, and head was not clear"}
+{"type": "cleared", "rank": 967, "frequency": 7, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb/participle in room had cleared, table was cleared, and cleared his throat"}
+{"type": "convent", "rank": 968, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "institution noun in enter a convent, educated in a convent, and week in the convent"}
+{"type": "corkscrew", "rank": 969, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "tool noun in took up the corkscrew, handing back the corkscrew, lend us a corkscrew"}
+{"type": "crossed", "rank": 970, "frequency": 7, "tag": "VERB", "confidence": 1.0, "reasoning": "past verb in crossed the road, crossed Grattan Bridge, and crossed the room"}
+{"type": "delacour", "rank": 971, "frequency": 7, "tag": "PROPN", "confidence": 1.0, "reasoning": "surname in Delacour correspondence and Miss Delacour contexts"}
+{"type": "different", "rank": 972, "frequency": 7, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in different altars, so different, he is different, and different ceremonies"}
+{"type": "distant", "rank": 973, "frequency": 7, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in distant speck, distant country, distant lamp, and distant countries"}
+{"type": "doesn", "rank": 974, "frequency": 7, "tag": "AUX", "confidence": 1.0, "reasoning": "contraction fragment for doesn't in all contexts"}
+{"type": "doing", "rank": 975, "frequency": 7, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly present participle in would be doing, are doing, and what are you doing; your doing is noun", "alternative": "NOUN"}
+{"type": "doubt", "rank": 976, "frequency": 7, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in no doubt and not a doubt; began to doubt is verb", "alternative": "VERB"}
+{"type": "drinking", "rank": 977, "frequency": 7, "tag": "VERB", "confidence": 0.8, "reasoning": "present participle/gerund in manners in drinking, after drinking, standing drinking, and drinking with friends", "alternative": "NOUN"}
+{"type": "drunk", "rank": 978, "frequency": 7, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly past participle verb in toast had been drunk, having drunk, and when he had drunk; feel drunk is adjective", "alternative": "ADJ"}
+{"type": "eating", "rank": 979, "frequency": 7, "tag": "VERB", "confidence": 1.0, "reasoning": "present participle/gerund verb in eating Turkish Delight, continued eating, noise eating them, and eating well"}
+{"type": "edge", "rank": 980, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "border noun in edge of screen, edge of table, edge of carver, and edge of path"}
+{"type": "empty", "rank": 981, "frequency": 7, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in empty benches, empty distillery, kitchen empty, and empty grate"}
+{"type": "erin", "rank": 982, "frequency": 7, "tag": "PROPN", "confidence": 1.0, "reasoning": "poetic proper name for Ireland in Erin famed, Erin may pledge, and Erin's hopes"}
+{"type": "everybody", "rank": 983, "frequency": 7, "tag": "PRON", "confidence": 1.0, "reasoning": "indefinite pronoun in everybody knew, everybody's laughter, everybody has colds, and everybody who knew"}
+{"type": "excited", "rank": 984, "frequency": 7, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in excited imagination, Jimmy was excited, too excited, and vaguely excited"}
+{"type": "excitement", "rank": 985, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract emotion noun in unusual excitement, been an excitement, excitement of flight, and hive of excitement"}
+{"type": "faith", "rank": 986, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "belief/exclamation noun in faith and resignation, faith I was moved, her faith, and faith he had"}
+{"type": "farley", "rank": 987, "frequency": 7, "tag": "PROPN", "confidence": 1.0, "reasoning": "personal name in Farley and Rivière contexts"}
+{"type": "features", "rank": 988, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural facial noun in features composed, immobile features, coarse features, and rival features"}
+{"type": "finally", "rank": 989, "frequency": 7, "tag": "ADV", "confidence": 1.0, "reasoning": "sequence adverb in finally agreed, finally a contract, finally cut, and finally the cashier came"}
+{"type": "finish", "rank": 990, "frequency": 7, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in finish discussion, finish copy, finish in time, and finish sentence"}
+{"type": "firmly", "rank": 991, "frequency": 7, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb in governed firmly, hand pressed firmly, held firmly, and walked firmly"}
+{"type": "forehead", "rank": 992, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "body-part noun in his forehead, Farrington's forehead, from his forehead, and leaning my forehead"}
+{"type": "forgotten", "rank": 993, "frequency": 7, "tag": "VERB", "confidence": 0.75, "reasoning": "past participle in had forgotten, forgotten to bring, and forgotten all about it; never-to-be-forgotten is adjectival", "alternative": "ADJ"}
+{"type": "freeman", "rank": 994, "frequency": 7, "tag": "PROPN", "confidence": 1.0, "reasoning": "newspaper proper name in Freeman office, Freeman man, Freeman's Journal, and Freeman's General"}
+{"type": "friendly", "rank": 995, "frequency": 7, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in friendly talk, invariably friendly, friendly pity, and friendly with Villona"}
+{"type": "garden", "rank": 996, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "place noun in wild garden, into the garden, round the garden, and back garden"}
+{"type": "gas", "rank": 997, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "substance/light noun in flame of the gas, have some gas, gas in pantry, and glaring with gas"}
+{"type": "german", "rank": 998, "frequency": 7, "tag": "ADJ", "confidence": 0.8, "reasoning": "national adjective in German cardinal and German car; no German is nominalized", "alternative": "PROPN"}
+{"type": "ginger", "rank": 999, "frequency": 7, "tag": "ADJ", "confidence": 0.7, "reasoning": "mostly flavor adjective in ginger beer and ginger ale; Ginger Mooney is a nickname/name use", "alternative": "PROPN"}
+{"type": "goose", "rank": 1000, "frequency": 7, "tag": "NOUN", "confidence": 1.0, "reasoning": "food/bird noun in plates of goose, carve the goose, and plain roast goose"}

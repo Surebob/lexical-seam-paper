@@ -1,0 +1,24 @@
+{
+  "archive_id": "legacy_coupled_logistic",
+  "parent_experiment": "4_analytic_seam_theory",
+  "status": "first_class_legacy_prior_canon",
+  "model": "coupled_logistic",
+  "generated_at_utc": "2026-04-20T00:26:01.161392+00:00",
+  "source_bundles": {
+    "sign": "results/zipf_seam_sign_theory/summary.json",
+    "projection": "results/zipf_seam_projection_theory/summary.json",
+    "second_order": "results/zipf_seam_second_order_theory/summary.json"
+  },
+  "outputs": {
+    "seam_sign_checks.csv": {
+      "rows": 25
+    },
+    "aggregate_statistics.csv": {
+      "rows": 28
+    },
+    "source_consistency_checks.csv": {
+      "rows": 6
+    }
+  },
+  "notes": "Archive means superseded by later canonical choice, not low-quality or invalid data."
+}

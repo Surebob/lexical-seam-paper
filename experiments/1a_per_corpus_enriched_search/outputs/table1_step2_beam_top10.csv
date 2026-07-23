@@ -1,0 +1,251 @@
+corpus,beam_rank,expression,expression_display,rmse,winner_family,uses_new_operator
+Complete Works of Shakespeare,1,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.18285154352815539,is,False
+Complete Works of Shakespeare,2,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.18461777340942814,exp,False
+Complete Works of Shakespeare,3,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.18618029461475435,other,False
+Complete Works of Shakespeare,4,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.1863648247937214,xpow,False
+Complete Works of Shakespeare,5,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.18705984191927655,euclidean,False
+Complete Works of Shakespeare,6,"mul[sub[x,1],log[x]]",((x-1)*log(x)),0.18750264146230872,other,False
+Complete Works of Shakespeare,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.18906525781893654,other,False
+Complete Works of Shakespeare,8,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.18918977817012575,other,False
+Complete Works of Shakespeare,9,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.18985739752992065,other,False
+Complete Works of Shakespeare,10,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.18994582370773802,other,False
+War and Peace,1,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.18043682215068654,is,False
+War and Peace,2,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.1831808749702038,exp,False
+War and Peace,3,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.18477824492784575,xpow,False
+War and Peace,4,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.18487584221156655,other,False
+War and Peace,5,"mul[sub[x,1],log[x]]",((x-1)*log(x)),0.18574372316034374,other,False
+War and Peace,6,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.18584620267502414,euclidean,False
+War and Peace,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.1878457176871986,other,False
+War and Peace,8,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.18818508957537378,other,False
+War and Peace,9,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.18895663876694282,other,False
+War and Peace,10,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.18928731791406278,other,False
+Moby Dick,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.16334575772525425,exp,False
+Moby Dick,2,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.1643352350610081,other,False
+Moby Dick,3,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.16527313193343499,other,False
+Moby Dick,4,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.16619014146964828,other,False
+Moby Dick,5,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.16664448215301997,other,False
+Moby Dick,6,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.16670359434462198,xpow,False
+Moby Dick,7,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.1668446074380373,is,False
+Moby Dick,8,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.1672059075720332,other,False
+Moby Dick,9,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.1674771082413954,other,False
+Moby Dick,10,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.16790832742305825,other,False
+King James Bible,1,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.1854896711109791,is,False
+King James Bible,2,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.18845643682086718,exp,False
+King James Bible,3,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.1897989414396081,xpow,False
+King James Bible,4,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.19031393231636576,other,False
+King James Bible,5,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.1914413534612705,euclidean,False
+King James Bible,6,"mul[sub[x,1],log[x]]",((x-1)*log(x)),0.19163952982997645,other,False
+King James Bible,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.1932524420326454,other,False
+King James Bible,8,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.1937384568581069,other,False
+King James Bible,9,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1943807555682465,other,False
+King James Bible,10,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.19519313546129038,other,False
+Federalist Papers,1,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.1916277812723682,is,False
+Federalist Papers,2,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.195160110344618,exp,False
+Federalist Papers,3,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.19614223206439965,xpow,False
+Federalist Papers,4,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.19727938347322796,other,False
+Federalist Papers,5,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.19870611998493082,euclidean,False
+Federalist Papers,6,"mul[sub[x,1],log[x]]",((x-1)*log(x)),0.19902458946316315,other,False
+Federalist Papers,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.20001646437741885,other,False
+Federalist Papers,8,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.20059531543877052,other,False
+Federalist Papers,9,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.20110334067221847,other,False
+Federalist Papers,10,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.2024278544633605,other,False
+Grimm's Fairy Tales,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.16550485072433857,exp,False
+Grimm's Fairy Tales,2,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.16705646289920434,xpow,False
+Grimm's Fairy Tales,3,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.16733516871434567,is,False
+Grimm's Fairy Tales,4,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.17009541382985208,other,False
+Grimm's Fairy Tales,5,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.17026063742675127,other,False
+Grimm's Fairy Tales,6,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.17138560205116826,other,False
+Grimm's Fairy Tales,7,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1718680016624955,other,False
+Grimm's Fairy Tales,8,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.17299875265967107,euclidean,False
+Grimm's Fairy Tales,9,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.17325037708296276,other,False
+Grimm's Fairy Tales,10,"div[sub[x,1],eml[x,x]]","((x-1)/EML(x,x))",0.17615437633513226,other,False
+Don Quixote,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.1763356841530791,exp,False
+Don Quixote,2,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.17692787402335688,is,False
+Don Quixote,3,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.177782754951745,other,False
+Don Quixote,4,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.17887159100651798,other,False
+Don Quixote,5,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.17916885732189522,xpow,False
+Don Quixote,6,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.17962778653555275,other,False
+Don Quixote,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.18013947664140664,other,False
+Don Quixote,8,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.18039864429037158,other,False
+Don Quixote,9,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.18093847051614811,other,False
+Don Quixote,10,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.18147045795407055,euclidean,False
+Pride and Prejudice,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.16783926418160022,exp,False
+Pride and Prejudice,2,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.17026931052871588,other,False
+Pride and Prejudice,3,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.17040718698413082,xpow,False
+Pride and Prejudice,4,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.17136127135128554,is,False
+Pride and Prejudice,5,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.17247679441468952,other,False
+Pride and Prejudice,6,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.17261218799183198,other,False
+Pride and Prejudice,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.17278689290997679,other,False
+Pride and Prejudice,8,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.17328369472839575,other,False
+Pride and Prejudice,9,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.17497436207033337,other,False
+Pride and Prejudice,10,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.1751643958019783,euclidean,False
+Canterbury Tales,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.1678242283162659,exp,False
+Canterbury Tales,2,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.17016778812525912,other,False
+Canterbury Tales,3,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.17057069256526533,xpow,False
+Canterbury Tales,4,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.1708961208533756,other,False
+Canterbury Tales,5,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.17093623968880178,is,False
+Canterbury Tales,6,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.17113704626276577,other,False
+Canterbury Tales,7,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.17155766787686438,other,False
+Canterbury Tales,8,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.1723299287007539,other,False
+Canterbury Tales,9,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.1723643623551438,other,False
+Canterbury Tales,10,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1725431229353729,other,False
+Arabian Nights (Vol 1),1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.18278688989650455,exp,False
+Arabian Nights (Vol 1),2,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.1845699635740453,xpow,False
+Arabian Nights (Vol 1),3,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.1855988570468531,other,False
+Arabian Nights (Vol 1),4,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.18624953256722684,is,False
+Arabian Nights (Vol 1),5,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.18694417702938554,other,False
+Arabian Nights (Vol 1),6,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.18732452301832536,euclidean,False
+Arabian Nights (Vol 1),7,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1876760491256233,other,False
+Arabian Nights (Vol 1),8,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.1876928741790554,other,False
+Arabian Nights (Vol 1),9,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.18791596991191123,other,False
+Arabian Nights (Vol 1),10,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.18793885188049106,other,False
+Aesop's Fables,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.16922954056178502,exp,False
+Aesop's Fables,2,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.17159871401499432,xpow,False
+Aesop's Fables,3,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.17239960126205842,other,False
+Aesop's Fables,4,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.17479457575179103,other,False
+Aesop's Fables,5,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1749392242361762,other,False
+Aesop's Fables,6,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.17497160606504875,other,False
+Aesop's Fables,7,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.17549567485117257,other,False
+Aesop's Fables,8,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.1771438910999912,is,False
+Aesop's Fables,9,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.17799936962132182,euclidean,False
+Aesop's Fables,10,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.17832557710186317,other,False
+Complete Sherlock Holmes,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.1692196987389226,exp,False
+Complete Sherlock Holmes,2,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.1710875766139428,other,False
+Complete Sherlock Holmes,3,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.1720915784289525,xpow,False
+Complete Sherlock Holmes,4,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.1731020971045488,other,False
+Complete Sherlock Holmes,5,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.1738734416273575,other,False
+Complete Sherlock Holmes,6,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.17403730451678676,other,False
+Complete Sherlock Holmes,7,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.17430077958530202,other,False
+Complete Sherlock Holmes,8,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.17451384855568502,is,False
+Complete Sherlock Holmes,9,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.17513341187820883,other,False
+Complete Sherlock Holmes,10,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.17514353623541226,other,False
+Jane Eyre,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.16333010797099165,exp,False
+Jane Eyre,2,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.16395623934384868,other,False
+Jane Eyre,3,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.16537552370333009,other,False
+Jane Eyre,4,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.1667835051731643,xpow,False
+Jane Eyre,5,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.1669347201354299,other,False
+Jane Eyre,6,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.16707255792195488,is,False
+Jane Eyre,7,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.167205257156014,other,False
+Jane Eyre,8,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.16745026079733993,other,False
+Jane Eyre,9,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.1676662998589509,other,False
+Jane Eyre,10,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.16802212433557512,other,False
+Dubliners,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.17518979953881125,exp,False
+Dubliners,2,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.17632914837060779,xpow,False
+Dubliners,3,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.1786986501957996,other,False
+Dubliners,4,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.18077048968881346,euclidean,False
+Dubliners,5,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.18084229963650614,is,False
+Dubliners,6,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1810856247172799,other,False
+Dubliners,7,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.18143708689167504,other,False
+Dubliners,8,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.18177784855435708,other,False
+Dubliners,9,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.18304553590511552,other,False
+Dubliners,10,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.18382445286488935,other,False
+The Iliad,1,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.18039390059445717,is,False
+The Iliad,2,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.18248795135804466,exp,False
+The Iliad,3,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.18347525186194907,xpow,False
+The Iliad,4,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.1843815663552406,other,False
+The Iliad,5,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.18573989590774173,euclidean,False
+The Iliad,6,"mul[sub[x,1],log[x]]",((x-1)*log(x)),0.18709277932509552,other,False
+The Iliad,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.1878612415675822,other,False
+The Iliad,8,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.18842517770533024,other,False
+The Iliad,9,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.18855158818965834,other,False
+The Iliad,10,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.18973908008828885,other,False
+Democracy in America,1,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.1894135889625467,is,False
+Democracy in America,2,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.19273164051225666,exp,False
+Democracy in America,3,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.19373191872802986,xpow,False
+Democracy in America,4,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.19480911702258394,other,False
+Democracy in America,5,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.19623206363320225,euclidean,False
+Democracy in America,6,"mul[sub[x,1],log[x]]",((x-1)*log(x)),0.19664850812580853,other,False
+Democracy in America,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.19765160080064176,other,False
+Democracy in America,8,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.19821548320499285,other,False
+Democracy in America,9,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1986446049874002,other,False
+Democracy in America,10,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.1999097020896594,other,False
+Origin of Species,1,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.17636580852673006,is,False
+Origin of Species,2,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.18042756320488335,exp,False
+Origin of Species,3,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.1808233752237219,xpow,False
+Origin of Species,4,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.18244251857222923,other,False
+Origin of Species,5,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.18389871461013296,euclidean,False
+Origin of Species,6,"mul[sub[x,1],log[x]]",((x-1)*log(x)),0.18470282169828559,other,False
+Origin of Species,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.18646991992112658,other,False
+Origin of Species,8,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.18763081846028964,other,False
+Origin of Species,9,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.18824903791789907,other,False
+Origin of Species,10,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.1906042923427014,other,False
+Wealth of Nations,1,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.17689004675116576,is,False
+Wealth of Nations,2,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.18113788155497706,exp,False
+Wealth of Nations,3,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.18174914536640613,xpow,False
+Wealth of Nations,4,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.18272580500198493,other,False
+Wealth of Nations,5,"mul[sub[x,1],log[x]]",((x-1)*log(x)),0.18349139865351982,other,False
+Wealth of Nations,6,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.18386891454918783,euclidean,False
+Wealth of Nations,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.18691447044103482,other,False
+Wealth of Nations,8,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.18810592880563973,other,False
+Wealth of Nations,9,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.18865887632524514,other,False
+Wealth of Nations,10,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.19054364682397112,other,False
+Les Miserables,1,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.1868492241461159,is,False
+Les Miserables,2,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.18880587501084395,exp,False
+Les Miserables,3,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.19051378923228393,other,False
+Les Miserables,4,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.1905762231061338,xpow,False
+Les Miserables,5,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.1915234203750298,euclidean,False
+Les Miserables,6,"mul[sub[x,1],log[x]]",((x-1)*log(x)),0.19179657728648045,other,False
+Les Miserables,7,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.1928668929564853,other,False
+Les Miserables,8,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.19302132016689016,other,False
+Les Miserables,9,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.193550241230349,other,False
+Les Miserables,10,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.19387955089688624,other,False
+Decline and Fall Vol 1,1,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.2058860211560133,is,False
+Decline and Fall Vol 1,2,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.20932438344350124,exp,False
+Decline and Fall Vol 1,3,"mul[sub[x,1],log[x]]",((x-1)*log(x)),0.20992229399220722,other,False
+Decline and Fall Vol 1,4,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.20995625893348913,xpow,False
+Decline and Fall Vol 1,5,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.21025428129507875,other,False
+Decline and Fall Vol 1,6,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.21103785977955958,euclidean,False
+Decline and Fall Vol 1,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.21410814856942986,other,False
+Decline and Fall Vol 1,8,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.2149098802274645,other,False
+Decline and Fall Vol 1,9,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.215585071617005,other,False
+Decline and Fall Vol 1,10,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.21652049404144233,other,False
+Emile,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.18033837337902978,exp,False
+Emile,2,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.181539251240389,is,False
+Emile,3,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.18220448616439197,other,False
+Emile,4,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.18290425956361464,xpow,False
+Emile,5,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.18364962089185866,other,False
+Emile,6,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.18387368982328164,other,False
+Emile,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.1844255510746463,other,False
+Emile,8,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1851014183875947,other,False
+Emile,9,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.18538998164645648,other,False
+Emile,10,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.185927068237907,euclidean,False
+Ulysses,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.1830188859516618,exp,False
+Ulysses,2,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.18357922799465115,xpow,False
+Ulysses,3,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.1841920533333066,other,False
+Ulysses,4,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.1847061265396885,is,False
+Ulysses,5,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.18493789288633808,euclidean,False
+Ulysses,6,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.18809680839157453,other,False
+Ulysses,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.18904552706641847,other,False
+Ulysses,8,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.1890766606627257,other,False
+Ulysses,9,"mul[sub[x,1],log[x]]",((x-1)*log(x)),0.1891688612664704,other,False
+Ulysses,10,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.18979312160963036,other,False
+Collected Poe,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.17464893963749728,exp,False
+Collected Poe,2,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.17545087325392908,other,False
+Collected Poe,3,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.17722592930767092,other,False
+Collected Poe,4,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.17780968721161927,xpow,False
+Collected Poe,5,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.17879414959358172,other,False
+Collected Poe,6,"mul[sub[1,x],sub[x,1]]",((1-x)*(x-1)),0.17884344032060043,other,False
+Collected Poe,7,"add[sub[1,x],log[x]]",((1-x)+log(x)),0.17903141876702783,other,False
+Collected Poe,8,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.17911421443607753,other,False
+Collected Poe,9,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.17926465042934145,other,False
+Collected Poe,10,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.17929969444976834,is,False
+Principia Ethica,1,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.18433252648149676,is,False
+Principia Ethica,2,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.18558013861480332,xpow,False
+Principia Ethica,3,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.18570469317744617,exp,False
+Principia Ethica,4,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.188753509622901,other,False
+Principia Ethica,5,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.19100413579783837,euclidean,False
+Principia Ethica,6,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.19226525583595236,other,False
+Principia Ethica,7,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.1929502728604544,other,False
+Principia Ethica,8,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.1940077022829837,other,False
+Principia Ethica,9,"mul[sub[x,1],log[x]]",((x-1)*log(x)),0.19690803353921044,other,False
+Principia Ethica,10,"div[sub[1,x],eml[x,x]]","((1-x)/EML(x,x))",0.19699495435247777,other,False
+Critique of Pure Reason,1,"eml[sub[x,1],eml[x,1]]",exp(x - 1) - x,0.17647312549496663,exp,False
+Critique of Pure Reason,2,"sub[sub[x,1],log[x]]",(x - 1) - log(x),0.17708956325481962,is,False
+Critique of Pure Reason,3,"sub[pow[x,x],sqrt[x]]",x^x - sqrt(x),0.17747111204888652,xpow,False
+Critique of Pure Reason,4,"add[neg[x],pow[x,x]]","((-x)+pow(x,x))",0.179747369536625,other,False
+Critique of Pure Reason,5,"mul[sub[1,x],sub[1,x]]",(1 - x)^2,0.18201439089620247,euclidean,False
+Critique of Pure Reason,6,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.1822605807136197,other,False
+Critique of Pure Reason,7,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.18236101984949582,other,False
+Critique of Pure Reason,8,"div[sub[x,1],eml[1,x]]","((x-1)/EML(1,x))",0.18255161761603136,other,False
+Critique of Pure Reason,9,"sub[div[x,1],pow[x,x]]","((x/1)-pow(x,x))",0.1842819395349757,other,False
+Critique of Pure Reason,10,"div[sub[x,1],eml[x,x]]","((x-1)/EML(x,x))",0.18658953364035624,other,False

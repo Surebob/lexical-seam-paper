@@ -1,0 +1,42 @@
+{
+  "mean": 12.0,
+  "variance": 24.0,
+  "nb_size_dispersion_used": 12.0,
+  "nb_success_probability": 0.5,
+  "note": "Mean 12 and variance 24 imply NB size/dispersion 12 under var = mean + mean^2/size.",
+  "k_max": 26,
+  "captured_mass": 0.9930735173693396,
+  "summary": {
+    "label": "negbin_mean12_var24_fit_poisson_count_coordinate",
+    "support_size": 27,
+    "residual_rmse": 1.4919959300193086,
+    "winner_expression": "sub[eml[mul[x,x],add[x,x]],eml[neg[x],pow[x,x]]]",
+    "winner_math": "(EML((x*x),(x+x))-EML((-x),pow(x,x)))",
+    "winner_rmse": 0.7012890425142355,
+    "winner_cosine_vs_shifted_kl": 0.7350148357361902,
+    "winner_cosine_vs_unshifted_negative_entropy": -0.7641795837552647,
+    "winner_bregman_diag": {
+      "f_at_1": 1.6572552067276574,
+      "fprime_at_1": 5.804442475682663,
+      "fsecond_min_continuous_grid": 8.817798219356973,
+      "fsecond_positive_continuous_grid": true,
+      "bregman_conditions_pass": false,
+      "second_diff_min_on_integer_support": 0.011795428018906096,
+      "second_diff_positive_on_integer_support": true
+    },
+    "shifted_kl_occurrences": [],
+    "unshifted_negative_entropy_occurrences": [
+      {
+        "step": 3,
+        "rmse_rank": 8415,
+        "expr": "div[sub[1,log[x]],div[1,neg[x]]]",
+        "math": "((1-log(x))/(1/(-x)))",
+        "rmse": 2.022735066402795,
+        "in_top5_by_rmse": false,
+        "in_top20_by_rmse": false
+      }
+    ],
+    "predicted_form_in_top5": false,
+    "predicted_form_in_top20": false
+  }
+}

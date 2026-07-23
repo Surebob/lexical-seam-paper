@@ -1,0 +1,4 @@
+family,case_id,winner,winner_math,predicted,predicted_canonical,cosine_pos,cosine_neg,max_abs_cosine,verdict
+Gaussian,t2a_gaussian_euclidean,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",Euclidean,(1-x)^2,-0.22387302228918074,0.22387302228918074,0.22387302228918074,not_shape_equivalent
+Poisson,t2b_poisson_kl,"div[pow[eml[x,1],eml[x,1]],pow[add[x,x],neg[x]]]","(pow(EML(x,1),EML(x,1))/pow((x+x),(-x)))",generalized KL,x*log(x)-x+1,0.078017857270114691,-0.078017857270114691,0.078017857270114691,not_shape_equivalent
+Gamma,t2c_gamma_is,"add[log[x],sub[1,x]]",(log(x)+(1-x)),Itakura-Saito,(x-1)-log(x),-1.0000000000000002,1.0000000000000002,1.0000000000000002,equivalent_to_predicted_up_to_sign

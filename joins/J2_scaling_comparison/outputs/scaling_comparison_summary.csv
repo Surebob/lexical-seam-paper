@@ -1,0 +1,7 @@
+metric_name,value,display_format,notes
+alpha_kstat,0.758365585868885,decimal_3,Canonical decoupled-erf OLS beta recomputed from experiment 3e erf k values.
+alpha_pos,0.5449219781561354,decimal_3,POS crossover forced alpha from experiment 3d.
+alpha_difference_pos_minus_kstat,-0.21344360771274962,signed_decimal_3,POS alpha minus decoupled-erf k-stat beta.
+alpha_difference_ci_low,-0.6263042503777877,signed_decimal_3,Lower 95% Welch CI for POS alpha minus decoupled-erf beta.
+alpha_difference_ci_high,0.19941703495228846,signed_decimal_3,Upper 95% Welch CI for POS alpha minus decoupled-erf beta.
+alpha_difference_pvalue,0.2959820191182395,decimal_3,Two-sided Welch t-test for difference between POS alpha and decoupled-erf beta.

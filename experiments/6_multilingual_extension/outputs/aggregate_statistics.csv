@@ -1,0 +1,9 @@
+metric_name,value,display_format,notes
+non_english_corpus_count,7,integer,Number of non-English corpora in the canonical multilingual extension.
+smooth_beats_single_zm_count,7,integer,Count where smooth 8-parameter historical fit has lower RMSE than single ZM.
+transition_fraction_min,0.42120897713127936,decimal_6,Minimum transition fraction across the 7 non-English corpora.
+transition_fraction_max,0.6234561983461814,decimal_6,Maximum transition fraction across the 7 non-English corpora.
+transition_fraction_near_half_count,6,integer,"Count with transition fraction in [0.42, 0.62]."
+multilang_bregman_winner_count,4,integer,Count where the step-2 winner is exp(x-1)-x in the historical table.
+latin_french_spanish_dutch_c_lt_5_count,4,integer,Count among Latin/French/Spanish/Dutch with fitted ZM c < 5.
+very_low_c_multilang_count,3,integer,Count with fitted ZM c < 0.01.

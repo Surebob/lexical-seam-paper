@@ -1,0 +1,8 @@
+metric_name,value,notes
+english_low_c_corpus_count,14,English low-c corpora in results/zipf_widened_grammar_extended.
+sigma_winner_cosine_min,-0.620902073726308,Minimum raw cosine between smooth sigma_r and widened top-1 winner.
+sigma_winner_cosine_max,0.9283624807596441,Maximum raw cosine between smooth sigma_r and widened top-1 winner.
+sigma_winner_cosine_mean,0.638734540874397,Mean raw cosine between smooth sigma_r and widened top-1 winner.
+sigma_winner_cosine_median,0.8413430663266286,Median raw cosine between smooth sigma_r and widened top-1 winner.
+sigma_winner_abs_cosine_mean,0.8147247457237479,Mean absolute cosine between smooth sigma_r and widened top-1 winner.
+sigma_winner_abs_cosine_median,0.8413430663266286,Median absolute cosine between smooth sigma_r and widened top-1 winner.

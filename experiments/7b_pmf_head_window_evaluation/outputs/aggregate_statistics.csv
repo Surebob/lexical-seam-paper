@@ -1,0 +1,56 @@
+metric_name,value,display_format,notes
+top50_winner_count_zipf,0,X/25 count,Held-out NLL winner count for top50.
+top50_winner_count_zm,23,X/25 count,Held-out NLL winner count for top50.
+top50_winner_count_moe,0,X/25 count,Held-out NLL winner count for top50.
+top50_winner_count_softk,2,X/25 count,Held-out NLL winner count for top50.
+top50_winner_count_summary,"{""moe"": 0, ""softk"": 2, ""zipf"": 0, ""zm"": 23}",JSON count map,"Held-out NLL winner counts for top50 in Zipf, ZM, MOE, soft-k order."
+top50_modal_winner,zm,categorical model label,Most frequent held-out winner for top50.
+top50_softk_beats_moe_count,15,X/25 count,Count where soft-k average held-out NLL is below MOEZipf for top50.
+top50_softk_beats_zm_count,2,X/25 count,Count where soft-k average held-out NLL is below ZM for top50.
+top50_softk_step2_help_count,2,X/25 count,Count where step-2 symbolic search improves the soft-k residual under top50 scoring.
+top100_winner_count_zipf,0,X/25 count,Held-out NLL winner count for top100.
+top100_winner_count_zm,25,X/25 count,Held-out NLL winner count for top100.
+top100_winner_count_moe,0,X/25 count,Held-out NLL winner count for top100.
+top100_winner_count_softk,0,X/25 count,Held-out NLL winner count for top100.
+top100_winner_count_summary,"{""moe"": 0, ""softk"": 0, ""zipf"": 0, ""zm"": 25}",JSON count map,"Held-out NLL winner counts for top100 in Zipf, ZM, MOE, soft-k order."
+top100_modal_winner,zm,categorical model label,Most frequent held-out winner for top100.
+top100_softk_beats_moe_count,11,X/25 count,Count where soft-k average held-out NLL is below MOEZipf for top100.
+top100_softk_beats_zm_count,0,X/25 count,Count where soft-k average held-out NLL is below ZM for top100.
+top100_softk_step2_help_count,6,X/25 count,Count where step-2 symbolic search improves the soft-k residual under top100 scoring.
+top200_winner_count_zipf,0,X/25 count,Held-out NLL winner count for top200.
+top200_winner_count_zm,15,X/25 count,Held-out NLL winner count for top200.
+top200_winner_count_moe,8,X/25 count,Held-out NLL winner count for top200.
+top200_winner_count_softk,2,X/25 count,Held-out NLL winner count for top200.
+top200_winner_count_summary,"{""moe"": 8, ""softk"": 2, ""zipf"": 0, ""zm"": 15}",JSON count map,"Held-out NLL winner counts for top200 in Zipf, ZM, MOE, soft-k order."
+top200_modal_winner,zm,categorical model label,Most frequent held-out winner for top200.
+top200_softk_beats_moe_count,7,X/25 count,Count where soft-k average held-out NLL is below MOEZipf for top200.
+top200_softk_beats_zm_count,3,X/25 count,Count where soft-k average held-out NLL is below ZM for top200.
+top200_softk_step2_help_count,0,X/25 count,Count where step-2 symbolic search improves the soft-k residual under top200 scoring.
+top500_winner_count_zipf,0,X/25 count,Held-out NLL winner count for top500.
+top500_winner_count_zm,4,X/25 count,Held-out NLL winner count for top500.
+top500_winner_count_moe,14,X/25 count,Held-out NLL winner count for top500.
+top500_winner_count_softk,7,X/25 count,Held-out NLL winner count for top500.
+top500_winner_count_summary,"{""moe"": 14, ""softk"": 7, ""zipf"": 0, ""zm"": 4}",JSON count map,"Held-out NLL winner counts for top500 in Zipf, ZM, MOE, soft-k order."
+top500_modal_winner,moe,categorical model label,Most frequent held-out winner for top500.
+top500_softk_beats_moe_count,7,X/25 count,Count where soft-k average held-out NLL is below MOEZipf for top500.
+top500_softk_beats_zm_count,11,X/25 count,Count where soft-k average held-out NLL is below ZM for top500.
+top500_softk_step2_help_count,1,X/25 count,Count where step-2 symbolic search improves the soft-k residual under top500 scoring.
+top1000_winner_count_zipf,0,X/25 count,Held-out NLL winner count for top1000.
+top1000_winner_count_zm,1,X/25 count,Held-out NLL winner count for top1000.
+top1000_winner_count_moe,14,X/25 count,Held-out NLL winner count for top1000.
+top1000_winner_count_softk,10,X/25 count,Held-out NLL winner count for top1000.
+top1000_winner_count_summary,"{""moe"": 14, ""softk"": 10, ""zipf"": 0, ""zm"": 1}",JSON count map,"Held-out NLL winner counts for top1000 in Zipf, ZM, MOE, soft-k order."
+top1000_modal_winner,moe,categorical model label,Most frequent held-out winner for top1000.
+top1000_softk_beats_moe_count,10,X/25 count,Count where soft-k average held-out NLL is below MOEZipf for top1000.
+top1000_softk_beats_zm_count,21,X/25 count,Count where soft-k average held-out NLL is below ZM for top1000.
+top1000_softk_step2_help_count,4,X/25 count,Count where step-2 symbolic search improves the soft-k residual under top1000 scoring.
+full_winner_count_zipf,0,X/25 count,Held-out NLL winner count for full.
+full_winner_count_zm,11,X/25 count,Held-out NLL winner count for full.
+full_winner_count_moe,4,X/25 count,Held-out NLL winner count for full.
+full_winner_count_softk,10,X/25 count,Held-out NLL winner count for full.
+full_winner_count_summary,"{""moe"": 4, ""softk"": 10, ""zipf"": 0, ""zm"": 11}",JSON count map,"Held-out NLL winner counts for full in Zipf, ZM, MOE, soft-k order."
+full_modal_winner,zm,categorical model label,Most frequent held-out winner for full.
+full_softk_beats_moe_count,17,X/25 count,Count where soft-k average held-out NLL is below MOEZipf for full.
+full_softk_beats_zm_count,13,X/25 count,Count where soft-k average held-out NLL is below ZM for full.
+full_softk_step2_help_count,4,X/25 count,Count where step-2 symbolic search improves the soft-k residual under full scoring.
+max_head_window_rank,1000,integer rank cutoff,Largest finite top-K cutoff used before the full-vocabulary condition.

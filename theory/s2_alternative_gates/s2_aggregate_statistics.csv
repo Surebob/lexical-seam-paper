@@ -1,0 +1,10 @@
+metric_name,value,notes
+logistic_bic_wins,24,Count of corpora where logistic gate has the lowest BIC.
+tanh_bic_wins,0,Count of corpora where tanh gate has the lowest BIC.
+erf_bic_wins,1,Count of corpora where erf gate has the lowest BIC.
+algebraic_bic_wins,0,Count of corpora where algebraic gate has the lowest BIC.
+median_bic_spread,495.82626893241104,Median of max_bic - min_bic across the four gates per corpus.
+gates_indistinguishable_count,0,Count of corpora where max_bic - min_bic < 10.
+mean_bic_spread,702.247212008368,Mean of max_bic - min_bic across the four gates per corpus.
+max_bic_spread,2578.241624178103,Maximum of max_bic - min_bic across the four gates per corpus.
+min_bic_spread,40.84614138593315,Minimum of max_bic - min_bic across the four gates per corpus.

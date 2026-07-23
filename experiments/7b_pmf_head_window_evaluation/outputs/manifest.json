@@ -1,0 +1,47 @@
+{
+  "experiment_id": "7b_pmf_head_window_evaluation",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_angle1_head_windows_splitfit"
+  ],
+  "status": "complete",
+  "outputs": {
+    "head_window_per_corpus.csv": {
+      "rows": 150,
+      "schema": [
+        "slug",
+        "corpus",
+        "token_count",
+        "vocabulary_size",
+        "cutoff",
+        "cutoff_rank",
+        "zipf_avg_nll",
+        "zm_avg_nll",
+        "moe_avg_nll",
+        "softk_avg_nll",
+        "winner_family",
+        "softk_minus_moe",
+        "softk_minus_zm",
+        "softk_minus_zipf",
+        "step2_winner_expression",
+        "step2_gain",
+        "step2_helps",
+        "canonical_source"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 55,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "claim_map_rows_satisfied": [
+    "line 409 head-window held-out winner counts and step-2 help counts",
+    "line 504 modal winner summary by head window",
+    "line 536 max head-window rank protocol constant"
+  ]
+}

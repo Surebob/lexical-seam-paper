@@ -1,0 +1,7 @@
+metric_name,value,notes
+smooth_fit_row_count,25,Expected 25 constrained smooth-fit rows.
+bounds_robustness_row_count,25,Expected 25 relaxed-bounds rows.
+smooth_max_abs_numeric_diff,0.0,all compared fields matched exactly
+smooth_text_mismatch_count,0,Count of non-numeric mismatches against historical constrained summary.
+relaxed_max_abs_numeric_diff,0.0,all compared fields matched exactly
+relaxed_text_mismatch_count,0,Count of non-numeric mismatches against historical relaxed summary.

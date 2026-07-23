@@ -1,0 +1,151 @@
+slug,field,new_value,historical_value,abs_diff,matches
+aesops_fables,corpus,Aesop's Fables,Aesop's Fables,,True
+aesops_fables,vocabulary_size,4394.0,4394.0,0.0,True
+aesops_fables,k_stat,250.79909890687756,250.79909890687756,0.0,True
+aesops_fables,log_vocabulary_size,8.387995252944556,8.387995252944556,0.0,True
+aesops_fables,log_k_stat,5.524652215877023,5.524652215877023,0.0,True
+aesops_fables,alpha_stat_per_corpus,0.6586379759737735,0.6586379759737735,0.0,True
+arabian_nights_vol1,corpus,Arabian Nights (Vol 1),Arabian Nights (Vol 1),,True
+arabian_nights_vol1,vocabulary_size,13883.0,13883.0,0.0,True
+arabian_nights_vol1,k_stat,89.74620451986972,89.74620451986972,0.0,True
+arabian_nights_vol1,log_vocabulary_size,9.538420349034803,9.538420349034803,0.0,True
+arabian_nights_vol1,log_k_stat,4.4969857370019595,4.4969857370019595,0.0,True
+arabian_nights_vol1,alpha_stat_per_corpus,0.47146021798641025,0.47146021798641025,0.0,True
+canterbury_tales,corpus,Canterbury Tales,Canterbury Tales,,True
+canterbury_tales,vocabulary_size,17653.0,17653.0,0.0,True
+canterbury_tales,k_stat,134.2119523589147,134.2119523589147,0.0,True
+canterbury_tales,log_vocabulary_size,9.778661019589283,9.778661019589283,0.0,True
+canterbury_tales,log_k_stat,4.899420284348946,4.899420284348946,0.0,True
+canterbury_tales,alpha_stat_per_corpus,0.5010318155557384,0.5010318155557384,0.0,True
+collected_poe,corpus,Collected Poe,Collected Poe,,True
+collected_poe,vocabulary_size,9312.0,9312.0,0.0,True
+collected_poe,k_stat,68.81349123711598,68.81349123711598,0.0,True
+collected_poe,log_vocabulary_size,9.139059169971219,9.139059169971219,0.0,True
+collected_poe,log_k_stat,4.2313998192782005,4.2313998192782005,0.0,True
+collected_poe,alpha_stat_per_corpus,0.463001687655287,0.463001687655287,0.0,True
+complete_sherlock_holmes,corpus,Complete Sherlock Holmes,Complete Sherlock Holmes,,True
+complete_sherlock_holmes,vocabulary_size,7817.0,7817.0,0.0,True
+complete_sherlock_holmes,k_stat,73.8917370296407,73.8917370296407,0.0,True
+complete_sherlock_holmes,log_vocabulary_size,8.96405612822033,8.96405612822033,0.0,True
+complete_sherlock_holmes,log_k_stat,4.302601008842561,4.302601008842561,0.0,True
+complete_sherlock_holmes,alpha_stat_per_corpus,0.4799837202376792,0.4799837202376792,0.0,True
+critique_of_pure_reason,corpus,Critique of Pure Reason,Critique of Pure Reason,,True
+critique_of_pure_reason,vocabulary_size,6537.0,6537.0,0.0,True
+critique_of_pure_reason,k_stat,421.9794201244541,421.9794201244541,0.0,True
+critique_of_pure_reason,log_vocabulary_size,8.78523362361273,8.78523362361273,0.0,True
+critique_of_pure_reason,log_k_stat,6.044956545369243,6.044956545369243,0.0,True
+critique_of_pure_reason,alpha_stat_per_corpus,0.6880814790311053,0.6880814790311053,0.0,True
+decline_and_fall_vol1,corpus,Decline and Fall Vol 1,Decline and Fall Vol 1,,True
+decline_and_fall_vol1,vocabulary_size,15983.0,15983.0,0.0,True
+decline_and_fall_vol1,k_stat,127.54483808636499,127.54483808636499,0.0,True
+decline_and_fall_vol1,log_vocabulary_size,9.679280936368654,9.679280936368654,0.0,True
+decline_and_fall_vol1,log_k_stat,4.848467974042243,4.848467974042243,0.0,True
+decline_and_fall_vol1,alpha_stat_per_corpus,0.5009120001698419,0.5009120001698419,0.0,True
+democracy_in_america,corpus,Democracy in America,Democracy in America,,True
+democracy_in_america,vocabulary_size,9301.0,9301.0,0.0,True
+democracy_in_america,k_stat,78.85114528096787,78.85114528096787,0.0,True
+democracy_in_america,log_vocabulary_size,9.137877200242468,9.137877200242468,0.0,True
+democracy_in_america,log_k_stat,4.367561838109751,4.367561838109751,0.0,True
+democracy_in_america,alpha_stat_per_corpus,0.4779624131952507,0.4779624131952507,0.0,True
+don_quixote,corpus,Don Quixote,Don Quixote,,True
+don_quixote,vocabulary_size,15574.0,15574.0,0.0,True
+don_quixote,k_stat,164.02003328006995,164.02003328006995,0.0,True
+don_quixote,log_vocabulary_size,9.653358136136932,9.653358136136932,0.0,True
+don_quixote,log_k_stat,5.099988574510756,5.099988574510756,0.0,True
+don_quixote,alpha_stat_per_corpus,0.5283123761273466,0.5283123761273466,0.0,True
+dubliners,corpus,Dubliners,Dubliners,,True
+dubliners,vocabulary_size,7157.0,7157.0,0.0,True
+dubliners,k_stat,544.0369170321965,544.0369170321965,0.0,True
+dubliners,log_vocabulary_size,8.875846177738598,8.875846177738598,0.0,True
+dubliners,log_k_stat,6.299017106744946,6.299017106744946,0.0,True
+dubliners,alpha_stat_per_corpus,0.7096807426139757,0.7096807426139757,0.0,True
+emile,corpus,Emile,Emile,,True
+emile,vocabulary_size,11174.0,11174.0,0.0,True
+emile,k_stat,121.6640728464838,121.6640728464838,0.0,True
+emile,log_vocabulary_size,9.321344930019094,9.321344930019094,0.0,True
+emile,log_k_stat,4.801263745617131,4.801263745617131,0.0,True
+emile,alpha_stat_per_corpus,0.5150827248281323,0.5150827248281323,0.0,True
+federalist_papers,corpus,Federalist Papers,Federalist Papers,,True
+federalist_papers,vocabulary_size,8617.0,8617.0,0.0,True
+federalist_papers,k_stat,77.01846941025158,77.01846941025158,0.0,True
+federalist_papers,log_vocabulary_size,9.061492275239766,9.061492275239766,0.0,True
+federalist_papers,log_k_stat,4.34404525556208,4.34404525556208,0.0,True
+federalist_papers,alpha_stat_per_corpus,0.47939623227755135,0.47939623227755135,0.0,True
+grimms_fairy_tales,corpus,Grimm's Fairy Tales,Grimm's Fairy Tales,,True
+grimms_fairy_tales,vocabulary_size,4746.0,4746.0,0.0,True
+grimms_fairy_tales,k_stat,295.83274181692707,295.83274181692707,0.0,True
+grimms_fairy_tales,log_vocabulary_size,8.465057436995709,8.465057436995709,0.0,True
+grimms_fairy_tales,log_k_stat,5.689794233187385,5.689794233187385,0.0,True
+grimms_fairy_tales,alpha_stat_per_corpus,0.672150694255268,0.672150694255268,0.0,True
+jane_eyre,corpus,Jane Eyre,Jane Eyre,,True
+jane_eyre,vocabulary_size,12541.0,12541.0,0.0,True
+jane_eyre,k_stat,109.94814088472613,109.94814088472613,0.0,True
+jane_eyre,log_vocabulary_size,9.43675855582405,9.43675855582405,0.0,True
+jane_eyre,log_k_stat,4.700008808124084,4.700008808124084,0.0,True
+jane_eyre,alpha_stat_per_corpus,0.49805330721568547,0.49805330721568547,0.0,True
+king_james_bible,corpus,King James Bible,King James Bible,,True
+king_james_bible,vocabulary_size,12555.0,12555.0,0.0,True
+king_james_bible,k_stat,139.18042245735833,139.18042245735833,0.0,True
+king_james_bible,log_vocabulary_size,9.437874271591685,9.437874271591685,0.0,True
+king_james_bible,log_k_stat,4.935771094743024,4.935771094743024,0.0,True
+king_james_bible,alpha_stat_per_corpus,0.5229748725939123,0.5229748725939123,0.0,True
+les_miserables,corpus,Les Miserables,Les Miserables,,True
+les_miserables,vocabulary_size,22677.0,22677.0,0.0,True
+les_miserables,k_stat,212.6243692971713,212.6243692971713,0.0,True
+les_miserables,log_vocabulary_size,10.029106473960287,10.029106473960287,0.0,True
+les_miserables,log_k_stat,5.359527084443179,5.359527084443179,0.0,True
+les_miserables,alpha_stat_per_corpus,0.5343972664323318,0.5343972664323318,0.0,True
+moby_dick,corpus,Moby Dick,Moby Dick,,True
+moby_dick,vocabulary_size,16956.0,16956.0,0.0,True
+moby_dick,k_stat,172.29660444070635,172.29660444070635,0.0,True
+moby_dick,log_vocabulary_size,9.738377032472528,9.738377032472528,0.0,True
+moby_dick,log_k_stat,5.149217436089005,5.149217436089005,0.0,True
+moby_dick,alpha_stat_per_corpus,0.5287551939013028,0.5287551939013028,0.0,True
+origin_of_species,corpus,Origin of Species,Origin of Species,,True
+origin_of_species,vocabulary_size,6887.0,6887.0,0.0,True
+origin_of_species,k_stat,52.643043892301954,52.643043892301954,0.0,True
+origin_of_species,log_vocabulary_size,8.837390855544697,8.837390855544697,0.0,True
+origin_of_species,log_k_stat,3.963534110047063,3.963534110047063,0.0,True
+origin_of_species,alpha_stat_per_corpus,0.4484959616287978,0.4484959616287978,0.0,True
+pride_and_prejudice,corpus,Pride and Prejudice,Pride and Prejudice,,True
+pride_and_prejudice,vocabulary_size,6729.0,6729.0,0.0,True
+pride_and_prejudice,k_stat,70.88572196207117,70.88572196207117,0.0,True
+pride_and_prejudice,log_vocabulary_size,8.814181823188319,8.814181823188319,0.0,True
+pride_and_prejudice,log_k_stat,4.261069030494397,4.261069030494397,0.0,True
+pride_and_prejudice,alpha_stat_per_corpus,0.4834333028261786,0.4834333028261786,0.0,True
+principia_ethica,corpus,Principia Ethica,Principia Ethica,,True
+principia_ethica,vocabulary_size,3814.0,3814.0,0.0,True
+principia_ethica,k_stat,33.081259098023985,33.081259098023985,0.0,True
+principia_ethica,log_vocabulary_size,8.246433786160365,8.246433786160365,0.0,True
+principia_ethica,log_k_stat,3.498966931644685,3.498966931644685,0.0,True
+principia_ethica,alpha_stat_per_corpus,0.4243006155602499,0.4243006155602499,0.0,True
+shakespeare,corpus,Complete Works of Shakespeare,Complete Works of Shakespeare,,True
+shakespeare,vocabulary_size,24458.0,24458.0,0.0,True
+shakespeare,k_stat,245.1799307720734,245.1799307720734,0.0,True
+shakespeare,log_vocabulary_size,10.104712639749316,10.104712639749316,0.0,True
+shakespeare,log_k_stat,5.501992352311287,5.501992352311287,0.0,True
+shakespeare,alpha_stat_per_corpus,0.5444976565358106,0.5444976565358106,0.0,True
+the_iliad,corpus,The Iliad,The Iliad,,True
+the_iliad,vocabulary_size,12300.0,12300.0,0.0,True
+the_iliad,k_stat,70.17101428697478,70.17101428697478,0.0,True
+the_iliad,log_vocabulary_size,9.417354541360508,9.417354541360508,0.0,True
+the_iliad,log_k_stat,4.25093532386936,4.25093532386936,0.0,True
+the_iliad,alpha_stat_per_corpus,0.4513937863547012,0.4513937863547012,0.0,True
+ulysses,corpus,Ulysses,Ulysses,,True
+ulysses,vocabulary_size,28990.0,28990.0,0.0,True
+ulysses,k_stat,184.34773919684636,184.34773919684636,0.0,True
+ulysses,log_vocabulary_size,10.274706221915702,10.274706221915702,0.0,True
+ulysses,log_k_stat,5.216823860958881,5.216823860958881,0.0,True
+ulysses,alpha_stat_per_corpus,0.5077346007062976,0.5077346007062976,0.0,True
+war_and_peace,corpus,War and Peace,War and Peace,,True
+war_and_peace,vocabulary_size,17445.0,17445.0,0.0,True
+war_and_peace,k_stat,167.61037197710394,167.61037197710394,0.0,True
+war_and_peace,log_vocabulary_size,9.766808353620874,9.766808353620874,0.0,True
+war_and_peace,log_k_stat,5.121642071438083,5.121642071438083,0.0,True
+war_and_peace,alpha_stat_per_corpus,0.5243926046259855,0.5243926046259855,0.0,True
+wealth_of_nations,corpus,Wealth of Nations,Wealth of Nations,,True
+wealth_of_nations,vocabulary_size,9478.0,9478.0,0.0,True
+wealth_of_nations,k_stat,73.86619175502778,73.86619175502778,0.0,True
+wealth_of_nations,log_vocabulary_size,9.156728602527533,9.156728602527533,0.0,True
+wealth_of_nations,log_k_stat,4.30225523687516,4.30225523687516,0.0,True
+wealth_of_nations,alpha_stat_per_corpus,0.46984631997148063,0.46984631997148063,0.0,True

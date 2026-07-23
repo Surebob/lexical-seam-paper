@@ -1,0 +1,23 @@
+simulating GA run 0 to 3.2M tokens...
+  run0 M=0.2M V=16,480 p_new=0.0568
+  run0 M=0.4M V=25,855 p_new=0.0401
+  run0 M=0.8M V=39,323 p_new=0.0291
+  run0 M=1.6M V=58,918 p_new=0.0213
+  run0 M=3.2M V=87,830 p_new=0.0157
+simulating GA run 1 to 3.2M tokens...
+  run1 M=0.2M V=16,481 p_new=0.0568
+  run1 M=0.4M V=25,825 p_new=0.0402
+  run1 M=0.8M V=39,220 p_new=0.0291
+  run1 M=1.6M V=58,938 p_new=0.0213
+  run1 M=3.2M V=87,808 p_new=0.0157
+[1/10] run1_M200k       V= 16,481 s=    184.8 s/V=0.0112
+[2/10] run0_M200k       V= 16,480 s=    185.3 s/V=0.0112
+[3/10] run0_M400k       V= 25,855 s=    308.6 s/V=0.0119
+[4/10] run1_M800k       V= 39,220 s=    479.7 s/V=0.0122
+[5/10] run0_M1600k      V= 58,918 s=    730.4 s/V=0.0124
+[6/10] run0_M800k       V= 39,323 s=    480.8 s/V=0.0122
+[7/10] run1_M400k       V= 25,825 s=    305.3 s/V=0.0118
+[8/10] run1_M1600k      V= 58,938 s=    730.3 s/V=0.0124
+[9/10] run0_M3200k      V= 87,830 s=   1097.6 s/V=0.0125
+[10/10] run1_M3200k      V= 87,808 s=   1096.5 s/V=0.0125
+summary written

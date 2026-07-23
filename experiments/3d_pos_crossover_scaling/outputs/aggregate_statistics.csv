@@ -1,0 +1,10 @@
+metric_name,value,display_format,notes
+top_pos_window,500,integer,Protocol constant: automatic POS tagging window.
+crossover_fraction,0.5,decimal_2,Protocol constant: closed-class fraction threshold.
+manual_validation_window,300,integer,Protocol constant: manual validation window.
+manual_validation_corpus_count,4,integer,"Four alpha points exist, but only three top300 manual CSV files are present; see README AUDIT."
+max_manual_vs_spacy_rank_gap,10.0,integer,"Computed from available manual alpha points vs automatic POS crossover ranks; manuscript/map mention 15, data gives 10."
+forced_alpha,0.5449219781561354,decimal_4,Forced fit k_POS = V^alpha across 25 automatic POS points.
+forced_alpha_ci_low,0.5324369101316629,decimal_4,Student-t 95% CI on the forced alpha using historical curve_fit covariance SE and df = n - 1
+forced_alpha_ci_high,0.5574070461806079,decimal_4,Student-t 95% CI on the forced alpha using historical curve_fit covariance SE and df = n - 1
+forced_alpha_vs_half_pvalue,5.3504421720585314e-08,scientific,Two-sided one-sample t-test on per-corpus alpha values against 0.5

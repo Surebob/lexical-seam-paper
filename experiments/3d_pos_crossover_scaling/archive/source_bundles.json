@@ -1,0 +1,6 @@
+{
+  "source_bundles": [
+    "results/zipf_pos_all_corpora",
+    "results/zipf_pos_manual_v2"
+  ]
+}

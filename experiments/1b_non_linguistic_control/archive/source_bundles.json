@@ -1,0 +1,6 @@
+{
+  "source_bundles": [
+    "results/zipf_enriched_city_populations",
+    "results/zipf_enriched_city_populations_step2_only"
+  ]
+}

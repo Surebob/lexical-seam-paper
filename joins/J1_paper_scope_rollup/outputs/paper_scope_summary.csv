@@ -1,0 +1,8 @@
+metric_name,value,display_format,notes
+english_corpus_count,25,integer,English corpus count from experiment 1a.
+non_english_corpus_count,7,integer,Non-English corpus count from experiment 6.
+total_corpus_count,32,integer,English plus non-English corpus count.
+language_family_count,4,integer,"Manuscript scope count for the seven non-English corpora: Slavic, Sinitic, Semitic, Romance/Germanic-Latin alphabetic grouping."
+smooth_beats_single_zm_total_count,32,X/Y,Smooth model beats single-ZM on English and non-English corpora combined.
+bregman_indoeuropean_alphabetic_count,29,X/Y,"25 English plus Latin, French, Spanish, and Dutch under the manuscript Indo-European alphabetic scope."
+indoeuropean_alphabetic_total_count,29,X/Y,Denominator paired with bregman_indoeuropean_alphabetic_count.

@@ -1,0 +1,4162 @@
+{
+  "corpora": [
+    {
+      "slug": "shakespeare",
+      "name": "Complete Works of Shakespeare",
+      "token_count": 988670,
+      "vocab_size": 24458,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.119923987489083,
+              "c_head": 3376.4604057603033,
+              "alpha_tail": 1.8263437449597508,
+              "beta_tail": 3.083415549778909,
+              "k": 100.93449990596228,
+              "w": 1.1532726304787502,
+              "transition_fraction": 0.4566653159961475
+            },
+            "train_loglike": -5433171.505172623,
+            "train_avg_nll": 6.864164463338109,
+            "penalized_objective": 6.865448987413879,
+            "train_step2_gain": -0.0004587538164613769,
+            "train_step2_expr": "sub[pow[x,x],sqrt[x]]",
+            "dev_logk": -0.6543505879294047,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 78,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.881800823831108,
+          "test_loglike": -1356698.8598125363,
+          "heldout_step2_gain": 0.32288127495369134,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.1358891368209134,
+              "c_head": 3542.239890494251,
+              "alpha_tail": 1.826824596713501,
+              "beta_tail": 3.079527107375584,
+              "k": 101.03044292911106,
+              "w": 1.1507056865712753,
+              "transition_fraction": 0.45675934102358184
+            },
+            "train_loglike": -5433150.07534058,
+            "train_avg_nll": 6.864137389300151,
+            "penalized_objective": 6.86541818590917,
+            "train_step2_gain": -0.00018735724243781893,
+            "train_step2_expr": "sub[pow[x,x],sqrt[x]]",
+            "dev_logk": -0.6534004920462362,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 78,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.881797013594952,
+          "test_loglike": -1356698.1086511498,
+          "heldout_step2_gain": 0.32207112670401294,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.1555821925993937,
+              "c_head": 3703.8497392851223,
+              "alpha_tail": 1.82792143114982,
+              "beta_tail": 3.0753067371170064,
+              "k": 101.0684697880272,
+              "w": 1.1480577190456218,
+              "transition_fraction": 0.4567965829819016
+            },
+            "train_loglike": -5433125.081217526,
+            "train_avg_nll": 6.864105812205429,
+            "penalized_objective": 6.865385133916052,
+            "train_step2_gain": -0.00023541822729514217,
+            "train_step2_expr": "sub[pow[x,x],sqrt[x]]",
+            "dev_logk": -0.6530241727592729,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 77,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.881815035404264,
+          "test_loglike": -1356701.6615247028,
+          "heldout_step2_gain": 0.32274505694904054,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 1.1760051921719914,
+              "c_head": 3857.9470006993934,
+              "alpha_tail": 1.8291527941897734,
+              "beta_tail": 3.0722256451821046,
+              "k": 101.04110014862596,
+              "w": 1.145763117434522,
+              "transition_fraction": 0.4567697796842978
+            },
+            "train_loglike": -5433099.631941055,
+            "train_avg_nll": 6.864073660078627,
+            "penalized_objective": 6.865354043198226,
+            "train_step2_gain": -0.0004211340341660208,
+            "train_step2_expr": "sub[pow[x,x],sqrt[x]]",
+            "dev_logk": -0.653295012379357,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 90,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.881838292197187,
+          "test_loglike": -1356706.24643863,
+          "heldout_step2_gain": 0.3239671895343732,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 1.1199703015511657,
+              "c_head": 3376.0012269115878,
+              "alpha_tail": 1.8262294831785488,
+              "beta_tail": 28.181972183129222,
+              "k": 101.75953961674917,
+              "w": 1.3602971548439995,
+              "transition_fraction": 0.457470958371537
+            },
+            "train_loglike": -5566838.006686401,
+            "train_avg_nll": 7.033036152508254,
+            "penalized_objective": 7.0445654118502254,
+            "train_step2_gain": 0.010137306354539355,
+            "train_step2_expr": "sub[div[x,1],sqrt[x]]",
+            "dev_logk": -0.6462098032356884,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 105,
+            "start_index": 2,
+            "lambda_k": 0.003,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 7.051146399289194,
+          "test_loglike": -1390084.1545950696,
+          "heldout_step2_gain": 0.2931819874657652,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "war_and_peace",
+      "name": "War and Peace",
+      "token_count": 583368,
+      "vocab_size": 17445,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.3208744121775824,
+              "c_head": 4352.963057612869,
+              "alpha_tail": 1.738783590330294,
+              "beta_tail": 1.4671328194801818,
+              "k": 76.7898410696455,
+              "w": 1.145343718815435,
+              "transition_fraction": 0.44447194994419925
+            },
+            "train_loglike": -3107602.25664959,
+            "train_avg_nll": 6.652471462531367,
+            "penalized_objective": 6.654165986220778,
+            "train_step2_gain": -0.0013681660202465307,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.7515591991344532,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 80,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.677652213903539,
+          "test_loglike": -776163.54977865,
+          "heldout_step2_gain": 0.3277894660193318,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.3246677062919707,
+              "c_head": 4451.040362756777,
+              "alpha_tail": 1.7409519715014545,
+              "beta_tail": 1.4758235786610112,
+              "k": 77.02283613765864,
+              "w": 1.1436220689877419,
+              "transition_fraction": 0.4447821431338301
+            },
+            "train_loglike": -3107603.151668947,
+            "train_avg_nll": 6.652473378507171,
+            "penalized_objective": 6.654154268201029,
+            "train_step2_gain": -0.0013730441595187215,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.7485296016987304,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 79,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.677625801443172,
+          "test_loglike": -776160.4797791443,
+          "heldout_step2_gain": 0.3261499987241647,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.335230123254898,
+              "c_head": 4550.44738873919,
+              "alpha_tail": 1.7439702043418799,
+              "beta_tail": 1.4819923300698374,
+              "k": 77.22562341427425,
+              "w": 1.1415821296653046,
+              "transition_fraction": 0.4450513570137581
+            },
+            "train_loglike": -3107601.4861859893,
+            "train_avg_nll": 6.652469813193165,
+            "penalized_objective": 6.654138914703202,
+            "train_step2_gain": -0.0013830488053160894,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.7459002413273392,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 79,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.677634014991969,
+          "test_loglike": -776161.4344645615,
+          "heldout_step2_gain": 0.3258118930639835,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 1.3478316650368098,
+              "c_head": 4648.686476877594,
+              "alpha_tail": 1.7472641366499262,
+              "beta_tail": 1.4874671681150804,
+              "k": 77.41560975013623,
+              "w": 1.1392254868517966,
+              "transition_fraction": 0.4453029361436893
+            },
+            "train_loglike": -3107598.9372536987,
+            "train_avg_nll": 6.652464356671409,
+            "penalized_objective": 6.6541224796723935,
+            "train_step2_gain": -0.0013903449404388812,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.7434431161795301,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 87,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.677656993685842,
+          "test_loglike": -776164.1053470864,
+          "heldout_step2_gain": 0.3261225257747058,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 1.3207584501668053,
+              "c_head": 4352.299593538822,
+              "alpha_tail": 1.7389240255679421,
+              "beta_tail": 13.195231817116557,
+              "k": 78.60974823931653,
+              "w": 1.3772599794654985,
+              "transition_fraction": 0.4468702115494882
+            },
+            "train_loglike": -3181210.1355754444,
+            "train_avg_nll": 6.810044495864032,
+            "penalized_objective": 6.82546710898214,
+            "train_step2_gain": 0.011760981134191856,
+            "train_step2_expr": "sub[div[x,1],sqrt[x]]",
+            "dev_logk": -0.728135837653749,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 101,
+            "start_index": 2,
+            "lambda_k": 0.003,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.8362069560294785,
+          "test_loglike": -794592.8431201744,
+          "heldout_step2_gain": 0.2817669984711787,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "moby_dick",
+      "name": "Moby Dick",
+      "token_count": 219054,
+      "vocab_size": 16956,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 0.8477303828285087,
+              "c_head": 0.000634421476131279,
+              "alpha_tail": 1.527752553128939,
+              "beta_tail": 6.882958523523055,
+              "k": 150.63768419573668,
+              "w": 3.5721418226379256,
+              "transition_fraction": 0.5149602951708981
+            },
+            "train_loglike": -1203666.5091642817,
+            "train_avg_nll": 6.882026924895835,
+            "penalized_objective": 6.882028192358979,
+            "train_step2_gain": 0.0028183941360479525,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": -0.06292931716376415,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 97,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.946298447717541,
+          "test_loglike": -306706.8616605203,
+          "heldout_step2_gain": 0.47829509345309784,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 0.8465713528283396,
+              "c_head": 0.0006344214761312793,
+              "alpha_tail": 1.5264006571077797,
+              "beta_tail": 6.8458349665331895,
+              "k": 155.8114243055929,
+              "w": 3.5184221259287076,
+              "transition_fraction": 0.5184279105902868
+            },
+            "train_loglike": -1203665.0939953905,
+            "train_avg_nll": 6.882018833592856,
+            "penalized_objective": 6.882019533467902,
+            "train_step2_gain": 0.0021089733986680848,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": -0.029160370806141422,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 96,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.946319595910065,
+          "test_loglike": -306707.79543781304,
+          "heldout_step2_gain": 0.4770955084911833,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 0.846976668984483,
+              "c_head": 0.0006344214761312791,
+              "alpha_tail": 1.5253635205656375,
+              "beta_tail": 6.795445213567815,
+              "k": 161.77481613177662,
+              "w": 3.496334339400797,
+              "transition_fraction": 0.5222847017952971
+            },
+            "train_loglike": -1203664.1665883418,
+            "train_avg_nll": 6.882013531094007,
+            "penalized_objective": 6.88201669587478,
+            "train_step2_gain": 0.0017730257337426059,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 0.008398516083772734,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 100,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.946304544699682,
+          "test_loglike": -306707.13086666976,
+          "heldout_step2_gain": 0.47651283627916463,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.8450953278887992,
+              "c_head": 0.0004985460946137323,
+              "alpha_tail": 1.5251113331346253,
+              "beta_tail": 6.747897024385327,
+              "k": 166.29332565086582,
+              "w": 3.4991147677904646,
+              "transition_fraction": 0.5251135003246691
+            },
+            "train_loglike": -1203666.0529970392,
+            "train_avg_nll": 6.882024316735501,
+            "penalized_objective": 6.882029548796512,
+            "train_step2_gain": 0.0006960184925134671,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 0.03594642271170034,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 102,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.9461579243210565,
+          "test_loglike": -306700.65699047194,
+          "heldout_step2_gain": 0.47441554534770614,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.8436782205168376,
+              "c_head": 0.0006344214761312792,
+              "alpha_tail": 5.9995745694828795,
+              "beta_tail": 0.001596080137793443,
+              "k": 566.1495445990068,
+              "w": 2.14558664892989,
+              "transition_fraction": 0.6509152639336763
+            },
+            "train_loglike": -1210865.4816303402,
+            "train_avg_nll": 6.923187430705204,
+            "penalized_objective": 6.929155513311297,
+            "train_step2_gain": 0.007410133193680946,
+            "train_step2_expr": "mul[sub[1,x],mul[x,x]]",
+            "dev_logk": 1.2610514280861942,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 153,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.9869558406070045,
+          "test_loglike": -308502.0481861617,
+          "heldout_step2_gain": 0.49491243626209935,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "king_james_bible",
+      "name": "King James Bible",
+      "token_count": 792180,
+      "vocab_size": 12555,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.0058021654030402,
+              "c_head": 13.578277076795022,
+              "alpha_tail": 4.2730370247541405,
+              "beta_tail": 12.881280482109712,
+              "k": 140.216744210968,
+              "w": 1.6895400584360396,
+              "transition_fraction": 0.5237608868386505
+            },
+            "train_loglike": -3804781.9564640485,
+            "train_avg_nll": 6.00469980535143,
+            "penalized_objective": 6.004735740849072,
+            "train_step2_gain": 0.05982420374669617,
+            "train_step2_expr": "eml[neg[x],add[x,x]]",
+            "dev_logk": 0.022071407031802437,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 82,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.0073298237638335,
+          "test_loglike": -952438.1142384608,
+          "heldout_step2_gain": 0.21464173636600548,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.0149760687807983,
+              "c_head": 13.891386889436472,
+              "alpha_tail": 4.278708970701995,
+              "beta_tail": 12.931541569732135,
+              "k": 138.3442987505464,
+              "w": 1.6852726552324195,
+              "transition_fraction": 0.5223364239271524
+            },
+            "train_loglike": -3804846.3007633695,
+            "train_avg_nll": 6.004801353404915,
+            "penalized_objective": 6.004891213247617,
+            "train_step2_gain": 0.029972906523791032,
+            "train_step2_expr": "eml[neg[x],add[x,x]]",
+            "dev_logk": 0.00862750516853783,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 84,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.00747250930924,
+          "test_loglike": -952460.7364609428,
+          "heldout_step2_gain": 0.24127125752200723,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.0231646408304387,
+              "c_head": 14.294771771832421,
+              "alpha_tail": 4.290561703548471,
+              "beta_tail": 13.043349126637175,
+              "k": 136.1565635410655,
+              "w": 1.6842083479547576,
+              "transition_fraction": 0.5206474768273941
+            },
+            "train_loglike": -3804959.671563454,
+            "train_avg_nll": 6.004980274990695,
+            "penalized_objective": 6.005002317576997,
+            "train_step2_gain": 0.004693244530042939,
+            "train_step2_expr": "eml[neg[x],add[x,x]]",
+            "dev_logk": -0.007312565210350286,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 191,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.007686242046982,
+          "test_loglike": -952494.6229315808,
+          "heldout_step2_gain": 0.26185089346061385,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 1.023940641810697,
+              "c_head": 14.290982469749927,
+              "alpha_tail": 4.290572727759048,
+              "beta_tail": 13.045025449116423,
+              "k": 136.15626194331742,
+              "w": 1.684091558745913,
+              "transition_fraction": 0.5206472421259261
+            },
+            "train_loglike": -3804976.597594642,
+            "train_avg_nll": 6.005006987621627,
+            "penalized_objective": 6.005056955787913,
+            "train_step2_gain": 0.002234996968295294,
+            "train_step2_expr": "div[sub[1,x],eml[1,x]]",
+            "dev_logk": -0.007314780293297574,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 136,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.007715007449986,
+          "test_loglike": -952499.1835711654,
+          "heldout_step2_gain": 0.26391166477275385,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 1.0238355437256061,
+              "c_head": 14.274850333856005,
+              "alpha_tail": 4.290588868046156,
+              "beta_tail": 13.044438589347541,
+              "k": 136.15583527049196,
+              "w": 1.6840024883285476,
+              "transition_fraction": 0.5206469100909323
+            },
+            "train_loglike": -3804977.259158829,
+            "train_avg_nll": 6.005008031700997,
+            "penalized_objective": 6.005510530389038,
+            "train_step2_gain": 0.0022416124162789874,
+            "train_step2_expr": "div[sub[1,x],eml[1,x]]",
+            "dev_logk": -0.00731791399782189,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 152,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.007715230808295,
+          "test_loglike": -952499.2189837319,
+          "heldout_step2_gain": 0.26391288170637994,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "federalist_papers",
+      "name": "Federalist Papers",
+      "token_count": 192302,
+      "vocab_size": 8617,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.0804689178461622,
+              "c_head": 0.5181006293393605,
+              "alpha_tail": 1.4255594518367474,
+              "beta_tail": 8.00469662191702,
+              "k": 112.73743253042488,
+              "w": 0.8134189107532729,
+              "transition_fraction": 0.5214440806771525
+            },
+            "train_loglike": -948041.9499179539,
+            "train_avg_nll": 6.166447359328966,
+            "penalized_objective": 6.1664473609902615,
+            "train_step2_gain": 0.00040277747066699843,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.0001974791883929683,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 456,
+            "start_index": 2,
+            "lambda_k": 0.001,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.196436699604738,
+          "test_loglike": -238934.59913675868,
+          "heldout_step2_gain": 0.3332983393357257,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.0761095613354708,
+              "c_head": 0.5238920541061637,
+              "alpha_tail": 5.999526988726273,
+              "beta_tail": 0.0015960801377943312,
+              "k": 4999.999422065436,
+              "w": 0.4022437838996553,
+              "transition_fraction": 0.9399327193714299
+            },
+            "train_loglike": -947975.2237129809,
+            "train_avg_nll": 6.166013345169055,
+            "penalized_objective": 6.181323173617136,
+            "train_step2_gain": 0.09633633037465378,
+            "train_step2_expr": "div[mul[x,x],eml[1,x]]",
+            "dev_logk": 3.792329045992192,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 129,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.207993331239222,
+          "test_loglike": -239380.22285258438,
+          "heldout_step2_gain": 0.42194701008167157,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.0386666698419897,
+              "c_head": 0.4339101314467333,
+              "alpha_tail": 1.0022665188158202,
+              "beta_tail": 0.001631144584691829,
+              "k": 4222.974951730758,
+              "w": 0.4568550974749356,
+              "transition_fraction": 0.9212936313299744
+            },
+            "train_loglike": -947537.8464066228,
+            "train_avg_nll": 6.163168466695001,
+            "penalized_objective": 6.17630319623981,
+            "train_step2_gain": 0.0023402252267064327,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 3.6234310936870298,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 233,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.202193375616794,
+          "test_loglike": -239156.57656378357,
+          "heldout_step2_gain": 0.39031660150885394,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 1.0279521409182666,
+              "c_head": 0.36212726351773,
+              "alpha_tail": 1.000673844270055,
+              "beta_tail": 0.001980932705874086,
+              "k": 3371.766091892712,
+              "w": 0.4177199038227633,
+              "transition_fraction": 0.8964518980108772
+            },
+            "train_loglike": -947542.826254756,
+            "train_avg_nll": 6.163200857636534,
+            "penalized_objective": 6.174749490282354,
+            "train_step2_gain": -0.0018242372110426897,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 3.3983279191124645,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 244,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.198613891678437,
+          "test_loglike": -239018.55166312054,
+          "heldout_step2_gain": 0.3629053533192733,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 1.0294960753394404,
+              "c_head": 0.36738003202374026,
+              "alpha_tail": 1.0005330178493022,
+              "beta_tail": 0.0014251332514395752,
+              "k": 3313.089862442113,
+              "w": 0.4126405669960378,
+              "transition_fraction": 0.894514532476138
+            },
+            "train_loglike": -947542.6204017538,
+            "train_avg_nll": 6.16319951868555,
+            "penalized_objective": 6.174645250380746,
+            "train_step2_gain": 0.00040136048084501996,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 3.3807724962851093,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 115,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.199229425793617,
+          "test_loglike": -239042.2866586019,
+          "heldout_step2_gain": 0.3747685887871657,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "grimms_fairy_tales",
+      "name": "Grimm's Fairy Tales",
+      "token_count": 102114,
+      "vocab_size": 4746,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 0.7335905816672464,
+              "c_head": 4.684365680263721,
+              "alpha_tail": 5.932122528069057,
+              "beta_tail": 25.89426564635623,
+              "k": 105.57255816986107,
+              "w": 1.2243108154477746,
+              "transition_fraction": 0.5504272719192704
+            },
+            "train_loglike": -492542.8820235529,
+            "train_avg_nll": 6.033550751201128,
+            "penalized_objective": 6.033731604463697,
+            "train_step2_gain": -0.0008476800456478917,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.2455288595185383,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 80,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.073250060002232,
+          "test_loglike": -124380.16122884571,
+          "heldout_step2_gain": 0.3789847038140367,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 0.7336825423994101,
+              "c_head": 4.679205921483311,
+              "alpha_tail": 5.933426444489619,
+              "beta_tail": 25.893957515125617,
+              "k": 105.61121649378303,
+              "w": 1.224408848244322,
+              "transition_fraction": 0.5504705215659491
+            },
+            "train_loglike": -492542.835289139,
+            "train_avg_nll": 6.0335501787140045,
+            "penalized_objective": 6.033731571723204,
+            "train_step2_gain": -0.0008434420025887623,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.24589497026180318,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 82,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.073250306594582,
+          "test_loglike": -124380.16627905704,
+          "heldout_step2_gain": 0.37901918161068504,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7338325624375719,
+              "c_head": 4.680433375306454,
+              "alpha_tail": 5.933408940030911,
+              "beta_tail": 25.89453866091448,
+              "k": 105.64789848590966,
+              "w": 1.2245165538042195,
+              "transition_fraction": 0.5505115455229251
+            },
+            "train_loglike": -492542.79306042526,
+            "train_avg_nll": 6.033549661420796,
+            "penalized_objective": 6.033731567143688,
+            "train_step2_gain": -0.0008308568769282432,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 0.2462422404138982,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 87,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.073250602108432,
+          "test_loglike": -124380.17233118069,
+          "heldout_step2_gain": 0.3790618906193024,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7336973962367667,
+              "c_head": 4.67021274081563,
+              "alpha_tail": 5.933402669647901,
+              "beta_tail": 25.892762293740383,
+              "k": 105.67151263352562,
+              "w": 1.2242556542140146,
+              "transition_fraction": 0.5505379472884793
+            },
+            "train_loglike": -492542.76545229123,
+            "train_avg_nll": 6.033549323226734,
+            "penalized_objective": 6.03373155929918,
+            "train_step2_gain": -0.000819435939658858,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 0.2464657328757518,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 93,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.0732506888218065,
+          "test_loglike": -124380.1741070706,
+          "heldout_step2_gain": 0.37908928718440527,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7336926106012754,
+              "c_head": 4.667947575485709,
+              "alpha_tail": 5.933605804980413,
+              "beta_tail": 25.895004625009594,
+              "k": 105.68031555906558,
+              "w": 1.2244418675976905,
+              "transition_fraction": 0.550547787877767
+            },
+            "train_loglike": -492542.75429109234,
+            "train_avg_nll": 6.033549186504303,
+            "penalized_objective": 6.033731545782846,
+            "train_step2_gain": -0.000842039910402409,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.24654903402928685,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 95,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.073247978878372,
+          "test_loglike": -124380.11860742906,
+          "heldout_step2_gain": 0.3790018671392825,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "don_quixote",
+      "name": "Don Quixote",
+      "token_count": 433304,
+      "vocab_size": 15574,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 0.6166290244852288,
+              "c_head": 1493.2612277442058,
+              "alpha_tail": 1.7732249993734701,
+              "beta_tail": 1.9035578939871203,
+              "k": 70.26854857096068,
+              "w": 1.1263052223803105,
+              "transition_fraction": 0.44050207710011696
+            },
+            "train_loglike": -2240284.471339373,
+            "train_avg_nll": 6.464142906761884,
+            "penalized_objective": 6.464753104851108,
+            "train_step2_gain": -0.0003832101921354414,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.7811517709281706,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 82,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.494384302821047,
+          "test_loglike": -563277.4337365779,
+          "heldout_step2_gain": 0.3741872531358913,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 0.638784566698985,
+              "c_head": 1732.9788625010551,
+              "alpha_tail": 1.7725965336901526,
+              "beta_tail": 1.8985193166819996,
+              "k": 70.29175718005985,
+              "w": 1.1228791975048356,
+              "transition_fraction": 0.4405362859128464
+            },
+            "train_loglike": -2240256.6110680196,
+            "train_avg_nll": 6.464062518410426,
+            "penalized_objective": 6.464672200689328,
+            "train_step2_gain": -0.0004195451162988528,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.780821541007481,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 83,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.494369246986996,
+          "test_loglike": -563276.1278989231,
+          "heldout_step2_gain": 0.3731814796666767,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 0.6684666571332183,
+              "c_head": 1981.044182505068,
+              "alpha_tail": 1.7734918118306808,
+              "beta_tail": 1.8920184380342642,
+              "k": 70.32814393712637,
+              "w": 1.1193421067784035,
+              "transition_fraction": 0.4405898962020107
+            },
+            "train_loglike": -2240227.0986974305,
+            "train_avg_nll": 6.46397736307259,
+            "penalized_objective": 6.46458623743885,
+            "train_step2_gain": -0.0004718743891027888,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.7803040216863959,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 83,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.49439763987248,
+          "test_loglike": -563278.5904990598,
+          "heldout_step2_gain": 0.37350868553830274,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7010435794738848,
+              "c_head": 2232.5863387209397,
+              "alpha_tail": 1.7748749942964532,
+              "beta_tail": 1.8853883315020026,
+              "k": 70.36537380141343,
+              "w": 1.1159685360074083,
+              "transition_fraction": 0.4406447199789583
+            },
+            "train_loglike": -2240199.0926193455,
+            "train_avg_nll": 6.46389655400869,
+            "penalized_objective": 6.464504602728898,
+            "train_step2_gain": -0.000526289718922629,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.7797747881331452,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 88,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.494444212551711,
+          "test_loglike": -563282.6298872476,
+          "heldout_step2_gain": 0.374319501319472,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.6166860705907721,
+              "c_head": 1493.5815234360794,
+              "alpha_tail": 1.7733176982770493,
+              "beta_tail": 16.952897152327044,
+              "k": 70.62345978792315,
+              "w": 1.3078072807127124,
+              "transition_fraction": 0.44102397537484433
+            },
+            "train_loglike": -2307954.902443189,
+            "train_avg_nll": 6.659399956843444,
+            "penalized_objective": 6.679838630768697,
+            "train_step2_gain": 0.014084147631280325,
+            "train_step2_expr": "sub[div[x,1],sqrt[x]]",
+            "dev_logk": -0.776113699971595,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 107,
+            "start_index": 2,
+            "lambda_k": 0.001,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.691530092846797,
+          "test_loglike": -580376.4795428813,
+          "heldout_step2_gain": 0.3438199879944651,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "pride_and_prejudice",
+      "name": "Pride and Prejudice",
+      "token_count": 128565,
+      "vocab_size": 6729,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.7780698975493314,
+              "c_head": 14.395650156808165,
+              "alpha_tail": 1.753103893582824,
+              "beta_tail": 96.30153950583427,
+              "k": 121.31025428025825,
+              "w": 4.9995087869936885,
+              "transition_fraction": 0.5443898759016588
+            },
+            "train_loglike": -648742.3212927673,
+            "train_avg_nll": 6.3165602579501225,
+            "penalized_objective": 6.316564356165754,
+            "train_step2_gain": -0.0014574965133864193,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.20244050068118913,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 93,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.334699665064615,
+          "test_loglike": -163815.33333857093,
+          "heldout_step2_gain": 0.4075358009757861,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.7792216098036604,
+              "c_head": 14.36262300570089,
+              "alpha_tail": 1.7540965556691346,
+              "beta_tail": 96.51550600751344,
+              "k": 117.45524681012816,
+              "w": 4.9994533183658705,
+              "transition_fraction": 0.5407260116056923
+            },
+            "train_loglike": -648742.1257878009,
+            "train_avg_nll": 6.316558354391713,
+            "penalized_objective": 6.316561249376036,
+            "train_step2_gain": -0.0014467850758133616,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.1701465346010531,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 96,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.334735475946774,
+          "test_loglike": -163816.25940798357,
+          "heldout_step2_gain": 0.40811655080488773,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.7798216418490653,
+              "c_head": 14.334421150509502,
+              "alpha_tail": 1.7547251240037918,
+              "beta_tail": 96.62112949422604,
+              "k": 114.82188470079052,
+              "w": 4.999412825388092,
+              "transition_fraction": 0.5381534207202903
+            },
+            "train_loglike": -648742.0443142896,
+            "train_avg_nll": 6.316557561114742,
+            "penalized_objective": 6.3165597358917225,
+            "train_step2_gain": -0.0014390524918285186,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.1474712507804421,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 95,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.334759960929823,
+          "test_loglike": -163816.89258964523,
+          "heldout_step2_gain": 0.4085096540242029,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 1.7780966661297761,
+              "c_head": 14.396375769137622,
+              "alpha_tail": 5.999468045160316,
+              "beta_tail": 0.0015960801378014366,
+              "k": 4999.999380121156,
+              "w": 3.1733032012999445,
+              "transition_fraction": 0.96630557870198
+            },
+            "train_loglike": -679933.9210758423,
+            "train_avg_nll": 6.62026114673913,
+            "penalized_objective": 39.375159926764894,
+            "train_step2_gain": 1.8097889693166296,
+            "train_step2_expr": "mul[mul[x,x],eml[x,1]]",
+            "dev_logk": 3.9212822192215047,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 118,
+            "start_index": 2,
+            "lambda_k": 0.0001,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.644899149169561,
+          "test_loglike": -171837.09199752484,
+          "heldout_step2_gain": 2.0296701310963843,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[add[x,x],add[x,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 1.2483120669691843,
+              "c_head": 13.912398992321714,
+              "alpha_tail": 5.9994943182000995,
+              "beta_tail": 0.001596080137793927,
+              "k": 4999.999378560455,
+              "w": 1.0008442875928028,
+              "transition_fraction": 0.9663055786665666
+            },
+            "train_loglike": -650237.0774918929,
+            "train_avg_nll": 6.331114137499565,
+            "penalized_objective": 6.33286023236635,
+            "train_step2_gain": 0.001443777831773435,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 3.921282218909365,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 339,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.35329388289429,
+          "test_loglike": -164296.17981164635,
+          "heldout_step2_gain": 0.42543972344173087,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "canterbury_tales",
+      "name": "Canterbury Tales",
+      "token_count": 281189,
+      "vocab_size": 17653,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.3458074141539413,
+              "c_head": 7.519810337092632,
+              "alpha_tail": 1.3790516613579922,
+              "beta_tail": 9.94456121834959,
+              "k": 155.72904963136054,
+              "w": 4.999434660571547,
+              "transition_fraction": 0.5162381256193375
+            },
+            "train_loglike": -1521042.2379892934,
+            "train_avg_nll": 6.771986028945066,
+            "penalized_objective": 6.771993740064856,
+            "train_step2_gain": 0.0003776050460680691,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.050694161181557895,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 193,
+            "start_index": 2,
+            "lambda_k": 0.003,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.804524656867,
+          "test_loglike": -385006.80961019173,
+          "heldout_step2_gain": 0.4654297537028699,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.3393531099439986,
+              "c_head": 7.101162372660271,
+              "alpha_tail": 1.3838434884316555,
+              "beta_tail": 10.297690795381262,
+              "k": 156.7715590200698,
+              "w": 4.999438830704367,
+              "transition_fraction": 0.5169204349693277
+            },
+            "train_loglike": -1521006.62773312,
+            "train_avg_nll": 6.771827484920929,
+            "penalized_objective": 6.771833309706027,
+            "train_step2_gain": 0.0003309387991146384,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.044022089337507175,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 96,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.804374136300444,
+          "test_loglike": -384998.2930060154,
+          "heldout_step2_gain": 0.4647378494532266,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.186429174274884,
+              "c_head": 4.111520543999924,
+              "alpha_tail": 5.999527607634161,
+              "beta_tail": 0.0015960801377943312,
+              "k": 4999.999379576358,
+              "w": 2.779238960340823,
+              "transition_fraction": 0.8709978851163035
+            },
+            "train_loglike": -1534020.4794088576,
+            "train_avg_nll": 6.829767770555179,
+            "penalized_objective": 7.077211208286617,
+            "train_step2_gain": 0.4608551249616346,
+            "train_step2_expr": "sub[eml[x,1],add[1,x]]",
+            "dev_logk": 3.4183812703302925,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 123,
+            "start_index": 2,
+            "lambda_k": 0.003,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.866652706126655,
+          "test_loglike": -388522.0767653523,
+          "heldout_step2_gain": 0.9561965510838687,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "mul[mul[x,x],add[x,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 1.0296478238805988,
+              "c_head": 4.289758073071469,
+              "alpha_tail": 5.0484624543663035,
+              "beta_tail": 0.7091771384389668,
+              "k": 2172.397233724181,
+              "w": 2.1067663255644486,
+              "transition_fraction": 0.7857503739412226
+            },
+            "train_loglike": -1523093.9097570013,
+            "train_avg_nll": 6.781120484386136,
+            "penalized_objective": 6.802217958455744,
+            "train_step2_gain": 0.010267874440062497,
+            "train_step2_expr": "mul[sub[1,x],mul[x,x]]",
+            "dev_logk": 2.584774755785527,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 247,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.8173069194150075,
+          "test_loglike": -385730.04280742054,
+          "heldout_step2_gain": 0.5365846319273717,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.9949223162326569,
+              "c_head": 4.6693813822320855,
+              "alpha_tail": 5.999663436187446,
+              "beta_tail": 0.0012614247229001208,
+              "k": 216.44489244716272,
+              "w": 4.103139851266488,
+              "transition_fraction": 0.549905142014804
+            },
+            "train_loglike": -1580030.1030267542,
+            "train_avg_nll": 7.03461187057787,
+            "penalized_objective": 7.518032475563619,
+            "train_step2_gain": 0.06951171684181973,
+            "train_step2_expr": "sub[sqrt[x],mul[x,x]]",
+            "dev_logk": 0.2785241796906641,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 327,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 7.064356245166557,
+          "test_loglike": -399708.340707769,
+          "heldout_step2_gain": 0.6213751096379123,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "arabian_nights_vol1",
+      "name": "Arabian Nights (Vol 1)",
+      "token_count": 176048,
+      "vocab_size": 13883,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 0.9975073930577264,
+              "c_head": 1.010914988247708,
+              "alpha_tail": 1.4259113632434592,
+              "beta_tail": 5.87364333924626,
+              "k": 135.0083705581321,
+              "w": 3.9355598829946925,
+              "transition_fraction": 0.5142713993671854
+            },
+            "train_loglike": -934452.4255741063,
+            "train_avg_nll": 6.632590607958849,
+            "penalized_objective": 6.632591073194382,
+            "train_step2_gain": -0.0005820714423601936,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.0682081763723712,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 85,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.685583959951384,
+          "test_loglike": -235065.13203189068,
+          "heldout_step2_gain": 0.535065530777627,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 0.9965263682553891,
+              "c_head": 0.9890629847851458,
+              "alpha_tail": 1.423090495479619,
+              "beta_tail": 5.854013791073075,
+              "k": 138.15478673444878,
+              "w": 3.7579473038222524,
+              "transition_fraction": 0.516686675492093
+            },
+            "train_loglike": -934450.3847310927,
+            "train_avg_nll": 6.632576122388654,
+            "penalized_objective": 6.6325763264238695,
+            "train_step2_gain": -0.0007088022539383509,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.04517025743401426,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 86,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.685634438969337,
+          "test_loglike": -235066.90687416188,
+          "heldout_step2_gain": 0.5325831971549014,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 0.9970858854501966,
+              "c_head": 0.9744716695804921,
+              "alpha_tail": 1.42086313795057,
+              "beta_tail": 5.833353600611474,
+              "k": 142.51412631582724,
+              "w": 3.6396085883805966,
+              "transition_fraction": 0.5199436537034343
+            },
+            "train_loglike": -934449.1877208811,
+            "train_avg_nll": 6.632567626205788,
+            "penalized_objective": 6.632567646097591,
+            "train_step2_gain": -0.0007460366532265894,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.014103830186593669,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 89,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.685684933730621,
+          "test_loglike": -235068.68226996865,
+          "heldout_step2_gain": 0.5325862594409919,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.9974011113362564,
+              "c_head": 1.0096113237714097,
+              "alpha_tail": 5.999471381050899,
+              "beta_tail": 4.672195838375713,
+              "k": 4999.999379862467,
+              "w": 1.4979186316875177,
+              "transition_fraction": 0.8929353871734728
+            },
+            "train_loglike": -934491.7636231415,
+            "train_avg_nll": 6.632869823002253,
+            "penalized_objective": 6.634145878251328,
+            "train_step2_gain": 0.001425168623880757,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 3.543648110365787,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 129,
+            "start_index": 2,
+            "lambda_k": 0.0001,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.689140202294788,
+          "test_loglike": -235190.16951268475,
+          "heldout_step2_gain": 0.5852883125928587,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.9866199973200878,
+              "c_head": 1.098628881891618,
+              "alpha_tail": 3.869460050451324,
+              "beta_tail": 14.037574686113489,
+              "k": 4254.6470296645,
+              "w": 1.7607323232678684,
+              "transition_fraction": 0.8760116222139122
+            },
+            "train_loglike": -934348.9443579612,
+            "train_avg_nll": 6.631856115197612,
+            "penalized_objective": 6.633000057848771,
+            "train_step2_gain": -0.0007114242690628436,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 3.3822221262932324,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 183,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.686817036769962,
+          "test_loglike": -235108.48701283184,
+          "heldout_step2_gain": 0.5534320558893352,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "aesops_fables",
+      "name": "Aesop's Fables",
+      "token_count": 41594,
+      "vocab_size": 4394,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 0.9277226470393796,
+              "c_head": 0.024829353811066445,
+              "alpha_tail": 1.497793619113623,
+              "beta_tail": 7.457480175089526,
+              "k": 64.86252525131906,
+              "w": 4.135808191275837,
+              "transition_fraction": 0.4974096799273335
+            },
+            "train_loglike": -203067.6657216513,
+            "train_avg_nll": 6.092822038514546,
+            "penalized_objective": 6.092826131953266,
+            "train_step2_gain": 0.001911340737952294,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": -0.2014176378841981,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 95,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.223545777120492,
+          "test_loglike": -51437.605847900864,
+          "heldout_step2_gain": 0.6279265771874389,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 0.9243469042366295,
+              "c_head": 0.018347218293487753,
+              "alpha_tail": 1.4935168777842296,
+              "beta_tail": 7.425022759110032,
+              "k": 67.66368655193054,
+              "w": 3.7818468473994913,
+              "transition_fraction": 0.502450170893918
+            },
+            "train_loglike": -203066.24541551727,
+            "train_avg_nll": 6.092779423790611,
+            "penalized_objective": 6.09278202904919,
+            "train_step2_gain": 0.0008530388300799219,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": -0.159138023583977,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 93,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.223672521709564,
+          "test_loglike": -51438.65339192955,
+          "heldout_step2_gain": 0.6231293674103747,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 0.924082914072284,
+              "c_head": 0.016974870821478402,
+              "alpha_tail": 1.4907307891223185,
+              "beta_tail": 7.374263293202964,
+              "k": 72.21286403284567,
+              "w": 3.621744578874847,
+              "transition_fraction": 0.5102075136160507
+            },
+            "train_loglike": -203065.8517985885,
+            "train_avg_nll": 6.0927676137474425,
+            "penalized_objective": 6.0927686717947305,
+            "train_step2_gain": 0.0004161018815234119,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": -0.09406946965526419,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 93,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.223736768379895,
+          "test_loglike": -51439.18439065984,
+          "heldout_step2_gain": 0.6211587276849201,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.9279002121827065,
+              "c_head": 0.025925118194491874,
+              "alpha_tail": 5.608484112859124,
+              "beta_tail": 6.589895285306677,
+              "k": 4393.999496255145,
+              "w": 1.5560103649463075,
+              "transition_fraction": 0.9999999863323948
+            },
+            "train_loglike": -203231.0675948717,
+            "train_avg_nll": 6.0977247320613195,
+            "penalized_objective": 6.100443922312359,
+            "train_step2_gain": 0.010524845877951577,
+            "train_step2_expr": "sub[pow[x,x],sqrt[x]]",
+            "dev_logk": 4.0143074664174065,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 110,
+            "start_index": 2,
+            "lambda_k": 0.0001,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.224407476713551,
+          "test_loglike": -51444.7277950375,
+          "heldout_step2_gain": 0.4803865765752482,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.9356695307771774,
+              "c_head": 0.21645887066979472,
+              "alpha_tail": 2.074039487743763,
+              "beta_tail": 23.012081931570926,
+              "k": 2070.062075905286,
+              "w": 1.459879271674387,
+              "transition_fraction": 0.9102692173662682
+            },
+            "train_loglike": -203057.1510678893,
+            "train_avg_nll": 6.092506557889204,
+            "penalized_objective": 6.0935729073879585,
+            "train_step2_gain": 0.0001586160100709999,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 3.261646202286472,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 291,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.227058449360711,
+          "test_loglike": -51466.638083966274,
+          "heldout_step2_gain": 0.6378661590703807,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "complete_sherlock_holmes",
+      "name": "Complete Sherlock Holmes",
+      "token_count": 105863,
+      "vocab_size": 7817,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.398389567902359,
+              "c_head": 7.087718218199577,
+              "alpha_tail": 1.4654994318098895,
+              "beta_tail": 15.139200006684971,
+              "k": 106.5906362794159,
+              "w": 4.999359334611504,
+              "transition_fraction": 0.520857478055553
+            },
+            "train_loglike": -541336.9841739507,
+            "train_avg_nll": 6.377899597935256,
+            "penalized_objective": 6.377899854273234,
+            "train_step2_gain": -0.0006885942178437299,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.005062983084981987,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 95,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.448903914060531,
+          "test_loglike": -135336.6975404743,
+          "heldout_step2_gain": 0.474305616598103,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.3962677996729884,
+              "c_head": 7.0560829741285485,
+              "alpha_tail": 1.467669526074604,
+              "beta_tail": 15.26555351224729,
+              "k": 106.63895430713255,
+              "w": 4.999338690049333,
+              "transition_fraction": 0.52090803573843
+            },
+            "train_loglike": -541336.2375420417,
+            "train_avg_nll": 6.377890801301197,
+            "penalized_objective": 6.377891013802022,
+            "train_step2_gain": -0.0007225600870689186,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.0046097811779599596,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 95,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.448979680747697,
+          "test_loglike": -135338.28758017116,
+          "heldout_step2_gain": 0.475811972429653,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.3952534945155988,
+              "c_head": 7.023985631393542,
+              "alpha_tail": 5.999468049360332,
+              "beta_tail": 9.10555647153462,
+              "k": 4999.999380424595,
+              "w": 2.7190763053345735,
+              "transition_fraction": 0.9501494575304608
+            },
+            "train_loglike": -550977.2531390336,
+            "train_avg_nll": 6.4914788828426255,
+            "penalized_objective": 7.4461038470036955,
+            "train_step2_gain": 0.8982917915364773,
+            "train_step2_expr": "eml[mul[x,x],eml[1,x]]",
+            "dev_logk": 3.8431344163229006,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 108,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.580277809232136,
+          "test_loglike": -138093.7101045456,
+          "heldout_step2_gain": 1.4048785462440978,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "mul[mul[x,x],eml[x,1]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.879386319016156,
+              "c_head": 9.96815120020033,
+              "alpha_tail": 1.6434860119654713,
+              "beta_tail": 3.727044643726484,
+              "k": 107.83737851260325,
+              "w": 2.607238045962429,
+              "transition_fraction": 0.5221547334011327
+            },
+            "train_loglike": -541406.7001255444,
+            "train_avg_nll": 6.378720974180808,
+            "penalized_objective": 6.3787237812746955,
+            "train_step2_gain": 0.00048744348135404403,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 0.00656568664542867,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 866,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.449117286661417,
+          "test_loglike": -135341.1753778765,
+          "heldout_step2_gain": 0.47898249347536015,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.8779066389472295,
+              "c_head": 9.89954991144483,
+              "alpha_tail": 1.6429604960128132,
+              "beta_tail": 3.743608597146222,
+              "k": 107.78818203884008,
+              "w": 2.6102695619191025,
+              "transition_fraction": 0.5221038285502378
+            },
+            "train_loglike": -541406.7412366959,
+            "train_avg_nll": 6.378721458542313,
+            "penalized_objective": 6.378721877280322,
+            "train_step2_gain": 2.132924288553162e-05,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 0.006109372704807825,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 119,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.449045255221423,
+          "test_loglike": -135339.66372607677,
+          "heldout_step2_gain": 0.47534766147425767,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "jane_eyre",
+      "name": "Jane Eyre",
+      "token_count": 189604,
+      "vocab_size": 12541,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 0.5458768954013428,
+              "c_head": 327.6037806168387,
+              "alpha_tail": 1.878470447187355,
+              "beta_tail": 3.3437735657626546,
+              "k": 83.09476585207187,
+              "w": 1.332008145465201,
+              "transition_fraction": 0.46837923081263
+            },
+            "train_loglike": -1006512.7791873121,
+            "train_avg_nll": 6.637296179810162,
+            "penalized_objective": 6.637546734636173,
+            "train_step2_gain": -0.0008761692350548189,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.5005545185196665,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 77,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.640138072832315,
+          "test_loglike": -252053.00110664184,
+          "heldout_step2_gain": 0.4426656073170723,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 0.5513241700523686,
+              "c_head": 361.17595164660435,
+              "alpha_tail": 1.8781158502216477,
+              "beta_tail": 3.346758608049007,
+              "k": 82.93346479906769,
+              "w": 1.3283356436654548,
+              "transition_fraction": 0.4681733278708032
+            },
+            "train_loglike": -1006508.5154675014,
+            "train_avg_nll": 6.637268063355213,
+            "penalized_objective": 6.637520567167961,
+            "train_step2_gain": -0.0009059554282722093,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.5024975748676201,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 81,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.640207647330734,
+          "test_loglike": -252055.64208502733,
+          "heldout_step2_gain": 0.44261279200977544,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 0.5577771439278971,
+              "c_head": 396.42906824869294,
+              "alpha_tail": 1.8781442773879322,
+              "beta_tail": 3.3440373298869273,
+              "k": 82.80047186027295,
+              "w": 1.3241933778429789,
+              "transition_fraction": 0.4680032591747162
+            },
+            "train_loglike": -1006504.1436349229,
+            "train_avg_nll": 6.637239233966982,
+            "penalized_objective": 6.63749335326935,
+            "train_step2_gain": -0.00094001193215279,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.504102472090497,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 88,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.640298748131298,
+          "test_loglike": -252059.10018031593,
+          "heldout_step2_gain": 0.4427285287498549,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.5424484992596601,
+              "c_head": 319.41870855641423,
+              "alpha_tail": 1.8785251368283629,
+              "beta_tail": 53.69364701119213,
+              "k": 94.86711943878534,
+              "w": 1.8681525384219508,
+              "transition_fraction": 0.48241958748509833
+            },
+            "train_loglike": -1049157.554449202,
+            "train_avg_nll": 6.91851069569852,
+            "penalized_objective": 6.969340844855319,
+            "train_step2_gain": 0.07120019781100578,
+            "train_step2_expr": "mul[sub[x,1],add[x,x]]",
+            "dev_logk": -0.36805906256392973,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 91,
+            "start_index": 2,
+            "lambda_k": 0.001,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.930154007887527,
+          "test_loglike": -263061.71598540264,
+          "heldout_step2_gain": 0.31511399464518886,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 1.0077625665731968,
+              "c_head": 318.5368981035827,
+              "alpha_tail": 2.8017698456316085,
+              "beta_tail": 26.128866531151647,
+              "k": 117.98299434304242,
+              "w": 1.5873413364631999,
+              "transition_fraction": 0.5055274509909813
+            },
+            "train_loglike": -1012020.1031663646,
+            "train_avg_nll": 6.673613394219161,
+            "penalized_objective": 6.673825126865799,
+            "train_step2_gain": 0.0013756232276477265,
+            "train_step2_expr": "eml[log[x],add[1,x]]",
+            "dev_logk": -0.14999573391797494,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 372,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.682442126223957,
+          "test_loglike": -253658.82066933517,
+          "heldout_step2_gain": 0.4417970354995213,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "dubliners",
+      "name": "Dubliners",
+      "token_count": 69264,
+      "vocab_size": 7157,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.1166075583882291,
+              "c_head": 2.5936329933241646,
+              "alpha_tail": 1.3830745841804324,
+              "beta_tail": 7.684213980520352,
+              "k": 102.56715300908586,
+              "w": 0.3186230189691567,
+              "transition_fraction": 0.5216987363956841
+            },
+            "train_loglike": -357972.8539301608,
+            "train_avg_nll": 6.463353867114938,
+            "penalized_objective": 6.463353885177139,
+            "train_step2_gain": -0.0012939269524014918,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.0024537183461950107,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 91,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.517220601713122,
+          "test_loglike": -90452.50473117642,
+          "heldout_step2_gain": 0.6312901040212743,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.1153553357421768,
+              "c_head": 2.581583518085031,
+              "alpha_tail": 1.3856678091526002,
+              "beta_tail": 7.776523610019483,
+              "k": 102.38967146189331,
+              "w": 0.3286614121003644,
+              "transition_fraction": 0.5215036121849072
+            },
+            "train_loglike": -357972.04651044786,
+            "train_avg_nll": 6.463339288804692,
+            "penalized_objective": 6.46333929036779,
+            "train_step2_gain": -0.0013285012404734842,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.0007218258657868404,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 94,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.517312160735382,
+          "test_loglike": -90453.77547884636,
+          "heldout_step2_gain": 0.6323145514496633,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.114954091599789,
+              "c_head": 2.5751411960295494,
+              "alpha_tail": 1.3877543988326295,
+              "beta_tail": 7.862434474639033,
+              "k": 102.46677379840497,
+              "w": 0.33348285330882327,
+              "transition_fraction": 0.521588420445459
+            },
+            "train_loglike": -357971.5053105508,
+            "train_avg_nll": 6.463329517207742,
+            "penalized_objective": 6.46332952373082,
+            "train_step2_gain": -0.00135016210694211,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.0014745709410455277,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 95,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.517381512802062,
+          "test_loglike": -90454.7380161798,
+          "heldout_step2_gain": 0.6330038485834617,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 1.1150237638282214,
+              "c_head": 2.573526923915948,
+              "alpha_tail": 1.3895270558212143,
+              "beta_tail": 7.941954877517661,
+              "k": 102.53668720904344,
+              "w": 0.3369053604484712,
+              "transition_fraction": 0.5216652661402155
+            },
+            "train_loglike": -357971.09115699487,
+            "train_avg_nll": 6.463322039487133,
+            "penalized_objective": 6.463322053440441,
+            "train_step2_gain": -0.001364899097528044,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.0021566415071259115,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 96,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.517437408351043,
+          "test_loglike": -90455.51379050412,
+          "heldout_step2_gain": 0.6335448176513673,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 1.1151963635991489,
+              "c_head": 2.5727240384166237,
+              "alpha_tail": 1.3911918760486313,
+              "beta_tail": 8.019294275632834,
+              "k": 102.60456405638918,
+              "w": 0.340311901143968,
+              "transition_fraction": 0.5217398232229787
+            },
+            "train_loglike": -357970.72810124326,
+            "train_avg_nll": 6.463315484359362,
+            "penalized_objective": 6.463315508189476,
+            "train_step2_gain": -0.0013776380380637332,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.0028183987051937365,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 100,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.5174894421934875,
+          "test_loglike": -90456.23596820341,
+          "heldout_step2_gain": 0.6340263395275416,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "the_iliad",
+      "name": "The Iliad",
+      "token_count": 194969,
+      "vocab_size": 12300,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.0062507605947302,
+              "c_head": 0.485056944776239,
+              "alpha_tail": 1.366441854166466,
+              "beta_tail": 8.837598562768761,
+              "k": 135.17903528953306,
+              "w": 0.050000000254746796,
+              "transition_fraction": 0.521016816942495
+            },
+            "train_loglike": -1071657.4603846811,
+            "train_avg_nll": 6.873123783893543,
+            "penalized_objective": 6.873141131987354,
+            "train_step2_gain": 0.041475640420214926,
+            "train_step2_expr": "eml[neg[x],add[x,x]]",
+            "dev_logk": -0.003818459495207094,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 365,
+            "start_index": 2,
+            "lambda_k": 0.01,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.8804239183336975,
+          "test_loglike": -268673.67358701257,
+          "heldout_step2_gain": 0.3550633366601156,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 0.9311021222088698,
+              "c_head": 2.466360344362435e-09,
+              "alpha_tail": 1.4225607499485664,
+              "beta_tail": 10.537251939248678,
+              "k": 144.96720059161447,
+              "w": 0.4520555613214515,
+              "transition_fraction": 0.5284400722262136
+            },
+            "train_loglike": -1070915.8065777295,
+            "train_avg_nll": 6.868367153525715,
+            "penalized_objective": 6.868410845622905,
+            "train_step2_gain": 0.00038185232342388686,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.06608896736259773,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 362,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.87809158265459,
+          "test_loglike": -268582.5982110791,
+          "heldout_step2_gain": 0.37426737489109707,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 0.930897390643147,
+              "c_head": 0.0006344214761312795,
+              "alpha_tail": 1.429434388648647,
+              "beta_tail": 10.986600564198344,
+              "k": 145.65732890530788,
+              "w": 0.4671214206540302,
+              "transition_fraction": 0.5289443844203229
+            },
+            "train_loglike": -1070890.1237837235,
+            "train_avg_nll": 6.868202435760155,
+            "penalized_objective": 6.8682527150493415,
+            "train_step2_gain": 0.0003141763127353092,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.07083825409405708,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 100,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.878081399898542,
+          "test_loglike": -268582.20058463817,
+          "heldout_step2_gain": 0.3758586486448907,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.9317758335983869,
+              "c_head": 0.0006344214761312793,
+              "alpha_tail": 1.4351965086135294,
+              "beta_tail": 11.432783786699467,
+              "k": 145.67078264648174,
+              "w": 0.485391126931261,
+              "transition_fraction": 0.5289541919978489
+            },
+            "train_loglike": -1070869.8332498088,
+            "train_avg_nll": 6.868072301499543,
+            "penalized_objective": 6.868123365663948,
+            "train_step2_gain": 0.0002743432542522406,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.07093061552881075,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 107,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.878062466944764,
+          "test_loglike": -268581.46127172606,
+          "heldout_step2_gain": 0.37681135915383257,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.93211645766537,
+              "c_head": 0.0006387513548268669,
+              "alpha_tail": 1.4395394593636315,
+              "beta_tail": 11.812625290932381,
+              "k": 145.61621135198612,
+              "w": 0.4978487940874696,
+              "transition_fraction": 0.5289144047186066
+            },
+            "train_loglike": -1070855.3845200464,
+            "train_avg_nll": 6.867979633915126,
+            "penalized_objective": 6.868033570857951,
+            "train_step2_gain": 0.00020385185414736884,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.07055592461395044,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 109,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.878055161643667,
+          "test_loglike": -268581.17600702355,
+          "heldout_step2_gain": 0.37666989135302553,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "democracy_in_america",
+      "name": "Democracy in America",
+      "token_count": 187753,
+      "vocab_size": 9301,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.010168003563646,
+              "c_head": 0.08607554159501776,
+              "alpha_tail": 1.3805759739923897,
+              "beta_tail": 6.032103679433636,
+              "k": 117.98740232720965,
+              "w": 1.039135249550734,
+              "transition_fraction": 0.5220663130273769
+            },
+            "train_loglike": -939774.547030916,
+            "train_avg_nll": 6.261198221332596,
+            "penalized_objective": 6.26119926220207,
+            "train_step2_gain": 0.0004316605257476125,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.005885026669027127,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 538,
+            "start_index": 2,
+            "lambda_k": 0.03,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.310539469479433,
+          "test_loglike": -237642.29534165649,
+          "heldout_step2_gain": 0.3508612920041408,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.0100954235097204,
+              "c_head": 0.09194606616265627,
+              "alpha_tail": 5.9995712938316075,
+              "beta_tail": 0.001596080137793443,
+              "k": 1184.6074787868351,
+              "w": 1.8204167626054115,
+              "transition_fraction": 0.7744869625714332
+            },
+            "train_loglike": -944781.2892763186,
+            "train_avg_nll": 6.29455537677017,
+            "penalized_objective": 6.460198385026976,
+            "train_step2_gain": 0.22840618734048337,
+            "train_step2_expr": "div[sqrt[x],eml[x,x]]",
+            "dev_logk": 2.312473925008053,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 121,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.348338698594432,
+          "test_loglike": -239065.73871166914,
+          "heldout_step2_gain": 0.650016932237937,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7876161769338139,
+              "c_head": 0.5423575447837068,
+              "alpha_tail": 1.0014011676303292,
+              "beta_tail": 0.0016311445841717396,
+              "k": 120.30670833114331,
+              "w": 1.8008383189805885,
+              "transition_fraction": 0.5241966246438466
+            },
+            "train_loglike": -940090.898648456,
+            "train_avg_nll": 6.263305897254779,
+            "penalized_objective": 6.263326382417906,
+            "train_step2_gain": 0.0010973269895051263,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.025351552618577244,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 564,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.312225320061417,
+          "test_loglike": -237705.78110287286,
+          "heldout_step2_gain": 0.3536511469562301,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7858283271889042,
+              "c_head": 0.46217913795257226,
+              "alpha_tail": 1.0014011676303292,
+              "beta_tail": 0.0018691411403732243,
+              "k": 117.0365412740175,
+              "w": 1.8137722958947158,
+              "transition_fraction": 0.5211808060291548
+            },
+            "train_loglike": -940069.3256694146,
+            "train_avg_nll": 6.263162168422763,
+            "penalized_objective": 6.263168909323295,
+            "train_step2_gain": 0.0008120852405388568,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.0022066275406817937,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 119,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.311823221136617,
+          "test_loglike": -237690.6388615627,
+          "heldout_step2_gain": 0.34419159473548055,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7859327164077741,
+              "c_head": 0.3912823953796538,
+              "alpha_tail": 5.999607675873522,
+              "beta_tail": 0.0016257717585986917,
+              "k": 193.78587514243873,
+              "w": 1.7281255526255639,
+              "transition_fraction": 0.5763651335759715
+            },
+            "train_loglike": -942603.3381103801,
+            "train_avg_nll": 6.280044892304074,
+            "penalized_objective": 6.289368862399433,
+            "train_step2_gain": 0.004197634139942064,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 0.5020609809600867,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 113,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.330574119788491,
+          "test_loglike": -238396.76020299498,
+          "heldout_step2_gain": 0.3749374233910905,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "origin_of_species",
+      "name": "Origin of Species",
+      "token_count": 156024,
+      "vocab_size": 6887,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 0.9825425743842814,
+              "c_head": 0.6317585942265839,
+              "alpha_tail": 1.5368615770861696,
+              "beta_tail": 13.531064524390725,
+              "k": 101.34861757811832,
+              "w": 1.1356590094525723,
+              "transition_fraction": 0.5226164948707078
+            },
+            "train_loglike": -792613.2630201608,
+            "train_avg_nll": 6.353817060428076,
+            "penalized_objective": 6.353820401831509,
+            "train_step2_gain": -5.556200972622882e-05,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.01055367776756988,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 451,
+            "start_index": 2,
+            "lambda_k": 0.03,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.373698730785917,
+          "test_loglike": -199356.54890152192,
+          "heldout_step2_gain": 0.31006688371604096,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 0.9823471712063189,
+              "c_head": 0.6492776676979355,
+              "alpha_tail": 5.99935261370319,
+              "beta_tail": 0.0015960801377943312,
+              "k": 582.8834257527382,
+              "w": 1.6635522527342186,
+              "transition_fraction": 0.7205732228686133
+            },
+            "train_loglike": -798097.1749114973,
+            "train_avg_nll": 6.397777683544941,
+            "penalized_objective": 6.493036454901552,
+            "train_step2_gain": 0.15275626694734476,
+            "train_step2_expr": "div[sqrt[x],eml[x,x]]",
+            "dev_logk": 1.759974655569808,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 126,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.417496221600333,
+          "test_loglike": -200726.4468192152,
+          "heldout_step2_gain": 0.5199274665559204,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7407843192965723,
+              "c_head": 1.641134604085005,
+              "alpha_tail": 1.0019717681680829,
+              "beta_tail": 0.0022061469767758485,
+              "k": 102.51825345459436,
+              "w": 1.3968731726021664,
+              "transition_fraction": 0.5239149134501114
+            },
+            "train_loglike": -793162.3291323106,
+            "train_avg_nll": 6.35821853311778,
+            "penalized_objective": 6.358273289386128,
+            "train_step2_gain": 0.006340258257848147,
+            "train_step2_expr": "eml[neg[x],add[x,x]]",
+            "dev_logk": 0.022028310247860894,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 441,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.376440986003278,
+          "test_loglike": -199442.32116021053,
+          "heldout_step2_gain": 0.30523831469890417,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7429426589309923,
+              "c_head": 1.6238442933322499,
+              "alpha_tail": 2.790715671776309,
+              "beta_tail": 0.18757279962817255,
+              "k": 160.31373648717565,
+              "w": 1.3753706136654857,
+              "transition_fraction": 0.5745058503472568
+            },
+            "train_loglike": -794143.9206035655,
+            "train_avg_nll": 6.366087254128914,
+            "penalized_objective": 6.3733528764915786,
+            "train_step2_gain": 0.008144996551445821,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 0.4691201933561313,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 112,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.3856437353038835,
+          "test_loglike": -199730.16475283485,
+          "heldout_step2_gain": 0.3487787714571283,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7260766470993292,
+              "c_head": 1.2706915432825878,
+              "alpha_tail": 2.6665638832052108,
+              "beta_tail": 0.38998205000290254,
+              "k": 160.2514282882658,
+              "w": 1.3885180310446483,
+              "transition_fraction": 0.5744618622872312
+            },
+            "train_loglike": -793822.2352447697,
+            "train_avg_nll": 6.363508531293746,
+            "penalized_objective": 6.370441789879531,
+            "train_step2_gain": 0.0018492790914510782,
+            "train_step2_expr": "div[sub[1,x],eml[1,x]]",
+            "dev_logk": 0.46873145367670777,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 244,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.382669334743493,
+          "test_loglike": -199637.131452107,
+          "heldout_step2_gain": 0.3228833603652743,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "wealth_of_nations",
+      "name": "Wealth of Nations",
+      "token_count": 380080,
+      "vocab_size": 9478,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.2965121338561085,
+              "c_head": 4554.508958720845,
+              "alpha_tail": 2.4279189731287163,
+              "beta_tail": 1.5956059037340382,
+              "k": 57.89031835115029,
+              "w": 0.8449499247066583,
+              "transition_fraction": 0.44323145672331543
+            },
+            "train_loglike": -1868647.4559852942,
+            "train_avg_nll": 6.14520904224944,
+            "penalized_objective": 6.145260303870868,
+            "train_step2_gain": -0.0009465846926356714,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.7159722161412203,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 80,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.153907153699176,
+          "test_loglike": -467684.63586683,
+          "heldout_step2_gain": 0.3102430302400606,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.308561012359218,
+              "c_head": 4624.965064640136,
+              "alpha_tail": 2.428420800097769,
+              "beta_tail": 1.5963341487356524,
+              "k": 57.89121925633516,
+              "w": 0.8446648305109905,
+              "transition_fraction": 0.4432331562556314
+            },
+            "train_loglike": -1868645.5980393463,
+            "train_avg_nll": 6.145202932233234,
+            "penalized_objective": 6.145254191626273,
+            "train_step2_gain": -0.0009510726942526804,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.7159566539850513,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 78,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.153912661465799,
+          "test_loglike": -467685.05444607773,
+          "heldout_step2_gain": 0.3103512133790526,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.3204567255004842,
+              "c_head": 4694.8444601199435,
+              "alpha_tail": 2.4290324545787043,
+              "beta_tail": 1.5966760411391783,
+              "k": 57.88829583506155,
+              "w": 0.8445263991832358,
+              "transition_fraction": 0.44322764120720615
+            },
+            "train_loglike": -1868643.7939042123,
+            "train_avg_nll": 6.145196999178552,
+            "penalized_objective": 6.145248265802979,
+            "train_step2_gain": -0.0009622038007360556,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.7160071537867116,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 85,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.153915156493214,
+          "test_loglike": -467685.2440631713,
+          "heldout_step2_gain": 0.3101885707879314,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 1.3338650320975691,
+              "c_head": 4765.570181393557,
+              "alpha_tail": 2.429387689148202,
+              "beta_tail": 1.597309213900029,
+              "k": 57.882183360562976,
+              "w": 0.8442184146785964,
+              "transition_fraction": 0.44321610909436926
+            },
+            "train_loglike": -1868641.8476734816,
+            "train_avg_nll": 6.145190598830189,
+            "penalized_objective": 6.1452418805772915,
+            "train_step2_gain": -0.0009603883885560549,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.7161127502141724,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 90,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.1539263832399165,
+          "test_loglike": -467686.09727346717,
+          "heldout_step2_gain": 0.31067260316258183,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 1.3459163971278334,
+              "c_head": 4836.64651484695,
+              "alpha_tail": 2.4301549920846384,
+              "beta_tail": 1.5976340446073416,
+              "k": 57.87740018566811,
+              "w": 0.843876577310689,
+              "transition_fraction": 0.4432070840580375
+            },
+            "train_loglike": -1868640.090862386,
+            "train_avg_nll": 6.1451848214047065,
+            "penalized_objective": 6.145236114988375,
+            "train_step2_gain": -0.0009629164802616719,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.7161953900224907,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 98,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.153932083385938,
+          "test_loglike": -467686.5304731646,
+          "heldout_step2_gain": 0.31084462111558664,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "les_miserables",
+      "name": "Les Miserables",
+      "token_count": 575614,
+      "vocab_size": 22677,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.5068680832068653,
+              "c_head": 3098.325330707579,
+              "alpha_tail": 1.5216081784219961,
+              "beta_tail": 2.191657937444141,
+              "k": 44.57722854949139,
+              "w": 1.8976108384727004,
+              "transition_fraction": 0.37862028565160855
+            },
+            "train_loglike": -3113361.099255109,
+            "train_avg_nll": 6.765396607165989,
+            "penalized_objective": 6.7660119460075485,
+            "train_step2_gain": -0.0008637904006603692,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -1.432176480698753,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 80,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.8001733408128215,
+          "test_loglike": -784910.00786332,
+          "heldout_step2_gain": 0.3867357984477706,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.531473482996321,
+              "c_head": 3243.2755279881017,
+              "alpha_tail": 1.5235102706597359,
+              "beta_tail": 2.194762483176533,
+              "k": 44.93237183751308,
+              "w": 1.8909536689142594,
+              "transition_fraction": 0.37941151798377915
+            },
+            "train_loglike": -3113346.65739136,
+            "train_avg_nll": 6.7653652247041105,
+            "penalized_objective": 6.765973763540798,
+            "train_step2_gain": -0.0008817999925436193,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -1.424241127393774,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 79,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.800220700688515,
+          "test_loglike": -784915.4743769718,
+          "heldout_step2_gain": 0.3866699917020324,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.5582378737327545,
+              "c_head": 3383.550009180701,
+              "alpha_tail": 1.5254709664576784,
+              "beta_tail": 2.195563000415461,
+              "k": 45.31941551811669,
+              "w": 1.8843283412808216,
+              "transition_fraction": 0.3802667315580694
+            },
+            "train_loglike": -3113332.5735901836,
+            "train_avg_nll": 6.765334620319442,
+            "penalized_objective": 6.765935851772141,
+            "train_step2_gain": -0.0009015605315825792,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -1.4156640993992413,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 78,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.800294688001112,
+          "test_loglike": -784924.0143625283,
+          "heldout_step2_gain": 0.38707581386274625,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 1.5843131543056181,
+              "c_head": 3519.1531321153375,
+              "alpha_tail": 1.527289132317561,
+              "beta_tail": 2.194266109810412,
+              "k": 45.70685826846648,
+              "w": 1.8780764818599085,
+              "transition_fraction": 0.38111554285366783
+            },
+            "train_loglike": -3113319.9770965283,
+            "train_avg_nll": 6.765307247884083,
+            "penalized_objective": 6.76590127030198,
+            "train_step2_gain": -0.0009226799568784472,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -1.407151280539384,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 85,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.800368321935039,
+          "test_loglike": -784932.5135593519,
+          "heldout_step2_gain": 0.38742553813990155,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 1.609533316444785,
+              "c_head": 3649.2783794328457,
+              "alpha_tail": 1.5290168221823668,
+              "beta_tail": 2.1924783373921715,
+              "k": 46.08016692154315,
+              "w": 1.8717814648237456,
+              "transition_fraction": 0.38192661018762303
+            },
+            "train_loglike": -3113308.852995954,
+            "train_avg_nll": 6.7652830749886546,
+            "penalized_objective": 6.765870249558448,
+            "train_step2_gain": -0.0009394446481889862,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -1.3990169998895965,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 88,
+            "start_index": 1,
+            "lambda_k": 0.0003,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.800444403893097,
+          "test_loglike": -784941.2953193608,
+          "heldout_step2_gain": 0.3878878049794102,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "decline_and_fall_vol1",
+      "name": "Decline and Fall Vol 1",
+      "token_count": 262698,
+      "vocab_size": 15983,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.0421845118143678,
+              "c_head": 9.023469327722041e-05,
+              "alpha_tail": 1.2550194377284953,
+              "beta_tail": 4.962766067451528,
+              "k": 156.95763865746775,
+              "w": 0.26630447951069053,
+              "transition_fraction": 0.5223503672132801
+            },
+            "train_loglike": -1401232.974405006,
+            "train_avg_nll": 6.673427763725669,
+            "penalized_objective": 6.673464945572721,
+            "train_step2_gain": 0.05895840935966784,
+            "train_step2_expr": "eml[neg[x],add[x,x]]",
+            "dev_logk": 0.008983144791013586,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 443,
+            "start_index": 2,
+            "lambda_k": 0.03,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.717759356887849,
+          "test_loglike": -354200.57985126873,
+          "heldout_step2_gain": 0.3602217993515119,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 0.7150505375889694,
+              "c_head": 1.9875696648157184,
+              "alpha_tail": 2.9473036184582972,
+              "beta_tail": 3.7282288901696994,
+              "k": 170.69157157556594,
+              "w": 1.864869305765821,
+              "transition_fraction": 0.5310165379758
+            },
+            "train_loglike": -1400720.8890616961,
+            "train_avg_nll": 6.670988936913951,
+            "penalized_objective": 6.67124819024556,
+            "train_step2_gain": 0.0023099749477493714,
+            "train_step2_expr": "div[sub[1,x],eml[1,x]]",
+            "dev_logk": 0.09286544624398729,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 474,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.716407380588885,
+          "test_loglike": -354129.29554892954,
+          "heldout_step2_gain": 0.3969517347373779,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7083202717774735,
+              "c_head": 2.113802898960399,
+              "alpha_tail": 2.9035451420339835,
+              "beta_tail": 3.6400565830178686,
+              "k": 167.76403380514242,
+              "w": 1.847719087721212,
+              "transition_fraction": 0.5292292335634419
+            },
+            "train_loglike": -1400703.4331628731,
+            "train_avg_nll": 6.670905802501634,
+            "penalized_objective": 6.671079264617804,
+            "train_step2_gain": 0.0014687433399240557,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.0755656247179628,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 88,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.71623776253716,
+          "test_loglike": -354120.3522675343,
+          "heldout_step2_gain": 0.3936775842547223,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7028172954515332,
+              "c_head": 2.1300385214832627,
+              "alpha_tail": 2.8808122710179482,
+              "beta_tail": 3.5603562450054285,
+              "k": 165.65306816481603,
+              "w": 1.833671202969283,
+              "transition_fraction": 0.5279209978654024
+            },
+            "train_loglike": -1400694.8632328326,
+            "train_avg_nll": 6.670864987869014,
+            "penalized_objective": 6.671002097290256,
+            "train_step2_gain": 0.0013567014502551267,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.06290284386565226,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 101,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.7161645816952795,
+          "test_loglike": -354116.49373446533,
+          "heldout_step2_gain": 0.39146519571550054,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.698039478493859,
+              "c_head": 2.1291647285231665,
+              "alpha_tail": 2.8669502958157222,
+              "beta_tail": 3.4918174603607555,
+              "k": 165.69793135736214,
+              "w": 1.8235787245338155,
+              "transition_fraction": 0.527948974069885
+            },
+            "train_loglike": -1400685.536576339,
+            "train_avg_nll": 6.670820569296568,
+            "penalized_objective": 6.671073477747797,
+            "train_step2_gain": 0.0011540416478121596,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.0631736334083719,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 131,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.716065254303519,
+          "test_loglike": -354111.25659840734,
+          "heldout_step2_gain": 0.3871781524918857,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "emile",
+      "name": "Emile",
+      "token_count": 252843,
+      "vocab_size": 11174,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.1744234920013519,
+              "c_head": 4.360171301579295,
+              "alpha_tail": 1.5197791935960814,
+              "beta_tail": 11.394424099312278,
+              "k": 91.34094772356369,
+              "w": 3.451608254485219,
+              "transition_fraction": 0.4843291625162282
+            },
+            "train_loglike": -1301897.4863443759,
+            "train_avg_nll": 6.441274336498362,
+            "penalized_objective": 6.441286295353417,
+            "train_step2_gain": 0.0006331349646863937,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": -0.3457578120102527,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 84,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.487042368210023,
+          "test_loglike": -329055.2241274534,
+          "heldout_step2_gain": 0.404475577240033,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.1727658029143302,
+              "c_head": 4.30591774121085,
+              "alpha_tail": 1.5180869820969638,
+              "beta_tail": 11.405950045023921,
+              "k": 93.29827146155164,
+              "w": 3.2077955697433524,
+              "transition_fraction": 0.48660376963444407
+            },
+            "train_loglike": -1301895.5777978473,
+            "train_avg_nll": 6.441264893764273,
+            "penalized_objective": 6.44127542738598,
+            "train_step2_gain": -9.860921254545296e-07,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": -0.32455541448108605,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 84,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.487074247430257,
+          "test_loglike": -329056.8412008998,
+          "heldout_step2_gain": 0.4030767163675554,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.1725562577559232,
+              "c_head": 4.261541459106705,
+              "alpha_tail": 5.999564299241144,
+              "beta_tail": 5.724816740947514,
+              "k": 4999.999494845022,
+              "w": 2.079717611568145,
+              "transition_fraction": 0.9137300630251206
+            },
+            "train_loglike": -1304495.960204727,
+            "train_avg_nll": 6.454130558410072,
+            "penalized_objective": 6.470490798911307,
+            "train_step2_gain": 0.12256832983582253,
+            "train_step2_expr": "eml[log[x],add[1,x]]",
+            "dev_logk": 3.6568360948939453,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 109,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.501815682039663,
+          "test_loglike": -329804.6004714619,
+          "heldout_step2_gain": 0.5568960781530019,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 1.0969883083806795,
+              "c_head": 4.639850567193422,
+              "alpha_tail": 3.9838926844805864,
+              "beta_tail": 3.9140305962662376,
+              "k": 3879.401601456524,
+              "w": 1.8065643603034582,
+              "transition_fraction": 0.8865068567178901
+            },
+            "train_loglike": -1301796.8032905678,
+            "train_avg_nll": 6.44077619653157,
+            "penalized_objective": 6.441940330980296,
+            "train_step2_gain": 0.0007771515549549746,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 3.4030791988031783,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 181,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.486664102557857,
+          "test_loglike": -329036.0366022473,
+          "heldout_step2_gain": 0.4063679577274478,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 1.095575208071269,
+              "c_head": 4.619493936542089,
+              "alpha_tail": 3.9901331853777435,
+              "beta_tail": 3.449445167253644,
+              "k": 3871.244396775077,
+              "w": 1.8043078266079728,
+              "transition_fraction": 0.8862810405488567
+            },
+            "train_loglike": -1301794.9753250675,
+            "train_avg_nll": 6.440767152480569,
+            "penalized_objective": 6.4419255460446605,
+            "train_step2_gain": 0.0001315656891371919,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 3.4009742884008425,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 94,
+            "start_index": 1,
+            "lambda_k": 0.0001,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.486614436645336,
+          "test_loglike": -329033.5172988347,
+          "heldout_step2_gain": 0.40468347811124583,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "ulysses",
+      "name": "Ulysses",
+      "token_count": 268854,
+      "vocab_size": 28990,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.037800227952953,
+              "c_head": 2.4014609945748537,
+              "alpha_tail": 1.0760887129894912,
+              "beta_tail": 1.2246035053171689,
+              "k": 215.9203040304714,
+              "w": 3.0876263692524275,
+              "transition_fraction": 0.5231204922739485
+            },
+            "train_loglike": -1571346.6024347716,
+            "train_avg_nll": 7.296778249320967,
+            "penalized_objective": 7.296778553773064,
+            "train_step2_gain": -0.0003010312715741592,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.017448555703477808,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 88,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 7.351417017450564,
+          "test_loglike": -393344.91893570987,
+          "heldout_step2_gain": 0.6726510432104359,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.0349257732064665,
+              "c_head": 2.415487150130649,
+              "alpha_tail": 1.079725639905234,
+              "beta_tail": 1.2316906480512824,
+              "k": 215.30537413069638,
+              "w": 3.1343724316649766,
+              "transition_fraction": 0.5228429162994044
+            },
+            "train_loglike": -1571342.23036419,
+            "train_avg_nll": 7.2967579469704384,
+            "penalized_objective": 7.296758160029539,
+            "train_step2_gain": -0.0003204058988343639,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.014596544110775156,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 89,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 7.35154354946195,
+          "test_loglike": -393351.6891575111,
+          "heldout_step2_gain": 0.6746397249639067,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.0325032578240767,
+              "c_head": 2.4313457347923255,
+              "alpha_tail": 2.9714414786392034,
+              "beta_tail": 1.2318141812332377,
+              "k": 4999.999378812811,
+              "w": 2.7608374431350193,
+              "transition_fraction": 0.8289476003714659
+            },
+            "train_loglike": -1576480.561504404,
+            "train_avg_nll": 7.320618540708082,
+            "penalized_objective": 7.420383996877152,
+            "train_step2_gain": 0.29963569263691364,
+            "train_step2_expr": "div[mul[x,x],add[1,x]]",
+            "dev_logk": 3.159732246103525,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 119,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 7.38426704446705,
+          "test_loglike": -395102.59248125396,
+          "heldout_step2_gain": 0.9879559660053281,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "mul[mul[x,x],add[x,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.9424996951307373,
+              "c_head": 2.798783726218495,
+              "alpha_tail": 1.6833789845517542,
+              "beta_tail": 1.5998944319325457,
+              "k": 4443.298825584915,
+              "w": 3.0223726156868045,
+              "transition_fraction": 0.8174591250477174
+            },
+            "train_loglike": -1571397.5945093744,
+            "train_avg_nll": 7.297015038492924,
+            "penalized_objective": 7.306310496722754,
+            "train_step2_gain": 0.0020873625049239175,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 3.041691537214282,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 305,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 7.355358180439568,
+          "test_loglike": -393555.7948025995,
+          "heldout_step2_gain": 0.7215413372524028,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.9155179619300821,
+              "c_head": 3.052811043322891,
+              "alpha_tail": 1.6276715980551406,
+              "beta_tail": 21.260198994780364,
+              "k": 2222.0453912276653,
+              "w": 3.098987385318046,
+              "transition_fraction": 0.7500149621454947
+            },
+            "train_loglike": -1580682.1092917237,
+            "train_avg_nll": 7.340129043648995,
+            "penalized_objective": 7.35313183858367,
+            "train_step2_gain": 0.008652339100448547,
+            "train_step2_expr": "sub[div[x,1],sqrt[x]]",
+            "dev_logk": 2.3487225770109177,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 416,
+            "start_index": 1,
+            "lambda_k": 0.001,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 7.401479849094251,
+          "test_loglike": -396023.580805637,
+          "heldout_step2_gain": 0.62507252773635,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "collected_poe",
+      "name": "Collected Poe",
+      "token_count": 91801,
+      "vocab_size": 9312,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.0177920999667296,
+              "c_head": 0.627845556898032,
+              "alpha_tail": 1.3068177237343115,
+              "beta_tail": 5.438272328318421,
+              "k": 117.28713642433675,
+              "w": 2.2650600315389213,
+              "transition_fraction": 0.5213474381914153
+            },
+            "train_loglike": -485550.75573343463,
+            "train_avg_nll": 6.615853985903567,
+            "penalized_objective": 6.615854034369968,
+            "train_step2_gain": 0.0020925375023407577,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": -0.0006840517738897489,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 91,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 6.666460738573231,
+          "test_loglike": -122722.8757363946,
+          "heldout_step2_gain": 0.5355175720880488,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.0177506888869043,
+              "c_head": 0.6274826603237923,
+              "alpha_tail": 1.306525025263168,
+              "beta_tail": 5.43038780618896,
+              "k": 117.28512303781245,
+              "w": 2.26387982779429,
+              "transition_fraction": 0.5213455598306295
+            },
+            "train_loglike": -485550.7730794223,
+            "train_avg_nll": 6.615854222250685,
+            "penalized_objective": 6.615854658907739,
+            "train_step2_gain": 0.0020778353719054232,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": -0.000701218224253175,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 91,
+            "start_index": 2,
+            "lambda_k": 0.01,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 6.666452850222116,
+          "test_loglike": -122722.73051973894,
+          "heldout_step2_gain": 0.5353510138054566,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.0152103521148748,
+              "c_head": 0.6123209666159894,
+              "alpha_tail": 5.999360722624693,
+              "beta_tail": 0.001596080137793443,
+              "k": 4044.768349145362,
+              "w": 2.173000548426246,
+              "transition_fraction": 0.9087565147513078
+            },
+            "train_loglike": -487118.03563613654,
+            "train_avg_nll": 6.637208900644982,
+            "penalized_objective": 6.816795727460828,
+            "train_step2_gain": 0.23298068756458798,
+            "train_step2_expr": "div[mul[x,x],add[1,x]]",
+            "dev_logk": 3.5398704218908783,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 121,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 6.691595366654466,
+          "test_loglike": -123185.57910474206,
+          "heldout_step2_gain": 0.8325206334428943,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7726576733250662,
+              "c_head": 1.6298648818652568,
+              "alpha_tail": 1.0014011676303292,
+              "beta_tail": 0.0035429881016873378,
+              "k": 114.29514760995568,
+              "w": 2.139495402317627,
+              "transition_fraction": 0.5185199076469357
+            },
+            "train_loglike": -485620.2277409642,
+            "train_avg_nll": 6.61680057419016,
+            "penalized_objective": 6.616807609957404,
+            "train_step2_gain": -0.0004649731386911493,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": -0.02652502072478935,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 883,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 6.666806220141216,
+          "test_loglike": -122729.23570657964,
+          "heldout_step2_gain": 0.5151188588645442,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 0.7752888848475333,
+              "c_head": 1.5838850457073093,
+              "alpha_tail": 5.999487795091932,
+              "beta_tail": 0.001596080137793927,
+              "k": 284.6796224226263,
+              "w": 1.711149928438005,
+              "transition_fraction": 0.6183748579588083
+            },
+            "train_loglike": -487013.4162199076,
+            "train_avg_nll": 6.635783412632271,
+            "penalized_objective": 6.646013905424041,
+            "train_step2_gain": 0.00487806644542596,
+            "train_step2_expr": "sub[sqrt[x],pow[x,x]]",
+            "dev_logk": 0.8860552785899509,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 121,
+            "start_index": 1,
+            "lambda_k": 0.01,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 6.689425090697417,
+          "test_loglike": -123145.62649464875,
+          "heldout_step2_gain": 0.5932033085789867,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "eml[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "principia_ethica",
+      "name": "Principia Ethica",
+      "token_count": 98676,
+      "vocab_size": 3814,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.491240614853966,
+              "c_head": 6.702369334047964,
+              "alpha_tail": 1.8752536006220828,
+              "beta_tail": 99.9994594222081,
+              "k": 72.84535350105345,
+              "w": 0.6959858798145394,
+              "transition_fraction": 0.5200234258929187
+            },
+            "train_loglike": -465215.8484721768,
+            "train_avg_nll": 5.88143779911474,
+            "penalized_objective": 5.881438198326269,
+            "train_step2_gain": -0.0014878826952830493,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.011535619180177648,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 99,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 5.90892846439118,
+          "test_loglike": -115679.09254738613,
+          "heldout_step2_gain": 0.33935505154651324,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.4916180094802345,
+              "c_head": 6.705856182444599,
+              "alpha_tail": 1.8752696852976116,
+              "beta_tail": 99.99948979062896,
+              "k": 73.02846674316545,
+              "w": 0.6954307851771,
+              "transition_fraction": 0.5203278692084481
+            },
+            "train_loglike": -465215.85324776825,
+            "train_avg_nll": 5.881437859489605,
+            "penalized_objective": 5.881438103844054,
+            "train_step2_gain": -0.0014756659491854673,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.009025047537025266,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 99,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 5.90893096503513,
+          "test_loglike": -115679.14150249274,
+          "heldout_step2_gain": 0.33943086234067477,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.4916076948522092,
+              "c_head": 6.707299066988784,
+              "alpha_tail": 1.8754390538814618,
+              "beta_tail": 99.99949106140485,
+              "k": 73.05777226580005,
+              "w": 0.695129382216395,
+              "transition_fraction": 0.5203765215770014
+            },
+            "train_loglike": -465215.85256859916,
+            "train_avg_nll": 5.881437850903287,
+            "penalized_objective": 5.881438074015085,
+            "train_step2_gain": -0.001464915745243045,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.008623839001210776,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 104,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 5.908936240116713,
+          "test_loglike": -115679.24477276488,
+          "heldout_step2_gain": 0.33976992678284634,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 1.4916531480389956,
+              "c_head": 6.70886828511236,
+              "alpha_tail": 1.8752397697819914,
+              "beta_tail": 99.99947107902119,
+              "k": 73.04828580909978,
+              "w": 0.6956063879017356,
+              "transition_fraction": 0.5203607745118203
+            },
+            "train_loglike": -465215.8552248388,
+            "train_avg_nll": 5.881437884484491,
+            "penalized_objective": 5.8814381143660786,
+            "train_step2_gain": -0.0014796447455420747,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.008753696131552857,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 106,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 5.9089302342787375,
+          "test_loglike": -115679.12719647484,
+          "heldout_step2_gain": 0.33935212626692124,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 1.4918970570668173,
+              "c_head": 6.711875046732832,
+              "alpha_tail": 1.875380775452186,
+              "beta_tail": 99.99956548071351,
+              "k": 73.02714467318992,
+              "w": 0.6953124430012577,
+              "transition_fraction": 0.5203256738774242
+            },
+            "train_loglike": -465215.84981086705,
+            "train_avg_nll": 5.881437816038977,
+            "penalized_objective": 5.881438061374727,
+            "train_step2_gain": -0.001467357254108903,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": -0.009043151188952159,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 109,
+            "start_index": 1,
+            "lambda_k": 0.003,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 5.908934944556472,
+          "test_loglike": -115679.21940958205,
+          "heldout_step2_gain": 0.3396767346671774,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    },
+    {
+      "slug": "critique_of_pure_reason",
+      "name": "Critique of Pure Reason",
+      "token_count": 209795,
+      "vocab_size": 6537,
+      "rows": [
+        {
+          "lambda_mech": 0.01,
+          "fit": {
+            "params": {
+              "b_head": 1.0665487606204767,
+              "c_head": 1.0624965255748622,
+              "alpha_tail": 1.6656261670719328,
+              "beta_tail": 18.056581346232978,
+              "k": 98.78788577650396,
+              "w": 0.49309242730476016,
+              "transition_fraction": 0.5228062428861471
+            },
+            "train_loglike": -987924.2889780605,
+            "train_avg_nll": 5.8836887181631745,
+            "penalized_objective": 5.883693152943363,
+            "train_step2_gain": -0.0005259055085557185,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 0.012158371859237072,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 480,
+            "start_index": 2,
+            "lambda_k": 0.03,
+            "lambda_mech": 0.01
+          },
+          "test_avg_nll": 5.95236178854506,
+          "test_loglike": -249320.6258749984,
+          "heldout_step2_gain": 0.38366850939518615,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 0.1,
+          "fit": {
+            "params": {
+              "b_head": 1.0674424815517118,
+              "c_head": 1.0584568776338323,
+              "alpha_tail": 1.662334361303159,
+              "beta_tail": 18.226221972225638,
+              "k": 98.83496942625017,
+              "w": 0.5812502590709494,
+              "transition_fraction": 0.5228604816320829
+            },
+            "train_loglike": -987916.4347830454,
+            "train_avg_nll": 5.883641941665101,
+            "penalized_objective": 5.883646742262777,
+            "train_step2_gain": 0.00033760964533563476,
+            "train_step2_expr": "sub[pow[x,x],sqrt[x]]",
+            "dev_logk": 0.012634871913735246,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 85,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 0.1
+          },
+          "test_avg_nll": 5.952102260038946,
+          "test_loglike": -249309.75526399128,
+          "heldout_step2_gain": 0.3745690580407306,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 1.0,
+          "fit": {
+            "params": {
+              "b_head": 1.0709401379900405,
+              "c_head": 1.0594961900592885,
+              "alpha_tail": 1.6623630008175383,
+              "beta_tail": 18.446562988042402,
+              "k": 98.6398448676193,
+              "w": 0.5929034380335404,
+              "transition_fraction": 0.5226355362709195
+            },
+            "train_loglike": -987913.31909368,
+            "train_avg_nll": 5.883623385843999,
+            "penalized_objective": 5.883627624451387,
+            "train_step2_gain": 0.0009112558442261887,
+            "train_step2_expr": "sub[pow[x,x],sqrt[x]]",
+            "dev_logk": 0.010658674363367204,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 92,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 1.0
+          },
+          "test_avg_nll": 5.952073344427013,
+          "test_loglike": -249308.54410466985,
+          "heldout_step2_gain": 0.3727523627491336,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 10.0,
+          "fit": {
+            "params": {
+              "b_head": 1.073680487081684,
+              "c_head": 1.0682280164104059,
+              "alpha_tail": 5.999589861341042,
+              "beta_tail": 0.0015960801377943312,
+              "k": 2137.558178320856,
+              "w": 0.6236713906875461,
+              "transition_fraction": 0.8727621537303349
+            },
+            "train_loglike": -988245.2017508938,
+            "train_avg_nll": 5.8855999484893236,
+            "penalized_objective": 6.1714134550587305,
+            "train_step2_gain": -0.00020953866007156208,
+            "train_step2_expr": "eml[sub[x,1],eml[x,1]]",
+            "dev_logk": 3.0866028065896147,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 111,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 10.0
+          },
+          "test_avg_nll": 5.959630365569128,
+          "test_loglike": -249625.07749222848,
+          "heldout_step2_gain": 0.4007029760519877,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        },
+        {
+          "lambda_mech": 100.0,
+          "fit": {
+            "params": {
+              "b_head": 1.058325642921906,
+              "c_head": 1.1482672190386531,
+              "alpha_tail": 2.709001579801045,
+              "beta_tail": 99.99997990970965,
+              "k": 2003.847078461199,
+              "w": 0.6331071355127089,
+              "transition_fraction": 0.8654094446282415
+            },
+            "train_loglike": -988012.4207681094,
+            "train_avg_nll": 5.884213596460639,
+            "penalized_objective": 6.158201622483727,
+            "train_step2_gain": 0.0003484104533270638,
+            "train_step2_expr": "sub[pow[x,x],sqrt[x]]",
+            "dev_logk": 3.022007539361261,
+            "success": true,
+            "message": "Optimization terminated successfully.",
+            "nfev": 253,
+            "start_index": 1,
+            "lambda_k": 0.03,
+            "lambda_mech": 100.0
+          },
+          "test_avg_nll": 5.957635466886555,
+          "test_loglike": -249541.51916601023,
+          "heldout_step2_gain": 0.39143910540849125,
+          "heldout_step2_helps": true,
+          "heldout_step2_expr": "pow[mul[x,x],eml[1,x]]"
+        }
+      ]
+    }
+  ],
+  "lambdas": {
+    "0.01": {
+      "lambda_mech": 0.01,
+      "beats_moe": 24,
+      "beats_softk": 22,
+      "beats_zm": 16,
+      "winner_counts": {
+        "zipf": 0,
+        "zm": 9,
+        "moe": 0,
+        "mech": 16
+      },
+      "median_minus_moe": -0.0033559321536618114,
+      "median_minus_zm": -0.002270694370984039,
+      "median_minus_softk": -0.0017537087622301328,
+      "heldout_step2_help_count": 25
+    },
+    "0.1": {
+      "lambda_mech": 0.1,
+      "beats_moe": 20,
+      "beats_softk": 20,
+      "beats_zm": 13,
+      "winner_counts": {
+        "zipf": 0,
+        "zm": 9,
+        "moe": 3,
+        "mech": 13
+      },
+      "median_minus_moe": -0.003966316226670763,
+      "median_minus_zm": -4.746389528698103e-05,
+      "median_minus_softk": -0.0017233059438028775,
+      "heldout_step2_help_count": 25
+    },
+    "1": {
+      "lambda_mech": 1.0,
+      "beats_moe": 16,
+      "beats_softk": 15,
+      "beats_zm": 14,
+      "winner_counts": {
+        "zipf": 0,
+        "zm": 10,
+        "moe": 3,
+        "mech": 12
+      },
+      "median_minus_moe": -0.0019051363795705711,
+      "median_minus_zm": -0.0018821576229433035,
+      "median_minus_softk": -0.0010448501608921745,
+      "heldout_step2_help_count": 25
+    },
+    "10": {
+      "lambda_mech": 10.0,
+      "beats_moe": 15,
+      "beats_softk": 15,
+      "beats_zm": 15,
+      "winner_counts": {
+        "zipf": 0,
+        "zm": 9,
+        "moe": 4,
+        "mech": 12
+      },
+      "median_minus_moe": -0.0018585637003392108,
+      "median_minus_zm": -0.0011931170463084229,
+      "median_minus_softk": -0.0012311012218768624,
+      "heldout_step2_help_count": 25
+    },
+    "100": {
+      "lambda_mech": 100.0,
+      "beats_moe": 9,
+      "beats_softk": 11,
+      "beats_zm": 11,
+      "winner_counts": {
+        "zipf": 0,
+        "zm": 11,
+        "moe": 7,
+        "mech": 7
+      },
+      "median_minus_moe": 0.0022952018961053255,
+      "median_minus_zm": 0.0016678429105869697,
+      "median_minus_softk": 0.004726844032984623,
+      "heldout_step2_help_count": 25
+    }
+  },
+  "replacement_candidate": null
+}

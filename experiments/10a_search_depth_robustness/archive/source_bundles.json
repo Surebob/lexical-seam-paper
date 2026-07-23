@@ -1,0 +1,5 @@
+{
+  "step10_ablation": "results/zipf_step10_ablation",
+  "head_poly_decomposition": "results/zipf_head_poly_decomposition",
+  "head_poly_transfer": "results/zipf_head_poly_transfer"
+}

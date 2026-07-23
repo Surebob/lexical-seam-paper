@@ -1,0 +1,26 @@
+corpus,ols,rank_w,freq_w,stable
+Complete Works of Shakespeare,is,exp,exp,False
+War and Peace,is,exp,exp,False
+Moby Dick,exp,exp,exp,True
+King James Bible,is,exp,exp,False
+Federalist Papers,is,exp,exp,False
+Grimm's Fairy Tales,exp,exp,exp,True
+Don Quixote,exp,exp,exp,True
+Pride and Prejudice,exp,exp,exp,True
+Canterbury Tales,exp,exp,exp,True
+Arabian Nights (Vol 1),exp,exp,exp,True
+Aesop's Fables,exp,exp,exp,True
+Complete Sherlock Holmes,exp,exp,exp,True
+Jane Eyre,exp,exp,exp,True
+Dubliners,exp,exp,exp,True
+The Iliad,is,exp,exp,False
+Democracy in America,is,exp,exp,False
+Origin of Species,is,exp,exp,False
+Wealth of Nations,is,exp,exp,False
+Les Miserables,is,exp,exp,False
+Decline and Fall Vol 1,is,exp,exp,False
+Emile,exp,exp,exp,True
+Ulysses,exp,exp,exp,True
+Collected Poe,exp,exp,exp,True
+Principia Ethica,is,exp,exp,False
+Critique of Pure Reason,exp,exp,exp,True

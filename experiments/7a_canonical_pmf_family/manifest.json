@@ -1,0 +1,31 @@
+{
+  "experiment_id": "7a_canonical_pmf_family",
+  "status": "complete_canonical_by_documentation",
+  "canonical_table4_source": "results/zipf_v4_verification/table_a_fourway_pmf.csv",
+  "canonical_reproducibility_status": "canonical-by-documentation, not canonical-by-reproducible-producer",
+  "known_softk_local_optimum_discrepancy_rows": 3,
+  "generated_at_utc": "2026-04-20T00:41:16.849264+00:00",
+  "outputs": {
+    "outputs/splitfit/table4_fourway.csv": {
+      "rows": 25
+    },
+    "outputs/splitfit/table4_provenance.csv": {
+      "rows": 25
+    },
+    "outputs/splitfit/softk_source_diagnostic.csv": {
+      "rows": 25
+    },
+    "outputs/splitfit/pmf_variant_per_corpus.csv": {
+      "rows": 25
+    },
+    "outputs/splitfit/aggregate_statistics.csv": {
+      "rows": 39
+    },
+    "outputs/fullrefit/fourway_per_corpus.csv": {
+      "rows": 25
+    },
+    "outputs/fullrefit/aggregate_statistics.csv": {
+      "rows": 2
+    }
+  }
+}

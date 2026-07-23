@@ -1,0 +1,29 @@
+metric_name,value,display_format,notes
+english_corpus_count,25,int,Canonical English corpus count for the smooth-fit experiment.
+smooth_beats_single_zm_count,25,int,Count of corpora where the smooth two-regime fit beats single ZM RMSE.
+smooth_beats_piecewise_count,25,int,Count of corpora where the smooth two-regime fit beats hard piecewise ZM.
+smooth_beats_step2_count,25,int,Count of corpora where the smooth two-regime fit beats ZM plus step-2.
+mean_k,159.2097972780208,float6,Mean fitted transition centre k.
+sd_k,117.46769015406639,float6,Population standard deviation of fitted transition centre k.
+min_k,33.081259098023985,float6,Minimum fitted transition centre k.
+max_k,544.0369170321965,float6,Maximum fitted transition centre k.
+mean_w,1.218292636877446,float6,Mean fitted smooth width w in log-rank units.
+sd_w,0.5075054512710272,float6,Population standard deviation of fitted smooth width w.
+min_w,0.11951239516082011,float6,Minimum fitted smooth width w.
+max_w,2.090855885094736,float6,Maximum fitted smooth width w.
+mean_transition_fraction,0.5233587827304038,float6,Mean fitted transition fraction log(k)/log(V).
+sd_transition_fraction,0.07540099677985325,float6,Population standard deviation of fitted transition fraction.
+min_transition_fraction,0.4243006155602499,float6,Minimum fitted transition fraction.
+max_transition_fraction,0.7096807426139757,float6,Maximum fitted transition fraction.
+w_lt_0_2_count,4,int,Count of corpora with fitted width w < 0.2.
+w_lt_0_2_corpora,Grimm's Fairy Tales; Aesop's Fables; Dubliners; Critique of Pure Reason,string,Semicolon-delimited corpus list with w < 0.2.
+relaxed_bounds_improves_rmse_count,25,int,Count of corpora where relaxed bounds improve RMSE over the constrained 8-parameter fit.
+relaxed_bounds_unchanged_count,0,int,Count of corpora unchanged to numerical tolerance under relaxed bounds.
+relaxed_bounds_degraded_count,0,int,Count of corpora where relaxed bounds worsen RMSE.
+relaxed_rmse_delta_mean,-0.007639749431973483,float9,Mean RMSE delta relaxed minus constrained.
+relaxed_rmse_delta_median,-0.006718121221015352,float9,Median RMSE delta relaxed minus constrained.
+relaxed_rmse_delta_min,-0.016470959597297663,float9,Minimum RMSE delta relaxed minus constrained.
+relaxed_rmse_delta_max,-0.0011124535901803345,float9,Maximum RMSE delta relaxed minus constrained.
+relaxed_rmse_delta_sd,0.004344014425383922,float9,Population standard deviation of RMSE deltas relaxed minus constrained.
+relaxed_transition_fraction_delta_mean,0.02392807145874045,float9,Mean transition-fraction delta relaxed minus constrained.
+relaxed_transition_fraction_delta_median,-0.03955535889056744,float9,Median transition-fraction delta relaxed minus constrained.

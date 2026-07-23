@@ -1,0 +1,81 @@
+component,metric_name,value,display_format,source,notes
+hybrid_headtail,hybrid_beats_moe,21,count or decimal,zipf_hybrid_headtail_splitfit,Canonical splitfit hybrid source.
+hybrid_headtail,hybrid_beats_zm,15,count or decimal,zipf_hybrid_headtail_splitfit,Canonical splitfit hybrid source.
+hybrid_headtail,hybrid_beats_softk,22,count or decimal,zipf_hybrid_headtail_splitfit,Canonical splitfit hybrid source.
+hybrid_headtail,hybrid_beats_zipf,25,count or decimal,zipf_hybrid_headtail_splitfit,Canonical splitfit hybrid source.
+hybrid_headtail,median_hybrid_minus_moe,-0.0037195696431293612,count or decimal,zipf_hybrid_headtail_splitfit,Canonical splitfit hybrid source.
+hybrid_headtail,median_hybrid_minus_zm,-0.001898584332363562,count or decimal,zipf_hybrid_headtail_splitfit,Canonical splitfit hybrid source.
+hybrid_headtail,median_hybrid_minus_softk,-0.001677944396615949,count or decimal,zipf_hybrid_headtail_splitfit,Canonical splitfit hybrid source.
+hybrid_headtail,step2_help_count,9,count or decimal,zipf_hybrid_headtail_splitfit,Canonical splitfit hybrid source.
+nested,beats_moe,21,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+nested,beats_zm,16,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+nested,beats_softk,18,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+nested,winner_counts,"{""moe"": 2, ""nested"": 14, ""zipf"": 0, ""zm"": 9}","count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+nested,median_minus_moe,-0.002342149246381986,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+nested,median_minus_zm,-0.00269121616573198,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+nested,median_minus_softk,-0.0008505296438210408,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+nested,step2_help_count,11,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+nested,bic_wins_vs_two_regime,0,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+nested,bic_wins_vs_hybrid,13,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+three_regime,beats_moe,20,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+three_regime,beats_zm,15,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+three_regime,beats_softk,12,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+three_regime,winner_counts,"{""moe"": 4, ""three_regime"": 12, ""zipf"": 0, ""zm"": 9}","count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+three_regime,median_minus_moe,-0.0015937935408318893,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+three_regime,median_minus_zm,-0.0015708147842046216,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+three_regime,median_minus_softk,0.00010526860518478287,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+three_regime,step2_help_count,11,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+three_regime,bic_wins_vs_two_regime,0,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+three_regime,bic_wins_vs_hybrid,7,"count, decimal, or JSON",zipf_fully_ours_variants,Fully-ours variant summary.
+hybrid_vs_softk_legacy_diagnostic,legacy_hybrid_win_count,16,X/25 count,zipf_hybrid_vs_softk_analysis,"Legacy pre-splitfit comparator branch; preserved as diagnostic, not canonical headline."
+hybrid_vs_softk_legacy_diagnostic,legacy_softk_win_count,9,X/25 count,zipf_hybrid_vs_softk_analysis,"Legacy pre-splitfit comparator branch; preserved as diagnostic, not canonical headline."
+mechanism_penalty,lambda_0.01_lambda_mech,0.01,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.01_beats_moe,24,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.01_beats_softk,22,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.01_beats_zm,16,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.01_winner_counts,"{""mech"": 16, ""moe"": 0, ""zipf"": 0, ""zm"": 9}","count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.01_median_minus_moe,-0.0033559321536618114,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.01_median_minus_zm,-0.002270694370984039,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.01_median_minus_softk,-0.0017537087622301328,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.01_heldout_step2_help_count,25,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.1_lambda_mech,0.1,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.1_beats_moe,20,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.1_beats_softk,20,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.1_beats_zm,13,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.1_winner_counts,"{""mech"": 13, ""moe"": 3, ""zipf"": 0, ""zm"": 9}","count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.1_median_minus_moe,-0.003966316226670763,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.1_median_minus_zm,-4.746389528698103e-05,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.1_median_minus_softk,-0.0017233059438028775,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_0.1_heldout_step2_help_count,25,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_1_lambda_mech,1.0,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_1_beats_moe,16,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_1_beats_softk,15,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_1_beats_zm,14,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_1_winner_counts,"{""mech"": 12, ""moe"": 3, ""zipf"": 0, ""zm"": 10}","count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_1_median_minus_moe,-0.0019051363795705711,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_1_median_minus_zm,-0.0018821576229433035,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_1_median_minus_softk,-0.0010448501608921745,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_1_heldout_step2_help_count,25,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_10_lambda_mech,10.0,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_10_beats_moe,15,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_10_beats_softk,15,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_10_beats_zm,15,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_10_winner_counts,"{""mech"": 12, ""moe"": 4, ""zipf"": 0, ""zm"": 9}","count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_10_median_minus_moe,-0.0018585637003392108,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_10_median_minus_zm,-0.0011931170463084229,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_10_median_minus_softk,-0.0012311012218768624,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_10_heldout_step2_help_count,25,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_100_lambda_mech,100.0,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_100_beats_moe,9,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_100_beats_softk,11,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_100_beats_zm,11,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_100_winner_counts,"{""mech"": 7, ""moe"": 7, ""zipf"": 0, ""zm"": 11}","count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_100_median_minus_moe,0.0022952018961053255,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_100_median_minus_zm,0.0016678429105869697,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_100_median_minus_softk,0.004726844032984623,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,lambda_100_heldout_step2_help_count,25,"count, decimal, or JSON",zipf_hybrid_mechpenalty,Mechanism-penalty sweep row.
+mechanism_penalty,frontier_decision,no_lambda_satisfies_intended_rule,categorical verdict,zipf_hybrid_mechpenalty,No penalty simultaneously keeps held-out step-2 help <=4/25 and beats MOE on >=18/25.
+nested_protocol_constants,nested_seam_free_parameter_count,8,protocol constant,claim_map_protocol_row,Protocol constant preserved for Paper 2 provenance.
+nested_protocol_constants,nested_mini_seam_floor,5,protocol constant,claim_map_protocol_row,Protocol constant preserved for Paper 2 provenance.
+nested_protocol_constants,nested_mini_seam_logV_multiplier,0.5,protocol constant,claim_map_protocol_row,Protocol constant preserved for Paper 2 provenance.
+nested_protocol_constants,nested_mini_seam_width,0.22,protocol constant,claim_map_protocol_row,Protocol constant preserved for Paper 2 provenance.

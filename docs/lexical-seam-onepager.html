@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Lexical Seam — Field Report</title>
+<style>
+  :root{
+    --bg:#FAFAF7; --surface:#FFFFFF; --ink:#1C2129; --ink2:#4A5160; --muted:#7A8090;
+    --hair:#E4E2D8; --accent:#C03422; --accent-ink:#A32B1C; --accent-wash:#F7E9E5;
+    --chip:#EFEDE4; --code:#F1EFE8;
+    --s1:#C03422; --s2:#2F5DA8; --s3:#0F7A4D;
+    --good:#0F7A4D;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#14171D; --surface:#1B1F27; --ink:#E8E6DF; --ink2:#AFB4C0; --muted:#7E8492;
+      --hair:#2A2F3A; --accent:#E07B63; --accent-ink:#E8927D; --accent-wash:#33231F;
+      --chip:#232833; --code:#20242E;
+      --s1:#C65540; --s2:#4E82C4; --s3:#189A68;
+      --good:#3DAE7E;
+    }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} }
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Avenir Next","Segoe UI",Frutiger,system-ui,sans-serif;
+    font-size:16.5px; line-height:1.62;
+  }
+  .wrap{max-width:780px; margin:0 auto; padding:0 22px}
+  .mono{font-family:"Cascadia Code",Consolas,"SF Mono","Roboto Mono",monospace}
+  a{color:var(--accent-ink)}
+  :focus-visible{outline:2px solid var(--accent); outline-offset:2px; border-radius:2px}
+
+  header.hero{padding:64px 0 34px; border-bottom:2px dashed var(--accent)}
+  .eyebrow{font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin:0 0 18px}
+  h1{
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    font-size:clamp(30px,5.4vw,44px); line-height:1.12; margin:0 0 16px; text-wrap:balance; font-weight:600;
+  }
+  h1 .stitch{color:var(--accent)}
+  .dek{font-size:19px; color:var(--ink2); max-width:62ch; margin:0}
+
+  .stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:30px 0 0}
+  .tile{background:var(--surface); border:1px solid var(--hair); border-radius:6px; padding:14px 16px}
+  .tile .n{font-family:"Cascadia Code",Consolas,monospace; font-size:26px; font-weight:600; font-variant-numeric:tabular-nums; color:var(--accent-ink)}
+  .tile .l{font-size:12.5px; color:var(--muted); margin-top:2px; line-height:1.35}
+
+  section{padding:34px 0 6px}
+  h2{
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    font-size:25px; margin:18px 0 6px; line-height:1.25; text-wrap:balance; font-weight:600;
+  }
+  .kicker{display:flex; align-items:center; gap:10px; margin-top:26px}
+  .kicker .tag{
+    font-family:"Cascadia Code",Consolas,monospace; font-size:12px; color:var(--accent-ink);
+    letter-spacing:.08em; white-space:nowrap;
+  }
+  .kicker .thread{flex:1; border-top:2px dashed var(--hair)}
+  p{margin:12px 0; max-width:68ch}
+  .new{
+    display:inline-block; font-family:"Cascadia Code",Consolas,monospace; font-size:11px; letter-spacing:.1em;
+    color:var(--accent-ink); border:1px dashed var(--accent); border-radius:3px; padding:2px 8px; margin-left:8px;
+    vertical-align:3px; white-space:nowrap;
+  }
+  code{
+    font-family:"Cascadia Code",Consolas,monospace; font-size:.88em;
+    background:var(--code); border-radius:4px; padding:1px 6px;
+  }
+  .codeblock{
+    background:var(--code); border:1px solid var(--hair); border-radius:6px;
+    padding:12px 16px; margin:14px 0; overflow-x:auto;
+    font-family:"Cascadia Code",Consolas,monospace; font-size:14px; line-height:1.6; white-space:pre;
+  }
+  .callout{
+    background:var(--accent-wash); border:1px solid var(--accent); border-radius:6px;
+    padding:14px 18px; margin:20px 0;
+  }
+  .callout .ct{font-family:"Cascadia Code",Consolas,monospace; font-size:12px; letter-spacing:.1em; color:var(--accent-ink); margin:0 0 6px}
+  .callout p{margin:6px 0}
+
+  figure{margin:22px 0; background:var(--surface); border:1px solid var(--hair); border-radius:8px; padding:16px 16px 10px}
+  figure .ft{font-weight:600; font-size:15px; margin:0 0 2px}
+  figure .fs{font-size:13px; color:var(--muted); margin:0 0 10px}
+  .figwrap{overflow-x:auto}
+  svg text{font-family:"Cascadia Code",Consolas,monospace; font-size:11px; fill:var(--muted)}
+  svg .axis{stroke:var(--hair); stroke-width:1}
+  svg .lbl{fill:var(--ink2)}
+  .legend{display:flex; gap:16px; flex-wrap:wrap; margin:4px 0 8px; font-size:13px; color:var(--ink2)}
+  .legend .sw{display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:6px; vertical-align:-1px}
+  details{margin:8px 0 4px; font-size:13.5px; color:var(--ink2)}
+  details summary{cursor:pointer; color:var(--muted)}
+  table{border-collapse:collapse; margin:10px 0; font-variant-numeric:tabular-nums; font-size:13px}
+  th,td{border-bottom:1px solid var(--hair); padding:5px 12px 5px 0; text-align:left}
+  th{color:var(--muted); font-weight:600}
+
+  .grave{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:12px; margin:16px 0}
+  .grave .g{background:var(--surface); border:1px solid var(--hair); border-left:3px solid var(--muted); border-radius:6px; padding:12px 14px; font-size:14px}
+  .grave .g b{display:block; margin-bottom:4px}
+  .grave .g span{color:var(--muted); font-size:13px}
+
+  .newtable td:first-child{font-weight:600}
+  .yes{color:var(--good); font-weight:600}
+  .ko{color:var(--muted)}
+
+  footer{margin:44px 0 60px; padding-top:18px; border-top:2px dashed var(--accent); color:var(--muted); font-size:13.5px}
+  footer p{margin:6px 0}
+
+  #tt{
+    position:fixed; pointer-events:none; z-index:10; display:none;
+    background:var(--ink); color:var(--bg); font-family:"Cascadia Code",Consolas,monospace;
+    font-size:12px; padding:6px 9px; border-radius:5px; max-width:260px; line-height:1.45;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <p class="eyebrow">Field report · Independent research · July 2026</p>
+  <h1>Every language hides a seam.<br><span class="stitch">Finding it cracked a 70-year-old law open.</span></h1>
+  <p class="dek">Zipf's law is one of the strangest facts in science: in any book, in any language, the most common word appears about twice as often as the second, three times as often as the third. Since the 1950s the standard formula for it has carried a small, stubborn error that everyone wrote off as noise. We went digging in that error. Here is what came out.</p>
+  <div class="stats">
+    <div class="tile"><div class="n">42 / 42</div><div class="l">corpora where the new formula beats the standard models</div></div>
+    <div class="tile"><div class="n">≈ 1.2%</div><div class="l">of vocabulary — the seam-width constant, Shakespeare to movie scripts</div></div>
+    <div class="tile"><div class="n">r = 0.94</div><div class="l">predicting the law's exponent from word counts alone</div></div>
+    <div class="tile"><div class="n">1/6 → 1</div><div class="l">fit a sixth of a book, predict the whole book's law</div></div>
+  </div>
+</header>
+
+<section>
+  <div class="kicker"><span class="tag">00 · THE LAW</span><span class="thread"></span></div>
+  <h2>Zipf in twenty seconds</h2>
+  <p>Count every word in a book. Sort them by how often they appear. The result is astonishingly regular — a clean straight line on the right kind of plot — and it happens in every language ever checked. In 1953 Mandelbrot refined the formula with a shift term <code>c</code> that bends the top of the curve to fit better:</p>
+  <div class="codeblock">frequency of word at rank r  ∝  1 / (r + c)^b        ← fit a, b, c to each book</div>
+  <p>That three-number formula has been the standard for seventy years — and for seventy years it has had a known flaw: <strong>it consistently misses on the few dozen most common words</strong>, and nobody knew what the miss meant. It was treated as noise. It is not noise.</p>
+</section>
+
+<section>
+  <div class="kicker"><span class="tag">01 · THE CLUE</span><span class="thread"></span></div>
+  <h2>The error has a shape <span class="new">METHOD FIRST</span></h2>
+  <p>Instead of shrugging at the leftover error, we pointed a formula-searching program <em>at the error itself</em> and asked: does the miss have a mathematical shape of its own? Searching millions of candidate expressions across 25 English books — and later 13 languages — the same few small formulas kept emerging, again and again. A mistake that repeats with a precise closed form isn't randomness; it's a fingerprint of something the model doesn't know about. As far as the literature searches and two independent audits could establish, no one had ever run this kind of search on Zipf's error term before.</p>
+</section>
+
+<section>
+  <div class="kicker"><span class="tag">02 · TWO VOCABULARIES</span><span class="thread"></span></div>
+  <h2>A language is two vocabularies stitched together <span class="new">FIRST DIRECT PROOF</span></h2>
+  <p>The fingerprint pointed at the cause: every text is secretly <strong>two vocabularies in one</strong>. A tiny club of workhorse words — roughly <strong>2% of the distinct words</strong>: the grammatical glue ("the, of, and, to…") plus the most common everyday words — used constantly and consistently, and the vast population of everything else, spanning usage rates from thousands of appearances down to exactly one. (Labeling ~17,000 words by hand-quality annotation showed the club is drawn by <em>usage</em>, about 3× deeper into the vocabulary than grammar alone would draw it — the language's own boundary, not the textbook's.) Fit a single curve over two different populations and you get a predictable error precisely where they meet. We call that meeting point <strong>the lexical seam</strong>.</p>
+  <p>The two-vocabulary <em>idea</em> was proposed in 2001. What's new here is pinning it down: take the workhorse words alone and they follow the classic law cleanly; take everything else alone and it does too; only <em>together</em> does the error appear — precisely at the boundary. A model with an explicit seam absorbs that error completely on all 25 books, while the best single-population alternatives leave it behind on 19 of 25. The seam isn't decoration on the law — it's the missing part of it. (One flashier version of this proof — "the two groups are visible in the raw counts alone" — didn't survive our own audit and was retired; see the graveyard.)</p>
+
+  <figure>
+    <p class="ft">The two vocabularies (schematic)</p>
+    <p class="fs">How often words are used, on a logarithmic scale. A narrow club of constant companions; a broad population of everything else; the seam where they cross.</p>
+    <div class="figwrap"><svg id="fig-clubs" width="700" height="200" viewBox="0 0 700 200" role="img" aria-label="Schematic of two overlapping distributions: a narrow high-usage population and a broad low-usage population"></svg></div>
+  </figure>
+</section>
+
+<section>
+  <div class="kicker"><span class="tag">03 · A NEW CONSTANT</span><span class="thread"></span></div>
+  <h2>The seam is always 1.2% of the vocabulary wide <span class="new">NEW LAW</span></h2>
+  <p>Where the seam <em>sits</em> varies from book to book. How <em>wide</em> it is does not. Measured carefully across 25 books, the transition zone between the two vocabularies always spans <strong>about 1.2% of the total vocabulary</strong> — and the constant refuses to move even when the kind of language changes completely:</p>
+  <div class="codeblock">classic literature (1500s–1900s)   1.18%
+Brown corpus (1961, mixed prose)    1.22%
+Wikipedia text (2016)               1.20%
+movie dialogue (spoken style)       1.21%
+US surnames (non-language control)  2.66%   ← a different system gets a different number, as it should</div>
+  <p>Five centuries of writing, four completely different styles of English, one constant — and a deliberately non-linguistic dataset correctly refuses to match. No previous report of this regularity exists anywhere we could find.</p>
+</section>
+
+<section>
+  <div class="kicker"><span class="tag">04 · A BETTER FORMULA</span><span class="thread"></span></div>
+  <h2>One added term beats every standard model <span class="new">NEW FORMULA</span></h2>
+  <p>The search results boil down, after some algebra, to a one-line upgrade of the 1953 formula — a single extra term whose strength is set by one new number, λ:</p>
+  <div class="codeblock">log f(r) = a − b·log(r + c) + λ·(e^(x−1) − x)        ← x is the normalized rank</div>
+  <p>Scored fairly — with a criterion that <em>penalizes</em> the extra term, against both the classic formula and the strongest published alternative from 2013, each fitted at its best — the new formula wins <strong>42 out of 42 times</strong>: English classics, Wikipedia, film dialogue, Russian, Mandarin, Arabic, Finnish and more, with a typical error reduction around 10%. And the extra term isn't a hack: it is mathematically the second vocabulary's contribution to the curve. The formula encodes the explanation.</p>
+</section>
+
+<section>
+  <div class="kicker"><span class="tag">05 · A MYSTERY SOLVED</span><span class="thread"></span></div>
+  <h2>Mandelbrot's mystery number measures how much you've read <span class="new">70-YEAR REINTERPRETATION</span></h2>
+  <p>The strangest parameter in the field — the shift <code>c</code> that must be re-tuned for every text, with values that never made sense — turns out not to describe the text at all. <strong>It describes how deeply the text has been sampled.</strong> Take Shakespeare's complete works and shrink them: <code>c</code> slides from 244 down to 3 along a smooth curve. Every book does this, and random subsampling reproduces it exactly — it's pure statistics, not anything about the writing.</p>
+  <p>The consequence is bigger than it sounds: what looked for years like three different <em>kinds</em> of text (including in published comparisons of languages) is really <strong>one ladder that every text climbs as you read more of it</strong> — and a hidden size bias in earlier cross-language comparisons falls out into the open.</p>
+
+  <figure>
+    <p class="ft">Same book, smaller sample — the mystery number collapses</p>
+    <p class="fs">Mandelbrot's c versus how much of the book is counted. Hover the points for values. Both axes logarithmic.</p>
+    <div class="legend" id="legend-collapse"></div>
+    <div class="figwrap"><svg id="fig-collapse" width="700" height="300" viewBox="0 0 700 300" role="img" aria-label="Line chart showing c collapsing with smaller corpus slices for three books"></svg></div>
+    <details><summary>Data table</summary>
+      <table><thead><tr><th>Corpus</th><th>full</th><th>300k words</th><th>150k</th><th>80k</th><th>40k</th></tr></thead>
+      <tbody>
+        <tr><td>Shakespeare</td><td>244.3</td><td>33.2</td><td>13.4</td><td>6.4</td><td>3.0</td></tr>
+        <tr><td>Les Misérables</td><td>182.0</td><td>53.0</td><td>13.0</td><td>1.9</td><td>0.1</td></tr>
+        <tr><td>Don Quixote</td><td>66.2</td><td>35.0</td><td>8.8</td><td>1.7</td><td>0.0</td></tr>
+      </tbody></table>
+    </details>
+  </figure>
+</section>
+
+<section>
+  <div class="kicker"><span class="tag">06 · COUNT WORDS, GET THE LAW</span><span class="thread"></span></div>
+  <h2>Five numbers regenerate Zipf's law <span class="new">NEW RESULT</span></h2>
+  <p>Here is the part we find most satisfying. Describe a book's word counts with just <strong>five numbers</strong> — the size of the workhorse club, where each vocabulary is centred, and how spread out each one is. Then simulate the act of counting (including one detail that turns out to be essential: you can never observe a word appearing half a time — counts stop at one). Out of that simulation come the famous law's parameters, <em>computed rather than fitted</em>:</p>
+  <p><strong>The exponent b is predicted with a correlation of 0.94 and a typical error of 4%.</strong> <span class="mono">War and Peace: predicted 1.688, actual 1.681. Ulysses: 1.038 vs 1.045.</span> For seventy years these were numbers you could only discover by fitting. Now they follow from the structure of the vocabulary itself.</p>
+
+  <figure>
+    <p class="ft">Predicted vs. actual Zipf exponent, 25 books</p>
+    <p class="fs">Each dot is one book. The dashed diagonal is perfect prediction. Hover for names.</p>
+    <div class="figwrap"><svg id="fig-scatter" width="700" height="360" viewBox="0 0 700 360" role="img" aria-label="Scatter plot of predicted versus actual Zipf exponent for 25 corpora, tightly clustered along the diagonal"></svg></div>
+  </figure>
+
+  <div class="callout">
+    <p class="ct">THE HONEST ASTERISK</p>
+    <p>The five numbers are measured from the same word counts the curve is drawn from — so this shows that a tiny, meaningful description regenerates the whole law, not that we can see the future. The genuinely hard version — <strong>measure one-sixth of Shakespeare and predict the parameters of the full text</strong> — is the next experiment, and the current model doesn't pass it yet. When a claim of ours has a limit, you hear it from us first.</p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker"><span class="tag">07 · UNIVERSALS</span><span class="thread"></span></div>
+  <h2>One fingerprint for English — and a natural experiment across languages</h2>
+  <p>Measured under one fixed procedure, English's signature is <strong>the same everywhere we looked</strong>: Shakespeare, a 1961 cross-section of American prose, Wikipedia, and film dialogue are statistically indistinguishable from each other. The surname dataset — a list of names rather than a language — comes back alien on every metric: the method sees language structure only where language actually is. And when every corpus is cut to the <em>same size</em>, a natural experiment appears: <strong>War and Peace in English translation and in the Russian original, same text, same length — the English version carries a clear seam signature (c = 10.1) while the Russian original sits at zero.</strong> Same story, same author; the difference isolates what the language itself does to word frequencies. (An earlier, flashier cross-language claim — a single "morphology number" per language — failed our own identifiability audit and was retired; see the graveyard.)</p>
+</section>
+
+<section>
+  <div class="kicker"><span class="tag">08 · NEW VS. KNOWN</span><span class="thread"></span></div>
+  <h2>"Never been done before" — audited</h2>
+  <p>Claims of novelty deserve suspicion, so here is the honest split, checked against the field's literature and two independent adversarial audits of this project:</p>
+  <div class="figwrap">
+  <table class="newtable">
+    <thead><tr><th>Item</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>Two-vocabulary hypothesis</td><td class="ko">Proposed in 2001, given a generative model in 2013 — we supplied the seam fingerprint, the absorption proof, and the width law</td></tr>
+      <tr><td>Bell-curve models of word frequency</td><td class="ko">Proposed in 1967; used since 2001 to forecast vocabulary sizes — we made them predict the frequency curve itself</td></tr>
+      <tr><td>Formula-search on Zipf's error term</td><td class="yes">Never done before — confirmed by a full literature sweep (July 2026)</td></tr>
+      <tr><td>The seam-width constant (≈1.2% of vocabulary)</td><td class="yes">Never reported before — every earlier account gives the boundary a location, none gives it a width; survives the strongest published counter-theory ("it's an artifact of gluing texts together"), which we tested head-on</td></tr>
+      <tr><td>Mandelbrot's c explained as sampling depth</td><td class="ko">That fitted numbers drift with text size was known — the collapse trajectories, the depth-matched protocol, and the translation-pair experiment are new</td></tr>
+      <tr><td>The one-term λ formula</td><td class="yes">Never published before</td></tr>
+      <tr><td>The universal English signature; the translation-pair result</td><td class="yes">Never reported before</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <div class="kicker"><span class="tag">09 · THE GRAVEYARD</span><span class="thread"></span></div>
+  <h2>Ideas we killed ourselves</h2>
+  <p>You should trust a result in proportion to how hard its authors tried to break it. Casualties so far:</p>
+  <div class="grave">
+    <div class="g"><b>The √e coincidence</b><span>A fitted constant matched √e to four decimal places. It died when we fixed our own estimator — numerology, flagged before anyone got attached.</span></div>
+    <div class="g"><b>A too-clean shortcut</b><span>One elegant inference ("this curve shape proves that structure") failed our own counter-example test. The claim was cut down to what the evidence supports.</span></div>
+    <div class="g"><b>A perfect correlation</b><span>0.9992 — which in real data means you've measured the same thing twice. Chasing it exposed a subtle flaw in our own pipeline. We fixed the flaw and kept the better law it revealed.</span></div>
+    <div class="g"><b>A beautiful first theory</b><span>Predicted an exponent of 8 where reality says 1.5 — because it ignored that counts can't go below one. The failure located the missing ingredient that made the real theory work.</span></div>
+    <div class="g"><b>The "morphology dial"</b><span>One number that seemed to rank languages by grammatical richness — with Joyce scoring above German. Our own three-part audit showed the number isn't pinned down by the data. Retired before publication.</span></div>
+    <div class="g"><b>"Visible in the raw counts alone"</b><span>Our flashiest proof of the two vocabularies — a statistical test on bare counts, no ordering needed — collapsed when both competing models got equally thorough fitting. The identity-based proof stands; the shortcut is buried.</span></div>
+  </div>
+</section>
+
+<footer>
+  <p><strong>Method.</strong> Every number above was regenerated by two independent implementations. Every claim traces to a versioned data file. Negative controls ran alongside every positive result, and an external adversarial audit reviewed the earlier draft of this work. Research: Grigori Karapetyan, with AI research assistants (Claude, GPT-5&nbsp;Pro, Codex, Gemini) working under human direction. Preprint in preparation, 2026.</p>
+  <p class="mono">the lexical seam · field report v1 · numbers as of 2026-07-21</p>
+</footer>
+
+</div>
+<div id="tt" role="presentation"></div>
+
+<script>
+(function(){
+  const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const tt = document.getElementById('tt');
+  function hover(el, html){
+    el.addEventListener('pointerenter', () => { tt.innerHTML = html; tt.style.display='block'; });
+    el.addEventListener('pointermove', e => {
+      const pad = 14, w = tt.offsetWidth, h = tt.offsetHeight;
+      let x = e.clientX + pad, y = e.clientY - h - 10;
+      if (x + w > innerWidth - 8) x = e.clientX - w - pad;
+      if (y < 8) y = e.clientY + pad;
+      tt.style.left = x + 'px'; tt.style.top = y + 'px';
+    });
+    el.addEventListener('pointerleave', () => { tt.style.display='none'; });
+  }
+  const S = (tag, attrs) => { const n = document.createElementNS('http://www.w3.org/2000/svg', tag); for (const k in attrs) n.setAttribute(k, attrs[k]); return n; };
+
+  function draw(){
+    // --- Fig 1: two vocabularies schematic ---
+    const f1 = document.getElementById('fig-clubs'); f1.innerHTML='';
+    const base=168;
+    const gauss=(x,m,s)=>Math.exp(-((x-m)*(x-m))/(2*s*s));
+    function hump(m,s,amp,color,fillOp){
+      let d='M 40 '+base;
+      for(let px=40;px<=660;px+=4){ const x=(px-40)/620*10; d+=' L '+px+' '+(base-amp*gauss(x,m,s)*130); }
+      d+=' L 660 '+base+' Z';
+      f1.appendChild(S('path',{d,fill:color,'fill-opacity':fillOp,stroke:color,'stroke-width':2,'stroke-opacity':.9}));
+    }
+    f1.appendChild(S('line',{x1:40,y1:base,x2:660,y2:base,class:'axis'}));
+    hump(7.6,0.62,0.62,css('--s1'),0.28);
+    hump(3.4,2.05,1.0,css('--s2'),0.18);
+    const t1=S('text',{x:598,y:60,'text-anchor':'middle',class:'lbl'}); t1.textContent='the workhorse club'; f1.appendChild(t1);
+    const t1b=S('text',{x:598,y:74,'text-anchor':'middle'}); t1b.textContent='~2% of words, narrow'; f1.appendChild(t1b);
+    const t2=S('text',{x:210,y:40,'text-anchor':'middle',class:'lbl'}); t2.textContent='everything else'; f1.appendChild(t2);
+    const t2b=S('text',{x:210,y:54,'text-anchor':'middle'}); t2b.textContent='broad — five orders of magnitude'; f1.appendChild(t2b);
+    f1.appendChild(S('line',{x1:497,y1:30,x2:497,y2:base,stroke:css('--accent'),'stroke-width':2,'stroke-dasharray':'5 5'}));
+    const ts=S('text',{x:497,y:190,'text-anchor':'middle',class:'lbl'}); ts.textContent='the seam'; f1.appendChild(ts);
+    const ax=S('text',{x:40,y:190}); ax.textContent='how often a word is used (log scale) →'; f1.appendChild(ax);
+
+    // --- Fig 2: c collapse ---
+    const f2=document.getElementById('fig-collapse'); f2.innerHTML='';
+    const series=[
+      {name:'Shakespeare', color:css('--s1'), pts:[[988670,244.3],[300000,33.2],[150000,13.4],[80000,6.4],[40000,3.0]]},
+      {name:'Les Misérables', color:css('--s2'), pts:[[575614,182.0],[300000,53.0],[150000,13.0],[80000,1.9],[40000,0.1]]},
+      {name:'Don Quixote', color:css('--s3'), pts:[[433304,66.2],[300000,35.0],[150000,8.8],[80000,1.7],[40000,0.05]]},
+    ];
+    const L=64,R=96,T=16,B=44,W2=700,H2=300;
+    const x2=t=>L+(Math.log10(t)-Math.log10(35000))/(Math.log10(1100000)-Math.log10(35000))*(W2-L-R);
+    const y2=c=>{const v=Math.log10(c+1);return H2-B-(v/Math.log10(300))*(H2-T-B);};
+    [0,3,10,30,100,250].forEach(c=>{
+      f2.appendChild(S('line',{x1:L,y1:y2(c),x2:W2-R,y2:y2(c),class:'axis'}));
+      const t=S('text',{x:L-8,y:y2(c)+4,'text-anchor':'end'}); t.textContent=c; f2.appendChild(t);
+    });
+    [40000,80000,150000,300000,988670].forEach(tk=>{
+      const t=S('text',{x:x2(tk),y:H2-B+18,'text-anchor':'middle'}); t.textContent=(Math.round(tk/1000))+'k'; f2.appendChild(t);
+    });
+    const xl=S('text',{x:(L+W2-R)/2,y:H2-6,'text-anchor':'middle'}); xl.textContent='words counted'; f2.appendChild(xl);
+    const yl=S('text',{x:L-8,y:T+2,'text-anchor':'end',class:'lbl'}); yl.textContent='c'; f2.appendChild(yl);
+    const leg=document.getElementById('legend-collapse'); leg.innerHTML='';
+    series.forEach(s=>{
+      leg.insertAdjacentHTML('beforeend','<span><span class="sw" style="background:'+s.color+'"></span>'+s.name+'</span>');
+      const d=s.pts.map((p,i)=>(i?'L':'M')+x2(p[0])+' '+y2(p[1])).join(' ');
+      f2.appendChild(S('path',{d,fill:'none',stroke:s.color,'stroke-width':2}));
+      s.pts.forEach(p=>{
+        f2.appendChild(S('circle',{cx:x2(p[0]),cy:y2(p[1]),r:4,fill:s.color,stroke:css('--surface'),'stroke-width':2}));
+        const hit=S('circle',{cx:x2(p[0]),cy:y2(p[1]),r:12,fill:'transparent'});
+        f2.appendChild(hit);
+        hover(hit, s.name+'<br>'+Math.round(p[0]/1000)+'k words → c = '+p[1]);
+      });
+      const last=s.pts[0];
+      const el=S('text',{x:x2(last[0])+10,y:y2(last[1])+4,class:'lbl'}); el.textContent=s.name; f2.appendChild(el);
+    });
+
+    // --- Fig 3: predicted vs actual b ---
+    const f3=document.getElementById('fig-scatter'); f3.innerHTML='';
+    const data=[["Shakespeare",1.654,1.724],["War and Peace",1.688,1.681],["Moby Dick",1.239,1.182],["King James Bible",1.683,1.896],["Federalist Papers",1.572,1.555],["Grimm's Fairy Tales",1.628,1.580],["Don Quixote",1.417,1.484],["Pride and Prejudice",1.470,1.456],["Canterbury Tales",1.191,1.256],["Arabian Nights",1.149,1.188],["Aesop's Fables",1.129,1.147],["Sherlock Holmes",1.174,1.253],["Jane Eyre",1.208,1.258],["Dubliners",1.015,1.137],["The Iliad",1.378,1.488],["Democracy in America",1.402,1.521],["Origin of Species",1.640,1.689],["Wealth of Nations",1.949,1.863],["Les Misérables",1.442,1.526],["Decline and Fall",1.314,1.481],["Émile",1.374,1.464],["Ulysses",1.038,1.045],["Collected Poe",1.010,1.134],["Principia Ethica",1.900,1.815],["Critique of Pure Reason",1.955,1.690]];
+    const L3=64,R3=24,T3=14,B3=46,W3=700,H3=360,lo=0.95,hi=2.05;
+    const x3=v=>L3+(v-lo)/(hi-lo)*(W3-L3-R3);
+    const y3=v=>H3-B3-(v-lo)/(hi-lo)*(H3-T3-B3);
+    [1.0,1.25,1.5,1.75,2.0].forEach(v=>{
+      f3.appendChild(S('line',{x1:L3,y1:y3(v),x2:W3-R3,y2:y3(v),class:'axis'}));
+      const ty=S('text',{x:L3-8,y:y3(v)+4,'text-anchor':'end'}); ty.textContent=v.toFixed(2); f3.appendChild(ty);
+      const tx=S('text',{x:x3(v),y:H3-B3+18,'text-anchor':'middle'}); tx.textContent=v.toFixed(2); f3.appendChild(tx);
+    });
+    f3.appendChild(S('line',{x1:x3(lo),y1:y3(lo),x2:x3(hi),y2:y3(hi),stroke:css('--muted'),'stroke-width':1.5,'stroke-dasharray':'6 5'}));
+    const dl=S('text',{x:x3(1.93),y:y3(1.93)-10,'text-anchor':'end'}); dl.textContent='perfect prediction'; f3.appendChild(dl);
+    const xl3=S('text',{x:(L3+W3-R3)/2,y:H3-8,'text-anchor':'middle'}); xl3.textContent='exponent predicted from the five numbers'; f3.appendChild(xl3);
+    const yl3=S('text',{x:14,y:T3+4}); yl3.textContent='exponent actually fitted to the curve'; f3.appendChild(yl3);
+    data.forEach(d=>{
+      f3.appendChild(S('circle',{cx:x3(d[1]),cy:y3(d[2]),r:5,fill:css('--s2'),'fill-opacity':.85,stroke:css('--surface'),'stroke-width':2}));
+      const hit=S('circle',{cx:x3(d[1]),cy:y3(d[2]),r:11,fill:'transparent'});
+      f3.appendChild(hit);
+      hover(hit, d[0]+'<br>predicted '+d[1].toFixed(3)+' · actual '+d[2].toFixed(3));
+    });
+  }
+
+  draw();
+  if (window.matchMedia) matchMedia('(prefers-color-scheme: dark)').addEventListener('change', draw);
+})();
+</script>
+</body>
+</html>

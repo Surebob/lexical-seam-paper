@@ -1,0 +1,25 @@
+ga_reference_r0_M400k                V=25,825
+ga_reference_r0_M1600k               V=58,938
+ga_reference_r1_M400k                V=25,942
+ga_reference_r1_M1600k               V=58,991
+pure_simon_decay_r0_M400k            V=20,985
+pure_simon_decay_r0_M1600k           V=52,837
+pure_simon_decay_r1_M400k            V=20,999
+pure_simon_decay_r1_M1600k           V=52,640
+classic_simon_r0_M400k               V=20,011
+classic_simon_r0_M1600k              V=80,114
+classic_simon_r1_M400k               V=20,126
+classic_simon_r1_M1600k              V=80,237
+[1/12] pure_simon_decay_r1_M1600k           s/V=0.0121
+[2/12] classic_simon_r0_M400k               s/V=0.0101
+[3/12] pure_simon_decay_r0_M400k            s/V=0.0114
+[4/12] pure_simon_decay_r1_M400k            s/V=0.0117
+[5/12] classic_simon_r1_M400k               s/V=0.0103
+[6/12] ga_reference_r1_M400k                s/V=0.0120
+[7/12] ga_reference_r0_M1600k               s/V=0.0124
+[8/12] pure_simon_decay_r0_M1600k           s/V=0.0120
+[9/12] ga_reference_r0_M400k                s/V=0.0118
+[10/12] classic_simon_r0_M1600k              s/V=0.0101
+[11/12] classic_simon_r1_M1600k              s/V=0.0102
+[12/12] ga_reference_r1_M1600k               s/V=0.0124
+summary written

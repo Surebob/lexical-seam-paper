@@ -1,0 +1,3 @@
+rates,rate_ratio,k_max,captured_mass,residual_rmse,winner_expression,winner_rmse,winner_cosine_vs_shifted_kl,winner_cosine_vs_unshifted_negative_entropy,shifted_kl_rank,shifted_kl_rmse,unshifted_rank,unshifted_rmse,predicted_form_in_top5,predicted_form_in_top20
+"10,12",1.2,20,0.99340700106166835,0.17140387351051664,"add[mul[mul[x,x],log[x]],eml[sub[x,1],add[1,x]]]",0.058952376356967921,0.79211546210499761,-0.66476109401276284,938,0.20093596725710261,4970,0.89043010375141074,False,False
+"10,15",1.5,23,0.99020765173701419,0.7579641979367262,"add[sub[sub[x,1],log[x]],pow[mul[x,x],eml[x,x]]]",0.25780927060648295,0.87865367258343774,-0.6303346175814688,487,0.51831341540428488,7257,1.3197257411728349,False,False

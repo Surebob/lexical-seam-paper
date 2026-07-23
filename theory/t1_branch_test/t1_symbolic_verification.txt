@@ -1,0 +1,33 @@
+# T1 symbolic verification
+
+Definition:
+  f(x) = x^x - sqrt(x) - 1/2*(x - 1)
+
+Pre-flight sanity check:
+  x^x at x=1 = 1
+
+SymPy expressions:
+  f(x)   = -sqrt(x) - x/2 + x**x + 1/2
+  f'(x)  = x**x*(log(x) + 1) - 1/2 - 1/(2*sqrt(x))
+  f''(x) = x**x*(log(x) + 1)**2 + x**x/x + 1/(4*x**(3/2))
+
+Handwritten derivative:
+  x^x*(1 + log(x)) - 1/(2*sqrt(x)) - 1/2
+  SymPy derivative matches handwritten derivative: True
+  handwritten f'(1) = 0
+
+Boundary conditions:
+  f(1)  = 0
+  f'(1) = 0
+
+Convexity verification on x in [0.05, 1.0]:
+  f''(x) = x**x*((log(x) + 1)**2 + 1/x) + 1/(4*x**(3/2))
+  decomposition matches SymPy f'': True
+
+Sign argument:
+  For x > 0, x^x > 0, (log(x)+1)^2 >= 0, 1/x > 0, and 1/(4*x^(3/2)) > 0.
+  Therefore f''(x) is strictly positive for every x > 0, including all x in [0.05, 1.0].
+
+Sampled numerical f'' range on [0.05, 1.0]:
+  min f'' = 1.8612404630977943 at x = 0.71376376376376383
+  max f'' = 43.007399078393604 at x = 0.050000000000000003

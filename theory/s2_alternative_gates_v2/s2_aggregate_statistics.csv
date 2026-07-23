@@ -1,0 +1,38 @@
+metric_name,value,notes
+logistic_bic_wins,22,Count of corpora where logistic has the lowest BIC among the four independent gates.
+erf_bic_wins,3,Count of corpora where erf has the lowest BIC among the four independent gates.
+algebraic_bic_wins,0,Count of corpora where algebraic has the lowest BIC among the four independent gates.
+arctan_bic_wins,0,Count of corpora where arctan has the lowest BIC among the four independent gates.
+tanh_calibration_pass_count,0,Count of corpora satisfying both tanh calibration checks.
+max_tanh_logistic_bic_diff,1296.979198424975,Maximum absolute BIC difference between tanh and logistic across corpora.
+max_tanh_logistic_ratio_deviation,10.358975492935153,Maximum absolute deviation of w_tanh / (2*w_logistic) from 1.0 across corpora.
+median_bic_spread,525.9558349913423,"Median of max_bic - min_bic across logistic, erf, algebraic, and arctan."
+mean_bic_spread,838.5619948953511,"Mean of max_bic - min_bic across logistic, erf, algebraic, and arctan."
+gates_indistinguishable_strong_count,0,Count of corpora with independent-gate BIC spread < 10.
+gates_indistinguishable_positive_count,0,Count of corpora with independent-gate BIC spread < 6.
+gates_indistinguishable_strict_count,0,Count of corpora with independent-gate BIC spread < 2.
+logistic_w_min,0.11951321226545498,Minimum fitted w for logistic.
+logistic_w_max,2.090842043217351,Maximum fitted w for logistic.
+logistic_w_median,1.3680271066348417,Median fitted w for logistic.
+logistic_hit_upper_bound_count,0,Count of corpora where logistic hit the widened upper w bound.
+logistic_hit_lower_bound_count,0,Count of corpora where logistic hit the widened lower w bound.
+tanh_w_min,0.11506746242806203,Minimum fitted w for tanh.
+tanh_w_max,4.153013982237304,Maximum fitted w for tanh.
+tanh_w_median,2.7125557889580567,Median fitted w for tanh.
+tanh_hit_upper_bound_count,0,Count of corpora where tanh hit the widened upper w bound.
+tanh_hit_lower_bound_count,0,Count of corpora where tanh hit the widened lower w bound.
+erf_w_min,0.1143917716368604,Minimum fitted w for erf.
+erf_w_max,4.293260132885436,Maximum fitted w for erf.
+erf_w_median,3.142079348218086,Median fitted w for erf.
+erf_hit_upper_bound_count,0,Count of corpora where erf hit the widened upper w bound.
+erf_hit_lower_bound_count,0,Count of corpora where erf hit the widened lower w bound.
+algebraic_w_min,0.108062683874689,Minimum fitted w for algebraic.
+algebraic_w_max,4.795285296168706,Maximum fitted w for algebraic.
+algebraic_w_median,1.001702423835012,Median fitted w for algebraic.
+algebraic_hit_upper_bound_count,0,Count of corpora where algebraic hit the widened upper w bound.
+algebraic_hit_lower_bound_count,0,Count of corpora where algebraic hit the widened lower w bound.
+arctan_w_min,0.11283439895704525,Minimum fitted w for arctan.
+arctan_w_max,3.3546460538405007,Maximum fitted w for arctan.
+arctan_w_median,0.7769507442767587,Median fitted w for arctan.
+arctan_hit_upper_bound_count,0,Count of corpora where arctan hit the widened upper w bound.
+arctan_hit_lower_bound_count,0,Count of corpora where arctan hit the widened lower w bound.

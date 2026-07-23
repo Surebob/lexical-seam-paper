@@ -1,0 +1,50 @@
+{
+  "brown.zip": {
+    "status": "ok",
+    "url": "https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/brown.zip",
+    "bytes": 3314357
+  },
+  "cornell_movie_dialogs.zip": {
+    "status": "FAILED"
+  },
+  "wikitext-103-raw-v1.zip": {
+    "status": "ok",
+    "url": "https://wikitext.smerity.com/wikitext-103-raw-v1.zip",
+    "bytes": 191984949
+  },
+  "census_surnames.zip": {
+    "status": "ok",
+    "url": "https://www2.census.gov/topics/genealogy/2010surnames/names.zip",
+    "bytes": 12874389
+  },
+  "lang_italian": {
+    "status": "ok",
+    "gutenberg_id": 45334,
+    "bytes": 1472526
+  },
+  "lang_finnish": {
+    "status": "ok",
+    "gutenberg_id": 11940,
+    "bytes": 691459
+  },
+  "lang_polish": {
+    "status": "ok",
+    "gutenberg_id": 31536,
+    "bytes": 256827
+  },
+  "lang_portuguese": {
+    "status": "ok",
+    "gutenberg_id": 55752,
+    "bytes": 418230
+  },
+  "lang_german": {
+    "status": "ok",
+    "gutenberg_id": 2403,
+    "bytes": 555695
+  },
+  "lang_swedish": {
+    "status": "ok",
+    "gutenberg_id": 39147,
+    "bytes": 474608
+  }
+}

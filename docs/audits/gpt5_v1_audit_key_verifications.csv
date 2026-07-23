@@ -1,0 +1,46 @@
+Location,Claim checked,Source,Status,Audit note
+3.1,Step-2 Bregman-type winners on 25/25; step-2 helps 12/25; gains 0.33%-2.50%; median -0.23%; terminal 25/25; 3.70%-25.29%; mean 11.02%,1a aggregate_statistics.csv,MATCH,All numbers match after rounding.
+3.1,Mean winner-runner gap 0.00201 at step 2; terminal 0.00075,1a aggregate_statistics.csv,MATCH,Both match after rounding.
+3.1,Euclidean never wins; median winner-minus-Euclidean gap 0.006; family within 0.01,1d aggregate_statistics.csv,MATCH,Median gap 0.00595; winner count 0; max core-generator gap in typical band 0.00791; all 25 below 0.01.
+3.1,Guard ablation leaves winners unchanged,1c robustness_ablation_by_corpus.csv,PARTIAL,"Saved data cover only a diagnostic subset (9 runs across 3 corpora), not all 25 corpora."
+3.1,x_low ablation stable away from transition; flips near transition,1c robustness_ablation_by_corpus.csv,PARTIAL,Supported on a diagnostic subset. One flip occurs at Principia Ethica x_low=0.01; not a full 25-corpus rerun.
+3.1,Weighted least squares halves improvement magnitude without changing winners,1c robustness_ablation_by_corpus.csv + README,MISMATCH / UNSUPPORTED,Saved WLS bundle did not rerun fresh search winners; it applies a fixed IS correction after weighted fitting. Winner-identity claim is not supported by package.
+3.2,"City-population control: 33,535 cities; c=100.4; RMSE 0.1206 vs 0.1225 composite",1b city_population_control.csv,MATCH,All numbers match after rounding.
+3.3,Shakespeare function-word ablation c values and behavior,2a function_word_ablation.csv,MATCH,"Top-100 removal, top-50 removal, and top-100-only values match after rounding."
+3.4,Same-exponent control α1=α2=1.5 gives pure power law / no correction,2b synthetic_mixture_runs.csv + README/BLOCKED,MISMATCH,"The saved same-exponent control is α1=α2=0.8, not 1.5."
+3.4,"Small-gap mixture (1.5,1.3,0.5) gives IS winner and helpful correction",2b synthetic_mixture_runs.csv,MATCH,Supported.
+3.4 / 3.7,Planted mixture ZM 0.181 -> 0.174; MOE 0.326 -> 0.263; winner log(x)^2 after MOE,2b planted_mixture_runs.csv,MATCH,All numbers match after rounding.
+3.5,Smooth family beats single ZM / piecewise / step2 on 25/25; relaxed bounds help on 25/25,3a aggregate_statistics.csv + 3b aggregate_statistics.csv,MATCH,"Broad dominance counts match. Caveat: these are historical smooth-family outputs, not the decoupled-erf gate sweep."
+3.5,Correct w<0.2 list excludes Principia Ethica,3a aggregate_statistics.csv,MATCH,Saved list matches manuscript correction.
+3.5,"Decoupled-gate sweep: erf 24/25, arctan 1/25, tanh calibration 25/25, median spread 677.37, mean 864.66",No bundled canonical CSV; only DRIFT_TRACKER references excluded results/,UNSUPPORTED,This is the largest package-level gap. The evidence is not present in bundled canonical outputs.
+3.5,Logistic synthetic recovery 25/25; erf never beats true generator,No bundled canonical CSV; only DRIFT_TRACKER references excluded results/,UNSUPPORTED,Same package-level gap as above.
+3.6,"Decoupled-erf k scaling β=0.758; CI [0.346,1.171]; R²=0.386",J2 upstream snapshot + scaling comparison summary,MATCH WITH PROVENANCE CAVEAT,β and R² are present; exact CI is supported by the included recheck / drift materials rather than a formal experiment directory.
+3.6,"POS scaling α=0.545, CI [0.532,0.557], p=5.35e-8",3d aggregate_statistics.csv,MATCH,Matches after rounding.
+2.9 / 4.5,Manual POS cross-check on four corpora within 15 ranks,3d aggregate_statistics.csv + README,MISMATCH,"Saved maximum gap is 10, not 15. Only 3 top-300 manual CSVs are preserved even though aggregate counts indicate 4 corpora in the manual validation summary."
+3.7,"MOE residual step-2 helps 19/25, median +0.017; smooth residual helps 0/25, median -0.002",2c aggregate_statistics.csv,MATCH,All match after rounding.
+3.7,Euclidean gap 0.006 -> 0.104; basis explains 97%; slant vs c r=-0.86,2c aggregate_statistics.csv,MATCH,All match after rounding.
+3.8,Do not transfer coupled-logistic sign counts to canonical erf without rerun,4 BLOCKED.md + manuscript wording,MATCH AS CAVEAT,The manuscript now mostly respects this. Good revision.
+3.9,Smooth-synthetic help 58.8%; exact winner 48.4% vs 20.0%; basis correlations 0.89/0.88/0.81 vs 0.38/0.48/0.34; 11/11 high-c exact recovery,5a aggregate_statistics.csv,MATCH WITH CANON CAVEAT,Numbers match. Caveat: README says this is a historical smooth-generation experiment predating the decoupled-erf canon.
+3.9,"Low-c manifold: cosine 0.965; span R² 83.6% vs 56.5%; xpow wins 11/14 top100, 13/14 top200; 71.4% vs 57.1%",5b aggregate_statistics.csv,MATCH WITH CANON CAVEAT,Numbers match. Caveat: framing should stay metric- and chart-conditioned.
+3.9,Coupled parameter-sweep correlations -0.540 / +0.554; winner cross-tabs 115/58/43 and 89/88/39,5c BLOCKED; no canonical CSV,UNSUPPORTED,These numbers are not backed by bundled canonical outputs.
+3.9,Euclidean control gap 0.037 smooth synthetic vs 0.096 ZM control synthetic,2c + 5a aggregate_statistics.csv,MATCH,Supported.
+3.10,"Table 3 row values for V, c, RMSEs, step-2 winners",6 table3_multilang.csv,MATCH,Core per-language values match.
+3.10,"Table 3 final column labeled k/V^0.5 with values 0.48,0.46,...",6 table3_multilang.csv / multilang_per_corpus.csv,MISMATCH,"Those displayed values are transition_fraction, not k_over_sqrt_v. Canonical k_over_sqrt_v values are about 48-80."
+3.10,"Smooth beats single ZM on 7/7; transition fraction in [0.42,0.62] with 6/7 near 0.5; 4/7 Bregman winners",6 aggregate_statistics.csv,MATCH,Supported.
+3.10,x^x-√x is within Bregman class after linear recentering,README caveat + no theorem CSV,UNSUPPORTED IN PACKAGE,"Likely mathematically salvageable, but not backed by canonical empirical outputs in the package."
+3.11,Table 4 four-way PMF winner counts and medians,7a splitfit/table4_fourway.csv + aggregate_statistics.csv,MATCH,Table 4 matches exactly.
+3.11,Free PMF wins 23/25 train BIC; held-out counts 12/5/8; seam dead 2/25,7a splitfit aggregate_statistics.csv,MATCH,Supported.
+3.11,"Soft-k beats MOE on 17/25, ZM on 13/25, Zipf on 24/25; seam helps 4/25",7a splitfit aggregate_statistics.csv,MATCH,Supported.
+3.11,Head-window winner counts and step-2 help counts,7b aggregate_statistics.csv,MATCH,Supported.
+3.11,Hierarchical pooling does not improve over soft-k,7e aggregate_statistics.csv + README,MISMATCH,Saved data show hierk beats 7a canonical soft-k on 20/25 with median delta -0.000912.
+3.11,Asymmetric gate beats soft-k on 22/25 by tiny median -0.00027; 5/25 material asymmetry,7d aggregate_statistics.csv,MATCH,Supported.
+3.11,Metadata correlations weak; max abs 0.267,7c aggregate_statistics.csv,MATCH,Supported.
+3.11,Bible decomposition counts and NLL values,8 aggregate_statistics.csv + table5_bible_summary.csv,MATCH / SIGN ERROR,All numbers match except manuscript prints the decomposition-improvement row with the wrong sign.
+3.11,Improvement from decomposition = -0.412 NLL/token,8 aggregate_statistics.csv,MISMATCH,Canonical value is +0.411796 when defined as whole-fit minus aggregate per-book NLL.
+3.11,Hybrid / nested / three-regime frontier claims,9 aggregate_statistics.csv,MATCH,All main counts and medians checked match.
+3.11,Mechanism-preservation penalty fails at all lambdas,9 aggregate_statistics.csv,MATCH,Supported.
+3.12,Step-10 exemplar polynomial metrics on Shakespeare and War and Peace,10a aggregate_statistics.csv,MATCH,Supported.
+4.5 / 3.12,Poly transfer includes Shakespeare→War and Peace and War and Peace→Bible,10a poly_transfer.csv + BLOCKED.md,PARTIAL / UNSUPPORTED,Only Shakespeare→War and Peace and War and Peace→Shakespeare are saved. Bible-transfer claims are unsupported by package.
+3.12,Grammar widening: 11/14 English low-c flips; 17/17 manifold yes; min span R² > 0.975,10b aggregate_statistics.csv + widened_lowc_manifold_summary.csv,MATCH,Supported.
+3.12,High-c widened grammar preserves IS winner on Shakespeare and War and Peace,10b README / widened diagnostic outputs,MATCH WITH SCOPE CAVEAT,"Supported only for the explicitly widened high-c exemplars, not all 25 English corpora."
+Global,Footer says manuscript version 4.0; appendix table-source paths use old results/ bundles,"Manuscript lines 603, 617-623",MISMATCH / STALE,Editorial but important for an external audit trail.

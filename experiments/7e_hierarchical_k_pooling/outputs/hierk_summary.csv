@@ -1,0 +1,2 @@
+model,alpha,sigma,sigma_lower_bound,sigma_at_lower_bound,iteration_count,source
+hierarchical_k,0.5049174340956519,0.05,0.05,True,4,results/zipf_angle4_hierk/summary.json

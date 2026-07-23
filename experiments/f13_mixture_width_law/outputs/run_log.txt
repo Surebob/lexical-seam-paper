@@ -1,0 +1,78 @@
+75 synthetic fits queued (25 corpora x 3 reps)
+[1/75] Moby Dick                    rep0 V= 16885 k=  416.3 s=   196.0 s/V=0.0116
+[2/75] Moby Dick                    rep1 V= 17117 k=  411.7 s=   195.8 s/V=0.0114
+[3/75] King James Bible             rep0 V= 12498 k=  836.5 s=  2819.9 s/V=0.2256
+[4/75] King James Bible             rep1 V= 12551 k=  857.5 s=  3157.6 s/V=0.2516
+[5/75] Moby Dick                    rep2 V= 17137 k=  395.2 s=   199.1 s/V=0.0116
+[6/75] Federalist Papers            rep0 V=  8576 k= 5000.0 s=   663.0 s/V=0.0773
+[7/75] King James Bible             rep2 V= 12593 k=  794.1 s=  2973.4 s/V=0.2361
+[8/75] Federalist Papers            rep1 V=  8648 k= 5000.0 s=   535.8 s/V=0.0620
+[9/75] Federalist Papers            rep2 V=  8705 k= 5000.0 s=   788.5 s/V=0.0906
+[10/75] Complete Works of Shakespear rep2 V= 24586 k= 1614.1 s=  4592.6 s/V=0.1868
+[11/75] Grimm's Fairy Tales          rep0 V=  4797 k=  325.0 s=    60.4 s/V=0.0126
+[12/75] Grimm's Fairy Tales          rep1 V=  4745 k= 3282.7 s= 32827.2 s/V=6.9183
+[13/75] Grimm's Fairy Tales          rep2 V=  4751 k=  966.8 s=    48.3 s/V=0.0102
+[14/75] Don Quixote                  rep0 V= 15512 k= 2123.1 s=   186.6 s/V=0.0120
+[15/75] Don Quixote                  rep2 V= 15493 k= 2254.7 s=   183.7 s/V=0.0119
+[16/75] Don Quixote                  rep1 V= 15555 k= 2350.4 s=   184.5 s/V=0.0119
+[17/75] Pride and Prejudice          rep0 V=  6634 k= 4435.8 s= 43860.9 s/V=6.6115
+[18/75] Pride and Prejudice          rep1 V=  6770 k= 1191.4 s=    70.6 s/V=0.0104
+[19/75] Pride and Prejudice          rep2 V=  6797 k= 1162.2 s=    71.0 s/V=0.0104
+[20/75] Canterbury Tales             rep0 V= 17517 k= 1865.7 s=   184.7 s/V=0.0105
+[21/75] Canterbury Tales             rep1 V= 17700 k= 1791.0 s=   186.1 s/V=0.0105
+[22/75] Canterbury Tales             rep2 V= 17732 k= 1965.8 s=   184.3 s/V=0.0104
+[23/75] Arabian Nights (Vol 1)       rep0 V= 13826 k= 1519.1 s=   126.7 s/V=0.0092
+[24/75] Complete Works of Shakespear rep1 V= 24437 k= 1546.2 s=  4700.8 s/V=0.1924
+[25/75] Aesop's Fables               rep0 V=  4476 k= 2500.1 s= 25000.5 s/V=5.5855
+[26/75] Aesop's Fables               rep1 V=  4330 k=  200.2 s=    45.3 s/V=0.0105
+[27/75] Aesop's Fables               rep2 V=  4302 k=  500.6 s=    37.7 s/V=0.0088
+[28/75] Complete Sherlock Holmes     rep0 V=  7879 k=  571.0 s=    85.8 s/V=0.0109
+[29/75] Arabian Nights (Vol 1)       rep2 V= 14098 k= 1668.2 s=   128.2 s/V=0.0091
+[30/75] Complete Sherlock Holmes     rep1 V=  7905 k=  483.9 s=    86.1 s/V=0.0109
+[31/75] Complete Sherlock Holmes     rep2 V=  7857 k=  513.4 s=    84.6 s/V=0.0108
+[32/75] Arabian Nights (Vol 1)       rep1 V= 13945 k= 1738.0 s=   126.7 s/V=0.0091
+[33/75] Dubliners                    rep0 V=  7204 k=   80.6 s=    77.8 s/V=0.0108
+[34/75] Dubliners                    rep1 V=  7211 k=   76.0 s=    77.9 s/V=0.0108
+[35/75] Jane Eyre                    rep0 V= 12631 k= 1584.7 s=   138.5 s/V=0.0110
+[36/75] Jane Eyre                    rep1 V= 12496 k= 1569.8 s=   137.8 s/V=0.0110
+[37/75] Dubliners                    rep2 V=  7113 k=   63.6 s=    77.7 s/V=0.0109
+[38/75] Jane Eyre                    rep2 V= 12486 k= 1338.0 s=   140.8 s/V=0.0113
+[39/75] The Iliad                    rep1 V= 12255 k= 2363.4 s=   124.5 s/V=0.0102
+[40/75] The Iliad                    rep2 V= 12421 k=  408.5 s=   165.4 s/V=0.0133
+[41/75] Democracy in America         rep1 V=  9309 k= 1384.7 s=   106.7 s/V=0.0115
+[42/75] The Iliad                    rep0 V= 12388 k=  417.6 s=   163.2 s/V=0.0132
+[43/75] Democracy in America         rep0 V=  9331 k= 1403.7 s=   104.2 s/V=0.0112
+[44/75] Origin of Species            rep1 V=  6944 k= 4476.1 s=   412.4 s/V=0.0594
+[45/75] Democracy in America         rep2 V=  9257 k= 1258.7 s=   105.1 s/V=0.0114
+[46/75] Origin of Species            rep2 V=  6806 k= 4554.0 s=   438.1 s/V=0.0644
+[47/75] Origin of Species            rep0 V=  6831 k=  209.7 s=    95.5 s/V=0.0140
+[48/75] Wealth of Nations            rep1 V=  9460 k= 5000.0 s=   625.3 s/V=0.0661
+[49/75] Wealth of Nations            rep0 V=  9442 k=  328.9 s=   133.2 s/V=0.0141
+[50/75] Les Miserables               rep2 V= 22576 k= 1129.5 s=  4417.4 s/V=0.1957
+[51/75] Les Miserables               rep1 V= 22513 k= 1191.5 s=  4505.5 s/V=0.2001
+[52/75] Wealth of Nations            rep2 V=  9438 k= 5000.0 s=   618.9 s/V=0.0656
+[53/75] Decline and Fall Vol 1       rep1 V= 15924 k= 2317.5 s=   182.7 s/V=0.0115
+[54/75] Decline and Fall Vol 1       rep2 V= 16057 k= 2186.2 s=   184.3 s/V=0.0115
+[55/75] Decline and Fall Vol 1       rep0 V= 15960 k= 2489.2 s=   180.1 s/V=0.0113
+[56/75] Emile                        rep1 V= 11167 k= 5000.0 s=   955.1 s/V=0.0855
+[57/75] Emile                        rep0 V= 11129 k= 1722.6 s=   121.8 s/V=0.0109
+[58/75] Les Miserables               rep0 V= 22670 k= 1066.1 s=  4101.6 s/V=0.1809
+[59/75] Emile                        rep2 V= 11180 k= 1644.3 s=   125.0 s/V=0.0112
+[60/75] Collected Poe                rep0 V=  9419 k=  365.6 s=   108.5 s/V=0.0115
+[61/75] Collected Poe                rep1 V=  9393 k=  477.1 s=   105.5 s/V=0.0112
+[62/75] Collected Poe                rep2 V=  9293 k=  516.5 s=   102.5 s/V=0.0110
+[63/75] Principia Ethica             rep0 V=  3801 k= 2806.7 s= 27798.8 s/V=7.3135
+[64/75] Complete Works of Shakespear rep0 V= 24475 k= 1640.2 s=  4594.3 s/V=0.1877
+[65/75] Principia Ethica             rep1 V=  3814 k= 2772.3 s= 27722.9 s/V=7.2687
+[66/75] Principia Ethica             rep2 V=  3832 k=  157.2 s=    50.3 s/V=0.0131
+[67/75] Critique of Pure Reason      rep0 V=  6547 k= 4572.4 s= 45247.4 s/V=6.9112
+[68/75] Critique of Pure Reason      rep2 V=  6559 k= 4542.7 s= 45427.3 s/V=6.9260
+[69/75] Critique of Pure Reason      rep1 V=  6657 k= 4640.9 s= 45828.2 s/V=6.8842
+[70/75] Ulysses                      rep2 V= 29007 k=  950.0 s=   283.9 s/V=0.0098
+[71/75] Ulysses                      rep0 V= 28949 k=  879.3 s=   286.9 s/V=0.0099
+[72/75] War and Peace                rep0 V= 17482 k= 1339.9 s=  3977.8 s/V=0.2275
+[73/75] Ulysses                      rep1 V= 28890 k=  854.0 s=   289.2 s/V=0.0100
+[74/75] War and Peace                rep1 V= 17391 k= 1282.7 s=  4360.4 s/V=0.2507
+[75/75] War and Peace                rep2 V= 17506 k= 1330.8 s=  4131.9 s/V=0.2360
+
+summary written

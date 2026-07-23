@@ -1,0 +1,61 @@
+{
+  "experiment_id": "3b_model_family_bic_comparison",
+  "migration_type": "historical_bundle_consolidation",
+  "baseline_convention": "true_3_parameter_single_zm_bic",
+  "source_bundles": [
+    "results/zipf_bic_comparison",
+    "results/zipf_moezipf_comparison",
+    "results/zipf_continuous_piecewise",
+    "results/zipf_sqrt_v_all_corpora",
+    "results/zipf_bic_landscape"
+  ],
+  "outputs": {
+    "table2_model_family.csv": {
+      "rows": 25,
+      "schema": [
+        "slug",
+        "corpus",
+        "vocabulary_size",
+        "single_zm_bic",
+        "moe_bic",
+        "hard_piecewise_bic",
+        "continuous_piecewise_bic",
+        "smooth_ksqrtv_bic",
+        "smooth_freek_bic",
+        "winner_family",
+        "legacy_v4_zipf_rank_bic",
+        "legacy_v4_zipf_rank_bic_delta_vs_single_zm_bic"
+      ]
+    },
+    "model_family_rmse_per_corpus.csv": {
+      "rows": 25,
+      "schema": [
+        "slug",
+        "corpus",
+        "vocabulary_size",
+        "zipf_rank_rmse_legacy",
+        "moezipf_rank_rmse",
+        "single_zm_rank_rmse",
+        "hard_piecewise_rank_rmse",
+        "continuous_piecewise_rank_rmse",
+        "smooth_ksqrtv_rank_rmse",
+        "smooth_free_k_rank_rmse",
+        "sqrtv_minus_free_k_rmse"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 5,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "audit_flags": [
+    "v4 Table 2 rendered zipf_continuous_piecewise.zipf_bic under a ZM label; canonical 3b corrects this to true single_zm_bic.",
+    "v5.1 Table 2 no longer uses historical 3b; it uses S2 v3 decoupled gate-family outputs.",
+    "All manuscript citations of single-ZM BIC must be re-verified against table2_model_family.csv."
+  ]
+}

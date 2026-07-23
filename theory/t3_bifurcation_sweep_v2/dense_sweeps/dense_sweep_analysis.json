@@ -1,0 +1,106 @@
+{
+  "sweep_A_1000_to_2000": {
+    "winner_changes": [
+      {
+        "from_K": 1000,
+        "to_K": 1100,
+        "from_c": 255.74927297999844,
+        "to_c": 278.2559402207126,
+        "from_winner": "eml[sub[x,1],eml[x,1]]",
+        "to_winner": "sub[sub[x,1],log[x]]",
+        "from_gap": 0.0007220762391961649,
+        "to_gap": -0.00040239259270427596
+      }
+    ],
+    "gap_sign_changes": [
+      {
+        "from_K": 1000,
+        "to_K": 1100,
+        "from_gap": 0.0007220762391961649,
+        "to_gap": -0.00040239259270427596,
+        "linear_interpolated_zero_K": 1064.2148736106628
+      }
+    ],
+    "is_win_K_values": [
+      1100,
+      1200,
+      1300,
+      1400,
+      1500,
+      1600,
+      1700,
+      1800,
+      1900,
+      2000
+    ],
+    "exp_win_K_values": [
+      1000
+    ],
+    "is_win_count": 10,
+    "exp_win_count": 1,
+    "K_min": 1000,
+    "K_max": 2000,
+    "c_min": 255.74927297999844,
+    "c_max": 412.4626382901348,
+    "plots": [
+      "/Volumes/External2TB/emlexperiment/phase2_addon/t3_bifurcation_sweep_v2/dense_sweeps/sweep_A_1000_to_2000/fitted_c_vs_K.png",
+      "/Volumes/External2TB/emlexperiment/phase2_addon/t3_bifurcation_sweep_v2/dense_sweeps/sweep_A_1000_to_2000/is_minus_exp_rmse_vs_K.png",
+      "/Volumes/External2TB/emlexperiment/phase2_addon/t3_bifurcation_sweep_v2/dense_sweeps/sweep_A_1000_to_2000/winner_cosines_vs_K.png"
+    ]
+  },
+  "sweep_B_2000_to_5000": {
+    "winner_changes": [
+      {
+        "from_K": 4100,
+        "to_K": 4400,
+        "from_c": 189.84024180728048,
+        "to_c": 149.06722725319557,
+        "from_winner": "sub[sub[x,1],log[x]]",
+        "to_winner": "eml[sub[x,1],eml[x,1]]",
+        "from_gap": -0.0011067242375614045,
+        "to_gap": 8.653760630086826e-05
+      }
+    ],
+    "gap_sign_changes": [
+      {
+        "from_K": 4100,
+        "to_K": 4400,
+        "from_gap": -0.0011067242375614045,
+        "to_gap": 8.653760630086826e-05,
+        "linear_interpolated_zero_K": 4378.243432467236
+      }
+    ],
+    "is_win_K_values": [
+      2000,
+      2300,
+      2600,
+      2900,
+      3200,
+      3500,
+      3800,
+      4100
+    ],
+    "exp_win_K_values": [
+      4400,
+      4700,
+      5000
+    ],
+    "is_win_count": 8,
+    "exp_win_count": 3,
+    "K_min": 2000,
+    "K_max": 5000,
+    "c_min": 89.86735375728246,
+    "c_max": 419.4793850949562,
+    "plots": [
+      "/Volumes/External2TB/emlexperiment/phase2_addon/t3_bifurcation_sweep_v2/dense_sweeps/sweep_B_2000_to_5000/fitted_c_vs_K.png",
+      "/Volumes/External2TB/emlexperiment/phase2_addon/t3_bifurcation_sweep_v2/dense_sweeps/sweep_B_2000_to_5000/is_minus_exp_rmse_vs_K.png",
+      "/Volumes/External2TB/emlexperiment/phase2_addon/t3_bifurcation_sweep_v2/dense_sweeps/sweep_B_2000_to_5000/winner_cosines_vs_K.png"
+    ]
+  },
+  "overall": {
+    "sweep_A_classification": "sharp_discrete_transition_width_le_100",
+    "sweep_B_classification": "moderately_broad_transition_width_le_500",
+    "is_win_total": 18,
+    "exp_win_total": 4
+  }
+}

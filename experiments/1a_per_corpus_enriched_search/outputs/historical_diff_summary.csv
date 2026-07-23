@@ -1,0 +1,7 @@
+metric_name,value,notes
+table_row_count,25,Expected 25 per-corpus rows.
+beam_row_count,250,Expected 250 top-10 beam rows.
+table_max_abs_numeric_diff,0.0,all compared numeric per-corpus fields matched exactly
+table_text_mismatch_count,0,Count of non-numeric per-corpus field mismatches versus historical bundles.
+top10_max_abs_numeric_diff,0.0,all compared top-10 numeric fields matched exactly
+top10_text_mismatch_count,0,Count of non-numeric top-10 beam field mismatches versus historical bundles.

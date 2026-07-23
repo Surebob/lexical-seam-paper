@@ -1,0 +1,39 @@
+{
+  "experiment_id": "1d_winner_vs_euclidean_gap_analysis",
+  "migration_type": "historical_bundle_consolidation",
+  "source_bundles": [
+    "results/zipf_english_gap_verify"
+  ],
+  "outputs": {
+    "gap_analysis_per_corpus.csv": {
+      "rows": 25,
+      "schema": [
+        "slug",
+        "corpus",
+        "winner_expr",
+        "winner_rmse",
+        "euclidean_rmse",
+        "is_bregman_rmse",
+        "exp_bregman_rmse",
+        "gap_vs_euclidean",
+        "gap_vs_is_bregman",
+        "gap_vs_exp_bregman",
+        "winner_is_euclidean",
+        "max_gap_to_core_bregman_family",
+        "core_family_gap_below_0p01"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 4,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "notes": [
+    "No symbolic search was rerun; values are normalized from zipf_english_gap_verify."
+  ]
+}

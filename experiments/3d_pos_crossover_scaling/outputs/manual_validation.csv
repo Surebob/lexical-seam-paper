@@ -1,0 +1,5 @@
+slug,corpus,source,vocabulary_size,manual_k_crossover,manual_alpha_per_corpus,spacy_k_crossover,abs_manual_minus_spacy_rank_gap,has_top300_manual_csv
+shakespeare,Shakespeare,manual POS v2,24458.0,160.0,0.5022581043294008,150.0,10.0,False
+moby_dick,Moby Dick,manual POS explicit list,16956.0,180.0,0.5332466419788784,178.0,2.0,True
+federalist_papers,Federalist Papers,manual POS explicit list,8617.0,158.0,0.5586933011972369,158.0,0.0,True
+wealth_of_nations,Wealth of Nations,manual POS explicit list,9478.0,136.0,0.5365076436119349,128.0,8.0,True

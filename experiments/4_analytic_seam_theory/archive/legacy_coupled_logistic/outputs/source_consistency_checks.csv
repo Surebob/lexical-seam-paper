@@ -1,0 +1,7 @@
+check_name,values,consistent
+local_head50_term_matches,"[[21,13,15],[21,13,15],[21,13,15]]",True
+local_head50_full_matches,"[2,2,2]",True
+smooth_head50_term_matches,"[[22,16,15],[22,16,15],[22,16,15]]",True
+smooth_head50_full_matches,"[9,9,9]",True
+projected_head50_term_matches,"[[20,15,18],[20,15,18]]",True
+projected_head50_full_matches,"[9,9]",True

@@ -1,0 +1,139 @@
+{
+  "status": "complete",
+  "max_steps": 4,
+  "beam_width": 50,
+  "pass_count": 0,
+  "case_count": 3,
+  "overall_verdict": "partial_or_no_support",
+  "cases": [
+    {
+      "case_id": "t2a_gaussian_euclidean",
+      "title": "T2a Gaussian -> Euclidean",
+      "pass_fail": {
+        "predicted_generator": "Euclidean",
+        "predicted_canonical": "(1-x)^2",
+        "expected_first_reachable_step": 2,
+        "predicted_generated": true,
+        "predicted_first_generated": {
+          "step": 2,
+          "beam_rank": 66,
+          "expr": "mul[sub[1,x],sub[1,x]]",
+          "math": "((1-x)*(1-x))",
+          "rmse": 1.3799198797255174
+        },
+        "predicted_best_generated": {
+          "step": 2,
+          "beam_rank": 66,
+          "expr": "mul[sub[1,x],sub[1,x]]",
+          "math": "((1-x)*(1-x))",
+          "rmse": 1.3799198797255174
+        },
+        "predicted_retained_in_top50_rmse_beam": false,
+        "predicted_first_retained_top50": null,
+        "predicted_in_reported_top5": false,
+        "predicted_first_top5": null,
+        "global_best": {
+          "step": 4,
+          "expr": "add[mul[div[1,eml[x,x]],log[eml[x,x]]],div[div[log[x],pow[x,x]],div[sqrt[x],add[x,x]]]]",
+          "math": "(((1/EML(x,x))*log(EML(x,x)))+((log(x)/pow(x,x))/(sqrt(x)/(x+x))))",
+          "rmse": 1.302026825183132,
+          "classification": "other"
+        },
+        "predicted_wins_by_global_rmse": false,
+        "rmse_gap_global_minus_predicted": -0.07789305454238549,
+        "verdict": "FAIL_PREDICTED_GENERATED_BUT_RANKED_OUTSIDE_TOP50"
+      },
+      "residual_rmse": 1.3600331446655216,
+      "diagnostic": {
+        "component_corr": -0.2403354910528297,
+        "component_relative_l2": 1.161570620761769,
+        "max_abs_second_difference": 0.029259591116467476,
+        "mean_abs_second_difference": 0.0031154425117400778,
+        "sign_changes_second_difference": 859
+      },
+      "output_dir": "phase2_addon/t2_cross_family_validation/t2a_gaussian_euclidean"
+    },
+    {
+      "case_id": "t2b_poisson_kl",
+      "title": "T2b Poisson -> generalized KL",
+      "pass_fail": {
+        "predicted_generator": "generalized KL",
+        "predicted_canonical": "x*log(x)-x+1",
+        "expected_first_reachable_step": 3,
+        "predicted_generated": false,
+        "predicted_first_generated": null,
+        "predicted_best_generated": null,
+        "predicted_retained_in_top50_rmse_beam": false,
+        "predicted_first_retained_top50": null,
+        "predicted_in_reported_top5": false,
+        "predicted_first_top5": null,
+        "global_best": {
+          "step": 4,
+          "expr": "add[div[sub[mul[x,x],pow[x,x]],mul[pow[x,x],pow[x,x]]],sub[div[sqrt[x],eml[x,x]],add[pow[x,x],neg[x]]]]",
+          "math": "((((x*x)-pow(x,x))/(pow(x,x)*pow(x,x)))+((sqrt(x)/EML(x,x))-(pow(x,x)+(-x))))",
+          "rmse": 1.0078416807521342,
+          "classification": "other"
+        },
+        "predicted_wins_by_global_rmse": false,
+        "rmse_gap_global_minus_predicted": null,
+        "verdict": "FAIL_PREDICTED_NOT_IN_BEAM"
+      },
+      "residual_rmse": 1.1894827646179589,
+      "diagnostic": {
+        "component_corr": -0.15567069042850176,
+        "component_relative_l2": 1.2216381573617072,
+        "max_abs_second_difference": 0.32094750002199923,
+        "mean_abs_second_difference": 0.05297847643773922,
+        "sign_changes_second_difference": 26
+      },
+      "output_dir": "phase2_addon/t2_cross_family_validation/t2b_poisson_kl"
+    },
+    {
+      "case_id": "t2c_gamma_is",
+      "title": "T2c Gamma -> Itakura-Saito",
+      "pass_fail": {
+        "predicted_generator": "Itakura-Saito",
+        "predicted_canonical": "(x-1)-log(x)",
+        "expected_first_reachable_step": 2,
+        "predicted_generated": true,
+        "predicted_first_generated": {
+          "step": 2,
+          "beam_rank": 53,
+          "expr": "sub[sub[x,1],log[x]]",
+          "math": "((x-1)-log(x))",
+          "rmse": 1.4640393720385372
+        },
+        "predicted_best_generated": {
+          "step": 2,
+          "beam_rank": 53,
+          "expr": "sub[sub[x,1],log[x]]",
+          "math": "((x-1)-log(x))",
+          "rmse": 1.4640393720385372
+        },
+        "predicted_retained_in_top50_rmse_beam": false,
+        "predicted_first_retained_top50": null,
+        "predicted_in_reported_top5": false,
+        "predicted_first_top5": null,
+        "global_best": {
+          "step": 4,
+          "expr": "div[sub[mul[sub[1,x],eml[1,x]],eml[log[x],add[x,x]]],eml[add[neg[x],neg[x]],log[eml[x,x]]]]",
+          "math": "((((1-x)*EML(1,x))-EML(log(x),(x+x)))/EML(((-x)+(-x)),log(EML(x,x))))",
+          "rmse": 0.7256425746300256,
+          "classification": "other"
+        },
+        "predicted_wins_by_global_rmse": false,
+        "rmse_gap_global_minus_predicted": -0.7383967974085116,
+        "verdict": "FAIL_PREDICTED_GENERATED_BUT_RANKED_OUTSIDE_TOP50"
+      },
+      "residual_rmse": 1.483101693812083,
+      "diagnostic": {
+        "component_corr": 0.023421708096459083,
+        "component_relative_l2": 1.0363898155512987,
+        "max_abs_second_difference": 0.04984924305706989,
+        "mean_abs_second_difference": 0.0001225109035905885,
+        "sign_changes_second_difference": 1
+      },
+      "output_dir": "phase2_addon/t2_cross_family_validation/t2c_gamma_is"
+    }
+  ]
+}

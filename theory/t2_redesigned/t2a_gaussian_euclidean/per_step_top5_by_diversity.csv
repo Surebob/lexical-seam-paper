@@ -1,0 +1,11 @@
+step,rank,expression,math,rmse,is_predicted_generator
+1,1,"sub[1,x]",(1-x),0.26763825045017442,False
+1,2,"sub[x,1]",(x-1),0.29823450796589673,False
+1,3,log[x],log(x),0.36680452752869652,False
+1,4,"mul[x,x]",(x*x),0.76859833933768007,False
+1,5,"div[x,1]",(x/1),0.85137930815758878,False
+2,1,"sub[sqrt[x],pow[x,x]]","(sqrt(x)-pow(x,x))",0.18740059320489277,False
+2,2,"div[sub[1,x],eml[1,x]]","((1-x)/EML(1,x))",0.1950119879893655,False
+2,3,"mul[log[x],neg[x]]",(log(x)*(-x)),0.22760714943049504,False
+2,4,"div[mul[x,x],eml[x,x]]","((x*x)/EML(x,x))",0.32728080163482864,False
+2,5,"log[add[x,x]]",log((x+x)),0.56164015071204787,False

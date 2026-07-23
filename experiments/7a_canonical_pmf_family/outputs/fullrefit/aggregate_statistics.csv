@@ -1,0 +1,3 @@
+metric_name,value,display_format,notes
+softk_fullrefit_step2_help_count,4,X/25 count,Diagnostic only; not held-out canonical.
+softk_fullrefit_step2_gain_median,-0.0013453984406848196,signed decimal,Diagnostic only; not held-out canonical.

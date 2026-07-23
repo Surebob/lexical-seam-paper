@@ -1,0 +1,14 @@
+{
+  "experiment_id": "5c_smooth_parameter_control",
+  "canonical_model": "decoupled_erf",
+  "canonical_status": "blocked_missing_decoupled_erf_parameter_sweep",
+  "missing_sources": [
+    "decoupled-erf low-c smooth-parameter sweep rows",
+    "decoupled-erf parameter-control correlations for w_gate and w_tail",
+    "decoupled-erf synthetic winner-count aggregates under the parameter sweep"
+  ],
+  "legacy_archive": "archive/legacy_coupled_logistic",
+  "legacy_model": "coupled_logistic_parameter_sweep",
+  "generated_at_utc": "2026-04-20T00:30:09.833940+00:00",
+  "canonical_outputs": []
+}

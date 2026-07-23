@@ -1,0 +1,92 @@
+{
+  "status": "STOP",
+  "reason": "At least one predicted generator is not reachable at step <= 2 under the live Section 2.4 grammar.",
+  "live_search_config": {
+    "unary_ops": [
+      "neg",
+      "inv",
+      "sqr",
+      "sqrt",
+      "exp",
+      "log"
+    ],
+    "binary_ops": [
+      "eml",
+      "add",
+      "sub",
+      "mul",
+      "div",
+      "pow"
+    ],
+    "beam_width": 50,
+    "step_depth": 2,
+    "semantic_hash_rounding_digits": 10,
+    "exp_clamp": 30.0,
+    "value_abs_limit": 1000000.0,
+    "note": "Live Section 2.4 implementation includes eml in addition to add/sub/mul/div/pow."
+  },
+  "candidate_counts": {
+    "initial": 2,
+    "step1": 14,
+    "step2": 727,
+    "total_step_le_2": 743
+  },
+  "reachability": [
+    {
+      "test": "T2a_gaussian_euclidean",
+      "family": "Gaussian",
+      "expected_generator": "(1-x)^2 or (x-1)^2",
+      "reachable_by_value_signature_at_step_le_2": true,
+      "matches": [
+        {
+          "expr": "mul[sub[1,x],sub[1,x]]",
+          "math": "((1-x)*(1-x))",
+          "step": 2,
+          "max_abs_diff": 0.0
+        }
+      ],
+      "best_numeric_approximation_in_step_le_2": {
+        "expr": "mul[sub[1,x],sub[1,x]]",
+        "math": "((1-x)*(1-x))",
+        "step": 2,
+        "rmse": 0.0,
+        "max_abs": 0.0
+      }
+    },
+    {
+      "test": "T2b_poisson_generalized_kl",
+      "family": "Poisson",
+      "expected_generator": "x*log(x)-x+1",
+      "reachable_by_value_signature_at_step_le_2": false,
+      "matches": [],
+      "best_numeric_approximation_in_step_le_2": {
+        "expr": "add[neg[x],pow[x,x]]",
+        "math": "((-x)+pow(x,x))",
+        "step": 2,
+        "rmse": 0.04030030268911273,
+        "max_abs": 0.060080040041934124
+      }
+    },
+    {
+      "test": "T2c_gamma_itakura_saito",
+      "family": "Gamma",
+      "expected_generator": "(x-1)-log(x)",
+      "reachable_by_value_signature_at_step_le_2": true,
+      "matches": [
+        {
+          "expr": "sub[sub[x,1],log[x]]",
+          "math": "((x-1)-log(x))",
+          "step": 2,
+          "max_abs_diff": 0.0
+        }
+      ],
+      "best_numeric_approximation_in_step_le_2": {
+        "expr": "sub[sub[x,1],log[x]]",
+        "math": "((x-1)-log(x))",
+        "step": 2,
+        "rmse": 0.0,
+        "max_abs": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "archive_id": "legacy_coupled_logistic",
+  "parent_experiment": "5c_smooth_parameter_control",
+  "status": "first_class_legacy_prior_canon",
+  "model": "coupled_logistic_parameter_sweep",
+  "generated_at_utc": "2026-04-20T00:30:09.890346+00:00",
+  "source_bundle": "results/zipf_smooth_parameter_sweep",
+  "outputs": {
+    "parameter_sweep_rows.csv": {
+      "rows": 216
+    },
+    "parameter_sweep_correlations.csv": {
+      "rows": 3
+    },
+    "aggregate_statistics.csv": {
+      "rows": 11
+    }
+  }
+}

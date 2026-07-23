@@ -1,0 +1,16 @@
+metric_name,value,display_format,notes
+moe_residual_step2_help_count,19,integer,MOE residual improvement > 0.001.
+moe_residual_step2_gain_median,0.017229818740535432,signed_decimal_3,Median MOE residual step-2 improvement.
+smooth_residual_step2_gain_median,-0.002213349474923479,signed_decimal_3,Median smooth residual step-2 improvement.
+smooth_residual_step2_hurt_count,25,integer,Count where smooth residual step-2 improvement is negative.
+smooth_residual_step2_help_count,0,integer,Smooth residual improvement > 0.001.
+smooth_residual_step2_nonhelp_count,25,integer,Count where smooth residual step-2 does not exceed the helpful threshold.
+head_basis_r2_median_top200,0.9699298378464906,decimal_6,Median top-200 cubic head-basis R^2.
+slant_vs_c_correlation,-0.8556841022850347,decimal_6,Correlation between head-basis slant and c.
+median_winner_minus_euclidean_gap_full_rmse,0.005951682350291393,decimal_6,Median formula winner-vs-Euclidean full-RMSE gap from breakthrough probe.
+median_winner_minus_euclidean_gap_top100_rmse,0.10414674505087185,decimal_6,Median formula winner-vs-Euclidean top-100 RMSE gap from breakthrough probe.
+empirical_euclidean_gap_full_rmse_median,0.005957768525842372,decimal_6,Auxiliary value imported from zipf_simulation_recovery to satisfy v4 no-builder-join mapping.
+empirical_euclidean_gap_top100_rmse_median,0.0927593769132754,decimal_6,Auxiliary value imported from zipf_simulation_recovery to satisfy v4 no-builder-join mapping.
+smooth_synthetic_euclidean_gap_full_rmse_median,0.00782647873747841,decimal_6,Auxiliary value imported from zipf_simulation_recovery to satisfy v4 no-builder-join mapping.
+smooth_synthetic_euclidean_gap_top100_rmse_median,0.0371124830010002,decimal_6,Auxiliary value imported from zipf_simulation_recovery to satisfy v4 no-builder-join mapping.
+zm_control_euclidean_gap_top100_rmse_median,0.09593359073805141,decimal_6,Auxiliary value imported from zipf_simulation_recovery to satisfy v4 no-builder-join mapping.

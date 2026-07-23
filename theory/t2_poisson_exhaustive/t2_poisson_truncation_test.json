@@ -1,0 +1,272 @@
+{
+  "test": "B_residual_truncation",
+  "original_rates": [
+    5.0,
+    20.0
+  ],
+  "fitted_lambda": 12.5,
+  "selected_mass": 0.8314201704915711,
+  "selected_support_min": 3,
+  "selected_support_max": 23,
+  "selected_support_values": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "selected_support_size": 21,
+  "full_residual_rmse": 23.69264518071564,
+  "label": "original_5_20_truncated_80pct_mass_closest_to_fit",
+  "support_size": 21,
+  "residual_rmse": 1.903171677158973,
+  "winner_expression": "add[pow[mul[x,x],eml[x,x]],sub[neg[x],log[x]]]",
+  "winner_math": "(pow((x*x),EML(x,x))+((-x)-log(x)))",
+  "winner_rmse": 1.5181505079042703,
+  "winner_cosine_kl": 0.9348285807655032,
+  "winner_cosine_neg_kl": -0.9348285807655032,
+  "winner_max_abs_cosine_kl": 0.9348285807655032,
+  "top5_step3": [
+    {
+      "step": 3,
+      "rank": 1,
+      "expression": "add[pow[mul[x,x],eml[x,x]],sub[neg[x],log[x]]]",
+      "math": "(pow((x*x),EML(x,x))+((-x)-log(x)))",
+      "rmse": 1.5181505079042703,
+      "is_kl": false
+    },
+    {
+      "step": 3,
+      "rank": 2,
+      "expression": "mul[sub[pow[x,x],add[x,x]],sub[eml[1,x],eml[x,1]]]",
+      "math": "((pow(x,x)-(x+x))*(EML(1,x)-EML(x,1)))",
+      "rmse": 1.5197070777788968,
+      "is_kl": false
+    },
+    {
+      "step": 3,
+      "rank": 3,
+      "expression": "add[pow[mul[x,x],add[x,x]],sub[neg[x],log[x]]]",
+      "math": "(pow((x*x),(x+x))+((-x)-log(x)))",
+      "rmse": 1.5308073378688078,
+      "is_kl": false
+    },
+    {
+      "step": 3,
+      "rank": 4,
+      "expression": "div[mul[sub[x,1],log[x]],mul[pow[x,x],pow[x,x]]]",
+      "math": "(((x-1)*log(x))/(pow(x,x)*pow(x,x)))",
+      "rmse": 1.5324945021058818,
+      "is_kl": false
+    },
+    {
+      "step": 3,
+      "rank": 5,
+      "expression": "mul[eml[sub[1,x],eml[1,x]],sub[eml[1,x],eml[x,1]]]",
+      "math": "(EML((1-x),EML(1,x))*(EML(1,x)-EML(x,1)))",
+      "rmse": 1.5585464428654485,
+      "is_kl": false
+    }
+  ],
+  "kl_occurrence": {
+    "step": 3,
+    "rmse_rank": 1083,
+    "expr": "add[add[1,neg[x]],div[log[x],div[1,x]]]",
+    "math": "((1+(-x))+(log(x)/(1/x)))",
+    "rmse": 1.792287182737333,
+    "in_top5_by_rmse": false,
+    "in_diversity_beam": false,
+    "diversity_rank": null
+  },
+  "kl_occurrence_bregman_diag": {
+    "f_at_1": 0.0,
+    "fprime_at_1": 1.2041580711420969e-08,
+    "fsecond_min": 1.0001425435509421,
+    "bregman_conditions_pass": true
+  },
+  "kl_in_top20_with_bregman_conditions": false,
+  "top20_bregman_count": 15,
+  "top20_bregman": [
+    {
+      "step": 2,
+      "rank": 1,
+      "expression": "mul[sub[x,1],log[x]]",
+      "math": "((x-1)*log(x))",
+      "rmse": 1.6165611701710907,
+      "f_at_1": 0.0,
+      "fprime_at_1": 3.612817513356332e-08,
+      "fsecond_min": 2.000427645694956,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 2,
+      "rank": 7,
+      "expression": "sub[sub[x,1],log[x]]",
+      "math": "((x-1)-log(x))",
+      "rmse": 1.682626985074245,
+      "f_at_1": 0.0,
+      "fprime_at_1": 2.4086594518527927e-08,
+      "fsecond_min": 1.0002851021437447,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 2,
+      "rank": 17,
+      "expression": "mul[sub[1,x],sub[1,x]]",
+      "math": "((1-x)*(1-x))",
+      "rmse": 1.7732195593695657,
+      "f_at_1": 0.0,
+      "fprime_at_1": 0.0,
+      "fsecond_min": 1.9999999968667908,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 3,
+      "rank": 4,
+      "expression": "div[mul[sub[x,1],log[x]],mul[pow[x,x],pow[x,x]]]",
+      "math": "(((x-1)*log(x))/(pow(x,x)*pow(x,x)))",
+      "rmse": 1.5324945021058818,
+      "f_at_1": 0.0,
+      "fprime_at_1": 1.8066831290411032e-07,
+      "fsecond_min": 2.0021383488993614,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 3,
+      "rank": 5,
+      "expression": "mul[eml[sub[1,x],eml[1,x]],sub[eml[1,x],eml[x,1]]]",
+      "math": "(EML((1-x),EML(1,x))*(EML(1,x)-EML(x,1)))",
+      "rmse": 1.5585464428654485,
+      "f_at_1": 0.0,
+      "fprime_at_1": 6.385214812161359e-08,
+      "fsecond_min": 4.701560607173543,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 3,
+      "rank": 8,
+      "expression": "mul[div[sub[1,x],add[1,x]],sub[eml[1,x],eml[x,1]]]",
+      "math": "(((1-x)/(1+x))*(EML(1,x)-EML(x,1)))",
+      "rmse": 1.5635800463149316,
+      "f_at_1": 0.0,
+      "fprime_at_1": 3.6140937110422724e-08,
+      "fsecond_min": 3.718709530096041,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 3,
+      "rank": 9,
+      "expression": "div[mul[sub[x,1],log[x]],pow[sqrt[x],sqrt[x]]]",
+      "math": "(((x-1)*log(x))/pow(sqrt(x),sqrt(x)))",
+      "rmse": 1.564440359457746,
+      "f_at_1": 0.0,
+      "fprime_at_1": 7.225806566562047e-08,
+      "fsecond_min": 2.0008552989148343,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 3,
+      "rank": 11,
+      "expression": "mul[add[pow[x,x],neg[x]],sub[eml[1,x],eml[x,1]]]",
+      "math": "((pow(x,x)+(-x))*(EML(1,x)-EML(x,1)))",
+      "rmse": 1.5687799912853504,
+      "f_at_1": 0.0,
+      "fprime_at_1": 2.6845547389460946e-07,
+      "fsecond_min": 0.003179275945064433,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 3,
+      "rank": 13,
+      "expression": "mul[add[1,neg[x]],sub[sub[1,x],log[x]]]",
+      "math": "((1+(-x))*((1-x)-log(x)))",
+      "rmse": 1.5719750315163161,
+      "f_at_1": 0.0,
+      "fprime_at_1": 3.612817513350911e-08,
+      "fsecond_min": 4.0004276456949555,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 3,
+      "rank": 15,
+      "expression": "mul[sub[sub[1,x],log[x]],eml[sub[1,x],eml[1,x]]]",
+      "math": "(((1-x)-log(x))*EML((1-x),EML(1,x)))",
+      "rmse": 1.5734115437063003,
+      "f_at_1": 0.0,
+      "fprime_at_1": 7.828558206231977e-08,
+      "fsecond_min": 2.5294089339453456,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 3,
+      "rank": 16,
+      "expression": "div[add[pow[x,x],neg[x]],div[pow[x,x],eml[x,x]]]",
+      "math": "((pow(x,x)+(-x))/(pow(x,x)/EML(x,x)))",
+      "rmse": 1.5752809174863875,
+      "f_at_1": 0.0,
+      "fprime_at_1": -2.5917072228555035e-08,
+      "fsecond_min": 5.2872812129273825,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 3,
+      "rank": 17,
+      "expression": "add[sub[pow[x,x],add[x,x]],sub[mul[x,x],log[x]]]",
+      "math": "((pow(x,x)-(x+x))+((x*x)-log(x)))",
+      "rmse": 1.576066545714576,
+      "f_at_1": 0.0,
+      "fprime_at_1": -1.2014007975632603e-08,
+      "fsecond_min": 4.9652659310216904,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 3,
+      "rank": 18,
+      "expression": "add[mul[sub[x,1],log[x]],add[pow[x,x],neg[x]]]",
+      "math": "(((x-1)*log(x))+(pow(x,x)+(-x)))",
+      "rmse": 1.578280102470941,
+      "f_at_1": 0.0,
+      "fprime_at_1": 2.7730102610847018e-11,
+      "fsecond_min": 4.000000122046106,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 3,
+      "rank": 19,
+      "expression": "mul[add[1,neg[x]],sub[eml[1,x],eml[x,1]]]",
+      "math": "((1+(-x))*(EML(1,x)-EML(x,1)))",
+      "rmse": 1.5789162956667486,
+      "f_at_1": 0.0,
+      "fprime_at_1": -6.202240898623389e-08,
+      "fsecond_min": 6.80799077302072,
+      "bregman_conditions_pass": true
+    },
+    {
+      "step": 3,
+      "rank": 20,
+      "expression": "mul[sub[sub[1,x],log[x]],div[sub[1,x],add[1,x]]]",
+      "math": "(((1-x)-log(x))*((1-x)/(1+x)))",
+      "rmse": 1.5806369163230893,
+      "f_at_1": 0.0,
+      "fprime_at_1": 5.419397886013847e-08,
+      "fsecond_min": 2.000641476065205,
+      "bregman_conditions_pass": true
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "experiment_id": "10b_grammar_width_robustness",
+  "status": "complete_from_historical_bundles",
+  "migration_type": "historical_bundle_consolidation",
+  "generated_at_utc": "2026-04-20T01:33:20.501147+00:00",
+  "source_bundles": {
+    "widened_grammar_diagnostic": "results/zipf_widened_grammar_diagnostic",
+    "widened_grammar_extended": "results/zipf_widened_grammar_extended"
+  },
+  "outputs": {
+    "widened_diagnostic_per_mode.csv": {
+      "rows": 6,
+      "schema": [
+        "slug",
+        "corpus",
+        "mode",
+        "zm_c",
+        "original_step2_expression",
+        "original_step2_math",
+        "original_step2_rmse",
+        "widened_step2_expression",
+        "widened_step2_math",
+        "widened_step2_rmse",
+        "widened_step2_matches_original",
+        "widened_step2_is_bregman",
+        "any_winner_uses_new_operator",
+        "any_top10_uses_new_operator",
+        "canonical_source"
+      ]
+    },
+    "widened_diagnostic_step_winners.csv": {
+      "rows": 54,
+      "schema": [
+        "slug",
+        "corpus",
+        "mode",
+        "step",
+        "winner_expression",
+        "winner_math",
+        "winner_rmse",
+        "winner_uses_new_operator",
+        "top10_has_new_operator",
+        "canonical_source"
+      ]
+    },
+    "widened_diagnostic_top10.csv": {
+      "rows": 540,
+      "schema": [
+        "slug",
+        "corpus",
+        "mode",
+        "step",
+        "rank",
+        "expression",
+        "math",
+        "rmse",
+        "uses_new_operator",
+        "canonical_source"
+      ]
+    },
+    "widened_lowc_manifold_summary.csv": {
+      "rows": 17,
+      "schema": [
+        "slug",
+        "corpus",
+        "language",
+        "zm_c",
+        "selection_note",
+        "original_step2_expression",
+        "original_step2_math",
+        "widened_step2_expression",
+        "widened_step2_math",
+        "widened_step2_rmse",
+        "widened_matches_original",
+        "widened_is_bregman",
+        "cos_vs_exp",
+        "cos_vs_xx",
+        "cos_vs_is",
+        "span_r2",
+        "span_coeffs_json",
+        "manifold_verdict",
+        "top10_json",
+        "canonical_source"
+      ]
+    },
+    "aggregate_statistics.csv": {
+      "rows": 19,
+      "schema": [
+        "metric_name",
+        "value",
+        "display_format",
+        "notes"
+      ]
+    }
+  },
+  "claim_map_rows_satisfied": [
+    "high-c widened grammar step-2 robustness on Shakespeare and War and Peace",
+    "low-c widened grammar erf/sin flip count",
+    "low-c manifold membership under widened grammar"
+  ]
+}

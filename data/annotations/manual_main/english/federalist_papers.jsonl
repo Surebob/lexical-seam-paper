@@ -1,0 +1,1000 @@
+{"type": "the", "rank": 1, "frequency": 18024, "tag": "DET", "confidence": 1.0, "reasoning": "definite article in all shown contexts: the succeeding head, the executive department, the public liberties"}
+{"type": "of", "rank": 2, "frequency": 11896, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking possession/partitive relations in necessity of remedy, method of inquest, and title of nobility"}
+{"type": "to", "rank": 3, "frequency": 7105, "tag": "PART", "confidence": 0.72, "reasoning": "many contexts are infinitival markers such as to discharge, to operate, to relate; also frequent prepositional uses like to the people", "alternative": "ADP"}
+{"type": "and", "rank": 4, "frequency": 5120, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating conjunction linking phrases and clauses throughout the shown contexts"}
+{"type": "in", "rank": 5, "frequency": 4467, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in temporal, spatial, and abstract relations such as in relation, in several publications, and in time of peace"}
+{"type": "a", "rank": 6, "frequency": 3998, "tag": "DET", "confidence": 1.0, "reasoning": "indefinite article in a single acre, a further cause, a necessary end, and a Safeguard"}
+{"type": "be", "rank": 7, "frequency": 3826, "tag": "AUX", "confidence": 0.92, "reasoning": "mostly auxiliary/copular be in to be framed, would be retained, must be at an end, and may be formed", "alternative": "VERB"}
+{"type": "that", "rank": 8, "frequency": 2793, "tag": "SCONJ", "confidence": 0.76, "reasoning": "mostly introduces content clauses in assures us that, urged that, and evident that; also appears as determiner in that time and that footing", "alternative": "DET"}
+{"type": "it", "rank": 9, "frequency": 2550, "tag": "PRON", "confidence": 1.0, "reasoning": "pronoun in it has, it is incumbent, it is proposed, and it must be confessed"}
+{"type": "is", "rank": 10, "frequency": 2194, "tag": "AUX", "confidence": 0.9, "reasoning": "be auxiliary/copula in happy it is, authority is, he is at liberty, and remark is applicable", "alternative": "VERB"}
+{"type": "which", "rank": 11, "frequency": 2068, "tag": "PRON", "confidence": 1.0, "reasoning": "relative/interrogative pronoun in business which, examples which, dangers to which, and powers which"}
+{"type": "by", "rank": 12, "frequency": 1747, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking agent, means, and relation in by every addition, by discretion, by study, and by his authority"}
+{"type": "as", "rank": 13, "frequency": 1728, "tag": "SCONJ", "confidence": 0.62, "reasoning": "formal prose alternates comparison/subordination in as necessary, as soon as possible, and as little to be doubted with prepositional as in capacity", "alternative": "ADP"}
+{"type": "this", "rank": 14, "frequency": 1410, "tag": "DET", "confidence": 0.82, "reasoning": "mostly determiner in this passion, this mischief, this constitutional bulwark, and this respect; some standalone this occurs", "alternative": "PRON"}
+{"type": "for", "rank": 15, "frequency": 1273, "tag": "ADP", "confidence": 0.96, "reasoning": "preposition of purpose/relation in for us, provisions for support, for determining, and for greater caution"}
+{"type": "would", "rank": 16, "frequency": 1273, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in would be occasion, would be sufficient, would influence, and would be less difficult"}
+{"type": "have", "rank": 17, "frequency": 1263, "tag": "AUX", "confidence": 0.92, "reasoning": "mostly perfect auxiliary in could have been, have kindled, have seen, and have wrought; occasional lexical possession/use possible", "alternative": "VERB"}
+{"type": "will", "rank": 18, "frequency": 1256, "tag": "AUX", "confidence": 1.0, "reasoning": "future/modal auxiliary in will flow, will be represented, will be President, and will league themselves"}
+{"type": "or", "rank": 19, "frequency": 1233, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating conjunction marking alternatives in place or places, raised or kept, league or treaty"}
+{"type": "not", "rank": 20, "frequency": 1217, "tag": "PART", "confidence": 1.0, "reasoning": "negative particle in not one, shall not deny, not perfect, and is not disputed"}
+{"type": "from", "rank": 21, "frequency": 1102, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition marking source/separation in from esteem, from dissensions, drawn from this, and derive from the Union"}
+{"type": "their", "rank": 22, "frequency": 1099, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns in their responsibility, their sovereignty, their safety, and their rights"}
+{"type": "with", "rank": 23, "frequency": 1057, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in with all abatements, same hands with rights, with unanimity, and displeased with it"}
+{"type": "are", "rank": 24, "frequency": 1032, "tag": "AUX", "confidence": 0.9, "reasoning": "be auxiliary/copula in chances are, part are submitted, armies are dangerous, and officers are standing", "alternative": "VERB"}
+{"type": "on", "rank": 25, "frequency": 953, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in on address, on rights, depend on circumstances, and on the same side"}
+{"type": "an", "rank": 26, "frequency": 928, "tag": "DET", "confidence": 1.0, "reasoning": "indefinite article before vowel-initial nouns in an assembly, an unwarrantable measure, an integral part, and an intimate connection"}
+{"type": "they", "rank": 27, "frequency": 928, "tag": "PRON", "confidence": 1.0, "reasoning": "personal pronoun referring to people, representatives, States, or legislatures in all shown contexts"}
+{"type": "states", "rank": 28, "frequency": 856, "tag": "NOUN", "confidence": 0.78, "reasoning": "mostly plural political unit noun in several States, states to whom, and States or confederacies; United States contexts are name-like", "alternative": "PROPN"}
+{"type": "government", "rank": 29, "frequency": 836, "tag": "NOUN", "confidence": 1.0, "reasoning": "institution noun in powers of government, general government, State governments, and federal government"}
+{"type": "may", "rank": 30, "frequency": 824, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in it may be asked, government may become, may be considered, and circumstances may distinguish"}
+{"type": "been", "rank": 31, "frequency": 798, "tag": "AUX", "confidence": 1.0, "reasoning": "past participle auxiliary in could have been attended, has been relied, has been made, and had been introduced"}
+{"type": "state", "rank": 32, "frequency": 789, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly political unit noun in State constitutions and State government; State of New York is partly proper-name context", "alternative": "PROPN"}
+{"type": "all", "rank": 33, "frequency": 731, "tag": "DET", "confidence": 0.86, "reasoning": "quantifying determiner before nouns in all ideas, all power, and all members; sometimes pronoun-like in all will decline", "alternative": "PRON"}
+{"type": "but", "rank": 34, "frequency": 697, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating adversative conjunction in not merely but, not affected but, and latter but different"}
+{"type": "its", "rank": 35, "frequency": 652, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns in its operation, its own limits, its management, and its weakness"}
+{"type": "other", "rank": 36, "frequency": 650, "tag": "ADJ", "confidence": 0.86, "reasoning": "adjectival modifier in other States, other causes, other nations, and the other side", "alternative": "DET"}
+{"type": "power", "rank": 37, "frequency": 620, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract political capacity noun in departments of power, foreign power, power of taxation, and accumulation of power"}
+{"type": "people", "rank": 38, "frequency": 614, "tag": "NOUN", "confidence": 1.0, "reasoning": "collective/common noun in people will be, elected by the people, and people of each State"}
+{"type": "has", "rank": 39, "frequency": 603, "tag": "AUX", "confidence": 0.92, "reasoning": "mostly perfect auxiliary in has been, has been examined, and has been done; also has a qualified negative is lexical possession", "alternative": "VERB"}
+{"type": "no", "rank": 40, "frequency": 592, "tag": "DET", "confidence": 0.94, "reasoning": "negative determiner in no sooner, no executive prerogative, no language, no doubt, and no adversaries"}
+{"type": "more", "rank": 41, "frequency": 579, "tag": "ADV", "confidence": 0.72, "reasoning": "mostly comparative degree adverb in more favorable, more consonant, more positive, and more perfect; can be determiner in more objects", "alternative": "DET"}
+{"type": "at", "rank": 42, "frequency": 569, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in at present, at all, at the same time, and at liberty"}
+{"type": "if", "rank": 43, "frequency": 563, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing conditions in if nothing was said, if disunited, and if these States"}
+{"type": "than", "rank": 44, "frequency": 550, "tag": "ADP", "confidence": 1.0, "reasoning": "comparative marker after more/other/less in more desired than difficult, no other end than, and former than latter"}
+{"type": "one", "rank": 45, "frequency": 549, "tag": "NUM", "confidence": 0.74, "reasoning": "often numeral/determiner in one female, every State but one, one of the best, and any one; occasional pronoun-like uses", "alternative": "PRON"}
+{"type": "them", "rank": 46, "frequency": 548, "tag": "PRON", "confidence": 1.0, "reasoning": "object pronoun in betrayed them, consult them, kept them, and subject them"}
+{"type": "any", "rank": 47, "frequency": 546, "tag": "DET", "confidence": 1.0, "reasoning": "indefinite determiner before nouns in any time, any greater number, any constitution, and any State"}
+{"type": "those", "rank": 48, "frequency": 481, "tag": "DET", "confidence": 0.78, "reasoning": "mostly demonstrative determiner in those who administer, those authorities, and those minor authorities; sometimes pronoun-headed those who", "alternative": "PRON"}
+{"type": "constitution", "rank": 49, "frequency": 468, "tag": "NOUN", "confidence": 0.86, "reasoning": "constitutional document/system noun in constitution of every State and federal Constitution; capitalization sometimes name-like", "alternative": "PROPN"}
+{"type": "can", "rank": 50, "frequency": 465, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in can admit, can never be endangered, can there be, and can be frugal"}
+{"type": "these", "rank": 51, "frequency": 461, "tag": "DET", "confidence": 1.0, "reasoning": "demonstrative determiner before nouns in these circumstances, these clauses, these rules, and these remarks"}
+{"type": "we", "rank": 52, "frequency": 461, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person plural pronoun in we may, we have employed, we may wish, and we come to survey"}
+{"type": "there", "rank": 53, "frequency": 459, "tag": "PRON", "confidence": 0.82, "reasoning": "mostly existential there in there is opposition, there were praetors, and there may be no misapprehensions", "alternative": "ADV"}
+{"type": "must", "rank": 54, "frequency": 446, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in duties must be paid, government must be empowered, must proceed, and must have perceived"}
+{"type": "who", "rank": 55, "frequency": 429, "tag": "PRON", "confidence": 1.0, "reasoning": "relative/interrogative pronoun referring to men or those who administer in all shown contexts"}
+{"type": "such", "rank": 56, "frequency": 413, "tag": "DET", "confidence": 0.9, "reasoning": "determiner/modifier in such materials, such transactions, and such circumstances; one such, for instance, is pronoun-like", "alternative": "ADJ"}
+{"type": "so", "rank": 57, "frequency": 405, "tag": "ADV", "confidence": 0.86, "reasoning": "degree/result adverb in so often, so many, so as not to appear, and so long as"}
+{"type": "most", "rank": 58, "frequency": 396, "tag": "ADV", "confidence": 0.8, "reasoning": "superlative degree adverb in most deplorable, most chimerical, and most part; can be determiner in most instances", "alternative": "DET"}
+{"type": "upon", "rank": 59, "frequency": 387, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in upon experiment, imposed upon them, decide upon it, and weight upon land"}
+{"type": "i", "rank": 60, "frequency": 385, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person singular pronoun in neither they nor I, I forbear, I may, and I shall"}
+{"type": "union", "rank": 61, "frequency": 376, "tag": "PROPN", "confidence": 0.7, "reasoning": "often capitalized political entity The Union in Federalist argument; sometimes common noun in union may have had", "alternative": "NOUN"}
+{"type": "same", "rank": 62, "frequency": 374, "tag": "DET", "confidence": 0.9, "reasoning": "determiner/adjective before nouns in same subject, same contradiction, same time, and same article"}
+{"type": "new", "rank": 63, "frequency": 370, "tag": "ADJ", "confidence": 0.92, "reasoning": "adjective in new system, new Constitution, and New York; place-name contexts are proper but modifier use dominates", "alternative": "PROPN"}
+{"type": "his", "rank": 64, "frequency": 368, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns in his objections, his conduct, his station, and his bosom"}
+{"type": "should", "rank": 65, "frequency": 355, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in President should have, men should stop, should never call, and people should operate"}
+{"type": "every", "rank": 66, "frequency": 349, "tag": "DET", "confidence": 1.0, "reasoning": "universal determiner in every part, every power, every government, and every day's practice"}
+{"type": "national", "rank": 67, "frequency": 342, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying government, legislature, and national system in all shown contexts"}
+{"type": "against", "rank": 68, "frequency": 334, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in lie against, against measures, guard against effects, and proceeded against"}
+{"type": "was", "rank": 69, "frequency": 334, "tag": "AUX", "confidence": 0.9, "reasoning": "be auxiliary/copula in was thought, was only disputed, there was power, and was shackled", "alternative": "VERB"}
+{"type": "federal", "rank": 70, "frequency": 325, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying government, legislature, and administration throughout"}
+{"type": "might", "rank": 71, "frequency": 321, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in might be swayed, might be assigned, might have taken, and might oppose"}
+{"type": "under", "rank": 72, "frequency": 311, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in under consideration, under the ban, under arrangement, and under the general government"}
+{"type": "our", "rank": 73, "frequency": 307, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before nouns in our inquiries, our citizens, our fears, and our policy"}
+{"type": "were", "rank": 74, "frequency": 303, "tag": "AUX", "confidence": 0.9, "reasoning": "be auxiliary/copula in if he were, if it were true, States would possess, and systems were not confederacies", "alternative": "VERB"}
+{"type": "into", "rank": 75, "frequency": 300, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in enter into society, entering into treaties, into a group, and resolves itself into another question"}
+{"type": "only", "rank": 76, "frequency": 300, "tag": "ADV", "confidence": 0.72, "reasoning": "often focus adverb in not only, could only be kept, and only appoints; also adjective in the only dependence/objection", "alternative": "ADJ"}
+{"type": "authority", "rank": 77, "frequency": 295, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract political/legal noun in judicial authority, executive authority, and superintending authority"}
+{"type": "great", "rank": 78, "frequency": 294, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in great measure, great community, great mass, and great part"}
+{"type": "had", "rank": 79, "frequency": 288, "tag": "AUX", "confidence": 0.9, "reasoning": "mostly past perfect auxiliary in had used, had monopolized, had been tried; sometimes lexical had the mercy", "alternative": "VERB"}
+{"type": "public", "rank": 80, "frequency": 286, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjective modifying peace, confidence, happiness, opinion, and public good; nominal public possible in public opinion", "alternative": "NOUN"}
+{"type": "ought", "rank": 81, "frequency": 275, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in ought to contain, ought to be included, ought to have depended, and ought always to be followed"}
+{"type": "some", "rank": 82, "frequency": 275, "tag": "DET", "confidence": 1.0, "reasoning": "indefinite determiner before nouns in some instances, some event, some proportion, and some individuals"}
+{"type": "general", "rank": 83, "frequency": 274, "tag": "ADJ", "confidence": 0.92, "reasoning": "adjective modifying truth, government, denomination, and power; nominal general possible but not shown here"}
+{"type": "powers", "rank": 84, "frequency": 267, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural political/legal noun in particular powers, Powers of Judiciary, delegated powers, and original powers"}
+{"type": "executive", "rank": 85, "frequency": 256, "tag": "ADJ", "confidence": 0.72, "reasoning": "mostly adjective modifying council, authority, department, and power; The Executive is also nominalized institutional noun", "alternative": "NOUN"}
+{"type": "shall", "rank": 86, "frequency": 255, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in shall require, shall not deny, shall extend, and shall be requisite"}
+{"type": "between", "rank": 87, "frequency": 249, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition in between jurisdictions, coasts, members, governments, and people/legislature"}
+{"type": "time", "rank": 88, "frequency": 248, "tag": "NOUN", "confidence": 1.0, "reasoning": "temporal noun in same time, time and manner, time of peace, and length of time"}
+{"type": "each", "rank": 89, "frequency": 241, "tag": "DET", "confidence": 0.9, "reasoning": "distributive determiner in each State, each individual State, and each choose; one each as pronoun possible", "alternative": "PRON"}
+{"type": "could", "rank": 90, "frequency": 240, "tag": "AUX", "confidence": 1.0, "reasoning": "modal auxiliary in could be desirable, could it be expected, could obtain, and could be proposed"}
+{"type": "united", "rank": 91, "frequency": 238, "tag": "PROPN", "confidence": 0.9, "reasoning": "proper-name component in United Provinces and United States in all shown contexts", "alternative": "ADJ"}
+{"type": "men", "rank": 92, "frequency": 237, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural human common noun in men who, single men, intelligent men, judges as men, and class of men"}
+{"type": "less", "rank": 93, "frequency": 233, "tag": "ADV", "confidence": 1.0, "reasoning": "comparative degree adverb in less dreaded, not less dissatisfied, less serious, and less erroneous"}
+{"type": "what", "rank": 94, "frequency": 232, "tag": "PRON", "confidence": 1.0, "reasoning": "interrogative/relative pronoun in what is meant, what has kept, in what manner, and by what means"}
+{"type": "members", "rank": 95, "frequency": 230, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural person/political-unit noun in members in collective capacities, members of department, and weaker members"}
+{"type": "part", "rank": 96, "frequency": 229, "tag": "NOUN", "confidence": 1.0, "reasoning": "portion noun in one part, principal part, least wealthy part, and for my part"}
+{"type": "number", "rank": 97, "frequency": 227, "tag": "NOUN", "confidence": 1.0, "reasoning": "quantity noun in number of council, preceding number, number of representatives, and smaller number"}
+{"type": "body", "rank": 98, "frequency": 225, "tag": "NOUN", "confidence": 1.0, "reasoning": "collective/metaphorical noun in body politic, numerous body, whole body, and body constituted"}
+{"type": "well", "rank": 99, "frequency": 224, "tag": "ADV", "confidence": 0.86, "reasoning": "adverb in as well as, well-wishers, well known, and as well in these States; compound adjective uses occur", "alternative": "ADJ"}
+{"type": "first", "rank": 100, "frequency": 221, "tag": "ADJ", "confidence": 0.78, "reasoning": "ordinal modifier in first branch, first thing, first surmise; also discourse adverb in first, unity", "alternative": "NUM"}
+{"type": "particular", "rank": 101, "frequency": 173, "tag": "ADJ", "confidence": 0.9, "reasoning": "modifies powers, states, and situations in the shown contexts; one substantive use is still adjectival in force", "alternative": "NOUN"}
+{"type": "us", "rank": 102, "frequency": 169, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person plural object pronoun in the contexts"}
+{"type": "two", "rank": 103, "frequency": 169, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in the shown contrasts and counts"}
+{"type": "different", "rank": 104, "frequency": 168, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjectival modifier of objects, departments, views, and classes"}
+{"type": "subject", "rank": 105, "frequency": 167, "tag": "NOUN", "confidence": 0.95, "reasoning": "used as the topic or matter under discussion in the contexts"}
+{"type": "legislative", "rank": 106, "frequency": 166, "tag": "ADJ", "confidence": 1.0, "reasoning": "modifies authority, body, department, and power"}
+{"type": "he", "rank": 107, "frequency": 164, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person masculine subject pronoun in all contexts"}
+{"type": "without", "rank": 108, "frequency": 164, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition introducing noun or gerund complements such as danger, exerting, and corrupting"}
+{"type": "laws", "rank": 109, "frequency": 163, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun referring to statutes or legal rules"}
+{"type": "necessary", "rank": 110, "frequency": 163, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate or attributive adjective meaning required or indispensable"}
+{"type": "representatives", "rank": 111, "frequency": 163, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for elected agents or members"}
+{"type": "very", "rank": 112, "frequency": 163, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb modifying adjectives or adverbs in the examples"}
+{"type": "york", "rank": 113, "frequency": 163, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper-name component in New York"}
+{"type": "legislature", "rank": 114, "frequency": 163, "tag": "NOUN", "confidence": 0.95, "reasoning": "common institutional noun for a lawmaking body"}
+{"type": "made", "rank": 115, "frequency": 162, "tag": "VERB", "confidence": 0.95, "reasoning": "lexical verb or past participle in passive clauses describing actions taken or things produced"}
+{"type": "senate", "rank": 116, "frequency": 162, "tag": "PROPN", "confidence": 0.85, "reasoning": "usually names the Senate as a specific governmental institution in the contexts", "alternative": "NOUN"}
+{"type": "either", "rank": 117, "frequency": 161, "tag": "DET", "confidence": 0.6, "reasoning": "appears in determiner or pronominal uses such as either case and either of them, though some contexts use it as a correlative focus word", "alternative": "ADV"}
+{"type": "convention", "rank": 118, "frequency": 161, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun for the constitutional convention or an assembly"}
+{"type": "own", "rank": 119, "frequency": 161, "tag": "ADJ", "confidence": 0.9, "reasoning": "emphatic possessive modifier in phrases such as its own government and their own choice", "alternative": "DET"}
+{"type": "cases", "rank": 120, "frequency": 160, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun referring to instances or legal cases"}
+{"type": "governments", "rank": 121, "frequency": 160, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for political institutions"}
+{"type": "when", "rank": 122, "frequency": 160, "tag": "SCONJ", "confidence": 0.95, "reasoning": "introduces temporal or conditional subordinate clauses in the examples"}
+{"type": "citizens", "rank": 123, "frequency": 159, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for members of the polity"}
+{"type": "much", "rank": 124, "frequency": 159, "tag": "ADV", "confidence": 0.75, "reasoning": "often modifies comparatives or degree expressions such as too much and much above; some uses quantify nouns", "alternative": "DET"}
+{"type": "case", "rank": 125, "frequency": 158, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an instance, situation, or legal case"}
+{"type": "plan", "rank": 126, "frequency": 158, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun referring to the proposed constitutional plan"}
+{"type": "even", "rank": 127, "frequency": 158, "tag": "ADV", "confidence": 1.0, "reasoning": "focus adverb strengthening the following phrase or clause"}
+{"type": "several", "rank": 128, "frequency": 158, "tag": "DET", "confidence": 0.95, "reasoning": "quantifying determiner before plural nouns such as States or individuals"}
+{"type": "too", "rank": 129, "frequency": 157, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb in too far, too much, and similar uses"}
+{"type": "far", "rank": 130, "frequency": 157, "tag": "ADV", "confidence": 0.95, "reasoning": "adverbial degree or distance expression, as in so far and too far"}
+{"type": "latter", "rank": 131, "frequency": 161, "tag": "ADJ", "confidence": 0.75, "reasoning": "used substantively in contrast with former, retaining adjectival comparative force", "alternative": "PRON"}
+{"type": "proper", "rank": 132, "frequency": 158, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning appropriate in all shown contexts"}
+{"type": "another", "rank": 133, "frequency": 155, "tag": "DET", "confidence": 0.95, "reasoning": "determiner introducing another point, period, quarter, or error"}
+{"type": "themselves", "rank": 134, "frequency": 154, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun referring back to people, judges, or parties"}
+{"type": "common", "rank": 135, "frequency": 153, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjectival modifier in common defense, common law, common interest, and common objects"}
+{"type": "foreign", "rank": 136, "frequency": 152, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying arms, powers, trade, and power"}
+{"type": "rights", "rank": 137, "frequency": 152, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for legal or political entitlements"}
+{"type": "where", "rank": 138, "frequency": 151, "tag": "SCONJ", "confidence": 0.95, "reasoning": "introduces subordinate locative or situational clauses such as cases where and government where"}
+{"type": "law", "rank": 139, "frequency": 147, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for legal rule or the legal system"}
+{"type": "therefore", "rank": 140, "frequency": 145, "tag": "ADV", "confidence": 1.0, "reasoning": "argumentative connective adverb marking an inference"}
+{"type": "cannot", "rank": 141, "frequency": 144, "tag": "AUX", "confidence": 1.0, "reasoning": "negative modal auxiliary can plus not in all examples"}
+{"type": "liberty", "rank": 142, "frequency": 143, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for political freedom"}
+{"type": "influence", "rank": 143, "frequency": 142, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly a noun in phrases like credit and influence or no influence, though one context uses it as a verb", "alternative": "VERB"}
+{"type": "interests", "rank": 144, "frequency": 142, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for political, commercial, or factional interests"}
+{"type": "proposed", "rank": 145, "frequency": 142, "tag": "ADJ", "confidence": 0.8, "reasoning": "usually modifies government or Constitution as an adjectival participle; a few contexts are verbal passives", "alternative": "VERB"}
+{"type": "former", "rank": 146, "frequency": 139, "tag": "ADJ", "confidence": 0.75, "reasoning": "used substantively in former/latter contrasts while retaining adjectival comparative force", "alternative": "PRON"}
+{"type": "itself", "rank": 147, "frequency": 139, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive pronoun referring to production, inequality, government, or body"}
+{"type": "though", "rank": 148, "frequency": 139, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing concessive clauses"}
+{"type": "whole", "rank": 149, "frequency": 139, "tag": "ADJ", "confidence": 0.85, "reasoning": "mostly modifies system, State, laws, powers, or resources; some substantive uses remain adjective-like", "alternative": "NOUN"}
+{"type": "place", "rank": 150, "frequency": 138, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun for location or rhetorical position, as in in this place and in the first place"}
+{"type": "being", "rank": 151, "frequency": 137, "tag": "AUX", "confidence": 0.65, "reasoning": "often functions as the be auxiliary in passive or copular nonfinite clauses such as being placed, being abetted, and being bound", "alternative": "VERB"}
+{"type": "many", "rank": 152, "frequency": 135, "tag": "DET", "confidence": 0.95, "reasoning": "quantifying determiner before plural nouns such as cases, objections, occasions, and instances"}
+{"type": "objects", "rank": 153, "frequency": 133, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for aims, matters, or things considered"}
+{"type": "over", "rank": 154, "frequency": 133, "tag": "ADP", "confidence": 0.95, "reasoning": "preposition in control over, watching over, and hanging over"}
+{"type": "good", "rank": 155, "frequency": 132, "tag": "ADJ", "confidence": 0.8, "reasoning": "mostly adjectival in good behavior, good faith, good sense, and good intentions, though public good is nominal", "alternative": "NOUN"}
+{"type": "among", "rank": 156, "frequency": 131, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition introducing plural noun phrase complements"}
+{"type": "danger", "rank": 157, "frequency": 131, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for risk or threat"}
+{"type": "little", "rank": 158, "frequency": 131, "tag": "ADJ", "confidence": 0.75, "reasoning": "modifies nouns such as difficulty, weight, and room, with some degree-adverb force in little more", "alternative": "ADV"}
+{"type": "nature", "rank": 159, "frequency": 131, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for kind, character, or human nature"}
+{"type": "nations", "rank": 160, "frequency": 130, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for political communities"}
+{"type": "courts", "rank": 161, "frequency": 129, "tag": "NOUN", "confidence": 0.95, "reasoning": "plural common noun for judicial bodies"}
+{"type": "man", "rank": 162, "frequency": 129, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an individual person"}
+{"type": "both", "rank": 163, "frequency": 128, "tag": "DET", "confidence": 0.75, "reasoning": "quantifies paired nouns in several contexts and is pronominal in others", "alternative": "PRON"}
+{"type": "form", "rank": 164, "frequency": 127, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly a noun meaning shape, structure, or constitutional form, with one verbal use in form new States", "alternative": "VERB"}
+{"type": "political", "rank": 165, "frequency": 127, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjectival modifier of capacity, voyage, consequences, and other abstract nouns"}
+{"type": "make", "rank": 166, "frequency": 126, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb in make use, make them, and make any thing"}
+{"type": "greater", "rank": 167, "frequency": 125, "tag": "ADJ", "confidence": 1.0, "reasoning": "comparative adjective modifying power, importance, good, or inaccuracy"}
+{"type": "nor", "rank": 168, "frequency": 125, "tag": "CCONJ", "confidence": 1.0, "reasoning": "coordinating conjunction in neither/nor and negative coordination"}
+{"type": "war", "rank": 169, "frequency": 125, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for armed conflict"}
+{"type": "president", "rank": 170, "frequency": 124, "tag": "NOUN", "confidence": 0.75, "reasoning": "office title referring to the President, functioning as a common institutional noun rather than a personal name", "alternative": "PROPN"}
+{"type": "found", "rank": 171, "frequency": 123, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle of find in to be found and might be found contexts"}
+{"type": "system", "rank": 172, "frequency": 122, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a constitutional or governmental system"}
+{"type": "interest", "rank": 173, "frequency": 121, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun for political or social interest"}
+{"type": "country", "rank": 174, "frequency": 121, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a nation or territory"}
+{"type": "provision", "rank": 175, "frequency": 120, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a constitutional clause or arrangement"}
+{"type": "yet", "rank": 176, "frequency": 120, "tag": "ADV", "confidence": 0.9, "reasoning": "adverbial concessive or temporal marker in the shown sentences"}
+{"type": "congress", "rank": 177, "frequency": 119, "tag": "PROPN", "confidence": 0.9, "reasoning": "names Congress as a specific national institution", "alternative": "NOUN"}
+{"type": "force", "rank": 178, "frequency": 119, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly a noun for coercive power or military force, though one context uses force as a verb", "alternative": "VERB"}
+{"type": "necessity", "rank": 179, "frequency": 119, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for need or compulsion"}
+{"type": "within", "rank": 180, "frequency": 119, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition introducing jurisdictional or spatial limits"}
+{"type": "independent", "rank": 181, "frequency": 118, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying States, powers, or bodies"}
+{"type": "security", "rank": 182, "frequency": 118, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for protection or safety"}
+{"type": "america", "rank": 183, "frequency": 117, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper geographic name America"}
+{"type": "means", "rank": 184, "frequency": 117, "tag": "NOUN", "confidence": 0.9, "reasoning": "usually a plural noun in by means and means of phrases", "alternative": "VERB"}
+{"type": "peace", "rank": 185, "frequency": 116, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for absence of war or civil tranquillity"}
+{"type": "circumstances", "rank": 186, "frequency": 115, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for conditions or facts surrounding a case"}
+{"type": "reason", "rank": 187, "frequency": 115, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly an abstract noun meaning rational ground or faculty, though one context has to reason from", "alternative": "VERB"}
+{"type": "respect", "rank": 188, "frequency": 115, "tag": "NOUN", "confidence": 0.9, "reasoning": "used as a noun in phrases such as in respect to and regard or consideration"}
+{"type": "single", "rank": 189, "frequency": 115, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying noun phrases such as single State, single body, or single person"}
+{"type": "causes", "rank": 190, "frequency": 115, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly plural noun for reasons or sources, though the form can be verbal", "alternative": "VERB"}
+{"type": "course", "rank": 191, "frequency": 114, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in phrases such as course of law, course of events, and ordinary course"}
+{"type": "whether", "rank": 192, "frequency": 114, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing embedded alternatives or indirect questions"}
+{"type": "present", "rank": 193, "frequency": 114, "tag": "ADJ", "confidence": 0.75, "reasoning": "usually adjectival in present Confederation, present number, and present shadow, with some adverbial phrase use in at present", "alternative": "ADV"}
+{"type": "however", "rank": 194, "frequency": 113, "tag": "ADV", "confidence": 1.0, "reasoning": "discourse adverb marking contrast or concession"}
+{"type": "principle", "rank": 195, "frequency": 113, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for a rule or basis"}
+{"type": "court", "rank": 196, "frequency": 112, "tag": "NOUN", "confidence": 0.85, "reasoning": "common noun for judicial tribunal, including named Supreme Court contexts", "alternative": "PROPN"}
+{"type": "situation", "rank": 197, "frequency": 111, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for condition or position"}
+{"type": "view", "rank": 198, "frequency": 111, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun for perspective, aim, or consideration"}
+{"type": "still", "rank": 199, "frequency": 111, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb meaning nevertheless or continuing"}
+{"type": "her", "rank": 200, "frequency": 110, "tag": "DET", "confidence": 0.95, "reasoning": "possessive determiner before nouns such as fate, union, representatives, and importance"}
+{"type": "jurisdiction", "rank": 201, "frequency": 103, "tag": "NOUN", "confidence": 1.0, "reasoning": "legal common noun for judicial authority or scope"}
+{"type": "right", "rank": 202, "frequency": 103, "tag": "NOUN", "confidence": 0.95, "reasoning": "mostly a legal or political entitlement in phrases like a right to command and right of coinage"}
+{"type": "often", "rank": 203, "frequency": 102, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb modifying verbs or participles"}
+{"type": "principles", "rank": 204, "frequency": 102, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun for foundational rules or doctrines"}
+{"type": "degree", "rank": 205, "frequency": 100, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for amount or extent"}
+{"type": "proportion", "rank": 206, "frequency": 100, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for share, ratio, or amount"}
+{"type": "certain", "rank": 207, "frequency": 99, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjectival determiner-like modifier in certain cases, parts, and magnitude"}
+{"type": "last", "rank": 208, "frequency": 99, "tag": "ADJ", "confidence": 0.8, "reasoning": "ordinal adjective in last resort, last scale, last admits, and last place", "alternative": "NUM"}
+{"type": "never", "rank": 209, "frequency": 99, "tag": "ADV", "confidence": 1.0, "reasoning": "negative frequency adverb"}
+{"type": "nation", "rank": 210, "frequency": 98, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a political community"}
+{"type": "others", "rank": 211, "frequency": 98, "tag": "PRON", "confidence": 0.9, "reasoning": "substantive pronoun referring to other persons, cities, or modes"}
+{"type": "also", "rank": 212, "frequency": 97, "tag": "ADV", "confidence": 1.0, "reasoning": "additive adverb in all examples"}
+{"type": "judiciary", "rank": 213, "frequency": 97, "tag": "NOUN", "confidence": 0.65, "reasoning": "often names the judicial branch as the judiciary, though it also modifies power and departments", "alternative": "ADJ"}
+{"type": "let", "rank": 214, "frequency": 97, "tag": "VERB", "confidence": 1.0, "reasoning": "imperative or infinitive lexical verb in let me, let us, and let go"}
+{"type": "object", "rank": 215, "frequency": 97, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun for aim, target, or matter under consideration"}
+{"type": "objection", "rank": 216, "frequency": 97, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an argument against the plan"}
+{"type": "local", "rank": 217, "frequency": 96, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying prejudices, authorities, courts, and circumstances"}
+{"type": "sense", "rank": 218, "frequency": 96, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for judgment, meaning, or opinion"}
+{"type": "department", "rank": 219, "frequency": 95, "tag": "NOUN", "confidence": 1.0, "reasoning": "common institutional noun for branch or division of government"}
+{"type": "important", "rank": 220, "frequency": 95, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying distinction, consequences, subject, and principles"}
+{"type": "least", "rank": 221, "frequency": 95, "tag": "ADV", "confidence": 0.8, "reasoning": "mostly occurs in adverbial phrases such as at least, though it can modify nouns adjectivally", "alternative": "ADJ"}
+{"type": "out", "rank": 222, "frequency": 95, "tag": "ADV", "confidence": 0.65, "reasoning": "adverbial particle in put out, point out, and marked out, with some out of prepositional uses", "alternative": "ADP"}
+{"type": "extent", "rank": 223, "frequency": 94, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for scope, range, or degree"}
+{"type": "now", "rank": 224, "frequency": 94, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal or discourse adverb in now return, now seen, and now proceed"}
+{"type": "question", "rank": 225, "frequency": 94, "tag": "NOUN", "confidence": 0.9, "reasoning": "mostly a noun for issue or inquiry, though one context has to question as a verb", "alternative": "VERB"}
+{"type": "spirit", "rank": 226, "frequency": 94, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for disposition, animating principle, or temper"}
+{"type": "do", "rank": 227, "frequency": 93, "tag": "VERB", "confidence": 0.55, "reasoning": "mixed between lexical uses like do their duty and auxiliary do in negatives; the shown contexts lean slightly lexical", "alternative": "AUX"}
+{"type": "give", "rank": 228, "frequency": 93, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning grant, provide, or confer"}
+{"type": "majority", "rank": 229, "frequency": 93, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the larger voting number or party"}
+{"type": "trial", "rank": 230, "frequency": 93, "tag": "NOUN", "confidence": 1.0, "reasoning": "legal common noun, especially in trial by jury"}
+{"type": "because", "rank": 231, "frequency": 92, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing causal clauses"}
+{"type": "constitutional", "rank": 232, "frequency": 92, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying provision, shackles, limits, questions, and similar nouns"}
+{"type": "equal", "rank": 233, "frequency": 92, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying moderation, authority, pride, or level"}
+{"type": "few", "rank": 234, "frequency": 92, "tag": "DET", "confidence": 0.95, "reasoning": "quantifying determiner before plural nouns such as features, advocates, exceptions, and hours"}
+{"type": "persons", "rank": 235, "frequency": 92, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for individuals"}
+{"type": "considered", "rank": 236, "frequency": 91, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle in passive constructions such as is considered and may be considered", "alternative": "ADJ"}
+{"type": "him", "rank": 237, "frequency": 91, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person masculine object pronoun"}
+{"type": "house", "rank": 238, "frequency": 91, "tag": "PROPN", "confidence": 0.85, "reasoning": "mostly the House of Representatives as a named institutional body", "alternative": "NOUN"}
+{"type": "point", "rank": 239, "frequency": 91, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly a noun for issue, location in argument, or decision point, with some point out verb-particle uses", "alternative": "VERB"}
+{"type": "confederation", "rank": 240, "frequency": 90, "tag": "PROPN", "confidence": 0.7, "reasoning": "often names the existing Confederation or Articles of Confederation, though some uses are generic", "alternative": "NOUN"}
+{"type": "experience", "rank": 241, "frequency": 90, "tag": "NOUN", "confidence": 0.95, "reasoning": "abstract common noun for prior practical knowledge"}
+{"type": "long", "rank": 242, "frequency": 90, "tag": "ADV", "confidence": 0.75, "reasoning": "mostly adverbial in long submit, long ago, and long planned, with one adjectival long time use", "alternative": "ADJ"}
+{"type": "supreme", "rank": 243, "frequency": 90, "tag": "ADJ", "confidence": 0.75, "reasoning": "adjectival modifier in supreme administration and supreme powers, though Supreme Court is a proper institutional name", "alternative": "PROPN"}
+{"type": "society", "rank": 244, "frequency": 89, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the social body or community"}
+{"type": "side", "rank": 245, "frequency": 88, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for factional or physical side"}
+{"type": "how", "rank": 246, "frequency": 87, "tag": "ADV", "confidence": 1.0, "reasoning": "interrogative or subordinate adverb of manner"}
+{"type": "federalist", "rank": 247, "frequency": 86, "tag": "PROPN", "confidence": 1.0, "reasoning": "title/name token in The Federalist Papers and Federalist No. headings"}
+{"type": "advantage", "rank": 248, "frequency": 85, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for benefit or favorable condition"}
+{"type": "true", "rank": 249, "frequency": 85, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in true distinction, true state, and true observation"}
+{"type": "always", "rank": 250, "frequency": 84, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb modifying verbs"}
+{"type": "answer", "rank": 251, "frequency": 84, "tag": "NOUN", "confidence": 0.55, "reasoning": "balanced between noun uses such as a full answer and verbal infinitives such as to answer; argumentative noun use is prominent", "alternative": "VERB"}
+{"type": "confederacy", "rank": 252, "frequency": 84, "tag": "NOUN", "confidence": 0.8, "reasoning": "common noun for a league or union, sometimes capitalized as a specific polity", "alternative": "PROPN"}
+{"type": "kind", "rank": 253, "frequency": 84, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for type or class"}
+{"type": "publius", "rank": 254, "frequency": 84, "tag": "PROPN", "confidence": 1.0, "reasoning": "signature/name Publius in essay closings"}
+{"type": "treaties", "rank": 255, "frequency": 84, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for formal agreements between governments"}
+{"type": "conduct", "rank": 256, "frequency": 83, "tag": "NOUN", "confidence": 0.95, "reasoning": "mostly noun in conduct of public men, own conduct, and approve of his conduct"}
+{"type": "legislatures", "rank": 257, "frequency": 83, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for lawmaking bodies"}
+{"type": "manner", "rank": 258, "frequency": 83, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for way or mode of action"}
+{"type": "act", "rank": 259, "frequency": 82, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly noun for deed or legal act, though one context uses act as a verb", "alternative": "VERB"}
+{"type": "appointment", "rank": 260, "frequency": 82, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the act or process of appointing officers"}
+{"type": "nothing", "rank": 261, "frequency": 82, "tag": "PRON", "confidence": 1.0, "reasoning": "negative indefinite pronoun in all shown contexts"}
+{"type": "whose", "rank": 262, "frequency": 82, "tag": "DET", "confidence": 0.8, "reasoning": "possessive relative determiner before nouns such as numbers, conduct, agency, and expenses", "alternative": "PRON"}
+{"type": "administration", "rank": 263, "frequency": 81, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for governing activity or executive management"}
+{"type": "exercise", "rank": 264, "frequency": 81, "tag": "VERB", "confidence": 0.7, "reasoning": "several contexts use the lexical verb exercise power or reason, though exercise of is nominal", "alternative": "NOUN"}
+{"type": "like", "rank": 265, "frequency": 81, "tag": "ADP", "confidence": 0.7, "reasoning": "mostly prepositional comparison in like ours and something like an equivalent, with one adjectival like control use", "alternative": "ADJ"}
+{"type": "likely", "rank": 266, "frequency": 81, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective in is likely, would be likely, and least likely"}
+{"type": "britain", "rank": 267, "frequency": 80, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper geographic name Britain"}
+{"type": "measures", "rank": 268, "frequency": 80, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for policies, actions, weights/measures, or public steps"}
+{"type": "essential", "rank": 269, "frequency": 79, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning necessary or fundamental in all examples"}
+{"type": "given", "rank": 270, "frequency": 79, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle of give in passive or perfect constructions"}
+{"type": "three", "rank": 271, "frequency": 79, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number"}
+{"type": "years", "rank": 272, "frequency": 79, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for units of time"}
+{"type": "article", "rank": 273, "frequency": 78, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for constitutional article or imported article"}
+{"type": "community", "rank": 274, "frequency": 78, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the collective political or social body"}
+{"type": "perhaps", "rank": 275, "frequency": 78, "tag": "ADV", "confidence": 1.0, "reasoning": "modal adverb marking uncertainty"}
+{"type": "sufficient", "rank": 276, "frequency": 78, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning enough or adequate"}
+{"type": "appear", "rank": 277, "frequency": 77, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning seem or become visible"}
+{"type": "commerce", "rank": 278, "frequency": 77, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for trade"}
+{"type": "departments", "rank": 279, "frequency": 77, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for branches or divisions of government or nature"}
+{"type": "effect", "rank": 280, "frequency": 77, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun for result or operative force"}
+{"type": "just", "rank": 281, "frequency": 77, "tag": "ADV", "confidence": 0.75, "reasoning": "mostly adverbial in just mentioned and just before, though just laws is adjectival", "alternative": "ADJ"}
+{"type": "magistrate", "rank": 282, "frequency": 77, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an officeholder or chief executive"}
+{"type": "propriety", "rank": 283, "frequency": 77, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for fitness or appropriateness"}
+{"type": "then", "rank": 284, "frequency": 77, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal or inferential adverb"}
+{"type": "branch", "rank": 285, "frequency": 76, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a division of government or power"}
+{"type": "constitutions", "rank": 286, "frequency": 76, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for constitutional documents or systems"}
+{"type": "jury", "rank": 287, "frequency": 76, "tag": "NOUN", "confidence": 1.0, "reasoning": "legal common noun in trial by jury and court contexts"}
+{"type": "large", "rank": 288, "frequency": 76, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying part, republic, branch, or States"}
+{"type": "republican", "rank": 289, "frequency": 76, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying governments, mode, territory, and authority"}
+{"type": "thing", "rank": 290, "frequency": 76, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in every thing, one thing, and a thing which"}
+{"type": "established", "rank": 291, "frequency": 75, "tag": "VERB", "confidence": 0.85, "reasoning": "past participle in passive constructions such as once established and is established", "alternative": "ADJ"}
+{"type": "judges", "rank": 292, "frequency": 75, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for judicial officers"}
+{"type": "parties", "rank": 293, "frequency": 75, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for political or legal parties"}
+{"type": "able", "rank": 294, "frequency": 74, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective in be able to constructions"}
+{"type": "articles", "rank": 295, "frequency": 74, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for constitutional articles or imported articles"}
+{"type": "consideration", "rank": 296, "frequency": 74, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for thought, reason, or factor weighed"}
+{"type": "equally", "rank": 297, "frequency": 74, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb modifying adjectives or predicates"}
+{"type": "numerous", "rank": 298, "frequency": 74, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying bodies, court, representatives, and branches"}
+{"type": "officers", "rank": 299, "frequency": 74, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for public officeholders"}
+{"type": "best", "rank": 300, "frequency": 73, "tag": "ADJ", "confidence": 0.7, "reasoning": "mostly superlative adjective in best provision/forms/mines, with one adverbial at best use", "alternative": "ADV"}
+{"type": "council", "rank": 301, "frequency": 73, "tag": "NOUN", "confidence": 0.95, "reasoning": "common institutional noun for an advisory or governing council"}
+{"type": "favor", "rank": 302, "frequency": 73, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly appears in the phrase in favor of, though one context uses favor as a verb", "alternative": "VERB"}
+{"type": "happen", "rank": 303, "frequency": 73, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning occur"}
+{"type": "period", "rank": 304, "frequency": 73, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for span of time"}
+{"type": "become", "rank": 305, "frequency": 72, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning come to be"}
+{"type": "hands", "rank": 306, "frequency": 72, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun used literally and metaphorically for control or possession"}
+{"type": "military", "rank": 307, "frequency": 72, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying authority, forces, coercion, and force"}
+{"type": "defense", "rank": 308, "frequency": 71, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for protection or military defense"}
+{"type": "mode", "rank": 309, "frequency": 71, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for method or manner"}
+{"type": "take", "rank": 310, "frequency": 71, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb in take notice, take occasion, and take place"}
+{"type": "alone", "rank": 311, "frequency": 70, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb meaning only or by itself"}
+{"type": "character", "rank": 312, "frequency": 70, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for reputation, nature, or type"}
+{"type": "civil", "rank": 313, "frequency": 70, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying law, establishments, war, and society"}
+{"type": "contrary", "rank": 314, "frequency": 69, "tag": "ADJ", "confidence": 0.75, "reasoning": "adjective in contrary to and the contrary, with some substantive uses", "alternative": "NOUN"}
+{"type": "here", "rank": 315, "frequency": 69, "tag": "ADV", "confidence": 1.0, "reasoning": "locative or discourse adverb referring to the present discussion"}
+{"type": "natural", "rank": 316, "frequency": 69, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying concomitants, size, conclusions, and other nouns"}
+{"type": "regard", "rank": 317, "frequency": 69, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly noun in with regard to, in regard to, and pay sufficient regard", "alternative": "VERB"}
+{"type": "require", "rank": 318, "frequency": 69, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning need or demand"}
+{"type": "considerations", "rank": 319, "frequency": 68, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for reasons or factors weighed"}
+{"type": "policy", "rank": 320, "frequency": 68, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for political method or plan"}
+{"type": "possess", "rank": 321, "frequency": 68, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning have or hold"}
+{"type": "does", "rank": 322, "frequency": 67, "tag": "AUX", "confidence": 0.9, "reasoning": "mostly auxiliary do in negation or support constructions such as does not require and does not exist"}
+{"type": "head", "rank": 323, "frequency": 67, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun in first head, federal head, executive head, and make head"}
+{"type": "human", "rank": 324, "frequency": 67, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying nature, conduct, mind, and affairs"}
+{"type": "making", "rank": 325, "frequency": 67, "tag": "VERB", "confidence": 0.95, "reasoning": "gerund or participle of make in making treaties, making discriminations, and making separate terms"}
+{"type": "office", "rank": 326, "frequency": 67, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for public office or official position"}
+{"type": "order", "rank": 327, "frequency": 67, "tag": "NOUN", "confidence": 0.9, "reasoning": "common noun in public order and in order to formulae"}
+{"type": "rule", "rank": 328, "frequency": 67, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly noun for principle or standard, though one context uses rule as a verb", "alternative": "VERB"}
+{"type": "small", "rank": 329, "frequency": 67, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying States, district, proportion, and number"}
+{"type": "practice", "rank": 330, "frequency": 66, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for custom or practical operation"}
+{"type": "purpose", "rank": 331, "frequency": 66, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for aim or intended function"}
+{"type": "seems", "rank": 332, "frequency": 66, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical/copular verb meaning appears"}
+{"type": "taken", "rank": 333, "frequency": 66, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle of take in taken strictly, matters taken, and views taken"}
+{"type": "whatever", "rank": 334, "frequency": 66, "tag": "PRON", "confidence": 0.7, "reasoning": "indefinite relative form in whatever might promise and whatever it may be, with some determiner-like uses before nouns", "alternative": "DET"}
+{"type": "instances", "rank": 335, "frequency": 65, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for examples or cases"}
+{"type": "operation", "rank": 336, "frequency": 65, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for effect, functioning, or practical action"}
+{"type": "taxation", "rank": 337, "frequency": 65, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for the raising of taxes"}
+{"type": "affairs", "rank": 338, "frequency": 64, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for public or national matters"}
+{"type": "evident", "rank": 339, "frequency": 64, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective meaning clear or obvious"}
+{"type": "neither", "rank": 340, "frequency": 64, "tag": "CCONJ", "confidence": 0.95, "reasoning": "negative coordinating marker in neither/nor constructions"}
+{"type": "property", "rank": 341, "frequency": 64, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for possessions or legal property"}
+{"type": "render", "rank": 342, "frequency": 64, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning make or cause to be"}
+{"type": "second", "rank": 343, "frequency": 64, "tag": "ADJ", "confidence": 0.8, "reasoning": "ordinal adjective in second birth, second clauses, and second answer", "alternative": "NUM"}
+{"type": "support", "rank": 344, "frequency": 64, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in support of and withdrawn its support, though one context uses support as a verb", "alternative": "VERB"}
+{"type": "truth", "rank": 345, "frequency": 64, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for a true proposition or reality"}
+{"type": "attention", "rank": 346, "frequency": 63, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun in deserve attention and claim our attention"}
+{"type": "confidence", "rank": 347, "frequency": 63, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for trust or assurance"}
+{"type": "distinct", "rank": 348, "frequency": 63, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying governments, societies, bodies, and avocation"}
+{"type": "fact", "rank": 349, "frequency": 63, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for factual matter or legal fact"}
+{"type": "militia", "rank": 350, "frequency": 63, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for citizen military force"}
+{"type": "possible", "rank": 351, "frequency": 63, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning capable of occurring or being done"}
+{"type": "said", "rank": 352, "frequency": 62, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of say in is said, may be said, and has been said"}
+{"type": "before", "rank": 353, "frequency": 61, "tag": "SCONJ", "confidence": 0.55, "reasoning": "mixed temporal marker, often introducing clauses such as before it can, with adverbial and prepositional uses also present", "alternative": "ADP"}
+{"type": "elections", "rank": 354, "frequency": 61, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for electoral events"}
+{"type": "justice", "rank": 355, "frequency": 61, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for justice or judicial administration"}
+{"type": "parts", "rank": 356, "frequency": 61, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for components or regions"}
+{"type": "party", "rank": 357, "frequency": 61, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for faction, side, or political/legal party"}
+{"type": "revenue", "rank": 358, "frequency": 61, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for public income or tax revenue"}
+{"type": "trust", "rank": 359, "frequency": 61, "tag": "VERB", "confidence": 0.55, "reasoning": "split between I trust as a verb and office/place of trust as a noun; the shown first uses are verbal", "alternative": "NOUN"}
+{"type": "weight", "rank": 360, "frequency": 61, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for force, influence, or burden"}
+{"type": "appears", "rank": 361, "frequency": 60, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical/copular verb meaning seems"}
+{"type": "duties", "rank": 362, "frequency": 60, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for taxes or obligations"}
+{"type": "founded", "rank": 363, "frequency": 60, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle in founded on constructions"}
+{"type": "free", "rank": 364, "frequency": 60, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying government or describing absence of constraint"}
+{"type": "instance", "rank": 365, "frequency": 60, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for example or occurrence"}
+{"type": "considerable", "rank": 366, "frequency": 59, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying prerogatives, extent, addition, and increase"}
+{"type": "election", "rank": 367, "frequency": 59, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an electoral process"}
+{"type": "individuals", "rank": 368, "frequency": 59, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for individual persons"}
+{"type": "once", "rank": 369, "frequency": 59, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in at once and once begun/established senses"}
+{"type": "opinion", "rank": 370, "frequency": 59, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for belief or public judgment"}
+{"type": "republic", "rank": 371, "frequency": 59, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a republican state"}
+{"type": "requisite", "rank": 372, "frequency": 59, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning required or necessary"}
+{"type": "whom", "rank": 373, "frequency": 59, "tag": "PRON", "confidence": 1.0, "reasoning": "relative or interrogative object pronoun"}
+{"type": "ever", "rank": 374, "frequency": 58, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in temporal or emphatic uses such as ever be and ever existed"}
+{"type": "further", "rank": 375, "frequency": 58, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly modifies consideration or provision, though title and degree uses are partly adverbial", "alternative": "ADV"}
+{"type": "views", "rank": 376, "frequency": 58, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for opinions, aims, or perspectives"}
+{"type": "already", "rank": 377, "frequency": 57, "tag": "ADV", "confidence": 1.0, "reasoning": "temporal adverb marking prior occurrence"}
+{"type": "councils", "rank": 378, "frequency": 57, "tag": "NOUN", "confidence": 0.95, "reasoning": "plural common noun for governing or advisory councils"}
+{"type": "existing", "rank": 379, "frequency": 57, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying Confederation, articles, and similar institutions"}
+{"type": "immediate", "rank": 380, "frequency": 57, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying interest, safety, pressure, and dependence"}
+{"type": "knowledge", "rank": 381, "frequency": 57, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for information or understanding"}
+{"type": "safety", "rank": 382, "frequency": 57, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for security or protection"}
+{"type": "admit", "rank": 383, "frequency": 56, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning allow, concede, or be capable of"}
+{"type": "better", "rank": 384, "frequency": 56, "tag": "ADJ", "confidence": 0.85, "reasoning": "comparative adjective in better umpires, better form, and better foundation"}
+{"type": "dangerous", "rank": 385, "frequency": 56, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying greatness, competitors, intermissions, and expedient"}
+{"type": "improper", "rank": 386, "frequency": 56, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning unsuitable or unsafe"}
+{"type": "result", "rank": 387, "frequency": 56, "tag": "VERB", "confidence": 0.7, "reasoning": "mostly lexical verb in will result, would result, and must result; one context is nominal", "alternative": "NOUN"}
+{"type": "use", "rank": 388, "frequency": 56, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly noun in the use of and making use of, though the form can be verbal", "alternative": "VERB"}
+{"type": "hamilton", "rank": 389, "frequency": 55, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper personal name Alexander Hamilton"}
+{"type": "importance", "rank": 390, "frequency": 55, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for significance"}
+{"type": "individual", "rank": 391, "frequency": 55, "tag": "ADJ", "confidence": 0.95, "reasoning": "adjective modifying State, citizens, or States"}
+{"type": "popular", "rank": 392, "frequency": 55, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying insurrection, system, bias, and revolution"}
+{"type": "army", "rank": 393, "frequency": 54, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for military force"}
+{"type": "choice", "rank": 394, "frequency": 54, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for selection or preference"}
+{"type": "having", "rank": 395, "frequency": 54, "tag": "VERB", "confidence": 0.7, "reasoning": "gerund or participle of have, including having recourse and having suffered; some perfect-auxiliary use is present", "alternative": "AUX"}
+{"type": "duty", "rank": 396, "frequency": 53, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for obligation, office responsibility, or tax duty"}
+{"type": "find", "rank": 397, "frequency": 53, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning discover or encounter"}
+{"type": "four", "rank": 398, "frequency": 53, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number"}
+{"type": "himself", "rank": 399, "frequency": 53, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive masculine pronoun"}
+{"type": "judicial", "rank": 400, "frequency": 53, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying power, check, magistracy, and institutions"}
+{"type": "resources", "rank": 401, "frequency": 53, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for means, wealth, or capacities"}
+{"type": "elected", "rank": 402, "frequency": 52, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of elect in passive clauses"}
+{"type": "execution", "rank": 403, "frequency": 52, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for carrying laws or powers into effect"}
+{"type": "matter", "rank": 404, "frequency": 52, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for subject, issue, or material substance"}
+{"type": "provided", "rank": 405, "frequency": 52, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of provide in passive or perfect constructions"}
+{"type": "rather", "rank": 406, "frequency": 52, "tag": "ADV", "confidence": 1.0, "reasoning": "degree or corrective adverb in or rather, rather than, and similar uses"}
+{"type": "representation", "rank": 407, "frequency": 52, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for political representation"}
+{"type": "times", "rank": 408, "frequency": 52, "tag": "NOUN", "confidence": 0.95, "reasoning": "plural common noun for occasions or counted occurrences"}
+{"type": "want", "rank": 409, "frequency": 52, "tag": "NOUN", "confidence": 0.95, "reasoning": "mostly noun meaning lack, as in want of rights or secrecy"}
+{"type": "opposition", "rank": 410, "frequency": 51, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for resistance or opposing party"}
+{"type": "principal", "rank": 411, "frequency": 51, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying officers, members, effort, and vassals"}
+{"type": "provisions", "rank": 412, "frequency": 51, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for constitutional clauses or arrangements"}
+{"type": "suppose", "rank": 413, "frequency": 51, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning assume or imagine"}
+{"type": "taxes", "rank": 414, "frequency": 51, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for public levies"}
+{"type": "according", "rank": 415, "frequency": 50, "tag": "ADP", "confidence": 0.95, "reasoning": "part of the compound preposition according to in the contexts"}
+{"type": "change", "rank": 416, "frequency": 50, "tag": "NOUN", "confidence": 0.55, "reasoning": "split between noun uses such as the proposed change and verbal uses such as to change the posture", "alternative": "VERB"}
+{"type": "confederacies", "rank": 417, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for leagues or unions of states"}
+{"type": "control", "rank": 418, "frequency": 50, "tag": "VERB", "confidence": 0.55, "reasoning": "balanced between verbal uses such as ought to control and nominal uses such as control over; shown uses slightly favor the verb", "alternative": "NOUN"}
+{"type": "depend", "rank": 419, "frequency": 50, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning rely or be conditioned on"}
+{"type": "due", "rank": 420, "frequency": 50, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying knowledge, value, bounds, or debts"}
+{"type": "establishment", "rank": 421, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for institution, founding, or military establishment"}
+{"type": "existence", "rank": 422, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for being or continued presence"}
+{"type": "objections", "rank": 423, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for arguments against the proposal"}
+{"type": "personal", "rank": 424, "frequency": 50, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying considerations, attachments, emulation, and influence"}
+{"type": "powerful", "rank": 425, "frequency": 50, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying auxiliaries, princes, faction, and nation"}
+{"type": "relation", "rank": 426, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for connection or reference"}
+{"type": "seen", "rank": 427, "frequency": 50, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of see in have seen and is seen constructions"}
+{"type": "supposed", "rank": 428, "frequency": 50, "tag": "VERB", "confidence": 0.55, "reasoning": "mixed between passive participle may be supposed and adjectival uses such as supposed utility; passive verbal use is frequent", "alternative": "ADJ"}
+{"type": "supposition", "rank": 429, "frequency": 50, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for an assumption"}
+{"type": "branches", "rank": 430, "frequency": 49, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for branches of government or legislature"}
+{"type": "chief", "rank": 431, "frequency": 49, "tag": "ADJ", "confidence": 0.95, "reasoning": "adjective modifying magistrate, feudatories, commander, and offices"}
+{"type": "hand", "rank": 432, "frequency": 49, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in fixed contrasts such as on the one hand and on the other hand"}
+{"type": "my", "rank": 433, "frequency": 49, "tag": "DET", "confidence": 1.0, "reasoning": "first-person possessive determiner before nouns such as part, memory, council, and observations"}
+{"type": "offices", "rank": 434, "frequency": 49, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for official positions"}
+{"type": "sometimes", "rank": 435, "frequency": 49, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb modifying events or states"}
+{"type": "class", "rank": 436, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for category or social class"}
+{"type": "consent", "rank": 437, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for agreement or authorization"}
+{"type": "end", "rank": 438, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for aim, limit, or termination"}
+{"type": "forms", "rank": 439, "frequency": 48, "tag": "NOUN", "confidence": 0.55, "reasoning": "mixed between noun uses such as forms of dangers/government and verbal uses such as forms a barrier; noun uses are slightly more prominent", "alternative": "VERB"}
+{"type": "judgment", "rank": 440, "frequency": 48, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for decision, assessment, or judicial judgment"}
+{"type": "representative", "rank": 441, "frequency": 48, "tag": "NOUN", "confidence": 0.6, "reasoning": "used for an elected person in several contexts, though it also modifies assembly and body", "alternative": "ADJ"}
+{"type": "seem", "rank": 442, "frequency": 48, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical/copular verb meaning appear"}
+{"type": "advantages", "rank": 443, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for benefits"}
+{"type": "armies", "rank": 444, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for military forces"}
+{"type": "assembly", "rank": 445, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "common institutional noun for a deliberative body"}
+{"type": "continued", "rank": 446, "frequency": 47, "tag": "VERB", "confidence": 0.75, "reasoning": "past participle or finite past of continue, including title uses such as Subject Continued", "alternative": "ADJ"}
+{"type": "discretion", "rank": 447, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for judgment or freedom of choice"}
+{"type": "example", "rank": 448, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an illustrative case"}
+{"type": "measure", "rank": 449, "frequency": 47, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun for amount, standard, or political action"}
+{"type": "money", "rank": 450, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for currency or public funds"}
+{"type": "ordinary", "rank": 451, "frequency": 47, "tag": "ADJ", "confidence": 0.8, "reasoning": "mostly adjective in ordinary methods, signification, and occasions, though chancellor and ordinary is nominal", "alternative": "NOUN"}
+{"type": "person", "rank": 452, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for an individual human being"}
+{"type": "purposes", "rank": 453, "frequency": 47, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for aims or functions"}
+{"type": "separate", "rank": 454, "frequency": 47, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying terms, interest, collectors, and departments"}
+{"type": "acts", "rank": 455, "frequency": 46, "tag": "NOUN", "confidence": 0.95, "reasoning": "plural common noun for legislative acts or actions"}
+{"type": "almost", "rank": 456, "frequency": 46, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb modifying adjectives or quantifiers"}
+{"type": "appointed", "rank": 457, "frequency": 46, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of appoint in passive constructions"}
+{"type": "concerning", "rank": 458, "frequency": 46, "tag": "ADP", "confidence": 0.9, "reasoning": "preposition meaning about, including title uses such as Concerning the General Power"}
+{"type": "difficulty", "rank": 459, "frequency": 46, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for obstacle or hardship"}
+{"type": "extensive", "rank": 460, "frequency": 46, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying latitude, territory, kind, and commerce"}
+{"type": "full", "rank": 461, "frequency": 46, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying sovereignty, answer, extent, and similar nouns"}
+{"type": "immediately", "rank": 462, "frequency": 46, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying concerns, attack, agents, and related predicates"}
+{"type": "observations", "rank": 463, "frequency": 46, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for remarks or analytic comments"}
+{"type": "thus", "rank": 464, "frequency": 46, "tag": "ADV", "confidence": 1.0, "reasoning": "inferential or manner adverb"}
+{"type": "difference", "rank": 465, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for distinction or discrepancy"}
+{"type": "done", "rank": 466, "frequency": 45, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of do in perfect or passive clauses"}
+{"type": "duration", "rank": 467, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for length of time"}
+{"type": "generally", "rank": 468, "frequency": 45, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying predicates with a usual or broad-scope sense"}
+{"type": "information", "rank": 469, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for knowledge or data"}
+{"type": "occasion", "rank": 470, "frequency": 45, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun for event, instance, or opportunity"}
+{"type": "source", "rank": 471, "frequency": 45, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for origin or supply"}
+{"type": "ambition", "rank": 472, "frequency": 44, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for desire for power"}
+{"type": "expected", "rank": 473, "frequency": 44, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle of expect in passive or result constructions"}
+{"type": "moment", "rank": 474, "frequency": 44, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for instant or importance"}
+{"type": "next", "rank": 475, "frequency": 44, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly ordinal adjective in next relation, next place, and next defect, with some adverbial sequencing", "alternative": "ADV"}
+{"type": "private", "rank": 476, "frequency": 44, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying citizens, concerns, oppression, and stations"}
+{"type": "probable", "rank": 477, "frequency": 44, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective meaning likely"}
+{"type": "probably", "rank": 478, "frequency": 44, "tag": "ADV", "confidence": 1.0, "reasoning": "modal adverb of likelihood"}
+{"type": "similar", "rank": 479, "frequency": 44, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying comparison, catastrophe, respect, and advantage"}
+{"type": "third", "rank": 480, "frequency": 44, "tag": "ADJ", "confidence": 0.8, "reasoning": "ordinal adjective in third charge, third ingredient, and third class", "alternative": "NUM"}
+{"type": "through", "rank": 481, "frequency": 44, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition introducing medium, passage, or extent"}
+{"type": "trade", "rank": 482, "frequency": 44, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for commerce"}
+{"type": "up", "rank": 483, "frequency": 44, "tag": "ADV", "confidence": 0.8, "reasoning": "adverbial particle in kept up, shut up, and keeping up", "alternative": "PART"}
+{"type": "clause", "rank": 484, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a constitutional clause"}
+{"type": "disposition", "rank": 485, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for arrangement or tendency"}
+{"type": "easy", "rank": 486, "frequency": 43, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning not difficult"}
+{"type": "entire", "rank": 487, "frequency": 43, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying predominancy, system, exclusion, and face"}
+{"type": "faction", "rank": 488, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for political faction"}
+{"type": "inhabitants", "rank": 489, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for people living in a territory"}
+{"type": "jealousy", "rank": 490, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for suspicion or rival feeling"}
+{"type": "journal", "rank": 491, "frequency": 43, "tag": "PROPN", "confidence": 0.85, "reasoning": "proper-title component in Independent Journal headings", "alternative": "NOUN"}
+{"type": "left", "rank": 492, "frequency": 43, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle or past tense of leave in the shown contexts"}
+{"type": "paper", "rank": 493, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for essay, document, or paper currency"}
+{"type": "passions", "rank": 494, "frequency": 43, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for emotions or impulses"}
+{"type": "real", "rank": 495, "frequency": 43, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying power, powers, force, and wonder"}
+{"type": "absolute", "rank": 496, "frequency": 42, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying necessity, devotion, state, and negative"}
+{"type": "after", "rank": 497, "frequency": 42, "tag": "ADP", "confidence": 0.8, "reasoning": "mostly preposition before noun phrases such as the battle and the Norman Conquest, with some clausal use", "alternative": "SCONJ"}
+{"type": "constituents", "rank": 498, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for represented voters or members"}
+{"type": "establishments", "rank": 499, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for military or institutional establishments"}
+{"type": "europe", "rank": 500, "frequency": 42, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper geographic name Europe"}
+{"type": "idea", "rank": 501, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for concept or thought"}
+{"type": "internal", "rank": 502, "frequency": 42, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying revenue, evidence, harmony, and peace"}
+{"type": "remain", "rank": 503, "frequency": 42, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical/copular verb meaning continue to be"}
+{"type": "strength", "rank": 504, "frequency": 42, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for power or capacity"}
+{"type": "authorities", "rank": 505, "frequency": 41, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for powers or officials"}
+{"type": "cause", "rank": 506, "frequency": 41, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun for reason, legal matter, or political cause"}
+{"type": "circumstance", "rank": 507, "frequency": 41, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for condition or fact in a situation"}
+{"type": "empire", "rank": 508, "frequency": 41, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for empire or large polity"}
+{"type": "expense", "rank": 509, "frequency": 41, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for cost"}
+{"type": "happiness", "rank": 510, "frequency": 41, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for welfare or felicity"}
+{"type": "mere", "rank": 511, "frequency": 41, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning only or nothing more than"}
+{"type": "need", "rank": 512, "frequency": 41, "tag": "VERB", "confidence": 0.55, "reasoning": "mixed between verbal need proof/need be said and nominal little/no need; shown contexts lean verbal", "alternative": "NOUN"}
+{"type": "reasons", "rank": 513, "frequency": 41, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for arguments or causes"}
+{"type": "regulation", "rank": 514, "frequency": 41, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for regulatory act or rule"}
+{"type": "rules", "rank": 515, "frequency": 41, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for principles or standards"}
+{"type": "see", "rank": 516, "frequency": 41, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning perceive or observe"}
+{"type": "admitted", "rank": 517, "frequency": 40, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of admit in passive clauses"}
+{"type": "consequence", "rank": 518, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for result or implication"}
+{"type": "doubt", "rank": 519, "frequency": 40, "tag": "NOUN", "confidence": 0.95, "reasoning": "mostly noun in a doubt, beyond doubt, and no doubt"}
+{"type": "intended", "rank": 520, "frequency": 40, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle of intend in passive or adjectival-participle clauses"}
+{"type": "known", "rank": 521, "frequency": 40, "tag": "VERB", "confidence": 0.75, "reasoning": "past participle of know in well known and not known, though some uses are adjectival", "alternative": "ADJ"}
+{"type": "land", "rank": 522, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for real property or territory"}
+{"type": "limits", "rank": 523, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for boundaries or constraints"}
+{"type": "questions", "rank": 524, "frequency": 40, "tag": "NOUN", "confidence": 0.95, "reasoning": "plural common noun for issues or inquiries"}
+{"type": "strong", "rank": 525, "frequency": 40, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying reasons, nation, marks, and related nouns"}
+{"type": "things", "rank": 526, "frequency": 40, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for matters or objects"}
+{"type": "towards", "rank": 527, "frequency": 40, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition indicating direction or relation"}
+{"type": "amount", "rank": 528, "frequency": 39, "tag": "VERB", "confidence": 0.7, "reasoning": "mostly lexical verb in amount to this/nothing, with one noun use for numerical amount", "alternative": "NOUN"}
+{"type": "composed", "rank": 529, "frequency": 39, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of compose in passive or reduced clauses"}
+{"type": "difficult", "rank": 530, "frequency": 39, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning hard or not easy"}
+{"type": "direct", "rank": 531, "frequency": 39, "tag": "ADJ", "confidence": 0.55, "reasoning": "mixed between adjective uses such as direct road/tax and verb uses such as direct proceedings; adjective uses are prominent", "alternative": "VERB"}
+{"type": "extend", "rank": 532, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning stretch, broaden, or apply"}
+{"type": "feel", "rank": 533, "frequency": 39, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning experience or perceive emotionally"}
+{"type": "fully", "rank": 534, "frequency": 39, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb modifying appear, developed, aware, and convey"}
+{"type": "mankind", "rank": 535, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "collective common noun for humanity"}
+{"type": "meaning", "rank": 536, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for sense or signification"}
+{"type": "mutual", "rank": 537, "frequency": 39, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying interest, accusations, succor, and jealousies"}
+{"type": "occasions", "rank": 538, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for opportunities or instances"}
+{"type": "regular", "rank": 539, "frequency": 39, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying advice, authority, rotation, and troops"}
+{"type": "tendency", "rank": 540, "frequency": 39, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for inclination or likely effect"}
+{"type": "various", "rank": 541, "frequency": 39, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying instances, considerations, circumstances, and principles"}
+{"type": "agency", "rank": 542, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for mediation, action, or role"}
+{"type": "appointments", "rank": 543, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for appointments to office"}
+{"type": "bodies", "rank": 544, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for groups, assemblies, or institutions"}
+{"type": "connected", "rank": 545, "frequency": 38, "tag": "VERB", "confidence": 0.65, "reasoning": "past participle of connect in connected with constructions, though often adjectival in force", "alternative": "ADJ"}
+{"type": "consequences", "rank": 546, "frequency": 38, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for results or implications"}
+{"type": "consider", "rank": 547, "frequency": 38, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning examine or regard"}
+{"type": "drawn", "rank": 548, "frequency": 38, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of draw in passive constructions"}
+{"type": "future", "rank": 549, "frequency": 38, "tag": "ADJ", "confidence": 0.9, "reasoning": "mostly adjective modifying office, period, epoch, and correction"}
+{"type": "indeed", "rank": 550, "frequency": 38, "tag": "ADV", "confidence": 1.0, "reasoning": "discourse or emphasis adverb"}
+{"type": "light", "rank": 551, "frequency": 38, "tag": "NOUN", "confidence": 0.95, "reasoning": "common noun in figurative uses such as commercial light, same light, and satisfactory light"}
+{"type": "peculiar", "rank": 552, "frequency": 38, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying qualities, province, policy, and reason"}
+{"type": "remark", "rank": 553, "frequency": 38, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in this remark and worthy of remark, though one context has to remark", "alternative": "VERB"}
+{"type": "while", "rank": 554, "frequency": 38, "tag": "SCONJ", "confidence": 0.85, "reasoning": "mostly subordinating conjunction introducing simultaneous or contrastive clauses, with one after a while noun phrase", "alternative": "NOUN"}
+{"type": "am", "rank": 555, "frequency": 37, "tag": "AUX", "confidence": 1.0, "reasoning": "first-person singular form of be in copular or auxiliary constructions"}
+{"type": "beyond", "rank": 556, "frequency": 37, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition introducing limits or scope"}
+{"type": "complete", "rank": 557, "frequency": 37, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying security, independence, and similar nouns"}
+{"type": "dangers", "rank": 558, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for threats or risks"}
+{"type": "formed", "rank": 559, "frequency": 37, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of form in passive constructions"}
+{"type": "frequently", "rank": 560, "frequency": 37, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb"}
+{"type": "governor", "rank": 561, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "common office noun for state executive"}
+{"type": "increase", "rank": 562, "frequency": 37, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in future increase, probability of an increase, and increase in strength, though one context is verbal", "alternative": "VERB"}
+{"type": "merely", "rank": 563, "frequency": 37, "tag": "ADV", "confidence": 1.0, "reasoning": "limiting adverb meaning only"}
+{"type": "proceed", "rank": 564, "frequency": 37, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning go forward or continue"}
+{"type": "short", "rank": 565, "frequency": 37, "tag": "ADJ", "confidence": 0.55, "reasoning": "mixed between adjectival short of and discourse phrase in short; adjective-like uses are slightly broader", "alternative": "ADV"}
+{"type": "terms", "rank": 566, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for conditions, expressions, or wording"}
+{"type": "unless", "rank": 567, "frequency": 37, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinating conjunction introducing exceptions or conditions"}
+{"type": "variety", "rank": 568, "frequency": 37, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for diversity or a set of different things"}
+{"type": "apt", "rank": 569, "frequency": 36, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective meaning likely or inclined"}
+{"type": "british", "rank": 570, "frequency": 36, "tag": "ADJ", "confidence": 0.95, "reasoning": "adjective modifying example, Constitution, House, and constitutions"}
+{"type": "exist", "rank": 571, "frequency": 36, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical/copular verb meaning be present"}
+{"type": "hundred", "rank": 572, "frequency": 36, "tag": "NUM", "confidence": 1.0, "reasoning": "number word in quantities such as one hundred and two hundred"}
+{"type": "legislation", "rank": 573, "frequency": 36, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for lawmaking"}
+{"type": "opinions", "rank": 574, "frequency": 36, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for beliefs or judgments"}
+{"type": "preservation", "rank": 575, "frequency": 36, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for keeping or protecting"}
+{"type": "rendered", "rank": 576, "frequency": 36, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of render in passive causative constructions"}
+{"type": "share", "rank": 577, "frequency": 36, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in claim a share and share of influence, though one context uses share as a verb", "alternative": "VERB"}
+{"type": "shown", "rank": 578, "frequency": 36, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of show in passive or perfect constructions"}
+{"type": "sovereign", "rank": 579, "frequency": 36, "tag": "NOUN", "confidence": 0.55, "reasoning": "balanced between noun uses such as the sovereign and adjective uses such as sovereign States/will; noun uses are prominent in the examples", "alternative": "ADJ"}
+{"type": "wholly", "rank": 580, "frequency": 36, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb meaning entirely"}
+{"type": "afford", "rank": 581, "frequency": 35, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning provide or supply"}
+{"type": "altogether", "rank": 582, "frequency": 35, "tag": "ADV", "confidence": 1.0, "reasoning": "degree or summative adverb"}
+{"type": "derived", "rank": 583, "frequency": 35, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of derive in passive or perfect constructions"}
+{"type": "employed", "rank": 584, "frequency": 35, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of employ in passive/perfect constructions"}
+{"type": "foundation", "rank": 585, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for basis or supporting ground"}
+{"type": "frequent", "rank": 586, "frequency": 35, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying wars, change, perplexity, and discussions"}
+{"type": "impossible", "rank": 587, "frequency": 35, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective meaning unable to be done"}
+{"type": "limited", "rank": 588, "frequency": 35, "tag": "ADJ", "confidence": 0.7, "reasoning": "mostly adjective modifying duration and power, though must be limited is participial", "alternative": "VERB"}
+{"type": "naturally", "rank": 589, "frequency": 35, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb modifying give, disposes, creates, and lead"}
+{"type": "partial", "rank": 590, "frequency": 35, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying control, laws, and confederacies"}
+{"type": "pennsylvania", "rank": 591, "frequency": 35, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper geographic/political name Pennsylvania"}
+{"type": "ready", "rank": 592, "frequency": 35, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning prepared or readily available"}
+{"type": "remarked", "rank": 593, "frequency": 35, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of remark in has been remarked constructions"}
+{"type": "value", "rank": 594, "frequency": 35, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for worth, monetary value, or importance"}
+{"type": "you", "rank": 595, "frequency": 35, "tag": "PRON", "confidence": 1.0, "reasoning": "second-person pronoun addressing the reader"}
+{"type": "additional", "rank": 596, "frequency": 34, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying difficulties, security, and fences"}
+{"type": "brought", "rank": 597, "frequency": 34, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of bring in passive or perfect constructions"}
+{"type": "called", "rank": 598, "frequency": 34, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of call in passive constructions"}
+{"type": "enough", "rank": 599, "frequency": 34, "tag": "ADV", "confidence": 0.75, "reasoning": "mostly degree adverb after adjectives such as unwise, zealous, and large", "alternative": "ADJ"}
+{"type": "examples", "rank": 600, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for illustrative cases"}
+{"type": "guard", "rank": 601, "frequency": 34, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly lexical verb in nations guard, guard it, and side to guard, with one noun use a guard", "alternative": "NOUN"}
+{"type": "hence", "rank": 602, "frequency": 34, "tag": "ADV", "confidence": 1.0, "reasoning": "inferential adverb meaning from this"}
+{"type": "history", "rank": 603, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for historical record or narrative"}
+{"type": "instead", "rank": 604, "frequency": 34, "tag": "ADV", "confidence": 1.0, "reasoning": "substitutive adverb in instead of constructions"}
+{"type": "institution", "rank": 605, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for established organization or constitutional arrangement"}
+{"type": "necessarily", "rank": 606, "frequency": 34, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb meaning of necessity"}
+{"type": "particularly", "rank": 607, "frequency": 34, "tag": "ADV", "confidence": 1.0, "reasoning": "focusing or manner adverb"}
+{"type": "probability", "rank": 608, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for likelihood"}
+{"type": "required", "rank": 609, "frequency": 34, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle or past tense of require"}
+{"type": "senators", "rank": 610, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for members of a senate"}
+{"type": "standing", "rank": 611, "frequency": 34, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjectival participle in standing army and standing armies", "alternative": "VERB"}
+{"type": "success", "rank": 612, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for successful outcome"}
+{"type": "superior", "rank": 613, "frequency": 34, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying abilities, authority, number, and related comparisons"}
+{"type": "year", "rank": 614, "frequency": 34, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for unit of time"}
+{"type": "account", "rank": 615, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in on account of and into the account"}
+{"type": "calculated", "rank": 616, "frequency": 33, "tag": "VERB", "confidence": 0.65, "reasoning": "past participle in calculated to constructions, often adjectival in force", "alternative": "ADJ"}
+{"type": "clearly", "rank": 617, "frequency": 33, "tag": "ADV", "confidence": 1.0, "reasoning": "manner or degree adverb modifying decided, applicable, appears, and established"}
+{"type": "commercial", "rank": 618, "frequency": 33, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying capital, regulations, privileges, and interests"}
+{"type": "except", "rank": 619, "frequency": 33, "tag": "ADP", "confidence": 0.95, "reasoning": "preposition introducing exclusions such as except France and except those of impeachment"}
+{"type": "exercised", "rank": 620, "frequency": 33, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of exercise in passive constructions"}
+{"type": "fundamental", "rank": 621, "frequency": 33, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying condition, laws, principles, and principle"}
+{"type": "king", "rank": 622, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for monarch"}
+{"type": "liberties", "rank": 623, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for political freedoms"}
+{"type": "member", "rank": 624, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for constituent person or state"}
+{"type": "packet", "rank": 625, "frequency": 33, "tag": "PROPN", "confidence": 0.9, "reasoning": "proper-title component in New York Packet headings", "alternative": "NOUN"}
+{"type": "places", "rank": 626, "frequency": 33, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly plural noun for locations or positions, though one context uses places as a verb", "alternative": "VERB"}
+{"type": "portion", "rank": 627, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for share or part"}
+{"type": "provide", "rank": 628, "frequency": 33, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning supply, arrange, or make provision"}
+{"type": "regulations", "rank": 629, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for rules or regulatory measures"}
+{"type": "satisfactory", "rank": 630, "frequency": 33, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying light, evidence, argument, and judgment"}
+{"type": "secure", "rank": 631, "frequency": 33, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly lexical verb meaning obtain or ensure, with one predicate adjective use be secure", "alternative": "ADJ"}
+{"type": "sovereignty", "rank": 632, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for sovereign authority"}
+{"type": "species", "rank": 633, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for kind or type"}
+{"type": "term", "rank": 634, "frequency": 33, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for word or period of office"}
+{"type": "care", "rank": 635, "frequency": 32, "tag": "NOUN", "confidence": 0.9, "reasoning": "mostly noun in care of, take care, and possible care, though extend their care has verbal flavor"}
+{"type": "certainly", "rank": 636, "frequency": 32, "tag": "ADV", "confidence": 1.0, "reasoning": "modal adverb expressing certainty"}
+{"type": "characters", "rank": 637, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for persons, qualities, or distinguishing traits"}
+{"type": "classes", "rank": 638, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for social or analytical categories"}
+{"type": "committed", "rank": 639, "frequency": 32, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of commit in passive/perfect constructions"}
+{"type": "decision", "rank": 640, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for judgment or determination"}
+{"type": "during", "rank": 641, "frequency": 32, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition introducing time periods"}
+{"type": "examination", "rank": 642, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for inquiry or analysis"}
+{"type": "expedient", "rank": 643, "frequency": 32, "tag": "NOUN", "confidence": 0.55, "reasoning": "balanced between noun uses such as no other expedient and adjective uses such as found expedient", "alternative": "ADJ"}
+{"type": "fall", "rank": 644, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning come under, drop, or be less than"}
+{"type": "hold", "rank": 645, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning possess or occupy"}
+{"type": "independence", "rank": 646, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for freedom from dependence"}
+{"type": "inferior", "rank": 647, "frequency": 32, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying officers, tribunals, courts, and capacities"}
+{"type": "interested", "rank": 648, "frequency": 32, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjective meaning self-interested or concerned in the matter"}
+{"type": "mean", "rank": 649, "frequency": 32, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning intend or signify"}
+{"type": "motives", "rank": 650, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for reasons or incentives"}
+{"type": "observation", "rank": 651, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for remark or analytic point"}
+{"type": "observed", "rank": 652, "frequency": 32, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of observe in it is observed and has been observed constructions"}
+{"type": "thought", "rank": 653, "frequency": 32, "tag": "VERB", "confidence": 0.9, "reasoning": "past tense or participle of think in been thought, thought, and may be thought"}
+{"type": "wednesday", "rank": 654, "frequency": 32, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper name of weekday in publication dates"}
+{"type": "world", "rank": 655, "frequency": 32, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for the world or global sphere"}
+{"type": "argument", "rank": 656, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for reasoning or claim"}
+{"type": "capacity", "rank": 657, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for role, ability, or legal capacity"}
+{"type": "entirely", "rank": 658, "frequency": 31, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb meaning wholly"}
+{"type": "exclusive", "rank": 659, "frequency": 31, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying power, right, and determination"}
+{"type": "ill", "rank": 660, "frequency": 31, "tag": "ADJ", "confidence": 0.9, "reasoning": "adjective modifying effect, written, and humors"}
+{"type": "impeachments", "rank": 661, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural legal noun for impeachment proceedings"}
+{"type": "merit", "rank": 662, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for worth or desert"}
+{"type": "negative", "rank": 663, "frequency": 31, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun for veto power, as in direct negative and qualified negative", "alternative": "ADJ"}
+{"type": "papers", "rank": 664, "frequency": 31, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for essays, newspapers, or documents"}
+{"type": "placed", "rank": 665, "frequency": 31, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of place in passive constructions"}
+{"type": "properly", "rank": 666, "frequency": 31, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb modifying armed, thrown, organized, and belonging"}
+{"type": "respective", "rank": 667, "frequency": 31, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective indicating individually corresponding constituents or offices"}
+{"type": "vested", "rank": 668, "frequency": 31, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of vest in passive legal constructions"}
+{"type": "american", "rank": 669, "frequency": 30, "tag": "ADJ", "confidence": 0.95, "reasoning": "adjective modifying States, dominions, republic, and constitutional example"}
+{"type": "chosen", "rank": 670, "frequency": 30, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of choose in passive constructions"}
+{"type": "domestic", "rank": 671, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying factions, examples, faction, and insurrection"}
+{"type": "exclusion", "rank": 672, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for excluding or being excluded"}
+{"type": "experiment", "rank": 673, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for trial or practical test"}
+{"type": "external", "rank": 674, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying attempts, taxation, and situation"}
+{"type": "kept", "rank": 675, "frequency": 30, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle or past tense of keep"}
+{"type": "laid", "rank": 676, "frequency": 30, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of lay in laid down, laid upon, and duties laid"}
+{"type": "lay", "rank": 677, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning set down or impose"}
+{"type": "madison", "rank": 678, "frequency": 30, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper personal name James Madison"}
+{"type": "obvious", "rank": 679, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning clear or evident"}
+{"type": "ourselves", "rank": 680, "frequency": 30, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person plural reflexive pronoun"}
+{"type": "precise", "rank": 681, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying nature, designation, meaning, and answer"}
+{"type": "progress", "rank": 682, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for advancement or course of discussion"}
+{"type": "reasoning", "rank": 683, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for argument or process of reason"}
+{"type": "rest", "rank": 684, "frequency": 30, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun for remainder in all the rest and among the rest, though one context has rest on as a verb", "alternative": "VERB"}
+{"type": "say", "rank": 685, "frequency": 30, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning utter or assert"}
+{"type": "she", "rank": 686, "frequency": 30, "tag": "PRON", "confidence": 1.0, "reasoning": "third-person feminine subject pronoun referring to states or nations"}
+{"type": "simple", "rank": 687, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying view, point, and interests"}
+{"type": "smaller", "rank": 688, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "comparative adjective modifying council, extent, number, and members"}
+{"type": "sole", "rank": 689, "frequency": 30, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning only or single"}
+{"type": "treaty", "rank": 690, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for formal agreement between polities"}
+{"type": "troops", "rank": 691, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for soldiers"}
+{"type": "votes", "rank": 692, "frequency": 30, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for electoral votes"}
+{"type": "add", "rank": 693, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning append or contribute"}
+{"type": "concurrence", "rank": 694, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for agreement or joint action"}
+{"type": "consequently", "rank": 695, "frequency": 29, "tag": "ADV", "confidence": 1.0, "reasoning": "inferential adverb"}
+{"type": "consist", "rank": 696, "frequency": 29, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb in consist in/of constructions"}
+{"type": "construction", "rank": 697, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for interpretation, building, or structure"}
+{"type": "efficacy", "rank": 698, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for effectiveness"}
+{"type": "encroachments", "rank": 699, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for overreaching intrusions"}
+{"type": "five", "rank": 700, "frequency": 29, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number"}
+{"type": "greatest", "rank": 701, "frequency": 29, "tag": "ADJ", "confidence": 1.0, "reasoning": "superlative adjective modifying objection, analogy, credit, and similar nouns"}
+{"type": "life", "rank": 702, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for life or term of life"}
+{"type": "massachusetts", "rank": 703, "frequency": 29, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper geographic/political name Massachusetts"}
+{"type": "neighbors", "rank": 704, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for neighboring people or states"}
+{"type": "obtained", "rank": 705, "frequency": 29, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle or past tense of obtain"}
+{"type": "precautions", "rank": 706, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for safeguards"}
+{"type": "produced", "rank": 707, "frequency": 29, "tag": "VERB", "confidence": 0.95, "reasoning": "past tense or past participle of produce"}
+{"type": "prospect", "rank": 708, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for outlook or expectation"}
+{"type": "punishment", "rank": 709, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for penalty or chastisement"}
+{"type": "remedy", "rank": 710, "frequency": 29, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun for cure or solution, though one context uses To remedy as a verb", "alternative": "VERB"}
+{"type": "republics", "rank": 711, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for republican states"}
+{"type": "revolution", "rank": 712, "frequency": 29, "tag": "NOUN", "confidence": 0.85, "reasoning": "common noun for political revolution, sometimes the named Revolution event", "alternative": "PROPN"}
+{"type": "task", "rank": 713, "frequency": 29, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for duty or undertaking"}
+{"type": "thirteen", "rank": 714, "frequency": 29, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number"}
+{"type": "thousand", "rank": 715, "frequency": 29, "tag": "NUM", "confidence": 1.0, "reasoning": "number word in quantities such as thirty thousand and hundred thousand"}
+{"type": "universal", "rank": 716, "frequency": 29, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying venality, indignation, liberty, and imitation"}
+{"type": "violent", "rank": 717, "frequency": 29, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying expedients, movements, decrease, and passions"}
+{"type": "adversaries", "rank": 718, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for opponents"}
+{"type": "aid", "rank": 719, "frequency": 28, "tag": "NOUN", "confidence": 0.7, "reasoning": "mostly noun in aid and comfort or aid of powers, though one context uses aid as a verb", "alternative": "VERB"}
+{"type": "arising", "rank": 720, "frequency": 28, "tag": "VERB", "confidence": 0.95, "reasoning": "present participle of arise in arising from/upon constructions"}
+{"type": "bill", "rank": 721, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in bill of rights and legal bill contexts"}
+{"type": "description", "rank": 722, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for kind, class, or account"}
+{"type": "distance", "rank": 723, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for physical or figurative distance"}
+{"type": "effects", "rank": 724, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for results or consequences"}
+{"type": "expressly", "rank": 725, "frequency": 28, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb meaning explicitly"}
+{"type": "judge", "rank": 726, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb in to judge, judge for himself, and who is to judge"}
+{"type": "mentioned", "rank": 727, "frequency": 28, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of mention in passive/reduced clauses"}
+{"type": "points", "rank": 728, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for issues or aspects"}
+{"type": "preserve", "rank": 729, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning maintain or protect"}
+{"type": "prove", "rank": 730, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning demonstrate"}
+{"type": "put", "rank": 731, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb in put under, construction put on, and put an end"}
+{"type": "regarded", "rank": 732, "frequency": 28, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of regard in be regarded as constructions"}
+{"type": "requires", "rank": 733, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "finite lexical verb meaning needs or demands"}
+{"type": "responsibility", "rank": 734, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for accountability"}
+{"type": "safely", "rank": 735, "frequency": 28, "tag": "ADV", "confidence": 1.0, "reasoning": "manner adverb modifying pronounce, limit, and circumscribed"}
+{"type": "serve", "rank": 736, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning function or help"}
+{"type": "stand", "rank": 737, "frequency": 28, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly lexical verb in stand in need/opposition, though firm stand is nominal", "alternative": "NOUN"}
+{"type": "sufficiently", "rank": 738, "frequency": 28, "tag": "ADV", "confidence": 1.0, "reasoning": "degree adverb modifying vindicated, responsible, explained, and delineated"}
+{"type": "think", "rank": 739, "frequency": 28, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb of cognition"}
+{"type": "wars", "rank": 740, "frequency": 28, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for wars"}
+{"type": "addition", "rank": 741, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in in addition and new addition uses"}
+{"type": "applicable", "rank": 742, "frequency": 27, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective meaning relevant or applying"}
+{"type": "arms", "rank": 743, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for weapons or military force"}
+{"type": "asked", "rank": 744, "frequency": 27, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of ask in passive constructions"}
+{"type": "bear", "rank": 745, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning carry, sustain, or have proportion"}
+{"type": "declare", "rank": 746, "frequency": 27, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning state formally"}
+{"type": "disposed", "rank": 747, "frequency": 27, "tag": "VERB", "confidence": 0.65, "reasoning": "past participle of dispose in be disposed constructions, often adjectival in meaning", "alternative": "ADJ"}
+{"type": "mind", "rank": 748, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for mental faculty or person’s thinking"}
+{"type": "opposite", "rank": 749, "frequency": 27, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying alliances, side, nature, and side"}
+{"type": "position", "rank": 750, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for proposition or situation"}
+{"type": "privileges", "rank": 751, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for rights or advantages"}
+{"type": "resort", "rank": 752, "frequency": 27, "tag": "NOUN", "confidence": 0.55, "reasoning": "split between noun in last resort and verb in resort to; noun uses are prominent", "alternative": "VERB"}
+{"type": "rulers", "rank": 753, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for those who govern"}
+{"type": "temporary", "rank": 754, "frequency": 27, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying constitution, combination, regulation, and similar nouns"}
+{"type": "throughout", "rank": 755, "frequency": 27, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition indicating extension across a domain"}
+{"type": "till", "rank": 756, "frequency": 27, "tag": "SCONJ", "confidence": 0.9, "reasoning": "subordinating conjunction introducing temporal clauses"}
+{"type": "understood", "rank": 757, "frequency": 27, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of understand in passive constructions"}
+{"type": "vote", "rank": 758, "frequency": 27, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in casting vote and single vote, though one context has vote themselves as a verb", "alternative": "VERB"}
+{"type": "way", "rank": 759, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for path, means, or manner"}
+{"type": "wealth", "rank": 760, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun for riches or economic capacity"}
+{"type": "wisdom", "rank": 761, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for practical judgment"}
+{"type": "words", "rank": 762, "frequency": 27, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for words or expressions"}
+{"type": "about", "rank": 763, "frequency": 26, "tag": "ADP", "confidence": 1.0, "reasoning": "preposition meaning concerning or approximately"}
+{"type": "actual", "rank": 764, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying valuations, error, service, and invasion"}
+{"type": "ancient", "rank": 765, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying law, republics, institutions, and world"}
+{"type": "arguments", "rank": 766, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for lines of reasoning"}
+{"type": "business", "rank": 767, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for affairs, work, or official matter"}
+{"type": "citizen", "rank": 768, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for member of a polity"}
+{"type": "commonly", "rank": 769, "frequency": 26, "tag": "ADV", "confidence": 1.0, "reasoning": "frequency adverb meaning usually"}
+{"type": "continue", "rank": 770, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning persist"}
+{"type": "credit", "rank": 771, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for public/private credit or influence"}
+{"type": "direction", "rank": 772, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for guidance, control, or spatial direction"}
+{"type": "doctrine", "rank": 773, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for principle or teaching"}
+{"type": "effectual", "rank": 774, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning effective"}
+{"type": "electors", "rank": 775, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for voters or electoral delegates"}
+{"type": "enable", "rank": 776, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning make able"}
+{"type": "energy", "rank": 777, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for vigor or effective power"}
+{"type": "establish", "rank": 778, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning found or set up"}
+{"type": "exceptions", "rank": 779, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for excluded cases"}
+{"type": "larger", "rank": 780, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "comparative adjective modifying States, number, and scope"}
+{"type": "league", "rank": 781, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for political league or compact"}
+{"type": "liable", "rank": 782, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective meaning subject to or likely to"}
+{"type": "notwithstanding", "rank": 783, "frequency": 26, "tag": "ADP", "confidence": 0.75, "reasoning": "mostly preposition introducing concessive noun phrases, with some discourse-adverb use", "alternative": "ADV"}
+{"type": "numbers", "rank": 784, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for counts or issue numbers"}
+{"type": "otherwise", "rank": 785, "frequency": 26, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb meaning in another way or if not"}
+{"type": "permanent", "rank": 786, "frequency": 26, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying salaries, valuations, and interest"}
+{"type": "prudence", "rank": 787, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for practical wisdom"}
+{"type": "regulate", "rank": 788, "frequency": 26, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning govern by rules"}
+{"type": "regulating", "rank": 789, "frequency": 26, "tag": "VERB", "confidence": 0.95, "reasoning": "gerund or present participle of regulate"}
+{"type": "sacrifice", "rank": 790, "frequency": 26, "tag": "VERB", "confidence": 0.9, "reasoning": "mostly lexical verb meaning give up or subordinate", "alternative": "NOUN"}
+{"type": "standard", "rank": 791, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for criterion or model"}
+{"type": "subjects", "rank": 792, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for topics, persons under rule, or matters"}
+{"type": "thirds", "rank": 793, "frequency": 26, "tag": "NUM", "confidence": 1.0, "reasoning": "fractional number word in two thirds and three fourths contexts"}
+{"type": "zeal", "rank": 794, "frequency": 26, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun for ardent commitment"}
+{"type": "adequate", "rank": 795, "frequency": 25, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective meaning sufficient or fitting"}
+{"type": "attended", "rank": 796, "frequency": 25, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle of attend in attended to and attended with/by constructions"}
+{"type": "avoid", "rank": 797, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning prevent or keep away from"}
+{"type": "bound", "rank": 798, "frequency": 25, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle of bind in be bound to/by constructions"}
+{"type": "combination", "rank": 799, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for union, collusion, or combined action"}
+{"type": "come", "rank": 800, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "lexical verb meaning arrive or become"}
+{"type": "connection", "rank": 801, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "used as a common noun in phrases like connection between liberty and jury trial, connection of clauses, and political connection"}
+{"type": "corruption", "rank": 802, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun throughout: business of corruption, intrigue by corruption, means of corruption"}
+{"type": "defects", "rank": 803, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun referring to defects of the Confederation or Constitution"}
+{"type": "difficulties", "rank": 804, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in difficulties encountered, difficulties mentioned, multiplication of difficulties"}
+{"type": "enemies", "rank": 805, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for political or military opponents in all contexts"}
+{"type": "events", "rank": 806, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun in review of events and at all events idiom"}
+{"type": "evidently", "rank": 807, "frequency": 25, "tag": "ADV", "confidence": 1.0, "reasoning": "sentence adverb modifying be/apply/requisite in all contexts"}
+{"type": "friends", "rank": 808, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for supporters or personal associates"}
+{"type": "genius", "rank": 809, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in genius of a body, system, America, and governments"}
+{"type": "ground", "rank": 810, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in on this ground, view the ground, ground they have taken"}
+{"type": "happened", "rank": 811, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "past-tense main verb in it happened and wars which have happened"}
+{"type": "impracticable", "rank": 812, "frequency": 25, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate or attributive adjective meaning not feasible"}
+{"type": "justify", "rank": 813, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in justify alarm, justify ideas, justify to himself"}
+{"type": "longer", "rank": 814, "frequency": 25, "tag": "ADJ", "confidence": 0.75, "reasoning": "often comparative adjective before nouns such as pause, period, and duration; some adverbial uses like any longer trusted", "alternative": "ADV"}
+{"type": "me", "rank": 815, "frequency": 25, "tag": "PRON", "confidence": 1.0, "reasoning": "first-person object pronoun in appeared to me, let me ask, determined me"}
+{"type": "original", "rank": 816, "frequency": 25, "tag": "ADJ", "confidence": 1.0, "reasoning": "attributive adjective in original jurisdiction, original clause, original government"}
+{"type": "possessed", "rank": 817, "frequency": 25, "tag": "VERB", "confidence": 0.95, "reasoning": "past participle/passive verbal use in confidence they possessed, possessed by him, and possessed in sufficient degree"}
+{"type": "prevail", "rank": 818, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb meaning dominate or succeed in all contexts"}
+{"type": "raise", "rank": 819, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in raise troops, raise money, raise the price"}
+{"type": "readily", "rank": 820, "frequency": 25, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying differ, understood, communicate, perceived"}
+{"type": "receive", "rank": 821, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in receive ambassadors, receive fleets, receive terms"}
+{"type": "tend", "rank": 822, "frequency": 25, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in tend to discourage, tend to render, tend to corrupt"}
+{"type": "utility", "rank": 823, "frequency": 25, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract common noun in sacrificing utility and considerations of utility"}
+{"type": "whenever", "rank": 824, "frequency": 25, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinator introducing temporal clauses whenever dissolution arrives, whenever nine States were united"}
+{"type": "why", "rank": 825, "frequency": 25, "tag": "ADV", "confidence": 1.0, "reasoning": "interrogative adverb introducing why questions"}
+{"type": "advice", "rank": 826, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in took their advice, following this advice, advice and consent"}
+{"type": "attempt", "rank": 827, "frequency": 24, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly noun in defeat the attempt, shameless attempt, the attempt therefore; one context has verb use let us not attempt", "alternative": "VERB"}
+{"type": "cities", "rank": 828, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun referring to cities in confederacies and leagues"}
+{"type": "collective", "rank": 829, "frequency": 24, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying bodies and capacities"}
+{"type": "command", "rank": 830, "frequency": 24, "tag": "VERB", "confidence": 0.75, "reasoning": "mostly verb in can command aid, shall command, command resources; also noun in command of the army", "alternative": "NOUN"}
+{"type": "comparison", "rank": 831, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in on a comparison and beyond comparison"}
+{"type": "conclusion", "rank": 832, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun for inference or end point in argumentative contexts"}
+{"type": "confined", "rank": 833, "frequency": 24, "tag": "VERB", "confidence": 0.8, "reasoning": "past participle in will be confined and ought to have confined themselves; adjectival result state is possible", "alternative": "ADJ"}
+{"type": "decided", "rank": 834, "frequency": 24, "tag": "ADJ", "confidence": 0.75, "reasoning": "often adjective in decided mastery, preference, prospect; one context uses verbal decided in question is decided", "alternative": "VERB"}
+{"type": "declared", "rank": 835, "frequency": 24, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle verb in have declared and is declared; declared admirers is adjectival but less central", "alternative": "ADJ"}
+{"type": "degrees", "rank": 836, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in different degrees and in various degrees"}
+{"type": "entitled", "rank": 837, "frequency": 24, "tag": "ADJ", "confidence": 0.75, "reasoning": "predicate adjective in entitled to participation, stipends, attention; can reflect verbal past participle origin", "alternative": "VERB"}
+{"type": "exigencies", "rank": 838, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun for urgent needs of government or Union"}
+{"type": "facts", "rank": 839, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun in disputed facts and facts that support this opinion"}
+{"type": "formation", "rank": 840, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in formation of treaties, formation of legislature, formation of beneficial treaties"}
+{"type": "forward", "rank": 841, "frequency": 24, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb/particle in come forward, go forward, look forward"}
+{"type": "inconveniences", "rank": 842, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in inconveniences and embarrassments, various inconveniences"}
+{"type": "institutions", "rank": 843, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun for political or social institutions"}
+{"type": "intercourse", "rank": 844, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in intercourse with foreign nations, among States, and with the world"}
+{"type": "leave", "rank": 845, "frequency": 24, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in leave the government, leave every man, leave a doubt"}
+{"type": "legal", "rank": 846, "frequency": 24, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying exercise, discussion, interpretation, axioms"}
+{"type": "matters", "rank": 847, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun in matters of discretion, contribution, and national concern"}
+{"type": "operations", "rank": 848, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun in operations of commerce, infantry, war, and government"}
+{"type": "produce", "rank": 849, "frequency": 24, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in produce administration, produce in both houses, precede and produce"}
+{"type": "prosperity", "rank": 850, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in national prosperity, public prosperity, aggregate prosperity"}
+{"type": "regulated", "rank": 851, "frequency": 24, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle in appointments regulated, trade can be regulated, means can be regulated"}
+{"type": "show", "rank": 852, "frequency": 24, "tag": "VERB", "confidence": 0.95, "reasoning": "main verb in observations will show and reasons which show; one noun use in show of reason", "alternative": "NOUN"}
+{"type": "soon", "rank": 853, "frequency": 24, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in as soon as possible and soon to be overwhelmed"}
+{"type": "sources", "rank": 854, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun in sources of expense, evil, information, and animosities"}
+{"type": "subordinate", "rank": 855, "frequency": 24, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying tribunals, institutions, federal courts, stations"}
+{"type": "substitute", "rank": 856, "frequency": 24, "tag": "VERB", "confidence": 0.8, "reasoning": "mostly main verb in substitute pleasure and substitute desired; one nominal use what substitute can be imagined", "alternative": "NOUN"}
+{"type": "supply", "rank": 857, "frequency": 24, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly noun in adequate supply, supply of wants, and public supply; one verb use supply vacancies", "alternative": "VERB"}
+{"type": "tribunals", "rank": 858, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural institutional noun referring to courts or judicatory bodies"}
+{"type": "violence", "rank": 859, "frequency": 24, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in violence of faction, mask its violence, violence repressed"}
+{"type": "whilst", "rank": 860, "frequency": 24, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinator introducing contrastive clauses equivalent to while"}
+{"type": "wise", "rank": 861, "frequency": 24, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in wise enough, wise nation, how wise will it be"}
+{"type": "your", "rank": 862, "frequency": 24, "tag": "DET", "confidence": 1.0, "reasoning": "possessive determiner before liberty, dignity, happiness, convention"}
+{"type": "arts", "rank": 863, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in mechanic arts, manufacturing arts, arts of division"}
+{"type": "connecticut", "rank": 864, "frequency": 23, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper name of the state Connecticut in all contexts"}
+{"type": "countries", "rank": 865, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun referring to other countries"}
+{"type": "dependence", "rank": 866, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in dependence of representatives and sort of dependence"}
+{"type": "dependent", "rank": 867, "frequency": 23, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective in dependent on pleasure, governments, or legislative body"}
+{"type": "did", "rank": 868, "frequency": 23, "tag": "AUX", "confidence": 0.9, "reasoning": "mostly auxiliary/do-support in why did not and ellipsis formerly did; auxiliary function dominates", "alternative": "VERB"}
+{"type": "enlightened", "rank": 869, "frequency": 23, "tag": "ADJ", "confidence": 0.85, "reasoning": "adjective modifying people, friends, and views; participial origin but attributive quality dominates", "alternative": "VERB"}
+{"type": "errors", "rank": 870, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural common noun in errors suggested, correcting errors, errors into which they have fallen"}
+{"type": "examined", "rank": 871, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle verb in is examined, have now examined, will be examined"}
+{"type": "exposed", "rank": 872, "frequency": 23, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle in would be exposed, has been exposed, exposed and adverted to"}
+{"type": "favorable", "rank": 873, "frequency": 23, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying opinion, circumstances, issue, chance"}
+{"type": "fixed", "rank": 874, "frequency": 23, "tag": "ADJ", "confidence": 0.75, "reasoning": "often adjective in fixed rate, fixed salary, fixed compensation; some verbal/passive uses like time fixed", "alternative": "VERB"}
+{"type": "imports", "rank": 875, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun in duties on imports and exports"}
+{"type": "led", "rank": 876, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle/main verb in shall be led, have been led, ambition led him"}
+{"type": "maintain", "rank": 877, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in maintain superiority, representation, responsibility, rights"}
+{"type": "mass", "rank": 878, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in whole mass, entire mass, great mass of citizens"}
+{"type": "maxim", "rank": 879, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun for a political or legal maxim"}
+{"type": "monarch", "rank": 880, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun referring to hereditary or British monarch"}
+{"type": "myself", "rank": 881, "frequency": 23, "tag": "PRON", "confidence": 1.0, "reasoning": "reflexive first-person pronoun in persuade myself, content myself, confined myself"}
+{"type": "nomination", "rank": 882, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in right or power of nomination"}
+{"type": "operate", "rank": 883, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in should operate, might operate, cease to operate"}
+{"type": "passion", "rank": 884, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in passion not reason, same passion or interest, ruling passion"}
+{"type": "pleasure", "rank": 885, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in pleasure of State governments, own pleasure, during pleasure"}
+{"type": "pretext", "rank": 886, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in pretext of misconception, pretext for usurpations, plausible pretext"}
+{"type": "sanction", "rank": 887, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in constitutional sanction, sanction of constituents, sanction of Congress"}
+{"type": "scale", "rank": 888, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in national scale, turn the scale, on any scale"}
+{"type": "seat", "rank": 889, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in gain a seat, seat of government, took his seat"}
+{"type": "service", "rank": 890, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in period of service, fit them for service, public service"}
+{"type": "stability", "rank": 891, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in stability of institutions, possess stability, stability of administration"}
+{"type": "stated", "rank": 892, "frequency": 23, "tag": "VERB", "confidence": 0.75, "reasoning": "often past participle in question stated, cannot be stated, have been stated; stated times is adjectival", "alternative": "ADJ"}
+{"type": "taking", "rank": 893, "frequency": 23, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund/participle verb in taking sides, taking into view, taking notice"}
+{"type": "territory", "rank": 894, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in parts of this territory, participating in territory, territory or dominion"}
+{"type": "theory", "rank": 895, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in prove in theory, the theory authorizes, general theory"}
+{"type": "together", "rank": 896, "frequency": 23, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb in causes together, call it together, States together"}
+{"type": "tyranny", "rank": 897, "frequency": 23, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in tyranny of passions, tyranny of garrisons, same tyranny"}
+{"type": "work", "rank": 898, "frequency": 23, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in work of the convention and part of his work; one legal verb use shall work corruption", "alternative": "VERB"}
+{"type": "adoption", "rank": 899, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in adoption of mankind, your adoption, adoption of Constitution"}
+{"type": "apply", "rank": 900, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in reasons apply, can apply resources, principles apply universally"}
+{"type": "capable", "rank": 901, "frequency": 22, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective in capable of choosing, capable of self-government, less capable"}
+{"type": "clear", "rank": 902, "frequency": 22, "tag": "ADJ", "confidence": 0.95, "reasoning": "mostly adjective in equally clear, clear principles; one idiom steering clear remains adjectival"}
+{"type": "co", "rank": 903, "frequency": 22, "tag": "X", "confidence": 0.6, "reasoning": "tokenization fragment from hyphenated forms such as co-operation, not an independent lexical word", "alternative": "NOUN"}
+{"type": "concurrent", "rank": 904, "frequency": 22, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying jurisdiction and authority"}
+{"type": "contend", "rank": 905, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in would contend, I contend, they contend"}
+{"type": "defect", "rank": 906, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in great defect, defect of the Confederation, another defect"}
+{"type": "distinction", "rank": 907, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in distinction of interest, obvious distinction, true distinction"}
+{"type": "distinguished", "rank": 908, "frequency": 22, "tag": "ADJ", "confidence": 0.7, "reasoning": "adjective in distinguished members and distinguished names; passive verbal use in faculties have been distinguished also appears", "alternative": "VERB"}
+{"type": "divided", "rank": 909, "frequency": 22, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle in power is divided, objects may be divided, world may be divided"}
+{"type": "doing", "rank": 910, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "gerund/participle in mode of doing, prohibited from doing, means of doing"}
+{"type": "evil", "rank": 911, "frequency": 22, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly noun in this evil and an evil inseparable; one adjective use in evil eye", "alternative": "ADJ"}
+{"type": "express", "rank": 912, "frequency": 22, "tag": "ADJ", "confidence": 0.7, "reasoning": "often adjective in express terms and express prohibition; one verbal use if I may so express it", "alternative": "VERB"}
+{"type": "extreme", "rank": 913, "frequency": 22, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying ignorance, indignation, oppression, and related nouns"}
+{"type": "final", "rank": 914, "frequency": 22, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective in final jurisdiction, final judiciary authority, final establishment"}
+{"type": "fit", "rank": 915, "frequency": 22, "tag": "VERB", "confidence": 0.7, "reasoning": "often main verb in fit the person and fit them for service; adjective use in thought fit also appears", "alternative": "ADJ"}
+{"type": "half", "rank": 916, "frequency": 22, "tag": "NUM", "confidence": 0.85, "reasoning": "quantifying numeral in one half, half of the confederacy, and half supplied", "alternative": "ADJ"}
+{"type": "hope", "rank": 917, "frequency": 22, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in hope from them and hope of impunity; verbal use hope to have also appears", "alternative": "VERB"}
+{"type": "island", "rank": 918, "frequency": 22, "tag": "PROPN", "confidence": 0.75, "reasoning": "frequently part of the proper name Rhode Island, though there is also common-noun island in northern extremity of the island", "alternative": "NOUN"}
+{"type": "kingdom", "rank": 919, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in kingdom of Great Britain, kingdom of nature, that kingdom"}
+{"type": "material", "rank": 920, "frequency": 22, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying defects, alterations, and inconvenience"}
+{"type": "navigation", "rank": 921, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in navigation of the Mississippi and affairs of trade and navigation"}
+{"type": "navy", "rank": 922, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "common institutional noun for naval force"}
+{"type": "nine", "rank": 923, "frequency": 22, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in nine States, nine hundred, and nine years"}
+{"type": "passed", "rank": 924, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle/main verb in laws passed and having passed over ground"}
+{"type": "perceive", "rank": 925, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in I perceive and we perceive"}
+{"type": "preceding", "rank": 926, "frequency": 22, "tag": "ADJ", "confidence": 0.8, "reasoning": "mostly adjective modifying inquiries, general power, and paper; participial origin remains visible", "alternative": "VERB"}
+{"type": "proceedings", "rank": 927, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun for formal actions or records of deliberative bodies"}
+{"type": "proof", "rank": 928, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "common/abstract noun in proof of energy, proof beyond the case, need proof"}
+{"type": "quarter", "rank": 929, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in another quarter, same quarter, that quarter of the globe"}
+{"type": "rarely", "rank": 930, "frequency": 22, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying happen, occur, and prevail"}
+{"type": "resolutions", "rank": 931, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun in important resolutions and resolutions or commands"}
+{"type": "respects", "rank": 932, "frequency": 22, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly noun in in many respects and other respects; one verb use as it respects the interests", "alternative": "VERB"}
+{"type": "serious", "rank": 933, "frequency": 22, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying danger, doubt, proof"}
+{"type": "seven", "rank": 934, "frequency": 22, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in seven years, seven States, seven preceding years"}
+{"type": "six", "rank": 935, "frequency": 22, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in six thousand, six hundred, six to five"}
+{"type": "structure", "rank": 936, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in internal structure, structure of the Union, structure of government"}
+{"type": "suggested", "rank": 937, "frequency": 22, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle verb in is suggested, have been suggested, will be suggested"}
+{"type": "tax", "rank": 938, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in poll tax, general tax, sum of the tax"}
+{"type": "uniform", "rank": 939, "frequency": 22, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying laws, sensibility, and related nouns"}
+{"type": "urged", "rank": 940, "frequency": 22, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle verb in might be urged, may be urged, objections urged"}
+{"type": "useful", "rank": 941, "frequency": 22, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying arts, jealousy, lessons"}
+{"type": "usurpation", "rank": 942, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in schemes of usurpation and danger of usurpation"}
+{"type": "virtue", "rank": 943, "frequency": 22, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in by virtue of, human virtue, virtue of the Senate"}
+{"type": "absolutely", "rank": 944, "frequency": 21, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying exclude, unable, irreconcilable"}
+{"type": "appearance", "rank": 945, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in odious in appearance, appearance of deliberation, appearance of danger"}
+{"type": "bias", "rank": 946, "frequency": 21, "tag": "NOUN", "confidence": 0.75, "reasoning": "mostly noun in such a bias and local bias; one verbal use bias his judgment", "alternative": "VERB"}
+{"type": "consists", "rank": 947, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in faction consists, class consists, provisions consist"}
+{"type": "debts", "rank": 948, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun in debts they owe and debts due"}
+{"type": "decide", "rank": 949, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in decide whether, decide share, tribunal to decide"}
+{"type": "delegated", "rank": 950, "frequency": 21, "tag": "ADJ", "confidence": 0.75, "reasoning": "often adjective in delegated power and persons delegated; verbal passive in power delegated by articles also appears", "alternative": "VERB"}
+{"type": "discussion", "rank": 951, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in legal discussion, discussion of it, progress of this discussion"}
+{"type": "district", "rank": 952, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in district of vegetable life, federal court in each district, narrow district"}
+{"type": "easily", "rank": 953, "frequency": 21, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb modifying corrupt, contrived, apply resources"}
+{"type": "fail", "rank": 954, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in fail to execute, could not fail, cannot fail"}
+{"type": "fair", "rank": 955, "frequency": 21, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying construction, fair-sounding words, fair play"}
+{"type": "fatal", "rank": 956, "frequency": 21, "tag": "ADJ", "confidence": 1.0, "reasoning": "predicate adjective in fatal to independence, duration, accused"}
+{"type": "furnish", "rank": 957, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in furnish answer, furnish epithets, States furnish stores"}
+{"type": "granted", "rank": 958, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle verb in taking it for granted, powers not granted, letters were granted"}
+{"type": "hazard", "rank": 959, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in choose to hazard, hazard with safety, will hazard fortunes"}
+{"type": "hereditary", "rank": 960, "frequency": 21, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying fiefs, magistrate, authority, monarch"}
+{"type": "increased", "rank": 961, "frequency": 21, "tag": "VERB", "confidence": 0.85, "reasoning": "past participle in number is increased and inequality would be increased; adjectival reading possible in increased extent", "alternative": "ADJ"}
+{"type": "lie", "rank": 962, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in objection will not lie, objections lie, property may lie"}
+{"type": "perfect", "rank": 963, "frequency": 21, "tag": "ADJ", "confidence": 0.75, "reasoning": "mostly adjective in perfect work and perfect union; one verbal use can mature and perfect", "alternative": "VERB"}
+{"type": "possession", "rank": 964, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in possession of property, in the possession of usurpers, leaves in their possession"}
+{"type": "possibility", "rank": 965, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in possibility of rejection, possibility of doubt, possibility of inconvenience"}
+{"type": "preference", "rank": 966, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in obtained preference, probability of a preference, object of his preference"}
+{"type": "prejudices", "rank": 967, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun in habits and prejudices, local prejudices, mercy of prejudices"}
+{"type": "project", "rank": 968, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in project of subjecting government, separation project, project of this kind"}
+{"type": "proposition", "rank": 969, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract/common noun in clear proposition, proposition likely to be contested, plain proposition"}
+{"type": "protection", "rank": 970, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in protection of the State, naval protection, protection of property"}
+{"type": "qualified", "rank": 971, "frequency": 21, "tag": "ADJ", "confidence": 0.8, "reasoning": "mostly adjective in qualified negative and however qualified; participial source remains possible", "alternative": "VERB"}
+{"type": "requisitions", "rank": 972, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural institutional noun in requisitions of men and money and requisitions upon States"}
+{"type": "scheme", "rank": 973, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "common noun in scheme of disciplining, military coercion, first scheme"}
+{"type": "self", "rank": 974, "frequency": 21, "tag": "NOUN", "confidence": 0.65, "reasoning": "nominal element in hyphenated compounds like self-defense and self-preservation; tokenization makes it partly fragment-like", "alternative": "X"}
+{"type": "sentiments", "rank": 975, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural abstract noun in contrary sentiments, sentiments of friendship, genuine sentiments"}
+{"type": "separation", "rank": 976, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in separation of powers and separation of States"}
+{"type": "set", "rank": 977, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb/past participle in set as court, set bounds, set up principles"}
+{"type": "submitted", "rank": 978, "frequency": 21, "tag": "VERB", "confidence": 1.0, "reasoning": "past participle verb in plan submitted, submitted to discretion, submitted to administration"}
+{"type": "total", "rank": 979, "frequency": 21, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying dissolution, exclusion, silence, duration"}
+{"type": "twenty", "rank": 980, "frequency": 21, "tag": "NUM", "confidence": 1.0, "reasoning": "cardinal number in twenty-nine, twenty thousand, twenty-five years"}
+{"type": "until", "rank": 981, "frequency": 21, "tag": "SCONJ", "confidence": 1.0, "reasoning": "subordinator introducing temporal clauses until meaning is ascertained, until year 1808"}
+{"type": "welfare", "rank": 982, "frequency": 21, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in public welfare, safety and welfare, welfare of community"}
+{"type": "active", "rank": 983, "frequency": 20, "tag": "ADJ", "confidence": 1.0, "reasoning": "adjective modifying mechanic, commerce, sentiment, foreign commerce"}
+{"type": "adopted", "rank": 984, "frequency": 20, "tag": "VERB", "confidence": 0.9, "reasoning": "past participle verb in can be adopted, if adopted, has adopted; adopted citizens is adjectival", "alternative": "ADJ"}
+{"type": "again", "rank": 985, "frequency": 20, "tag": "ADV", "confidence": 1.0, "reasoning": "adverb marking repetition or discourse return in all shown contexts"}
+{"type": "appeal", "rank": 986, "frequency": 20, "tag": "NOUN", "confidence": 0.95, "reasoning": "mostly noun in an appeal, objects of appeal, appeal from jury to jury"}
+{"type": "appeals", "rank": 987, "frequency": 20, "tag": "NOUN", "confidence": 0.9, "reasoning": "mostly plural noun in Supreme Court of Appeals and occasional appeals; one verbal use appeals may be circumscribed is still nominal subject plural"}
+{"type": "appointing", "rank": 988, "frequency": 20, "tag": "VERB", "confidence": 0.9, "reasoning": "gerund/participle in power of appointing and purpose of appointing"}
+{"type": "attempts", "rank": 989, "frequency": 20, "tag": "NOUN", "confidence": 0.8, "reasoning": "mostly plural noun in attempts of States and all attempts; one verbal use attempts to set bounds", "alternative": "VERB"}
+{"type": "attend", "rank": 990, "frequency": 20, "tag": "VERB", "confidence": 1.0, "reasoning": "main verb in perils would attend, let us attend, evil likely to attend"}
+{"type": "call", "rank": 991, "frequency": 20, "tag": "VERB", "confidence": 0.95, "reasoning": "mostly main verb in call out, I call them, shall call a convention; one noun-like emergencies which call for"}
+{"type": "carolina", "rank": 992, "frequency": 20, "tag": "PROPN", "confidence": 1.0, "reasoning": "proper-name component in South Carolina"}
+{"type": "cognizance", "rank": 993, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "legal abstract noun in federal cognizance and cognizance of causes"}
+{"type": "consuls", "rank": 994, "frequency": 20, "tag": "NOUN", "confidence": 0.85, "reasoning": "mostly common institutional noun for Roman or diplomatic consuls; capitalized historical Consuls appears but role noun dominates", "alternative": "PROPN"}
+{"type": "efforts", "rank": 995, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "plural noun in joint efforts, combined efforts, efforts to prevent"}
+{"type": "enumerated", "rank": 996, "frequency": 20, "tag": "ADJ", "confidence": 0.75, "reasoning": "often adjective modifying cases, objects, and powers; verbal participle in causes which have been enumerated", "alternative": "VERB"}
+{"type": "equality", "rank": 997, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "abstract noun in perfect equality, equality of representation, equality with neighbors"}
+{"type": "equity", "rank": 998, "frequency": 20, "tag": "NOUN", "confidence": 1.0, "reasoning": "legal/abstract noun in law and equity, court of equity, proofs of equity"}
+{"type": "extended", "rank": 999, "frequency": 20, "tag": "VERB", "confidence": 0.8, "reasoning": "past participle in extended dominion, republic may be extended, principles extended; extended republic is adjectival", "alternative": "ADJ"}
+{"type": "fellow", "rank": 1000, "frequency": 20, "tag": "ADJ", "confidence": 0.9, "reasoning": "prenominal modifier in fellow citizens and fellow-creature contexts"}

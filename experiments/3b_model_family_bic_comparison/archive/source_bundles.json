@@ -1,0 +1,9 @@
+{
+  "source_bundles": [
+    "results/zipf_bic_comparison",
+    "results/zipf_moezipf_comparison",
+    "results/zipf_continuous_piecewise",
+    "results/zipf_sqrt_v_all_corpora",
+    "results/zipf_bic_landscape"
+  ]
+}

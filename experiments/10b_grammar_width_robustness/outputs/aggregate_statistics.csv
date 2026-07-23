@@ -1,0 +1,20 @@
+metric_name,value,display_format,notes
+beam_width,50,integer protocol constant,Widened grammar deterministic beam width.
+max_steps,10,integer protocol constant,Maximum search depth in the original widened diagnostic.
+keep_all_until_step,2,integer protocol constant,Search keeps all expressions until this step.
+new_unary_operator_count,9,integer count,Number of added unary operators.
+new_unary_operators,"[""besselj"", ""cos"", ""cosh"", ""erf"", ""gamma"", ""sin"", ""sinh"", ""tan"", ""tanh""]",JSON string list,Added unary operators.
+diagnostic_mode_count,6,integer count,Rows in the high-c/deeper-step diagnostic.
+diagnostic_zm_mode_count,3,integer count,Raw ZM residual rows in the diagnostic.
+diagnostic_post_is_mode_count,3,integer count,Post-IS residual rows in the diagnostic.
+high_c_zm_step2_survives_count,2,X/2 count,Shakespeare and War and Peace retain the original IS-Bregman step-2 winner under widened grammar.
+high_c_zm_step2_prior_bregman_count,2,X/2 count,High-c exemplar rows whose widened step-2 winner is the prior Bregman winner.
+lowc_total_count,17,integer count,Low-c and multilingual rows in the extended step-2 manifold check.
+lowc_english_count,14,integer count,English low-c rows in the extended step-2 manifold check.
+lowc_all_manifold_yes_count,17,X/17 count,Rows with manifold verdict yes.
+lowc_all_span_r2_gt_0_975_count,17,X/17 count,Rows with weighted centered span R^2 above 0.975.
+lowc_all_min_span_r2,0.9759519786969072,R^2,Minimum low-c span R^2.
+lowc_english_erf_sin_flip_count,11,X/14 count,English low-c rows whose widened step-2 winner is erf-sin or sin-erf.
+lowc_all_erf_sin_winner_count,11,X/17 count,All low-c/multilingual rows whose widened winner is erf-sin or sin-erf.
+lowc_all_winner_counts,"{""eml[sub[x,1],eml[x,1]]"": 3, ""sub[erf[x],sin[x]]"": 9, ""sub[pow[x,x],sqrt[x]]"": 3, ""sub[sin[x],erf[x]]"": 2}",JSON count map,Widened step-2 winner-expression counts across all low-c/multilingual rows.
+lowc_english_winner_counts,"{""eml[sub[x,1],eml[x,1]]"": 3, ""sub[erf[x],sin[x]]"": 9, ""sub[sin[x],erf[x]]"": 2}",JSON count map,Widened step-2 winner-expression counts across English low-c rows.

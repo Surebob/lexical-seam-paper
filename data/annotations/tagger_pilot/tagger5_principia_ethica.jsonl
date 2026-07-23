@@ -1,0 +1,120 @@
+{"type":"the","rank":1,"frequency":5195,"tag":"DET","confidence":1.0,"reasoning":"Article used before nouns repeatedly (\"the whole\", \"the world\").","alternative":null}
+{"type":"of","rank":2,"frequency":3818,"tag":"ADP","confidence":1.0,"reasoning":"Mostly links nouns in phrases like \"of a whole\" and \"of some\".","alternative":null}
+{"type":"to","rank":3,"frequency":3381,"tag":"PART","confidence":0.64,"reasoning":"Often precedes verbs in infinitival clauses (e.g., \"to be\", \"to show\"), though there are some prepositional uses in the contexts.","alternative":"ADP"}
+{"type":"is","rank":4,"frequency":3232,"tag":"AUX","confidence":0.99,"reasoning":"Occurs as copular auxiliary (\"is good\", \"is true\").","alternative":null}
+{"type":"that","rank":5,"frequency":3129,"tag":"SCONJ","confidence":0.9,"reasoning":"Introduces subordinate clauses in many contexts (\"that is found\", \"that this\").","alternative":"DET"}
+{"type":"it","rank":6,"frequency":2152,"tag":"PRON","confidence":1.0,"reasoning":"Refers back to prior proposition or thing (\"it is absurd\", \"what it commands\").","alternative":null}
+{"type":"in","rank":7,"frequency":2026,"tag":"ADP","confidence":1.0,"reasoning":"Preposition in multiple contexts (\"in this case\", \"as for this case\").","alternative":null}
+{"type":"a","rank":8,"frequency":1902,"tag":"DET","confidence":1.0,"reasoning":"Indefinite article before nouns throughout (\"a marked distinction\", \"a single class\").","alternative":null}
+{"type":"be","rank":9,"frequency":1858,"tag":"AUX","confidence":0.98,"reasoning":"Used as the copular auxiliary in constructions like \"to be\" and \"is\".","alternative":"VERB"}
+{"type":"and","rank":10,"frequency":1805,"tag":"CCONJ","confidence":1.0,"reasoning":"Coordinates clauses/noun phrases frequently (\"true and good\", \"difficult and complex\").","alternative":null}
+{"type":"which","rank":11,"frequency":1532,"tag":"PRON","confidence":0.9,"reasoning":"Relativizer introducing clauses (\"which of these\", \"which are\").","alternative":"DET"}
+{"type":"we","rank":12,"frequency":1243,"tag":"PRON","confidence":1.0,"reasoning":"First-person plural subject in direct propositions (\"we leave\", \"we should\").","alternative":null}
+{"type":"good","rank":13,"frequency":1115,"tag":"NOUN","confidence":0.86,"reasoning":"Core ethical predicate appears as substantive notion (\"good is good\", \"what is good\"), not merely attributive adjective.","alternative":"ADJ"}
+{"type":"as","rank":14,"frequency":1109,"tag":"SCONJ","confidence":0.72,"reasoning":"Links reasoning clauses in this text (\"as above stated\", \"as the sense\") and also prepositional uses; default to subordinator reading.","alternative":"ADP"}
+{"type":"this","rank":15,"frequency":1074,"tag":"DET","confidence":1.0,"reasoning":"Demonstrative before noun or clause-bound reference (\"this must not\", \"this and only this\").","alternative":null}
+{"type":"not","rank":16,"frequency":904,"tag":"PART","confidence":1.0,"reasoning":"Negation particle throughout (\"not another thing\", \"not open\").","alternative":null}
+{"type":"are","rank":17,"frequency":898,"tag":"AUX","confidence":1.0,"reasoning":"Copular auxiliary in multiword predicates (\"things are\", \"they are\").","alternative":null}
+{"type":"what","rank":18,"frequency":767,"tag":"PRON","confidence":1.0,"reasoning":"Interrogative/relative form introducing unknown content (\"what is real\", \"what exists\").","alternative":null}
+{"type":"or","rank":19,"frequency":734,"tag":"CCONJ","confidence":1.0,"reasoning":"Alternatives between coordinated elements (\"that or that\", \"whether... or\").","alternative":null}
+{"type":"by","rank":20,"frequency":723,"tag":"ADP","confidence":1.0,"reasoning":"Preposition for means/agency/contrastive source phrases (\"by itself\", \"by means of\").","alternative":null}
+{"type":"have","rank":21,"frequency":700,"tag":"AUX","confidence":0.98,"reasoning":"Auxiliary with perfect constructions (\"have questions\"; \"have been\").","alternative":"VERB"}
+{"type":"i","rank":22,"frequency":671,"tag":"PRON","confidence":1.0,"reasoning":"First-person speaker pronoun in explicit self-reference (\"I am\", \"if I am\").","alternative":null}
+{"type":"but","rank":23,"frequency":624,"tag":"CCONJ","confidence":1.0,"reasoning":"Contrasts claims or exceptions (\"or ... but\").","alternative":null}
+{"type":"may","rank":24,"frequency":582,"tag":"AUX","confidence":1.0,"reasoning":"Modal auxiliary introducing possibility/permission (\"may be\", \"may be observed\").","alternative":null}
+{"type":"for","rank":25,"frequency":566,"tag":"ADP","confidence":0.98,"reasoning":"Used as preposition meaning purpose/with respect to in contexts like \"for knowledge\", \"for the same reason\".","alternative":"CCONJ"}
+{"type":"if","rank":26,"frequency":547,"tag":"SCONJ","confidence":1.0,"reasoning":"Introduces conditional clauses throughout (\"if we consider\", \"if it was\").","alternative":null}
+{"type":"with","rank":27,"frequency":491,"tag":"ADP","confidence":1.0,"reasoning":"Comitative/association preposition in all inspected examples (\"with this case\", \"with regard to\").","alternative":null}
+{"type":"they","rank":28,"frequency":452,"tag":"PRON","confidence":1.0,"reasoning":"3rd person plural pronoun referring to prior groups/claims (\"they hold\", \"they may be\").","alternative":null}
+{"type":"only","rank":29,"frequency":430,"tag":"ADV","confidence":1.0,"reasoning":"Restrictive adverb in comparative and scope-sensitive contexts (\"only this\", \"only possible\").","alternative":null}
+{"type":"pleasure","rank":30,"frequency":428,"tag":"NOUN","confidence":1.0,"reasoning":"Core lexical noun in ethics argument (\"pleasure alone\", \"consciousness of pleasure\").","alternative":null}
+{"type":"value","rank":31,"frequency":422,"tag":"NOUN","confidence":1.0,"reasoning":"Frequently the ethical noun in comparative and attributional constructions (\"value of\", \"great value\").","alternative":null}
+{"type":"an","rank":32,"frequency":421,"tag":"DET","confidence":1.0,"reasoning":"Indefinite article before noun (">an action\", \"an object\").","alternative":null}
+{"type":"any","rank":33,"frequency":416,"tag":"DET","confidence":0.97,"reasoning":"Indefinite quantifier before nouns and as fallback object quantifier (\"any reason\", \"any such\").","alternative":"PRON"}
+{"type":"has","rank":34,"frequency":412,"tag":"AUX","confidence":1.0,"reasoning":"Auxiliary in perfect-style predicates (\"has followed\", \"has not\").","alternative":"VERB"}
+{"type":"can","rank":35,"frequency":408,"tag":"AUX","confidence":1.0,"reasoning":"Modal auxiliary with bare infinitive complements (\"can shew\", \"can only\").","alternative":null}
+{"type":"all","rank":36,"frequency":395,"tag":"ADJ","confidence":0.93,"reasoning":"Quantifier modifying noun groups (\"all true\", \"all such\"); used as determiner-like adjective in this corpus.","alternative":"DET"}
+{"type":"one","rank":37,"frequency":395,"tag":"NUM","confidence":1.0,"reasoning":"Numeric determiner in explicit comparisons and enumeration (\"one kind\", \"one of them\").","alternative":"PRON"}
+{"type":"will","rank":38,"frequency":386,"tag":"AUX","confidence":1.0,"reasoning":"Future/modal auxiliary and in predictive constructions (\"will prove\", \"will seem\").","alternative":null}
+{"type":"he","rank":39,"frequency":364,"tag":"PRON","confidence":1.0,"reasoning":"3rd person singular masculine pronoun (\"he was\", \"he will maintain\").","alternative":null}
+{"type":"so","rank":40,"frequency":354,"tag":"ADV","confidence":0.96,"reasoning":"Scalar/degree adverb in ethical contrast and inferential clauses (\"so urgent\", \"so that\").","alternative":"CCONJ"}
+{"type":"other","rank":41,"frequency":335,"tag":"DET","confidence":0.9,"reasoning":"Contrastive determiner before noun or noun-like category (\"other kinds\", \"other things\").","alternative":"ADJ"}
+{"type":"from","rank":42,"frequency":333,"tag":"ADP","confidence":1.0,"reasoning":"Source/origin preposition (\"from fact\", \"from this\").","alternative":null}
+{"type":"no","rank":43,"frequency":326,"tag":"DET","confidence":0.99,"reasoning":"Negating noun phrases and determiners in constructions like \"no objection\", \"no ground\".","alternative":null}
+{"type":"would","rank":44,"frequency":320,"tag":"AUX","confidence":1.0,"reasoning":"Modal auxiliary marking conditional or hypothetical futures.","alternative":null}
+{"type":"its","rank":45,"frequency":314,"tag":"DET","confidence":1.0,"reasoning":"Possessive determiner before noun (\"its effects\", \"its realization\").","alternative":"PRON"}
+{"type":"such","rank":46,"frequency":313,"tag":"DET","confidence":0.95,"reasoning":"Demonstrative-like determiner quantifying classes (\"such as\", \"such judgments\").","alternative":"ADJ"}
+{"type":"must","rank":47,"frequency":306,"tag":"AUX","confidence":1.0,"reasoning":"Modal auxiliary in necessity/falsity arguments (\"must be\", \"must be shewn\").","alternative":null}
+{"type":"means","rank":48,"frequency":304,"tag":"NOUN","confidence":0.99,"reasoning":"Core noun in phrases \"good as a means\" and \"by means of\".","alternative":"VERB"}
+{"type":"thing","rank":49,"frequency":299,"tag":"NOUN","confidence":1.0,"reasoning":"Nominal item referenced repeatedly (\"one thing\", \"this thing\").","alternative":null}
+{"type":"question","rank":50,"frequency":298,"tag":"NOUN","confidence":1.0,"reasoning":"Noun in heading-like ethical inquiries throughout (\"question of this\").","alternative":null}
+{"type":"whole","rank":51,"frequency":297,"tag":"NOUN","confidence":1.0,"reasoning":"Philosophical substance noun in organic-whole discussions.","alternative":null}
+{"type":"things","rank":52,"frequency":293,"tag":"NOUN","confidence":1.0,"reasoning":"Plural noun with explicit object readings (\"all things\", \"other things\").","alternative":null}
+{"type":"ethics","rank":53,"frequency":285,"tag":"NOUN","confidence":0.98,"reasoning":"Discipline name used as common noun for subject-matter.","alternative":"PROPN"}
+{"type":"on","rank":54,"frequency":276,"tag":"ADP","confidence":1.0,"reasoning":"Spatial/temporal/surface relation marker (\"on this point\", \"on the course\").","alternative":null}
+{"type":"these","rank":55,"frequency":270,"tag":"DET","confidence":1.0,"reasoning":"Plural demonstrative determiner before noun phrases.","alternative":"PRON"}
+{"type":"than","rank":56,"frequency":258,"tag":"ADP","confidence":1.0,"reasoning":"Comparative/contrastive marker in comparative constructions.","alternative":null}
+{"type":"do","rank":57,"frequency":257,"tag":"AUX","confidence":0.96,"reasoning":"Auxiliary in negative/interrogative and support constructions, e.g., \"do there\" claims.","alternative":"VERB"}
+{"type":"at","rank":58,"frequency":255,"tag":"ADP","confidence":1.0,"reasoning":"Temporal/locative preposition in passages like \"at that time\".","alternative":null}
+{"type":"more","rank":59,"frequency":255,"tag":"ADV","confidence":0.99,"reasoning":"Comparative/degree modifier across evaluative statements (\"more desirable\", \"more probable\").","alternative":"ADJ"}
+{"type":"true","rank":60,"frequency":249,"tag":"ADJ","confidence":0.99,"reasoning":"Property adjective of propositions in epistemic discussion.","alternative":null}
+{"type":"object","rank":61,"frequency":248,"tag":"NOUN","confidence":0.99,"reasoning":"Standard noun for referent in ethical cognition/valuation contexts.","alternative":"ADJ"}
+{"type":"some","rank":62,"frequency":239,"tag":"DET","confidence":0.98,"reasoning":"Indefinite determiner for quantities/classes (\"some things\", \"some people\").","alternative":"PRON"}
+{"type":"our","rank":63,"frequency":236,"tag":"DET","confidence":1.0,"reasoning":"1st-person possessive determiner in references to shared inquiry and conclusions.","alternative":"PRON"}
+{"type":"itself","rank":64,"frequency":233,"tag":"PRON","confidence":1.0,"reasoning":"Reflexive pronoun with self-reference (\"itself as a whole\").","alternative":null}
+{"type":"should","rank":65,"frequency":229,"tag":"AUX","confidence":1.0,"reasoning":"Modal auxiliary in normative hypotheticals (\"should be\", \"should be fulfilled\").","alternative":null}
+{"type":"certain","rank":66,"frequency":226,"tag":"ADJ","confidence":1.0,"reasoning":"Quantifying adjective introducing subsets (\"certain kind\", \"certain relation\").","alternative":null}
+{"type":"fact","rank":67,"frequency":226,"tag":"NOUN","confidence":1.0,"reasoning":"Noun for propositional content and assertions.","alternative":null}
+{"type":"does","rank":68,"frequency":222,"tag":"AUX","confidence":1.0,"reasoning":"Auxiliary in inversion/negation and support constructions (\"does not\").","alternative":"VERB"}
+{"type":"there","rank":69,"frequency":221,"tag":"PRON","confidence":0.87,"reasoning":"Existential/locative placeholder in constructions like \"is there\" and \"there may be\".","alternative":"ADV"}
+{"type":"been","rank":70,"frequency":217,"tag":"AUX","confidence":1.0,"reasoning":"Part of perfect forms and passive-like predicates.","alternative":null}
+{"type":"ethical","rank":71,"frequency":215,"tag":"ADJ","confidence":1.0,"reasoning":"Attributive modifier of questions/practices related to ethics.","alternative":null}
+{"type":"then","rank":72,"frequency":212,"tag":"ADV","confidence":1.0,"reasoning":"Temporal/resultive adverb (\"then\" in argument sequencing).","alternative":null}
+{"type":"possible","rank":73,"frequency":208,"tag":"ADJ","confidence":1.0,"reasoning":"Adjectival in evaluations of epistemic or practical attainability.","alternative":null}
+{"type":"when","rank":74,"frequency":206,"tag":"SCONJ","confidence":0.99,"reasoning":"Clause-level temporal-subordinator (\"when we say\", \"when this\").","alternative":null}
+{"type":"also","rank":75,"frequency":203,"tag":"ADV","confidence":1.0,"reasoning":"Additive modifier used to include additional points.","alternative":null}
+{"type":"his","rank":76,"frequency":200,"tag":"DET","confidence":1.0,"reasoning":"3rd person possessive determiner before noun (\"his own happiness\").","alternative":"PRON"}
+{"type":"us","rank":77,"frequency":195,"tag":"PRON","confidence":1.0,"reasoning":"Object/oblique pronoun in first-person plural.","alternative":null}
+{"type":"even","rank":78,"frequency":192,"tag":"ADV","confidence":0.99,"reasoning":"Scope adverb in emphasis and concession contexts.","alternative":null}
+{"type":"two","rank":79,"frequency":190,"tag":"NUM","confidence":1.0,"reasoning":"Cardinal numeral introducing pairings and dual distinctions.","alternative":"DET"}
+{"type":"think","rank":80,"frequency":187,"tag":"VERB","confidence":1.0,"reasoning":"Finite mental-state verb in evaluative predicates (\"think that\", \"what do you think\").","alternative":null}
+{"type":"them","rank":81,"frequency":181,"tag":"PRON","confidence":1.0,"reasoning":"Third-person plural object pronoun in many imperative and contrastive references.","alternative":null}
+{"type":"most","rank":82,"frequency":180,"tag":"ADJ","confidence":0.99,"reasoning":"Superlative-like degree word in noun phrases (\"the most important\").","alternative":"ADV"}
+{"type":"was","rank":83,"frequency":180,"tag":"AUX","confidence":1.0,"reasoning":"Past-form auxiliary/copular with noun complements in multiple quotations.","alternative":"VERB"}
+{"type":"action","rank":84,"frequency":177,"tag":"NOUN","confidence":1.0,"reasoning":"Ethical-philosophical noun for conduct/behavior types.","alternative":null}
+{"type":"part","rank":85,"frequency":174,"tag":"NOUN","confidence":1.0,"reasoning":"Anatomical and metaphysical noun sense in part-whole arguments.","alternative":null}
+{"type":"those","rank":86,"frequency":173,"tag":"DET","confidence":0.99,"reasoning":"Plural demonstrative determiner (\"those actions\", \"those theories\").","alternative":"PRON"}
+{"type":"mean","rank":87,"frequency":170,"tag":"VERB","confidence":1.0,"reasoning":"Lexical verb in definitional phrasing (\"what we mean\").","alternative":null}
+{"type":"same","rank":88,"frequency":169,"tag":"ADJ","confidence":1.0,"reasoning":"Qualifying adjective indicating identity (\"the same thing\").","alternative":null}
+{"type":"very","rank":89,"frequency":164,"tag":"ADV","confidence":1.0,"reasoning":"Intensifier before adjectives/adj-like clauses.","alternative":null}
+{"type":"end","rank":90,"frequency":163,"tag":"NOUN","confidence":1.0,"reasoning":"Target noun in discussions of ends and final causes.","alternative":null}
+{"type":"cannot","rank":91,"frequency":160,"tag":"AUX","confidence":1.0,"reasoning":"Negative modal+auxiliary in argumentative constraints.","alternative":"VERB"}
+{"type":"far","rank":92,"frequency":160,"tag":"ADV","confidence":1.0,"reasoning":"Degree adverb with comparative constructions (\"far greater\").","alternative":"ADJ"}
+{"type":"existence","rank":93,"frequency":159,"tag":"NOUN","confidence":1.0,"reasoning":"Central noun for ontological status and ethical predication.","alternative":null}
+{"type":"reason","rank":94,"frequency":158,"tag":"NOUN","confidence":1.0,"reasoning":"Abstract noun for argumentative motivation.","alternative":null}
+{"type":"sense","rank":95,"frequency":158,"tag":"NOUN","confidence":1.0,"reasoning":"Noun denoting mode or meaning in epistemic contexts.","alternative":null}
+{"type":"seems","rank":96,"frequency":155,"tag":"AUX","confidence":0.98,"reasoning":"Impersonal/evidential auxiliary introducing appearance judgments (\"it seems\").","alternative":"VERB"}
+{"type":"say","rank":97,"frequency":151,"tag":"VERB","confidence":1.0,"reasoning":"Speech verb in explicit reporting and ascribing position.","alternative":null}
+{"type":"their","rank":98,"frequency":149,"tag":"DET","confidence":1.0,"reasoning":"3rd-person plural possessive determiner before noun phrases.","alternative":"PRON"}
+{"type":"my","rank":99,"frequency":148,"tag":"DET","confidence":1.0,"reasoning":"1st-person singular possessive determiner before noun.","alternative":"PRON"}
+{"type":"s","rank":100,"frequency":148,"tag":"PART","confidence":0.8,"reasoning":"Possessive/clitic marker in author-name forms (e.g., Mill’s), appearing without lexical content of its own.","alternative":null}
+{"type":"therefore","rank":101,"frequency":146,"tag":"ADV","confidence":1.0,"reasoning":"Logical discourse connective/continuation marker linking conclusions.","alternative":null}
+{"type":"intrinsic","rank":102,"frequency":142,"tag":"ADJ","confidence":1.0,"reasoning":"Evaluative adjective for value properties.","alternative":null}
+{"type":"actions","rank":103,"frequency":141,"tag":"NOUN","confidence":1.0,"reasoning":"Plural noun for behavioral items under ethical evaluation.","alternative":null}
+{"type":"always","rank":104,"frequency":141,"tag":"ADV","confidence":1.0,"reasoning":"Temporal/frequency adverb in hypothetical universal claims.","alternative":null}
+{"type":"exist","rank":105,"frequency":140,"tag":"VERB","confidence":0.99,"reasoning":"Bare verb meaning to be present or occur in explanatory contexts.","alternative":null}
+{"type":"great","rank":106,"frequency":140,"tag":"ADJ","confidence":1.0,"reasoning":"Gradable adjective in comparative value claims.","alternative":null}
+{"type":"first","rank":107,"frequency":133,"tag":"ADJ","confidence":1.0,"reasoning":"Sequence/ordering adjective in numbered-stage argument structure.","alternative":"NUM"}
+{"type":"now","rank":108,"frequency":132,"tag":"ADV","confidence":1.0,"reasoning":"Temporal adverb and discourse marker in method transitions.","alternative":null}
+{"type":"both","rank":109,"frequency":131,"tag":"DET","confidence":1.0,"reasoning":"Conjunctive quantifier with noun phrases (\"both factors\").","alternative":null}
+{"type":"another","rank":110,"frequency":130,"tag":"DET","confidence":1.0,"reasoning":"Demonstrative determiner for additional/alternate items.","alternative":null}
+{"type":"commonly","rank":111,"frequency":130,"tag":"ADV","confidence":1.0,"reasoning":"Adverb of frequency for shared practical inference claims.","alternative":null}
+{"type":"different","rank":112,"frequency":130,"tag":"ADJ","confidence":1.0,"reasoning":"Attributive contrastive adjective for classes/types.","alternative":null}
+{"type":"regard","rank":113,"frequency":129,"tag":"VERB","confidence":0.98,"reasoning":"Verb in phrases like \"regard as\" and \"with regard to\".","alternative":null}
+{"type":"better","rank":114,"frequency":127,"tag":"ADJ","confidence":1.0,"reasoning":"Comparative adjective in optimization and value ranking contexts.","alternative":"ADV"}
+{"type":"something","rank":115,"frequency":127,"tag":"PRON","confidence":0.99,"reasoning":"Indefinite pronoun for unspecified item/phenomenon.","alternative":null}
+{"type":"beautiful","rank":116,"frequency":125,"tag":"ADJ","confidence":1.0,"reasoning":"Attributive aesthetic predicate in noun phrases.","alternative":"NOUN"}
+{"type":"necessary","rank":117,"frequency":125,"tag":"ADJ","confidence":1.0,"reasoning":"Modal predicate adjective in logical and causal necessity contexts.","alternative":null}
+{"type":"evil","rank":118,"frequency":124,"tag":"NOUN","confidence":0.99,"reasoning":"Ethical noun for undesirable states; not merely adjectival modifier in these contexts.","alternative":"ADJ"}
+{"type":"nature","rank":119,"frequency":124,"tag":"NOUN","confidence":1.0,"reasoning":"Common noun for kind or class being discussed.","alternative":null}
+{"type":"whether","rank":120,"frequency":124,"tag":"SCONJ","confidence":1.0,"reasoning":"Introduces indirect yes/no style alternatives in propositions.","alternative":null}

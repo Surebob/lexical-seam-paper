@@ -1,0 +1,11 @@
+metric_name,value,display_format,source_metric_name,notes
+erf_wins_count,24,integer,erf_bic_wins,Erf wins among independent gates. Source note: Count of corpora where erf has the lowest BIC among the independent gates.
+arctan_wins_count,1,integer,arctan_bic_wins,Arctan wins among independent gates. Source note: Count of corpora where arctan has the lowest BIC among the independent gates.
+logistic_wins_count,0,integer,logistic_bic_wins,Logistic wins among independent gates. Source note: Count of corpora where logistic has the lowest BIC among the independent gates.
+algebraic_wins_count,0,integer,algebraic_bic_wins,Algebraic wins among independent gates. Source note: Count of corpora where algebraic has the lowest BIC among the independent gates.
+tanh_calibration_pass_count,25,integer,tanh_calibration_pass_count,Tanh/logistic calibration pass count. Source note: Count of corpora satisfying the tanh calibration checks.
+median_independent_gate_bic_spread,677.3676502714516,decimal_2,median_bic_spread,"Median BIC spread across logistic, erf, algebraic, arctan. Source note: Median BIC spread across the independent gates."
+mean_independent_gate_bic_spread,864.662131978437,decimal_2,mean_bic_spread,"Mean BIC spread across logistic, erf, algebraic, arctan. Source note: Mean BIC spread across the independent gates."
+gates_indistinguishable_strict_count,0,integer,gates_indistinguishable_strict_count,Count with independent-gate spread < 2. Source note: Count of corpora with independent-gate BIC spread < 2.
+gates_indistinguishable_positive_count,0,integer,gates_indistinguishable_positive_count,Count with independent-gate spread < 6. Source note: Count of corpora with independent-gate BIC spread < 6.
+gates_indistinguishable_strong_count,1,integer,gates_indistinguishable_strong_count,Count with independent-gate spread < 10. Source note: Count of corpora with independent-gate BIC spread < 10.
