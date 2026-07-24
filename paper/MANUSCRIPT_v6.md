@@ -41,7 +41,10 @@ predicts a full corpus from a one-sixth fragment (vocabulary to ~2%, b to
 and, against 17,000 context-grounded annotations, that the seam is a usage
 boundary lying ~3× deeper in rank than the closed-class grammatical one. A
 one-term extension, λ-ZM, outperforms ZM and MOEZipf on 42/42 corpora in 13
-languages by BIC and on 64/64 held-out fold-tests. Eight retired intermediate claims are documented with the audits
+languages by BIC and on 64/64 held-out fold-tests; its amplitude is itself
+universal — frozen at one value estimated on English alone, the correction
+still beats ZM at equal per-corpus parameter count on 32/32 corpora tested,
+including Mandarin, Arabic, and Russian. Eight retired intermediate claims are documented with the audits
 that killed them.
 
 ---
@@ -117,7 +120,11 @@ remainder of the lexicon. Our contributions:
    factor 3.1 deeper in rank than the closed-class crossover.
 
 7. **A practical formula** (§3.7): λ-ZM, a one-term extension of equation (1),
-   preferred by BIC over both ZM and MOEZipf on 42/42 corpora in 13 languages.
+   preferred by BIC over both ZM and MOEZipf on 42/42 corpora in 13 languages —
+   and reducible to ZM's own per-corpus parameter count: with the amplitude
+   frozen at a single universal constant (λ* ≈ 20.6, estimated on English
+   alone), it still beats ZM on 32/32 corpora tested, including Mandarin,
+   Arabic, and Russian.
 
 Throughout, we report the negative results and retired claims alongside the
 positive ones (§4.2 collects eight of them). Several intermediate findings of this
@@ -571,7 +578,24 @@ overfitting: splitting each corpus into two same-depth halves by binomial
 thinning, fitting on one half, and scoring the fitted curve on the other
 half's rank curve, λ-ZM improves held-out RMSE over both ZM and MOEZipf on
 64/64 fold-tests (50/50 English, median +8.5%; 14/14 non-English, median
-+13.4%; worst single fold +2.1%). Interpretation is built in: by the identity of
++13.4%; worst single fold +2.1%).
+
+The amplitude itself is universal. The winning generator is exp(x−1)−x on
+25/25 corpora, and the fitted amplitude is nearly constant across them
+(median 20.6, range [14.2, 24.4] from a 4k-type fable collection to Ulysses).
+Freezing both — λ* set for each corpus by the leave-one-out median of the
+*other* corpora's amplitudes — reduces λ-ZM to exactly ZM's per-corpus
+parameter count (a, b, c), and at equal complexity it still beats ZM on 25/25
+English corpora (median RMSE improvement 8.2%; worst corpus +0.9%) and 45/50
+held-out fold-tests, retaining 95% of the free-amplitude improvement. Frozen
+at the English median (λ* = 20.6) and transferred unchanged, it beats ZM on
+7/7 non-English corpora (Mandarin +19.4%, Arabic +14.0%, Russian +12.7%) and
+14/14 held-out folds, retaining 99% — with the constant fixed entirely by
+English text before those corpora were seen, and their own free-fit
+amplitudes independently clustering at the same value (21.9 median across
+seven languages). The correction's amplitude is not a per-corpus degree of
+freedom but, to first approximation, a single constant of the two-population
+family. Interpretation is built in: by the identity of
 §3.1 the added term is a second shallow power-law component — λ-ZM is the
 two-population structure in its minimal parametric form. (On the surname
 control, λ-ZM also improves fit — as any extra parameter polishes an already

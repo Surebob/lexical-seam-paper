@@ -73,6 +73,7 @@ canonical file. Paths relative to repo root. Bootstrap CIs: `docs/v6_bootstrap_c
 | median improvement 10.2% (2.6–23.0) | `experiments/f1_fresh_reproduction/outputs/f1_summary.md` |
 | panel 10/10; languages 6.4–22.5% | `f3_.../f3_multilang.csv`, `f5a_panel.csv` |
 | held-out 64/64 (EN 50/50 med +8.5%, ML 14/14 med +13.4%, worst +2.1%) | `experiments/f3_lambda_zm_vs_moezipf/outputs/f3b_heldout_summary.md`, `f3b_heldout.csv` |
+| frozen-λ* equal-param: EN 25/25 (med +8.2%, ho 45/50, 95% retained); transfer 7/7 (ho 14/14, 99%; zh +19.4, ar +14.0, ru +12.7); λ* = 20.6 | `experiments/f19_parameter_free_lambda/outputs/f19_summary.md`, `f19_results.csv` |
 
 ## §4.2 — retired claims → killing experiments
 1 k≈√V → `f2`; 2 WLS → `f9`; 3 σ_T universal → `f4f`; 4 morphology dial → `f4f` (A);
