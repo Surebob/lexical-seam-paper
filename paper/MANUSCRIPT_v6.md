@@ -4,7 +4,7 @@
 
 ¹Independent researcher; Nexus Computers LLC; Burbank, CA, USA
 
-**Draft v6.1 — 2026-07-23.** Supersedes v5.1. Every quantitative claim in this
+**Draft v6.2 — 2026-07-24.** Supersedes v5.1. Every quantitative claim in this
 draft maps to a versioned CSV in the public repository (`experiments/*/outputs/`,
 index in `docs/MANUSCRIPT_v6_CLAIM_MAP.md`); provenance notes in Appendix A.
 
@@ -43,8 +43,10 @@ predicts a full corpus from a one-sixth fragment (vocabulary to ~2%, b to
 ~0.3%), and generates the width law itself at its prediction-selected basin;
 and, against 17,000 context-grounded annotations, that the seam is a usage
 boundary lying ~3× deeper in rank than the closed-class grammatical one. A
-one-term extension, λ-ZM, outperforms ZM and MOEZipf on 42/42 corpora in 13
-languages by BIC and on 64/64 held-out fold-tests; its amplitude is itself
+one-term extension, λ-ZM, outperforms ZM, MOEZipf, and every standard
+alternative family tested (lognormal-type, polynomial, exponential-cutoff,
+Yule–Simon) at matched complexity — 42/42 corpora in 13 languages by BIC and
+64/64 held-out fold-tests; its amplitude is itself
 universal — frozen at one value estimated on English alone, the correction
 still beats ZM at equal per-corpus parameter count on 32/32 corpora tested,
 including Mandarin, Arabic, and Russian. Eight retired intermediate claims are documented with the audits
@@ -101,7 +103,8 @@ remainder of the lexicon. Our contributions:
    shows the transition's width in linear rank is a constant ≈1.2% of vocabulary
    — invariant across five centuries, four registers, and forced changes of
    corpus composition, universal across twelve languages at matched sampling
-   depth, and measured by an estimator calibrated against planted ground truth.
+   depth, and measured by an estimator calibrated from both sides: it recovers
+   planted seams (ratio ≈ 1.03) and reports no width law on seamless nulls.
 
 4. **ZM's shift parameter is sampling depth** (§3.4): subsampling any corpus
    collapses c along smooth trajectories reproduced by random thinning;
@@ -223,7 +226,17 @@ The four-parameter rank-curve model
 is fit exactly by the same c-grid with three-column least squares. Model
 comparison uses BIC = p·log V + V·log MSE on the rank-curve objective, against
 single ZM (p = 3) and MOEZipf (p = 2) fitted both by maximum likelihood (its
-native objective) and by direct rank-curve least squares.
+native objective) and by direct rank-curve least squares. Three further
+protocols support §3.7: held-out testing splits each corpus into two
+same-depth halves by per-type Binomial(n, ½) thinning, fits on one half, and
+scores the frozen curve on the other half's ranks (both fold directions);
+the frozen-amplitude variant fixes λ per corpus at the leave-one-out median
+of the other corpora's fitted amplitudes (three free parameters, exactly
+ZM's count); and the likelihood-space comparison normalizes each model as a
+PMF over the train-half rank support and scores held-out negative
+log-likelihood per token under 80/20 binomial splits. A family bake-off
+fits lognormal-type (quadratic in log rank), cubic, exponential-cutoff,
+Yule–Simon, and hard two-regime break curves under the identical objective.
 
 ## 3. Results
 
@@ -346,7 +359,13 @@ decimals. The constant is nonetheless family-specific, not an artifact of the
 fitting operator: constant-innovation (single-regime) growth fits a distinct
 stable constant (0.0101), the surname system another (0.0266), and a
 1.55-million-object asteroid-size catalogue (MPCORB absolute magnitudes) a
-third (0.0166) — two-regime structure without language's width. The
+third (0.0166) — two-regime structure without language's width. Conversely,
+a 22-million-token Python source-code corpus (513,736 identifier types)
+lands on the language line at matched depth — s/V = 0.0132, against
+English's 0.0132 at the same tokens-per-type — while carrying roughly twice
+language's correction amplitude (λ ≈ 55 vs ≈ 26): the width marks
+membership in the growth family, and the amplitude begins to distinguish
+its members (f26). The
 empirical content of equation (3) for language is therefore threefold: the
 width exists as a measurable object; it is invariant across registers,
 centuries, sizes, and compositions at 0.0118; and its value sits precisely on
@@ -607,30 +626,33 @@ English text before those corpora were seen, and their own free-fit
 amplitudes independently clustering at the same value (21.9 median across
 seven languages). The correction's amplitude is not a per-corpus degree of
 freedom but, to first approximation, a single constant of the two-population
-family. Like the width constant, the amplitude is the book-depth value of a
-slowly varying depth function — binomial thinning lowers the fitted λ along
-a smooth curve (e.g. 23.8 → 14.2 as the Bible thins from tokens-per-type 63
+family. Like the width constant, it is the book-depth value of a slowly
+varying depth function — binomial thinning lowers the fitted λ along a
+smooth curve (e.g. 23.8 → 14.2 as the Bible thins from tokens-per-type 63
 to 12), and decaying-innovation simulations generate amplitudes in the same
 range (≈24) with no tuning — but its variation over the tested regime is
-small enough that the single frozen value wins everywhere above. A
-completist bake-off against the other standard families (lognormal-type
-quadratic, cubic-in-log-rank, power law with exponential cutoff,
-Yule–Simon) confirms the pattern at every complexity level: frozen λ-ZM
-beats every three-parameter rival, free λ-ZM beats every four-parameter
-rival including the more flexible cubic, and the only families that outfit
-λ-ZM are explicit two-regime models — the five-parameter hard break
-(median RMSE 0.149) and the canonical smooth model itself (0.109) —
-i.e., at matched complexity nothing beats acknowledging the two
-populations, and the only thing that beats the minimal acknowledgment is
-the full one. The correction also transfers to likelihood space — as a
+small enough that the single frozen value wins everywhere above.
+
+The comparison set extends beyond ZM and MOEZipf. A bake-off against the
+other standard families (lognormal-type quadratic, cubic-in-log-rank, power
+law with exponential cutoff, Yule–Simon) under the identical objective
+confirms the pattern at every complexity level: frozen λ-ZM beats every
+three-parameter rival, free λ-ZM beats every four-parameter rival including
+the more flexible cubic, and the only families that outfit λ-ZM are
+explicit two-regime models — the five-parameter hard break (median RMSE
+0.149) and the canonical smooth model itself (0.109). At matched
+complexity, nothing beats acknowledging the two populations; the only
+thing that beats the minimal acknowledgment is the full one.
+
+The correction also transfers to likelihood space. As a
 truncated-normalized PMF scored by held-out negative log-likelihood per
-token (80/20 binomial splits), the free-amplitude form beats both ZM and
-MOEZipf (69/75 and 60/75 fold-tests) — with one scope note: the
-*amplitude's universality* is a property of the rank-curve objective. The
-token-mass-weighted MLE amplitude differs in scale and sign and varies
-more across corpora (frozen at its own leave-one-out median it still
-beats ZM 72/75 at equal parameter count and statistically ties MOEZipf);
-λ* ≈ 20.6 is a constant of the equal-per-rank lens. Interpretation is built in: by the identity of
+token, the free-amplitude form beats both ZM and MOEZipf in their native
+arena (69/75 and 60/75 fold-tests) — with one scope note: the *amplitude's
+universality* is a property of the rank-curve objective. The
+token-mass-weighted MLE amplitude differs in scale and sign and varies more
+across corpora (frozen at its own leave-one-out median it still beats ZM
+72/75 at equal parameter count and statistically ties MOEZipf); λ* ≈ 20.6
+is a constant of the equal-per-rank lens. Interpretation is built in: by the identity of
 §3.1 the added term is a second shallow power-law component — λ-ZM is the
 two-population structure in its minimal parametric form. (On the surname
 control, λ-ZM also improves fit — as any extra parameter polishes an already
@@ -647,11 +669,14 @@ localization, and absorption behaviour are invariant across two independent
 implementations, three scoring families, and 42 corpora.
 
 (b) The seam separates a small high-usage vocabulary from the broad lexicon; it
-requires only a usage-rate gap between populations; it is absent from
-non-linguistic Zipfian systems; and its rank-space width is a constant ≈1.2% of
+requires only a usage-rate gap between populations; it is absent from the
+non-linguistic controls (surnames, cities), and where a non-linguistic system
+does show a two-regime break (the asteroid catalogue) it carries a distinct
+width constant; and its rank-space width is a constant ≈1.2% of
 vocabulary — across registers and centuries of English, across forced changes
 of corpus composition, and across twelve languages once per-type sampling
-depth is matched, with the estimator calibrated against planted ground truth.
+depth is matched — with the estimator calibrated from both sides (recovers
+planted seams, reports none on seamless nulls).
 The width is, to our knowledge, a new empirical object — prior two-regime
 accounts parameterize only a crossover location — and its proportional scaling
 with V is a regularity that simulation shows every language-like growth
@@ -675,8 +700,12 @@ are not identified and are not claimed.
 crossover — the two-population structure of language is drawn by usage dynamics,
 not by grammatical category.
 
-(f) λ-ZM offers the practical upgrade: one added term, undefeated in fair
-comparisons across 13 languages.
+(f) λ-ZM offers the practical upgrade: one added term of fixed shape whose
+amplitude is a universal constant of the rank-curve lens — at ZM's own
+per-corpus parameter count it remains undefeated across 13 languages and
+against every standard alternative family tested; the only models that
+outfit it are explicit two-regime models, i.e., fuller versions of the same
+account.
 
 ### 4.2 Retired claims: the ledger
 
@@ -799,10 +828,12 @@ comparisons ignore word-level autocorrelation. Annotation covers ten corpora
 (~17k types) with a single-corpus inter-annotator pilot. The latent mixture's
 identifiability limits are stated in §3.5 and bound every generative claim; the
 extrapolation experiments cover four corpora and one direction of protocol
-(binomial fragments). The cross-language width panel spans eleven languages
-but tops out near tokens-per-type ≈ 19; the deepest sampling regimes
-(tokens/type > 25) remain unprobed outside English, and
-whitespace-unsegmented scripts (Mandarin, Arabic) are excluded throughout. The PMF/likelihood-space program of earlier
+(binomial fragments). The cross-language width panel spans eleven languages; single-work corpora
+top out near tokens-per-type ≈ 19 and within-language concatenation reaches
+≈ 30, so the deepest sampling regimes (tokens/type > 30) remain unprobed
+outside English, and
+whitespace-unsegmented scripts (Mandarin, Arabic) are excluded from the
+width panel throughout. The PMF/likelihood-space program of earlier
 drafts (Seam-Mandelbrot PMF, soft-k regularization, per-book anthology
 decomposition) is out of scope here and held for a companion paper, as is the
 neural-model line of §4.4.
@@ -811,12 +842,13 @@ neural-model line of §4.4.
 
 A single structure — a seam between a small high-usage vocabulary and the broad
 lexicon, drawn by usage rather than grammar — accounts for the systematic
-residual of the Zipf–Mandelbrot law, fixes its formula with one term, explains
+residual of the Zipf–Mandelbrot law, fixes its formula with one term at no
+per-corpus parameter cost, explains
 its mysterious shift parameter as sampling depth, sets a new invariant (a
 transition width of ≈1.2% of vocabulary, universal across twelve languages at
-matched sampling depth and measured by a ground-truth-calibrated estimator),
-and supports a generative model that predicts a corpus's rank law, vocabulary
-growth, and Heaps exponent from a fragment of its text. The claims survived two independent implementations, an
+matched sampling depth and measured by an estimator calibrated from both
+sides), and supports a generative model that predicts a corpus's rank law,
+vocabulary growth, and Heaps exponent from a fragment of its text. The claims survived two independent implementations, an
 external adversarial audit, falsification-checked model comparisons, and eight
 self-inflicted retirements. What began as a curiosity in a fit's error term ends
 as a measurement of how language allocates its words.
@@ -907,11 +939,13 @@ Every number above traces to a canonical CSV in the repository. Key mappings —
 deterministic); §3.3: `2c`, `3e`, `f2_k_profile_likelihood`, `f2b_s_profile`,
 `f5b`/`f5c`, `f12_forced_mixing` (composition), `f14`/`f14b` (simulated
 families), `f15`/`f15b`/`f15c`/`f15d` (cross-language depth), `f16d`
-(calibration); §3.4: `f6_c_sampling_depth`,
+(calibration), `f18` (seamless nulls), `x1` (asteroid catalogue), `f26`
+(code); §3.4: `f6_c_sampling_depth`,
 `f8_matched_size_panel`, `f11`
 (classifier); §3.5: `f4d`, `f7_histogram_predicts_curve`, `f6b`
 (extrapolation), `f4f`/`f4g` (identifiability), `f11` (Heaps); §3.6:
 `f10_gate_vs_labels`, `data/annotations`, `f9` (transfers); §3.7: `f1`, `f3`,
-`f3b` (held-out), `f5a`. Retired-claim experiments: §4.2 items map to `f2`, `f9`, `f4f`, `f4f`,
+`f3b` (held-out), `f19` (frozen amplitude), `f20` (amplitude depth), `f22`
+(likelihood space), `f23` (family bake-off), `f5a`. Retired-claim experiments: §4.2 items map to `f2`, `f9`, `f4f`, `f4f`,
 `f4g`, `f10`, `f4d`+`f4f`, and the 2026-04 external audit respectively. A full
 v6 claim-to-CSV map will be regenerated before submission.
