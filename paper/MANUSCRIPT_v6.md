@@ -612,7 +612,17 @@ slowly varying depth function — binomial thinning lowers the fitted λ along
 a smooth curve (e.g. 23.8 → 14.2 as the Bible thins from tokens-per-type 63
 to 12), and decaying-innovation simulations generate amplitudes in the same
 range (≈24) with no tuning — but its variation over the tested regime is
-small enough that the single frozen value wins everywhere above. Interpretation is built in: by the identity of
+small enough that the single frozen value wins everywhere above. A
+completist bake-off against the other standard families (lognormal-type
+quadratic, cubic-in-log-rank, power law with exponential cutoff,
+Yule–Simon) confirms the pattern at every complexity level: frozen λ-ZM
+beats every three-parameter rival, free λ-ZM beats every four-parameter
+rival including the more flexible cubic, and the only families that outfit
+λ-ZM are explicit two-regime models — the five-parameter hard break
+(median RMSE 0.149) and the canonical smooth model itself (0.109) —
+i.e., at matched complexity nothing beats acknowledging the two
+populations, and the only thing that beats the minimal acknowledgment is
+the full one. Interpretation is built in: by the identity of
 §3.1 the added term is a second shallow power-law component — λ-ZM is the
 two-population structure in its minimal parametric form. (On the surname
 control, λ-ZM also improves fit — as any extra parameter polishes an already

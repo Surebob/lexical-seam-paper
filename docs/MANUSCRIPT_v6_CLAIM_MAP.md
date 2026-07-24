@@ -75,6 +75,11 @@ canonical file. Paths relative to repo root. Bootstrap CIs: `docs/v6_bootstrap_c
 | held-out 64/64 (EN 50/50 med +8.5%, ML 14/14 med +13.4%, worst +2.1%) | `experiments/f3_lambda_zm_vs_moezipf/outputs/f3b_heldout_summary.md`, `f3b_heldout.csv` |
 | frozen-λ* equal-param: EN 25/25 (med +8.2%, ho 45/50, 95% retained); transfer 7/7 (ho 14/14, 99%; zh +19.4, ar +14.0, ru +12.7); λ* = 20.6 | `experiments/f19_parameter_free_lambda/outputs/f19_summary.md`, `f19_results.csv` |
 
+## §3.7 — family bake-off
+| claim | source |
+|---|---|
+| weight-class sweep: frozen beats all 3p (logn 0.1669, zm 0.1806), free beats all 4p (cubic 0.1638, cutoff 0.1761), only two-regime models above (hard5p 0.1490, canonical 9p 0.1094) | `experiments/f23_family_bakeoff/outputs/f23_summary.md`, `f23_results.csv` |
+
 ## §3.3 — null calibration (two-sided instrument test)
 | claim | source |
 |---|---|
