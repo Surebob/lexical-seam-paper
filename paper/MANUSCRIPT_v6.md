@@ -607,7 +607,12 @@ English text before those corpora were seen, and their own free-fit
 amplitudes independently clustering at the same value (21.9 median across
 seven languages). The correction's amplitude is not a per-corpus degree of
 freedom but, to first approximation, a single constant of the two-population
-family. Interpretation is built in: by the identity of
+family. Like the width constant, the amplitude is the book-depth value of a
+slowly varying depth function — binomial thinning lowers the fitted λ along
+a smooth curve (e.g. 23.8 → 14.2 as the Bible thins from tokens-per-type 63
+to 12), and decaying-innovation simulations generate amplitudes in the same
+range (≈24) with no tuning — but its variation over the tested regime is
+small enough that the single frozen value wins everywhere above. Interpretation is built in: by the identity of
 §3.1 the added term is a second shallow power-law component — λ-ZM is the
 two-population structure in its minimal parametric form. (On the surname
 control, λ-ZM also improves fit — as any extra parameter polishes an already
