@@ -79,9 +79,12 @@ canonical file. Paths relative to repo root. Bootstrap CIs: `docs/v6_bootstrap_c
 5 histogram 25/25 → `f4g`; 6 seam=grammar → `f10`; 7 √e → `f4d` vs degenerate-GMM note
 (`f4b`/`f4d` READMEs); 8 convex conjugation → `docs/audits/gpt5_v1_audit_report.md`.
 
-## §4.4 — L-line
-`experiments/L1_seam_in_embeddings/outputs/L1_summary.md`;
-`experiments/L3_seam_in_learning_curves/outputs/L3_seam_fits_bounded.csv`.
+## §4.4 — neural-model observations
+Companion-paper material (L-series: `L1_seam_in_embeddings/outputs/L1_summary.md`,
+`L3_seam_in_learning_curves/outputs/L3_seam_fits_bounded.csv`), **not distributed
+with the public Paper-1 repository** — §4.4 reports these as motivation only,
+explicitly not as claims of this paper; they are substantiated in the companion
+neural-models paper.
 
 ## Figures
 fig1 residual (computed from pg100 inline) · fig2 ← f6_slices · fig3 ← f2_per_corpus

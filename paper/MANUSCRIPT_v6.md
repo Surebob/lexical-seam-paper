@@ -716,8 +716,9 @@ methodologically.
 
 ### 4.4 Preliminary observations in neural language models
 
-Two exploratory experiments (repository, L-series) suggest the seam is visible
-inside models trained on language: GPT-2's input-embedding norm curve is
+Two exploratory experiments — whose code and outputs belong to a companion
+paper on neural models rather than to this paper's repository — suggest the
+seam is visible inside models trained on language: GPT-2's input-embedding norm curve is
 decisively two-regime in token rank (ΔBIC 55.8, with a sharp break at the
 ultra-frequent token club), and a 23M-parameter model trained from scratch shows
 a seam-shaped per-rank loss curve at every checkpoint whose position migrates
@@ -775,8 +776,10 @@ All code, corpus-processing pipelines, per-experiment outputs, and the
 claim-to-CSV provenance map are public at
 https://github.com/Surebob/lexical-seam-paper — every quantitative claim in
 this paper maps to a versioned CSV there (docs/MANUSCRIPT_v6_CLAIM_MAP.md).
-Large third-party corpora (Brown, WikiText-103, film dialogue, the surname
-census) are fetched by included scripts rather than redistributed.
+The sole exception is §4.4, whose exploratory neural-model observations are
+motivation rather than claims; their code and outputs accompany the companion
+paper. Large third-party corpora (Brown, WikiText-103, film dialogue, the
+surname census) are fetched by included scripts rather than redistributed.
 
 ---
 
