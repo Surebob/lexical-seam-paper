@@ -80,6 +80,11 @@ canonical file. Paths relative to repo root. Bootstrap CIs: `docs/v6_bootstrap_c
 |---|---|
 | weight-class sweep: frozen beats all 3p (logn 0.1669, zm 0.1806), free beats all 4p (cubic 0.1638, cutoff 0.1761), only two-regime models above (hard5p 0.1490, canonical 9p 0.1094) | `experiments/f23_family_bakeoff/outputs/f23_summary.md`, `f23_results.csv` |
 
+## §3.7 — likelihood-space transfer + scope
+| claim | source |
+|---|---|
+| free λ-ZM PMF beats ZM 69/75, MOE 60/75 held-out NLL; λ_MLE median −7.35 scattered (no 2nd constant); frozen-at-MLE-LOO beats ZM 72/75, ties MOE 43/75 | `experiments/f22_pmf_likelihood/outputs/f22_summary.md`, `f22b_summary.md` |
+
 ## §3.3 — null calibration (two-sided instrument test)
 | claim | source |
 |---|---|

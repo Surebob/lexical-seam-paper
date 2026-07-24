@@ -18,7 +18,7 @@ vocabulary (s ≈ 0.012·V) across five centuries and four registers of English.
 - `paper/` — manuscript (Markdown source, LaTeX, PDF), figures, and the
   build pipeline (`scripts/md2tex.py`; compiles with
   [tectonic](https://tectonic-typesetting.github.io), not included).
-- `experiments/` — 55 experiment directories, each with `scripts/`,
+- `experiments/` — 56 experiment directories, each with `scripts/`,
   `outputs/` (versioned CSVs), and a README stating its verdict. This
   includes the negative results: the paper's §4.2 documents eight retired
   claims, and the experiments that killed them are all here.

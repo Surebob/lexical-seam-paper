@@ -622,7 +622,15 @@ rival including the more flexible cubic, and the only families that outfit
 (median RMSE 0.149) and the canonical smooth model itself (0.109) —
 i.e., at matched complexity nothing beats acknowledging the two
 populations, and the only thing that beats the minimal acknowledgment is
-the full one. Interpretation is built in: by the identity of
+the full one. The correction also transfers to likelihood space — as a
+truncated-normalized PMF scored by held-out negative log-likelihood per
+token (80/20 binomial splits), the free-amplitude form beats both ZM and
+MOEZipf (69/75 and 60/75 fold-tests) — with one scope note: the
+*amplitude's universality* is a property of the rank-curve objective. The
+token-mass-weighted MLE amplitude differs in scale and sign and varies
+more across corpora (frozen at its own leave-one-out median it still
+beats ZM 72/75 at equal parameter count and statistically ties MOEZipf);
+λ* ≈ 20.6 is a constant of the equal-per-rank lens. Interpretation is built in: by the identity of
 §3.1 the added term is a second shallow power-law component — λ-ZM is the
 two-population structure in its minimal parametric form. (On the surname
 control, λ-ZM also improves fit — as any extra parameter polishes an already
