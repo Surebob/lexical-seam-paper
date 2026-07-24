@@ -75,6 +75,11 @@ canonical file. Paths relative to repo root. Bootstrap CIs: `docs/v6_bootstrap_c
 | held-out 64/64 (EN 50/50 med +8.5%, ML 14/14 med +13.4%, worst +2.1%) | `experiments/f3_lambda_zm_vs_moezipf/outputs/f3b_heldout_summary.md`, `f3b_heldout.csv` |
 | frozen-λ* equal-param: EN 25/25 (med +8.2%, ho 45/50, 95% retained); transfer 7/7 (ho 14/14, 99%; zh +19.4, ar +14.0, ru +12.7); λ* = 20.6 | `experiments/f19_parameter_free_lambda/outputs/f19_summary.md`, `f19_results.csv` |
 
+## §3.3 — null calibration (two-sided instrument test)
+| claim | source |
+|---|---|
+| seamless nulls: s/V median 0.152, IQR [0.064, 0.473], 2/75 in band, 27/75 pinned; paired reals 23/25 in band (median 0.0121) | `experiments/f18_null_width/outputs/f18_summary.md`, `f18_null.csv` |
+
 ## §4.2 — retired claims → killing experiments
 1 k≈√V → `f2`; 2 WLS → `f9`; 3 σ_T universal → `f4f`; 4 morphology dial → `f4f` (A);
 5 histogram 25/25 → `f4g`; 6 seam=grammar → `f10`; 7 √e → `f4d` vs degenerate-GMM note

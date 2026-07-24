@@ -29,8 +29,11 @@ four registers, and corpus composition (forced fourteen-work concatenation:
 s ∝ V^0.977, R² = 0.98), and universal across twelve languages once per-type
 sampling depth is matched: languages ride a single depth-approach curve
 (r = +0.93), with matched-depth medians 0.0122 against English's 0.0118. The
-estimator is calibrated against planted ground truth by parametric bootstrap
-(recovery ratio median 1.03, IQR [1.01, 1.06]). We further show that ZM's
+estimator is calibrated two-sidedly: against planted ground truth by
+parametric bootstrap (recovery ratio median 1.03, IQR [1.01, 1.06]), and
+against seamless single-ZM nulls, which do not reproduce the constant
+(null widths scatter over three decades; 2/75 in the language band, against
+23/25 of paired real fits). We further show that ZM's
 shift c measures sampling depth, not style — subsampling collapses c along
 predictable trajectories, and a translation-pair natural experiment (*War and
 Peace* in Russian and English) isolates the genuine morphological residual;
@@ -410,7 +413,16 @@ resampling its token counts, and refitting (75 refits). Recovery ratio
 s_hat/s_true: median 1.032, IQR [1.006, 1.062], with 21/25 corpora within
 [0.8, 1.25]; the exceptions are optimizer escapes to bound-pinned basins — a
 detectable failure mode, screened in the empirical pipeline by the
-profile-likelihood cross-checks of §3.3. A model-light envelope measurement
+profile-likelihood cross-checks of §3.3. The calibration is two-sided: the
+dual null test pushes seamless single-ZM synthetics — matched to each
+corpus's fitted slope, shift, vocabulary, and token count, Poisson-sampled —
+through the identical fitter. On data with no seam the width is unidentified
+and the estimator behaves accordingly: null s/V scatters over three decades
+(median 0.152, IQR [0.064, 0.473]), lands in the language band [0.009,
+0.015] only 2/75 times, and pins the width bounds 27/75 times, against
+23/25 in-band for the paired real fits (median 0.0121). The instrument
+finds seams that exist and does not find seams that do not; the 1.2%
+clustering is a property of the data, not the operator. A model-light envelope measurement
 (head-window and tail-window ZM extrapolations; the transition as the zone
 neither explains, over an 18-setting sensitivity grid) gives directional
 confirmation that the transition is a property of the curve rather than the
