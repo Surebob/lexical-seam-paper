@@ -1,0 +1,26 @@
+corpus,zm_naive,zm_logc,lzm_naive,lzm_logc
+Complete Works of Shakespeare,0.2422,0.2619,0.2237,0.3166
+War and Peace,0.2177,0.2488,0.1863,0.393
+Moby Dick,0.2578,0.2579,0.2948,0.303
+King James Bible,0.2005,0.2504,0.1693,0.426
+Federalist Papers,0.3301,0.3719,0.2863,0.4947
+Grimm's Fairy Tales,0.2165,0.2295,0.2076,0.2715
+Don Quixote,0.2417,0.2517,0.2305,0.3492
+Pride and Prejudice,0.2615,0.2653,0.2697,0.2938
+Canterbury Tales,0.2334,0.2345,0.2591,0.2665
+Arabian Nights (Vol 1),0.2043,0.2052,0.2262,0.2318
+Aesop's Fables,0.2691,0.2691,0.3071,0.3028
+Complete Sherlock Holmes,0.266,0.2668,0.2941,0.2951
+Jane Eyre,0.2689,0.2701,0.2917,0.2976
+Dubliners,0.2727,0.2728,0.3097,0.3044
+The Iliad,0.2587,0.2978,0.2378,0.2773
+Democracy in America,0.2624,0.3107,0.2179,0.491
+Origin of Species,0.2474,0.292,0.2127,0.3921
+Wealth of Nations,0.1934,0.261,0.1626,0.438
+Les Miserables,0.2611,0.2954,0.2343,0.3072
+Decline and Fall Vol 1,0.2873,0.4674,0.2462,0.3414
+Emile,0.2557,0.2618,0.2508,0.3415
+Ulysses,0.2175,0.2175,0.272,0.2683
+Collected Poe,0.2719,0.2718,0.2993,0.2977
+Principia Ethica,0.27,0.2879,0.2512,0.2788
+Critique of Pure Reason,0.1898,0.2066,0.1819,0.2211
